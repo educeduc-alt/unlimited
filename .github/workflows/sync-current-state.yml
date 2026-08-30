@@ -1,0 +1,43 @@
+name: Sync CURRENT STATE
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-current-state
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mirror
+        uses: actions/checkout@v4
+
+      - name: Fetch public CURRENT STATE
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_URL="https://bmttucyrhaolzalijjmp.supabase.co/functions/v1/main-god-current-state"
+          curl --fail --silent --show-error --location "$SOURCE_URL" --output current-state.json.tmp
+          jq -e 'type == "object" and (.version != null) and (.state != null)' current-state.json.tmp >/dev/null
+          mv current-state.json.tmp current-state.json
+
+      - name: Commit updated mirror
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- current-state.json; then
+            echo "CURRENT STATE is already up to date."
+            exit 0
+          fi
+          git config user.name "main-god-mirror-bot"
+          git config user.email "main-god-mirror-bot@users.noreply.github.com"
+          git add current-state.json
+          git commit -m "chore: sync CURRENT STATE"
+          git push

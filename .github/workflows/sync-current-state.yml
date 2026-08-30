@@ -61,7 +61,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- current-state.json current-state; then
+          if [[ -z "$(git status --porcelain -- current-state.json current-state)" ]]; then
             echo "CURRENT STATE is already up to date."
             exit 0
           fi

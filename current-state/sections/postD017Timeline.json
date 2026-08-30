@@ -1,0 +1,59 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD017Timeline",
+  "state": {
+    "postD017Timeline": {
+      "rule": "副本正式結算先完成；房間擴建為結算後獨立支出；主神空間休息期餐點不計入副本攜行補給或公共庫存消耗",
+      "status": "CONFIRMED",
+      "sequence": [
+        {
+          "node": "D017《赤鐵雪原》正式結算",
+          "order": 1,
+          "economy": {
+            "洛": 2020,
+            "伊恩": 2047,
+            "程牧": 3392,
+            "周映白": 3341,
+            "grandTotal": 12680,
+            "publicFunds": 1880,
+            "privateTotal": 10800,
+            "branchStories": {
+              "B": 1,
+              "C": 3
+            }
+          }
+        },
+        {
+          "node": "結算後房間擴建",
+          "after": {
+            "洛": 1720,
+            "grandTotal": 12380,
+            "publicFunds": 1880,
+            "privateTotal": 10500
+          },
+          "order": 2,
+          "transaction": {
+            "cost": 300,
+            "item": "洛房間擴建為雙人房間",
+            "payer": "洛"
+          }
+        },
+        {
+          "node": "POST-D017休息／恢復期間",
+          "order": 3,
+          "provisions": {
+            "source": "AI主神空間原本提供的餐點與日常飲食",
+            "pointCost": 0,
+            "inventoryRule": "不扣共享次元行囊中的飲水20與壓縮口糧28",
+            "sharedWaterConsumed": 0,
+            "sharedRationsConsumed": 0
+          }
+        }
+      ]
+    }
+  }
+}

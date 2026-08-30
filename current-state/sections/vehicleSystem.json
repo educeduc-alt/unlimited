@@ -1,0 +1,118 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "vehicleSystem",
+  "state": {
+    "vehicleSystem": {
+      "role": "四人跨副本機動／救援／傷員後送平台",
+      "damage": [],
+      "status": "OPERATIONAL",
+      "vehicle": "B級｜兩棲折疊救援車Ⅱ",
+      "location": "AI主神空間",
+      "mapModule": {
+        "cost": 320,
+        "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
+        "limits": [
+          "不能自動取得副本完整地圖",
+          "不能保證外部定位可信",
+          "不能判定第一／第二張地圖真假",
+          "不能免疫認知污染"
+        ],
+        "status": "INSTALLED / OPERATIONAL",
+        "functions": [
+          "實走路線",
+          "里程",
+          "方向",
+          "高差",
+          "人工地標",
+          "回撤點",
+          "營地點",
+          "獨立慣性推算",
+          "里程推算",
+          "可取得時之外部定位資訊"
+        ]
+      },
+      "preserved": [
+        "核心保全"
+      ],
+      "sharedBag": "OPERATIONAL",
+      "foldingCart": "OPERATIONAL",
+      "systemCheck": {
+        "待修": 0,
+        "折疊系統": "正常",
+        "水陸驅動": "正常",
+        "涉水密封": "正常",
+        "跨溫域環控": "正常",
+        "野炊廚房接口": "正常"
+      },
+      "repairStatus": "POST-D019完整任務後維修完成",
+      "deploymentRule": "可正常出勤",
+      "requiredAction": "NONE",
+      "supportSystems": [
+        "跨環境高密度備用能源組Ⅰ",
+        "兩棲載具野戰維修套件Ⅰ",
+        "車載快速救援模組Ⅰ",
+        "車載外部救援固定架Ⅱ",
+        "車載跨溫域環境控制模組Ⅰ",
+        "車載獨立電子地圖／地形記錄模組Ⅰ"
+      ],
+      "fieldAssessment": "超出現場維修範疇",
+      "teamCapabilities": [
+        "四人兩棲載具綜合操作資格",
+        "載具崗位動態接替",
+        "野戰能源／基礎維修／傷員後送鏈",
+        "單點失能備援"
+      ],
+      "energyModuleStatus": {
+        "status": "OPERATIONAL／FULL",
+        "activeModule": "已完成任務後段更換／車輛可正常運作",
+        "removedModule": "已回充／可用／非報廢",
+        "D019UsageIncluded": [
+          "現實側搜索",
+          "短距離轉移",
+          "一次野炊廚房掛載使用"
+        ],
+        "currentEnergyPercent": 100,
+        "doubleDeductionForbidden": true,
+        "dispatchablePercentagePoints": 80,
+        "minimumEvacuationReservePercent": 20
+      },
+      "environmentControl": {
+        "name": "車載跨溫域環境控制模組Ⅰ",
+        "limits": [
+          "非完全生命維持系統",
+          "非毒氣／真空防護",
+          "不免疫極端低溫造成的車體與機械問題",
+          "車門長時間開放會快速損失艙內溫度",
+          "極端環境下能源消耗增加"
+        ],
+        "status": "INSTALLED／OPERATIONAL",
+        "functions": [
+          "車艙主動加熱",
+          "車艙主動降溫",
+          "基礎保溫／隔熱",
+          "車窗除霜／除霧",
+          "乘員艙與傷員區溫度調節",
+          "相容跨環境高密度備用能源組Ⅰ"
+        ]
+      },
+      "externalRescueRack": "OPERATIONAL",
+      "medicalLoadoutRule": "關鍵立即急救物資不得全部永久鎖於車上；最低個人急救與必要生命維持用品保留於人身／共享行囊快速取用層",
+      "teamQualifications": [
+        "陸地駕駛",
+        "越野駕駛",
+        "水上駕駛",
+        "陸／水模式切換",
+        "傷員後送",
+        "戰術接近／撤離",
+        "基礎能源管理",
+        "基礎野戰維修",
+        "環境評估",
+        "載具崗位接替"
+      ]
+    }
+  }
+}

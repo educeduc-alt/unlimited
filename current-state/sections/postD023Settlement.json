@@ -1,0 +1,52 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD023Settlement",
+  "state": {
+    "postD023Settlement": {
+      "id": "SET-D023",
+      "name": "D023《沒有太陽的第三遠征隊》正式結算",
+      "rating": "S",
+      "status": "COMPLETE",
+      "rewards": {
+        "perPerson": 6200,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        },
+        "publicFundsGain": 3000,
+        "privateTotalGain": 24800
+      },
+      "difficulty": "A-",
+      "growthRule": "實戰經驗已入庫；無新技能、無自動升級、無總念氣或距離成長判定。",
+      "objectives": "3／3 COMPLETE",
+      "pointsAfter": {
+        "洛": 7196,
+        "伊恩": 6690,
+        "程牧": 7688,
+        "周映白": 8620,
+        "grandTotal": 33194,
+        "publicFunds": 3000,
+        "privateTotal": 30194
+      },
+      "partyOutcome": "4 IN／4 OUT",
+      "logisticsAfter": {
+        "largeAssets": "OPERATIONAL / STORED",
+        "emergencyFoodWater": "PENDING INVENTORY CHECK",
+        "medicalConsumables": "PENDING INVENTORY CHECK",
+        "cookingFoodPersonDays": 0
+      },
+      "additionalRecovery": "36／36 FOUND / RETURNED",
+      "ordinaryCounterBell": {
+        "buff": false,
+        "reward": false,
+        "rungBy": "周映白／香蕉",
+        "meaning": "4 IN / 4 OUT"
+      },
+      "thirdExpeditionResult": "127／127 ALIVE"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD014LogisticsUpgrade",
+  "state": {
+    "postD014LogisticsUpgrade": {
+      "id": "LOGISTICS-POST-D014",
+      "title": "POST-D014｜共享行囊Ⅱ與公共補給整備",
+      "status": "CONFIRMED",
+      "sharedBag": {
+        "after": "四人共享次元行囊Ⅱ／30m³ TOTAL SHARED",
+        "before": "四人共享次元行囊Ⅰ／20m³",
+        "limits": [
+          "不能裝活體",
+          "不能零時間取物",
+          "不是戰鬥百寶袋",
+          "不取代個人最低戰鬥攜行",
+          "其餘Ⅰ型禁止項目全部保留"
+        ],
+        "features": [
+          "醫療／食水／救援／載具備件／任務物分區管理",
+          "大型折疊設備收納定位更穩",
+          "四人可查看共享庫存分類",
+          "取物流程較Ⅰ型順暢但不是瞬間取物",
+          "保留任務物與臨時救援資源預留區"
+        ]
+      },
+      "branchStory": {
+        "rank": "B",
+        "after": 1,
+        "spent": 1,
+        "before": 2
+      },
+      "inventoryAfter": {
+        "coldPack": 4,
+        "medicalFilm": 3,
+        "muscleSpray": 2,
+        "publicWater": 16,
+        "publicRations": 20,
+        "traumaScanner": 1,
+        "lifeSupportGel": 1,
+        "basicTraumaAgent": 2,
+        "advancedTraumaKit": 1,
+        "tissueRepairDevice": 1,
+        "tacticalHemostasisKit": 3,
+        "intermediateTraumaAgent": 1
+      },
+      "publicSpending": {
+        "after": 480,
+        "before": 2200,
+        "totalSpent": 1720,
+        "medicalRestockBox": 980,
+        "tacticalHemostasisKit": 250,
+        "provisionsAndRoutineConsumables": 490
+      },
+      "personalMinimum": {
+        "waterPerMember": 2,
+        "rationsPerMember": 3
+      }
+    }
+  }
+}

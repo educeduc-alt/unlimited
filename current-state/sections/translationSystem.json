@@ -1,0 +1,24 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "translationSystem",
+  "state": {
+    "translationSystem": {
+      "cost": 800,
+      "name": "多語偵測翻譯系統Ⅰ",
+      "effect": "將已偵測且可解析的語言內容轉為共享視界文字",
+      "limits": [
+        "不是讀心",
+        "不產生不存在的情報",
+        "未知語系與異常干擾可能降低準確度",
+        "仍需語境判讀"
+      ],
+      "paidBy": "公共資金",
+      "status": "INSTALLED／OPERATIONAL",
+      "hostSystem": "四人共享戰術視界"
+    }
+  }
+}

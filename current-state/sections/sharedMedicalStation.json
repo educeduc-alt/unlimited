@@ -1,0 +1,81 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "sharedMedicalStation",
+  "state": {
+    "sharedMedicalStation": {
+      "name": "自律式折疊救難應急站Ⅱ",
+      "role": "現場應急醫療穩定站",
+      "limits": [
+        "不是完整醫院",
+        "不做大型手術",
+        "不取代ICU",
+        "不復活",
+        "不提供無限藥品"
+      ],
+      "paidBy": "公共資金",
+      "status": "OPERATIONAL",
+      "carrier": "折疊救援模組庫Ⅱ",
+      "functions": [
+        "靜脈輸液支援",
+        "應急藥物管理",
+        "進階多床位監測",
+        "應急處置工作位",
+        "醫療耗材艙",
+        "撤離交接紀錄"
+      ],
+      "lastAudit": "D021 COMPLETE／剩餘62%",
+      "ownerType": "共享大型救援資產",
+      "stockCost": 600,
+      "stockType": "正式有限實體庫存",
+      "stockScale": "10人份",
+      "maintenance": {
+        "cleaning": "REQUIRED",
+        "permanentDamage": false,
+        "consumableRestock": "REQUIRED",
+        "routineInspection": "REQUIRED"
+      },
+      "stockStatus": "62% REMAINING / RESTOCK RECOMMENDED",
+      "robotsStatus": "OPERATIONAL",
+      "restockStatus": "NOT PURCHASED",
+      "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+      "lastDeployment": "D021《墜星殖民地》",
+      "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+      "d020Consumption": {
+        "傷口清潔液": 5,
+        "標準止吐藥": 2,
+        "基礎抗過敏藥": 0,
+        "平衡型晶體液": 4,
+        "標準輸液管路": 4,
+        "靜脈通路建立組": 4,
+        "嚴重過敏緊急藥物": 0,
+        "基礎口服止痛退熱藥": 4,
+        "局部止痛／舒緩單元": 4,
+        "支氣管舒張應急單元": 1,
+        "標準應急注射止痛劑": 3
+      },
+      "primaryOperator": "周映白",
+      "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
+      "medicalStockPercent": 62,
+      "mechanicalArmsStatus": "OPERATIONAL",
+      "tenPersonMedicalStock": {
+        "抗生素": "未列入自動標準應急藥庫",
+        "傷口清潔液": 5,
+        "標準止吐藥": 8,
+        "基礎抗過敏藥": 10,
+        "平衡型晶體液": 6,
+        "標準輸液管路": 6,
+        "靜脈通路建立組": 6,
+        "嚴重過敏緊急藥物": 4,
+        "基礎口服止痛退熱藥": 16,
+        "局部止痛／舒緩單元": 6,
+        "支氣管舒張應急單元": 5,
+        "標準應急注射止痛劑": 7
+      },
+      "d021ConsumptionRatePercent": 38
+    }
+  }
+}

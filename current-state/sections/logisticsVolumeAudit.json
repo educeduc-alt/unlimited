@@ -1,0 +1,163 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "logisticsVolumeAudit",
+  "state": {
+    "logisticsVolumeAudit": {
+      "title": "四人共享次元行囊Ⅲ｜v90收納歸屬與容量核帳",
+      "zones": [
+        {
+          "id": "S-SUPPLY",
+          "name": "快速取用小型物資區",
+          "grade": "S",
+          "status": "CURRENT / QUICK ACCESS",
+          "contents": {
+            "tools": [
+              "小型戰術燈×4",
+              "緊急定位／集合器×1",
+              "個人子標記×4",
+              "15m多用途靜力救援繩×4",
+              "普通櫃台鈴×1",
+              "其他公共小型備用品"
+            ],
+            "medical": [
+              "既有小型醫療／耗材",
+              "四人基礎醫療補充箱×5"
+            ],
+            "coldWeatherBackup": [
+              "基礎備用手套×2",
+              "基礎化學暖包×8"
+            ]
+          },
+          "volumeM3": 1.6
+        },
+        {
+          "id": "M-EQUIPMENT",
+          "name": "中型折疊設備區",
+          "grade": "M",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "跨環境高密度備用能源組Ⅰ",
+              "volumeM3": 0.86
+            },
+            {
+              "name": "兩棲載具野戰維修套件Ⅰ",
+              "volumeM3": 0.94
+            },
+            {
+              "name": "正式遠征露營模組Ⅰ",
+              "status": "OPERATIONAL",
+              "volumeM3": 2.5
+            },
+            {
+              "name": "折疊式野外淨水器",
+              "volumeM3": 1
+            },
+            {
+              "name": "折疊式傷員後送擔架",
+              "volumeM3": 1
+            },
+            {
+              "name": "運輸用折疊板車Ⅰ",
+              "status": "OPERATIONAL／周映白優先操作",
+              "volumeM3": 1
+            },
+            {
+              "name": "基礎水面救援裝備組",
+              "status": "OPERATIONAL",
+              "volumeM3": 1
+            },
+            {
+              "name": "智能警戒哨兵Ⅰ×2",
+              "status": "OPERATIONAL",
+              "volumeM3": 0.8
+            }
+          ],
+          "volumeM3": 9.1
+        },
+        {
+          "id": "L-EQUIPMENT",
+          "name": "大型折疊設備區",
+          "grade": "L",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "周映白專屬｜深潛救援裝備組Ⅰ",
+              "status": "OPERATIONAL／專屬操作者周映白",
+              "volumeM3": 2
+            },
+            {
+              "name": "車載折疊野炊廚房模組Ⅰ",
+              "status": "OPERATIONAL",
+              "volumeM3": 3
+            }
+          ],
+          "volumeM3": 5
+        },
+        {
+          "id": "XL-RESCUE-VEHICLE",
+          "name": "大型救援載具區",
+          "grade": "XL",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "兩棲折疊救援車Ⅱ",
+              "status": "OPERATIONAL",
+              "volumeM3": 5.05
+            }
+          ],
+          "volumeM3": 5.05
+        },
+        {
+          "id": "S-Food",
+          "name": "遠征緊急食水區",
+          "grade": "S-Food",
+          "status": "STOCKED / CURRENT",
+          "contents": {
+            "遠征緊急乾糧40人日": true,
+            "遠征緊急飲水40人日": true
+          },
+          "volumeM3": 2.2
+        },
+        {
+          "id": "M-Food",
+          "name": "遠征正常料理食材區",
+          "grade": "M-Food",
+          "status": "STOCKED / CURRENT",
+          "contents": {
+            "四人15日料理組／60人日": true,
+            "冷藏食材與常溫主食分區存放": true
+          },
+          "volumeM3": 4.5
+        },
+        {
+          "id": "XL-Starship",
+          "name": "星際載具折疊區",
+          "grade": "XL",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "旅星｜四人折疊多用途艇",
+              "status": "OWNED / OPERATIONAL",
+              "volumeM3": 5.5
+            }
+          ],
+          "volumeM3": 5.5
+        }
+      ],
+      "status": "CONFIRMED / ORGANIZED / NO DUPLICATE COUNTING",
+      "countingRule": "個人衣裝快取、私人用品與共享行囊分開；分區體積含包裝、固定與正常取用包絡；同一實體不得重複計算。",
+      "freeVolumeM3": 17.05,
+      "usedVolumeM3": 32.95,
+      "totalCapacityM3": 50,
+      "supersededAssets": [
+        "四人份輕量露營模組｜已折抵升級並正式移除"
+      ],
+      "usageRatePercent": 65.9
+    }
+  }
+}

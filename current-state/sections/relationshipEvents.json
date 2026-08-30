@@ -1,0 +1,170 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "relationshipEvents",
+  "state": {
+    "relationshipEvents": [
+      {
+        "id": "REL-POST-D011",
+        "time": "D011結算後／AI主神空間休整期間",
+        "party": "四人共同經歷赤晶真相、幼獸救援、商隊衝突、水源探索與傷患救助，伙伴連結與共同價值深化",
+        "title": "D011後關係與隊伍情感深化",
+        "luoIan": "正式提出進一步發展；已確認雙方同意下的成人親密關係；不自動等同婚姻、婚約或排他關係",
+        "status": "CONFIRMED",
+        "luoZhou": "相擁而泣與回歸後共同情緒釋放，高信任戰友情誼深化，非戀愛事件",
+        "dailyLife": "回歸後共同結算、按回家鈴、採購、共同出資、消耗C級支線並完成共享次元行囊綁定"
+      },
+      {
+        "id": "POST-D012-MUTUAL-ROMANTIC-CONFIRMATION",
+        "type": "RELATIONSHIP / EMOTIONAL DEVELOPMENT",
+        "limits": [
+          "不自動等於婚姻",
+          "不自動等於婚約",
+          "不自動等於永久伴侶契約",
+          "不自動等於排他性關係"
+        ],
+        "status": "CONFIRMED",
+        "keyLines": [
+          "我在。",
+          "明天也在。"
+        ],
+        "milestone": "洛的愛意第一次得到伊恩明確且主動的回應。",
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "combatTrust": "HIGH",
+        "noCombatBuff": true,
+        "dailyIntimacy": [
+          "擁抱",
+          "親吻",
+          "同床休息",
+          "頭髮／護髮照顧",
+          "身體與生活照護",
+          "私下情感表達",
+          "伊恩主動回應親密行為"
+        ],
+        "versionTarget": "v22 POST-D012",
+        "emotionalTrust": "HIGH → DEEPENING",
+        "latestDevelopment": "D012《玻璃海岸》後，雙方由長期默契式親密正式進入雙向確認關係。",
+        "relationshipStatus": "MUTUAL LOVE / ROMANTIC RELATIONSHIP"
+      },
+      {
+        "id": "REL-POST-D020-PRIVATE-MILESTONE",
+        "time": "POST-D020｜星際整備後休整期間",
+        "type": "RELATIONSHIP / PRIVATE SUMMARY",
+        "title": "自主公開與親密稱呼里程碑",
+        "limits": [
+          "不等於正式婚姻",
+          "不等於婚約",
+          "不等於永久伴侶契約",
+          "不提供戰鬥BUFF",
+          "雙方保有完全自主選擇"
+        ],
+        "status": "CONFIRMED",
+        "milestone": "伊恩曾自主以「老公」稱呼洛；此為親密與愛意進展",
+        "principles": [
+          "每次確認意願",
+          "舒適優先",
+          "不舒服即停止",
+          "親密不視為每日義務",
+          "使用必要避孕／保護措施",
+          "具體私人內容不進公開戰術資料庫"
+        ],
+        "visibility": "PRIVATE SUMMARY ONLY",
+        "currentStage": "共同重新認識身體變化後的新界線與偏好",
+        "ianDisclosure": "伊恩本人自主向洛、周映白與程牧公開生理性別登記為女性",
+        "relationshipStatus": "雙向確認戀愛關係維持"
+      },
+      {
+        "id": "REL-POST-D021-CHOCOLATE-NICKNAMES",
+        "time": "POST-D021｜《墜星殖民地》結算後休整期間",
+        "type": "RELATIONSHIP / DAILY LIFE / PRIVATE SUMMARY",
+        "title": "巧克力日常與老婆／老公雙向稱呼",
+        "limits": [
+          "暱稱不等於已婚",
+          "不等於婚約",
+          "不等於永久伴侶契約",
+          "不等於排他性法律或系統關係",
+          "不提供戰鬥BUFF",
+          "本事件不確認念氣總量或氣力置換效率成長"
+        ],
+        "status": "CONFIRMED",
+        "milestone": "「老婆／老公」已成為雙方接受並逐漸習慣的私人親暱稱呼",
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "mutualCare": [
+          "洛提供飲食、經期與生活照護",
+          "伊恩協助洛進行恢復管理與能力成長判讀",
+          "D021後先完整休息，再進行氣力置換與總念量標準化測試"
+        ],
+        "visibility": "PRIVATE SUMMARY ONLY",
+        "dailyMemory": [
+          "洛曾在伊恩經期不適時餵她最喜歡的巧克力並陪伴熱敷與休息",
+          "POST-D021咖哩加入少量同款巧克力，使熟悉照護記憶延伸為共同料理日常"
+        ],
+        "relationshipStatus": "MUTUAL LOVE / ROMANTIC RELATIONSHIP",
+        "privateIntimacyPrinciples": [
+          "雙方明確同意",
+          "每次重新確認意願",
+          "可隨時停止",
+          "舒適與安全優先",
+          "必要保護措施",
+          "具體私人內容不進公開戰術摘要"
+        ]
+      },
+      {
+        "id": "REL-POST-D022-MUTUAL-FEAR-AND-REST",
+        "time": "POST-D022｜正式結算後兩日休整",
+        "type": "RELATIONSHIP / EMOTIONAL HONESTY / PRIVATE SUMMARY",
+        "title": "相互承認失去恐懼與兩日休整",
+        "limits": [
+          "不等於結婚或婚約",
+          "不形成永久伴侶契約",
+          "不提供能力、氣量或戰鬥BUFF",
+          "伊恩維持獨立人格與副指揮權限"
+        ],
+        "status": "CONFIRMED",
+        "summary": [
+          "洛首次明顯情緒崩落，伊恩陪伴並坦承自己同樣害怕失去洛。",
+          "兩人確認害怕失去對方不是單向。",
+          "休整包含看電影、共同休息與雙方自願的成人私人親密；只保存同意、安全、保護措施與事後照護摘要。"
+        ],
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "privateVoiceRule": "私人時間關閉非必要共同戰術語音；共享系統不包含房內監視。",
+        "relationshipStatus": "MUTUAL LOVE / ROMANTIC RELATIONSHIP / UNMARRIED"
+      },
+      {
+        "id": "REL-POST-D023-EMOTIONAL-RELEASE",
+        "time": "POST-D023｜安全返還後私人休整",
+        "type": "RELATIONSHIP / POST-MISSION EMOTIONAL RELEASE",
+        "title": "任務後恐懼與深度愛意釋放",
+        "limits": [
+          "未婚／無婚約／無主神婚姻登記",
+          "戒指仍是道歉與重視象徵，不是婚戒或求婚戒",
+          "不提供技能、BUFF、契約或能量成長",
+          "伊恩保持自主判斷與拒絕權"
+        ],
+        "status": "CONFIRMED",
+        "summary": [
+          "伊恩罕見地放下任務期間的克制，流淚向洛直接表達深度愛意與害怕失去他的恐懼。",
+          "洛直接回應相同程度的愛意，未做無法保證的永不受傷或永不死亡承諾。",
+          "兩人確認彼此都害怕失去對方，將這份理解轉化為任務中更重視停止、確認、互相拉住與安全返回。"
+        ],
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "relationshipStatus": "STABLE / MUTUAL / AFFECTIONATE / HIGH TRUST / UNMARRIED"
+      }
+    ]
+  }
+}

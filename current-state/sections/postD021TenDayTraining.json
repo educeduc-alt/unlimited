@@ -1,0 +1,152 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD021TenDayTraining",
+  "state": {
+    "postD021TenDayTraining": {
+      "rules": [
+        "測試於十日訓練結束、完整休息一晚後進行。",
+        "訓練天數本身不視為成長證明；以上僅收錄標準化測試成立結果。",
+        "洛沒有新增獨立技能；氣力置換既有+17.6%基準不重算。",
+        "連續閃返仍累積疲勞，負重與距離限制保留。",
+        "大型法陣模板增加選項，不增加同時維持上限。",
+        "高磅課程不提升灰隼硬體上限，穿透仍受距離、箭種、材質與角度影響。"
+      ],
+      "title": "第五階段前置訓練｜十日訓練後正式測試",
+      "status": "COMPLETE / STANDARDIZED TEST CONFIRMED",
+      "results": {
+        "洛": {
+          "pulse": "5m控制改善／10m煞停與重新落腳改善／最大距離不更新",
+          "circle": {
+            "status": "CONFIRMED GROWTH",
+            "tenMeters": "SHORT-DURATION USABLE / 非長時間穩定工作基準",
+            "sixMetersMean": 100.67,
+            "eightMetersMean": 56,
+            "sixMetersFormal": "約100秒",
+            "sixMetersTrials": [
+              101,
+              99,
+              102
+            ],
+            "eightMetersFormal": "約56秒",
+            "eightMetersTrials": [
+              56,
+              57,
+              55
+            ]
+          },
+          "spiral": {
+            "rule": "不視為穿透防禦；僅代表標準化目標內部集中與傳遞改善。",
+            "status": "PRACTICAL / CONFIRMED",
+            "formationTimeNewIndex": 72,
+            "formationTimeOldIndex": 100,
+            "formationTimeChangePercent": -28,
+            "sameAuraDeepConcentrationPercent": 16,
+            "sameAuraDeepConcentrationNewIndex": 116,
+            "sameAuraDeepConcentrationOldIndex": 100
+          },
+          "newSkills": 0,
+          "totalAuraRetested": false,
+          "auraStrengthEfficiencyPercent": 17.6
+        },
+        "伊恩": {
+          "templates": [
+            "大型拘束陣型Ⅰ",
+            "大型隔離陣型Ⅰ",
+            "大型結構支撐陣型Ⅰ",
+            "大型導流陣型Ⅰ"
+          ],
+          "switchSequence": "偵測→防禦→拘束→隔離",
+          "workflowStatus": "大型法陣模板化工作流 CONFIRMED",
+          "wrongNodeConnectionRate": "下降",
+          "switchTimeReductionPercent": 24,
+          "concurrentLargeFormationLimitIncreased": false
+        },
+        "程牧": {
+          "status": "ACQUIRED / FIELD-READY",
+          "highDraw": {
+            "120%": "STABLE",
+            "135%": "PRACTICAL / LIMITED SERIES",
+            "150%": "ACHIEVABLE / NOT FIELD-STANDARD"
+          },
+          "hardwareLimitIncreased": false
+        },
+        "周映白": {
+          "status": "ACQUIRED / FIELD-READY",
+          "adultLoad": {
+            "3m": "穩定連續3次",
+            "5m": "穩定單次；呼吸負荷明顯"
+          },
+          "continuousReturn": {
+            "5m": "4次穩定實用；第5次可做但累積負荷明顯",
+            "7m": "3次實用；第3次後中等呼吸負荷",
+            "10m": "2次確認；第2次後不適合立刻第3次"
+          },
+          "singleUseBaseline": {
+            "7m": "LOW LOAD",
+            "8m": "LOW TO MILD RESPIRATORY LOAD",
+            "10m": "STABLE",
+            "15m": "HIGH SINGLE-USE LOAD"
+          }
+        }
+      },
+      "accounting": {
+        "purchases": [
+          {
+            "item": "閃返步進階運用｜連續折返",
+            "member": "周映白",
+            "branchCost": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "privateCost": 1200
+          },
+          {
+            "item": "大型法陣標準陣型擴充Ⅰ",
+            "member": "伊恩",
+            "branchCost": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "privateCost": 900
+          },
+          {
+            "item": "高磅戰弓進階運用課程",
+            "member": "程牧",
+            "branchCost": null,
+            "privateCost": 800
+          },
+          {
+            "item": "本輪未兌換",
+            "member": "洛",
+            "branchCost": null,
+            "privateCost": 0
+          }
+        ],
+        "grandTotal": 23594,
+        "privateDebt": 0,
+        "publicFunds": 1504,
+        "privateTotal": 22090,
+        "branchStories": {
+          "B": 3,
+          "C": 3
+        },
+        "privatePoints": {
+          "洛": 4765,
+          "伊恩": 5272,
+          "程牧": 6537,
+          "周映白": 5516
+        },
+        "consumedBranches": {
+          "B": 0,
+          "C": 2
+        },
+        "totalPrivateExpense": 2900
+      },
+      "effectiveAt": "POST-D021｜十日訓練完成＋完整休息一晚後"
+    }
+  }
+}

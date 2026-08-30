@@ -1,0 +1,33 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "specialAcquisitions",
+  "state": {
+    "specialAcquisitions": [
+      {
+        "name": "山神餘力",
+        "type": "異源生命性守護殘響",
+        "limits": [
+          "不增加原有念氣總量",
+          "不直接增加肉體數值",
+          "不直接增加技能等級",
+          "無主動技能"
+        ],
+        "source": "D022山神休眠前自願贈與",
+        "status": "IDENTIFIED / STABLE",
+        "coreConcept": "一體出／一體進",
+        "identifiedAt": "POST-D022休整日第一天",
+        "coreCorrection": "念氣循環完整性補全",
+        "confirmedEffects": [
+          "降低念氣調動、分配、切換、輸出與回收中的非必要逸散與殘留",
+          "山岳承載殘響",
+          "山神系能量親和識別",
+          "異常侵入預警殘響"
+        ]
+      }
+    ]
+  }
+}

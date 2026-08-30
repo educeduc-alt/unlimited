@@ -1,0 +1,23 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "bestiaryMeta",
+  "state": {
+    "bestiaryMeta": {
+      "source": "AI主神空間歷史PDF之實際遭遇、任務卡與副本結算",
+      "updatedAt": "2026-08-25T00:00:00+08:00",
+      "D012Policy": "玻璃海岸僅確認未知脈衝與資料差異，缺少正式生物圖鑑欄位，因此暫不新增怪物條目",
+      "factPolicy": "能力分為已確認、推測與未知；推測不得直接用於正式裁定",
+      "verifiedCount": 23,
+      "identityPolicy": "彼此關係未證實的異常威脅維持分開條目，不擅自合併",
+      "exclusionPolicy": "普通敵對人類不列入怪物圖鑑",
+      "recentAdditions": [
+        "M023 灰燼紅龍／阿龍"
+      ],
+      "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述"
+    }
+  }
+}

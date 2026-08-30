@@ -1,0 +1,27 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "aquaticPreparation",
+  "state": {
+    "aquaticPreparation": {
+      "title": "B+《沉眠列島》出發前｜水面與單人深潛裝備整備",
+      "status": "EQUIPMENT_AND_UNDERWATER_FLASH_RETURN_TEST_COMPLETE",
+      "teamRule": "有落水風險時四人全部穿戴浮力背心；深潛工作目前僅由周映白執行",
+      "assessment": "完整基礎水面救援裝備＋周映白單人深潛救援裝備＋閃返步水域運用；不等同無限深潛或專業海難資格。",
+      "volumeAudit": "新增水面與深潛裝備尚未提供收納體積，待共享行囊增量盤點",
+      "tacticalRoles": [
+        "周映白：唯一正式深潛救援裝備操作者；負責深水搜索、傷員接觸、繫索與拖救",
+        "洛：水面第二救援／力量支援",
+        "程牧：水面觀察、遠距支援與標記",
+        "伊恩：平台施術／熱流與環境支援"
+      ],
+      "deepDivingOperator": "周映白",
+      "surfaceRescueLayer": "OPERATIONAL",
+      "deepDivingEquipment": "周映白專屬｜深潛救援裝備組Ⅰ｜OPERATIONAL",
+      "underwaterFlashReturnTest": "CONFIRMED"
+    }
+  }
+}

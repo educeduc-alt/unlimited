@@ -1,0 +1,83 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD020Settlement",
+  "state": {
+    "postD020Settlement": {
+      "id": "SET-D020",
+      "name": "D020《灰燼王國的第七日》正式結算",
+      "rating": "S",
+      "status": "COMPLETE",
+      "pending": [
+        "龍語加護正式鑑定",
+        "救難站Ⅱ醫療耗材補貨",
+        "WIFI箭矢補充決策",
+        "四人完整休養",
+        "洛恢復後進行念氣／圓標準化測試",
+        "香蕉恢復後視需要重新測試閃返步",
+        "伊恩整理D020大型術式實戰紀錄",
+        "WIFI整理D020城市級異常訊號模型",
+        "共享次元行囊Ⅱ後勤重新補給"
+      ],
+      "rewards": {
+        "洛": 4000,
+        "伊恩": 4100,
+        "程牧": 4050,
+        "周映白": 4050,
+        "publicFunds": 1800,
+        "branchStories": {
+          "B": 2,
+          "C": 3
+        }
+      },
+      "difficulty": "A-",
+      "mainResult": "阻止王城地下災變失控｜FULL COMPLETE",
+      "arrowStatus": {
+        "spent": 3,
+        "before": 117,
+        "readyAfter": 114,
+        "repairPending": 0,
+        "spentBreakdown": {
+          "信標箭": 1,
+          "冰凍箭": 1,
+          "束縛鎖箭": 1
+        }
+      },
+      "pointsAfter": {
+        "洛": 4290,
+        "伊恩": 5597,
+        "程牧": 6762,
+        "周映白": 5841,
+        "grandTotal": 24390,
+        "publicFunds": 1900,
+        "privateTotal": 22490
+      },
+      "privateDebt": 0,
+      "medicalAudit": "COMPLETE／待盤點0",
+      "partyOutcome": "4/4生還／死亡0／永久滯留0／不可逆重大裝備損失0",
+      "pointsBefore": {
+        "洛": 290,
+        "伊恩": 1497,
+        "程牧": 2712,
+        "周映白": 1791,
+        "grandTotal": 6390,
+        "publicFunds": 100,
+        "privateTotal": 6290
+      },
+      "provisionsAfter": {
+        "status": "v74正式庫存覆蓋先前自動精算",
+        "緊急口糧人日": 40,
+        "緊急飲水人日": 40,
+        "耐放主食人日": 20,
+        "可烹調生鮮人日": 12
+      },
+      "branchStoriesAfter": {
+        "B": 6,
+        "C": 4
+      }
+    }
+  }
+}

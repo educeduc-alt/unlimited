@@ -1,0 +1,73 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "privateInventory",
+  "state": {
+    "privateInventory": {
+      "洛": {
+        "items": [
+          {
+            "name": "個人潤滑護理產品",
+            "category": "PRIVATE CARE / CONSUMABLE",
+            "quantity": 1,
+            "visibility": "僅私人用品／完整資產查詢顯示",
+            "consumptionRule": "依實際使用情況扣除"
+          }
+        ],
+        "hidden": true
+      },
+      "伊恩": {
+        "items": [
+          {
+            "name": "中長髮綜合養護套組Ⅰ",
+            "owner": "伊恩",
+            "limits": "純生活護理用品；無戰鬥效果、屬性提升、術式／念能力強化、附魔或被動BUFF",
+            "category": "DAILY LIFE / PERSONAL CARE",
+            "contents": [
+              "溫和清潔用品",
+              "修護潤髮產品",
+              "髮尾護理精華",
+              "寬齒梳",
+              "頭皮按摩梳",
+              "吸水護髮巾",
+              "低溫乾髮工具",
+              "基礎防毛躁護理用品"
+            ],
+            "quantity": 1,
+            "purchasedBy": "洛"
+          },
+          {
+            "name": "經期用品套組｜伊恩本人偏好版",
+            "owner": "伊恩",
+            "status": "CONFIRMED / RECONFIGURED",
+            "storage": "洛與伊恩雙人房間｜伊恩個人生活用品區",
+            "category": "DAILY LIFE / PERSONAL HYGIENE",
+            "contents": [
+              "日用衛生棉｜主要份量",
+              "夜用／加長型衛生棉｜提高比例",
+              "護墊｜少量",
+              "生理內褲×2｜備用",
+              "一次性密封／廢棄收納袋",
+              "清潔濕巾",
+              "基礎舒緩暖貼"
+            ],
+            "notIncluded": [
+              "棉條",
+              "月亮杯"
+            ],
+            "exchangeRule": "主神回收不符合本人習慣的原配置並等價更換；不產生浪費、退款或追加扣款",
+            "originalCost": 120,
+            "sharedBagRule": "不納入共享次元行囊Ⅲ正式容量口徑",
+            "preferenceRule": "依伊恩本人明確選擇配置；後續更換前先詢問本人",
+            "additionalExpense": 0,
+            "sharedBagVolumeImpactM3": 0
+          }
+        ],
+        "hidden": true
+      }
+    }
+  }
+}

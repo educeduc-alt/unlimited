@@ -1,0 +1,264 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD020StarfaringPrep",
+  "state": {
+    "postD020StarfaringPrep": {
+      "id": "POST-D020-STARFARING-PREP",
+      "status": "CONFIRMED / COMPLETE",
+      "economy": {
+        "grandTotal": 8690,
+        "privateDebt": 0,
+        "publicFunds": 1100,
+        "privateTotal": 7590,
+        "branchStories": {
+          "B": 2,
+          "C": 4
+        },
+        "privatePoints": {
+          "洛": 565,
+          "伊恩": 1872,
+          "程牧": 3037,
+          "周映白": 2116
+        }
+      },
+      "saveNode": "POST-D020／星艦基礎整備完成／能力標準測試完成",
+      "starship": {
+        "cost": 10500,
+        "crew": {
+          "standard": 4,
+          "fullPerformance": 4,
+          "basicCombatOperation": 2,
+          "minimumBasicNavigation": 1
+        },
+        "name": "旅星｜四人折疊多用途艇",
+        "role": "四人小型多用途星際艦",
+        "limits": [
+          "無大型主炮",
+          "無大型機庫",
+          "無長期殖民艦功能",
+          "非完整醫院",
+          "無限能源否",
+          "無限航程否"
+        ],
+        "paidBy": {
+          "洛": 2625,
+          "伊恩": 2625,
+          "程牧": 2625,
+          "周映白": 2625
+        },
+        "status": "OWNED / OPERATIONAL",
+        "folding": "真正空間折疊",
+        "weapons": [
+          "可變向輕型能量炮×2",
+          "防禦性攔截器×1組"
+        ],
+        "branchCost": "B級×1",
+        "facilities": [
+          "四人操作席",
+          "折疊睡眠位×4",
+          "簡易衛生間",
+          "小型備餐設備",
+          "傷患固定位×4",
+          "約3m³艦內小型貨艙",
+          "四人短期生命支持",
+          "人工重力／重力補償系統"
+        ],
+        "navigation": [
+          "大氣層飛行",
+          "真空航行",
+          "軌道進出",
+          "VTOL",
+          "自動導航",
+          "姿態控制輔助",
+          "單人緊急返航輔助",
+          "基礎自動損傷管理"
+        ],
+        "protection": [
+          "標準艦體裝甲",
+          "基礎護盾",
+          "環控／生命支持"
+        ],
+        "sharedBagVolumeM3": 5.5
+      },
+      "evaUpgrade": {
+        "cost": 1200,
+        "name": "真空環境生存／EVA模組Ⅰ",
+        "common": [
+          "全身氣密",
+          "自動展開式頭盔",
+          "獨立呼吸循環",
+          "CO₂處理",
+          "短時真空生命支持",
+          "基礎溫控",
+          "微粒／基礎輻射防護",
+          "磁靴",
+          "EVA繫索接口",
+          "小型姿態推進接口",
+          "緊急定位信標",
+          "與旅星生命支持快速接駁"
+        ],
+        "paidBy": {
+          "洛": 300,
+          "伊恩": 300,
+          "程牧": 300,
+          "周映白": 300
+        },
+        "status": "CONFIRMED / OPERATIONAL",
+        "storageRule": "直接改造既有正式戰術服，不替換原裝備且不占共享行囊容量"
+      },
+      "baseVersion": 76,
+      "partyStatus": "D020高度疲勞期主要恢復完成；可正常訓練與新副本整備",
+      "dragonBlessing": {
+        "source": "灰燼紅龍「阿龍」",
+        "status": "IDENTIFIED / STABLE",
+        "attachedTo": "導能複合籠手Ⅱ",
+        "notProvided": [
+          "念氣總量增加",
+          "拳力直接增加",
+          "完全耐火",
+          "馭龍",
+          "召喚",
+          "遠距定位",
+          "龍族全抗"
+        ],
+        "confirmedEffects": [
+          "阿龍系龍息相性適應",
+          "龍息導流穩定",
+          "龍語友好識別印記",
+          "阿龍個體識別"
+        ],
+        "otherDragonCompatibility": "UNVERIFIED"
+      },
+      "starshipCourse": {
+        "cost": 3200,
+        "name": "四人小型星艦基礎操作套裝",
+        "roles": {
+          "洛": "主駕駛／緊急人工操舵",
+          "伊恩": "能源／護盾／環控／系統整合",
+          "程牧": "導航／感測／基礎火控",
+          "周映白": "副駕駛／損傷控制／救援"
+        },
+        "paidBy": {
+          "洛": 800,
+          "伊恩": 800,
+          "程牧": 800,
+          "周映白": 800
+        },
+        "status": "COMPLETE / PASS",
+        "durationDays": 8,
+        "crossSeatRule": "全員具有最低限度跨席位操作能力",
+        "qualification": "小型星艦基礎操作資格｜CONFIRMED",
+        "notEquivalentTo": [
+          "王牌戰機駕駛",
+          "專業大型戰艦操作員",
+          "高階星際戰鬥員",
+          "大型艦隊指揮資格"
+        ]
+      },
+      "sharedBagUpgrade": {
+        "after": "四人共享次元行囊Ⅲ｜50m³",
+        "before": "四人共享次元行囊Ⅱ｜30m³",
+        "limits": [
+          "非無限容量",
+          "不複製物品",
+          "無時間停止",
+          "不可供活體長期居住",
+          "不自動補給",
+          "專屬裝備操作權不因共享收納改變"
+        ],
+        "status": "EVOLVED / OPERATIONAL",
+        "capacityM3": 50,
+        "shipVolumeM3": 5.5,
+        "branchOperation": [
+          "B級×3 → A級×1",
+          "A級×1 → 行囊Ⅲ進化"
+        ],
+        "freeAfterShipM3": 23.65,
+        "usedAfterShipM3": 26.35,
+        "usedBeforeShipM3": 20.85
+      },
+      "abilityValidation": {
+        "洛": {
+          "圓": {
+            "6m": "約90秒｜CONFIRMED",
+            "8m": "約50秒｜CONFIRMED",
+            "10m": "可展開但仍非穩定實用基準"
+          },
+          "脈衝": "落腳、煞停、動態流回收改善；最大能力級別不更新",
+          "動態流": "PRACTICAL／氣流移動銜接穩定度提升",
+          "氣力置換": "同負荷承重與重新擺位穩定度小幅提升；最大重量級別不更新",
+          "總念氣量": "POST-D020 NO CONFIRMED GROWTH；提升為控制／效率／穩定性",
+          "螺旋右拳": "旋轉結構穩定性小幅提升；脈衝×螺旋仍不可連發"
+        },
+        "伊恩": {
+          "limits": [
+            "不增加最大節點數",
+            "不增加總能量",
+            "不提高法陣極限輸出",
+            "高複雜古代術式仍需時間、多源資料與結構比對",
+            "不是萬能鑑定術"
+          ],
+          "多節點大型法陣": "PRACTICAL／非對稱負荷轉移熟練度提升",
+          "大型偵測法陣Ⅰ": "PRACTICAL",
+          "大型防禦法陣Ⅰ": "PRACTICAL",
+          "術式結構解析Ⅰ": "ACQUIRED / BASIC FAMILIARIZATION"
+        },
+        "程牧": {
+          "本次成長": "高資訊量環境下多源整合、FALSE POSITIVE排除、敵意分類及交叉判讀穩定性提升｜CONFIRMED",
+          "四人共享戰術視界": "硬體探測距離不變"
+        },
+        "周映白": {
+          "閃返步": "約7m低負荷、8m輕微呼吸負荷、10m穩定、15m高單次負荷",
+          "高負載": "成人3m可穩定連續3次；5m穩定單次但呼吸負荷明顯",
+          "本次成長": "8～10m效率與恢復速度小幅改善；最大距離不更新"
+        }
+      },
+      "relationshipSummary": {
+        "status": "雙向確認戀愛關係維持",
+        "milestone": "伊恩曾在私人情境中自主以「老公」稱呼洛；視為親密與愛意進展，不等於婚姻、婚約或永久承諾",
+        "principles": [
+          "每次確認意願",
+          "舒適優先",
+          "不舒服即停止",
+          "親密不視為每日義務",
+          "使用必要避孕／保護措施",
+          "具體私人內容不進公開戰術資料庫"
+        ],
+        "visibility": "PRIVATE SUMMARY ONLY",
+        "currentStage": "共同重新認識／建立新界線與偏好階段",
+        "ianDisclosure": "伊恩已自主向洛、周映白與程牧公開本人先前自主登記的生理性別：女性"
+      },
+      "kitchenCompatibility": {
+        "asset": "既有露營野炊廚房模組",
+        "status": "COMPATIBLE",
+        "prohibited": [
+          "高G機動時開放式料理",
+          "戰鬥中使用明火／高溫料理",
+          "失重狀態使用一般鍋具烹調",
+          "妨礙逃生與損害管制通道"
+        ],
+        "integration": "需接入旅星排煙／環控／滅火系統",
+        "usableEquipment": [
+          "雙爐口",
+          "備料台",
+          "深鍋",
+          "淺鍋",
+          "平底鍋",
+          "刀具",
+          "其他一般料理裝備"
+        ],
+        "largeKitchenRule": "大型烤箱與完整料理區需占用更多艦內活動空間",
+        "allowedConditions": [
+          "停泊",
+          "穩定巡航",
+          "正常人工重力",
+          "非戰鬥機動"
+        ]
+      }
+    }
+  }
+}

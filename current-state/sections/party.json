@@ -1,0 +1,149 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "party",
+  "state": {
+    "party": [
+      {
+        "icon": "🥊",
+        "life": "正常",
+        "name": "洛",
+        "role": "第一線近戰／隊長／近距離護衛與失能",
+        "title": "隊長",
+        "gender": "男",
+        "mental": "穩定",
+        "points": 7196,
+        "nenType": "強化系",
+        "stamina": "READY／新系統首次正式校準完成",
+        "heightCm": 175,
+        "bloodline": "無",
+        "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
+        "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
+        "trueNature": "尚未形成",
+        "rewardPoints": 7196,
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "criticalPotential": "曾出現波動／尚未穩定覺醒",
+        "biologicalTemplate": "無",
+        "vehicleQualification": {
+          "status": "PASS",
+          "priority": "駕駛／緊急操作／第一線外部排障",
+          "secondary": [
+            "救援 BASIC",
+            "導航／能源 BASIC",
+            "野戰維修 BASIC"
+          ]
+        }
+      },
+      {
+        "icon": "🦯",
+        "life": "正常",
+        "name": "周映白",
+        "role": "救援核心／側翼／第二線保護",
+        "gender": "男",
+        "mental": "穩定",
+        "points": 8620,
+        "stamina": "READY／空間能力首次標準測試完成",
+        "heightCm": 183,
+        "nickname": "香蕉",
+        "bloodline": "無",
+        "equipment": "折疊救援模組庫Ⅱ／救援戰術服Ⅱ／自律式折疊救難應急站Ⅱ（共享）／真空環境生存／EVA模組Ⅰ",
+        "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
+        "rewardPoints": 8620,
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "biologicalTemplate": "機動救援體模板Ⅰ｜已正式植入／基礎適應完成",
+        "vehicleQualification": {
+          "status": "PASS",
+          "aptitude": "機械／救援維修較高",
+          "priority": "救援／傷員後送／拖曳／機械快修",
+          "secondary": [
+            "駕駛 PASS",
+            "導航／能源 BASIC"
+          ]
+        }
+      },
+      {
+        "icon": "🔥",
+        "life": "正常",
+        "name": "伊恩",
+        "role": "第二線副指揮／術式構築／情報統整",
+        "gender": "女",
+        "mental": "穩定",
+        "points": 6690,
+        "stamina": "READY／EVA完整修復／新術式能力首次標準測試完成",
+        "heightCm": 165,
+        "nickname": "公主",
+        "bloodline": "無",
+        "equipment": "流焰戰術短杖Ⅰ／流焰術式戰裝Ⅱ｜多層裙裝式／赤晶焰紋髮扣／術式校準附魔戒指／真空環境生存／EVA模組Ⅰ",
+        "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
+        "rewardPoints": 6690,
+        "physicalChanges": {
+          "rules": [
+            "性別登記已由伊恩本人自主確認為女性",
+            "不得描述成感染、詛咒、寄生、副本污染或近期生成",
+            "伊恩已自主向洛、周映白與程牧公開生理性別登記",
+            "名字、人格、隊伍定位、副指揮身分與「公主」暱稱不因登記而改變"
+          ],
+          "status": "STABLE / EXTERNAL FEMINIZATION COMPLETE",
+          "current": "遺傳性生理轉換進入穩定階段；外部女性化轉變已完成，組織狀態穩定；內部既有女性生殖構造存在，後續功能狀態仍待時間與檢查確認",
+          "privacy": "固定隊伍內已由伊恩本人自主公開；其他對外公開仍由伊恩自主決定",
+          "baseline": "出生時呈男性主要外部表型；女性內部生殖構造先天存在",
+          "selfView": "不視為疾病；仍由伊恩自行決定身份、稱呼、資訊公開與適應步調",
+          "classification": "非疾病／非戰鬥傷勢",
+          "finalDirection": "高度可能自然完成女性生理表型／完成時間未定",
+          "personalSupplies": "週期生活用品與熱敷用品已持有",
+          "recentCycleStatus": "曾有少量凝血塊；掃描未見急性外傷或異常出血；採休息、熱敷、補水與觀察",
+          "trainingAdjustment": "近期較恍惚／疲倦，主動降低訓練量"
+        },
+        "biologicalTemplate": "無",
+        "vehicleQualification": {
+          "status": "PASS",
+          "priority": "導航調度／能源管理／後勤判斷／第二線統整",
+          "secondary": [
+            "駕駛 PASS",
+            "救援 BASIC",
+            "野戰維修 BASIC"
+          ]
+        }
+      },
+      {
+        "icon": "🏹",
+        "life": "正常",
+        "name": "程牧",
+        "role": "第一觀測位／遠程控制／戰術偵察",
+        "gender": "男",
+        "mental": "穩定",
+        "points": 7688,
+        "stamina": "READY／新情報能力首次標準測試完成／地形描繪模組ONLINE",
+        "heightCm": 180,
+        "nickname": "WIFI",
+        "bloodline": "無",
+        "equipment": "灰隼重磅戰弓／折疊智能箭庫Ⅰ／遠距偵查戰術服Ⅱ／四人共享戰術視界／真空環境生存／EVA模組Ⅰ",
+        "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
+        "rewardPoints": 7688,
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "biologicalTemplate": "無",
+        "vehicleQualification": {
+          "status": "PASS",
+          "aptitude": "電子診斷／感測／路線／能源判斷較高",
+          "priority": "環境感測／路線判斷／電子診斷／導航",
+          "secondary": [
+            "駕駛 PASS",
+            "救援 BASIC"
+          ]
+        }
+      }
+    ]
+  }
+}

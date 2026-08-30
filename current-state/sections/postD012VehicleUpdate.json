@@ -1,0 +1,72 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD012VehicleUpdate",
+  "state": {
+    "postD012VehicleUpdate": {
+      "source": "CODEX INCREMENT SAVE",
+      "status": "CONFIRMED",
+      "baseVersion": 23,
+      "transactions": [
+        {
+          "item": "B級｜兩棲折疊救援車Ⅱ",
+          "costBranch": "B×1",
+          "costPoints": 6500,
+          "publicPaid": 3270,
+          "privateShares": {
+            "洛": 808,
+            "伊恩": 807,
+            "程牧": 807,
+            "周映白": 808
+          }
+        },
+        {
+          "item": "能源＋維修系統",
+          "costPoints": 2000,
+          "privateShareEach": 500
+        },
+        {
+          "item": "車載快速救援模組Ⅰ",
+          "payer": "周映白",
+          "costPoints": 800
+        },
+        {
+          "item": "循環導流刻印Ⅰ",
+          "payer": "伊恩",
+          "costPoints": 1200
+        },
+        {
+          "item": "灰隼智能選箭箭筒Ⅱ＋40發重整",
+          "payer": "程牧",
+          "costPoints": 1600
+        },
+        {
+          "item": "導能複合籠手Ⅰ",
+          "payer": "洛",
+          "costPoints": 2000
+        },
+        {
+          "to": "洛",
+          "from": "程牧",
+          "type": "舊款返還",
+          "amount": 100
+        },
+        {
+          "to": "洛",
+          "from": "周映白",
+          "type": "新私人借款",
+          "amount": 65
+        },
+        {
+          "to": "洛",
+          "from": "伊恩",
+          "type": "新私人借款",
+          "amount": 65
+        }
+      ]
+    }
+  }
+}

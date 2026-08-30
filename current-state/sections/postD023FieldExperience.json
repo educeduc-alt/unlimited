@@ -1,0 +1,37 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD023FieldExperience",
+  "state": {
+    "postD023FieldExperience": {
+      "洛": {
+        "newSkill": "NONE",
+        "totalAuraIncrease": "NOT CONFIRMED",
+        "dynamicFlowUpgrade": false,
+        "circleLimitIncrease": "NOT CONFIRMED",
+        "圓｜前向延伸實戰運用": "SIGNIFICANT"
+      },
+      "伊恩": {
+        "automaticUpgrade": false,
+        "多核心法陣Ⅰ": "FIELD EXPERIENCE：HIGH",
+        "術式自律節點Ⅰ": "FIELD EXPERIENCE：HIGH"
+      },
+      "程牧": {
+        "automaticUpgrade": false,
+        "共享視界｜威脅預測Ⅰ": "FIELD EXPERIENCE：HIGH",
+        "電子地形描繪／路線覆寫": "FIELD-VALIDATED：DEEP EXPEDITION"
+      },
+      "周映白": {
+        "flashReturnDistanceGrowth": "NO AUTOMATIC GROWTH",
+        "空間安全感知Ⅰ＋空間錨定Ⅰ": "FIELD EXPERIENCE：HIGH"
+      },
+      "四人共鳴錨Ⅰ": {
+        "fieldExperience": "VERY HIGH",
+        "automaticUpgrade": false
+      }
+    }
+  }
+}

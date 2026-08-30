@@ -1,0 +1,53 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "d019LogisticsAudit",
+  "state": {
+    "d019LogisticsAudit": {
+      "status": "COMPLETE",
+      "medical": {
+        "口服補液鹽": {
+          "capacity": 8,
+          "consumed": 2,
+          "remaining": 6
+        },
+        "無菌紗布包": {
+          "capacity": 40,
+          "consumed": 9,
+          "remaining": 31
+        },
+        "冷凝醫療凝膠": {
+          "capacity": 3,
+          "consumed": 0,
+          "remaining": 3
+        },
+        "基礎消毒單元": {
+          "capacity": 48,
+          "consumed": 9,
+          "remaining": 39
+        },
+        "彈性固定繃帶": {
+          "capacity": 10,
+          "consumed": 2,
+          "remaining": 8
+        },
+        "無菌止血敷料": {
+          "capacity": 12,
+          "consumed": 2,
+          "remaining": 10
+        },
+        "一次性醫療手套組": {
+          "capacity": 24,
+          "consumed": 5,
+          "remaining": 19
+        }
+      },
+      "coldStorage": "OPERATIONAL／2–8°C／無額外腐敗",
+      "pendingCount": 0,
+      "reusableRescueEquipment": "全部回收／確認故障0"
+    }
+  }
+}

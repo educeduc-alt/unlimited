@@ -1,0 +1,28 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "trainingStatus",
+  "state": {
+    "trainingStatus": {
+      "node": "POST-D022｜FIRST FORMAL RECALIBRATION COMPLETE",
+      "rest": "全隊進入校準後休息",
+      "rule": "本輪只記錄可重現改善；不因單次測試自動升階。",
+      "status": "COMPLETE",
+      "completed": [
+        "洛：籠手Ⅲ／山神餘力／全身動態流首次正式校準",
+        "周映白：空間安全感知Ⅰ與空間錨定Ⅰ低輸出標準測試",
+        "WIFI：威脅預測Ⅰ與彈道領域Ⅰ低至中輸出標準測試",
+        "伊恩：術式自律節點Ⅰ與多核心法陣Ⅰ標準測試"
+      ],
+      "nextScene": "D023 DEPLOYMENT",
+      "notPerformed": [
+        "洛：最大輸出測試",
+        "洛：脈衝×螺旋連發測試",
+        "四人共鳴錨Ⅰ正式測試"
+      ]
+    }
+  }
+}

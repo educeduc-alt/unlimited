@@ -1,0 +1,148 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "ammo",
+  "state": {
+    "ammo": {
+      "aliases": {
+        "信標箭": "定位信標箭",
+        "煙幕箭": "遮蔽煙幕箭",
+        "鈍擊箭": "鈍擊衝擊箭"
+      },
+      "entries": {
+        "信標箭": 9,
+        "冰凍箭": 10,
+        "標準箭": 28,
+        "煙幕箭": 9,
+        "爆裂箭": 10,
+        "鈍擊箭": 9,
+        "束縛鎖箭": 12,
+        "重型破障箭": 9,
+        "閃光干擾箭": 9,
+        "電擊干擾箭Ⅰ": 9
+      },
+      "capacity": "UNSPECIFIED_FINITE",
+      "timeline": [
+        {
+          "node": "D022",
+          "event": "全箭庫安全回收／分項不變",
+          "readyAfter": 113,
+          "permanentLoss": 0
+        },
+        {
+          "node": "PRE-D023",
+          "event": "標準箭補充×1",
+          "change": 1,
+          "readyAfter": 114
+        }
+      ],
+      "container": "折疊智能箭庫Ⅰ",
+      "d022Result": {
+        "ready": 113,
+        "permanentLoss": 0,
+        "breakdownChanged": false
+      },
+      "lastUpdate": "PRE-D023｜標準箭+1／正式總數114／0待修",
+      "combatReady": 114,
+      "currentTotal": 114,
+      "selectionRule": "有限實體箭矢；最終選箭與射擊權屬WIFI，不自行判定敵我或開火",
+      "stage4Restock": {
+        "cost": 1600,
+        "after": 117,
+        "payer": "WIFI",
+        "before": 52,
+        "status": "CONFIRMED"
+      },
+      "currentMissing": 0,
+      "historicalLost": {
+        "D017標準箭": 3
+      },
+      "d020Consumption": {
+        "total": 3,
+        "信標箭": 1,
+        "冰凍箭": 1,
+        "束縛鎖箭": 1
+      },
+      "d021Consumption": {
+        "permanentLoss": {
+          "標準箭": 3,
+          "束縛鎖箭": 1
+        },
+        "recoveredTestArrows": {
+          "標準箭": 2
+        }
+      },
+      "inventoryStatus": "114 READY／0 REPAIR",
+      "repairBreakdown": {},
+      "accountingPresent": 114,
+      "d021Reconciliation": {
+        "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
+        "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
+        "preD021Restock": {
+          "stage": "POST-D020｜D021出發前",
+          "changes": {
+            "信標箭": 1,
+            "冰凍箭": 1,
+            "束縛鎖箭": 1
+          },
+          "afterTotal": 117,
+          "beforeTotal": 114
+        },
+        "cardBeforeTotal": 117,
+        "v77PriorSnapshot": 114,
+        "finalDetailedTotal": 113
+      },
+      "inventoryCorrection": {
+        "status": "FULLY_RECONCILED",
+        "sequence": [
+          {
+            "to": 5,
+            "cost": 480,
+            "from": 1,
+            "item": "爆裂箭×4",
+            "order": 1,
+            "payer": "WIFI",
+            "unitPrice": 120,
+            "pointsAfter": 2912,
+            "pointsBefore": 3392
+          },
+          {
+            "to": 5,
+            "cost": 400,
+            "from": 1,
+            "item": "冰凍箭×4",
+            "order": 2,
+            "payer": "WIFI",
+            "unitPrice": 100,
+            "pointsAfter": 2512,
+            "pointsBefore": 2912
+          },
+          {
+            "to": 10,
+            "cost": 100,
+            "from": 5,
+            "item": "標準箭×5",
+            "order": 3,
+            "payer": "WIFI",
+            "unitPrice": 20,
+            "pointsAfter": 2412,
+            "pointsBefore": 2512
+          }
+        ],
+        "totalCost": 980,
+        "finalCounts": {
+          "冰凍箭": 5,
+          "標準箭": 10,
+          "爆裂箭": 5,
+          "totalReady": 52
+        },
+        "specialArrowSubtotal": 880,
+        "standardArrowSubtotal": 100
+      },
+      "damagedPendingRepair": 0
+    }
+  }
+}

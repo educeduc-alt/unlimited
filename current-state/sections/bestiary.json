@@ -1,0 +1,960 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "bestiary",
+  "state": {
+    "bestiary": [
+      {
+        "id": "M001",
+        "name": "魔法木偶",
+        "status": "已遭遇／消滅狀態未確認",
+        "aliases": [],
+        "unknowns": [
+          "驅動核心",
+          "數量上限",
+          "弱點與永久破壞條件"
+        ],
+        "appearance": [
+          "具自主活動與戰鬥能力的魔法木偶"
+        ],
+        "confidence": "MEDIUM",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "構造體／魔法造物",
+        "effectiveTactics": [
+          "洛以拳擊與踢擊正面應對",
+          "三人合作取得完整銅貓鑰匙並完成撤離"
+        ],
+        "encounterOutcome": "隊伍取得鑰匙後強制回歸；未留下永久消滅確認。",
+        "firstSeenMission": "銅貓鑰匙",
+        "inferredAbilities": [
+          "可能受華滋學院副本規則或魔法機制驅動"
+        ],
+        "confirmedAbilities": [
+          "能在鑰匙爭奪與倒數環境中主動攻擊、阻攔參與者"
+        ],
+        "firstSeenMissionId": "D001"
+      },
+      {
+        "id": "M002",
+        "name": "異常驗票機",
+        "status": "已遭遇／未確認摧毀",
+        "aliases": [],
+        "unknowns": [
+          "感知方式",
+          "停機條件",
+          "與十三號月台規則的直接關係"
+        ],
+        "appearance": [
+          "車站內可自主移動的驗票設備",
+          "至少兩具處於活動狀態"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "異常機械／構造體",
+        "effectiveTactics": [
+          "周映白以長棍牽制",
+          "優先補全票證並完成護送，不與其纏鬥"
+        ],
+        "encounterOutcome": "林澄成功登車，隊伍強制回歸；驗票機是否仍在運作未知。",
+        "firstSeenMission": "十三號末班車",
+        "inferredAbilities": [
+          "可能以票證或通行規則判定攻擊目標"
+        ],
+        "confirmedAbilities": [
+          "能主動衝撞或追擊目標",
+          "可由長柄武器暫時牽制"
+        ],
+        "firstSeenMissionId": "D003"
+      },
+      {
+        "id": "M003",
+        "name": "異常行李搬運設備",
+        "status": "已遭遇／未確認摧毀",
+        "aliases": [],
+        "unknowns": [
+          "是否具備獨立感知",
+          "與異常驗票機是否共享控制來源",
+          "其他攻擊方式"
+        ],
+        "appearance": [
+          "車站二樓的自動搬運設備"
+        ],
+        "confidence": "MEDIUM",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "異常機械／構造體",
+        "effectiveTactics": [
+          "利用環境與路線保持距離",
+          "以完成票證與護送為優先"
+        ],
+        "encounterOutcome": "隊伍完成撤離；設備的後續狀態未知。",
+        "firstSeenMission": "十三號末班車",
+        "inferredAbilities": [
+          "可能對躲藏者或阻擋路線的設施具有追擊傾向"
+        ],
+        "confirmedAbilities": [
+          "可持續破壞或撞擊門體"
+        ],
+        "firstSeenMissionId": "D003"
+      },
+      {
+        "id": "M004",
+        "name": "地下異常人形",
+        "status": "已遭遇／未確認消滅",
+        "aliases": [
+          "南側異常人形"
+        ],
+        "unknowns": [
+          "是否仍保有人類意識",
+          "不同人形個體是否同源",
+          "生命能量異常的成因"
+        ],
+        "appearance": [
+          "成年男性外觀",
+          "具有生命能量反應，但分布異常"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "人形異常",
+        "effectiveTactics": [
+          "以近戰組合攻擊創造取物窗口",
+          "取得關鍵物後優先撤離，不假定擊倒等同消滅"
+        ],
+        "encounterOutcome": "隊伍奪得並驗證返程票；人形個體未確認永久失能。",
+        "firstSeenMission": "十三號列車｜未完的停靠站",
+        "inferredAbilities": [
+          "可能受地下維修區共同異常來源影響或控制"
+        ],
+        "confirmedAbilities": [
+          "承受組合拳後可被擊退但未失去行動能力",
+          "部分生命能量呈現被地下因素牽引的異常分布",
+          "個體攜帶與任務相關的鑰匙牌或返程票"
+        ],
+        "firstSeenMissionId": "D004"
+      },
+      {
+        "id": "M005",
+        "name": "大型活動金屬構造體",
+        "status": "已遭遇／成功繞過",
+        "aliases": [
+          "第四區金屬構造體"
+        ],
+        "unknowns": [
+          "核心位置",
+          "最大活動範圍",
+          "能否被永久摧毀"
+        ],
+        "appearance": [
+          "第四區的大型活動金屬構造體",
+          "具可延伸機械臂"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "大型構造體／競技設施",
+        "effectiveTactics": [
+          "四人換位、控場與突破分工",
+          "周映白抓住窗口突破並取得徽記"
+        ],
+        "encounterOutcome": "第四區徽記成功取得；構造體未被確認摧毀。",
+        "firstSeenMission": "無燈競技城",
+        "inferredAbilities": [
+          "行動可能受競技區域規則約束"
+        ],
+        "confirmedAbilities": [
+          "可發動環境攻擊",
+          "延伸臂可阻攔或攻擊參賽者",
+          "守衛或控制第四區競技徽記的取得窗口"
+        ],
+        "firstSeenMissionId": "D007"
+      },
+      {
+        "id": "M006",
+        "name": "競技城機械狗",
+        "status": "已遭遇／後續狀態未知",
+        "aliases": [],
+        "unknowns": [
+          "數量",
+          "攻擊方式",
+          "追蹤能力",
+          "與區域規則的關係",
+          "是否被摧毀"
+        ],
+        "appearance": [
+          "犬型機械威脅"
+        ],
+        "confidence": "LOW",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "機械生物",
+        "effectiveTactics": [
+          "現有紀錄僅能確認隊伍完成副本，詳細應對資料待補"
+        ],
+        "encounterOutcome": "副本已完成；本個體的詳細交戰與去向紀錄不足。",
+        "firstSeenMission": "無燈競技城",
+        "inferredAbilities": [],
+        "confirmedAbilities": [
+          "存在於無燈競技城的競技威脅中"
+        ],
+        "firstSeenMissionId": "D007"
+      },
+      {
+        "id": "M007",
+        "name": "聲音模仿現象",
+        "status": "已確認存在／來源未知",
+        "aliases": [
+          "未知模仿威脅"
+        ],
+        "unknowns": [
+          "本體",
+          "模仿範圍",
+          "取得聲音樣本的條件",
+          "是否能模仿記憶與行為",
+          "與灰月其他威脅的關係"
+        ],
+        "appearance": [
+          "可透過聲音或外觀造成身分混淆；本體外形未確認"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "現象型威脅",
+        "effectiveTactics": [
+          "以戰術鏈路、既定職責與多重確認避免只憑聲音辨識同伴",
+          "保持隊形並限制非必要接觸"
+        ],
+        "encounterOutcome": "十二人撤離成功；模仿來源未被消滅或識別。",
+        "firstSeenMission": "灰月",
+        "inferredAbilities": [
+          "可能與部分高速人形或異常個體有關，但尚無法證明為同一來源"
+        ],
+        "confirmedAbilities": [
+          "能產生聲音模仿現象",
+          "在該區域中，僅靠聲音或外觀不足以驗證身分"
+        ],
+        "firstSeenMissionId": "D009"
+      },
+      {
+        "id": "M008",
+        "name": "灰白附肢群",
+        "status": "已遭遇／未確認消滅",
+        "aliases": [
+          "麵條",
+          "灰白細線",
+          "灰白線群",
+          "附肢追擊"
+        ],
+        "unknowns": [
+          "共同源頭／本體位置",
+          "再生速度",
+          "高溫是否為穩定弱點",
+          "與灰月追獵者及模仿現象的關係"
+        ],
+        "appearance": [
+          "大量手指粗細、極細節狀的灰白物體互相纏繞",
+          "能抓住牆面、管線與天花板，收縮後向前蔓延",
+          "隊內以外觀暱稱為「麵條」"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [
+          "周映白腳踝遭短暫纏繞",
+          "伊恩腳踝遭纏繞",
+          "洛前臂曾遭兩條附肢反纏"
+        ],
+        "classification": "群體異常生物／現象型威脅",
+        "effectiveTactics": [
+          "普通纏覆拳套即可打開或撞偏部分附肢",
+          "周映白以短棍架開並協助解除纏繞",
+          "程牧以箭矢將多條附肢釘向牆面、延遲或打斷路徑",
+          "伊恩以引燃、熱流偏轉與閃燃建立短暫高溫阻隔",
+          "厚重機械門與隔離門可暫時阻隔",
+          "不要把暫時退避視為消滅"
+        ],
+        "encounterOutcome": "十二人隊伍成功突破並撤離；附肢共同來源與本體仍未確認。",
+        "firstSeenMission": "灰月",
+        "inferredAbilities": [
+          "所有細線往同一轉角延伸，可能具有共同來源或本體",
+          "建築表面與管線可能是主要移動媒介"
+        ],
+        "confirmedAbilities": [
+          "具有實體、柔韌且可彎曲，能被打擊、架開與射擊改變路徑",
+          "能沿建築表面、管線與天花板蔓延，並從地下追至地面",
+          "可追擊、繞側、攀爬、掃擊與纏繞四肢",
+          "能形成數十條以上的群體附肢",
+          "接觸高溫區後曾出現收縮或退避反應"
+        ],
+        "firstSeenMissionId": "D009"
+      },
+      {
+        "id": "M009",
+        "name": "灰月硬質追獵者",
+        "status": "已確認群體遭遇／未確認消滅",
+        "aliases": [
+          "石頭",
+          "大石頭",
+          "灰白硬化威脅",
+          "灰白硬化個體"
+        ],
+        "unknowns": [
+          "硬質層形成與再生機制",
+          "無月區界線的作用原理",
+          "與假「魏哲」、灰白附肢群及聲音模仿現象的關係",
+          "個體總數與永久消滅條件"
+        ],
+        "appearance": [
+          "部分維持成年人形，部分四肢著地",
+          "身體表面覆蓋灰黑硬質層",
+          "隊內因其堅硬外層暱稱為「石頭／大石頭」"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [
+          "洛曾因反覆攻擊堅硬目標造成右拳重複負荷"
+        ],
+        "classification": "群體人形異常／追獵者",
+        "effectiveTactics": [
+          "伊恩利用狹窄礦道建立火焰阻滯帶，打亂追擊節奏並造成個體互撞堵塞",
+          "全隊避免留下單人纏鬥，以移動後衛與拖帶隊形撤離",
+          "進入無月區界線後建立臨時防線與恢復窗口",
+          "不把火焰減速視為立即擊殺"
+        ],
+        "encounterOutcome": "十數個以上追獵者被阻於無月區界線外，隊伍之後完成十二人撤離；未確認消滅。",
+        "firstSeenMission": "灰月",
+        "inferredAbilities": [
+          "灰黑硬質層可能提供高抗衝擊能力",
+          "個體可能與灰月照射、月痕或假「魏哲」的硬化現象同源"
+        ],
+        "confirmedAbilities": [
+          "可大量群體高速追擊，已觀察到十數個以上個體",
+          "個體可維持人形移動，也可四肢著地追趕",
+          "外層堅硬，近戰打擊會對攻擊者造成明顯負荷",
+          "火焰可使部分個體減速並打亂追擊，但不能立即使其倒下",
+          "追獵者曾聚集於無月區界線外，沒有直接進入"
+        ],
+        "firstSeenMissionId": "D009"
+      },
+      {
+        "id": "M010",
+        "name": "舊城乘客清點現象",
+        "status": "已確認存在／來源未知",
+        "aliases": [
+          "乘客序號",
+          "清點板異常"
+        ],
+        "unknowns": [
+          "清點現象的本體或控制來源",
+          "序號的完整作用",
+          "被錯誤納入後的長期後果"
+        ],
+        "appearance": [
+          "被清點者會出現序號",
+          "序號會隨新對象被納入而變動",
+          "清點板與序號存在異常連結"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "規則型異常／交通網現象",
+        "effectiveTactics": [
+          "先區分下車旅客與過站旅客規則",
+          "避免在資訊不足時主動回應或加入清點"
+        ],
+        "encounterOutcome": "四人區分清點與界碑核驗機制後完成零號線副本；現象未被消除。",
+        "firstSeenMission": "鏽港交通網Ⅲ｜零號線",
+        "inferredAbilities": [
+          "可能透過清點行為建立或更新乘客身分連結"
+        ],
+        "confirmedAbilities": [
+          "舊城下車旅客需要清點",
+          "過站旅客正常情況無需清點",
+          "可把新對象納入清點並改變既有序號"
+        ],
+        "firstSeenMissionId": "D010"
+      },
+      {
+        "id": "M011",
+        "name": "界碑聲音誘導核驗現象",
+        "status": "已確認存在／目的未完全確證",
+        "aliases": [
+          "界碑人數核驗",
+          "熟人聲音誘導"
+        ],
+        "unknowns": [
+          "聲音樣本來源",
+          "回應後的完整後果",
+          "是否具有獨立本體",
+          "是否與灰月聲音模仿現象同源"
+        ],
+        "appearance": [
+          "可使用洛、周映白、伊恩與程牧等熟悉隊友聲音進行誘導",
+          "與舊城乘客清點屬不同機制"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "未評定",
+        "causedInjuries": [],
+        "classification": "規則型異常／聲音誘導現象",
+        "effectiveTactics": [
+          "全員完全沉默",
+          "使用戰術鏈路、視線、手勢與短暫實體接觸鏈確認隊形",
+          "不把推測升格為絕對世界規則"
+        ],
+        "encounterOutcome": "四人成功規避核驗並完成終點核銷與正常返程。",
+        "firstSeenMission": "鏽港交通網Ⅲ｜零號線",
+        "inferredAbilities": [
+          "高可信推測：試圖誘使旅客以聲音確認自己或隊友的存在、身分或位置"
+        ],
+        "confirmedAbilities": [
+          "能使用熟悉隊友的聲音誘導旅客回應",
+          "完全沉默配合戰術鏈路、視線、手勢與短暫實體接觸鏈可規避"
+        ],
+        "firstSeenMissionId": "D010"
+      },
+      {
+        "id": "M012",
+        "name": "赤脊",
+        "status": "存活／未與四人正式交戰",
+        "aliases": [
+          "赤沙巨獸"
+        ],
+        "unknowns": [
+          "完整生態與壽命",
+          "遠距感知幼體的機制",
+          "戰鬥能力上限",
+          "族群數量"
+        ],
+        "appearance": [
+          "大型赤沙荒原生命",
+          "與南礦赤晶孵育結構及幼體具有直接關聯"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "大型高風險生命（未正式評級）",
+        "causedInjuries": [],
+        "classification": "大型生命／荒原巨獸",
+        "effectiveTactics": [
+          "避免先入為主地將大型異常活動源判定為敵人",
+          "以圓與多源觀測進行低侵略性接觸",
+          "歸還兩名倖存幼體並停止開採孵育區"
+        ],
+        "encounterOutcome": "赤脊存活；兩名倖存幼體成功歸還；四人以非獵殺解完成副本。",
+        "firstSeenMission": "赤沙巨獸狩獵場",
+        "inferredAbilities": [
+          "接近赫沙主要源於幼體孵育結構遭開採，而非主動獵食居民"
+        ],
+        "confirmedAbilities": [
+          "能追蹤或感知遭帶離的幼體並靠近赫沙與南礦",
+          "面對幼體歸還時未對赫沙聚落發動報復"
+        ],
+        "firstSeenMissionId": "D011"
+      },
+      {
+        "id": "M013",
+        "name": "赤脊幼體",
+        "status": "兩名倖存個體已歸還赤脊",
+        "aliases": [
+          "赤晶幼體",
+          "赤晶中的生命"
+        ],
+        "unknowns": [
+          "完整孵化條件",
+          "開採損傷的可逆程度",
+          "幼體成長週期"
+        ],
+        "appearance": [
+          "至少部分大型赤晶結構實際為赤脊幼體孵育結構",
+          "可由生命活動與熱變化判讀確認"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對／需救援",
+        "causedInjuries": [],
+        "classification": "大型生命幼體／孵育階段",
+        "effectiveTactics": [
+          "由周映白主導安全搬運與傷勢判讀",
+          "使用折疊擔架後送且回收裝備",
+          "由伊恩協助生命活動與熱變化判讀",
+          "避免把孵育結構當作普通礦物繼續加工"
+        ],
+        "encounterOutcome": "兩名倖存幼體均成功送返赤脊；南礦孵育區停止開採。",
+        "firstSeenMission": "赤沙巨獸狩獵場",
+        "inferredAbilities": [
+          "赤晶外層可能同時具有孵育與保護功能"
+        ],
+        "confirmedAbilities": [
+          "孵育階段具有可被偵測的生命與熱變化",
+          "可在妥善搬運與後送下存活並歸還成體"
+        ],
+        "firstSeenMissionId": "D011"
+      },
+      {
+        "id": "M014",
+        "name": "霧生大型智慧生命",
+        "status": "已建立簡化溝通／已開始回收分離個體",
+        "aliases": [
+          "撞到人之後不知道怎麼辦的小阿呆（洛私人暫稱）"
+        ],
+        "unknowns": [
+          "正式種族名稱",
+          "起源",
+          "年齡／壽命",
+          "是否存在文明或其他同類",
+          "分裂個體是否具有獨立意識",
+          "完整能力",
+          "是否具有惡意行為歷史"
+        ],
+        "appearance": [
+          "至少約50m級的大型海生生命",
+          "可分離出小型黑色黏狀個體"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對",
+        "causedInjuries": [],
+        "classification": "UNKNOWN｜大型海生智慧異常生命",
+        "effectiveTactics": [
+          "先分離能源、頻率與震動等觸發因素",
+          "以簡化脈衝回應建立溝通模型",
+          "避免把異常行為直接判定為敵意",
+          "確認救援完成後要求其回收分離個體"
+        ],
+        "encounterOutcome": "非主動入侵；失事船6名生還者獲救後停止靠近，並接受要求回收自身分離個體。",
+        "firstSeenMission": "霧港零號燈塔",
+        "inferredAbilities": [
+          "分離個體可能是本體延伸或具部分自主性"
+        ],
+        "confirmedAbilities": [
+          "具有智慧、觀察、學習與模仿能力",
+          "可用脈衝建立簡單通訊並理解簡化回應",
+          "可分離小型黑色黏狀個體",
+          "分離個體可釋放濃霧作為保護機制",
+          "對零號燈塔正常霧航穩定頻率具有強烈排斥反應"
+        ],
+        "firstSeenMissionId": "D013"
+      },
+      {
+        "id": "M015",
+        "name": "巨型鯊魚",
+        "status": "未交戰",
+        "unknowns": [
+          "物種與來源",
+          "是否受黑潮長期影響"
+        ],
+        "appearance": [
+          "巨型鯊魚個體"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對／環境逃難中",
+        "classification": "大型海生生命",
+        "effectiveTactics": [
+          "先以魚群移動、環境異常與行為方向交叉判讀",
+          "未確認敵意前不主動攻擊"
+        ],
+        "encounterOutcome": "確認其與魚群均在逃離黑潮異常中心，敵意未成立。",
+        "firstSeenMission": "黑潮貨港",
+        "confirmedAbilities": [
+          "大型海生生物的高速水域移動"
+        ],
+        "firstSeenMissionId": "D015"
+      },
+      {
+        "id": "M016",
+        "name": "魚人祭司",
+        "status": "已被清除",
+        "unknowns": [
+          "正式族群名稱",
+          "召喚目標",
+          "儀式完整原理"
+        ],
+        "appearance": [
+          "位於海底遺跡並主持召喚儀式"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "敵對",
+        "classification": "魚人／儀式施術者",
+        "effectiveTactics": [
+          "先區分維生與召喚結構，避免直接中斷全部維生",
+          "確認主動攻擊後才成立敵對判定"
+        ],
+        "encounterOutcome": "未知高位超凡生命介入後被清除，召喚結構亦被清除。",
+        "firstSeenMission": "黑潮貨港",
+        "confirmedAbilities": [
+          "維持召喚儀式",
+          "以法力維持人類融合生命體",
+          "主動攻擊四人隊伍",
+          "造成黑潮／海域異常的核心威脅"
+        ],
+        "firstSeenMissionId": "D015"
+      },
+      {
+        "id": "M017",
+        "name": "人類融合生命體",
+        "status": "已復原",
+        "unknowns": [
+          "融合過程",
+          "受害者人數與長期後遺症"
+        ],
+        "appearance": [
+          "由人類受害者融合形成的生命體"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對／需救援",
+        "classification": "儀式受害者／融合生命體",
+        "effectiveTactics": [
+          "避免直接切斷全部維生",
+          "分離辨識維生與召喚功能"
+        ],
+        "encounterOutcome": "未知高位存在介入後，融合受害者被復原。",
+        "firstSeenMission": "黑潮貨港",
+        "confirmedAbilities": [
+          "依靠魚人祭司法力維持當前生命狀態"
+        ],
+        "firstSeenMissionId": "D015"
+      },
+      {
+        "id": "M018",
+        "name": "黑氣人",
+        "status": "已重新封印",
+        "aliases": [
+          "地下黑氣人"
+        ],
+        "unknowns": [
+          "正式名稱與種族",
+          "起源",
+          "完整能力",
+          "永久消滅條件"
+        ],
+        "appearance": [
+          "位於王陵地下封印系統中的黑氣人形異常存在"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "高危敵對封印對象／未正式評級",
+        "classification": "人形異常／封印對象",
+        "effectiveTactics": [
+          "不以單純擊殺取代封印處理",
+          "由伊恩解析陌生法陣並協作重構封印",
+          "移除王座人體承載節點，改以王陵多節點分流負荷"
+        ],
+        "encounterOutcome": "重新封印成功；王陵封印恢復，短期穩定性確認。",
+        "firstSeenMission": "白骨王座",
+        "confirmedAbilities": [
+          "與王陵地下封印失衡直接相關",
+          "封印异常負荷曾透過王座連結反向侵蝕歷代國王",
+          "需要以封印重構而非單純武力處理"
+        ],
+        "firstSeenMissionId": "D016"
+      },
+      {
+        "id": "M019",
+        "name": "白骨王",
+        "status": "存續／非根本敵對方",
+        "aliases": [
+          "白骨老王（洛的非正式稱呼）"
+        ],
+        "unknowns": [
+          "生前身分",
+          "形成原因",
+          "能力上限"
+        ],
+        "appearance": [
+          "具智慧與指揮能力的白骨王者"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對／高能力守封者",
+        "classification": "智慧不死者／封印守衛",
+        "effectiveTactics": [
+          "不因亡靈外觀直接建立敵對判定",
+          "與其維持封印及疏散王城的目標協作"
+        ],
+        "encounterOutcome": "敵對判定未成立；完成封印恢復及平民救援。",
+        "firstSeenMission": "白骨王座",
+        "confirmedAbilities": [
+          "能指揮白骨軍",
+          "主要行為包含維持王陵封印、疏散王城及阻止地下異常突破",
+          "並非王城崩潰的根本原因"
+        ],
+        "firstSeenMissionId": "D016"
+      },
+      {
+        "id": "M020",
+        "name": "白骨軍",
+        "status": "存續／非根本敵對方",
+        "aliases": [
+          "王陵白骨軍"
+        ],
+        "unknowns": [
+          "總數",
+          "個體是否保有獨立意識",
+          "形成方式"
+        ],
+        "appearance": [
+          "由白骨個體構成的王陵軍隊"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "非敵對／具戰鬥能力的守封群體",
+        "classification": "群體不死者／封印守衛",
+        "effectiveTactics": [
+          "不因群體亡靈外觀直接開戰",
+          "辨識其疏散平民與阻止異常突破的實際行為"
+        ],
+        "encounterOutcome": "未被列為根本敵對方；持續履行守衛功能。",
+        "firstSeenMission": "白骨王座",
+        "confirmedAbilities": [
+          "參與王城疏散",
+          "阻止地下異常突破",
+          "協助維持王陵封印防線"
+        ],
+        "firstSeenMissionId": "D016"
+      },
+      {
+        "id": "M021",
+        "name": "暗金巨鼠",
+        "status": "已排除主要威脅",
+        "aliases": [
+          "大老鼠"
+        ],
+        "unknowns": [
+          "变异来源",
+          "与吸热元件的精确生理关系",
+          "是否存在同级个体"
+        ],
+        "appearance": [
+          "大型暗金色巨鼠",
+          "长期占据异常热能与地下设施区域"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "高威脅／敵對成立",
+        "classification": "大型變異齧齒生物／吸熱異常受益者",
+        "effectiveTactics": [
+          "洛与周映白正面压制",
+          "山神从侧向撞击",
+          "WIFI定位关键节点",
+          "伊恩对关键节点精准施术"
+        ],
+        "encounterOutcome": "由四人协同与山神辅助排除，地下供热核心得以修正。",
+        "firstSeenMission": "赤鐵雪原",
+        "confirmedAbilities": [
+          "巨型身体冲撞",
+          "高承压与挣扎能力",
+          "与吸热异常环境及鼠群活动高度相关"
+        ],
+        "firstSeenMissionId": "D017"
+      },
+      {
+        "id": "M022",
+        "name": "山神",
+        "status": "存活／非敌对／曾协助队伍",
+        "aliases": [
+          "山豬老大"
+        ],
+        "unknowns": [
+          "真实生态地位",
+          "智慧程度上限",
+          "正式能力全貌"
+        ],
+        "appearance": [
+          "巨型山猪外观",
+          "具强大冲撞与力量表现"
+        ],
+        "confidence": "HIGH",
+        "threatLevel": "大型高风险生命／敌意未成立",
+        "classification": "大型寒区智慧／高认知野兽",
+        "effectiveTactics": [
+          "先确认行为与敌意，不因巨大体型主动开战",
+          "允许其对暗金巨鼠进行侧向撞击协同"
+        ],
+        "encounterOutcome": "敌意未成立；协助四人压制暗金巨鼠后存活。",
+        "firstSeenMission": "赤鐵雪原",
+        "confirmedAbilities": [
+          "大型生物冲撞",
+          "能辨识当前威胁并协助攻击暗金巨鼠",
+          "未对四人表现主动恶意"
+        ],
+        "firstSeenMissionId": "D017"
+      },
+      {
+        "id": "M023",
+        "name": "灰燼紅龍",
+        "status": "ALIVE／FREE／已自主離開王城",
+        "aliases": [
+          "阿龍"
+        ],
+        "behavior": [
+          "最初自願與建城勇者及早期王城形成共生",
+          "明確拒絕人工奪息主環",
+          "束縛解除後選擇自行離城",
+          "可能依自身意願返回，但無義務提供龍息"
+        ],
+        "relation": "非敵對／自由個體；任何後續合作均須重新取得其本人意願",
+        "confidence": "HIGH",
+        "threatLevel": "大型高風險超凡生命／敵意未確認",
+        "classification": "百年以上／具自主意識之紅龍",
+        "encounterOutcome": "未發生屠龍戰；解除強制束縛後自主離城，王城存續。",
+        "firstSeenMission": "灰燼王國的第七日",
+        "limitsOfKnowledge": [
+          "龍語加護實際效果尚未鑑定",
+          "完整戰鬥能力未知",
+          "未來是否返回未知"
+        ],
+        "confirmedAbilities": [
+          "自然熱量／龍息供給",
+          "可理解並表達自主意願",
+          "可辨識自身原始支撐與後世束縛結構",
+          "可施加穩定但效果未鑑定之龍語加護"
+        ],
+        "firstSeenMissionId": "D020"
+      },
+      {
+        "id": "M024",
+        "name": "高適應性蟑螂型生態生物",
+        "status": "CONTAINED / NON-HOSTILE PURPOSE CONFIRMED",
+        "relation": "非預設敵對；用途為廢棄物循環與生態維護",
+        "confidence": "HIGH",
+        "threatLevel": "UNCONFIRMED",
+        "classification": "人工培育／低能耗環境生態維護生物",
+        "confirmedFacts": [
+          "以低能耗環境下的廢棄物循環與生態維護為設計目的",
+          "不是武器",
+          "曾被研究方嘗試以外來捕食生物控制"
+        ],
+        "firstSeenMission": "墜星殖民地",
+        "limitsOfKnowledge": [
+          "完整生態特性未知",
+          "失控條件未知",
+          "外觀細節未正式登錄"
+        ],
+        "firstSeenMissionId": "D021"
+      },
+      {
+        "id": "M025",
+        "name": "封閉研究區捕食性生物",
+        "status": "突破個體×1 TERMINATED／深層休眠個體×3 CONTAINED",
+        "aliases": [
+          "未知外來卵囊／胚胎樣本衍生捕食者"
+        ],
+        "behavior": [
+          "無可靠馴化紀錄",
+          "研究方曾試圖將其作為高適應生物天敵但失敗"
+        ],
+        "relation": "HOSTILE WHEN ACTIVE",
+        "confidence": "HIGH",
+        "threatLevel": "HIGH",
+        "classification": "UNKNOWN／外來捕食性異常生物",
+        "encounterOutcome": "突破個體終止；三個深層休眠個體未開啟、未解凍；資料與警告已交付",
+        "firstSeenMission": "墜星殖民地",
+        "limitsOfKnowledge": [
+          "正式物種名稱未知",
+          "來源未知",
+          "完整生命週期未知",
+          "完整能力未知",
+          "外觀細節未正式登錄"
+        ],
+        "confirmedAbilities": [
+          "強烈捕食性",
+          "強酸性體液",
+          "高速舌刺穿刺",
+          "高攻擊性"
+        ],
+        "firstSeenMissionId": "D021"
+      },
+      {
+        "id": "D022-MOUNTAIN-CHILD",
+        "name": "山之子",
+        "status": "CEASEFIRE / HOSTILITY DE-ESCALATED",
+        "unknowns": [
+          "完整族群規模",
+          "與山神之長期關係"
+        ],
+        "confidence": "CONFIRMED",
+        "threatLevel": "條件性風險／非無差別敵對",
+        "classification": "智慧異常族群",
+        "effectiveTactics": [
+          "先辨識行為與目的",
+          "以孩童安全為共同利益建立停戰"
+        ],
+        "encounterOutcome": "與四人小隊建立停戰。",
+        "firstSeenMission": "血月孤兒院",
+        "inferredAbilities": [],
+        "confirmedAbilities": [
+          "具溝通能力",
+          "具照護孩童與集體行動能力",
+          "可在敵意判定改變後建立停戰"
+        ],
+        "firstSeenMissionId": "D022"
+      },
+      {
+        "id": "D022-MOUNTAIN-GOD",
+        "name": "山神",
+        "status": "ALIVE / STABLE",
+        "unknowns": [
+          "山神餘力具體效果",
+          "完整能力與權限"
+        ],
+        "confidence": "CONFIRMED",
+        "threatLevel": "高位生命／敵意未成立",
+        "classification": "古老高位山岳生命／儀式核心",
+        "effectiveTactics": [
+          "不因高位生命身分主動挑戰",
+          "以儀式結構與孩童狀態共同判斷"
+        ],
+        "encounterOutcome": "山神存活；十五名印記孩童15／15穩定。",
+        "firstSeenMission": "血月孤兒院",
+        "inferredAbilities": [
+          "可能與山之子及血月異常存在更深層關聯"
+        ],
+        "confirmedAbilities": [
+          "與十五名印記孩童儀式存在關聯",
+          "可留下穩定但未鑑定的餘力"
+        ],
+        "firstSeenMissionId": "D022"
+      },
+      {
+        "id": "D022-BLOOD-MOON-DEFENDER",
+        "name": "黑色防衛具象體",
+        "status": "DESTROYED",
+        "unknowns": [
+          "觀測會是否仍可重建同類具象"
+        ],
+        "confidence": "CONFIRMED",
+        "threatLevel": "高威脅／敵對成立",
+        "classification": "人工抽取術式防衛具象",
+        "effectiveTactics": [
+          "破壞供能與節點鏈",
+          "四人協同壓制"
+        ],
+        "encounterOutcome": "隨地表污染鏈與上游抽取鏈一併清除。",
+        "firstSeenMission": "血月孤兒院",
+        "inferredAbilities": [],
+        "confirmedAbilities": [
+          "依附血月污染與抽取鏈",
+          "主動阻止隊伍破壞節點"
+        ],
+        "firstSeenMissionId": "D022"
+      },
+      {
+        "id": "D022-OBSERVATORY-HOST",
+        "name": "觀測台污染宿主",
+        "status": "TERMINATED AFTER MULTI-CONFIRMATION",
+        "unknowns": [
+          "蝕月觀測會其他宿主與組織存續狀況"
+        ],
+        "confidence": "CONFIRMED",
+        "threatLevel": "高風險污染宿主",
+        "classification": "術式反噬污染宿主",
+        "effectiveTactics": [
+          "多人確認不可逆狀態後處置"
+        ],
+        "encounterOutcome": "四人完成多重確認後最終處置；無額外獎勵或懲罰。",
+        "firstSeenMission": "血月孤兒院",
+        "inferredAbilities": [],
+        "confirmedAbilities": [
+          "持續構成污染與攻擊風險"
+        ],
+        "firstSeenMissionId": "D022"
+      }
+    ]
+  }
+}

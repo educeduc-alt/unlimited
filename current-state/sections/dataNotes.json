@@ -1,0 +1,26 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "dataNotes",
+  "state": {
+    "dataNotes": {
+      "postD013": [
+        "D013自有醫療物資0消耗",
+        "隊員個人補給未明確宣告消耗，不扣除",
+        "公共飲水11、公共壓縮口糧15",
+        "灰隼智能選箭箭筒Ⅱ維持40/40",
+        "私人欠款全部清償"
+      ],
+      "deprecatedSnapshot": "舊v37／POST-D015摘要已被v55整合摘要取代",
+      "latestSnapshotRule": "v61為資料清理整合版：箭庫52支、翻譯模組800點、水域裝備M/L分級、行囊16.85／30m³及洛氣量成長狀態均已同步。",
+      "ammoBreakdownSource": "沿用既有正式資料庫鎖定配比",
+      "integratedCurrentState": "v55起以latestSnapshot作為首頁與閱讀頁快速摘要；party、economy、inventory、ammo、missionHistory等正式欄位仍為細節唯一來源",
+      "medicalConsumablesSource": "沿用既有正式資料庫精確庫存",
+      "tacticalSuitDetailPending": true,
+      "trainingDidNotConsumeMissionRations": true
+    }
+  }
+}

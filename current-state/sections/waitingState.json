@@ -1,0 +1,47 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "waitingState",
+  "state": {
+    "waitingState": {
+      "stage3": "COMPLETE",
+      "status": "READY / WAITING FOR SELECTION",
+      "decision": "優先再歷練B級；B+暫不急於挑戰",
+      "location": "AI主神空間",
+      "notDoing": [
+        "不進入新副本",
+        "不進行新的重大兌換",
+        "不主動開啟第三輪大型訓練"
+      ],
+      "training": "POST-D013五日自主修練完成",
+      "activities": [
+        "日常休息",
+        "裝備保養",
+        "一般生活",
+        "關係互動",
+        "基礎能力維持",
+        "等待下一次正式續玩"
+      ],
+      "preference": [
+        "感染／喪屍類",
+        "較高戰鬥密度",
+        "救援非主要核心"
+      ],
+      "lastMission": "D015《黑潮貨港》",
+      "nextMission": "UNSELECTED",
+      "markerLimits": "僅玩家／對話續玩標記；不得換算遊戲內時間、年齡、訓練天數、裝備升級、點數或副本推進",
+      "nextSessionStart": "AI主神空間｜POST-D013休整期",
+      "vehicleRestriction": "NONE",
+      "candidateDirections": [
+        "B級都市喪屍／突破型",
+        "B級屍潮／持續戰型",
+        "B級封閉空間／母體感染型",
+        "B+感染生態型"
+      ],
+      "realWorldContinuationMarker": "2026/08/20"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD019Settlement",
+  "state": {
+    "postD019Settlement": {
+      "points": {
+        "洛": 3090,
+        "伊恩": 3997,
+        "程牧": 6012,
+        "周映白": 5291,
+        "grandTotal": 20890,
+        "publicFunds": 2500,
+        "privateTotal": 18390
+      },
+      "rating": "S",
+      "status": "COMPLETE",
+      "equipment": {
+        "arrows": "117 READY／0 REPAIR",
+        "vehicle": "OPERATIONAL",
+        "fieldKitchen": "OPERATIONAL",
+        "waterPurifier": "OPERATIONAL",
+        "emergencyStation": "OPERATIONAL"
+      },
+      "auditStatus": "COMPLETE",
+      "partyOutcome": "4 IN / 4 OUT",
+      "pendingAudit": [],
+      "branchStories": {
+        "B": 4,
+        "C": 6
+      },
+      "logisticsAudit": {
+        "pendingCount": 0,
+        "生鮮食材": {
+          "unit": "人日等值",
+          "teamDays": 2.65,
+          "remaining": 10.6
+        },
+        "緊急口糧": {
+          "unit": "人日",
+          "before": 40,
+          "consumed": 9,
+          "remaining": 31
+        },
+        "緊急飲水": {
+          "unit": "人日",
+          "before": 40,
+          "consumed": 7,
+          "remaining": 33
+        },
+        "耐放主食": {
+          "unit": "人日等值",
+          "teamDays": 4.68,
+          "remaining": 18.7
+        },
+        "vehicleEnergyPercent": 72
+      }
+    }
+  }
+}

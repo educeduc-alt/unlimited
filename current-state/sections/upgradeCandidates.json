@@ -1,0 +1,26 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "upgradeCandidates",
+  "state": {
+    "upgradeCandidates": [
+      {
+        "cost": {
+          "branch": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "points": 4200
+        },
+        "name": "念體一元化Ⅰ",
+        "member": "洛",
+        "status": "WANTED / NOT PURCHASED / CURRENTLY UNAVAILABLE",
+        "characterFact": "洛本人已明確承認非常想要；不得改寫為洛不在乎或不想買。",
+        "reasonUnavailable": "目前共同B級支線＝0"
+      }
+    ]
+  }
+}

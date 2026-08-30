@@ -1,0 +1,187 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD014Phase2Procurement",
+  "state": {
+    "postD014Phase2Procurement": {
+      "id": "SHOP-POST-D014-PHASE2",
+      "title": "POST-D014｜第二階段強化",
+      "status": "CONFIRMED",
+      "funding": "PRIVATE_POINTS",
+      "purchases": {
+        "洛": [
+          {
+            "cost": 2800,
+            "name": "導能複合籠手Ⅱ",
+            "type": "EQUIPMENT_UPGRADE",
+            "limits": [
+              "不增加念總量",
+              "不自動控制念",
+              "承載與回饋不取代流"
+            ],
+            "status": "INSTALLED / OPERATIONAL",
+            "replaces": "導能複合籠手Ⅰ",
+            "functions": [
+              "前臂護甲抗衝擊結構",
+              "拳骨至前臂導能一致性",
+              "接觸區念流回饋",
+              "瞬態輸出後負荷分散",
+              "救援破障用途",
+              "模組接口優化"
+            ]
+          },
+          {
+            "cost": 1800,
+            "name": "念流動精密控制課程Ⅲ",
+            "type": "TRAINING_COURSE",
+            "focus": "基礎纏維持→高速局部分配→高負荷維持→疲勞下修正",
+            "limits": [
+              "不增加氣量",
+              "取得課程不等於完全掌握"
+            ],
+            "status": "ACQUIRED / TRAINING_PENDING"
+          }
+        ],
+        "伊恩": [
+          {
+            "cost": 2500,
+            "name": "術式快速構築Ⅱ",
+            "type": "TRAINING_COURSE",
+            "limits": [
+              "不增加總能量"
+            ],
+            "status": "ACQUIRED / TRAINING_PENDING"
+          },
+          {
+            "cost": 3000,
+            "name": "雙核交替運用Ⅱ",
+            "type": "TRAINING_COURSE",
+            "focus": "A核施術→B核預構築→取消／轉構→再接A核",
+            "limits": [
+              "不等於無限連發"
+            ],
+            "status": "ACQUIRED / TRAINING_PENDING"
+          },
+          {
+            "cost": 2200,
+            "name": "術式取消／轉構Ⅱ",
+            "type": "TRAINING_COURSE",
+            "focus": "取消不適合構築、保留部分結構並轉成既有術式",
+            "limits": [
+              "不自動增加技能階級或威力"
+            ],
+            "status": "ACQUIRED / TRAINING_PENDING"
+          }
+        ],
+        "程牧": [
+          {
+            "cost": 3200,
+            "name": "灰隼智能選箭箭筒Ⅲ",
+            "type": "EQUIPMENT_UPGRADE",
+            "limits": [
+              "不自行判定敵我",
+              "不自行開火",
+              "最終選箭權仍屬WIFI",
+              "不修復D014受損箭矢"
+            ],
+            "status": "INSTALLED / OPERATIONAL",
+            "replaces": "灰隼智能選箭箭筒Ⅱ",
+            "functions": [
+              "多目標箭種建議排序",
+              "彈藥消耗預測",
+              "回收價值提示",
+              "特殊箭優先級",
+              "狹窄／開闊環境建議修正",
+              "箭矢狀態管理",
+              "語音建議"
+            ]
+          },
+          {
+            "cost": 2800,
+            "name": "灰隼複合戰術弓Ⅱ",
+            "type": "EQUIPMENT_UPGRADE",
+            "limits": [
+              "不自動瞄準",
+              "不自行開火"
+            ],
+            "status": "INSTALLED / OPERATIONAL",
+            "replaces": "灰隼複合戰術弓",
+            "functions": [
+              "弓體耐久與長時間射擊穩定",
+              "模組接口整合",
+              "快速搭箭導引槽配合",
+              "特殊箭發射穩定",
+              "狹窄環境短距射擊控制",
+              "與動態射擊模組及箭筒Ⅲ同步"
+            ]
+          }
+        ],
+        "周映白": [
+          {
+            "cost": 2600,
+            "name": "火線傷員穩定與後送Ⅱ",
+            "type": "TRAINING_COURSE",
+            "focus": "切入→判傷→處置→拖帶→安全點→折返；多傷員排序、救援車接軌、後送固定與隔離區流程",
+            "limits": [
+              "仍不是完整醫師",
+              "不提供手術、重傷治癒或復活"
+            ],
+            "status": "ACQUIRED / TRAINING_PENDING"
+          },
+          {
+            "cost": 3000,
+            "name": "折返式模組救援棍Ⅱ",
+            "type": "EQUIPMENT_UPGRADE",
+            "limits": [
+              "仍非重型液壓工程設備"
+            ],
+            "status": "INSTALLED / OPERATIONAL",
+            "replaces": "折返式模組救援棍Ⅰ",
+            "functions": [
+              "耐負荷快接節點",
+              "穩定長柄救援模式",
+              "撬／楔／鉤工具整合",
+              "大型目標第二線控制",
+              "與拖帶及車載救援模組快速銜接"
+            ]
+          },
+          {
+            "cost": 1800,
+            "name": "運輸用折疊板車Ⅰ",
+            "type": "RESCUE_TRANSPORT",
+            "limits": [
+              "不增加額定載重",
+              "不等於無限疊載傷員",
+              "使用前仍需判傷與固定"
+            ],
+            "status": "CONFIRMED / OPERATIONAL",
+            "functions": [
+              "低重心傷員／物資拖運",
+              "連接快速拖帶帶具、救援繩、固定帶與救援棍掛點",
+              "狹窄車廂、走廊與維修區短距運輸",
+              "接軌救援車後送流程"
+            ]
+          }
+        ]
+      },
+      "totalCost": 25700,
+      "finalPoints": {
+        "洛": 820,
+        "伊恩": 1337,
+        "程牧": 1912,
+        "周映白": 1271
+      },
+      "privateDebt": 0,
+      "publicFunds": 2200,
+      "totalAssets": 7540,
+      "privateTotal": 5340,
+      "branchStories": {
+        "B": 2,
+        "C": 0
+      }
+    }
+  }
+}

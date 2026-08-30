@@ -1,0 +1,33 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD019Stage4Followup",
+  "state": {
+    "postD019Stage4Followup": {
+      "theme": "系統整合／不自動提高技能數值或能力上限",
+      "status": "CONFIRMED",
+      "equipment": {
+        "洛": "流脈近戰戰術服Ⅱ",
+        "伊恩": "流焰術式戰裝Ⅱ｜多層裙裝式",
+        "程牧": [
+          "遠距偵查戰術服Ⅱ",
+          "灰隼重磅戰弓｜漸進增磅訓練課程Ⅰ"
+        ],
+        "周映白": [
+          "折疊救援模組庫Ⅱ",
+          "自律式折疊救難應急站Ⅱ",
+          "救援戰術服Ⅱ"
+        ]
+      },
+      "lockedLimits": [
+        "不因購買裝備自動更新能力數值或上限",
+        "動態流與高負載閃返仍需實戰驗證",
+        "WIFI正式弓磅不更新",
+        "箭庫維持117支／待修0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD022Reinforcement",
+  "state": {
+    "postD022Reinforcement": {
+      "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+      "restDays": 2,
+      "saveNode": "D022-POST-REINFORCEMENT-01",
+      "nextScene": "AI主神空間｜校準完成／全隊休息",
+      "purchases": [
+        {
+          "item": "共享視界｜威脅預測Ⅰ",
+          "member": "程牧／WIFI",
+          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "branchCost": {
+            "rank": "C",
+            "quantity": 2
+          },
+          "privateCost": 2800
+        },
+        {
+          "item": "彈道領域Ⅰ",
+          "member": "程牧／WIFI",
+          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "branchCost": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "privateCost": 4400
+        },
+        {
+          "item": "術式自律節點Ⅰ",
+          "member": "伊恩",
+          "status": "ACQUIRED / INITIAL FAMILIARIZATION",
+          "branchCost": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "privateCost": 3600
+        },
+        {
+          "item": "多核心法陣Ⅰ",
+          "member": "伊恩",
+          "status": "ACQUIRED / INITIAL FAMILIARIZATION",
+          "branchCost": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "privateCost": 3800
+        },
+        {
+          "item": "空間錨定Ⅰ",
+          "member": "周映白",
+          "status": "ACQUIRED / INITIAL FAMILIARIZATION",
+          "branchCost": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "privateCost": 3000
+        },
+        {
+          "item": "空間安全感知Ⅰ",
+          "member": "周映白",
+          "status": "ACQUIRED / INITIAL FAMILIARIZATION",
+          "branchCost": {
+            "rank": "C",
+            "quantity": 1
+          },
+          "privateCost": 1900
+        },
+        {
+          "item": "四人共鳴錨Ⅰ",
+          "member": "四人共享",
+          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "branchCost": {
+            "rank": "B",
+            "quantity": 1
+          },
+          "publicCost": 3000
+        },
+        {
+          "item": "全身動態流反射訓練Ⅱ",
+          "member": "洛",
+          "status": "ACQUIRED / TRAINING PACKAGE ACTIVE",
+          "branchCost": {
+            "rank": "C",
+            "quantity": 1
+          },
+          "privateCost": 2600
+        },
+        {
+          "item": "一體式導能骨架Ⅰ／導能複合籠手Ⅲ",
+          "member": "洛",
+          "status": "OPERATIONAL / RECALIBRATION REQUIRED",
+          "branchCost": {
+            "rank": "C",
+            "quantity": 1
+          },
+          "privateCost": 3300
+        }
+      ],
+      "accounting": {
+        "pointsAfter": {
+          "洛": 1865,
+          "伊恩": 1172,
+          "程牧": 2537,
+          "周映白": 3816,
+          "grandTotal": 9394,
+          "publicFunds": 4,
+          "privateTotal": 9390
+        },
+        "pointsBefore": {
+          "洛": 7965,
+          "伊恩": 8572,
+          "程牧": 9737,
+          "周映白": 8716,
+          "grandTotal": 37994,
+          "publicFunds": 3004,
+          "privateTotal": 34990
+        },
+        "branchesAfter": {
+          "B": 0,
+          "C": 0
+        },
+        "branchesBefore": {
+          "B": 5,
+          "C": 5
+        },
+        "publicExpenseTotal": 3000,
+        "privateExpenseTotal": 25600
+      },
+      "lifeExpenses": [
+        {
+          "cost": 80,
+          "item": "四人休整料理食材",
+          "payer": "洛",
+          "inventoryRule": "不回扣正式後勤庫存"
+        },
+        {
+          "cost": 120,
+          "item": "WIFI與周映白兩間休息室門／門框修復",
+          "payer": "洛",
+          "result": "無人受傷／籠手無損／無戰鬥消耗"
+        }
+      ],
+      "inventoryRule": "正式飲水36、壓縮口糧36、耐放主食20人日、生鮮12人日與113支箭維持不變；伊恩EVA仍為FUNCTIONAL / REPAIR REQUIRED。",
+      "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY"
+    }
+  }
+}

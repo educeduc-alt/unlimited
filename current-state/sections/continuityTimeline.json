@@ -1,0 +1,62 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "continuityTimeline",
+  "state": {
+    "continuityTimeline": {
+      "title": "D020結算後→D021→POST-D021休整、結算與標準化測試時間線",
+      "events": [
+        {
+          "facts": [
+            "龍語加護STABLE / UNIDENTIFIED",
+            "圓6m約80秒／8m約45秒",
+            "箭庫114支"
+          ],
+          "order": 1,
+          "stage": "D020結算當下"
+        },
+        {
+          "facts": [
+            "龍語加護完成正式鑑定→IDENTIFIED / STABLE",
+            "圓完成三輪標準化測試→6m約90秒／8m約50秒",
+            "補束縛／信標／冰凍各1支→箭庫117支"
+          ],
+          "order": 2,
+          "stage": "POST-D020｜完整恢復後／D021出發前"
+        },
+        {
+          "facts": [
+            "圓沿用90秒／50秒基準，未再次升級",
+            "標準箭永久損耗3支、束縛箭永久損耗1支"
+          ],
+          "order": 3,
+          "stage": "D021"
+        },
+        {
+          "facts": [
+            "龍語加護IDENTIFIED / STABLE",
+            "圓6m約90秒／8m約50秒／10m非穩定實用",
+            "箭庫113 READY / 0 REPAIR"
+          ],
+          "order": 4,
+          "stage": "POST-D021 CURRENT"
+        },
+        {
+          "facts": [
+            "增大纏三輪104／102／105秒；平均103.67秒；相較60秒高輸出持續+72.78%；總念氣增加CONFIRMED",
+            "氣力置換同念有效承重指數100.0→117.6（+17.6%）",
+            "純肉體基礎力量指數100.0→106.4（+6.4%）",
+            "料理／餐飲臨時採買376公共點完成結算；公共1880→1504；正式後勤庫存不變"
+          ],
+          "order": 5,
+          "stage": "POST-D021｜完整休整後／正式訓練前"
+        }
+      ],
+      "status": "AUTHORITATIVE",
+      "supersessionRule": "舊版本快照僅描述當時狀態；若中間存在正式鑑定、採購、標準化測試或副本消耗，CURRENT必須依事件順序承接，不得以舊快照直接覆蓋新版。"
+    }
+  }
+}

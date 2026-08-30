@@ -1,0 +1,29 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "teamReadiness",
+  "state": {
+    "teamReadiness": {
+      "combat": "READY",
+      "rescue": "救難站已回收／需清潔、補充與常規檢查",
+      "廚房": "READY",
+      "戰鬥": "READY",
+      "救援": "READY",
+      "車輛": "READY",
+      "overall": "POST-D023 REST / INVENTORY CHECK PENDING",
+      "nextMission": "UNSELECTED",
+      "地圖驗證": "READY",
+      "大型法陣": "READY",
+      "大型資產": "RECOVERED / STORED",
+      "遠征營地": "READY",
+      "遠距觀測": "READY",
+      "醫療應急": "READY",
+      "醫療盤點": "PENDING",
+      "長期食水": "READY",
+      "食水盤點": "PENDING"
+    }
+  }
+}

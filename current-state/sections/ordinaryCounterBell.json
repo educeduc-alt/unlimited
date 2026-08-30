@@ -1,0 +1,22 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "ordinaryCounterBell",
+  "state": {
+    "ordinaryCounterBell": {
+      "name": "普通櫃台鈴",
+      "rule": "不得解讀為評價、勝利、強化或任務完成條件",
+      "status": "HELD",
+      "quantity": 1,
+      "lastRungBy": "周映白／香蕉",
+      "combatEffect": "無",
+      "ratingEffect": "無",
+      "specialEffect": "無",
+      "lastRungMeaning": "4 IN / 4 OUT",
+      "lastRungMission": "D023"
+    }
+  }
+}

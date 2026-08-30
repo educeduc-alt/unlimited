@@ -1,0 +1,84 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "personalAssets",
+  "state": {
+    "personalAssets": {
+      "洛": [
+        {
+          "cost": 300,
+          "name": "約束之手環｜刻字「恩」",
+          "type": "紀念／自願佩戴",
+          "owner": "洛",
+          "status": "REPAIRED／WORN",
+          "boundTo": "洛",
+          "history": [
+            "Day 5由伊恩以私人點數300兌換並替洛佩戴",
+            "Day 6與Day 7洛只使用基本纏，違規0，手環保持完整",
+            "後續曾斷裂；十日休養完成後已修復並刻「恩」",
+            "修復後原限制功能不恢復，僅作紀念佩戴"
+          ],
+          "costRule": "伊恩於Day 5以私人點數購買；後續修復與刻字未提供額外費用，不再扣點",
+          "function": "無主動或自動功能；原休養期監督限制已完成且不恢復",
+          "purchasedBy": "伊恩",
+          "combatEffect": "無",
+          "originalName": "約束之手環",
+          "purchasePrice": 300,
+          "originalMechanism": {
+            "effect": "只留下違規證據；不傷害、不封印念、不干擾基本纏",
+            "status": "EXPIRED_AFTER_REST／NOT_RESTORED",
+            "basicTen": "允許",
+            "disclosure": "洛在休養期間不知道斷裂機制，只知道是監督手環",
+            "aboveBasicTen": "休養期內使用即令手環斷裂"
+          },
+          "originalUsePeriod": "D017後十日念氣透支休養期"
+        }
+      ],
+      "伊恩": [
+        {
+          "name": "赤晶焰紋髮扣",
+          "type": "純裝飾／束髮用品",
+          "giver": "洛",
+          "holder": "伊恩",
+          "quantity": 1,
+          "combatEffect": "無",
+          "settlementId": "SET-2026-08-17-PHASE1"
+        },
+        {
+          "cost": 50,
+          "name": "親密接觸後基礎護理組Ⅰ",
+          "type": "PRIVATE CARE／CONSUMABLE",
+          "uses": [
+            "外部清潔",
+            "舒緩",
+            "基本觀察",
+            "衛生處理"
+          ],
+          "owner": "伊恩",
+          "limits": "不是完整醫療器材；若持續疼痛、明顯出血、腫脹或排便異常需重新掃描",
+          "status": "ACQUIRED",
+          "contents": [
+            "溫和無香清潔用品",
+            "生理食鹽水／基礎外部清潔用品",
+            "柔軟一次性棉巾",
+            "冷敷袋",
+            "外部皮膚保護凝膠",
+            "一次性手套",
+            "小型照明檢查燈",
+            "密封垃圾袋"
+          ],
+          "excludes": [
+            "刺激用途器具",
+            "深部沖洗器具",
+            "藥物治療"
+          ],
+          "displayRule": "私人用品；一般公共物資摘要不主動展示",
+          "purchasedBy": "洛"
+        }
+      ]
+    }
+  }
+}

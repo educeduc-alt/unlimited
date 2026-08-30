@@ -1,0 +1,67 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "preD023Deployment",
+  "state": {
+    "preD023Deployment": {
+      "title": "PRE-D023｜LONG-RANGE EXPEDITION READY",
+      "status": "SELECTED / PRE-DEPLOYMENT READY",
+      "mission": {
+        "id": "D023",
+        "name": "沒有太陽的第三遠征隊",
+        "types": [
+          "長距離探索",
+          "未知生態",
+          "失蹤遠征隊搜索",
+          "高環境壓力",
+          "長期後勤管理"
+        ],
+        "mapRule": "第一張、第二張與副本內既有地圖均不自動視為絕對可靠；以車載模組＋WIFI風鏡＋人工地標建立實測第三張地圖。",
+        "difficulty": "A-",
+        "knownObjectives": [
+          "找到第三遠征隊最後確認位置",
+          "確認至少一名第三遠征隊員目前狀態",
+          "第三主線：LOCKED"
+        ],
+        "thirdExpedition": {
+          "members": 127,
+          "missingFor": "約31日前",
+          "lastMessage": "不要相信第二張地圖。"
+        }
+      },
+      "location": "AI主神空間",
+      "saveNode": "D023-PRE-DEPLOYMENT-01",
+      "nextEvent": "D023 DEPLOYMENT",
+      "resourceRule": "出發前不得自動扣除乾糧、飲水、料理食材、醫療耗材、箭矢或能源；僅於實際使用後扣除。",
+      "selectionReason": "補足隊伍對長副本的敏感度、長距離探索與遠征能力；不是為追求高難度或刺激。",
+      "operationalRules": [
+        "建立自己的實測第三張地圖",
+        "車載地圖與WIFI風鏡紀錄交叉驗證",
+        "智能哨兵僅輔助警戒，真人仍需輪值",
+        "補給優先保留回程安全量",
+        "救援車可用時不為訓練刻意徒步",
+        "未知地區閃返步不得盲跳",
+        "箭矢為有限實體庫存，長距離副本控制消耗",
+        "洛不為驗證新能力主動追求最大輸出",
+        "伊恩多核心／自律節點仍受精神負荷限制",
+        "四人共鳴錨不是精神免疫"
+      ],
+      "withdrawalTriggers": [
+        "補給跌破安全線",
+        "地圖資訊嚴重失真",
+        "四人共鳴錨出現不可解釋異常",
+        "有人傷勢／精神／體力明顯惡化",
+        "撤退路線失去可靠性",
+        "環境風險超過隊伍承受範圍"
+      ],
+      "forbiddenJustifications": [
+        "快到了",
+        "再撐一下",
+        "訓練價值很高"
+      ]
+    }
+  }
+}

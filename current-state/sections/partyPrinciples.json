@@ -1,0 +1,22 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "partyPrinciples",
+  "state": {
+    "partyPrinciples": {
+      "rules": [
+        "不是洛帶三人，而是四人共同作戰。",
+        "洛是隊長與前線核心，但不是消耗品。",
+        "任何一人的存活、成長、裝備、能力與恢復都屬隊伍戰力。",
+        "隊長不等於永遠最後取得資源、獨自承擔風險或自行判定自己不重要。",
+        "洛有需求時應明確說出，由四人共同評估。",
+        "高信任不等於無條件服從；伊恩維持副指揮權與反對不安全決定的權限。"
+      ],
+      "title": "四人一起",
+      "status": "CONFIRMED / CURRENT"
+    }
+  }
+}

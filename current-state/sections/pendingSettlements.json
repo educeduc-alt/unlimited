@@ -1,0 +1,91 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "pendingSettlements",
+  "state": {
+    "pendingSettlements": [
+      {
+        "id": "SET-2026-08-17-PHASE2-MEDICAL",
+        "name": "零號線副本後｜第二階段公共醫療補強",
+        "status": "已執行",
+        "workflow": "傷情判讀→止血／固定→快速拖帶撤出火線→重新評估→中級應急處置／進階創傷處理→擔架後送→必要時生命維持",
+        "purchases": [
+          {
+            "name": "戰術止血組",
+            "limits": "嚴重外出血控制；不等於傷勢治癒",
+            "quantity": 2,
+            "subtotal": 500,
+            "unitPrice": 250
+          },
+          {
+            "name": "多用途快速固定夾板",
+            "limits": "疑似骨折／嚴重關節傷臨時固定；不直接治療骨折",
+            "quantity": 1,
+            "subtotal": 180,
+            "unitPrice": 180
+          },
+          {
+            "name": "中級創傷應急劑",
+            "limits": "中度創傷／休克風險短期穩定；不恢復完整戰力或修復嚴重內臟傷",
+            "quantity": 1,
+            "subtotal": 600,
+            "unitPrice": 600
+          },
+          {
+            "name": "進階創傷處理包",
+            "limits": "清創、止血、包紮、固定輔助與基礎器械；消耗品使用後需補充",
+            "quantity": 1,
+            "subtotal": 750,
+            "unitPrice": 750
+          },
+          {
+            "name": "生命維持凝膠",
+            "limits": "短時間維持重傷者生命以爭取撤離／治療；不治療、不復活、不恢復戰鬥",
+            "quantity": 1,
+            "subtotal": 1200,
+            "unitPrice": 1200
+          },
+          {
+            "name": "折疊式傷員後送擔架",
+            "limits": "離開直接火線後穩定後送；與火線快速拖帶帶具並存",
+            "quantity": 1,
+            "subtotal": 400,
+            "unitPrice": 400
+          }
+        ],
+        "totalCost": 3630,
+        "resolution": "公共資金2105全數使用；私人點數近似均分補足1525",
+        "resolvedAt": "2026-08-17T00:00:00+08:00",
+        "discrepancy": "卡片所列尚缺2430與CURRENT STATE計算差異905；需確認既有公共資金905是否保留不用",
+        "prohibition": "不得因此將周映白標記為完整醫師或治療系能力者",
+        "executionRule": "資金來源確認前不得扣款、不得入庫、不得平均扣除或使公共資金為負",
+        "currentPublicFundsAfterPhase1": 2105,
+        "statedPrivateContributionPending": 2430,
+        "arithmeticShortfallIfAllPublicFundsUsable": 1525
+      },
+      {
+        "id": "SET-POST-D011-SHOP-LOGISTICS",
+        "name": "D011後商城採購與後勤補強",
+        "status": "已執行",
+        "economy": {
+          "grandTotal": 12885,
+          "publicFunds": 270,
+          "privateTotal": 12615,
+          "sharedSideStoryC": 0
+        },
+        "purchases": [
+          "個人醫療補充",
+          "四人基礎醫療補充箱×1",
+          "緊急定位／集合器×1套＋子標記×4",
+          "折疊式野外淨水器×1",
+          "四人份輕量露營模組×1",
+          "四人共享次元行囊Ⅰ×1"
+        ],
+        "completedAt": "2026-08-18T00:00:00+08:00"
+      }
+    ]
+  }
+}

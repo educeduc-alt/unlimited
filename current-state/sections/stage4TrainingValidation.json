@@ -1,0 +1,62 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "stage4TrainingValidation",
+  "state": {
+    "stage4TrainingValidation": {
+      "title": "第四階段訓練・三輪標準化測試",
+      "rounds": [
+        {
+          "focus": "固定條件與初步重現",
+          "round": "第一輪"
+        },
+        {
+          "focus": "正式標準化與穩定重現",
+          "round": "第二輪"
+        },
+        {
+          "focus": "任務化、非理想條件與實際流程",
+          "round": "第三輪"
+        }
+      ],
+      "status": "COMPLETE",
+      "results": {
+        "洛": {
+          "周": "PRACTICAL",
+          "圓": "6m／60秒正式實用基準；8m短時延伸；10m未列實用",
+          "動態流": "PRACTICAL",
+          "念力負荷適應": "PRACTICAL ADAPTATION"
+        },
+        "伊恩": {
+          "大型偵測法陣Ⅰ": "PRACTICAL",
+          "大型防禦法陣Ⅰ": "PRACTICAL",
+          "多節點大型法陣框架": "可實際運用"
+        },
+        "程牧": {
+          "箭庫": "117支有限實體箭矢／0待修",
+          "箭種戰術鏈／智能選箭流程": "PRACTICAL"
+        },
+        "周映白": {
+          "落點控制": "改善CONFIRMED",
+          "正式最大距離": "不更新",
+          "高負載閃返救援流程": "PRACTICAL"
+        }
+      },
+      "duration": "10天分段訓練＋三輪標準化測試",
+      "nextStep": "帶入下一副本實戰驗證；返還後依表現評估四人戰術服升級",
+      "lockedLimits": [
+        "洛總氣量本輪未確認成長",
+        "洛最大力量與最大承重級別不更新",
+        "周映白正式閃返步最大距離不更新",
+        "WIFI箭庫仍為有限實體箭矢",
+        "伊恩大型法陣不可瞬發",
+        "伊恩能量總量與精神承載上限未確認成長",
+        "未測項目不得自行補數值",
+        "任何能力都沒有因十天訓練自動升級"
+      ]
+    }
+  }
+}

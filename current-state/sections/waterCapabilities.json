@@ -1,0 +1,52 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "waterCapabilities",
+  "state": {
+    "waterCapabilities": {
+      "status": "CONFIRMED_BY_STANDARD_POOL_SIMULATION",
+      "members": {
+        "洛": {
+          "role": "水面第二救援／力量支援",
+          "float": "可",
+          "level": "基礎合格",
+          "swim25m": "穩定完成",
+          "fullGear": "可行動但負荷明顯上升",
+          "treadWater": "可",
+          "casualtyTow": "可／技術普通"
+        },
+        "伊恩": {
+          "role": "穩定平台施術／熱流與環境支援",
+          "float": "可",
+          "level": "基礎合格",
+          "swim25m": "可完成",
+          "fullGear": "術式長衣降低水中機動",
+          "treadWater": "可／長時間消耗較明顯",
+          "casualtyTow": "不建議"
+        },
+        "程牧": {
+          "role": "穩定平台觀察／遠距支援／投放浮具",
+          "float": "可",
+          "level": "基礎合格",
+          "swim25m": "穩定完成",
+          "fullGear": "弓與箭庫明顯限制動作",
+          "treadWater": "可",
+          "casualtyTow": "可／效率普通"
+        },
+        "周映白": {
+          "role": "主要水上與深潛救援核心",
+          "float": "穩定",
+          "level": "良好",
+          "swim25m": "輕鬆完成",
+          "fullGear": "穩定",
+          "treadWater": "穩定",
+          "casualtyTow": "隊內最佳"
+        }
+      },
+      "teamRule": "四人均會游泳，但不等同具備專業開放水域或海難救援資格"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD018Settlement",
+  "state": {
+    "postD018Settlement": {
+      "id": "SET-D018",
+      "name": "D018《沉眠列島》正式結算",
+      "rating": "S",
+      "status": "COMPLETE",
+      "pending": [
+        "下次副本前補充共享食水",
+        "換下能源模組回充",
+        "討論是否補購更多深潛裝備"
+      ],
+      "rewards": {
+        "洛": 2850,
+        "伊恩": 2900,
+        "程牧": 2850,
+        "周映白": 2900,
+        "publicFunds": 1200,
+        "branchStories": {
+          "B": 1,
+          "C": 3
+        }
+      },
+      "newSkills": [],
+      "arrowsAfter": {
+        "ready": 52,
+        "repairPending": 0
+      },
+      "baseVersion": 61,
+      "missionRank": "B+",
+      "pointsAfter": {
+        "洛": 4370,
+        "伊恩": 4447,
+        "程牧": 5062,
+        "周映白": 4441,
+        "grandTotal": 19720,
+        "publicFunds": 1400,
+        "privateTotal": 18320
+      },
+      "privateDebt": 0,
+      "pointsBefore": {
+        "洛": 1520,
+        "伊恩": 1547,
+        "程牧": 2212,
+        "周映白": 1541,
+        "publicFunds": 200
+      },
+      "provisionsAfter": {
+        "飲水": 0,
+        "壓縮口糧": 0
+      },
+      "branchStoriesAfter": {
+        "B": 2,
+        "C": 6
+      },
+      "branchStoriesBefore": {
+        "B": 1,
+        "C": 3
+      },
+      "confirmedTacticalExperience": [
+        "核心區抗沉眠行動規則"
+      ]
+    }
+  }
+}

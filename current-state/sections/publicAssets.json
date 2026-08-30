@@ -1,0 +1,409 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "publicAssets",
+  "state": {
+    "publicAssets": [
+      {
+        "name": "普通櫃台鈴",
+        "type": "公共紀念物",
+        "effect": "無特殊效果",
+        "purpose": "四人隊每次副本全員平安返回後共同按鈴紀念",
+        "quantity": 1,
+        "acquiredBy": "洛",
+        "lastRungBy": "周映白／香蕉",
+        "combatEffect": false,
+        "ratingEffect": false,
+        "settlementId": "SET-2026-08-17-PHASE1",
+        "specialEffect": false,
+        "lastRungMeaning": "4 IN / 4 OUT",
+        "lastRungMission": "D021"
+      },
+      {
+        "cost": {
+          "points": 6500,
+          "BBranch": 1
+        },
+        "name": "B級｜兩棲折疊救援車Ⅱ",
+        "type": "跨副本陸／水機動救援載具",
+        "limits": [
+          "完整隊伍依適性分工但不鎖定職位",
+          "單一成員失能時其他成員可依訓練接替"
+        ],
+        "status": "OPERATIONAL",
+        "location": "AI主神空間",
+        "quantity": 1,
+        "repairCost": 1200,
+        "fieldRepair": "IMPOSSIBLE",
+        "capabilities": [
+          "四人運輸",
+          "陸地行駛",
+          "越野行駛",
+          "水上推進",
+          "陸／水模式切換",
+          "傷員固定／後送",
+          "拖曳／絞盤",
+          "環境／車況感測",
+          "折疊收納"
+        ],
+        "repairStatus": "FORMAL REPAIR COMPLETE",
+        "foldedVolumeM3": 5.05,
+        "requiredAction": "正式維修"
+      },
+      {
+        "cost": 1200,
+        "name": "跨環境高密度備用能源組Ⅰ",
+        "type": "載具備援能源",
+        "status": "CONFIRMED",
+        "quantity": 1,
+        "volumeM3": 0.86
+      },
+      {
+        "cost": 800,
+        "name": "兩棲載具野戰維修套件Ⅰ",
+        "type": "載具現場緊急快修",
+        "limits": [
+          "不能修復嚴重車體結構毀損",
+          "不能修復完全報廢能源核心",
+          "不能修復完全毀損主推進系統"
+        ],
+        "status": "CONFIRMED",
+        "quantity": 1,
+        "volumeM3": 0.94
+      },
+      {
+        "cost": 800,
+        "name": "車載快速救援模組Ⅰ",
+        "type": "周映白救援裝備／載具相容模組",
+        "status": "CONFIRMED",
+        "quantity": 1
+      },
+      {
+        "cost": 1800,
+        "name": "車載外部救援固定架Ⅱ",
+        "type": "兩棲載具外部救援／後送固定模組",
+        "limits": [
+          "不增加載具核定載重",
+          "不等於新增正式乘員座位",
+          "不得視為高速外掛乘員無風險",
+          "不取代安全固定程序"
+        ],
+        "paidBy": "公共資金",
+        "reason": "D013出現車內空間不足與仿生單位使用外側固定點需求",
+        "status": "OPERATIONAL",
+        "quantity": 1,
+        "functions": [
+          "增加車體外側安全固定點",
+          "可固定救生索、拖帶帶具、輕型擔架及相容外掛載荷",
+          "改善車外救援／後送固定能力"
+        ],
+        "installedOn": "B級｜兩棲折疊救援車Ⅱ"
+      },
+      {
+        "core": "約普通教室大小的自律救援節點。",
+        "name": "自律式折疊救難應急站Ⅱ",
+        "role": "現場應急醫療穩定站",
+        "type": "共享大型救援資產／主要操作員周映白",
+        "limits": [
+          "不是完整醫院",
+          "不做大型手術",
+          "不取代ICU",
+          "不復活",
+          "不提供無限藥品"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "carrier": "折疊救援模組庫Ⅱ",
+        "quantity": 1,
+        "functions": [
+          "靜脈輸液支援",
+          "應急藥物管理",
+          "進階多床位監測",
+          "應急處置工作位",
+          "醫療耗材艙",
+          "撤離交接紀錄"
+        ],
+        "lastAudit": "D021 COMPLETE／剩餘62%",
+        "ownerType": "共享大型救援資產",
+        "stockCost": 600,
+        "stockType": "正式有限實體庫存",
+        "stockScale": "10人份",
+        "displayRule": "同系列僅顯示最新Ⅱ型；Ⅰ型保留於歷史紀錄",
+        "maintenance": {
+          "cleaning": "REQUIRED",
+          "permanentDamage": false,
+          "consumableRestock": "REQUIRED",
+          "routineInspection": "REQUIRED"
+        },
+        "upgradeCost": 1800,
+        "restockStatus": "RECOMMENDED / NOT PURCHASED",
+        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "lastDeployment": "D021《墜星殖民地》",
+        "totalStageCost": 2400,
+        "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+        "d020Consumption": {
+          "傷口清潔液": 5,
+          "標準止吐藥": 2,
+          "基礎抗過敏藥": 0,
+          "平衡型晶體液": 4,
+          "標準輸液管路": 4,
+          "靜脈通路建立組": 4,
+          "嚴重過敏緊急藥物": 0,
+          "基礎口服止痛退熱藥": 4,
+          "局部止痛／舒緩單元": 4,
+          "支氣管舒張應急單元": 1,
+          "標準應急注射止痛劑": 3
+        },
+        "primaryOperator": "周映白",
+        "medicalStockCost": 600,
+        "itemizedStockRule": "D021未提供逐項耗用；既有逐項數量僅保留為上次明細，不作為D021後精確現值",
+        "medicalStockPercent": 62,
+        "tenPersonMedicalStock": {
+          "抗生素": "未列入自動標準應急藥庫",
+          "傷口清潔液": 5,
+          "標準止吐藥": 8,
+          "基礎抗過敏藥": 10,
+          "平衡型晶體液": 6,
+          "標準輸液管路": 6,
+          "靜脈通路建立組": 6,
+          "嚴重過敏緊急藥物": 4,
+          "基礎口服止痛退熱藥": 16,
+          "局部止痛／舒緩單元": 6,
+          "支氣管舒張應急單元": 5,
+          "標準應急注射止痛劑": 7
+        },
+        "d021ConsumptionRatePercent": 38
+      },
+      {
+        "cost": 1200,
+        "name": "車載跨溫域環境控制模組Ⅰ",
+        "type": "兩棲救援車環境控制模組",
+        "limits": [
+          "非完全生命維持系統",
+          "非毒氣／真空防護",
+          "極端環境能源消耗增加"
+        ],
+        "paidBy": "公共資金",
+        "status": "INSTALLED／OPERATIONAL",
+        "quantity": 1,
+        "functions": [
+          "主動加熱",
+          "主動降溫",
+          "基礎保溫／隔熱",
+          "車窗除霜／除霧",
+          "乘員艙與傷員區溫度調節"
+        ],
+        "installedOn": "B級｜兩棲折疊救援車Ⅱ"
+      },
+      {
+        "cost": 320,
+        "name": "個人水域浮力背心Ⅰ",
+        "type": "四人水面安全裝備",
+        "limits": [
+          "不等於完全防溺",
+          "不提供深潛功能",
+          "進入有落水風險區域時四人均須穿戴"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "quantity": 4,
+        "functions": [
+          "提供持續正浮力",
+          "與戰術服／術式長衣相容",
+          "協助落水者維持頭部高於水面"
+        ]
+      },
+      {
+        "cost": 200,
+        "name": "快速投擲浮力救援包",
+        "type": "水面快速投救裝備",
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "contents": [
+          "高浮力抓握浮具",
+          "浮水拋繩"
+        ],
+        "quantity": 2
+      },
+      {
+        "cost": 220,
+        "name": "折疊式水上救援浮板Ⅰ",
+        "type": "水面傷員拖帶裝備",
+        "limits": [
+          "不是高速艇",
+          "不是醫療擔架"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "quantity": 1
+      },
+      {
+        "cost": 140,
+        "name": "防水救援燈／水面信標組",
+        "type": "無聲環境水面標記裝備",
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "quantity": 2
+      },
+      {
+        "cost": 800,
+        "name": "多語偵測翻譯系統Ⅰ",
+        "type": "四人共享戰術視界語言偵測／翻譯模組",
+        "limits": [
+          "不是讀心",
+          "無法翻譯未取得的訊息",
+          "未知語系、干擾或語意不足時可能無法正確翻譯",
+          "翻譯結果仍需結合語境判斷"
+        ],
+        "paidBy": "公共資金",
+        "status": "INSTALLED／OPERATIONAL",
+        "functions": [
+          "偵測可辨識語言",
+          "將已取得的語言內容轉為四人可理解的視界文字",
+          "支援非語音情報互證"
+        ],
+        "installedOn": "四人共享戰術視界"
+      },
+      {
+        "cost": 1200,
+        "name": "車載折疊野炊廚房模組Ⅰ",
+        "type": "共享生活／後勤設備",
+        "limits": [
+          "不取代壓縮口糧或緊急即食補給",
+          "需穩定營地與可安全展開條件",
+          "高氣味／高可視蒸氣環境需評估風險"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "purpose": "長期任務正常熱食與士氣後勤",
+        "mounting": "可拆卸式；平時完整折疊收納於共享次元行囊Ⅱ",
+        "quantity": 1,
+        "volumeM3": 3,
+        "equipment": [
+          "大型烤箱",
+          "微波爐",
+          "雙爐口",
+          "深鍋",
+          "淺鍋",
+          "平底鍋",
+          "專業菜刀組",
+          "折疊備料／料理區",
+          "基礎清洗區",
+          "收納系統",
+          "鍋具／刀具行車固定",
+          "排煙／濾味",
+          "能源管理介面",
+          "洛專用廚師服×1"
+        ],
+        "energyRule": "可連接救援車能源；保護最低撤離能源餘量，可能侵占撤離安全餘量時高耗能設備限載／停止",
+        "storageGrade": "L",
+        "compatibleVehicle": "B級｜兩棲折疊救援車Ⅱ"
+      },
+      {
+        "cost": 10500,
+        "crew": "標準4／最低航行1／基本戰鬥2／完整性能4",
+        "name": "旅星｜四人折疊多用途艇",
+        "type": "四人小型多用途星際艦／共享大型資產",
+        "limits": [
+          "無大型主炮",
+          "無大型機庫",
+          "非長期殖民艦",
+          "非完整醫院",
+          "無限能源否",
+          "無限航程否"
+        ],
+        "status": "FIELD-VALIDATED / OPERATIONAL",
+        "storage": "四人共享次元行囊Ⅲ｜5.5m³",
+        "weapons": [
+          "可變向輕型能量炮×2",
+          "防禦性攔截器×1組"
+        ],
+        "branchCost": "B級×1",
+        "facilities": [
+          "折疊睡眠位×4",
+          "傷患固定位×4",
+          "約3m³艦內貨艙",
+          "人工重力／重力補償",
+          "短期生命支持",
+          "簡易衛生間與備餐設備"
+        ],
+        "navigation": [
+          "大氣層飛行",
+          "真空航行",
+          "軌道進出",
+          "VTOL",
+          "自動導航",
+          "單人緊急返航輔助"
+        ],
+        "lastMission": "D021《墜星殖民地》",
+        "fieldValidated": [
+          "真空展開與航行",
+          "VTOL與地表著陸",
+          "EVA對接",
+          "傷患運輸",
+          "感測與導航",
+          "人工重力",
+          "生命支持",
+          "移動式R-01救援中繼"
+        ],
+        "notYetValidated": [
+          "艦對艦戰鬥",
+          "高強度戰鬥機動",
+          "長期深空航行"
+        ],
+        "permanentHullDamage": false
+      },
+      {
+        "cost": 650,
+        "name": "正式遠征露營模組Ⅰ",
+        "type": "長距離遠征營地設備",
+        "status": "OPERATIONAL",
+        "quantity": 1,
+        "volumeM3": 2.5,
+        "functions": [
+          "四人多日宿營",
+          "營地收納",
+          "氣候遮蔽",
+          "長期遠征休整"
+        ],
+        "supersedes": "四人份輕量露營模組"
+      },
+      {
+        "cost": 900,
+        "name": "智能警戒哨兵Ⅰ",
+        "type": "營地警戒輔助設備",
+        "limits": [
+          "不自動判敵",
+          "不自動開火",
+          "無致命武裝",
+          "不能取代真人夜哨",
+          "環境干擾會降低可靠性",
+          "未知異常可能繞過正常偵測邏輯"
+        ],
+        "status": "OPERATIONAL",
+        "quantity": 2,
+        "volumeM3": 0.8,
+        "functions": [
+          "周界移動監測",
+          "熱源監測",
+          "聲響監測",
+          "震動監測",
+          "接近方向提示",
+          "夜間營地警戒",
+          "共享戰術視界標記同步"
+        ]
+      },
+      {
+        "cost": 320,
+        "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
+        "type": "遠征路線實測與回撤記錄",
+        "status": "INSTALLED / OPERATIONAL",
+        "quantity": 1,
+        "installedOn": "兩棲折疊救援車Ⅱ"
+      }
+    ]
+  }
+}

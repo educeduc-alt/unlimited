@@ -1,0 +1,34 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD018Stage4Procurement",
+  "state": {
+    "postD018Stage4Procurement": {
+      "status": "CONFIRMED",
+      "bagUsage": {
+        "freeM3": 10.15,
+        "usedM3": 19.85,
+        "totalM3": 30
+      },
+      "arrowTotal": 117,
+      "baseVersion": 63,
+      "finalEconomy": {
+        "洛": 1220,
+        "伊恩": 1447,
+        "程牧": 3462,
+        "周映白": 2841,
+        "grandTotal": 9170,
+        "publicFunds": 200,
+        "privateTotal": 8970,
+        "branchStories": {
+          "B": 2,
+          "C": 3
+        }
+      },
+      "accountingNote": "v63已扣除護理組50點；本卡不重複扣除"
+    }
+  }
+}

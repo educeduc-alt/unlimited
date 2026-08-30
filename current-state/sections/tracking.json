@@ -1,0 +1,108 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "tracking",
+  "state": {
+    "tracking": {
+      "missionHistory": [],
+      "trainingRecords": [
+        {
+          "id": "TR-2026-08-17-POST-ZERO-LINE-10D",
+          "costs": {
+            "points": 0,
+            "sideStories": 0,
+            "formalMedicalConsumables": 0
+          },
+          "title": "十日修練＋四人聯合實戰演練＋休息日結束",
+          "status": "完成",
+          "duration": {
+            "restDays": 1,
+            "systemTrainingDays": 10,
+            "jointSimulationDays": 1
+          },
+          "location": "AI主神空間",
+          "baseVersion": 13,
+          "nextMission": null,
+          "teamOutcome": [
+            "四人聯合動態模擬實戰完成",
+            "既有戰術體系重新驗證",
+            "休息日無訓練、採購或資產變更",
+            "全員無新增永久傷勢"
+          ],
+          "participants": [
+            "洛",
+            "周映白",
+            "伊恩",
+            "程牧"
+          ],
+          "relationshipChange": "無",
+          "medicalSimulationRule": "僅使用主神生成之模擬耗材，v13正式公共醫療庫存零消耗"
+        }
+      ],
+      "changeLogEnabled": true,
+      "ammoConsumptionRecords": [
+        {
+          "note": "沒射不等於沒用；程牧持續使用風鏡、動態觀測、威脅排序、戰術鏈路與環境偵察",
+          "reason": "主要威脅透過環境調查、規則破解、核驗規避與交通流程完成，沒有形成需要實際射擊的必要窗口",
+          "mission": "鏽港交通網Ⅲ｜零號線",
+          "missionId": "D010",
+          "arrowsUsed": 0
+        }
+      ],
+      "missionConsumptionRecords": [
+        {
+          "mission": "鏽港交通網Ⅲ｜零號線",
+          "missionId": "D010",
+          "arrowsUsed": 0,
+          "recordedAt": "2026-08-17T00:00:00+08:00",
+          "medicalConsumablesUsed": 0,
+          "equipmentPermanentDamage": 0
+        },
+        {
+          "mission": "赤沙巨獸狩獵場",
+          "missionId": "D011",
+          "stretcher": "使用後回收／仍持有×1",
+          "arrowsUsed": 0,
+          "recordedAt": "2026-08-17T00:00:00+08:00",
+          "provisionsUsed": {
+            "perMember": {
+              "飲水": 4,
+              "壓縮口糧": 3
+            },
+            "remainingPerMember": {
+              "飲水": 3,
+              "壓縮口糧": 4
+            }
+          },
+          "medicalConsumablesUsed": [
+            {
+              "item": "基礎創傷應急劑",
+              "quantity": 1,
+              "character": "洛"
+            },
+            {
+              "item": "醫療噴膜",
+              "quantity": 1,
+              "character": "周映白"
+            },
+            {
+              "item": "醫療噴膜",
+              "quantity": 1,
+              "character": "伊恩"
+            },
+            {
+              "item": "鈍傷修復貼",
+              "quantity": 1,
+              "character": "程牧"
+            }
+          ],
+          "equipmentPermanentDamage": 0,
+          "publicMedicalConsumablesUsed": 0
+        }
+      ]
+    }
+  }
+}

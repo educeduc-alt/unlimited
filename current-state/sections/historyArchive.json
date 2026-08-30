@@ -1,0 +1,67 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "historyArchive",
+  "state": {
+    "historyArchive": {
+      "rules": [
+        "折疊只改變閱讀層，不刪除或改寫歷史事實。",
+        "目前點數、現行能力、最新裝備、當前物資與下一副本不得收進舊資料區。",
+        "舊裝備階段不得與現行裝備並列為同時持有，除非資料明確標示為獨立實體。",
+        "歷史PROTOTYPE、RESEARCH、PRACTICAL不得因封存而升格。"
+      ],
+      "status": "ACTIVE / NON-DESTRUCTIVE",
+      "categories": [
+        {
+          "id": "ability-history",
+          "label": "舊能力與歷史訓練",
+          "display": "COLLAPSED",
+          "sourceKeys": [
+            "abilities",
+            "trainingHistory",
+            "trainingRecords",
+            "trainingStatus",
+            "postD013FiveDayTraining",
+            "postD019ReadinessTraining",
+            "postD021TenDayTraining"
+          ]
+        },
+        {
+          "id": "economy-history",
+          "label": "歷史經濟流水與舊結算",
+          "display": "COLLAPSED",
+          "sourceKeys": [
+            "economy.reconciliationHistory",
+            "settlements",
+            "resourceReconciliation"
+          ]
+        },
+        {
+          "id": "mission-history",
+          "label": "過往副本履歷",
+          "display": "COLLAPSED / NEWEST_FIRST",
+          "sourceKeys": [
+            "missionHistory",
+            "missionHistoryAudit",
+            "missionHistoryMeta"
+          ]
+        },
+        {
+          "id": "relationship-history",
+          "label": "情感成長與關係事件",
+          "display": "COLLAPSED",
+          "sourceKeys": [
+            "emotionalGrowthHistory",
+            "relationshipEvents"
+          ]
+        }
+      ],
+      "currentFirst": true,
+      "displayPolicy": "現行正式狀態直接顯示；舊能力、舊訓練、歷史經濟流水、情感成長歷史與過往副本預設收合。完整資料仍保留於CURRENT STATE JSON。",
+      "preserveAllHistoricalFacts": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD013Settlement",
+  "state": {
+    "postD013Settlement": {
+      "id": "POST-D013",
+      "bell": {
+        "rung": true,
+        "meaning": "4 IN／4 OUT",
+        "specialEffect": false
+      },
+      "title": "《霧港零號燈塔》結算完成後",
+      "status": "CONFIRMED",
+      "economy": {
+        "privateDebt": 0,
+        "publicFunds": 3000,
+        "totalAssets": 23715,
+        "privateTotal": 20715,
+        "branchStories": {
+          "B": 1,
+          "C": 0
+        },
+        "privatePoints": {
+          "洛": 2870,
+          "伊恩": 6462,
+          "程牧": 5312,
+          "周映白": 6071
+        }
+      },
+      "doctrine": [
+        "救援優先，不等於盲目衝進救援",
+        "遭到單一個體第一次攻擊，不等於整個族群敵對",
+        "異常行為不等於敵意",
+        "條件允許時先嘗試建立溝通模型",
+        "救援對象不因仿生身分自動排除",
+        "第一拳之後，先停一下"
+      ],
+      "resources": {
+        "arrows": "40/40",
+        "vehicle": "兩棲折疊救援車Ⅱ｜OPERATIONAL",
+        "publicWater": 11,
+        "publicRations": 15,
+        "teamMedicalConsumed": 0
+      },
+      "baseVersion": 26,
+      "currentState": {
+        "node": "POST-D013｜休整中",
+        "alive": "4/4",
+        "location": "AI主神空間",
+        "nextMission": "尚未選擇",
+        "permanentInjuries": 0
+      },
+      "characterGrowth": {
+        "洛": [
+          "凝可局部集中至腿部",
+          "腿部脈衝完成霧區快速推進",
+          "完成B級兩棲載具實戰駕駛與海上救援",
+          "先確認敵意再升級武力",
+          "脈衝×螺旋不升級"
+        ],
+        "伊恩": [
+          "不適合施術時主動不展開",
+          "維持多重假說",
+          "分離能量／頻率／震動觸發因素",
+          "參與完整因果重建",
+          "術式等級不因此提高"
+        ],
+        "程牧": [
+          "異常不等於敵意",
+          "主動降低錯誤假說可信度",
+          "黑色黏團追蹤",
+          "海上導航與水下大型目標追蹤",
+          "0箭完成高貢獻"
+        ],
+        "周映白": [
+          "最低限度判傷",
+          "現場資源優先",
+          "傷員拖帶與救援路線維持",
+          "救援棍破障",
+          "人類傷患與仿生結構傷能力邊界判讀",
+          "仍不是完整醫師"
+        ]
+      }
+    }
+  }
+}

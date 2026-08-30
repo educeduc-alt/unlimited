@@ -1,0 +1,47 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "specialAssets",
+  "state": {
+    "specialAssets": {
+      "洛": [
+        {
+          "name": "零號線｜特別返程憑證",
+          "type": "特殊副本道具／特殊返程憑證",
+          "route": "舊返程線",
+          "holder": "洛",
+          "source": "未確認",
+          "status": "未使用",
+          "quantity": 1,
+          "warnings": [
+            "正常回送可用且四人仍在時，不建議使用",
+            "舊返程線目前標示永久停用"
+          ],
+          "retention": "正式保留",
+          "destination": "中央站",
+          "handwriting": [
+            "第一種筆跡：內容已記錄",
+            "第二種筆跡：與目前伊恩筆跡高度相似，並以火焰符號作類似署名記號"
+          ],
+          "timeAnomaly": "疑似",
+          "associations": [
+            "伊恩",
+            "舊返程線",
+            "未知拳套男性",
+            "時間異常"
+          ],
+          "issueStation": "舊終點",
+          "usesRemaining": 1,
+          "acquiredInMissionId": "D010",
+          "prohibitedConclusions": [
+            "不得記錄為未來伊恩所贈",
+            "未知拳套男性不得判定為未來洛"
+          ]
+        }
+      ]
+    }
+  }
+}

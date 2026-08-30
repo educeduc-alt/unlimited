@@ -1,0 +1,25 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "bestiaryDisplay",
+  "state": {
+    "bestiaryDisplay": {
+      "icons": {
+        "beast": "🐾",
+        "marine": "🌊",
+        "undead": "💀",
+        "anomaly": "👁️",
+        "hostile": "🔴",
+        "unknown": "🟡",
+        "construct": "⚙️",
+        "nonHostile": "🟢"
+      },
+      "title": "怪物圖鑑",
+      "groupRule": "依首次遭遇副本、分類、威脅與確認程度顯示；非敵對智慧生命與救援對象仍保留於遭遇圖鑑，不自動標成怪物敵人。",
+      "totalEntries": 20
+    }
+  }
+}

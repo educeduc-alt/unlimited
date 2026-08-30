@@ -1,0 +1,19 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "powerSystemPrinciples",
+  "state": {
+    "powerSystemPrinciples": {
+      "core": "模擬真實世界的身體、能量、慣性、環境與後果，同時允許角色創造並掌握超凡能力。",
+      "rules": [
+        "超凡能力可以突破常人限制，但不自動取消力量傳遞、身體承載、慣性、疲勞、消耗與環境條件。",
+        "能力越強、距離越遠、負重越高或連續使用越多，代價通常越明顯。",
+        "已確認的超凡效果照常成立；限制用來維持可信的因果與風險，不用來否定能力本身。"
+      ],
+      "style": "無限寫實派／超凡寫實"
+    }
+  }
+}

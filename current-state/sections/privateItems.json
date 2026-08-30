@@ -1,0 +1,52 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "privateItems",
+  "state": {
+    "privateItems": {
+      "伊恩": [
+        {
+          "name": "伊恩｜透氣舒適貼身衣物套組",
+          "owner": "伊恩",
+          "limits": [
+            "無超凡效果",
+            "伊恩個人物品",
+            "不是共享物資",
+            "不使用公共資金"
+          ],
+          "status": "CONFIRMED／PERSONAL ITEM",
+          "eachSet": [
+            "運動型無鋼圈內衣×1",
+            "舒適透氣內褲×1",
+            "依伊恩目前身體數據匹配尺寸",
+            "可正常清洗／更換"
+          ],
+          "quantity": 5,
+          "totalCost": 200,
+          "unitPrice": 40,
+          "purchasedBy": "洛"
+        },
+        {
+          "cost": 720,
+          "name": "術式校準附魔戒指",
+          "owner": "伊恩",
+          "limits": [
+            "不自動修正法陣",
+            "不增加魔力或法陣上限",
+            "不具抗寒／抗火能力",
+            "不是求婚戒指"
+          ],
+          "status": "CONFIRMED／RECEIVED／WORN",
+          "effects": [
+            "術式校準錨點",
+            "微型恆溫"
+          ],
+          "purchasedBy": "洛"
+        }
+      ]
+    }
+  }
+}

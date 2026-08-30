@@ -1,0 +1,16 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "partyValues",
+  "state": {
+    "partyValues": {
+      "core": "完成主神任務不是唯一判斷標準；在任務不衝突且能力允許時，四人願意主動救助可以救的人，以保留作為人的善意",
+      "limits": "不是強制任務規則，不是聖母化人格鎖定；仍可依危險、代價與現實條件作不同決策",
+      "status": "CHARACTER / PARTY VALUE",
+      "sourceMission": "D011｜赤沙巨獸狩獵場"
+    }
+  }
+}

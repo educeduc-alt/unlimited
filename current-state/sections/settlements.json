@@ -1,0 +1,292 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "settlements",
+  "state": {
+    "settlements": [
+      {
+        "id": "SET-2026-08-17-PHASE1",
+        "name": "零號線副本後｜第一階段強化與既定兌換",
+        "status": "已執行",
+        "appliedAt": "2026-08-17T00:00:00+08:00",
+        "purchases": {
+          "洛": [
+            "赤晶焰紋髮扣×1（贈予伊恩）",
+            "普通櫃台鈴×1（公共資產）",
+            "瞬態負荷耐受強化Ⅰ",
+            "念・瞬態輸出控制課程Ⅰ",
+            "念流動精密控制課程Ⅱ"
+          ],
+          "伊恩": [
+            "呼吸預構築・節律深化Ⅰ",
+            "術式取消／轉構Ⅰ",
+            "雙核交替運用Ⅰ"
+          ],
+          "程牧": [
+            "環境感測副模組Ⅰ",
+            "異常訊號標記核心Ⅰ",
+            "異常訊號交叉判讀Ⅰ"
+          ],
+          "周映白": [
+            "折返步・負重適應",
+            "戰地傷情判讀Ⅰ",
+            "火線傷員穩定與後送Ⅰ"
+          ]
+        },
+        "masteryPolicy": "課程／訓練型兌換僅代表取得正式學習資格與內容，不等於完全掌握",
+        "privateDeductions": {
+          "洛": 3390,
+          "伊恩": 3050,
+          "程牧": 3500,
+          "周映白": 2500
+        },
+        "publicFundTransfers": {
+          "洛": 300,
+          "伊恩": 300,
+          "程牧": 300,
+          "周映白": 300
+        },
+        "publicFundsIncrease": 1200,
+        "privateTotalDeduction": 12440,
+        "currentStateBaseVersion": 11,
+        "actualGoodsAndTrainingCost": 11240
+      },
+      {
+        "id": "SET-2026-08-17-PHASE2-MEDICAL",
+        "name": "零號線副本後｜第二階段公共醫療補強",
+        "status": "已執行",
+        "funding": {
+          "rounding": "1,525無法四等分；洛承擔餘數1點",
+          "publicFunds": 2105,
+          "privateTotal": 1525,
+          "privateContributions": {
+            "洛": 382,
+            "伊恩": 381,
+            "程牧": 381,
+            "周映白": 381
+          }
+        },
+        "workflow": "傷情判讀→止血／固定→快速拖帶撤出火線→重新評估→中級應急處置／進階創傷處理→擔架後送→重傷惡化時生命維持凝膠爭取時間",
+        "appliedAt": "2026-08-17T00:00:00+08:00",
+        "purchases": [
+          {
+            "name": "戰術止血組",
+            "limits": "用於嚴重外出血控制；不等於傷勢治癒",
+            "quantity": 2,
+            "subtotal": 500,
+            "unitPrice": 250,
+            "consumable": true
+          },
+          {
+            "name": "多用途快速固定夾板",
+            "limits": "疑似骨折／嚴重關節傷臨時固定；不直接治療骨折",
+            "quantity": 1,
+            "subtotal": 180,
+            "unitPrice": 180,
+            "consumable": false
+          },
+          {
+            "name": "中級創傷應急劑",
+            "limits": "中度創傷／休克風險短期穩定；不恢復完整戰力，不修復嚴重內臟傷",
+            "quantity": 1,
+            "subtotal": 600,
+            "unitPrice": 600,
+            "consumable": true
+          },
+          {
+            "name": "進階創傷處理包",
+            "limits": "較完整的清創、止血、包紮、固定輔助與基礎器械；內含消耗品用後需補充",
+            "quantity": 1,
+            "subtotal": 750,
+            "unitPrice": 750,
+            "consumable": "部分"
+          },
+          {
+            "name": "生命維持凝膠",
+            "limits": "短時間維持重傷者生命以爭取撤離／正式治療；不治療、不復活、不恢復戰鬥",
+            "quantity": 1,
+            "subtotal": 1200,
+            "unitPrice": 1200,
+            "consumable": true
+          },
+          {
+            "name": "折疊式傷員後送擔架",
+            "limits": "離開直接火線後穩定後送；與快速拖帶帶具並存",
+            "quantity": 1,
+            "subtotal": 400,
+            "unitPrice": 400,
+            "consumable": false
+          }
+        ],
+        "totalCost": 3630,
+        "prohibition": "不得因此將周映白標記為完整醫師或治療系能力者"
+      },
+      {
+        "id": "SET-D021",
+        "bell": {
+          "rung": true,
+          "rungBy": "周映白／香蕉",
+          "meaning": "4 IN / 4 OUT",
+          "combatEffect": false,
+          "ratingEffect": false,
+          "specialEffect": false
+        },
+        "name": "D021《墜星殖民地》正式結算",
+        "growth": {
+          "洛": [
+            "圓6m反覆運用；正式基準維持6m約90秒／8m約50秒／10m不穩定",
+            "異常重力下以基本纏搬動重型結構柱之氣力置換現象：OBSERVED / UNCONFIRMED",
+            "脈衝×螺旋實戰有效；不升階"
+          ],
+          "伊恩": [
+            "術式結構解析Ⅰ維持ACQUIRED / BASIC FAMILIARIZATION",
+            "大型法陣維持PRACTICAL",
+            "不新增技能或增益"
+          ],
+          "程牧": [
+            "高資訊量四人共享戰術視界完成實戰驗證",
+            "真空短距離／固定姿勢／高磅射擊成立；長距離、移動射擊、高相對速度與完整彈道模型未驗證"
+          ],
+          "周映白": [
+            "折疊救援模組庫Ⅱ一鍵切換完成實戰驗證",
+            "閃返步正式距離基準不變"
+          ]
+        },
+        "rating": "S",
+        "status": "COMPLETE",
+        "rewards": {
+          "totalGain": {
+            "洛": 4200,
+            "伊恩": 4300,
+            "程牧": 4300,
+            "周映白": 4600
+          },
+          "publicFunds": 1200,
+          "basePerPerson": 2200,
+          "branchStories": {
+            "B": 1,
+            "C": 1
+          },
+          "sRatingPerPerson": 900,
+          "personalAdditional": {
+            "洛": 1100,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1500
+          }
+        },
+        "ianInjury": {
+          "injury": "大腿穿刺傷",
+          "evaStatus": "FUNCTIONAL / REPAIR REQUIRED",
+          "fieldCare": "周映白現場處置有效",
+          "bodyStatus": "FULLY REPAIRED / NO PERMANENT INJURY",
+          "notDamaged": [
+            "大血管未斷裂",
+            "骨骼完整",
+            "主要神經束未完全斷裂"
+          ],
+          "separationRule": "主神治療只修復身體；EVA裝備破損不自動修復",
+          "confirmedDamage": [
+            "中等程度肌肉與軟組織穿刺"
+          ]
+        },
+        "difficulty": "B+",
+        "arrowStatus": {
+          "ready": 113,
+          "repairPending": 0,
+          "d021PermanentLoss": {
+            "標準箭": 3,
+            "束縛鎖箭": 1
+          },
+          "reconciliationNote": "D021結算卡記載副本前117支，與v77的114支舊快照不一致；自D021起以逐箭種合計113支為正式基準，不倒改v77。",
+          "recoveredTestArrows": {
+            "標準箭": 2
+          },
+          "authoritativeFinalTotal": 113
+        },
+        "mainResults": [
+          "M-CORE穩定於35%",
+          "E-02／P-03／主電網恢復",
+          "R-01醫療與救援中繼站建立",
+          "北側維修區、西側研究區、南側工業區完成搜索與救援",
+          "貨運軌道恢復",
+          "中央居住環成為集中救援節點",
+          "長距離通訊恢復",
+          "主穿梭港恢復",
+          "救援艦隊航路建立",
+          "已知居民與傷患全部撤離",
+          "撤離後剩餘人類生命訊號0"
+        ],
+        "pointsAfter": {
+          "洛": 4765,
+          "伊恩": 6172,
+          "程牧": 7337,
+          "周映白": 6716,
+          "grandTotal": 26870,
+          "publicFunds": 1880,
+          "privateTotal": 24990
+        },
+        "partyOutcome": "4/4生還／永久傷勢0／感染或異常寄生0",
+        "mainObjective": "在軌道碎片災難前恢復撤離能力，或建立足以維持生存的替代方案｜COMPLETE",
+        "publicExpense": {
+          "cost": 420,
+          "item": "伊恩｜主神完整治療",
+          "after": 1880,
+          "before": 2300
+        },
+        "starshipAfter": {
+          "name": "旅星｜四人折疊多用途艇",
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "validated": [
+            "真空展開與航行",
+            "VTOL與地表著陸",
+            "EVA對接",
+            "傷患運輸",
+            "感測與導航",
+            "人工重力",
+            "生命支持",
+            "移動式R-01救援中繼"
+          ],
+          "notValidated": [
+            "艦對艦戰鬥",
+            "高強度戰鬥機動",
+            "長期深空航行"
+          ],
+          "permanentHullDamage": false
+        },
+        "provisionsAfter": {
+          "緊急口糧人日": 36,
+          "緊急飲水人日": 36,
+          "耐放主食人日": 20,
+          "可烹調生鮮人日": 12
+        },
+        "secondaryAnomaly": {
+          "status": "RESOLVED / CONTAINED",
+          "handoff": "研究資料與警告已交付",
+          "location": "封閉研究區",
+          "predatorOrigin": "未知外來卵囊／胚胎樣本",
+          "breakoutOutcome": "突破個體×1已終止",
+          "researchFailure": "曾嘗試將捕食性生物作為高適應生物的天敵，結果失敗",
+          "containedOutcome": "深層休眠個體×3持續封存，未開啟、未解凍",
+          "highAdaptationOrganism": "原設計用途為低能耗環境的廢棄物循環與生態維護，不是武器"
+        },
+        "branchStoriesAfter": {
+          "B": 3,
+          "C": 5
+        },
+        "medicalStationAfter": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "restock": "RECOMMENDED / NOT PURCHASED",
+          "moduleLibrary": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "consumedPercent": 38,
+          "stockRemainingPercent": 62
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1243 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "economy",
+  "state": {
+    "economy": {
+      "debts": [],
+      "grandTotal": 33194,
+      "publicFunds": 3000,
+      "privateTotal": 30194,
+      "branchStories": {
+        "B": 1,
+        "C": 2
+      },
+      "d016Settlement": {
+        "privateDebt": 0,
+        "publicFunds": 1880,
+        "totalAssets": 12030,
+        "privateTotal": 10150,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        },
+        "accountingRule": "此為D016正式結算節點；戒指、戒指盒與伊恩貼身衣物在此節點之後另行扣款",
+        "postSettlement": {
+          "洛": 2820,
+          "伊恩": 3047,
+          "程牧": 2142,
+          "周映白": 2141
+        }
+      },
+      "d017Settlement": {
+        "note": "正式副本結算點；後續洛擴建雙人房間另扣300點",
+        "rating": "S",
+        "mission": "D017《赤鐵雪原》",
+        "rewards": {
+          "洛": 1850,
+          "伊恩": 1900,
+          "程牧": 1850,
+          "branchC": 1,
+          "周映白": 1800,
+          "publicFunds": 1200
+        },
+        "grandTotal": 12680,
+        "publicFunds": 1880,
+        "privateTotal": 10800,
+        "branchStories": {
+          "B": 1,
+          "C": 3
+        },
+        "mainObjectives": "3/3 COMPLETE",
+        "postSettlement": {
+          "洛": 2020,
+          "伊恩": 2047,
+          "程牧": 3392,
+          "周映白": 3341
+        }
+      },
+      "d018Settlement": {
+        "id": "SET-D018",
+        "name": "D018《沉眠列島》正式結算",
+        "rating": "S",
+        "status": "COMPLETE",
+        "pending": [
+          "下次副本前補充共享食水",
+          "換下能源模組回充",
+          "討論是否補購更多深潛裝備"
+        ],
+        "rewards": {
+          "洛": 2850,
+          "伊恩": 2900,
+          "程牧": 2850,
+          "周映白": 2900,
+          "publicFunds": 1200,
+          "branchStories": {
+            "B": 1,
+            "C": 3
+          }
+        },
+        "newSkills": [],
+        "arrowsAfter": {
+          "ready": 52,
+          "repairPending": 0
+        },
+        "baseVersion": 61,
+        "missionRank": "B+",
+        "pointsAfter": {
+          "洛": 4370,
+          "伊恩": 4447,
+          "程牧": 5062,
+          "周映白": 4441,
+          "grandTotal": 19720,
+          "publicFunds": 1400,
+          "privateTotal": 18320
+        },
+        "privateDebt": 0,
+        "pointsBefore": {
+          "洛": 1520,
+          "伊恩": 1547,
+          "程牧": 2212,
+          "周映白": 1541,
+          "publicFunds": 200
+        },
+        "provisionsAfter": {
+          "飲水": 0,
+          "壓縮口糧": 0
+        },
+        "branchStoriesAfter": {
+          "B": 2,
+          "C": 6
+        },
+        "branchStoriesBefore": {
+          "B": 1,
+          "C": 3
+        },
+        "confirmedTacticalExperience": [
+          "核心區抗沉眠行動規則"
+        ]
+      },
+      "d019Settlement": {
+        "id": "SET-D019",
+        "name": "D019《長夜列車》正式結算",
+        "rating": "S",
+        "status": "COMPLETE",
+        "rewards": {
+          "洛": 3000,
+          "伊恩": 3050,
+          "程牧": 3050,
+          "周映白": 2950,
+          "publicFunds": 2000,
+          "branchStories": {
+            "B": 2,
+            "C": 3
+          }
+        },
+        "missionRank": "B",
+        "pointsAfter": {
+          "洛": 3090,
+          "伊恩": 3997,
+          "程牧": 6012,
+          "周映白": 5291,
+          "grandTotal": 20890,
+          "publicFunds": 2500,
+          "privateTotal": 18390
+        },
+        "accountingNote": "v66洛為720點；結算卡列副本前90點，差額630點之歷史支出明細待補。本次依正式FINAL SAVE採結算後3090點，不改動D019獎勵。",
+        "pointsBeforeCard": {
+          "洛": 90,
+          "伊恩": 947,
+          "程牧": 2962,
+          "周映白": 2341,
+          "publicFunds": 500
+        },
+        "branchStoriesAfter": {
+          "B": 4,
+          "C": 6
+        }
+      },
+      "d020Settlement": {
+        "id": "SET-D020",
+        "name": "D020《灰燼王國的第七日》正式結算",
+        "rating": "S",
+        "status": "COMPLETE",
+        "pending": [
+          "龍語加護正式鑑定",
+          "救難站Ⅱ醫療耗材補貨",
+          "WIFI箭矢補充決策",
+          "四人完整休養",
+          "洛恢復後進行念氣／圓標準化測試",
+          "香蕉恢復後視需要重新測試閃返步",
+          "伊恩整理D020大型術式實戰紀錄",
+          "WIFI整理D020城市級異常訊號模型",
+          "共享次元行囊Ⅱ後勤重新補給"
+        ],
+        "rewards": {
+          "洛": 4000,
+          "伊恩": 4100,
+          "程牧": 4050,
+          "周映白": 4050,
+          "publicFunds": 1800,
+          "branchStories": {
+            "B": 2,
+            "C": 3
+          }
+        },
+        "difficulty": "A-",
+        "mainResult": "阻止王城地下災變失控｜FULL COMPLETE",
+        "arrowStatus": {
+          "spent": 3,
+          "before": 117,
+          "readyAfter": 114,
+          "repairPending": 0,
+          "spentBreakdown": {
+            "信標箭": 1,
+            "冰凍箭": 1,
+            "束縛鎖箭": 1
+          }
+        },
+        "pointsAfter": {
+          "洛": 4290,
+          "伊恩": 5597,
+          "程牧": 6762,
+          "周映白": 5841,
+          "grandTotal": 24390,
+          "publicFunds": 1900,
+          "privateTotal": 22490
+        },
+        "privateDebt": 0,
+        "medicalAudit": "COMPLETE／待盤點0",
+        "partyOutcome": "4/4生還／死亡0／永久滯留0／不可逆重大裝備損失0",
+        "pointsBefore": {
+          "洛": 290,
+          "伊恩": 1497,
+          "程牧": 2712,
+          "周映白": 1791,
+          "grandTotal": 6390,
+          "publicFunds": 100,
+          "privateTotal": 6290
+        },
+        "provisionsAfter": {
+          "緊急口糧人日": 40,
+          "緊急飲水人日": 32,
+          "耐放主食人日": 16,
+          "可烹調生鮮人日": 8
+        },
+        "branchStoriesAfter": {
+          "B": 6,
+          "C": 4
+        }
+      },
+      "d021Settlement": {
+        "id": "SET-D021",
+        "bell": {
+          "rung": true,
+          "rungBy": "周映白／香蕉",
+          "meaning": "4 IN / 4 OUT",
+          "combatEffect": false,
+          "ratingEffect": false,
+          "specialEffect": false
+        },
+        "name": "D021《墜星殖民地》正式結算",
+        "growth": {
+          "洛": [
+            "圓6m反覆運用；正式基準維持6m約90秒／8m約50秒／10m不穩定",
+            "異常重力下以基本纏搬動重型結構柱之氣力置換現象：OBSERVED / UNCONFIRMED",
+            "脈衝×螺旋實戰有效；不升階"
+          ],
+          "伊恩": [
+            "術式結構解析Ⅰ維持ACQUIRED / BASIC FAMILIARIZATION",
+            "大型法陣維持PRACTICAL",
+            "不新增技能或增益"
+          ],
+          "程牧": [
+            "高資訊量四人共享戰術視界完成實戰驗證",
+            "真空短距離／固定姿勢／高磅射擊成立；長距離、移動射擊、高相對速度與完整彈道模型未驗證"
+          ],
+          "周映白": [
+            "折疊救援模組庫Ⅱ一鍵切換完成實戰驗證",
+            "閃返步正式距離基準不變"
+          ]
+        },
+        "rating": "S",
+        "status": "COMPLETE",
+        "rewards": {
+          "totalGain": {
+            "洛": 4200,
+            "伊恩": 4300,
+            "程牧": 4300,
+            "周映白": 4600
+          },
+          "publicFunds": 1200,
+          "basePerPerson": 2200,
+          "branchStories": {
+            "B": 1,
+            "C": 1
+          },
+          "sRatingPerPerson": 900,
+          "personalAdditional": {
+            "洛": 1100,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1500
+          }
+        },
+        "ianInjury": {
+          "injury": "大腿穿刺傷",
+          "evaStatus": "FUNCTIONAL / REPAIR REQUIRED",
+          "fieldCare": "周映白現場處置有效",
+          "bodyStatus": "FULLY REPAIRED / NO PERMANENT INJURY",
+          "notDamaged": [
+            "大血管未斷裂",
+            "骨骼完整",
+            "主要神經束未完全斷裂"
+          ],
+          "separationRule": "主神治療只修復身體；EVA裝備破損不自動修復",
+          "confirmedDamage": [
+            "中等程度肌肉與軟組織穿刺"
+          ]
+        },
+        "difficulty": "B+",
+        "arrowStatus": {
+          "ready": 113,
+          "repairPending": 0,
+          "d021PermanentLoss": {
+            "標準箭": 3,
+            "束縛鎖箭": 1
+          },
+          "reconciliationNote": "D021結算卡記載副本前117支，與v77的114支舊快照不一致；自D021起以逐箭種合計113支為正式基準，不倒改v77。",
+          "recoveredTestArrows": {
+            "標準箭": 2
+          },
+          "authoritativeFinalTotal": 113
+        },
+        "mainResults": [
+          "M-CORE穩定於35%",
+          "E-02／P-03／主電網恢復",
+          "R-01醫療與救援中繼站建立",
+          "北側維修區、西側研究區、南側工業區完成搜索與救援",
+          "貨運軌道恢復",
+          "中央居住環成為集中救援節點",
+          "長距離通訊恢復",
+          "主穿梭港恢復",
+          "救援艦隊航路建立",
+          "已知居民與傷患全部撤離",
+          "撤離後剩餘人類生命訊號0"
+        ],
+        "pointsAfter": {
+          "洛": 4765,
+          "伊恩": 6172,
+          "程牧": 7337,
+          "周映白": 6716,
+          "grandTotal": 26870,
+          "publicFunds": 1880,
+          "privateTotal": 24990
+        },
+        "partyOutcome": "4/4生還／永久傷勢0／感染或異常寄生0",
+        "mainObjective": "在軌道碎片災難前恢復撤離能力，或建立足以維持生存的替代方案｜COMPLETE",
+        "publicExpense": {
+          "cost": 420,
+          "item": "伊恩｜主神完整治療",
+          "after": 1880,
+          "before": 2300
+        },
+        "starshipAfter": {
+          "name": "旅星｜四人折疊多用途艇",
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "validated": [
+            "真空展開與航行",
+            "VTOL與地表著陸",
+            "EVA對接",
+            "傷患運輸",
+            "感測與導航",
+            "人工重力",
+            "生命支持",
+            "移動式R-01救援中繼"
+          ],
+          "notValidated": [
+            "艦對艦戰鬥",
+            "高強度戰鬥機動",
+            "長期深空航行"
+          ],
+          "permanentHullDamage": false
+        },
+        "provisionsAfter": {
+          "緊急口糧人日": 36,
+          "緊急飲水人日": 36,
+          "耐放主食人日": 20,
+          "可烹調生鮮人日": 12
+        },
+        "secondaryAnomaly": {
+          "status": "RESOLVED / CONTAINED",
+          "handoff": "研究資料與警告已交付",
+          "location": "封閉研究區",
+          "predatorOrigin": "未知外來卵囊／胚胎樣本",
+          "breakoutOutcome": "突破個體×1已終止",
+          "researchFailure": "曾嘗試將捕食性生物作為高適應生物的天敵，結果失敗",
+          "containedOutcome": "深層休眠個體×3持續封存，未開啟、未解凍",
+          "highAdaptationOrganism": "原設計用途為低能耗環境的廢棄物循環與生態維護，不是武器"
+        },
+        "branchStoriesAfter": {
+          "B": 3,
+          "C": 5
+        },
+        "medicalStationAfter": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "restock": "RECOMMENDED / NOT PURCHASED",
+          "moduleLibrary": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "consumedPercent": 38,
+          "stockRemainingPercent": 62
+        }
+      },
+      "sharedSideStory": {
+        "rank": "B",
+        "quantity": 1
+      },
+      "privateDebtTotal": 0,
+      "sharedSideStories": [
+        {
+          "rank": "B",
+          "quantity": 1
+        },
+        {
+          "rank": "C",
+          "quantity": 2
+        }
+      ],
+      "lastReconciliation": {
+        "node": "POST-D018｜公共補給出資與食材採購",
+        "before": {
+          "洛": 1220,
+          "伊恩": 1447,
+          "程牧": 3462,
+          "周映白": 2841,
+          "grandTotal": 9170,
+          "publicFunds": 200,
+          "privateTotal": 8970
+        },
+        "privateDebt": 0,
+        "afterPurchase": {
+          "洛": 720,
+          "伊恩": 947,
+          "程牧": 2962,
+          "周映白": 2341,
+          "grandTotal": 7470,
+          "publicFunds": 500,
+          "privateTotal": 6970
+        },
+        "branchStories": {
+          "B": 2,
+          "C": 3
+        },
+        "afterContribution": {
+          "洛": 720,
+          "伊恩": 947,
+          "程牧": 2962,
+          "周映白": 2341,
+          "grandTotal": 9170,
+          "publicFunds": 2200,
+          "privateTotal": 6970
+        }
+      },
+      "preD023Procurement": {
+        "node": "D023-PRE-DEPLOYMENT-01",
+        "after": {
+          "洛": 996,
+          "伊恩": 490,
+          "程牧": 1488,
+          "周映白": 2420,
+          "grandTotal": 5394,
+          "publicFunds": 0,
+          "privateTotal": 5394,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "before": {
+          "洛": 1865,
+          "伊恩": 1172,
+          "程牧": 2537,
+          "周映白": 3816,
+          "grandTotal": 9394,
+          "publicFunds": 4,
+          "privateTotal": 9390,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "status": "CONFIRMED / FULLY RECONCILED",
+        "purchases": [
+          {
+            "cost": 220,
+            "item": "伊恩EVA完整修復"
+          },
+          {
+            "cost": 80,
+            "item": "遠征乾糧／飲水重新標準化與擴充"
+          },
+          {
+            "cost": 720,
+            "item": "正常料理食材擴充"
+          },
+          {
+            "cost": 650,
+            "item": "正式遠征露營模組Ⅰ"
+          },
+          {
+            "cost": 900,
+            "item": "智能警戒哨兵Ⅰ×2"
+          },
+          {
+            "cost": 30,
+            "item": "WIFI標準箭×1"
+          },
+          {
+            "cost": 320,
+            "item": "車載獨立電子地圖／地形記錄模組Ⅰ"
+          },
+          {
+            "cost": 480,
+            "item": "WIFI風鏡電子地形描繪／路線覆寫模組Ⅰ"
+          },
+          {
+            "cost": 600,
+            "item": "四人基礎醫療補充箱新增4組"
+          }
+        ],
+        "expenseTotal": 4000,
+        "privateShare": {
+          "洛": 369,
+          "伊恩": 182,
+          "程牧": 549,
+          "周映白": 896
+        },
+        "paidFromPublic": 2004,
+        "privateRemainder": 1996,
+        "publicContribution": {
+          "after": {
+            "洛": 1365,
+            "伊恩": 672,
+            "程牧": 2037,
+            "周映白": 3316,
+            "grandTotal": 9394,
+            "publicFunds": 2004,
+            "privateTotal": 7390
+          },
+          "eachMember": 500
+        }
+      },
+      "privatePointsTotal": 30194,
+      "reconciliationHistory": [
+        {
+          "node": "POST-D016｜戒指、戒指盒與貼身衣物採購後",
+          "purchases": [
+            {
+              "cost": 720,
+              "item": "術式校準附魔戒指",
+              "payer": "洛"
+            },
+            {
+              "cost": 30,
+              "item": "精緻戒指盒",
+              "payer": "洛"
+            },
+            {
+              "cost": 200,
+              "item": "伊恩透氣舒適貼身衣物套組×5",
+              "payer": "洛"
+            }
+          ],
+          "branchStories": {
+            "B": 1,
+            "C": 2
+          },
+          "afterPurchases": {
+            "洛": 1870,
+            "伊恩": 3047,
+            "程牧": 2142,
+            "周映白": 2141,
+            "grandTotal": 11080,
+            "publicFunds": 1880,
+            "privateTotal": 9200
+          },
+          "beforePurchases": {
+            "洛": 2820,
+            "伊恩": 3047,
+            "程牧": 2142,
+            "周映白": 2141,
+            "publicFunds": 1880,
+            "privateTotal": 10150
+          },
+          "totalPrivateExpense": 950
+        },
+        {
+          "node": "POST-D016休整期｜第五日課程兌換後",
+          "purchases": [
+            {
+              "cost": 1300,
+              "item": "念能力課程｜氣量擴張訓練Ⅰ",
+              "payer": "洛"
+            },
+            {
+              "items": [
+                "術式結構解析Ⅰ",
+                "法陣接續修復Ⅰ"
+              ],
+              "payer": "伊恩",
+              "combinedCost": 2500,
+              "individualCosts": "NOT_PROVIDED／不得虛構拆價"
+            }
+          ],
+          "branchStories": {
+            "B": 1,
+            "C": 2
+          },
+          "afterPurchases": {
+            "洛": 570,
+            "伊恩": 547,
+            "程牧": 2142,
+            "周映白": 2141,
+            "grandTotal": 7280,
+            "publicFunds": 1880,
+            "privateTotal": 5400
+          },
+          "beforePurchases": {
+            "洛": 1870,
+            "伊恩": 3047,
+            "程牧": 2142,
+            "周映白": 2141,
+            "publicFunds": 1880,
+            "privateTotal": 9200
+          },
+          "totalPrivateExpense": 3800
+        },
+        {
+          "node": "POST-D016休整期｜寒區整備與車載跨溫域環控採購後",
+          "purchases": [
+            {
+              "cost": 2000,
+              "item": "四人寒區隊伍整備包Ⅰ",
+              "paidBy": {
+                "洛": 400,
+                "伊恩": 400,
+                "程牧": 600,
+                "周映白": 600
+              }
+            },
+            {
+              "cost": 1200,
+              "item": "車載跨溫域環境控制模組Ⅰ",
+              "paidBy": "公共資金"
+            }
+          ],
+          "privateDebt": 0,
+          "branchStories": {
+            "B": 1,
+            "C": 2
+          },
+          "afterPurchases": {
+            "洛": 170,
+            "伊恩": 147,
+            "程牧": 1542,
+            "周映白": 1541,
+            "grandTotal": 4080,
+            "publicFunds": 680,
+            "privateTotal": 3400
+          },
+          "beforePurchases": {
+            "洛": 570,
+            "伊恩": 547,
+            "程牧": 2142,
+            "周映白": 2141,
+            "publicFunds": 1880,
+            "privateTotal": 5400
+          }
+        },
+        {
+          "node": "POST-D018休整期｜私人護理用品兌換",
+          "purchases": [
+            {
+              "cost": 50,
+              "item": "親密接觸後基礎護理組Ⅰ",
+              "payer": "洛"
+            }
+          ],
+          "branchStories": {
+            "B": 2,
+            "C": 6
+          },
+          "afterPurchases": {
+            "洛": 4320,
+            "伊恩": 4447,
+            "程牧": 5062,
+            "周映白": 4441,
+            "grandTotal": 19670,
+            "publicFunds": 1400,
+            "privateTotal": 18270
+          },
+          "beforePurchases": {
+            "洛": 4370,
+            "伊恩": 4447,
+            "程牧": 5062,
+            "周映白": 4441,
+            "grandTotal": 19720,
+            "publicFunds": 1400,
+            "privateTotal": 18320
+          },
+          "totalPrivateExpense": 50
+        },
+        {
+          "node": "POST-D017｜雙人居住擴建",
+          "rule": "本筆已包含於後續歷史帳；v76僅補登，不再次扣除目前點數",
+          "after": {
+            "洛": 1720
+          },
+          "before": {
+            "洛": 2020
+          },
+          "status": "HISTORICAL_RECONCILIATION_CONFIRMED",
+          "purchase": {
+            "cost": 300,
+            "item": "伊恩私人房間｜雙人長期居住擴建",
+            "payer": "洛"
+          },
+          "publicFundsChanged": false,
+          "branchStoriesChanged": false
+        },
+        {
+          "node": "POST-D020｜星際整備與能力標準測試完成",
+          "after": {
+            "B": 2,
+            "C": 4,
+            "洛": 565,
+            "伊恩": 1872,
+            "程牧": 3037,
+            "周映白": 2116,
+            "grandTotal": 8690,
+            "publicFunds": 1100,
+            "privateTotal": 7590
+          },
+          "before": {
+            "B": 6,
+            "C": 4,
+            "洛": 4290,
+            "伊恩": 5597,
+            "程牧": 6762,
+            "周映白": 5841,
+            "grandTotal": 24390,
+            "publicFunds": 1900,
+            "privateTotal": 22490
+          },
+          "status": "CONFIRMED",
+          "privateDebt": 0,
+          "publicExpense": {
+            "cost": 800,
+            "item": "D020後勤補給",
+            "detail": "卡片未提供逐項物資明細，不虛構拆分"
+          },
+          "branchOperations": [
+            "B×3合成A×1",
+            "A×1消耗於共享次元行囊Ⅲ進化",
+            "B×1消耗於旅星兌換"
+          ],
+          "privatePurchases": [
+            {
+              "item": "旅星｜四人折疊多用途艇",
+              "eachPaid": 2625,
+              "costTotal": 10500
+            },
+            {
+              "item": "四人小型星艦基礎操作套裝",
+              "eachPaid": 800,
+              "costTotal": 3200
+            },
+            {
+              "item": "四人戰術服EVA改造",
+              "eachPaid": 300,
+              "costTotal": 1200
+            }
+          ]
+        },
+        {
+          "node": "POST-D021｜正式副本結算",
+          "after": {
+            "B": 3,
+            "C": 5,
+            "洛": 4765,
+            "伊恩": 6172,
+            "程牧": 7337,
+            "周映白": 6716,
+            "grandTotal": 26870,
+            "publicFunds": 1880,
+            "privateTotal": 24990
+          },
+          "before": {
+            "B": 2,
+            "C": 4,
+            "洛": 565,
+            "伊恩": 1872,
+            "程牧": 3037,
+            "周映白": 2116,
+            "grandTotal": 8690,
+            "publicFunds": 1100,
+            "privateTotal": 7590
+          },
+          "status": "CONFIRMED",
+          "publicExpense": {
+            "伊恩完整治療": 420
+          },
+          "missionRewards": {
+            "B": 1,
+            "C": 1,
+            "洛": 4200,
+            "伊恩": 4300,
+            "程牧": 4300,
+            "周映白": 4600,
+            "publicFunds": 1200
+          }
+        },
+        {
+          "node": "POST-D021休整生活期｜料理／餐飲統一結算",
+          "after": {
+            "B": 3,
+            "C": 5,
+            "洛": 4765,
+            "伊恩": 6172,
+            "程牧": 7337,
+            "周映白": 6716,
+            "grandTotal": 26494,
+            "publicFunds": 1504,
+            "privateTotal": 24990
+          },
+          "before": {
+            "B": 3,
+            "C": 5,
+            "洛": 4765,
+            "伊恩": 6172,
+            "程牧": 7337,
+            "周映白": 6716,
+            "grandTotal": 26870,
+            "publicFunds": 1880,
+            "privateTotal": 24990
+          },
+          "status": "CONFIRMED",
+          "expense": {
+            "payer": "公共資金",
+            "total": 376,
+            "category": "POST-D021料理／餐飲臨時採買"
+          },
+          "inventoryRule": "正式後勤庫存36／36／20人日／12人日維持不變"
+        },
+        {
+          "node": "POST-D021｜第五階段前置十日訓練",
+          "summary": "周映白−1200＋C×1；伊恩−900＋C×1；程牧−800；洛未購買。",
+          "branchesAfter": {
+            "B": 3,
+            "C": 3
+          },
+          "grandTotalAfter": 23594,
+          "publicFundsAfter": 1504,
+          "privateTotalAfter": 22090
+        },
+        {
+          "node": "POST-D022",
+          "branchGain": {
+            "B": 2,
+            "C": 2
+          },
+          "publicGain": 1500,
+          "description": "D022《血月孤兒院》S級結算",
+          "privateGain": 12900,
+          "publicAfter": 3004,
+          "privateAfter": 34990,
+          "grandTotalAfter": 37994
+        },
+        {
+          "node": "POST-D022｜第六階段戰力化與兩日休整結算",
+          "description": "四人大規模能力兌換、四人共鳴錨Ⅰ、導能複合籠手Ⅲ、料理80點與兩扇門修復120點",
+          "publicAfter": 4,
+          "privateAfter": 9390,
+          "branchExpense": {
+            "B": 5,
+            "C": 5
+          },
+          "publicExpense": 3000,
+          "privateExpense": 25600,
+          "grandTotalAfter": 9394
+        },
+        {
+          "node": "PRE-D023｜遠征整備與比例分攤",
+          "after": {
+            "洛": 996,
+            "伊恩": 490,
+            "程牧": 1488,
+            "周映白": 2420,
+            "grandTotal": 5394,
+            "publicFunds": 0,
+            "privateTotal": 5394,
+            "branchStories": {
+              "B": 0,
+              "C": 0
+            }
+          },
+          "status": "CONFIRMED",
+          "description": "四人各轉500點至公共；4000點整備支出先由公共2004支付，餘1996按轉帳後私人餘額比例分攤。"
+        }
+      ],
+      "postD019Stage4Followup": {
+        "after": {
+          "B": 4,
+          "C": 1,
+          "洛": 890,
+          "伊恩": 1797,
+          "程牧": 3012,
+          "周映白": 2091,
+          "grandTotal": 7890,
+          "publicFunds": 100,
+          "privateTotal": 7790
+        },
+        "before": {
+          "B": 4,
+          "C": 6,
+          "洛": 3090,
+          "伊恩": 3997,
+          "程牧": 6012,
+          "周映白": 5291,
+          "grandTotal": 20890,
+          "publicFunds": 2500,
+          "privateTotal": 18390
+        },
+        "status": "CONFIRMED",
+        "branchCSpent": 5,
+        "publicExpenses": {
+          "total": 2400,
+          "救難應急站Ⅱ": 1800,
+          "10人份應急醫療庫": 600
+        },
+        "privateExpenses": {
+          "洛": 2200,
+          "total": 10600,
+          "伊恩": 2200,
+          "程牧": 3000,
+          "周映白": 3200
+        }
+      },
+      "postD018FoodProcurement": {
+        "rule": "四人各投入500點只改變私人／公共持有人；採購1700點才使總資產由9170降至7470",
+        "after": {
+          "洛": 720,
+          "伊恩": 947,
+          "程牧": 2962,
+          "周映白": 2341,
+          "grandTotal": 7470,
+          "publicFunds": 500,
+          "privateTotal": 6970,
+          "branchStories": {
+            "B": 2,
+            "C": 3
+          }
+        },
+        "status": "CONFIRMED",
+        "purchases": [
+          {
+            "cost": 800,
+            "item": "四人10天份緊急口糧＋飲水",
+            "scale": "40人日"
+          },
+          {
+            "cost": 650,
+            "item": "四人3天份可烹調生鮮食材"
+          },
+          {
+            "cost": 250,
+            "item": "四人5天份耐放主食"
+          }
+        ],
+        "baseVersion": 64,
+        "contributions": {
+          "洛": 500,
+          "伊恩": 500,
+          "程牧": 500,
+          "周映白": 500,
+          "publicFundsBefore": 200,
+          "publicFundsAfterContribution": 2200
+        },
+        "purchaseTotal": 1700
+      },
+      "postD018Stage4Procurement": {
+        "after": {
+          "洛": 1220,
+          "伊恩": 1447,
+          "程牧": 3462,
+          "周映白": 2841,
+          "grandTotal": 9170,
+          "publicFunds": 200,
+          "privateTotal": 8970,
+          "branchStories": {
+            "B": 2,
+            "C": 3
+          }
+        },
+        "before": {
+          "洛": 4320,
+          "伊恩": 4447,
+          "程牧": 5062,
+          "周映白": 4441,
+          "grandTotal": 19670,
+          "publicFunds": 1400,
+          "privateTotal": 18270,
+          "branchStories": {
+            "B": 2,
+            "C": 6
+          }
+        },
+        "status": "CONFIRMED",
+        "purchases": [
+          {
+            "item": "高階運用・動態流",
+            "payer": "洛",
+            "points": 1600,
+            "branchC": 1
+          },
+          {
+            "item": "念力負荷適應",
+            "payer": "洛",
+            "points": 900
+          },
+          {
+            "item": "共享次元行囊Ⅱ｜恆溫分區模組Ⅰ",
+            "payer": "洛",
+            "points": 600
+          },
+          {
+            "item": "閃返步高負載訓練課程Ⅰ",
+            "payer": "周映白",
+            "points": 1600
+          },
+          {
+            "item": "多節點大型法陣課程Ⅰ",
+            "payer": "伊恩",
+            "points": 1400,
+            "branchC": 1
+          },
+          {
+            "item": "大型防禦法陣Ⅰ",
+            "payer": "伊恩",
+            "points": 900,
+            "branchC": 1
+          },
+          {
+            "item": "大型偵測法陣Ⅰ",
+            "payer": "伊恩",
+            "points": 700
+          },
+          {
+            "item": "箭矢庫存補充",
+            "payer": "WIFI",
+            "points": 1600
+          },
+          {
+            "item": "車載折疊野炊廚房模組Ⅰ",
+            "payer": "公共資金",
+            "points": 1200
+          }
+        ],
+        "baseVersion": 63,
+        "accountingRule": "v63已扣護理組50點，本次不重複扣除",
+        "expensesFromV63": {
+          "洛": 3100,
+          "伊恩": 3000,
+          "程牧": 1600,
+          "branchC": 3,
+          "周映白": 1600,
+          "publicFunds": 1200
+        }
+      },
+      "postD019ReadinessTraining": {
+        "note": "四人各300點本輪熟練／標準化整備；洛另300點用於伊恩週期生活用品、熱敷用品與巧克力",
+        "after": {
+          "洛": 290,
+          "伊恩": 1497,
+          "程牧": 2712,
+          "周映白": 1791,
+          "grandTotal": 6390,
+          "publicFunds": 100,
+          "privateTotal": 6290
+        },
+        "before": {
+          "洛": 890,
+          "伊恩": 1797,
+          "程牧": 3012,
+          "周映白": 2091,
+          "grandTotal": 7890,
+          "publicFunds": 100,
+          "privateTotal": 7790
+        },
+        "status": "CONFIRMED",
+        "expenses": {
+          "洛": 600,
+          "伊恩": 300,
+          "程牧": 300,
+          "周映白": 300,
+          "totalPrivate": 1500
+        }
+      },
+      "postD018PrivateCarePurchase": {
+        "cost": 50,
+        "item": "親密接觸後基礎護理組Ⅰ",
+        "after": 4320,
+        "payer": "洛",
+        "before": 4370,
+        "status": "CONFIRMED",
+        "publicFundsChanged": false,
+        "branchStoriesChanged": false
+      },
+      "postD021RestLifeFoodSettlement": {
+        "node": "POST-D021 REST & LIFE PHASE｜FOOD SETTLED",
+        "items": [
+          {
+            "cost": 22,
+            "name": "牛肉巧克力咖哩＋白飯"
+          },
+          {
+            "cost": 96,
+            "name": "A5和牛韓式燒肉＋豬肉／泡菜／蔬菜"
+          },
+          {
+            "cost": 34,
+            "name": "香蕉紅燒牛肉麵全套"
+          },
+          {
+            "cost": 18,
+            "name": "WIFI雞肉飯＋雞胸切盤"
+          },
+          {
+            "cost": 28,
+            "name": "伊恩故鄉冬季燉肉＋黑麥混合麵包"
+          },
+          {
+            "cost": 58,
+            "name": "四人鴛鴦麻辣鍋自助吧"
+          },
+          {
+            "cost": 46,
+            "name": "大鍋滷味＋肉絲炒麵＋兩盤菜"
+          },
+          {
+            "cost": 30,
+            "name": "麻辣乾鍋牛蛙＋烙餅"
+          },
+          {
+            "cost": 44,
+            "name": "餐間啤酒、威士忌、琴酒、葡萄酒等"
+          }
+        ],
+        "payer": "公共資金",
+        "status": "CONFIRMED",
+        "expense": 376,
+        "accountingRule": "本輪料理為向主神額外採買，由公共資金一次結算；不扣私人點數，不重複扣正式後勤庫存。",
+        "grandTotalAfter": 26494,
+        "afterPublicFunds": 1504,
+        "beforePublicFunds": 1880,
+        "privatePointsChanged": false,
+        "formalInventoryChanged": false
+      },
+      "postD022ReinforcementAccounting": {
+        "publicAfter": 4,
+        "privateAfter": 9390,
+        "branchesAfter": {
+          "B": 0,
+          "C": 0
+        },
+        "grandTotalAfter": 9394,
+        "lifeExpenseFromLuo": 200,
+        "publicExpenseTotal": 3000,
+        "privateExpenseTotal": 25600
+      },
+      "preD023CycleCareReconfiguration": {
+        "node": "PRE-D023｜伊恩經期用品偏好重配",
+        "rule": "沿用原120點採購；依伊恩本人偏好等價更換",
+        "status": "CONFIRMED / NO ADDITIONAL CHARGE",
+        "originalCost": 120,
+        "pointsChanged": false,
+        "additionalExpense": 0,
+        "inventoryVolumeChanged": false
+      },
+      "aquaticPreparationReconciliation": {
+        "rule": "1880－多語偵測翻譯系統Ⅰ800＝1080；再扣水面救援裝備880＝200",
+        "paidBy": "周映白私人點數",
+        "status": "FULLY_RECONCILED",
+        "v55PublicFunds": 1880,
+        "currentPublicFunds": 200,
+        "zhouPrivateCurrent": 1741,
+        "deepDivingSetPurchase": 1600,
+        "surfaceRescuePurchase": 880,
+        "translationSystemPurchase": 800,
+        "zhouPrivateBeforePurchase": 3341,
+        "historicalDifferenceResolved": true,
+        "publicFundsBeforeSurfacePurchase": 1080,
+        "unreconciledHistoricalDifference": 800
+      },
+      "postD021TenDayTrainingSettlement": {
+        "purchases": [
+          {
+            "item": "閃返步進階運用｜連續折返",
+            "member": "周映白",
+            "branchCost": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "privateCost": 1200
+          },
+          {
+            "item": "大型法陣標準陣型擴充Ⅰ",
+            "member": "伊恩",
+            "branchCost": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "privateCost": 900
+          },
+          {
+            "item": "高磅戰弓進階運用課程",
+            "member": "程牧",
+            "branchCost": null,
+            "privateCost": 800
+          },
+          {
+            "item": "本輪未兌換",
+            "member": "洛",
+            "branchCost": null,
+            "privateCost": 0
+          }
+        ],
+        "grandTotal": 23594,
+        "privateDebt": 0,
+        "publicFunds": 1504,
+        "privateTotal": 22090,
+        "branchStories": {
+          "B": 3,
+          "C": 3
+        },
+        "privatePoints": {
+          "洛": 4765,
+          "伊恩": 5272,
+          "程牧": 6537,
+          "周映白": 5516
+        },
+        "consumedBranches": {
+          "B": 0,
+          "C": 2
+        },
+        "totalPrivateExpense": 2900
+      }
+    }
+  }
+}

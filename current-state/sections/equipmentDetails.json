@@ -1,0 +1,506 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "equipmentDetails",
+  "state": {
+    "equipmentDetails": {
+      "洛": {
+        "main": "導能複合籠手Ⅲ",
+        "items": [],
+        "limits": [
+          "不增加念氣總量",
+          "不直接增加肌力",
+          "不直接提高螺旋右拳理論上限",
+          "不取消脈衝慣性",
+          "不取消心肺與肉體負荷",
+          "籠手不能替代身體承受反作用力"
+        ],
+        "status": "OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+        "modules": [
+          "一體式導能骨架Ⅰ",
+          "導能嵌片陣列Ⅱ",
+          "瞬態承載框架Ⅰ",
+          "Ⅲ型一體式負荷分散／回饋結構",
+          "優化模組接口"
+        ],
+        "notOwned": [
+          "旋流導引拳面Ⅰ"
+        ],
+        "evaModule": {
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "limits": [
+            "真空脈衝受反作用與姿態變化影響",
+            "脈衝不得視為標準EVA推進手段"
+          ],
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "integration": [
+            "流脈近戰戰術服系統",
+            "導能複合籠手Ⅲ",
+            "龍語加護",
+            "念氣操作"
+          ],
+          "d021Validation": "真空展開、艦外活動與返艦流程完成實戰驗證"
+        },
+        "functions": [
+          "基本念氣導流",
+          "動態流節點轉接",
+          "氣力置換承力鏈",
+          "脈衝後姿態銜接",
+          "螺旋右拳旋轉導流",
+          "龍語加護相容層",
+          "救援破障",
+          "前臂護甲抗衝擊"
+        ],
+        "suitLimits": [
+          "不增加總氣量",
+          "不自動完成動態流",
+          "不取消肉體承載上限",
+          "不取消慣性",
+          "不讓脈衝成為無代價移動",
+          "不增加周本身強度",
+          "FLOW-LINK不是技能合成且不新增超自然能力"
+        ],
+        "carrySystem": "微型摺疊空間裝備",
+        "integration": "導能複合籠手Ⅲ：一體式導能骨架／前臂—肩背承載鏈／念流資訊／局部受力監測",
+        "moduleSlots": [
+          "EMPTY",
+          "EMPTY"
+        ],
+        "spaceModule": "雙腰側內建空間快取口；沿用既有容量與限制",
+        "suitFeatures": [
+          "動態流同步導能層",
+          "氣力置換承載骨架",
+          "脈衝慣性導散",
+          "周相容外接層",
+          "FLOW-LINK技能融合框架",
+          "導能複合籠手Ⅲ聯動"
+        ],
+        "tacticalSuit": "流脈近戰戰術服Ⅱ",
+        "recalibration": {
+          "rule": "低強度→中強度→狀態確認→再決定是否提高；不得直接跳最大輸出脈衝×螺旋。",
+          "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+          "basicTen": "PASS / HIGHLY STABLE",
+          "repeatFire": "NOT TESTED",
+          "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+          "enhancedTen": "112／110／113秒；平均111.67秒",
+          "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
+          "pulseBrake5m": "PASS",
+          "testSequence": [
+            "基本纏＋籠手Ⅲ",
+            "低強度動態流多節點切換",
+            "左右肢體快速切換",
+            "動態流＋拳擊基本動作",
+            "增大纏下局部流",
+            "低負荷氣力置換",
+            "5m脈衝／煞停",
+            "螺旋右拳形成速度與導流完整性",
+            "視狀態決定是否測更高組合"
+          ],
+          "maximumOutput": "NOT TESTED",
+          "outputRecovery": "輸出後念流沿籠手Ⅲ、肩與核心回到全身；較舊結構乾淨",
+          "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS",
+          "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY",
+          "lowIntensityAdaptation": "COMPLETE"
+        },
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "流脈近戰戰術服Ⅱ之衣裝空間模組",
+          "quantity": 1
+        },
+        "externalBlessings": [
+          {
+            "name": "龍語加護",
+            "source": "灰燼紅龍「阿龍」",
+            "status": "IDENTIFIED / STABLE",
+            "timeline": [
+              {
+                "event": "僅確認加護存在且穩定附著；當時不得推定具體效果。",
+                "order": 1,
+                "stage": "D020結算當下",
+                "status": "STABLE / UNIDENTIFIED"
+              },
+              {
+                "event": "洛主動要求主神對導能複合籠手Ⅱ上的龍語加護進行完整鑑定；四項正式效果確認。",
+                "order": 2,
+                "stage": "POST-D020｜完整恢復後／D021出發前",
+                "status": "IDENTIFIED / STABLE"
+              },
+              {
+                "event": "沿用完整鑑定結果；不退回D020結算時的未鑑定快照。",
+                "order": 3,
+                "stage": "CURRENT",
+                "status": "IDENTIFIED / STABLE"
+              }
+            ],
+            "attachedTo": "導能複合籠手Ⅲ",
+            "nextAction": "核心鑑定已完成；僅其他龍種／龍系能量相容性仍待後續受控測試",
+            "identifiedAt": "POST-D020｜完整恢復後／D021出發前",
+            "notConfirmed": [
+              "其他龍種／龍系能量相容性"
+            ],
+            "previousStatus": "STABLE / UNIDENTIFIED",
+            "confirmedEffects": [
+              "阿龍系龍息相性適應",
+              "龍息導流穩定",
+              "龍語友好識別印記",
+              "阿龍個體識別"
+            ],
+            "supersessionRule": "D020結算時的UNIDENTIFIED為歷史快照；其後洛正式確認完整鑑定，故CURRENT以IDENTIFIED / STABLE為準。"
+          },
+          {
+            "not": [
+              "詛咒",
+              "污染",
+              "寄生",
+              "強制契約",
+              "額外念氣槽"
+            ],
+            "name": "山神餘力",
+            "type": "異源生命性守護殘響",
+            "detail": "不增加洛原有念氣總量；補全調動、分配、節點切換、輸出與回收中的細微逸散與殘留，使念系統循環更完整。",
+            "limits": [
+              "無主動技能",
+              "不直接增加念氣總量",
+              "不直接增加肉體數值",
+              "不直接增加技能等級",
+              "不自動形成完全本能式動態流"
+            ],
+            "source": "D022《血月孤兒院》／山神休眠前自願贈與",
+            "status": "IDENTIFIED / STABLE",
+            "attachedTo": "洛",
+            "coreConcept": "一體出／一體進",
+            "identifiedAt": "POST-D022休整日第一天",
+            "coreCorrection": "念氣循環完整性補全",
+            "confirmedEffects": [
+              "一體出／一體進：降低非必要念氣逸散與殘留",
+              "山岳承載殘響：使用自身力量承重、支撐與穩定姿態時略微改善能量與結構穩定",
+              "山神系能量親和識別：提升對山神、山之子與同源守護印記的辨識相性",
+              "異常侵入預警殘響：外來能量企圖侵入、抽取或強制連結自身生命能量時可能產生輕微警示"
+            ]
+          }
+        ],
+        "integrationProfile": {
+          "effects": [
+            "降低裝備端模式轉接延遲",
+            "降低非必要導能損失",
+            "降低結構切換干擾"
+          ],
+          "synergy": "VERY HIGH",
+          "architecture": "由多個獨立模組切換改為單一整合導能骨架",
+          "compatibleWith": [
+            "山神餘力",
+            "一體出／一體進",
+            "全身動態流",
+            "氣力置換",
+            "脈衝",
+            "螺旋右拳"
+          ]
+        }
+      },
+      "伊恩": {
+        "main": "流焰戰術短杖Ⅰ",
+        "items": [
+          "赤晶焰紋髮扣×1（微型術式穩定刻印Ⅰ＋精神定錨刻印Ⅰ）",
+          "術式校準附魔戒指（術式校準錨點＋微型恆溫）"
+        ],
+        "limits": [
+          "短杖不增加總能量、不自動完成或修正術式、不保證成功、不提供無限連續施法",
+          "雙刻印不增加威力或能量、不自動施法；精神定錨不是精神防禦，不免疫恐懼、幻覺、精神控制或洗腦",
+          "循環導流刻印Ⅰ不直接增加火焰威力，不新增未知術式"
+        ],
+        "modules": [
+          "微型術式穩定刻印Ⅰ",
+          "精神定錨刻印Ⅰ",
+          "循環導流刻印Ⅰ"
+        ],
+        "evaModule": {
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "repair": {
+            "cost": 220,
+            "scope": "完整修復既有D021穿刺損傷",
+            "status": "COMPLETE",
+            "effectiveAt": "PRE-D023",
+            "newFunctions": false,
+            "performanceUpgrade": false
+          },
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "d021Damage": {
+            "type": "高速舌刺穿刺",
+            "location": "大腿區氣密層／外層",
+            "fieldPatch": "SUCCESSFUL",
+            "requiredAction": "返回主神空間後正式裝備維修",
+            "bodyTreatmentDoesNotRepairEquipment": true
+          },
+          "integration": [
+            "內層超薄氣密結構",
+            "保留流焰戰術短杖",
+            "保留術式長衣系統",
+            "保留手勢施術空間與法陣構築"
+          ],
+          "lifeSupportRule": "真空生命支持完全由科技系統負責，不消耗伊恩術式能量"
+        },
+        "suitLimits": [
+          "不增加能量總量",
+          "不增加法陣強度",
+          "不提供瞬發能力",
+          "不是重甲"
+        ],
+        "accessories": [
+          "赤晶焰紋髮扣",
+          "術式校準附魔戒指"
+        ],
+        "spaceModule": "腰側隱藏式內建空間入口；醫療、燈具、能源與補給快取",
+        "personalCare": [
+          "透氣舒適貼身衣物套組×5"
+        ],
+        "spellCircuit": "術式三點循環：短杖構築／輸出端＋長衣導流／負荷分散端＋髮扣微型穩定／精神定錨端",
+        "suitFeatures": [
+          "法陣節點導流層",
+          "多層高機動裙裝",
+          "術式防護內襯",
+          "節點／媒介快速取用",
+          "流焰戰術短杖聯動"
+        ],
+        "tacticalSuit": "流焰術式戰裝Ⅱ｜多層裙裝式",
+        "appearanceMode": "B｜多層術式長裙",
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "流焰術式戰裝Ⅱ之衣裝空間模組",
+          "quantity": 1
+        }
+      },
+      "程牧": {
+        "main": "灰隼重磅戰弓",
+        "other": [
+          "灰隼備用弓弦×1",
+          "弓具野外維修包×1",
+          "微型摺疊空間攜行系統"
+        ],
+        "limits": [
+          "不自動瞄準",
+          "不自行開火",
+          "箭筒不自行判定敵我",
+          "D014待修與戰損箭不因升級自動恢復"
+        ],
+        "quiver": "折疊智能箭庫Ⅰ｜有限實體箭矢收納與智能送箭",
+        "modules": [
+          "四人共享戰術視界",
+          "灰隼動態射擊輔助模組Ⅰ",
+          "快速搭箭導引槽",
+          "射手輔助風鏡",
+          "環境感測副模組Ⅰ",
+          "異常訊號標記核心Ⅰ",
+          "多語偵測翻譯系統Ⅰ",
+          "電子地形描繪／路線覆寫模組Ⅰ"
+        ],
+        "evaModule": {
+          "hud": [
+            "相對速度",
+            "艦體距離",
+            "隊友生命支持",
+            "EVA定位",
+            "艦外損傷標記",
+            "繫索狀態",
+            "返艦方向",
+            "旅星外部感測資料"
+          ],
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "limits": [
+            "灰隼重磅戰弓未自動取得真空專用強化",
+            "箭矢真空姿態／戰術效能待實測"
+          ],
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "d021Validation": "真空觀測與固定姿勢射擊完成實戰驗證"
+        },
+        "functions": [
+          "長時間連續射擊穩定",
+          "特殊箭發射穩定",
+          "狹窄環境短距射擊控制",
+          "灰隼重磅戰弓、動態射擊輔助模組與折疊智能箭庫Ⅰ同步"
+        ],
+        "suitLimits": [
+          "不增加弓拉力或箭威力",
+          "不自動瞄準或射擊",
+          "不生成箭",
+          "衣裝輔助節點不能取代WIFI完整主節點",
+          "不是超自然隱匿"
+        ],
+        "spaceModule": "低頻內建空間入口；維修包、備用弓弦、能源、個人醫療與工具",
+        "suitFeatures": [
+          "持弓承載支援",
+          "戰術視界主節點負荷分流",
+          "折疊智能箭庫Ⅰ聯動",
+          "低勾掛／低反光外層",
+          "長時間觀測疲勞警示"
+        ],
+        "tacticalSuit": "遠距偵查戰術服Ⅱ",
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "遠距偵查戰術服Ⅱ之衣裝空間模組",
+          "quantity": 1
+        },
+        "drawWeightTraining": {
+          "name": "灰隼重磅戰弓｜漸進增磅訓練課程Ⅰ",
+          "rule": "原磅數→小幅加磅→測試→恢復→再測；穩定重現後才能更新",
+          "status": "ACQUIRED／TRAINING_PATH",
+          "formalDrawWeight": "不更新"
+        },
+        "terrainMappingModule": {
+          "cost": 480,
+          "name": "電子地形描繪／路線覆寫模組Ⅰ",
+          "limits": [
+            "不透視未知區域",
+            "不破解認知污染",
+            "不自動判斷矛盾地圖真偽",
+            "不提供全知地圖"
+          ],
+          "status": "INSTALLED / OPERATIONAL",
+          "functions": [
+            "整合WIFI第一線觀察",
+            "共享視界地形標記",
+            "地形輪廓記錄",
+            "人工地標記錄",
+            "車載實測路線同步",
+            "離車步行路線記錄",
+            "建立隊伍實測第三張地圖"
+          ]
+        }
+      },
+      "周映白": {
+        "main": "折疊救援模組庫Ⅱ",
+        "items": [
+          "折返式模組救援棍Ⅱ",
+          "運輸用折疊板車Ⅰ",
+          "深潛救援裝備組Ⅰ"
+        ],
+        "limits": [
+          "非重型工程液壓破拆",
+          "不可無限放大槓桿",
+          "板車不增加額定載重",
+          "板車不等於可無限疊載傷員",
+          "運輸前仍需判傷與固定"
+        ],
+        "modules": [
+          "短棍模式",
+          "獨立救援工具模式",
+          "穩定長柄救援模式",
+          "撬／楔／鉤工具整合",
+          "耐負荷快接／多點掛載系統",
+          "車載快速救援模組Ⅰ",
+          "運輸用折疊板車Ⅰ"
+        ],
+        "evaModule": {
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "integration": [
+            "艦外傷患繫固",
+            "雙人拖帶",
+            "救援繩快速鎖定",
+            "艦體磁吸固定",
+            "傷患簡易生命讀取",
+            "氣閘救援接口",
+            "折疊救援模組庫Ⅱ相容"
+          ],
+          "d021Validation": "真空救援、傷患繫固與艦艇協同完成實戰驗證"
+        },
+        "suitLimits": [
+          "不增加閃返步距離",
+          "不取代擔架或完整固定器材",
+          "負荷警示不取代醫療診斷"
+        ],
+        "foldingCart": "運輸用折疊板車Ⅰ：低重心傷員／物資運輸，可接快速拖帶帶具、救援繩、固定帶、救援棍掛點與救援車後送流程",
+        "spaceModule": "醫療多入口快取：胸前急救、左腰醫療、右腰救援拖帶、後腰低頻工具；沿用既有容量",
+        "suitFeatures": [
+          "少掛載高整合設計",
+          "高負載承載層",
+          "傷患快速固定",
+          "耐磨定位錨點鞋Ⅰ聯動",
+          "救援模組庫Ⅱ快速調用",
+          "自身／傷患負荷警示"
+        ],
+        "tacticalSuit": "救援戰術服Ⅱ",
+        "moduleLibrary": {
+          "name": "折疊救援模組庫Ⅱ",
+          "limits": [
+            "救難站仍屬共享資產",
+            "模組庫容量與實體模組數量仍有限",
+            "只能切換已收納且與接口相容的接頭或尾件",
+            "切換不會修復損壞模組，也不會憑空生成工具",
+            "同一接口不能同時裝載彼此衝突的模組",
+            "無切換次數上限不等於無限容量、無限工具、無限承載或無視操作姿勢"
+          ],
+          "status": "OPERATIONAL / DIRECT SPATIAL CONNECTOR SWAP",
+          "features": [
+            "個人救援空間擴容",
+            "新增大型預備位",
+            "可收納自律式折疊救難應急站Ⅱ",
+            "救援棍前端與尾端接頭可分別透過折疊空間直接換裝",
+            "切換不需手動拆卸，前端／尾端可依現場需求直接替換",
+            "切換次數不設每日或單一副本硬性上限"
+          ]
+        },
+        "rescueStation": "自律式折疊救難應急站Ⅱ｜共享資產／周映白主要攜行與快速部署",
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "救援戰術服Ⅱ之衣裝空間模組",
+          "quantity": 1
+        },
+        "deepDivingRescueSet": {
+          "cost": 1600,
+          "name": "深潛救援裝備組Ⅰ",
+          "uses": [
+            "深水搜索",
+            "水下傷員接觸",
+            "繫索／定位",
+            "水下障礙確認",
+            "近至中距離拖救",
+            "水下物資／證物回收"
+          ],
+          "owner": "周映白",
+          "limits": [
+            "不是無限供氣",
+            "不是無限深度",
+            "不提供深海載具級抗壓",
+            "水溫、流速、能見度與負重影響有效工作時間",
+            "強流拖帶傷員耗能顯著增加",
+            "異常空間或特殊水體可能干擾水下長距離通訊",
+            "其他三人不自動取得相同深潛能力"
+          ],
+          "paidBy": "周映白私人點數",
+          "status": "OPERATIONAL／WATER_ADAPTATION_TESTED",
+          "contents": [
+            "深潛呼吸器Ⅰ",
+            "水肺供氣組Ⅰ",
+            "專業潛水服Ⅰ",
+            "蛙鞋",
+            "潛水面鏡",
+            "水下長距離通訊模組Ⅰ",
+            "深水高壓防護裝備Ⅰ"
+          ],
+          "plannedTest": [
+            "淺水適應",
+            "10m水深",
+            "裝備換氣",
+            "水下通訊",
+            "繫索",
+            "模擬傷員拖帶"
+          ],
+          "compatibleWith": [
+            "折疊救援模組庫Ⅰ",
+            "15m多用途靜力救援繩",
+            "折疊式水上救援浮板Ⅰ",
+            "兩棲折疊救援車Ⅱ"
+          ]
+        },
+        "vehicleRescueModule": "車載快速救援模組Ⅰ：液壓撐開／剪切、拖曳轉接、救援棍固定座、多規格掛鉤、快速脫離接口"
+      }
+    }
+  }
+}

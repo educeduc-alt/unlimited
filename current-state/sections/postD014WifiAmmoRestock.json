@@ -1,0 +1,38 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD014WifiAmmoRestock",
+  "state": {
+    "postD014WifiAmmoRestock": {
+      "id": "SHOP-POST-D014-WIFI-AMMO",
+      "cost": 1120,
+      "buyer": "程牧／WIFI",
+      "items": [
+        {
+          "name": "標準箭",
+          "quantity": 2
+        },
+        {
+          "name": "鈍擊衝擊箭",
+          "quantity": 2
+        },
+        {
+          "name": "電擊干擾箭Ⅰ",
+          "quantity": 2
+        }
+      ],
+      "limits": [
+        "4支受損箭未因購買自動修復",
+        "受損箭種仍待檢查",
+        "歷史戰損6支保留於D014履歷，不計為目前缺額"
+      ],
+      "result": "36支可立即戰鬥＋4支受損待修＝40支現存；D014歷史戰損6支已由本批購買補回戰備缺額",
+      "status": "CONFIRMED",
+      "pointsAfter": 792,
+      "pointsBefore": 1912
+    }
+  }
+}

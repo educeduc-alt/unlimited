@@ -1,0 +1,148 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD015Stage3Procurement",
+  "state": {
+    "postD015Stage3Procurement": {
+      "id": "SHOP-POST-D015-STAGE3",
+      "status": "CONFIRMED",
+      "totals": {
+        "byMember": {
+          "洛": 2800,
+          "伊恩": 3300,
+          "程牧": 3540,
+          "周映白": 4200
+        },
+        "remaining": {
+          "洛": 870,
+          "伊恩": 797,
+          "程牧": 142,
+          "周映白": 91
+        },
+        "privateSpent": 13840,
+        "privateRemaining": 1900
+      },
+      "purchases": {
+        "洛": [
+          {
+            "name": "強化系高階運用｜氣力置換",
+            "branch": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "points": 2800
+          }
+        ],
+        "伊恩": [
+          {
+            "name": "複式法陣構築",
+            "branch": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "points": 3300
+          }
+        ],
+        "程牧": [
+          {
+            "name": "灰隼重磅戰弓",
+            "branch": null,
+            "points": 1100
+          },
+          {
+            "name": "折疊智能箭庫Ⅰ",
+            "branch": null,
+            "points": 600
+          },
+          {
+            "name": "四人共享戰術視界",
+            "branch": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "points": 1200
+          },
+          {
+            "name": "束縛鎖箭",
+            "points": 180,
+            "quantity": 1
+          },
+          {
+            "name": "爆裂箭",
+            "points": 240,
+            "quantity": 1
+          },
+          {
+            "name": "冰凍箭",
+            "points": 220,
+            "quantity": 1
+          }
+        ],
+        "周映白": [
+          {
+            "name": "閃返步",
+            "branch": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "points": 1900
+          },
+          {
+            "name": "折疊救援模組庫Ⅰ",
+            "branch": null,
+            "points": 300
+          },
+          {
+            "name": "自律式折疊救難應急站Ⅰ",
+            "branch": {
+              "rank": "C",
+              "quantity": 1
+            },
+            "points": 2000
+          }
+        ]
+      },
+      "baseVersion": 35,
+      "publicRepair": {
+        "cost": 1200,
+        "after": 1080,
+        "asset": "兩棲折疊救援車Ⅱ",
+        "scope": [
+          "外殼",
+          "底盤",
+          "水上推進系統",
+          "折疊結構",
+          "密封",
+          "車載外部救援固定架Ⅱ"
+        ],
+        "before": 2280,
+        "result": "OPERATIONAL"
+      },
+      "branchConversion": {
+        "rule": "B×1→C×3",
+        "after": {
+          "B": 0,
+          "C": 1
+        },
+        "before": {
+          "B": 2,
+          "C": 0
+        },
+        "spentC": 5,
+        "converted": {
+          "BSpent": 2,
+          "CReceived": 6
+        },
+        "allocation": {
+          "洛": 1,
+          "伊恩": 1,
+          "程牧": 1,
+          "周映白": 2
+        }
+      }
+    }
+  }
+}

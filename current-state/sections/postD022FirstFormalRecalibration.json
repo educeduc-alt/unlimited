@@ -1,0 +1,73 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD022FirstFormalRecalibration",
+  "state": {
+    "postD022FirstFormalRecalibration": {
+      "洛": {
+        "circle": {
+          "sessionObservation": {
+            "6m": 96,
+            "8m": 54,
+            "10m": "短時間可用"
+          },
+          "authoritativeBaselineRetained": {
+            "6m": "約100秒（平均100.67）",
+            "8m": "約56秒",
+            "10m": "非穩定實用基準"
+          }
+        },
+        "basicTen": "PASS / HIGHLY STABLE",
+        "repeatFire": "NOT TESTED",
+        "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+        "enhancedTen": {
+          "meanSeconds": 111.67,
+          "trialsSeconds": [
+            112,
+            110,
+            113
+          ],
+          "interpretation": "循環效率與逸散改善",
+          "increaseVs103_67Percent": 7.7,
+          "newTotalAuraIncreaseConfirmed": false
+        },
+        "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
+        "pulseBrake5m": "PASS",
+        "maximumOutput": "NOT TESTED",
+        "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS"
+      },
+      "title": "POST-D022｜FIRST FORMAL RECALIBRATION COMPLETE",
+      "status": "COMPLETE / FIRST STANDARDIZED DATA RECORDED",
+      "伊恩": {
+        "multiCoreFormation": "STANDARDIZED LOW-TO-MID TEST PASS",
+        "autonomousSpellNode": "STANDARDIZED TEST PASS"
+      },
+      "程牧": {
+        "ballisticDomain": "LOW-TO-MID TEST PASS",
+        "threatPrediction": "LOW-TO-MID TEST PASS"
+      },
+      "nextState": "AI主神空間｜校準完成／全隊休息",
+      "周映白": {
+        "spatialAnchor": "STANDARDIZED LOW-OUTPUT TEST PASS",
+        "spatialSafetySense": "STANDARDIZED LOW-OUTPUT TEST PASS",
+        "flashReturnDistanceUpdated": false
+      },
+      "effectiveAt": "POST-D022｜第六階段戰力化後首次正式校準",
+      "globalRules": [
+        "單次測試不等於完全掌握",
+        "研究中／初步實用／原型不得自行升級",
+        "無新增總能量",
+        "無新增最大距離",
+        "無取消負荷限制"
+      ],
+      "nextMission": "UNSELECTED",
+      "sharedResonanceAnchor": {
+        "status": "ACQUIRED / INITIAL CALIBRATION",
+        "testedThisRound": false
+      }
+    }
+  }
+}

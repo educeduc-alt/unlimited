@@ -1,0 +1,2269 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "missionHistory",
+  "state": {
+    "missionHistory": [
+      {
+        "id": "D001",
+        "name": "銅貓鑰匙",
+        "world": "華滋學院",
+        "result": "完成",
+        "category": "新手副本",
+        "sequence": 1,
+        "keyEvents": [
+          "結識周映白",
+          "保護並取得伊恩信任",
+          "取得完整銅貓鑰匙後強制回歸"
+        ],
+        "difficulty": "E級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩"
+        ],
+        "combatRecords": [
+          "洛以拳擊與踢擊應對魔法木偶",
+          "三人合作雛形成立"
+        ],
+        "coreMechanics": [
+          "鑰匙爭奪",
+          "鐘聲倒數",
+          "魔法木偶",
+          "合作組合"
+        ],
+        "importantNPCs": [
+          "周映白",
+          "伊恩"
+        ],
+        "mainObjective": "取得完整銅貓鑰匙並在鐘聲倒數內完成副本"
+      },
+      {
+        "id": "D002",
+        "name": "破廟護鏢",
+        "world": "九嶺江湖",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 2,
+        "keyEvents": [
+          "破廟遭伏擊",
+          "與鏢師韓岳建立合作",
+          "繞行舊山徑與廢棄引水渠",
+          "青木鏢匣成功送達"
+        ],
+        "difficulty": "D級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩"
+        ],
+        "combatRecords": [
+          "洛的生命能量感知首次主動捕捉外部反應",
+          "三角護衛隊形形成",
+          "洛、周映白、伊恩完成多次近戰協同"
+        ],
+        "coreMechanics": [
+          "武俠修真",
+          "護送戰",
+          "戰鬥突圍",
+          "路線選擇"
+        ],
+        "importantNPCs": [
+          "韓岳"
+        ],
+        "mainObjective": "護送青木鏢匣抵達白石驛"
+      },
+      {
+        "id": "D003",
+        "name": "十三號末班車",
+        "world": "鏽港中央站",
+        "result": "完成",
+        "aliases": [
+          "鏽港十三號月台"
+        ],
+        "category": "正式副本",
+        "sequence": 3,
+        "keyEvents": [
+          "尋獲林澄",
+          "補全失效票證",
+          "三名護送者取得合法通行資格",
+          "林澄登車後隊伍被強制回歸"
+        ],
+        "difficulty": "D級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩"
+        ],
+        "combatRecords": [
+          "伊恩首次在正式副本有效使用魔力衝擊",
+          "周映白牽制異常驗票機",
+          "洛開始把纏帶入持續實戰"
+        ],
+        "coreMechanics": [
+          "都市異常",
+          "追逐",
+          "護送",
+          "票證補全",
+          "00:00倒數"
+        ],
+        "importantNPCs": [
+          "林澄"
+        ],
+        "mainObjective": "護送林澄登上十三號月台的末班列車"
+      },
+      {
+        "id": "D004",
+        "name": "十三號列車｜未完的停靠站",
+        "world": "鏽港異常交通網",
+        "result": "完成",
+        "category": "D級支線副本",
+        "sequence": 4,
+        "keyEvents": [
+          "消耗D級支線劇情×1",
+          "深入地下維修區",
+          "封鎖區間危機",
+          "奪取並驗證返程票",
+          "完成條件不要求登車"
+        ],
+        "difficulty": "未標定",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩"
+        ],
+        "combatRecords": [
+          "洛的纏穩定性提升",
+          "練首次正式實戰成功",
+          "洛完成眼部念集中與外物生命能量包覆的自主摸索",
+          "周映白合金短棍因封鎖維修口受損"
+        ],
+        "coreMechanics": [
+          "移動生存",
+          "異常列車",
+          "限時尋票",
+          "地下維修區"
+        ],
+        "importantNPCs": [
+          "公事包男子",
+          "鐵路維修員"
+        ],
+        "mainObjective": "取得一張有效返程票並由至少一名隊員持有"
+      },
+      {
+        "id": "D005",
+        "name": "灰塔攻城夜｜破門者",
+        "world": "灰塔戰區",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 5,
+        "keyEvents": [
+          "第一防線突破",
+          "第二防線絞盤區易手",
+          "由西側滲透第三防線",
+          "洛留後攔截並將最終啟動交給周映白與伊恩"
+        ],
+        "difficulty": "C級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩"
+        ],
+        "combatRecords": [
+          "洛反覆使用纏、凝、練與局部念分配",
+          "周映白完成側翼卡位與絞盤突破",
+          "伊恩累積高壓下的術式節制經驗",
+          "三人戰術定位正式成形"
+        ],
+        "coreMechanics": [
+          "攻城戰",
+          "多層防線",
+          "絞盤突破",
+          "內塔滲透",
+          "信標啟動"
+        ],
+        "importantNPCs": [],
+        "mainObjective": "突破三重防線並啟動內城信標"
+      },
+      {
+        "id": "D006",
+        "name": "最後一班車",
+        "world": "紅砂驛路",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 6,
+        "keyEvents": [
+          "選擇右側黃色軌道",
+          "運輸核心成功交接",
+          "四名參與者全員回歸",
+          "程牧完成首次完整四人副本合作並取得固定隊伍邀請資格"
+        ],
+        "difficulty": "D級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "combatRecords": [
+          "洛的練實戰穩定性提升",
+          "洛首次正式以絕進行資源管理",
+          "周映白強化短棍完成實戰驗證",
+          "伊恩術式壓縮完成實戰驗證",
+          "四人協同實戰紀錄成立"
+        ],
+        "coreMechanics": [
+          "護送",
+          "移動防衛",
+          "路線決策",
+          "運輸核心控制"
+        ],
+        "importantNPCs": [],
+        "mainObjective": "護送指定運輸核心抵達終點站並完成交接"
+      },
+      {
+        "id": "D007",
+        "name": "無燈競技城",
+        "world": "無燈競技城",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 7,
+        "keyEvents": [
+          "取得第六、第四、第二、第五區競技徽記",
+          "多次與其他參賽隊伍爭奪與脫戰",
+          "程牧最終進入中央升降台"
+        ],
+        "difficulty": "C級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "combatRecords": [
+          "四人完成換位搶奪、遠程壓制與控場循環",
+          "洛完成機動、重拳、回流、防護的連續變流",
+          "程牧戰術情報共享完成多人競技實戰驗證",
+          "伊恩雙層術式核有效樣本增加"
+        ],
+        "coreMechanics": [
+          "多人競技",
+          "區域爭奪",
+          "動態突破",
+          "資源管理"
+        ],
+        "importantNPCs": [],
+        "mainObjective": "取得四枚不同區域競技徽記，並使至少一名隊員進入中央升降台"
+      },
+      {
+        "id": "D008",
+        "name": "紅線封鎖區｜七分鐘",
+        "world": "赤界市",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 8,
+        "keyEvents": [
+          "與周映白完成高速協同拖帶",
+          "讓另一支帶傷者隊伍優先通過封鎖閘並獲得接應",
+          "洛替伊恩切入射線承受背側散射",
+          "護送目標於剩餘03:39抵達安全區"
+        ],
+        "difficulty": "C級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "combatRecords": [
+          "洛的螺旋右直拳首次正式副本命中",
+          "核心脈衝與腿部脈衝完成多次有效運用",
+          "程牧全程維持威脅排序與路線情報",
+          "伊恩完成視野切割與護送控場",
+          "周映白的戰術拖帶完成正式副本驗證"
+        ],
+        "coreMechanics": [
+          "都市突圍",
+          "限時護送",
+          "高壓戰鬥",
+          "動態封鎖"
+        ],
+        "importantNPCs": [
+          "指定護送目標",
+          "敏雅"
+        ],
+        "mainObjective": "在七分鐘封鎖前護送指定目標穿越紅線並抵達東側安全區"
+      },
+      {
+        "id": "D009",
+        "name": "灰月",
+        "world": "灰月異常區域",
+        "result": "完成",
+        "category": "正式副本",
+        "sequence": 9,
+        "keyEvents": [
+          "多次主動救援原住民並形成十二人撤離隊伍",
+          "恢復備援發電、觀測設備、撤離訊號與撤離鏈條",
+          "創傷掃描器、組織修復儀、拖帶與傷員護送體系完成B級實戰驗證",
+          "遭遇異常個體、模仿現象、灰白硬化威脅與附肢追擊",
+          "核心四人在鏈路、視野與隊形反覆被打亂後持續重組",
+          "十二名同行者最終成功撤離"
+        ],
+        "difficulty": "B級",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "sharedReward": {
+          "name": "十二人撤離",
+          "rank": "C",
+          "quantity": 1
+        },
+        "combatRecords": [
+          "洛在高傷勢與高念消耗下持續突破與近距保護",
+          "洛救援周映白時出現發＋高速流雛形，意圖→氣→動作可低輸出重現",
+          "周映白的折返步、戰地急救與切入→接觸→帶離完成多人撤離深化",
+          "伊恩以引燃、熱流偏轉與閃燃進行逼位、阻隔與路線塑形",
+          "程牧完成智能箭筒、射擊輔助、風鏡、灰隼與戰術鏈路的高壓整合",
+          "四人戰術鏈路深化為觀測→排序→阻斷→換位→再射擊"
+        ],
+        "coreMechanics": [
+          "長時間生存",
+          "多人救援",
+          "設施恢復",
+          "持續追擊",
+          "傷員護送",
+          "撤離門"
+        ],
+        "importantNPCs": [
+          "十二人撤離隊伍（非核心同行者8人）"
+        ],
+        "mainObjective": "存活至灰月落下，並在灰月落下後抵達開啟的撤離門",
+        "returnInjuries": {
+          "洛": [
+            "右拳重複負荷",
+            "念量嚴重消耗",
+            "雙腿爆發後疲勞",
+            "肩背累積性疲勞"
+          ],
+          "伊恩": [
+            "腳踝遭纏繞",
+            "術式消耗高",
+            "整體疲勞"
+          ],
+          "程牧": [
+            "長時間移動射擊疲勞",
+            "箭矢消耗待清點"
+          ],
+          "周映白": [
+            "腳踝遭灰白附肢短暫纏繞",
+            "長時間折返步與救援疲勞"
+          ]
+        },
+        "settlementNote": "此為歷史結算；目前CURRENT STATE已包含後續治療、消費、補充與整備，不以本場結算後快照覆蓋現值",
+        "rewardBreakdown": {
+          "洛": 2100,
+          "伊恩": 2000,
+          "程牧": 2000,
+          "周映白": 2000,
+          "components": [
+            "B級主線完成",
+            "高壓撤離表現",
+            "多人救援／樣本保存",
+            "關鍵設施恢復",
+            "臨界行動樣本"
+          ]
+        }
+      },
+      {
+        "id": "D010",
+        "name": "鏽港交通網Ⅲ｜零號線",
+        "world": "鏽港異常交通網",
+        "result": "完成",
+        "status": "完成",
+        "aliases": [
+          "零號線"
+        ],
+        "category": "正式副本",
+        "sequence": 10,
+        "keyEvents": [
+          "進入並調查零號線系統，依序經過水庫與舊城",
+          "區分舊城乘客清點與界碑人數核驗兩套機制",
+          "四人以完全沉默、戰術鏈路、視線、手勢及短暫實體接觸鏈通過界碑",
+          "抵達終點並將界碑過站票核銷為有效終點紀錄",
+          "四人使用一次正常回送資格返回中央站有效區域",
+          "洛取得並攜回「零號線｜特別返程憑證」",
+          "破關條件成立後主神白光立即回收四人"
+        ],
+        "difficulty": "B級",
+        "rewardNote": "資料庫沒有足夠客觀規則核定點數、公共資金、支線或特殊完成獎勵；本次未發放，避免猜測與重複結算",
+        "consumption": {
+          "arrows": 0,
+          "medicalConsumables": 0
+        },
+        "intelligence": {
+          "terminal": [
+            "界碑過站票可核銷為有效終點紀錄",
+            "核銷票根提供一次正常回送資格",
+            "正常回送列車可返回中央站"
+          ],
+          "oldReturnLine": [
+            "標示永久停用",
+            "過去疑似供遺失正常返程票根者使用",
+            "存在異常單節車廂",
+            "疑似具有時間落點不穩定特性",
+            "與特別返程憑證高度相關"
+          ],
+          "oldCityPassengerCount": [
+            "下車旅客需要清點；過站旅客正常情況無需清點",
+            "被清點者會出現序號，且序號會隨新對象被納入而變動",
+            "清點板與序號存在異常連結"
+          ],
+          "boundaryMarkerVerification": [
+            "與舊城乘客清點屬於不同機制",
+            "可使用熟悉隊友聲音誘導旅客回應，曾使用洛、周映白、伊恩與程牧的聲音",
+            "高可信推測：目的可能是誘使旅客以聲音確認自己或隊友的存在、身分或位置；不得升格為絕對世界規則",
+            "完全沉默配合戰術鏈路、視線、手勢與短暫實體接觸鏈可成功規避"
+          ]
+        },
+        "missionItems": [
+          {
+            "name": "終點核銷票根",
+            "status": "已使用／未列為現役可攜資產",
+            "holders": [
+              "洛",
+              "周映白",
+              "伊恩",
+              "程牧"
+            ],
+            "function": "有效終點到站紀錄與一次正常回送資格",
+            "quantity": 4
+          }
+        ],
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "洛／周映白／伊恩／程牧全員存活",
+        "rewardStatus": "正式核定／已發放",
+        "combatRecords": [
+          "程牧未發射箭矢，但持續使用射手輔助風鏡、動態觀測、威脅排序、戰術鏈路與環境偵察",
+          "本副本未使用正式醫療耗材",
+          "洛僅進行纏、流、練、凝及既有基礎控制整理，未形成新技能",
+          "四人透過非語音協同規避聲音誘導核驗"
+        ],
+        "coreMechanics": [
+          "異常交通規則調查",
+          "舊城乘客清點",
+          "界碑人數核驗",
+          "沉默規避",
+          "終點核銷",
+          "正常回送",
+          "疑似時間異常"
+        ],
+        "importantNPCs": [
+          "舊返程線未知拳套男性（身分未確認）"
+        ],
+        "mainObjective": "搭乘零號線抵達終點，取得有效終點紀錄，使用正常回送列車返回中央站有效區域",
+        "rewardApplied": true,
+        "specialEvents": [
+          {
+            "name": "舊返程線未知拳套男性",
+            "identity": "未知",
+            "confirmed": [
+              "成年男性",
+              "體型與洛相近",
+              "穿深色戰術服",
+              "配戴拳套",
+              "知道洛持有特別返程憑證",
+              "展示「不要現在打開」「先回去」「會再見」等訊息"
+            ],
+            "prohibitedConclusion": "不得判定為未來洛"
+          }
+        ],
+        "completionFlow": [
+          "取得有效終點紀錄",
+          "四人完成正常回送",
+          "至少一人攜帶有效終點紀錄返回中央站有效區域",
+          "主神白光回收",
+          "返回AI主神空間"
+        ],
+        "returnInjuries": {
+          "洛": [],
+          "伊恩": [],
+          "程牧": [],
+          "周映白": []
+        },
+        "settlementNote": "以更新前 CURRENT STATE v8 為基準；箭矢、醫療耗材、技能、裝備、關係與經濟均未被舊聊天數值覆蓋；主持人已正式核定四人各＋3600點，支線＋0，公共資金＋0，已以CURRENT STATE v10為起點單次發放",
+        "sourceEvidence": {
+          "note": "正式進入、完成與結算紀錄已在後續PDF核對；不得重複發放獎勵",
+          "pages": [
+            39,
+            40,
+            432,
+            434,
+            435
+          ],
+          "document": "AI無限流模擬器續玩.pdf",
+          "verified": true
+        },
+        "rewardAppliedAt": "2026-08-17T00:00:00+08:00",
+        "rewardBreakdown": {
+          "perMember": 3600,
+          "teamTotal": 14400,
+          "components": [
+            {
+              "name": "基本破關",
+              "points": 1000
+            },
+            {
+              "name": "全員生還",
+              "points": 300
+            },
+            {
+              "name": "完整破解界碑核驗機制",
+              "points": 400
+            },
+            {
+              "name": "正確完成終點核銷及正常返程",
+              "points": 300
+            },
+            {
+              "name": "發現舊返程線／特殊回送機制",
+              "points": 300
+            },
+            {
+              "name": "取得並成功帶出重要特殊線索",
+              "points": 400
+            },
+            {
+              "name": "高品質團隊決策與鏈路斷線應變",
+              "points": 300
+            },
+            {
+              "name": "資源控制：零箭矢、零醫療耗材",
+              "points": 200
+            },
+            {
+              "name": "高風險環境下避免無意義戰鬥",
+              "points": 200
+            },
+            {
+              "name": "角色互動／情報互證／規則推理",
+              "points": 200
+            }
+          ],
+          "sideStoryAward": 0,
+          "sideStoryReason": "僅取得舊返程線／時間異常／特別返程憑證線索，尚未正式完成該支線",
+          "publicFundsAward": 0,
+          "specialItemPoints": 0
+        },
+        "equipmentOutcome": "四人主要裝備未確認永久故障或損壞"
+      },
+      {
+        "id": "D011",
+        "name": "赤沙巨獸狩獵場",
+        "world": "赤沙荒原／赫沙聚落",
+        "result": "完成／非獵殺解",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 11,
+        "keyEvents": [
+          "完成赤晶真相、歸巢、第二倖存個體三項隱藏事件",
+          "赤脊存活，兩名倖存幼體成功歸還",
+          "赫沙聚落存續，南礦孵育區停止開採",
+          "自北方商隊追回第二倖存幼體",
+          "發現地下水候選井點，但尚非永久水源確證",
+          "對赫沙聚落傷員提供額外救援與醫療處置"
+        ],
+        "difficulty": "C級",
+        "consumption": {
+          "arrows": 0,
+          "stretcher": "使用後回收／仍持有×1",
+          "provisions": {
+            "perMemberConsumed": {
+              "飲水": 4,
+              "壓縮口糧": 3
+            },
+            "perMemberRemaining": {
+              "飲水": 3,
+              "壓縮口糧": 4
+            }
+          },
+          "personalMedical": [
+            "洛：基礎創傷應急劑×1",
+            "周映白：醫療噴膜×1",
+            "伊恩：醫療噴膜×1",
+            "程牧：鈍傷修復貼×1"
+          ],
+          "equipmentPermanentDamage": 0,
+          "publicMedicalConsumables": 0
+        },
+        "hiddenEvents": [
+          "赤晶真相",
+          "歸巢",
+          "第二倖存個體"
+        ],
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "四人全員存活；死亡0；永久傷勢0；赤脊正式交戰0",
+        "rewardStatus": "正式核定／已發放",
+        "combatRecords": [
+          "洛完成高情緒環境纏維持、圓的首次低侵略性大型生命接觸、脈衝非戰鬥短距衝刺及多次由失控練恢復基礎纏",
+          "洛唯一主動人類攻擊為對商隊首領普通無念一拳，未造成持續武力衝突",
+          "周映白以傷勢判讀、折返跑、幼體安全搬運與公共醫療主導支援任務",
+          "程牧強化風鏡完成正式副本驗證並維持觀測→推測→確認分層；箭矢零射擊",
+          "伊恩完成赤晶生命活動／熱變化判讀、水源區紀錄排除，並協助洛恢復念量穩定；連續施法未完成高強度戰鬥驗證"
+        ],
+        "mainObjective": "赤沙之災",
+        "returnInjuries": {
+          "洛": [],
+          "伊恩": [],
+          "程牧": [],
+          "周映白": []
+        },
+        "settlementNote": "共同C級支線×1維持；程牧欠洛100點未清償；無新增支線",
+        "sourceEvidence": {
+          "note": "正式進入、非獵殺完成與結算紀錄已在後續PDF核對；不得重複發放獎勵",
+          "pages": [
+            650,
+            838,
+            840,
+            853,
+            854
+          ],
+          "document": "AI無限流模擬器續玩.pdf",
+          "verified": true
+        },
+        "rewardBreakdown": {
+          "perMember": 3450,
+          "teamTotal": 13800,
+          "components": [
+            {
+              "name": "主線",
+              "points": 1000
+            },
+            {
+              "name": "赤晶真相",
+              "points": 400
+            },
+            {
+              "name": "歸巢",
+              "points": 500
+            },
+            {
+              "name": "第二倖存個體",
+              "points": 700
+            },
+            {
+              "name": "個人表現",
+              "points": 300
+            },
+            {
+              "name": "隊伍共同加成均分",
+              "points": 550
+            }
+          ],
+          "sideStoryAward": 0,
+          "publicFundsAward": 0
+        }
+      },
+      {
+        "id": "D012",
+        "name": "玻璃海岸",
+        "world": "玻璃海岸",
+        "result": "完成",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 12,
+        "keyEvents": [
+          "完成第一、第二、第三觀測站與海研七號多源情報統整",
+          "完成獨立時間軸、未知脈衝與資料差異分析",
+          "完成救援優先級評估與真相重建",
+          "四人全員生還並返回AI主神空間"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "arrows": {
+            "officialQuiver": "30→26",
+            "定位信標箭": 2,
+            "重型破障箭": 1,
+            "電擊干擾箭Ⅰ": 1
+          },
+          "provisions": {
+            "perMemberConsumed": {
+              "飲水": 1,
+              "壓縮口糧": 1
+            },
+            "perMemberRemaining": {
+              "飲水": 2,
+              "壓縮口糧": 3
+            }
+          },
+          "publicMedical": "PENDING_PHYSICAL_INVENTORY",
+          "publicCampingEquipment": "使用後回收／無確認耐久損失"
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4全員生還",
+        "rewardStatus": "正式核定／已發放",
+        "combatRecords": [
+          "洛以腿部脈衝切入護衛，右拳脈衝成功偏轉巨型觸手；未使用脈衝螺旋右拳",
+          "周映白以折返式模組救援棍完成長柄偏轉、破障與救援工具運用，負重後送完成B級驗證",
+          "程牧完成長時間第一觀測、路線判斷、多箭種情境決策與異常資料分析",
+          "伊恩完成多源情報統整、移動呼吸預構築、術式取消轉構及第二線副指揮"
+        ],
+        "coreMechanics": [
+          "多觀測站情報鏈",
+          "獨立時間軸與未知脈衝",
+          "救援優先級判定",
+          "真相重建",
+          "長距離行動與後勤管理"
+        ],
+        "importantNPCs": [],
+        "mainObjective": "完成玻璃海岸事件、重建真相並安全撤離",
+        "returnInjuries": {
+          "洛": [],
+          "伊恩": [],
+          "程牧": [],
+          "周映白": []
+        },
+        "settlementCard": {
+          "20_savePoint": {
+            "next": [
+              "醫療實體盤點",
+              "補給",
+              "裝備維護",
+              "機動載具需求評估",
+              "下一副本選擇"
+            ],
+            "location": "AI主神空間",
+            "saveStatus": "CONFIRMED",
+            "partyStatus": "SETTLEMENT"
+          },
+          "17_finalEconomy": {
+            "reward": {
+              "洛": 2700,
+              "branch": {
+                "B": 1
+              },
+              "public": 3000,
+              "伊恩": 3200,
+              "程牧": 2900,
+              "周映白": 2900
+            },
+            "preDungeon": {
+              "洛": 378,
+              "branch": {
+                "B": 0,
+                "C": 0
+              },
+              "伊恩": 2769,
+              "程牧": 2319,
+              "周映白": 2379,
+              "publicFund": 270,
+              "privateTotal": 7845
+            },
+            "postDungeon": {
+              "洛": 3078,
+              "branch": {
+                "B": 1,
+                "C": 0
+              },
+              "伊恩": 5969,
+              "程牧": 5219,
+              "周映白": 5279,
+              "publicFund": 3270,
+              "totalAssets": 22815,
+              "privateTotal": 19545
+            }
+          },
+          "00_dungeonHeader": {
+            "id": "D012",
+            "name": "玻璃海岸",
+            "rank": "B",
+            "type": "多觀測站情報鏈／救援優先／真相重建／長距離行動",
+            "party": [
+              "洛",
+              "周映白",
+              "伊恩",
+              "程牧"
+            ],
+            "result": "CLEARED",
+            "survivors": "4/4",
+            "finalState": "四人全員生還並返回AI主神空間",
+            "mainObjectives": [
+              "完成多觀測站與海研七號情報鏈",
+              "重建事件真相",
+              "完成救援優先判定並安全撤離"
+            ]
+          },
+          "02_extraEvaluation": [
+            {
+              "title": "完整情報鏈",
+              "result": "完成多源情報統整",
+              "reward": {
+                "publicFunds": 1200
+              },
+              "trigger": "同步第一、第二、第三觀測站與海研七號情報"
+            },
+            {
+              "title": "救援優先評估",
+              "result": "完成救援優先級評估",
+              "reward": {
+                "publicFunds": 800
+              },
+              "trigger": "高壓環境中正確判定救援、撤離與任務優先級"
+            },
+            {
+              "title": "真相重建",
+              "result": "完成事件真相重建",
+              "reward": {
+                "branchStory": {
+                  "rank": "B",
+                  "quantity": 1
+                },
+                "publicFunds": 1000
+              },
+              "trigger": "比對獨立時間軸、未知脈衝與資料差異"
+            }
+          ],
+          "12_characterGrowth": {
+            "洛": "念基礎與流向實戰整合；脈衝完成B級副本驗證；脈衝螺旋右拳仍為INTEGRATED_BUT_LIMITED",
+            "伊恩": "副指揮、情報統整、移動預構築與取消轉構取得重大成長",
+            "程牧": "第一觀測、異常資料分析、情境選箭與不射擊決策完成實戰驗證",
+            "周映白": "救援鏈、負重後送與模組救援棍完成B級實戰驗證"
+          },
+          "06_publicFundReward": {
+            "total": 3000,
+            "真相重建": 1000,
+            "完整情報鏈": 1200,
+            "救援優先評估": 800
+          },
+          "14_procurementNeeds": {
+            "gap": "LONG_RANGE_MOBILITY",
+            "item": "隊伍戰術機動載具",
+            "priority": "HIGH",
+            "requirements": [
+              "至少4名隊員",
+              "至少1名傷員後送",
+              "跨副本可攜",
+              "低維護",
+              "救援掛點",
+              "跨地形",
+              "陸水兩棲優先",
+              "長期懸浮／短程飛行"
+            ]
+          },
+          "18_pendingInventory": [
+            "個人醫療剩餘量",
+            "公共醫療剩餘量"
+          ],
+          "03_specialResolution": {
+            "target": "玻璃海岸核心事件／未知脈衝與資料差異",
+            "specialNote": "未將可交戰威脅一律視為必須擊殺；以任務與救援完成為核心",
+            "finalResolution": "情報統整、救援優先判定與真相重建後撤離"
+          },
+          "07_branchStoryReward": {
+            "gained": {
+              "B": 1
+            },
+            "spentDuringDungeon": 0,
+            "finalNewBranchDelta": {
+              "B": 1
+            }
+          },
+          "01_mainQuestBaseReward": {
+            "perMember": {
+              "洛": 2000,
+              "伊恩": 2000,
+              "程牧": 2000,
+              "周映白": 2000
+            },
+            "publicBaseReward": 0,
+            "basePersonalRewardTotal": 8000
+          },
+          "05_personalPointReward": {
+            "洛": {
+              "base": 2000,
+              "bonus": 700,
+              "total": 2700
+            },
+            "伊恩": {
+              "base": 2000,
+              "bonus": 1200,
+              "total": 3200
+            },
+            "程牧": {
+              "base": 2000,
+              "bonus": 900,
+              "total": 2900
+            },
+            "周映白": {
+              "base": 2000,
+              "bonus": 900,
+              "total": 2900
+            },
+            "totalPersonalPointsGained": 11700
+          },
+          "13_partyTacticalGrowth": {
+            "formation": {
+              "frontline": [
+                "洛：近距離護衛／失能",
+                "程牧：第一觀測／遠程控制"
+              ],
+              "secondLine": [
+                "周映白：側翼／救援／折返保護",
+                "伊恩：副指揮／情報統整／術式構築"
+              ]
+            },
+            "confirmedPrinciples": [
+              "負責說出決策但由全隊共同承擔",
+              "必要時放棄攻擊優先救援",
+              "不射擊本身亦可為正式戰術決策",
+              "資訊不足時維持多重假說"
+            ]
+          },
+          "19_finalDungeonSummary": {
+            "result": "完成",
+            "dungeon": "D012《玻璃海岸》",
+            "keyCosts": [
+              "正式箭筒4箭",
+              "全隊飲水4份",
+              "全隊口糧4份"
+            ],
+            "survivors": "4/4",
+            "difficulty": "B級",
+            "mainGrowth": "四人將情報、救援、護衛與副指揮整合成能在B級長時間異常環境運作的完整隊形。",
+            "branchGained": "B級×1",
+            "keyAchievements": [
+              "完整情報鏈",
+              "救援優先評估",
+              "真相重建",
+              "全員生還"
+            ],
+            "publicFundGained": 3000,
+            "personalPointsGained": 11700
+          },
+          "09_foodWaterConsumption": {
+            "洛": {
+              "口糧": {
+                "after": 3,
+                "spent": 1,
+                "before": 4
+              },
+              "飲水": {
+                "after": 2,
+                "spent": 1,
+                "before": 3,
+                "refilled": 0
+              }
+            },
+            "伊恩": {
+              "口糧": {
+                "after": 3,
+                "spent": 1,
+                "before": 4
+              },
+              "飲水": {
+                "after": 2,
+                "spent": 1,
+                "before": 3,
+                "refilled": 0
+              }
+            },
+            "程牧": {
+              "口糧": {
+                "after": 3,
+                "spent": 1,
+                "before": 4
+              },
+              "飲水": {
+                "after": 2,
+                "spent": 1,
+                "before": 3,
+                "refilled": 0
+              }
+            },
+            "周映白": {
+              "口糧": {
+                "after": 3,
+                "spent": 1,
+                "before": 4
+              },
+              "飲水": {
+                "after": 2,
+                "spent": 1,
+                "before": 3,
+                "refilled": 0
+              }
+            },
+            "accountingRule": "PERSONAL FIRST",
+            "teamTotalSpent": {
+              "口糧": 4,
+              "飲水": 4
+            }
+          },
+          "08_ammunitionConsumption": {
+            "標準箭": {
+              "after": 18,
+              "spent": 0,
+              "before": 18
+            },
+            "officialQuiver": {
+              "after": 26,
+              "spent": 4,
+              "before": 30
+            },
+            "extraAmmunition": [
+              {
+                "name": "拘束繩索箭",
+                "accounting": "EXCLUDED"
+              }
+            ],
+            "定位信標箭": {
+              "after": 0,
+              "spent": 2,
+              "before": 2
+            },
+            "遮蔽煙幕箭": {
+              "after": 2,
+              "spent": 0,
+              "before": 2
+            },
+            "重型破障箭": {
+              "after": 2,
+              "spent": 1,
+              "before": 3
+            },
+            "鈍擊衝擊箭": {
+              "after": 2,
+              "spent": 0,
+              "before": 2
+            },
+            "閃光干擾箭": {
+              "after": 2,
+              "spent": 0,
+              "before": 2
+            },
+            "電擊干擾箭Ⅰ": {
+              "after": 0,
+              "spent": 1,
+              "before": 1
+            }
+          },
+          "04_individualContribution": {
+            "洛": {
+              "role": "第一線近戰／隊長",
+              "bonus": 700,
+              "grade": "NOT_FORMALLY_GRADED",
+              "contributions": [
+                "腿部脈衝切入護衛",
+                "右拳脈衝偏轉巨型觸手",
+                "高壓撤離與救援優先決策"
+              ]
+            },
+            "伊恩": {
+              "role": "第二線副指揮／術式構築／情報統整",
+              "bonus": 1200,
+              "grade": "S-",
+              "contributions": [
+                "多源資料統整",
+                "多重假說維持",
+                "撤離判斷與戰術分發",
+                "移動預構築與取消轉構"
+              ]
+            },
+            "程牧": {
+              "role": "第一觀測位／遠程控制／戰術偵察",
+              "bonus": 900,
+              "grade": "NOT_FORMALLY_GRADED",
+              "contributions": [
+                "長時間環境觀測與路線選擇",
+                "異常時間軸分析",
+                "情境選箭與不射擊判斷"
+              ]
+            },
+            "周映白": {
+              "role": "救援核心／側翼／第二線保護",
+              "bonus": 900,
+              "grade": "NOT_FORMALLY_GRADED",
+              "contributions": [
+                "救援鏈多次驗證",
+                "負重傷員後送",
+                "救援棍長柄／破障／工具模式運用"
+              ]
+            }
+          },
+          "11_equipmentUsageDurability": {
+            "damage": "NONE_CONFIRMED",
+            "usedButNotConsumed": [
+              "主戰拳套Ⅱ",
+              "折返式模組救援棍Ⅰ",
+              "流焰戰術短杖Ⅰ",
+              "赤晶焰紋髮扣",
+              "灰隼複合戰術弓",
+              "智能箭筒",
+              "射手風鏡",
+              "四人共享次元行囊Ⅰ",
+              "露營模組",
+              "淨水器",
+              "擔架",
+              "定位／集合器",
+              "伊恩護髮工具"
+            ]
+          },
+          "10_medicalResourceConsumption": {
+            "rules": [
+              "未明確使用者不扣",
+              "耐久醫療工具不視為一次性消耗",
+              "後續由周映白實體盤點"
+            ],
+            "publicMedical": "未明確確認，暫不扣除",
+            "personalMedical": "未明確確認，暫不扣除",
+            "accountingStatus": "PENDING INVENTORY"
+          },
+          "16_relationshipCharacterEvent": {
+            "status": "NO MAJOR RELATIONSHIP DELTA",
+            "combatBuff": false
+          },
+          "15_intelligenceBestiaryWorldData": {
+            "newIntelligence": [
+              "第一、第二、第三觀測站與海研七號情報可交叉統整",
+              "獨立時間軸、未知脈衝與資料差異可用於真相重建"
+            ],
+            "newCreaturePhenomenon": "未提供足夠正式圖鑑欄位，不新增或猜測怪物資料"
+          }
+        },
+        "settlementNote": "公共醫療消耗品不推測扣除；拘束繩索箭不計入正式30發箭筒；新增共同B級支線×1",
+        "rewardBreakdown": {
+          "personal": {
+            "洛": {
+              "gained": 2700,
+              "baseClear": 2000,
+              "contributionBonus": 700
+            },
+            "伊恩": {
+              "gained": 3200,
+              "baseClear": 2000,
+              "contributionBonus": 1200
+            },
+            "程牧": {
+              "gained": 2900,
+              "baseClear": 2000,
+              "contributionBonus": 900
+            },
+            "周映白": {
+              "gained": 2900,
+              "baseClear": 2000,
+              "contributionBonus": 900
+            }
+          },
+          "publicFunds": {
+            "total": 3000,
+            "真相重建": 1000,
+            "完整情報鏈": 1200,
+            "救援優先評估": 800
+          },
+          "personalTotal": 11700,
+          "sideStoryAward": {
+            "rank": "B",
+            "quantity": 1
+          }
+        },
+        "settlementFormat": "UNIVERSAL_DUNGEON_SETTLEMENT_V1",
+        "settlementCompleteness": "APPLIED_WITH_CONFIRMED_DATA_AND_PENDING_MARKERS"
+      },
+      {
+        "id": "D013",
+        "name": "霧港零號燈塔",
+        "world": "霧港零號燈塔",
+        "rating": "S",
+        "result": "完成／非殲滅解",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 13,
+        "keyEvents": [
+          "抵達零號燈塔頂層並確認02:17異常訊號來源",
+          "修復第二校正環、恢復核心穩定頻率與主燈",
+          "恢復港區撤離航道並持續救援生還者",
+          "外海約11km搜索並成功回收6名失事船生還者",
+          "確認仿生人與海底智慧生命敵對判定均不成立",
+          "重建未知通訊循環與黑霧保護機制的完整因果",
+          "與霧生大型智慧生命建立首次簡化溝通"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "arrows": {
+            "spent": 0,
+            "remaining": "40/40"
+          },
+          "teamMedical": 0,
+          "vehicleEnergy": "未明確消耗完整單位，不扣除",
+          "publicProvisions": {
+            "water": 11,
+            "rations": 15
+          },
+          "personalProvisions": "未明確宣告消耗，不扣除"
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4全員生還／無永久傷勢",
+        "combatRecords": [
+          "全副本未與霧生大型智慧生命正式交戰",
+          "洛於第二校正環修復時完成非殲滅式擊離防衛",
+          "程牧0箭完成高貢獻觀測與遠程控制",
+          "伊恩主動節制術式並維持多重假說",
+          "周映白完成現場判傷、拖帶、破障與救援路線維持"
+        ],
+        "coreMechanics": [
+          "低能見度港區探索",
+          "頻率／能源／震動交叉判讀",
+          "人類與仿生人混合救援",
+          "兩棲載具海上搜索",
+          "跨物種溝通",
+          "非殲滅式真相重建"
+        ],
+        "mainObjective": "抵達零號燈塔頂層、確認02:17異常訊號來源、修復第二校正環並恢復港區撤離航道",
+        "returnInjuries": {
+          "洛": [],
+          "伊恩": [],
+          "程牧": [],
+          "周映白": []
+        },
+        "settlementNote": "自有醫療物資0消耗；個人補給不扣；公共飲水11、公共壓縮口糧15；箭矢40/40；兩筆私人欠款已清償。",
+        "rewardBreakdown": {
+          "personal": {
+            "洛": 3000,
+            "伊恩": 3000,
+            "程牧": 3100,
+            "周映白": 2900
+          },
+          "publicFunds": 3000,
+          "sideStoryAward": {
+            "rank": "B",
+            "quantity": 1
+          }
+        }
+      },
+      {
+        "id": "D014",
+        "name": "屍潮列車",
+        "world": "屍潮列車",
+        "rating": "S",
+        "result": "完成／戰鬥救援後全列車清掃",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "doctrine": [
+          "沒有活人在等，就不用趕",
+          "救援階段：生命優先，搶時間",
+          "清掃階段：穩定、持續、節省輸出",
+          "被咬／疑似感染但保有意識者先隔離、評估與觀察，不因咬傷立即處死",
+          "確認不可逆轉化需由四人共同確認"
+        ],
+        "sequence": 14,
+        "keyEvents": [
+          "列車主要活動感染體與特殊／大型感染體威脅排除",
+          "主要通行區恢復，多名生還者救出",
+          "建立傷員後送、隔離與感染風險分區監控",
+          "四人共同確認並處置已不可逆轉化者",
+          "後半段由戰鬥中救援轉為救援完成後的全列車殘敵清掃",
+          "普通櫃台鈴於返還後按響，意義僅為4 IN／4 OUT"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "arrows": {
+            "entered": 40,
+            "accounting": "30+4+6=40",
+            "combatReady": 30,
+            "typeBreakdown": "PENDING_INSPECTION",
+            "lostOrDestroyed": 6,
+            "damagedPendingRepair": 4
+          },
+          "medical": "PENDING_PHYSICAL_INVENTORY；不得把單次噴用視為整罐耗盡",
+          "publicProvisions": "未確認動用；公共飲水11、公共壓縮口糧15維持",
+          "personalProvisions": "PENDING_PHYSICAL_INVENTORY；至少一次每人各自消耗，第二次未精確量化"
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／0永久傷勢／0確認感染／0確認咬傷",
+        "combatRecords": [
+          "洛以基本念量、高速精準流、拳擊架勢與籠手防禦維持第一線",
+          "洛首次於正式副本完成脈衝×螺旋右拳完整高輸出",
+          "周映白完成高強度救援、拖帶、返場與大型感染體協同控制",
+          "伊恩完成弱點縫隙單點術式協同與死角控制",
+          "程牧以戰術鏈、弱點分析與智能箭筒管理支援持續戰"
+        ],
+        "coreMechanics": [
+          "高密度感染體持續戰",
+          "救援—後送—返場循環",
+          "疑似感染隔離與不可逆轉化確認",
+          "低消耗殘敵清掃",
+          "箭矢回收、戰損與資源管理"
+        ],
+        "mainObjective": "清掃列車主要感染體、排除特殊感染體、恢復通行、救出生還者並完成殘敵清掃",
+        "returnInjuries": {
+          "洛": [
+            "右臂完整脈衝×螺旋後高負荷",
+            "左前臂長期護臂承撞累積鈍擊",
+            "肩背、腰腿、心肺整體疲勞",
+            "休息與基礎處理後無永久傷勢"
+          ],
+          "伊恩": [],
+          "程牧": [],
+          "周映白": []
+        },
+        "rewardBreakdown": {
+          "sideStory": {
+            "rank": "B",
+            "quantity": 2
+          },
+          "privateDebt": 0,
+          "publicFunds": 2200,
+          "totalAssets": 33240,
+          "privateTotal": 31040,
+          "postSettlement": {
+            "洛": 5420,
+            "伊恩": 9037,
+            "程牧": 7912,
+            "周映白": 8671
+          }
+        }
+      },
+      {
+        "id": "D015",
+        "name": "黑潮貨港",
+        "world": "黑潮貨港",
+        "rating": "S",
+        "result": "完成／非全面殲滅解",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "doctrine": [
+          "異常不等於敵意",
+          "能救則救",
+          "人類與其他智慧生命不視為可消耗資源",
+          "遭咬傷／疑似感染不等於自動處決",
+          "高位存在不等於必須挑戰",
+          "知道自身做不到什麼，也是生存與救援能力的一部分"
+        ],
+        "sequence": 15,
+        "keyEvents": [
+          "處理數百人級恐慌、踩踏與火場，重建撤離資訊與秩序",
+          "巨型鯊魚及魚群敵意未成立，確認其正逃離異常中心",
+          "兩棲救援車切換水上模式後遭大漩渦捲入海底遺跡並重度受損",
+          "發現依靠祭司法力維生的人類融合生命體",
+          "魚人祭司主動攻擊，敵意成立",
+          "隊伍未直接中斷全部維生；未知高位生命介入並清除魚人祭司及召喚結構",
+          "融合受害者復原，海水暫時分隔形成撤離通路",
+          "完成最後傷患後送並返回AI主神空間",
+          "副本世界未得知主神存在"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "arrows": {
+            "spent": "束縛鎖箭×1",
+            "outcome": "損耗／未回收",
+            "combatReady": 35,
+            "totalPresent": 39,
+            "currentMissing": 1,
+            "restockRequired": "束縛鎖箭×1",
+            "d014PendingRepair": 4,
+            "d015LostOrConsumed": 1
+          },
+          "medical": 0,
+          "publicWater": 0,
+          "publicRations": 0
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／0永久傷勢／0感染或異常寄生",
+        "combatRecords": [
+          "洛以念強化喊話建立秩序，並增加流的非戰鬥精細應用",
+          "周映白完成大量傷患分類、板車／拖帶／載具後送",
+          "伊恩控制火場熱流與煙流，深化取消／轉構及儀式結構辨識",
+          "WIFI重建人流、危險區及撤離資訊，深化大型生物與環境異常交叉判讀"
+        ],
+        "coreMechanics": [
+          "大型群眾撤離與秩序重建",
+          "火場熱流／煙流控制",
+          "大型海生生物行為判讀",
+          "海底遺跡召喚儀式",
+          "維生結構與敵對祭司分離處理",
+          "高位存在介入下的克制撤離"
+        ],
+        "mainObjective": "重新建立港區撤離路線，清除阻斷撤離的主要威脅",
+        "rewardBreakdown": {
+          "sideStory": {
+            "rank": "B",
+            "quantity": 2
+          },
+          "privateDebt": 0,
+          "publicFunds": 2280,
+          "totalAssets": 18020,
+          "privateTotal": 15740,
+          "postSettlement": {
+            "洛": 3670,
+            "伊恩": 4097,
+            "程牧": 3682,
+            "周映白": 4291
+          }
+        }
+      },
+      {
+        "id": "D016",
+        "name": "白骨王座",
+        "truth": [
+          "王座與歷代國王存在封印承載連結",
+          "地下封印失衡後，異常負荷反向侵蝕承載者，導致三任國王接連失去統治能力，王城因此崩潰",
+          "白骨王與白骨軍並非根本敵對方，其主要行為為維持王陵封印、疏散王城及阻止地下異常突破"
+        ],
+        "world": "白骨王座／王城與王陵",
+        "assets": {
+          "兩棲折疊救援車Ⅱ": "OPERATIONAL",
+          "折疊救援模組庫Ⅰ": "OPERATIONAL",
+          "自律式折疊救難應急站Ⅰ": "OPERATIONAL"
+        },
+        "rating": "S",
+        "result": "完成／封印重構與平民救援",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 16,
+        "keyEvents": [
+          "黑氣人重新封印",
+          "王陵封印恢復",
+          "王座人體承載節點移除",
+          "負荷改由王陵多節點分流",
+          "王座保留啟動、監控與權限",
+          "短期穩定性確認",
+          "王城重傷救援",
+          "倒塌建築搜救"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "rule": "其餘未明確使用之飲食、醫療與箭矢不自動扣除",
+          "arrows": {
+            "lost": 0,
+            "used": {
+              "標準箭": 6,
+              "鈍擊箭": 2
+            },
+            "shots": 8,
+            "recovered": 8,
+            "combatReady": 41,
+            "specialSpent": 0,
+            "physicalTotal": 42,
+            "damagedPendingRepair": {
+              "標準箭": 1
+            }
+          },
+          "medical": {
+            "快速冷敷類": {
+              "spent": 1,
+              "accountedAs": "快速冷敷凝膠 4→3"
+            }
+          },
+          "provisions": {
+            "飲水": {
+              "after": 20,
+              "spent": 4,
+              "before": 24
+            },
+            "壓縮口糧": {
+              "after": 28,
+              "spent": 4,
+              "before": 32
+            }
+          }
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／永久傷勢0／感染或不可逆異常0",
+        "combatRecords": [
+          "洛深化氣力置換、腿部脈衝與螺旋右拳；未確認總氣量提升",
+          "周映白深化閃返步與災難搜救",
+          "程牧深化共享戰術視界與多源情報整合",
+          "伊恩的複式法陣構築熟練度顯著提升，增加陌生法陣解析、大型封印協作、術式分流與結構重排經驗；不新增CONFIRMED技能"
+        ],
+        "mainObjective": "確認王城權力崩潰真正原因，並阻止大規模平民死亡",
+        "settlementNote": "D016結算後另支出950點：戒指720、戒指盒30、貼身衣物五套200；CURRENT STATE採購後為洛1870、私人總額9200、公共1880、總資產11080。",
+        "rewardBreakdown": {
+          "privateDebt": 0,
+          "publicFunds": 1880,
+          "totalAssets": 12030,
+          "privateTotal": 10150,
+          "branchStories": {
+            "B": 1,
+            "C": 2
+          },
+          "accountingRule": "此為D016正式結算節點；戒指、戒指盒與伊恩貼身衣物在此節點之後另行扣款",
+          "postSettlement": {
+            "洛": 2820,
+            "伊恩": 3047,
+            "程牧": 2142,
+            "周映白": 2141
+          }
+        }
+      },
+      {
+        "id": "D017",
+        "name": "赤鐵雪原",
+        "world": "赤鐵雪原／寒區列車與礦山",
+        "rating": "S",
+        "result": "S評價完成／主線3／3／4人全員生還",
+        "status": "COMPLETE",
+        "rewards": {
+          "洛": 1850,
+          "伊恩": 1900,
+          "程牧": 1850,
+          "周映白": 1800,
+          "publicFunds": 1200,
+          "branchStories": {
+            "C": 1
+          }
+        },
+        "category": "正式副本",
+        "sequence": 17,
+        "keyEvents": [
+          "恢復十餘列車與車隊供熱並建立撤離秩序",
+          "確認原始熱循環正常，異常源於後來偷熱者改造導流並藏匿吸熱元件",
+          "發現地下設施、巨鼠群與暗金巨鼠",
+          "山神／山豬老大敵意未成立，並協助撞擊暗金巨鼠",
+          "四人以壓制、節點判讀與精準術式協同處理暗金巨鼠",
+          "完成管線修復、橋梁承重與通路恢復",
+          "四人全員返回AI主神空間"
+        ],
+        "difficulty": "B",
+        "consumption": {
+          "arrows": {
+            "標準箭Lost": 3,
+            "combatReadyAfter": 39
+          },
+          "vehicle": "无损坏；过桥前已收纳",
+          "warmPacks": {
+            "after": 8,
+            "confirmedSpent": 0
+          },
+          "provisions": {
+            "飲水After": 20,
+            "confirmedSpent": 0,
+            "壓縮口糧After": 28
+          },
+          "coldWeatherGear": "无永久损坏"
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／永久傷勢0；洛返還後出現延遲性高負荷昏迷",
+        "worldOutcome": [
+          "山神化身：非敵對／有限合作成立；留存本世界",
+          "暗金巨鼠：重度失能／由山神帶離",
+          "赤鐵熱循環：原始設計恢復，城市供熱恢復",
+          "遷徙列車安全越過臨時橋並重新出發",
+          "外圍聚落供熱問題移交本地治理",
+          "涉事偷熱小隊移交當地管理，未遭輪迴者私刑"
+        ],
+        "combatRecords": [
+          "洛使用增大纏、氣力置換、腿部脈衝、承重與長時間多段負荷；能主動回落至基礎纏，未在副本內耗盡氣量",
+          "周映白执行救援、折返补位与结构支援",
+          "WIFI重建供热、危险区与撤离信息，并定位暗金巨鼠关键节点",
+          "伊恩解析吸热元件、导流结构及管线节点，并对关键节点精准输出",
+          "暗金巨鼠战采用洛与周映白压制、山神冲撞、WIFI找节点、伊恩针对节点输出"
+        ],
+        "mainObjective": "恢復寒區交通與供熱安全；處理吸熱元件造成的異常循環",
+        "mainObjectives": [
+          "確保遷徙隊伍不發生大規模死亡｜COMPLETE",
+          "查明地熱爐失效真正原因｜COMPLETE",
+          "暴風雪封鎖前建立生存方案｜COMPLETE"
+        ],
+        "settlementStatus": "COMPLETE",
+        "settlementSnapshot": {
+          "洛": 2020,
+          "伊恩": 2047,
+          "程牧": 3392,
+          "周映白": 3341,
+          "grandTotal": 12680,
+          "publicFunds": 1880,
+          "privateTotal": 10800,
+          "branchStories": {
+            "B": 1,
+            "C": 3
+          }
+        }
+      },
+      {
+        "id": "D018",
+        "name": "沉眠列島",
+        "world": "沉眠列島／第三島／主港",
+        "growth": {
+          "洛": "總氣量自然成長本副本未做標準化確認；不升級、不因多日副本直接增加",
+          "伊恩": "相位／結構解析與複式法陣得到大量實戰使用；不自動提高法陣數量或強度",
+          "程牧": "長時間多源資料融合經驗增加；無新增技能，不轉換為超自然能力",
+          "周映白": "水下閃返步既有CONFIRMED資料保留；未做新標準化距離確認，不自動增加距離"
+        },
+        "rating": "S",
+        "result": "S評價完成／主線FULL／最低必要破壞／4人全員生還",
+        "status": "COMPLETE",
+        "rewards": {
+          "洛": 2850,
+          "伊恩": 2900,
+          "程牧": 2850,
+          "周映白": 2900,
+          "publicFunds": 1200,
+          "branchStories": {
+            "B": 1,
+            "C": 3
+          }
+        },
+        "category": "正式副本",
+        "sequence": 18,
+        "keyEvents": [
+          "建立第三島山腰至北碼頭撤離通道，恢復第三島至主港主要撤離航線",
+          "救回9名漂流撤離者，完成多批沉眠傷員轉移與醫療交接",
+          "確認沉眠源於深層天然低頻共振，並非感染、詛咒或人工精神控制",
+          "確認灰黑節點不是原始源頭，但可在強共振場內鎖相成為移動中繼",
+          "未將未知灰衣人直接判定為敵人",
+          "與維爾合作修復第三島主補償機",
+          "發現深層天然核心，未對核心礦脈進行大規模破壞",
+          "高風險深潛依預定規則提前撤離，辨識「再一下」為早期判斷偏移警訊",
+          "受控恢復西南舊洩壓主支路A，使無聲區回縮並阻止異常向主港擴散",
+          "C-2保持未開啟備援狀態，完成維護、醫療與航路交接"
+        ],
+        "mechanism": {
+          "chain": "聲音傳播受抑制／轉移→海水、岩體與礦脈傳導→長期人體暴露造成神經節律與風險判斷鈍化→深度暴露可形成低喚醒狀態",
+          "source": "深層天然低頻共振",
+          "grayBlackNodes": "非原始源頭；強共振場內可能鎖相，成為移動中繼與船體結構失配風險"
+        },
+        "newSkills": [],
+        "difficulty": "B+",
+        "consumption": {
+          "arrows": {
+            "rule": "本副本無明確射擊消耗，不自動扣除",
+            "spent": 0,
+            "readyAfter": 52,
+            "repairPending": 0
+          },
+          "medical": {
+            "rule": "無明確需永久扣除的重大醫療耗材",
+            "confirmedPermanentConsumption": 0
+          },
+          "vehicle": {
+            "status": "OPERATIONAL",
+            "energyModule": "任務後段完成能源模組更換；換下模組可回充、非報廢",
+            "repairPending": 0
+          },
+          "equipment": "救援、露營及深潛設備均已回收；無明確重大損壞",
+          "provisions": {
+            "note": "後期改用副本現場安全食物與既有淨水設備",
+            "飲水": {
+              "after": 0,
+              "spent": 20,
+              "before": 20
+            },
+            "壓縮口糧": {
+              "after": 0,
+              "spent": 28,
+              "before": 28
+            }
+          }
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／永久傷勢0",
+        "worldOutcome": [
+          "西南A主洩壓口：已交接／穩定",
+          "C-2：未開啟／備援",
+          "第三島補償機：STABLE／已交接",
+          "主港撤離系統：STABLE",
+          "第三島至主港航線：OPERATIONAL",
+          "沉眠重症：部分仍恢復中，已完成醫療交接"
+        ],
+        "mainObjectives": [
+          "防止撤離系統崩潰｜COMPLETE",
+          "確認沉眠真正機制｜COMPLETE",
+          "阻止異常向主港擴散｜COMPLETE"
+        ],
+        "settlementStatus": "COMPLETE",
+        "settlementSnapshot": {
+          "洛": 4370,
+          "伊恩": 4447,
+          "程牧": 5062,
+          "周映白": 4441,
+          "grandTotal": 19720,
+          "privateDebt": 0,
+          "publicFunds": 1400,
+          "privateTotal": 18320,
+          "branchStories": {
+            "B": 2,
+            "C": 6
+          }
+        },
+        "tacticalExperience": "核心區抗沉眠行動規則｜CONFIRMED"
+      },
+      {
+        "id": "D019",
+        "name": "長夜列車",
+        "growth": {
+          "洛": "動態流與念力負荷適應維持PRACTICAL；圓維持6m／60秒；總氣量未確認成長",
+          "伊恩": "多節點大型法陣框架及大型偵測／防禦法陣PRACTICAL維持；無新增空間技能",
+          "程牧": "箭種戰術鏈PRACTICAL維持；多點資料融合實戰紀錄增加；箭矢無消耗",
+          "周映白": "高負載閃返救援PRACTICAL維持；正式距離不更新"
+        },
+        "rating": "S",
+        "result": "整列列車脫離異常空間；現存乘客完成現實側交接；已知可接觸受困生命完成搜索；歷史名單車廂補完",
+        "status": "COMPLETE",
+        "rewards": {
+          "洛": 3000,
+          "伊恩": 3050,
+          "程牧": 3050,
+          "周映白": 2950,
+          "publicFunds": 2000,
+          "branchStories": {
+            "B": 2,
+            "C": 3
+          }
+        },
+        "category": "正式副本",
+        "sequence": 19,
+        "keyEvents": [
+          "維持九百人級乘客生存並建立食水分流、弱勢優先與秩序機制",
+          "確認異常隧道重疊造成封閉空間、車廂錯位、薄層夾帶與失蹤",
+          "建立五階段異常門前兆模型並發現、驗證R-01穩定重疊點",
+          "以多節點法陣、空間觀測、全列車固定與撤離程序完成返還",
+          "救回原列車長並回收牆後、地板下與薄層受困者",
+          "延長滯留搜索，完成地下歷史殘留車廂群與身份交接",
+          "未為不可定位失蹤者再次讓大量現存生還者承受高風險"
+        ],
+        "difficulty": "B",
+        "consumption": {
+          "medical": {
+            "口服補液鹽": {
+              "consumed": 2,
+              "remaining": 6
+            },
+            "無菌紗布包": {
+              "consumed": 9,
+              "remaining": 31
+            },
+            "冷凝醫療凝膠": {
+              "consumed": 0,
+              "remaining": 3
+            },
+            "基礎消毒單元": {
+              "consumed": 9,
+              "remaining": 39
+            },
+            "彈性固定繃帶": {
+              "consumed": 2,
+              "remaining": 8
+            },
+            "無菌止血敷料": {
+              "consumed": 2,
+              "remaining": 10
+            },
+            "reusableRescueEquipment": "全部回收／確認故障0",
+            "一次性醫療手套組": {
+              "consumed": 5,
+              "remaining": 19
+            }
+          },
+          "durableStaples": {
+            "unit": "人日等值",
+            "remaining": 18.7
+          },
+          "emergencyWater": {
+            "unit": "人日",
+            "consumed": 7,
+            "remaining": 33
+          },
+          "emergencyRations": {
+            "unit": "人日",
+            "consumed": 9,
+            "remaining": 31
+          },
+          "freshIngredients": {
+            "unit": "人日等值",
+            "remaining": 10.6
+          },
+          "vehicleEnergyRemainingPercent": 72
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／永久傷勢0",
+        "mainObjectives": [
+          "維持列車乘客生存與基本秩序｜COMPLETE",
+          "查明列車無法抵達目的地原因｜COMPLETE",
+          "安全終止異常旅程｜COMPLETE"
+        ],
+        "specialRecords": [
+          {
+            "title": "長夜終站",
+            "detail": "完成已知可救援者搜索、現實側交接與歷史編組補完"
+          },
+          {
+            "title": "沒有人被當成數字",
+            "detail": "異常者、飢餓者與疑似感染者未被預設為敵人；生還者被救出，死者被帶回"
+          }
+        ],
+        "settlementSnapshot": {
+          "洛": 3090,
+          "伊恩": 3997,
+          "程牧": 6012,
+          "周映白": 5291,
+          "grandTotal": 20890,
+          "privateDebt": 0,
+          "publicFunds": 2500,
+          "privateTotal": 18390,
+          "branchStories": {
+            "B": 4,
+            "C": 6
+          }
+        },
+        "tacticalExperience": [
+          "異常門五階段前兆模型",
+          "多源生命／結構交叉搜索流程",
+          "殘留薄層救援流程",
+          "大規模乘客缺水／飢餓分流管理",
+          "長時間異常環境輪班與撤離判斷",
+          "空間接口自然靠近—低輸出校準—臨界自承載研究方法",
+          "歷史缺失名單／結構來源交叉補完流程"
+        ]
+      },
+      {
+        "id": "D020",
+        "name": "灰燼王國的第七日",
+        "growth": {
+          "洛": "圓之環境異常辨識應用進入FIELD-VALIDATED TRAINING；動態流與念力負荷適應維持PRACTICAL；總念氣量待完整恢復後標準化測試",
+          "伊恩": "大型多節點、防禦、偵測、分流與結構重排取得A-級高強度實戰資料；不新增法術或提高極限",
+          "程牧": "異常訊號交叉判讀Ⅰ維持CONFIRMED；城市級多節點與大型生物模型經驗增加；正式弓力不變",
+          "周映白": "高負載閃返救援流程維持PRACTICAL；正式距離不更新"
+        },
+        "images": [
+          {
+            "alt": "D020初始城市戰場概略圖",
+            "src": "/images/missions/d020/01-initial-city-map.png",
+            "caption": "01｜初始城市概略：危險區、救援點、建議路線與四人起始位置"
+          },
+          {
+            "alt": "D020地下龍形輪廓推定圖",
+            "src": "/images/missions/d020/02-estimated-dragon-contour.png",
+            "caption": "02｜地下異常推定：龍形輪廓、頭頸與身體區域的初步研判"
+          },
+          {
+            "alt": "D020中段隊伍分流與救援位置圖",
+            "src": "/images/missions/d020/03-mid-operation-team-movement.png",
+            "caption": "03｜中段行動：四人分流、醫師公會、第三水渠與法源調查路線"
+          },
+          {
+            "alt": "D020後段隊伍定位與龍形推定圖",
+            "src": "/images/missions/d020/04-late-operation-team-positions.png",
+            "caption": "04｜後段定位：隊伍會合、北牆灰塔與疑似火球施放來源"
+          }
+        ],
+        "rating": "S",
+        "result": "王城存續；人工奪息主環摧毀；灰燼紅龍自主離城；災變期間兩軍停火與大規模撤離完成",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 20,
+        "keyEvents": [
+          "確認地下大型異常為百年以上且具自主意識的紅龍",
+          "恢復勇者與紅龍最初自願共生關係真相",
+          "分離原始必要支撐／導流功能與後世強制束縛",
+          "解除並摧毀人工奪息主環",
+          "恢復王宮西塔主導流並安全啟用北牆灰塔",
+          "以原始機構開啟古代離城石門",
+          "紅龍依自身意願離開，王城未發生城市級二次災害",
+          "王軍與叛軍在災變期間延續停火並投入共同救援",
+          "賽勒斯撤銷龍息追求會自毀制度"
+        ],
+        "difficulty": "A-",
+        "consumption": {
+          "food": {
+            "note": "先前聊天的D020料理／飲水自動精算已由v74正式庫存覆蓋，不再採用",
+            "status": "OVERRIDDEN_NOT_APPLIED",
+            "currentFormalStock": {
+              "生鮮人日": 12,
+              "緊急口糧人日": 40,
+              "緊急飲水人日": 40,
+              "耐放主食人日": 20
+            }
+          },
+          "arrows": {
+            "信標箭": 1,
+            "冰凍箭": 1,
+            "readyAfter": 114,
+            "束縛鎖箭": 1,
+            "repairPending": 0
+          },
+          "medical": {
+            "傷口清潔液": 5,
+            "標準止吐藥": 2,
+            "基礎抗過敏藥": 0,
+            "平衡型晶體液": 4,
+            "標準輸液管路": 4,
+            "靜脈通路建立組": 4,
+            "嚴重過敏緊急藥物": 0,
+            "基礎口服止痛退熱藥": 4,
+            "局部止痛／舒緩單元": 4,
+            "支氣管舒張應急單元": 1,
+            "標準應急注射止痛劑": 3
+          }
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／死亡0／永久滯留0／不可逆重大裝備損失0",
+        "worldOutcome": [
+          "灰燼紅龍阿龍：ALIVE／FREE",
+          "王城：SURVIVED",
+          "人工奪息主環：DESTROYED",
+          "災變期間兩軍停火：COMPLETE",
+          "龍息追求會自毀制度：已撤銷"
+        ],
+        "mainObjective": "阻止王城地下災變失控；完成王城救援、人工奪息主環摧毀與紅龍自主離城",
+        "mainObjectives": [
+          "阻止王城地下災變失控｜FULL COMPLETE",
+          "王城救援與醫療交接｜COMPLETE",
+          "紅龍自主解放與離城｜COMPLETE"
+        ],
+        "specialRecords": [
+          {
+            "title": "百年的承諾",
+            "detail": "恢復紅龍與建城勇者最初共生關係真相"
+          },
+          {
+            "title": "門本來就能開",
+            "detail": "以原始機構正常開啟紅龍離城通道"
+          },
+          {
+            "title": "七日停火",
+            "detail": "使交戰兩軍在災變期間轉為共同救援力量"
+          },
+          {
+            "title": "先問本人",
+            "detail": "未接受任何人替紅龍決定其意願"
+          },
+          {
+            "title": "不把異常當敵人",
+            "detail": "避免缺乏敵意證據下發生可避免的屠龍戰"
+          }
+        ],
+        "settlementSnapshot": {
+          "洛": 4290,
+          "伊恩": 5597,
+          "程牧": 6762,
+          "周映白": 5841,
+          "grandTotal": 24390,
+          "publicFunds": 1900,
+          "privateTotal": 22490
+        }
+      },
+      {
+        "id": "D021",
+        "name": "墜星殖民地",
+        "growth": {
+          "洛": [
+            "圓6m反覆運用；正式基準維持6m約90秒／8m約50秒／10m不穩定",
+            "異常重力下以基本纏搬動重型結構柱之氣力置換現象：OBSERVED / UNCONFIRMED",
+            "脈衝×螺旋實戰有效；不升階"
+          ],
+          "伊恩": [
+            "術式結構解析Ⅰ維持ACQUIRED / BASIC FAMILIARIZATION",
+            "大型法陣維持PRACTICAL",
+            "不新增技能或增益"
+          ],
+          "程牧": [
+            "高資訊量四人共享戰術視界完成實戰驗證",
+            "真空短距離／固定姿勢／高磅射擊成立；長距離、移動射擊、高相對速度與完整彈道模型未驗證"
+          ],
+          "周映白": [
+            "折疊救援模組庫Ⅱ一鍵切換完成實戰驗證",
+            "閃返步正式距離基準不變"
+          ]
+        },
+        "images": [
+          {
+            "alt": "D021墜星殖民地撤離行動目前狀況地圖",
+            "src": "/images/missions/d021/01-evacuation-status-map.png",
+            "caption": "殖民地撤離行動｜E-02主能源節點、R-01救援站、供電區域與撤離路線狀況"
+          }
+        ],
+        "rating": "S",
+        "result": "殖民地全部已知居民與傷患撤離；剩餘人類生命訊號0；封閉研究區異常已解決並完成封存交接",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 21,
+        "difficulty": "B+",
+        "consumption": {
+          "arrows": {
+            "ready": 113,
+            "timeline": [
+              {
+                "order": 1,
+                "stage": "D020結算後",
+                "total": 114
+              },
+              {
+                "order": 2,
+                "stage": "D021出發前補箭",
+                "total": 117,
+                "change": "束縛+1／信標+1／冰凍+1"
+              },
+              {
+                "loss": "標準3／束縛1",
+                "order": 3,
+                "stage": "D021永久消耗"
+              },
+              {
+                "order": 4,
+                "stage": "POST-D021正式盤點",
+                "total": 113
+              }
+            ],
+            "repairPending": 0,
+            "d021PermanentLoss": {
+              "標準箭": 3,
+              "束縛鎖箭": 1
+            },
+            "reconciliationNote": "D020結算後114支；POST-D020、D021出發前補束縛／信標／冰凍各1支成117支；D021永久損耗標準3支與束縛1支後，正式盤點113支。",
+            "recoveredTestArrows": {
+              "標準箭": 2
+            },
+            "authoritativeFinalTotal": 113
+          },
+          "provisions": {
+            "緊急口糧人日": 36,
+            "緊急飲水人日": 36,
+            "耐放主食人日": 20,
+            "可烹調生鮮人日": 12
+          },
+          "medicalStation": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "restock": "RECOMMENDED / NOT PURCHASED",
+            "moduleLibrary": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "consumedPercent": 38,
+            "stockRemainingPercent": 62
+          }
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／永久傷勢0",
+        "mainObjectives": [
+          "M-CORE穩定於35%",
+          "E-02／P-03／主電網恢復",
+          "R-01醫療與救援中繼站建立",
+          "北側維修區、西側研究區、南側工業區完成搜索與救援",
+          "貨運軌道恢復",
+          "中央居住環成為集中救援節點",
+          "長距離通訊恢復",
+          "主穿梭港恢復",
+          "救援艦隊航路建立",
+          "已知居民與傷患全部撤離",
+          "撤離後剩餘人類生命訊號0"
+        ],
+        "specialRecords": [
+          {
+            "title": "生命訊號歸零",
+            "detail": "撤離完成後，殖民地剩餘人類生命訊號確認為0"
+          },
+          {
+            "title": "研究區封存",
+            "detail": "突破個體已終止；三個深層休眠個體未開啟、未解凍，資料與警告完成交付"
+          },
+          {
+            "title": "旅星首次完整實戰",
+            "detail": "完成真空航行、著陸、EVA、傷患運輸與移動式救援中繼"
+          }
+        ],
+        "secondaryAnomaly": {
+          "status": "RESOLVED / CONTAINED",
+          "handoff": "研究資料與警告已交付",
+          "location": "封閉研究區",
+          "predatorOrigin": "未知外來卵囊／胚胎樣本",
+          "breakoutOutcome": "突破個體×1已終止",
+          "researchFailure": "曾嘗試將捕食性生物作為高適應生物的天敵，結果失敗",
+          "containedOutcome": "深層休眠個體×3持續封存，未開啟、未解凍",
+          "highAdaptationOrganism": "原設計用途為低能耗環境的廢棄物循環與生態維護，不是武器"
+        },
+        "settlementSnapshot": {
+          "洛": 4765,
+          "伊恩": 6172,
+          "程牧": 7337,
+          "周映白": 6716,
+          "grandTotal": 26870,
+          "publicFunds": 1880,
+          "privateTotal": 24990,
+          "branchStories": {
+            "B": 3,
+            "C": 5
+          }
+        }
+      },
+      {
+        "id": "D022",
+        "name": "血月孤兒院",
+        "growth": {
+          "洛": "動態流多方向節點分配與脈衝微位移整合證據增加；無新技能，未完全本能化",
+          "伊恩": "大型導流法陣Ⅰ及大型結構支撐法陣Ⅰ完成實戰驗證；未增加同時法陣上限",
+          "周映白": "閃返步與連續折返救援經驗增加；正式距離基準不變",
+          "程牧／WIFI": "血月、山神、印記、地表節點與抽取循環之多源交叉判讀經驗增加"
+        },
+        "rating": "S",
+        "result": "孤兒院、孩童與山神皆獲保全；血月污染及上游抽取鏈摧毀；山之子停戰。",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "sequence": 22,
+        "keyEvents": [
+          "額外發現一名未登記孩童",
+          "山之子敵意降級並建立停戰",
+          "山神存活，十五名印記孩童15／15穩定",
+          "隱藏事件《竊月者》完成",
+          "蝕月觀測會關聯確認，組織存續狀態未知",
+          "觀測台污染宿主經多人確認後完成最終處置"
+        ],
+        "difficulty": "B+",
+        "consumption": {
+          "arrows": "113支全數維持可用／無永久遺失",
+          "medical": "無可量化永久耗材扣除",
+          "equipment": "無新增永久損壞",
+          "foodAndWater": "無消耗"
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧／WIFI"
+        ],
+        "worldOutcome": "孤兒院及孩童存續；山神存活；山之子停戰；血月異常開始消退。",
+        "mainObjective": "守住孤兒院、救回失蹤孩童並查明血月異常",
+        "mainObjectives": [
+          "完成孤兒院防衛與傷患穩定",
+          "完成全區人口清查",
+          "救回7名失蹤孩童",
+          "阻止十五名印記孩童成為儀式犧牲",
+          "摧毀血月地表污染鏈及上游抽取鏈"
+        ],
+        "specialRecords": [
+          "異常不等於敵意",
+          "處置污染宿主不提供額外獎勵或懲罰",
+          "山神餘力已附著於洛，效果尚未鑑定",
+          "普通櫃台鈴已由洛按響；意義僅為4 IN / 4 OUT"
+        ],
+        "settlementSnapshot": {
+          "grandTotal": 37994,
+          "publicFunds": 3004,
+          "branchStories": {
+            "B": 5,
+            "C": 5
+          },
+          "privatePointsTotal": 34990
+        }
+      },
+      {
+        "id": "D023",
+        "name": "沒有太陽的第三遠征隊",
+        "world": "D023深區／無日遠征區",
+        "images": [
+          {
+            "alt": "D023撤離與回收路線圖，顯示RELAY-01、P-7、K-2及A、B回收支線",
+            "src": "/images/missions/d023/01-relay-recovery-route-v2.png",
+            "caption": "D023撤離／回收路線圖 v2｜已驗證共同段、A隊5/5與B隊4/4回收支線"
+          }
+        ],
+        "result": "S / COMPLETE",
+        "category": "正式副本／長距離探索與全員救援",
+        "sequence": 23,
+        "keyEvents": [
+          "第三遠征隊127／127 ALIVE",
+          "額外失聯人員36／36全數尋回並返回",
+          "零基準區現地確認完成",
+          "零基準域外框完成第一輪粗略閉合測繪",
+          "現地中心候選完成多方向重複測量",
+          "深層實測路線交接第三遠征隊",
+          "大型資產於返還前全數回收",
+          "周映白／香蕉按下普通櫃台鈴：4 IN / 4 OUT"
+        ],
+        "difficulty": "A-",
+        "participants": [
+          "洛",
+          "周映白／香蕉",
+          "伊恩／公主",
+          "程牧／WIFI"
+        ],
+        "combatRecords": [
+          "洛｜圓前向延伸實戰經驗SIGNIFICANT；無自動性能提升",
+          "周映白｜空間安全感知Ⅰ＋空間錨定Ⅰ FIELD EXPERIENCE HIGH",
+          "程牧｜電子地形描繪／路線覆寫 FIELD-VALIDATED：DEEP EXPEDITION",
+          "伊恩｜術式自律節點Ⅰ＋多核心法陣Ⅰ FIELD EXPERIENCE HIGH",
+          "四人共鳴錨Ⅰ FIELD EXPERIENCE VERY HIGH；NO AUTOMATIC UPGRADE"
+        ],
+        "coreMechanics": [
+          "空間扭曲",
+          "路線端點失配",
+          "重複驗證",
+          "中繼站救援",
+          "失散人員回收"
+        ],
+        "importantNPCs": [
+          "第三遠征隊127名成員",
+          "G-5醫療搬運組6人",
+          "D-8工程固定組9人",
+          "T-2前導測繪組7人",
+          "第二前探隊5人",
+          "SILENT BASIN尾段分離組9人"
+        ],
+        "mainObjective": "協助第三遠征隊抵達最終測繪區並確認零基準區現況"
+      }
+    ]
+  }
+}

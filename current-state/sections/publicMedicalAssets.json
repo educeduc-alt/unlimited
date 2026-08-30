@@ -1,0 +1,84 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "publicMedicalAssets",
+  "state": {
+    "publicMedicalAssets": [
+      {
+        "name": "戰術止血組",
+        "limits": "用於嚴重外出血控制；不等於傷勢治癒",
+        "quantity": 3,
+        "subtotal": 750,
+        "unitPrice": 250,
+        "consumable": true,
+        "lastRestocked": "POST-D014"
+      },
+      {
+        "name": "多用途快速固定夾板",
+        "limits": "疑似骨折／嚴重關節傷臨時固定；不直接治療骨折",
+        "quantity": 1,
+        "subtotal": 180,
+        "unitPrice": 180,
+        "consumable": false
+      },
+      {
+        "name": "中級創傷應急劑",
+        "limits": "中度創傷／休克風險短期穩定；不恢復完整戰力，不修復嚴重內臟傷",
+        "quantity": 1,
+        "subtotal": 600,
+        "unitPrice": 600,
+        "consumable": true
+      },
+      {
+        "name": "進階創傷處理包",
+        "limits": "較完整的清創、止血、包紮、固定輔助與基礎器械；內含消耗品用後需補充",
+        "quantity": 1,
+        "subtotal": 750,
+        "unitPrice": 750,
+        "consumable": "部分"
+      },
+      {
+        "name": "生命維持凝膠",
+        "limits": "短時間維持重傷者生命以爭取撤離／正式治療；不治療、不復活、不恢復戰鬥",
+        "quantity": 1,
+        "subtotal": 1200,
+        "unitPrice": 1200,
+        "consumable": true
+      },
+      {
+        "name": "折疊式傷員後送擔架",
+        "limits": "離開直接火線後穩定後送；與快速拖帶帶具並存",
+        "quantity": 1,
+        "subtotal": 400,
+        "unitPrice": 400,
+        "consumable": false
+      },
+      {
+        "name": "四人基礎醫療補充箱",
+        "layer": "LAYER 2／LOW-TIER／ROUTINE MEDICAL SUPPLY",
+        "limits": "不提供重傷、骨折、嚴重內傷完整治療；不取代生命維持；不構成治療系能力",
+        "contents": [
+          "一般創面清潔",
+          "敷料",
+          "繃帶",
+          "基礎止血耗材",
+          "簡易固定耗材",
+          "基礎燒燙傷覆材",
+          "一次性手套",
+          "基礎消毒／剪具"
+        ],
+        "quantity": 5,
+        "unitPrice": 980,
+        "consumable": "部分",
+        "lastRestocked": "PRE-D023",
+        "restockStatus": "FULL",
+        "preD023BatchCost": 600,
+        "preD023AddedQuantity": 4,
+        "totalAcquisitionCost": 1580
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD015Settlement",
+  "state": {
+    "postD015Settlement": {
+      "id": "POST-D015",
+      "growth": {
+        "洛": [
+          {
+            "name": "D015｜流・非戰鬥精細應用",
+            "detail": "以念強化喊話建立大型群眾秩序，增加非戰鬥精細應用與群眾事件指揮經驗；未新增發，總念量未增加。",
+            "status": "CONFIRMED"
+          }
+        ],
+        "伊恩": [
+          {
+            "name": "D015｜術式取消／轉構Ⅱ實戰深化",
+            "detail": "火場熱流、煙流控制與複合儀式結構辨識經驗增加；未自動升階。",
+            "status": "RESEARCH"
+          },
+          {
+            "name": "複合術式功能分離",
+            "detail": "從複合儀式中區分維生、召喚與其他功能結構的研究方向；尚未形成正式掌握能力。",
+            "status": "RESEARCH"
+          }
+        ],
+        "程牧": [
+          {
+            "name": "D015｜異常訊號交叉判讀Ⅰ深化",
+            "detail": "大型生物行為、群體遷徙與環境異常交叉判讀研究進度大幅增加；仍維持PROTOTYPE。",
+            "status": "PROTOTYPE"
+          },
+          {
+            "name": "D015｜四人戰術鏈路・大型救援調度",
+            "detail": "重建人流、危險區、撤離路線與最後傷患後送資訊。",
+            "status": "CONFIRMED"
+          }
+        ],
+        "周映白": [
+          {
+            "name": "D015｜火線傷員穩定與後送Ⅱ實戰深化",
+            "detail": "板車／拖帶／載具後送鏈成熟度增加；仍非完整醫師或治療系。",
+            "status": "RESEARCH"
+          }
+        ]
+      },
+      "status": "CONFIRMED",
+      "mission": {
+        "id": "D015",
+        "name": "黑潮貨港",
+        "world": "黑潮貨港",
+        "rating": "S",
+        "result": "完成／非全面殲滅解",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "doctrine": [
+          "異常不等於敵意",
+          "能救則救",
+          "人類與其他智慧生命不視為可消耗資源",
+          "遭咬傷／疑似感染不等於自動處決",
+          "高位存在不等於必須挑戰",
+          "知道自身做不到什麼，也是生存與救援能力的一部分"
+        ],
+        "sequence": 15,
+        "keyEvents": [
+          "處理數百人級恐慌、踩踏與火場，重建撤離資訊與秩序",
+          "巨型鯊魚及魚群敵意未成立，確認其正逃離異常中心",
+          "兩棲救援車切換水上模式後遭大漩渦捲入海底遺跡並重度受損",
+          "發現依靠祭司法力維生的人類融合生命體",
+          "魚人祭司主動攻擊，敵意成立",
+          "隊伍未直接中斷全部維生；未知高位生命介入並清除魚人祭司及召喚結構",
+          "融合受害者復原，海水暫時分隔形成撤離通路",
+          "完成最後傷患後送並返回AI主神空間",
+          "副本世界未得知主神存在"
+        ],
+        "difficulty": "B級",
+        "consumption": {
+          "arrows": {
+            "spent": "束縛鎖箭×1",
+            "outcome": "已回收待檢",
+            "combatReady": 35,
+            "d014Pending": 4,
+            "d015Pending": 1,
+            "totalPresent": 40
+          },
+          "medical": 0,
+          "publicWater": 0,
+          "publicRations": 0
+        },
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "partyOutcome": "4/4生還／0永久傷勢／0感染或異常寄生",
+        "combatRecords": [
+          "洛以念強化喊話建立秩序，並增加流的非戰鬥精細應用",
+          "周映白完成大量傷患分類、板車／拖帶／載具後送",
+          "伊恩控制火場熱流與煙流，深化取消／轉構及儀式結構辨識",
+          "WIFI重建人流、危險區及撤離資訊，深化大型生物與環境異常交叉判讀"
+        ],
+        "coreMechanics": [
+          "大型群眾撤離與秩序重建",
+          "火場熱流／煙流控制",
+          "大型海生生物行為判讀",
+          "海底遺跡召喚儀式",
+          "維生結構與敵對祭司分離處理",
+          "高位存在介入下的克制撤離"
+        ],
+        "mainObjective": "重新建立港區撤離路線，清除阻斷撤離的主要威脅",
+        "rewardBreakdown": {
+          "sideStory": {
+            "rank": "B",
+            "quantity": 2
+          },
+          "privateDebt": 0,
+          "publicFunds": 2280,
+          "totalAssets": 18020,
+          "privateTotal": 15740,
+          "postSettlement": {
+            "洛": 3670,
+            "伊恩": 4097,
+            "程牧": 3682,
+            "周映白": 4291
+          }
+        }
+      },
+      "vehicle": {
+        "damage": [
+          "外殼重度受損",
+          "水上系統需完整檢查"
+        ],
+        "status": "REPAIR REQUIRED / STORED AT AI MAIN GOD SPACE / NOT DEPLOYABLE",
+        "location": "AI主神空間",
+        "preserved": [
+          "核心保全"
+        ],
+        "sharedBag": "OPERATIONAL",
+        "foldingCart": "OPERATIONAL",
+        "deploymentRule": "維修完成並確認前禁止再次出勤",
+        "requiredAction": "必須由主神空間進行正式維修",
+        "fieldAssessment": "超出現場維修範疇",
+        "externalRescueRack": "隨主車進入正式檢查"
+      },
+      "resources": {
+        "ammo": {
+          "entries": {
+            "標準箭": 7,
+            "束縛鎖箭": 6,
+            "定位信標箭": 4,
+            "遮蔽煙幕箭": 4,
+            "重型破障箭": 3,
+            "鈍擊衝擊箭": 3,
+            "閃光干擾箭": 4,
+            "電擊干擾箭Ⅰ": 4
+          },
+          "capacity": 40,
+          "container": "灰隼智能選箭箭筒Ⅲ",
+          "combatReady": 35,
+          "lastMission": "D015",
+          "currentTotal": 35,
+          "selectionRule": "最終選箭權仍屬WIFI；箭筒不自行判定敵我或開火",
+          "currentMissing": 1,
+          "restockRequired": {
+            "束縛鎖箭": 1
+          },
+          "accountingPresent": 39,
+          "d015LostOrConsumed": 1,
+          "historicalLostD014": 6,
+          "typeBreakdownStatus": "READY_CONFIRMED / D014_DAMAGED_TYPES_PENDING",
+          "replacedHistoricalLoss": 6,
+          "totalPendingInspection": 4,
+          "d014DamagedPendingRepair": 4
+        },
+        "medicalConsumed": 0,
+        "publicWaterConsumed": 0,
+        "publicRationsConsumed": 0
+      },
+      "worldIntelligence": {
+        "missionId": "D015",
+        "unknownHighBeing": {
+          "known": [
+            "可介入魚人祭司與召喚結構",
+            "復原融合受害者",
+            "暫時分隔海水形成撤離通路",
+            "僅辨識四人具有超凡力量"
+          ],
+          "rules": [
+            "不擅自列為敵對",
+            "不擅自補充種族或技能",
+            "副本世界未得知主神存在"
+          ],
+          "unknown": [
+            "名稱",
+            "種族",
+            "立場",
+            "完整能力",
+            "介入目的"
+          ],
+          "classification": "UNKNOWN｜高位超凡生命"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "foodLogistics",
+  "state": {
+    "foodLogistics": {
+      "status": "POST-D023｜COOKING STOCK DEPLETED / EMERGENCY STOCK PENDING INVENTORY",
+      "emergency": {
+        "storage": "S-Food／2.2m³",
+        "waterExtension": "折疊式野外淨水器可延伸飲水能力，但不保證存在安全水源",
+        "waterPersonDays": "PENDING INVENTORY CHECK",
+        "rationsPersonDays": "PENDING INVENTORY CHECK",
+        "teamIndependentDurationDays": 10
+      },
+      "cookingGroup": {
+        "rule": "60人日不代表全部為生鮮",
+        "storage": "M-Food／4.5m³",
+        "personDays": 0,
+        "composition": [
+          "耐放主食",
+          "長期保存配菜",
+          "長期保存蛋白質",
+          "有限易腐食材"
+        ],
+        "teamDurationDays": 0
+      },
+      "accountingMode": "人日；實際使用後才扣除",
+      "consumptionRule": "乾糧、飲水與料理食材不在出發前預扣；僅於實際使用時扣除。",
+      "supersededCounting": {
+        "status": "REPLACED AS CURRENT EXPEDITION BASELINE",
+        "oldCooking": "耐放主食20人日／生鮮12人日",
+        "oldEmergency": "飲水36／壓縮口糧36"
+      }
+    }
+  }
+}

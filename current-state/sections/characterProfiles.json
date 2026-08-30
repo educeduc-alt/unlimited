@@ -1,0 +1,92 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "characterProfiles",
+  "state": {
+    "characterProfiles": {
+      "洛": {
+        "gender": "男",
+        "overall": "外貌端正偏帥氣；實戰型體格，靈活、爆發、近身纏鬥取向",
+        "heightCm": 175,
+        "impression": "熱血、直接、行動派；熟悉後容易看出是熱血笨蛋",
+        "expressiveness": "表情與肢體動作很容易洩漏想法，尤其想揍人、借錢、擔心隊員或準備亂來時",
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "combatIdentifier": "導能複合籠手Ⅰ"
+      },
+      "伊恩": {
+        "hair": "中長髮；持續護理後更柔順",
+        "style": "安靜、術士感強；流焰術式長衣Ⅰ為中性剪裁，可自然適應目前曲線變化",
+        "overall": "漂亮、偏中性且逐漸女性化的青年男性術士；四人中最纖細矮小",
+        "heightCm": 165,
+        "genderRecord": "男",
+        "nicknameByLuo": "公主",
+        "physicalChanges": {
+          "rules": [
+            "不得預設一定完全女性化",
+            "不得預設必然恢復原先男性化狀態",
+            "後續依劇情、主神掃描、伊恩本人意願與生理狀態更新",
+            "若發育超出服裝尺寸／結構容許，需重新調整，不得視為衣物無限自動適應"
+          ],
+          "status": "ONGOING / UNRESOLVED",
+          "current": "內分泌平衡已產生明顯變化，女性化第二性徵持續發育中",
+          "baseline": "先天雙性／間性生理特徵；目前角色資料仍以男性管理",
+          "observed": [
+            "乳房組織逐漸發育",
+            "胸部輪廓逐漸明顯",
+            "腰臀比例開始改變",
+            "脂肪分布逐漸女性化",
+            "整體身體線條更加柔和",
+            "部分男性第二性徵逐漸減弱",
+            "外觀女性化程度持續增加"
+          ],
+          "selfView": "不視為疾病；無明顯排斥，願意繼續觀察",
+          "finalDirection": "UNRESOLVED"
+        }
+      },
+      "程牧": {
+        "hair": "短髮",
+        "gender": "男",
+        "overall": "外貌偏帥氣，氣質冷靜、乾淨、克制",
+        "heightCm": 180,
+        "nickname": "WIFI",
+        "impression": "話少、冷靜、擅長計算；熟悉後是冷面笑匠，常用毫無表情的臉精準吐槽",
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "combatIdentifier": "灰隼複合戰術弓＋灰隼智能選箭箭筒Ⅱ＋射手輔助風鏡"
+      },
+      "周映白": {
+        "gender": "男",
+        "overall": "高大強壯、可靠、老實憨厚型青年男性；適合搬運、救援、破障與後送",
+        "heightCm": 183,
+        "nickname": "香蕉",
+        "impression": "看似好說話且確實可靠，但非常愛吐槽並會打小報告",
+        "physicalChanges": {
+          "status": "NONE",
+          "permanentDeficits": "無"
+        },
+        "combatIdentifier": "折返式模組救援棍Ⅰ＋車載快速救援模組Ⅰ"
+      },
+      "fieldRules": {
+        "appearance": "採滾動更新；目前外觀隨正式變化更新，重大永久變化另保留歷史",
+        "noForcedChange": "若無變化則記錄NONE，不得為填欄位強行製造變化",
+        "separationRule": "外觀、生理變化與關係發展，和技能、裝備、異常狀態、傷勢、戰術定位分開記錄",
+        "physicalChanges": "僅記錄長期或永久身體／外觀改變；暫時傷勢仍記入傷勢／STATUS",
+        "relationshipDevelopment": "僅記錄形成長期影響的重大信任、確認、衝突、和解、定位變化或承諾"
+      },
+      "quickIndex": [
+        "洛：175cm／帥氣青年／實戰型體格／熱血笨蛋／表情很好懂／導能複合籠手",
+        "周映白：183cm／高大強壯／老實憨厚外貌／愛吐槽與打小報告／救援棍與救援裝備",
+        "程牧：180cm／短髮帥哥／冷靜克制／冷面笑匠／戰術弓、智能箭筒與風鏡",
+        "伊恩：165cm／中長髮／漂亮中性／纖細術士／身體持續女性化／術式長衣與赤晶焰紋髮扣"
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD021Settlement",
+  "state": {
+    "postD021Settlement": {
+      "id": "SET-D021",
+      "bell": {
+        "rung": true,
+        "rungBy": "周映白／香蕉",
+        "meaning": "4 IN / 4 OUT",
+        "combatEffect": false,
+        "ratingEffect": false,
+        "specialEffect": false
+      },
+      "name": "D021《墜星殖民地》正式結算",
+      "growth": {
+        "洛": [
+          "圓6m反覆運用；正式基準維持6m約90秒／8m約50秒／10m不穩定",
+          "異常重力下以基本纏搬動重型結構柱之氣力置換現象：OBSERVED / UNCONFIRMED",
+          "脈衝×螺旋實戰有效；不升階"
+        ],
+        "伊恩": [
+          "術式結構解析Ⅰ維持ACQUIRED / BASIC FAMILIARIZATION",
+          "大型法陣維持PRACTICAL",
+          "不新增技能或增益"
+        ],
+        "程牧": [
+          "高資訊量四人共享戰術視界完成實戰驗證",
+          "真空短距離／固定姿勢／高磅射擊成立；長距離、移動射擊、高相對速度與完整彈道模型未驗證"
+        ],
+        "周映白": [
+          "折疊救援模組庫Ⅱ一鍵切換完成實戰驗證",
+          "閃返步正式距離基準不變"
+        ]
+      },
+      "rating": "S",
+      "status": "COMPLETE",
+      "rewards": {
+        "totalGain": {
+          "洛": 4200,
+          "伊恩": 4300,
+          "程牧": 4300,
+          "周映白": 4600
+        },
+        "publicFunds": 1200,
+        "basePerPerson": 2200,
+        "branchStories": {
+          "B": 1,
+          "C": 1
+        },
+        "sRatingPerPerson": 900,
+        "personalAdditional": {
+          "洛": 1100,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1500
+        }
+      },
+      "ianInjury": {
+        "injury": "大腿穿刺傷",
+        "evaStatus": "FUNCTIONAL / REPAIR REQUIRED",
+        "fieldCare": "周映白現場處置有效",
+        "bodyStatus": "FULLY REPAIRED / NO PERMANENT INJURY",
+        "notDamaged": [
+          "大血管未斷裂",
+          "骨骼完整",
+          "主要神經束未完全斷裂"
+        ],
+        "separationRule": "主神治療只修復身體；EVA裝備破損不自動修復",
+        "confirmedDamage": [
+          "中等程度肌肉與軟組織穿刺"
+        ]
+      },
+      "difficulty": "B+",
+      "arrowStatus": {
+        "ready": 113,
+        "repairPending": 0,
+        "d021PermanentLoss": {
+          "標準箭": 3,
+          "束縛鎖箭": 1
+        },
+        "reconciliationNote": "D021結算卡記載副本前117支，與v77的114支舊快照不一致；自D021起以逐箭種合計113支為正式基準，不倒改v77。",
+        "recoveredTestArrows": {
+          "標準箭": 2
+        },
+        "authoritativeFinalTotal": 113
+      },
+      "mainResults": [
+        "M-CORE穩定於35%",
+        "E-02／P-03／主電網恢復",
+        "R-01醫療與救援中繼站建立",
+        "北側維修區、西側研究區、南側工業區完成搜索與救援",
+        "貨運軌道恢復",
+        "中央居住環成為集中救援節點",
+        "長距離通訊恢復",
+        "主穿梭港恢復",
+        "救援艦隊航路建立",
+        "已知居民與傷患全部撤離",
+        "撤離後剩餘人類生命訊號0"
+      ],
+      "pointsAfter": {
+        "洛": 4765,
+        "伊恩": 6172,
+        "程牧": 7337,
+        "周映白": 6716,
+        "grandTotal": 26870,
+        "publicFunds": 1880,
+        "privateTotal": 24990
+      },
+      "partyOutcome": "4/4生還／永久傷勢0／感染或異常寄生0",
+      "relationship": {
+        "limits": [
+          "不等於婚姻、婚約、永久伴侶或排他契約",
+          "不提供戰鬥BUFF",
+          "能力成長仍須正式測試"
+        ],
+        "status": "MUTUAL LOVE / ROMANTIC RELATIONSHIP",
+        "milestone": "POST-D021休整期｜洛與伊恩已自然習慣「老婆／老公」的雙向親暱稱呼；巧克力、經期陪伴與料理成為兩人的共同生活記憶",
+        "dailyContinuity": [
+          "巧克力與經期陪伴形成共同記憶",
+          "料理照護成為穩定日常",
+          "老婆／老公為雙方接受的私人暱稱",
+          "共同討論恢復與能力測試"
+        ]
+      },
+      "mainObjective": "在軌道碎片災難前恢復撤離能力，或建立足以維持生存的替代方案｜COMPLETE",
+      "publicExpense": {
+        "cost": 420,
+        "item": "伊恩｜主神完整治療",
+        "after": 1880,
+        "before": 2300
+      },
+      "starshipAfter": {
+        "name": "旅星｜四人折疊多用途艇",
+        "status": "FIELD-VALIDATED / OPERATIONAL",
+        "validated": [
+          "真空展開與航行",
+          "VTOL與地表著陸",
+          "EVA對接",
+          "傷患運輸",
+          "感測與導航",
+          "人工重力",
+          "生命支持",
+          "移動式R-01救援中繼"
+        ],
+        "notValidated": [
+          "艦對艦戰鬥",
+          "高強度戰鬥機動",
+          "長期深空航行"
+        ],
+        "permanentHullDamage": false
+      },
+      "provisionsAfter": {
+        "緊急口糧人日": 36,
+        "緊急飲水人日": 36,
+        "耐放主食人日": 20,
+        "可烹調生鮮人日": 12
+      },
+      "secondaryAnomaly": {
+        "status": "RESOLVED / CONTAINED",
+        "handoff": "研究資料與警告已交付",
+        "location": "封閉研究區",
+        "predatorOrigin": "未知外來卵囊／胚胎樣本",
+        "breakoutOutcome": "突破個體×1已終止",
+        "researchFailure": "曾嘗試將捕食性生物作為高適應生物的天敵，結果失敗",
+        "containedOutcome": "深層休眠個體×3持續封存，未開啟、未解凍",
+        "highAdaptationOrganism": "原設計用途為低能耗環境的廢棄物循環與生態維護，不是武器"
+      },
+      "branchStoriesAfter": {
+        "B": 3,
+        "C": 5
+      },
+      "medicalStationAfter": {
+        "robots": "OPERATIONAL",
+        "status": "OPERATIONAL",
+        "restock": "RECOMMENDED / NOT PURCHASED",
+        "moduleLibrary": "OPERATIONAL",
+        "mechanicalArms": "OPERATIONAL",
+        "consumedPercent": 38,
+        "stockRemainingPercent": 62
+      }
+    }
+  }
+}

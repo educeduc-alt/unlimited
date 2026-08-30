@@ -1,0 +1,368 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "sharedDimensionalBag",
+  "state": {
+    "sharedDimensionalBag": {
+      "name": "四人共享次元行囊Ⅲ",
+      "zones": [
+        {
+          "id": "S-SUPPLY",
+          "name": "快速取用小型物資區",
+          "grade": "S",
+          "status": "CURRENT / QUICK ACCESS",
+          "contents": {
+            "tools": [
+              "小型戰術燈×4",
+              "緊急定位／集合器×1",
+              "個人子標記×4",
+              "15m多用途靜力救援繩×4",
+              "普通櫃台鈴×1",
+              "其他公共小型備用品"
+            ],
+            "medical": [
+              "既有小型醫療／耗材",
+              "四人基礎醫療補充箱×5"
+            ],
+            "coldWeatherBackup": [
+              "基礎備用手套×2",
+              "基礎化學暖包×8"
+            ]
+          },
+          "volumeM3": 1.6
+        },
+        {
+          "id": "M-EQUIPMENT",
+          "name": "中型折疊設備區",
+          "grade": "M",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "跨環境高密度備用能源組Ⅰ",
+              "volumeM3": 0.86
+            },
+            {
+              "name": "兩棲載具野戰維修套件Ⅰ",
+              "volumeM3": 0.94
+            },
+            {
+              "name": "正式遠征露營模組Ⅰ",
+              "status": "OPERATIONAL",
+              "volumeM3": 2.5
+            },
+            {
+              "name": "折疊式野外淨水器",
+              "volumeM3": 1
+            },
+            {
+              "name": "折疊式傷員後送擔架",
+              "volumeM3": 1
+            },
+            {
+              "name": "運輸用折疊板車Ⅰ",
+              "status": "OPERATIONAL／周映白優先操作",
+              "volumeM3": 1
+            },
+            {
+              "name": "基礎水面救援裝備組",
+              "status": "OPERATIONAL",
+              "volumeM3": 1
+            },
+            {
+              "name": "智能警戒哨兵Ⅰ×2",
+              "status": "OPERATIONAL",
+              "volumeM3": 0.8
+            }
+          ],
+          "volumeM3": 9.1
+        },
+        {
+          "id": "L-EQUIPMENT",
+          "name": "大型折疊設備區",
+          "grade": "L",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "周映白專屬｜深潛救援裝備組Ⅰ",
+              "status": "OPERATIONAL／專屬操作者周映白",
+              "volumeM3": 2
+            },
+            {
+              "name": "車載折疊野炊廚房模組Ⅰ",
+              "status": "OPERATIONAL",
+              "volumeM3": 3
+            }
+          ],
+          "volumeM3": 5
+        },
+        {
+          "id": "XL-RESCUE-VEHICLE",
+          "name": "大型救援載具區",
+          "grade": "XL",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "兩棲折疊救援車Ⅱ",
+              "status": "OPERATIONAL",
+              "volumeM3": 5.05
+            }
+          ],
+          "volumeM3": 5.05
+        },
+        {
+          "id": "S-Food",
+          "name": "遠征緊急食水區",
+          "grade": "S-Food",
+          "status": "STOCKED / CURRENT",
+          "contents": {
+            "遠征緊急乾糧40人日": true,
+            "遠征緊急飲水40人日": true
+          },
+          "volumeM3": 2.2
+        },
+        {
+          "id": "M-Food",
+          "name": "遠征正常料理食材區",
+          "grade": "M-Food",
+          "status": "STOCKED / CURRENT",
+          "contents": {
+            "四人15日料理組／60人日": true,
+            "冷藏食材與常溫主食分區存放": true
+          },
+          "volumeM3": 4.5
+        },
+        {
+          "id": "XL-Starship",
+          "name": "星際載具折疊區",
+          "grade": "XL",
+          "status": "CURRENT",
+          "contents": [
+            {
+              "name": "旅星｜四人折疊多用途艇",
+              "status": "OWNED / OPERATIONAL",
+              "volumeM3": 5.5
+            }
+          ],
+          "volumeM3": 5.5
+        }
+      ],
+      "limits": [
+        "不是戰鬥百寶袋",
+        "不是零時間取物",
+        "不是無限高速裝備傳送",
+        "不取代個人最低攜行",
+        "不能裝活體",
+        "不能裝敵人",
+        "不能裝劇烈釋放能量中的危險物",
+        "不能裝主神／副本禁止攜帶物"
+      ],
+      "status": "EVOLVED / OPERATIONAL / BOUND / ONLINE",
+      "allowed": [
+        "一般裝備",
+        "公共醫療",
+        "生存物資",
+        "露營設備",
+        "淨水設備",
+        "救援設備",
+        "備用品",
+        "合法非活體任務物"
+      ],
+      "display": {
+        "icon": "🌀",
+        "rule": "個人攜行、私人用品與共享行囊分開管理；inventory為共享庫存數量來源，zones為位置與體積來源，同一實體不得重複列帳。",
+        "title": "四人共享次元行囊Ⅲ",
+        "capacity": {
+          "freeM3": 17.05,
+          "usedM3": 32.95,
+          "totalM3": 50,
+          "usageRatePercent": 65.9
+        },
+        "sizeGrades": {
+          "L": {
+            "icon": "🏥",
+            "label": "大型折疊設備",
+            "volumeM3": 5
+          },
+          "M": {
+            "icon": "🧰",
+            "label": "中型折疊設備",
+            "volumeM3": 9.1
+          },
+          "S": {
+            "icon": "📦",
+            "label": "小型物資",
+            "volumeM3": 1.6
+          },
+          "XL": {
+            "icon": "🛸",
+            "label": "大型載具／星際載具",
+            "volumeM3": 10.55
+          },
+          "M-Food": {
+            "icon": "🍲",
+            "label": "正常料理食材",
+            "volumeM3": 4.5
+          },
+          "S-Food": {
+            "icon": "🥤",
+            "label": "緊急食水",
+            "volumeM3": 2.2
+          }
+        },
+        "inventoryGroups": [
+          {
+            "id": "medical",
+            "icon": "🩺",
+            "label": "醫療與急救",
+            "source": "inventory＋publicMedicalAssets"
+          },
+          {
+            "id": "tools",
+            "icon": "🧰",
+            "label": "公共工具與備件",
+            "source": "inventory＋S區"
+          },
+          {
+            "id": "rescue",
+            "icon": "🛟",
+            "label": "救援設備",
+            "source": "M／L區"
+          },
+          {
+            "id": "food",
+            "icon": "🥤",
+            "items": [
+              "遠征緊急飲水×40人日",
+              "遠征緊急乾糧×40人日",
+              "四人15日料理組×60人日"
+            ],
+            "label": "遠征食水"
+          },
+          {
+            "id": "vehicle",
+            "icon": "🚙",
+            "items": [
+              "兩棲折疊救援車Ⅱ",
+              "旅星｜四人折疊多用途艇"
+            ],
+            "label": "載具"
+          },
+          {
+            "id": "mission",
+            "icon": "🔐",
+            "items": [],
+            "label": "任務物預留區"
+          }
+        ]
+      },
+      "capacity": "50m³ TOTAL SHARED",
+      "features": [
+        "醫療／食水／救援／載具備件／任務物分區管理",
+        "大型折疊設備收納定位更穩",
+        "四人可查看共享庫存分類",
+        "取物流程較Ⅱ型順暢但仍非瞬間取物",
+        "任務物與臨時救援資源預留區",
+        "恆溫分區模組Ⅰ：常溫乾燥區＋2–8°C冷藏區",
+        "可拆卸車載折疊野炊廚房模組Ⅰ：L級3m³",
+        "旅星｜四人折疊多用途艇：折疊收納5.5m³"
+      ],
+      "quantity": 1,
+      "usageRate": "65.9%",
+      "capacityM3": 50,
+      "prohibited": [
+        "活體",
+        "敵人",
+        "劇烈釋放能量中的危險物",
+        "主神／副本禁止攜帶物"
+      ],
+      "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
+      "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
+      "permissions": [
+        "四名綁定成員皆可存入",
+        "取出",
+        "查看共享庫存"
+      ],
+      "boundMembers": [
+        "洛",
+        "周映白",
+        "伊恩",
+        "程牧"
+      ],
+      "capacityRule": "四人共同50m³，不是每人50m³",
+      "freeVolumeM3": 17.05,
+      "thermalZones": {
+        "cost": 600,
+        "name": "共享次元行囊Ⅱ｜恆溫分區模組Ⅰ",
+        "type": "共享後勤／儲存強化",
+        "zones": [
+          {
+            "name": "常溫乾燥區",
+            "uses": [
+              "乾燥敷料",
+              "緊急口糧",
+              "工具",
+              "衣物",
+              "不需冷藏耗材"
+            ]
+          },
+          {
+            "name": "2–8°C冷藏區",
+            "uses": [
+              "指定冷藏醫療凝膠",
+              "需冷藏特殊敷料",
+              "部分藥品",
+              "特殊醫療耗材",
+              "肉類",
+              "乳製品",
+              "易腐食材"
+            ],
+            "monitoring": [
+              "溫度顯示",
+              "溫度異常警示"
+            ]
+          }
+        ],
+        "limits": [
+          "不提供時間停止",
+          "不代表無限保鮮",
+          "不提供無限冷凍",
+          "仍遵守物品保存期限與條件",
+          "一般乾燥敷料不必強制冷藏"
+        ],
+        "paidBy": "洛",
+        "status": "OPERATIONAL",
+        "installedOn": "四人共享次元行囊Ⅲ"
+      },
+      "usedVolumeM3": 32.95,
+      "accountingNote": "救難應急站Ⅱ由折疊救援模組庫Ⅱ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。",
+      "backupEnergyM3": 0.86,
+      "trainingStatus": "第一階段共享空間戰術使用適應完成",
+      "foodZoneSummary": {
+        "M-FoodM3": 4.5,
+        "S-FoodM3": 2.2,
+        "combinedFoodAndKitchenM3": 9.7,
+        "kitchenAlreadyIncludedM3": 3
+      },
+      "operationalRule": "個人僅保留核心戰鬥／職能裝備；一般食水、醫療與後勤設備統一由共享行囊分區管理。取物仍需要時間與可行動條件。",
+      "reservePriority": [
+        "副本任務物",
+        "資料箱",
+        "特殊資源",
+        "臨時救援物資",
+        "不可預期後勤需求"
+      ],
+      "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
+      "volumeAuditNote": "v90收納歸屬整理完成：32.95／50m³，剩餘17.05m³；只調整分類與重複項目，不改變既有正式總體積。",
+      "vehiclePackageM3": 5.05,
+      "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
+      "volumeAuditStatus": "CONFIRMED",
+      "volumeAuditVersion": "v90",
+      "existingLogisticsM3": 8.3,
+      "inventorySyncVersion": "v90",
+      "vehicleMaintenanceM3": 0.94
+    }
+  }
+}

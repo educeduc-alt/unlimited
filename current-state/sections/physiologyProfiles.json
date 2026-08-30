@@ -1,0 +1,45 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "physiologyProfiles",
+  "state": {
+    "physiologyProfiles": {
+      "伊恩": {
+        "care": "目前組織穩定，無立即醫療介入需求；局部敏感度仍處適應期，後續依症狀與本人意願追蹤",
+        "title": "遺傳性生理轉化",
+        "source": "原世界家族／祖系遺傳特徵",
+        "status": "EXTERNAL_TRANSITION_COMPLETE / FUNCTIONAL_OBSERVATION_PENDING",
+        "privacy": {
+          "洛": "尚未主動告知；洛目前不知伊恩已將本人性別登記更新為女性",
+          "default": "PRIVATE／主神不得主動向隊友廣播",
+          "disclosurePlan": "由伊恩依自己的步調逐步告知"
+        },
+        "confirmed": [
+          "出生時呈男性主要外部表型",
+          "遺傳性雙向生殖發育結構確認",
+          "女性內部生殖構造先天存在，非近期生成",
+          "男性外部性徵持續縮小／內移",
+          "女性第二性徵與整體女性生理表型逐步建立",
+          "胸部已進入主要成熟區間，後續可能小幅自然調整",
+          "高度可能自然完成女性生理表型",
+          "不需要外科性別重置或外源強制改造"
+        ],
+        "identityRule": "性別登記已由伊恩本人自主確認更新為女性；身份、稱呼、資訊公開與適應步調仍由伊恩本人決定。",
+        "fictionNotice": "異世界虛構生理設定，不作現實醫學主張",
+        "completionTime": "外部女性化轉變已完成；內部功能狀態仍需時間觀察與後續檢查",
+        "negativeFindings": [
+          "無感染",
+          "無寄生",
+          "無詛咒性改造",
+          "無外來生物侵蝕",
+          "無副本影響",
+          "目前無病理性證據"
+        ],
+        "currentGenderRecord": "女性"
+      }
+    }
+  }
+}

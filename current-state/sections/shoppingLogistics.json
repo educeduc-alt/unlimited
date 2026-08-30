@@ -1,0 +1,24 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "shoppingLogistics",
+  "state": {
+    "shoppingLogistics": {
+      "id": "SHOP-POST-D011",
+      "status": "CONFIRMED",
+      "baseVersion": 16,
+      "equipmentCheck": "第一輪進行中；洛方向已確認，周映白／程牧／伊恩補強尚未展開",
+      "sharedBagPointCost": 2600,
+      "medicalPurchaseTotal": 1580,
+      "remainingPublicFunds": 270,
+      "survivalPurchaseTotal": 2350,
+      "sharedBagSideStoryCost": "C級×1",
+      "medicalContributionPerMember": 500,
+      "survivalContributionPerMember": 1000,
+      "sharedSpaceContributionPerMember": 200
+    }
+  }
+}

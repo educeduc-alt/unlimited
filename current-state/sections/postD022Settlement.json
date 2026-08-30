@@ -1,0 +1,69 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD022Settlement",
+  "state": {
+    "postD022Settlement": {
+      "bell": {
+        "rungBy": "洛",
+        "effects": "無",
+        "meaning": "4 IN / 4 OUT"
+      },
+      "name": "血月孤兒院",
+      "rating": "S",
+      "reward": {
+        "洛": 3200,
+        "伊恩": 3300,
+        "程牧": 3200,
+        "周映白": 3200,
+        "branchGain": {
+          "B": 2,
+          "C": 2
+        },
+        "publicFundsGain": 1500
+      },
+      "status": "COMPLETE / RETURNED",
+      "survival": "4 / 4",
+      "missionId": "D022",
+      "difficulty": "B+",
+      "growthRule": "NO AUTOMATIC UPGRADE",
+      "mainResults": [
+        "孤兒院防衛與安全區建立完成",
+        "人口清查完成並發現一名未登記孩童",
+        "失蹤孩童7／7生還",
+        "十五名印記孩童15／15穩定，死亡0、重大急性傷勢0",
+        "山神存活",
+        "山之子敵意降級並建立停戰",
+        "血月地表污染鏈與上游抽取鏈摧毀",
+        "隱藏事件《竊月者》完成",
+        "血月異常開始消退"
+      ],
+      "resourceResult": {
+        "arrows": "113 READY／永久遺失0／分項不變",
+        "ianEva": "FUNCTIONAL / REPAIR REQUIRED",
+        "medical": "救難站曾展開；無可量化永久耗材扣除",
+        "foodAndWater": "無消耗",
+        "equipmentDamage": "無新增永久裝備損壞"
+      },
+      "permanentInjuries": 0,
+      "specialAcquisition": {
+        "name": "山神餘力",
+        "source": "D022山神",
+        "status": "STABLE / UNIDENTIFIED",
+        "nextAction": "待獨立鑑定",
+        "notConfirmed": [
+          "污染",
+          "詛咒",
+          "念氣增幅",
+          "肉體強化",
+          "山之子控制",
+          "神權繼承"
+        ],
+        "confirmedEffects": []
+      }
+    }
+  }
+}

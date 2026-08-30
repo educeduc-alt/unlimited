@@ -1,0 +1,23 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "settlementTemplate",
+  "state": {
+    "settlementTemplate": {
+      "id": "UNIVERSAL_DUNGEON_SETTLEMENT_V1",
+      "rules": [
+        "額外評價只來自實際副本行動",
+        "可戰鬥目標不等於必須擊殺",
+        "支線不得自動花費",
+        "未確認醫療與消耗品數量時標記PENDING INVENTORY",
+        "使用不等於消耗；無正式損壞紀錄不得扣除耐久裝備",
+        "關係事件與戰鬥數值分離"
+      ],
+      "status": "STANDARD TEMPLATE",
+      "referenceStyle": "D012《玻璃海岸》B級結算格式"
+    }
+  }
+}

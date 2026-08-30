@@ -1,0 +1,53 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD016ColdRegionProcurement",
+  "state": {
+    "postD016ColdRegionProcurement": {
+      "node": "POST-D016休整期｜寒區整備完成",
+      "status": "CONFIRMED",
+      "coldTeamKit": {
+        "cost": 2000,
+        "name": "四人寒區隊伍整備包Ⅰ",
+        "paidBy": {
+          "洛": 400,
+          "伊恩": 400,
+          "程牧": 600,
+          "周映白": 600
+        },
+        "status": "PURCHASED／OPERATIONAL",
+        "contents": [
+          "四人寒區完整套組Ⅰ×4",
+          "基礎備用手套×2",
+          "基礎化學暖包×8"
+        ],
+        "priceRule": "套裝折扣價格不因取消低價收納袋而返點",
+        "storageRule": "不配置獨立裝備收納袋；四套個人寒區裝備分別收納於既有衣裝空間模組；備用手套與暖包進共享次元行囊Ⅱ"
+      },
+      "economyAfter": {
+        "洛": 170,
+        "伊恩": 147,
+        "程牧": 1542,
+        "周映白": 1541,
+        "grandTotal": 4080,
+        "privateDebt": 0,
+        "publicFunds": 680,
+        "privateTotal": 3400,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "vehicleModule": {
+        "cost": 1200,
+        "name": "車載跨溫域環境控制模組Ⅰ",
+        "paidBy": "公共資金",
+        "status": "PURCHASED／INSTALLED／OPERATIONAL",
+        "installedOn": "B級｜兩棲折疊救援車Ⅱ"
+      }
+    }
+  }
+}

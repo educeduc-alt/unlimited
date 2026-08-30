@@ -1,0 +1,84 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD019ReadinessTraining",
+  "state": {
+    "postD019ReadinessTraining": {
+      "洛": {
+        "周": "PRACTICAL",
+        "圓": {
+          "6m": "80秒穩定／CONFIRMED",
+          "8m": "約45秒實用短時／CONFIRMED",
+          "10m": "短暫粗略／不列穩定實用"
+        },
+        "脈衝": {
+          "5m": "低負荷穩定",
+          "10m": "穩定實用",
+          "farther": "高負荷測試區／不更新"
+        },
+        "動態流": "PRACTICAL",
+        "氣力置換": "CONFIRMED",
+        "螺旋右拳": "CONFIRMED／舊螺旋右直拳RESEARCH已併入",
+        "脈衝×螺旋": "高負荷重型單點輸出／最大威力不更新",
+        "總氣量成長": "CURRENT_GROWTH_CONFIRMED／不推定精確氣池數值",
+        "念力負荷適應": "PRACTICAL ADAPTATION",
+        "圓環境異常辨識應用": "TRAINING／既有圓訊號精細化；不是新技能或空間感知"
+      },
+      "status": "COMPLETE",
+      "伊恩": {
+        "預同步": "CONFIRMED TACTICAL APPLICATION",
+        "knownSpells": [
+          "引燃",
+          "閃燃",
+          "熱流偏轉"
+        ],
+        "漸進卸載": "CONFIRMED TACTICAL APPLICATION",
+        "複式法陣構築": "PRACTICAL／低強度3系統並行可穩定重現／最大並行數不更新",
+        "大型偵測法陣Ⅰ": "PRACTICAL／最大範圍不更新",
+        "大型防禦法陣Ⅰ": "PRACTICAL／最大總承載不更新",
+        "動態節點責任轉移": "穩定／不是空間魔法／不是新技能",
+        "複合術式功能分離": "RESEARCH／ADVANCED"
+      },
+      "程牧": {
+        "箭庫": "117支／待修0",
+        "多箭種運用": "CONFIRMED／MERGED",
+        "箭種戰術鏈": "PRACTICAL",
+        "漸進增磅訓練": "第一階段完成／正式弓磅不更新",
+        "四人共享戰術視界": "OPERATIONAL",
+        "異常訊號交叉判讀Ⅰ": "CONFIRMED／異常≠敵意"
+      },
+      "duration": "五日裝備熟練＋舊課程清理＋標準化能力測試＋近期圓／環境異常辨識訓練",
+      "周映白": {
+        "medicalRole": "現場判讀／固定／穩定／後送／救援系統部署；仍非完整醫師",
+        "閃返步攜人": {
+          "3m": "成人級負載可穩定連續3次",
+          "5m": "穩定單次／呼吸負荷明顯",
+          "farther": "CURRENT未驗證／不更新"
+        },
+        "高負載救援": "PRACTICAL",
+        "閃返步無負重": {
+          "5m": "舊低負荷基準",
+          "7m": "CURRENT低負荷基準／約+2m",
+          "8m": "開始輕微呼吸負荷",
+          "10m": "穩定完成／非低負荷",
+          "15m": "高單次負荷區",
+          "17m": "不列CURRENT正式基準"
+        }
+      },
+      "teamStatus": "READY",
+      "lockedRules": [
+        "所有能力僅採已完成標準化與可重現結果",
+        "最大力量與輸出不更新",
+        "正式弓磅不更新",
+        "法陣最大範圍與承載不更新",
+        "不新增未知技能",
+        "鐵軌術式不是正式技能"
+      ],
+      "nextMission": "UNSELECTED",
+      "unknownSkillsAdded": 0
+    }
+  }
+}

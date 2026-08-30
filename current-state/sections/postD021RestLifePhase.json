@@ -1,0 +1,53 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "postD021RestLifePhase",
+  "state": {
+    "postD021RestLifePhase": {
+      "next": "分化強化訓練＋四人戰術反射訓練",
+      "status": "COMPLETE / FOOD SETTLED / STANDARDIZED TEST COMPLETE",
+      "newSkills": 0,
+      "bodyRecovery": "COMPLETE",
+      "trainingStatus": "FORMAL_TRAINING_NOT_STARTED",
+      "cookingExchange": "COMPLETE",
+      "foodConsumption": "SETTLED BY EXTRA PUBLIC PROCUREMENT",
+      "pointsDeduction": 376,
+      "ianPostD021Injury": "TREATED / NO NEW ABNORMALITY",
+      "luoIanRelationship": "STABLE",
+      "naturalAbilityGrowth": "CONFIRMED BY STANDARDIZED TEST",
+      "teamDailyInteraction": "GOOD",
+      "luoStandardizedGrowth": {
+        "stage": "POST-D021｜完整休整後／正式訓練前",
+        "status": "CONFIRMED GROWTH",
+        "auraTotalAssessment": "CONFIRMED INCREASE",
+        "newIndependentSkills": 0,
+        "enhancedTenMeanSeconds": 103.67,
+        "enhancedTenRangeSeconds": 3,
+        "enhancedTenMedianSeconds": 104,
+        "enhancedTenTrialsSeconds": [
+          104,
+          102,
+          105
+        ],
+        "physicalStrengthIncreasePercent": 6.4,
+        "highOutputDurationIncreasePercentVs60": 72.78,
+        "sameAuraStrengthEfficiencyIncreasePercent": 17.6
+      },
+      "temporaryFoodPurchases": {
+        "cost": 376,
+        "rule": "本輪料理使用額外採買食材；不重複扣正式後勤庫存。",
+        "payer": "公共資金",
+        "stage": "POST-D021休整生活期",
+        "status": "SETTLED",
+        "publicFundsAfter": 1504,
+        "publicFundsBefore": 1880,
+        "privatePointsChanged": false,
+        "formalInventoryDeduction": 0
+      },
+      "formalInventoryDeduction": 0
+    }
+  }
+}

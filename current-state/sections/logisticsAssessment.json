@@ -1,0 +1,28 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 94,
+  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "section": "logisticsAssessment",
+  "state": {
+    "logisticsAssessment": {
+      "conclusion": "空間擴充模組與共享次元行囊已解決多數物資負重，但不能處理隊員長距離移動、傷員後送與體力保存。",
+      "confirmedGap": "LONG_RANGE_MOBILITY",
+      "procurementPriority": {
+        "item": "隊伍戰術機動載具",
+        "desired": [
+          "至少4名隊員",
+          "至少1名傷員後送能力",
+          "跨副本可攜",
+          "低維護",
+          "救援掛點",
+          "跨地形",
+          "陸水兩棲優先",
+          "長期升級：懸浮／短程飛行"
+        ],
+        "priority": "HIGH"
+      }
+    }
+  }
+}

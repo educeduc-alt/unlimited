@@ -1,6 +1,9 @@
 name: Sync CURRENT STATE
 
 on:
+  push:
+    paths:
+      - ".github/workflows/sync-current-state.yml"
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"

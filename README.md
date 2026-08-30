@@ -2,24 +2,24 @@
 
 這個儲存庫是 **ChatGPT 核對遊戲資料的正式 GitHub 來源**。
 
-主神資料庫網站只提供人類閱讀介面；JSON 存檔與版本歷史統一由本儲存庫保存。
+主神資料庫網站只提供玩家閱讀介面；JSON 存檔與版本歷史統一由本儲存庫保存。
 
 ## ChatGPT 讀取順序
 
 1. [存檔索引](./current-state/manifest.json)
-2. [最新正式存檔](./current-state/latest.json)
-3. 需要核對特定版本時，讀取 `current-state/v版本號.json`
-4. [相容入口](./current-state.json) 與 latest 內容相同
+2. 先確認索引中的最高版本號與更新时间
+3. 優先讀取索引列出的 `sections` 分區檔，只開啟需要核對的角色、裝備、物資或事件區段
+4. 需要完整核對時再讀取 [最新正式存檔](./current-state/latest.json)
+5. 需要特定歷史版本時，讀取 `current-state/v版本號.json`
 
-目前正式版本：
-
-- [v94 封存](./current-state/v94.json)
+[相容入口](./current-state.json) 與 latest 內容相同。
 
 ## 同步規則
 
 - 資料來源：主神資料庫 Supabase CURRENT STATE
 - 自動同步：約每 30 分鐘
 - 每個版本以獨立 JSON 封存，不會只留下最新檔案
+- 最新版本同步產生分區 JSON，降低 ChatGPT 一次讀取大型檔案失敗的機率
 - ChatGPT 應優先採用索引所指向的最高版本
 - GitHub 是核對與版本保存來源，不提供遊戲資料寫入
 - 主神資料庫網站仍是玩家查看角色、能力、裝備、物資與副本紀錄的介面

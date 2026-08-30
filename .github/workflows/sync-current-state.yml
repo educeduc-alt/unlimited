@@ -31,29 +31,43 @@ jobs:
           jq -e 'type == "object" and (.version | type == "number") and (.schema_version != null) and (.state != null)' current-state.json.tmp >/dev/null
 
           VERSION="$(jq -r '.version' current-state.json.tmp)"
-          SCHEMA_VERSION="$(jq -r '.schema_version' current-state.json.tmp)"
-          UPDATED_AT="$(jq -r '.updated_at' current-state.json.tmp)"
+          mkdir -p current-state/sections
 
-          mkdir -p current-state
           cp current-state.json.tmp current-state.json
           cp current-state.json.tmp current-state/latest.json
           cp current-state.json.tmp "current-state/v${VERSION}.json"
 
-          jq -n \
-            --argjson version "$VERSION" \
-            --arg schema_version "$SCHEMA_VERSION" \
-            --arg updated_at "$UPDATED_AT" \
-            --arg latest "current-state/latest.json" \
-            --arg versioned "current-state/v${VERSION}.json" \
-            '{
-              authority: "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-              version: $version,
-              schema_version: $schema_version,
-              updated_at: $updated_at,
-              latest: $latest,
-              versioned: $versioned,
-              rule: "ChatGPT should use the highest archived version and must not overwrite it with older conversation data."
-            }' > current-state/manifest.json
+          while IFS= read -r KEY; do
+            SAFE_KEY="$(printf '%s' "$KEY" | jq -sRr @uri)"
+            jq --arg key "$KEY" '{
+              authority,
+              usage,
+              schema_version,
+              version,
+              updated_at,
+              section: $key,
+              state: {($key): .state[$key]}
+            }' current-state.json.tmp > "current-state/sections/${SAFE_KEY}.json"
+          done < <(jq -r '.state | keys[]' current-state.json.tmp)
+
+          jq '{
+            authority: "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
+            version,
+            schema_version,
+            updated_at,
+            latest: "current-state/latest.json",
+            versioned: ("current-state/v" + (.version | tostring) + ".json"),
+            sections: (
+              .state
+              | keys
+              | map({
+                  key: .,
+                  value: ("current-state/sections/" + (. | @uri) + ".json")
+                })
+              | from_entries
+            ),
+            rule: "ChatGPT should read this manifest first, use the highest archived version, then open only the relevant section files when possible. Older conversation data must not overwrite the archived version."
+          }' current-state.json.tmp > current-state/manifest.json
 
           rm current-state.json.tmp
 

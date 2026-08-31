@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "readiness",
   "state": {
     "readiness": "POST-D023休整中｜能力介面已精簡；大型資產已回收；食水與醫療耗材仍待正式盤點"

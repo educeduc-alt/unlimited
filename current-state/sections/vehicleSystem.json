@@ -2,15 +2,15 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "vehicleSystem",
   "state": {
     "vehicleSystem": {
       "role": "四人跨副本機動／救援／傷員後送平台",
       "damage": [],
       "status": "OPERATIONAL",
-      "vehicle": "B級｜兩棲折疊救援車Ⅱ",
+      "vehicle": "兩棲折疊救援車Ⅲ｜加長多人後送型",
       "location": "AI主神空間",
       "mapModule": {
         "cost": 320,
@@ -40,6 +40,7 @@
       ],
       "sharedBag": "OPERATIONAL",
       "foldingCart": "OPERATIONAL",
+      "formalSeats": 9,
       "systemCheck": {
         "待修": 0,
         "折疊系統": "正常",
@@ -60,6 +61,8 @@
         "車載獨立電子地圖／地形記錄模組Ⅰ"
       ],
       "fieldAssessment": "超出現場維修範疇",
+      "postD023Upgrade": "兩棲折疊救援車Ⅲ｜9正式座／20人短程緊急撤離；雙擔架、環景、強化拖曳、多人環控；保留兩棲與既有系統",
+      "emergencyMaximum": 20,
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
         "載具崗位動態接替",
@@ -112,7 +115,8 @@
         "基礎野戰維修",
         "環境評估",
         "載具崗位接替"
-      ]
+      ],
+      "integratedCampModule": "正式遠征居住模組Ⅱ"
     }
   }
 }

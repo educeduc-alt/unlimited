@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -13,16 +13,16 @@
         "鈍擊箭": "鈍擊衝擊箭"
       },
       "entries": {
-        "信標箭": 9,
-        "冰凍箭": 10,
+        "信標箭": 15,
+        "冰凍箭": 15,
         "標準箭": 28,
-        "煙幕箭": 9,
-        "爆裂箭": 10,
-        "鈍擊箭": 9,
-        "束縛鎖箭": 12,
-        "重型破障箭": 9,
-        "閃光干擾箭": 9,
-        "電擊干擾箭Ⅰ": 9
+        "煙幕箭": 15,
+        "爆裂箭": 15,
+        "鈍擊箭": 15,
+        "束縛鎖箭": 15,
+        "重型破障箭": 15,
+        "閃光干擾箭": 15,
+        "電擊干擾箭Ⅰ": 15
       },
       "capacity": "UNSPECIFIED_FINITE",
       "timeline": [
@@ -39,15 +39,15 @@
           "readyAfter": 114
         }
       ],
-      "container": "折疊智能箭庫Ⅰ",
+      "container": "折疊智能箭庫Ⅱ｜箭矢回收型",
       "d022Result": {
         "ready": 113,
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "PRE-D023｜標準箭+1／正式總數114／0待修",
-      "combatReady": 114,
-      "currentTotal": 114,
+      "lastUpdate": "POST-D023｜箭庫Ⅱ＋補箭至163",
+      "combatReady": 163,
+      "currentTotal": 163,
       "selectionRule": "有限實體箭矢；最終選箭與射擊權屬WIFI，不自行判定敵我或開火",
       "stage4Restock": {
         "cost": 1600,
@@ -75,9 +75,9 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "114 READY／0 REPAIR",
+      "inventoryStatus": "163 READY／0 REPAIR",
       "repairBreakdown": {},
-      "accountingPresent": 114,
+      "accountingPresent": 163,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",

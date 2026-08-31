@@ -2,18 +2,18 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 33194,
-      "publicFunds": 3000,
-      "privateTotal": 30194,
+      "grandTotal": 8944,
+      "publicFunds": 0,
+      "privateTotal": 8944,
       "branchStories": {
-        "B": 1,
-        "C": 2
+        "B": 0,
+        "C": 0
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -396,17 +396,17 @@
       },
       "sharedSideStory": {
         "rank": "B",
-        "quantity": 1
+        "quantity": 0
       },
       "privateDebtTotal": 0,
       "sharedSideStories": [
         {
           "rank": "B",
-          "quantity": 1
+          "quantity": 0
         },
         {
           "rank": "C",
-          "quantity": 2
+          "quantity": 0
         }
       ],
       "lastReconciliation": {
@@ -533,7 +533,7 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 30194,
+      "privatePointsTotal": 8944,
       "reconciliationHistory": [
         {
           "node": "POST-D016｜戒指、戒指盒與貼身衣物採購後",
@@ -1160,6 +1160,31 @@
         "lifeExpenseFromLuo": 200,
         "publicExpenseTotal": 3000,
         "privateExpenseTotal": 25600
+      },
+      "postD023ReinforcementAccounting": {
+        "rule": "2400未提供品名，不虛構拆分",
+        "after": {
+          "B": 0,
+          "C": 0,
+          "洛": 1846,
+          "伊恩": 1540,
+          "程牧": 1888,
+          "周映白": 3670,
+          "grandTotal": 8944,
+          "publicFunds": 0,
+          "privateTotal": 8944
+        },
+        "before": {
+          "B": 1,
+          "C": 2,
+          "publicFunds": 3000,
+          "privateTotal": 30194
+        },
+        "status": "CONFIRMED",
+        "publicItemized": 600,
+        "publicUnitemized": 2400,
+        "publicExpenseTotal": 3000,
+        "privateExpenseTotal": 21250
       },
       "preD023CycleCareReconfiguration": {
         "node": "PRE-D023｜伊恩經期用品偏好重配",

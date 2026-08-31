@@ -2,16 +2,16 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "campingEquipmentStatus",
   "state": {
     "campingEquipmentStatus": {
-      "status": "OPERATIONAL / PRE-D023 READY",
-      "current": "正式遠征露營模組Ⅰ",
-      "mission": "D023《沒有太陽的第三遠征隊》",
-      "volumeM3": 2.5,
-      "superseded": "四人份輕量露營模組｜已折抵升級並移除"
+      "status": "OPERATIONAL",
+      "current": "正式遠征居住模組Ⅱ",
+      "details": "正式遠征居住模組Ⅱ｜4獨立臥室、隔音、衛浴、環控、公共區、廚房與車輛水電掛接；無人才可收折；非堡壘或無限水電",
+      "volumeM3": "PENDING_RECALCULATION",
+      "superseded": "正式遠征露營模組Ⅰ"
     }
   }
 }

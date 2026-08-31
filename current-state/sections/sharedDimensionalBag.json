@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 94,
-  "updated_at": "2026-08-30T09:49:00.977453+00:00",
+  "version": 96,
+  "updated_at": "2026-08-31T04:30:09.205866+00:00",
   "section": "sharedDimensionalBag",
   "state": {
     "sharedDimensionalBag": {
@@ -355,10 +355,10 @@
         "不可預期後勤需求"
       ],
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
-      "volumeAuditNote": "v90收納歸屬整理完成：32.95／50m³，剩餘17.05m³；只調整分類與重複項目，不改變既有正式總體積。",
+      "volumeAuditNote": "居住模組Ⅱ與救援車Ⅲ已替換；本卡未提供新折疊體積，現行容量待重算。",
       "vehiclePackageM3": 5.05,
       "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
-      "volumeAuditStatus": "CONFIRMED",
+      "volumeAuditStatus": "PENDING_FOR_POST_D023_UPGRADES",
       "volumeAuditVersion": "v90",
       "existingLogisticsM3": 8.3,
       "inventorySyncVersion": "v90",

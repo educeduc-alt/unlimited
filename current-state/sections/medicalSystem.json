@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "medicalSystem",
   "state": {
     "medicalSystem": {
@@ -16,6 +16,40 @@
       "validated": "訓練模擬驗證流程成立",
       "carryDoctrine": "分散攜帶／集中技術",
       "standardChain": "受傷→周映白火線切入→判傷／穩定→製造撤離窗口→帶離→安全位置掃描→醫療資源處置→符合條件時組織修復→重新判定戰力",
+      "postCustomARestock": {
+        "cost": 1680,
+        "status": "COMPLETE / BASELINE RESTORED",
+        "payment": {
+          "洛": 40,
+          "伊恩": 40,
+          "程牧": 40,
+          "周映白": 40,
+          "publicFunds": 1520
+        },
+        "lowMidStock": {
+          "口服補液鹽": 6,
+          "無菌紗布包": 31,
+          "鈍傷修復貼": 4,
+          "冷凝醫療凝膠": 3,
+          "基礎消毒單元": 39,
+          "彈性固定繃帶": 8,
+          "快速冷敷凝膠": 3,
+          "無菌止血敷料": 10,
+          "速效冷療噴霧Ⅰ": 8,
+          "一次性醫療手套組": 19,
+          "肌肉舒緩修復噴劑Ⅰ": 2,
+          "複合創傷醫療噴膜Ⅰ": 3
+        },
+        "highTierRule": "灰城無確認消耗；未追加購買，維持既有正式數量",
+        "highTierStock": {
+          "戰術止血組": 3,
+          "生命維持凝膠": 1,
+          "中級創傷應急劑": 1,
+          "基礎創傷應急劑": 2,
+          "進階創傷處理包": 1
+        },
+        "basicMedicalBoxes": "5 FULL／0 PARTIALLY CONSUMED"
+      },
       "largeEquipmentPolicy": "暫不新增第三件大型醫療設備；待正式副本暴露缺口後再升級"
     }
   }

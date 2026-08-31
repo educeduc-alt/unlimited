@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "missionHistory",
   "state": {
     "missionHistory": [
@@ -2263,6 +2263,37 @@
           "SILENT BASIN尾段分離組9人"
         ],
         "mainObjective": "協助第三遠征隊抵達最終測繪區並確認零基準區現況"
+      },
+      {
+        "id": "CUSTOM-A-01",
+        "name": "灰城72小時",
+        "world": "灰城／72小時災害窗口",
+        "result": "S / CLEAR",
+        "category": "自訂副本／城市災難救援與模仿型情報污染",
+        "sequence": 24,
+        "keyEvents": [
+          "孤兒院建立為城市級救援中繼站",
+          "第二醫院、西區警察局、舊倉庫區與市政體系形成互聯救援網",
+          "中央研究院地下生產設備摧毀",
+          "第二秘密設施發現並處理",
+          "海倫娜責任鏈與研究資料保全",
+          "4 IN / 4 OUT"
+        ],
+        "difficulty": "CUSTOM A",
+        "participants": [
+          "洛",
+          "周映白／香蕉",
+          "伊恩／公主",
+          "程牧／WIFI"
+        ],
+        "coreMechanics": [
+          "模仿型情報污染",
+          "真假生命訊號交叉確認",
+          "城市救援網自主化",
+          "可複製能力敵人",
+          "72小時時限"
+        ],
+        "mainObjective": "72小時內建立可延續的城市救援能力並處理模仿鬼物源頭"
       }
     ]
   }

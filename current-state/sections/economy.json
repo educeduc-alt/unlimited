@@ -2,18 +2,18 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 8944,
+      "grandTotal": 33174,
       "publicFunds": 0,
-      "privateTotal": 8944,
+      "privateTotal": 33174,
       "branchStories": {
-        "B": 0,
-        "C": 0
+        "B": 1,
+        "C": 2
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -396,17 +396,17 @@
       },
       "sharedSideStory": {
         "rank": "B",
-        "quantity": 0
+        "quantity": 1
       },
       "privateDebtTotal": 0,
       "sharedSideStories": [
         {
           "rank": "B",
-          "quantity": 0
+          "quantity": 1
         },
         {
           "rank": "C",
-          "quantity": 0
+          "quantity": 2
         }
       ],
       "lastReconciliation": {
@@ -533,7 +533,7 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 8944,
+      "privatePointsTotal": 33174,
       "reconciliationHistory": [
         {
           "node": "POST-D016｜戒指、戒指盒與貼身衣物採購後",
@@ -889,6 +889,74 @@
           },
           "status": "CONFIRMED",
           "description": "四人各轉500點至公共；4000點整備支出先由公共2004支付，餘1996按轉帳後私人餘額比例分攤。"
+        },
+        {
+          "node": "POST-CUSTOM-A｜《灰城72小時》正式結算",
+          "after": {
+            "B": 1,
+            "C": 2,
+            "洛": 8146,
+            "伊恩": 7790,
+            "程牧": 8238,
+            "周映白": 9970,
+            "grandTotal": 37144,
+            "publicFunds": 3000,
+            "privateTotal": 34144
+          },
+          "before": {
+            "B": 0,
+            "C": 0,
+            "洛": 1846,
+            "伊恩": 1540,
+            "程牧": 1888,
+            "周映白": 3670,
+            "grandTotal": 8944,
+            "publicFunds": 0,
+            "privateTotal": 8944
+          },
+          "status": "CONFIRMED",
+          "missionRewards": {
+            "B": 1,
+            "C": 2,
+            "洛": 6300,
+            "伊恩": 6250,
+            "程牧": 6350,
+            "周映白": 6300,
+            "publicFunds": 3000
+          }
+        },
+        {
+          "node": "POST-CUSTOM-A｜灰城返還後生活／箭庫／食水／醫療整備",
+          "after": {
+            "B": 1,
+            "C": 2,
+            "洛": 8096,
+            "伊恩": 7750,
+            "程牧": 7398,
+            "周映白": 9930,
+            "grandTotal": 33174,
+            "publicFunds": 0,
+            "privateTotal": 33174
+          },
+          "before": {
+            "B": 1,
+            "C": 2,
+            "洛": 8146,
+            "伊恩": 7790,
+            "程牧": 8238,
+            "周映白": 9970,
+            "grandTotal": 37144,
+            "publicFunds": 3000,
+            "privateTotal": 34144
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "deductions": {
+            "洛": 50,
+            "伊恩": 40,
+            "程牧": 840,
+            "周映白": 40,
+            "publicFunds": 3000
+          }
         }
       ],
       "postD019Stage4Followup": {
@@ -970,6 +1038,50 @@
           "publicFundsAfterContribution": 2200
         },
         "purchaseTotal": 1700
+      },
+      "customAGrayCitySettlement": {
+        "id": "SET-CUSTOM-A-GRAY-CITY-72H",
+        "name": "CUSTOM A《灰城72小時》正式結算",
+        "rating": "S",
+        "status": "COMPLETE",
+        "rewards": {
+          "洛": 6300,
+          "伊恩": 6250,
+          "程牧": 6350,
+          "周映白": 6300,
+          "publicFunds": 3000,
+          "branchStories": {
+            "B": 1,
+            "C": 2
+          }
+        },
+        "arrowStatus": {
+          "ready": 159,
+          "physical": 162,
+          "permanentLoss": {
+            "束縛鎖箭": 1
+          },
+          "repairPending": 3,
+          "repairBreakdown": {
+            "閃光干擾箭": 3
+          }
+        },
+        "pointsAfter": {
+          "洛": 8146,
+          "伊恩": 7790,
+          "程牧": 8238,
+          "周映白": 9970,
+          "grandTotal": 37144,
+          "publicFunds": 3000,
+          "privateTotal": 34144
+        },
+        "pointsBefore": {
+          "洛": 1846,
+          "伊恩": 1540,
+          "程牧": 1888,
+          "周映白": 3670,
+          "publicFunds": 0
+        }
       },
       "postD018Stage4Procurement": {
         "after": {
@@ -1098,6 +1210,67 @@
         "status": "CONFIRMED",
         "publicFundsChanged": false,
         "branchStoriesChanged": false
+      },
+      "postCustomAGrayCityLogistics": {
+        "after": {
+          "B": 1,
+          "C": 2,
+          "洛": 8096,
+          "伊恩": 7750,
+          "程牧": 7398,
+          "周映白": 9930,
+          "grandTotal": 33174,
+          "publicFunds": 0,
+          "privateTotal": 33174
+        },
+        "before": {
+          "B": 1,
+          "C": 2,
+          "洛": 8146,
+          "伊恩": 7790,
+          "程牧": 8238,
+          "周映白": 9970,
+          "grandTotal": 37144,
+          "publicFunds": 3000,
+          "privateTotal": 34144
+        },
+        "status": "CONFIRMED / SETTLED",
+        "expenses": [
+          {
+            "cost": 10,
+            "item": "洛房間寢具更換＋清潔",
+            "payer": "洛"
+          },
+          {
+            "cost": 800,
+            "item": "箭矢自律維修模組Ⅰ",
+            "payer": "程牧／WIFI"
+          },
+          {
+            "cost": 1480,
+            "item": "遠征食水與可烹飪食材補給",
+            "payer": "公共資金"
+          },
+          {
+            "cost": 1680,
+            "item": "灰城低／中階醫療耗材回補",
+            "payment": {
+              "洛": 40,
+              "伊恩": 40,
+              "程牧": 40,
+              "周映白": 40,
+              "publicFunds": 1520
+            }
+          }
+        ],
+        "totalExpense": 3970,
+        "publicDeduction": 3000,
+        "privateDeductions": {
+          "洛": 50,
+          "伊恩": 40,
+          "程牧": 840,
+          "周映白": 40
+        }
       },
       "postD021RestLifeFoodSettlement": {
         "node": "POST-D021 REST & LIFE PHASE｜FOOD SETTLED",

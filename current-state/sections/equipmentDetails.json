@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "equipmentDetails",
   "state": {
     "equipmentDetails": {
@@ -517,6 +517,18 @@
           ]
         },
         "vehicleRescueModule": "車載快速救援模組Ⅰ：液壓撐開／剪切、拖曳轉接、救援棍固定座、多規格掛鉤、快速脫離接口"
+      },
+      "箭矢自律維修模組Ⅰ": {
+        "cost": 800,
+        "owner": "程牧／WIFI",
+        "limits": [
+          "不生成遺失箭",
+          "不復原完全損毀箭",
+          "不復原已啟動的一次性冰凍／爆裂／束縛鎖核心"
+        ],
+        "status": "INSTALLED / OPERATIONAL",
+        "carrier": "折疊智能箭庫Ⅱ",
+        "description": "已回收且仍可修復的箭矢回庫後自動檢測、校直、修復、重置並恢復READY"
       }
     }
   }

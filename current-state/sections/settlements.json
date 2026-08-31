@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "settlements",
   "state": {
     "settlements": [
@@ -286,6 +286,25 @@
           "consumedPercent": 38,
           "stockRemainingPercent": 62
         }
+      },
+      {
+        "id": "SET-CUSTOM-A-GRAY-CITY-72H",
+        "name": "CUSTOM A《灰城72小時》正式結算",
+        "rating": "S",
+        "status": "COMPLETE",
+        "economyAfter": {
+          "B": 1,
+          "C": 2,
+          "洛": 8146,
+          "伊恩": 7790,
+          "程牧": 8238,
+          "周映白": 9970,
+          "grandTotal": 37144,
+          "publicFunds": 3000,
+          "privateTotal": 34144
+        },
+        "partyOutcome": "4 IN / 4 OUT",
+        "mainObjectives": "5 / 5 COMPLETE"
       }
     ]
   }

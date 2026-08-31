@@ -1,0 +1,93 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
+  "section": "customAGrayCitySettlement",
+  "state": {
+    "customAGrayCitySettlement": {
+      "id": "CUSTOM-A-GRAY-CITY-72H",
+      "rest": "RECOMMENDED",
+      "growth": {
+        "洛": [
+          "脈衝整合承重鏈正面接觸複合試作體：實戰案例成立／承重上限不自動增加",
+          "500%脈衝×螺旋右拳：峰值實戰使用CONFIRMED／不可常用化／不提高理論上限／不判定總念氣增加",
+          "念體一元化Ⅰ大量實戰整合成立／無升階"
+        ],
+        "伊恩": [
+          "三重重疊術式高壓實戰案例／不常態化／精神負荷保留",
+          "大型法陣與快速術式構築大量救援整合／無新術式生成"
+        ],
+        "程牧": [
+          "多來源真假生命訊號交叉確認程序",
+          "城市級多節點通訊與標記經驗",
+          "彈道領域限制選項→預射落點實戰成立／不變必中",
+          "箭庫新增READY／待維修／永久消耗分類"
+        ],
+        "周映白": [
+          "閃返步大量救援整合使用／最大距離不更新",
+          "空間錨定對複合試作體完成戰術限制／不升階"
+        ],
+        "newSupernaturalSkills": "NONE"
+      },
+      "rating": "S",
+      "status": "CLEAR / RETURNED",
+      "mission": "CUSTOM A《灰城72小時》",
+      "rewards": {
+        "洛": 6300,
+        "伊恩": 6250,
+        "程牧": 6350,
+        "周映白": 6300,
+        "publicFunds": 3000,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "auditRule": "灰城箭矢、遠征食水與低中階醫療已建立新正式基準；生活用食材仍獨立PENDING AUDIT",
+      "largeAssets": "ALL RECOVERED / OPERATIONAL",
+      "mainResults": [
+        "建立可持續運作的救援／後送據點",
+        "建立至少三條有效救援／撤離線",
+        "搜索主要受困區並救援平民與專業人員",
+        "摧毀中央研究院地下模仿鬼物生產／維持設備",
+        "72小時內建立可由當地延續的城市救援能力",
+        "發現並處理海倫娜第二秘密設施",
+        "核心研究責任人活體控制／研究資料與責任鏈保全"
+      ],
+      "nextMission": "UNSELECTED",
+      "economyAfter": {
+        "洛": 8146,
+        "伊恩": 7790,
+        "程牧": 8238,
+        "周映白": 9970,
+        "grandTotal": 37144,
+        "publicFunds": 3000,
+        "privateTotal": 34144,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "partyOutcome": "4 IN / 4 OUT／死亡0／永久滯留0",
+      "pendingAudit": [
+        "洛500%輸出後完整恢復狀態",
+        "香蕉恢復後是否進行閃返步標準測試",
+        "伊恩三重重疊術式精神負荷恢復",
+        "是否將灰城模仿鬼／複合試作體加入怪物圖鑑",
+        "主神空間生活用食材實際剩餘量"
+      ],
+      "mainObjectives": "5 / 5 COMPLETE",
+      "specialRecords": [
+        "《不是怪物的謝謝》｜未知生命／人工生命倫理紀錄；不自動判定全部無罪或完整人格",
+        "《被記住的人》｜米洛為唯一明確目擊白光接送者；無機制獎勵或能力加成"
+      ],
+      "tacticalExperience": [
+        "模仿型敵對情報污染應對流程",
+        "城市救援網自主化流程",
+        "可複製能力敵人對抗原則"
+      ]
+    }
+  }
+}

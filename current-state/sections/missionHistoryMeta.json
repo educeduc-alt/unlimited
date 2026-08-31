@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "missionHistoryMeta",
   "state": {
     "missionHistoryMeta": {
@@ -11,9 +11,9 @@
       "sequels": "允許既有世界續篇，但必須具備新的事件、主要玩法與完成條件",
       "ordering": "依原始對話時間線與結算紀錄",
       "deduplication": "啟用；候選副本避免重複既有核心機制",
-      "verifiedCount": 23,
+      "verifiedCount": 24,
       "uncertaintyPolicy": "原文未標定的難度保留為未標定，不推測",
-      "latestVerifiedMission": "D023｜沒有太陽的第三遠征隊｜A-｜S｜COMPLETE"
+      "latestVerifiedMission": "CUSTOM A｜灰城72小時｜S｜CLEAR"
     }
   }
 }

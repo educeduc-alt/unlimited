@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -19,7 +19,7 @@
         "煙幕箭": 15,
         "爆裂箭": 15,
         "鈍擊箭": 15,
-        "束縛鎖箭": 15,
+        "束縛鎖箭": 14,
         "重型破障箭": 15,
         "閃光干擾箭": 15,
         "電擊干擾箭Ⅰ": 15
@@ -37,17 +37,52 @@
           "event": "標準箭補充×1",
           "change": 1,
           "readyAfter": 114
+        },
+        {
+          "node": "POST-CUSTOM-A《灰城72小時》",
+          "event": "束縛鎖箭永久消耗1；閃光干擾箭3支待維修；電擊箭1支成功回收",
+          "readyAfter": 159,
+          "permanentLoss": 1,
+          "physicalAfter": 162,
+          "repairPending": 3
+        },
+        {
+          "node": "POST-CUSTOM-A後勤整備",
+          "event": "箭矢自律維修模組Ⅰ安裝；閃光干擾箭3支修復完成",
+          "readyAfter": 162,
+          "physicalAfter": 162,
+          "repairPending": 0
         }
       ],
-      "container": "折疊智能箭庫Ⅱ｜箭矢回收型",
+      "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
       "d022Result": {
         "ready": 113,
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-D023｜箭庫Ⅱ＋補箭至163",
-      "combatReady": 163,
-      "currentTotal": 163,
+      "lastUpdate": "POST-CUSTOM-A｜箭矢自律維修模組Ⅰ安裝／閃光箭3支修復完成",
+      "combatReady": 162,
+      "currentTotal": 162,
+      "repairModule": {
+        "cost": 800,
+        "name": "箭矢自律維修模組Ⅰ",
+        "payer": "程牧／WIFI",
+        "scope": "僅限已回收、仍完整存在且可修復的已登錄箭矢",
+        "limits": [
+          "不生成遺失箭矢",
+          "不能復原完全損毀或被特殊封鎖的箭",
+          "不能復原冰凍／爆裂／束縛鎖箭等已啟動的一次性核心耗材",
+          "仍受實體零件與可維修性限制"
+        ],
+        "status": "INSTALLED / OPERATIONAL",
+        "functions": [
+          "自動檢測",
+          "校直",
+          "修復",
+          "耗材可重置範圍內重置",
+          "恢復READY"
+        ]
+      },
       "selectionRule": "有限實體箭矢；最終選箭與射擊權屬WIFI，不自行判定敵我或開火",
       "stage4Restock": {
         "cost": 1600,
@@ -56,9 +91,10 @@
         "before": 52,
         "status": "CONFIRMED"
       },
-      "currentMissing": 0,
+      "currentMissing": 1,
       "historicalLost": {
-        "D017標準箭": 3
+        "D017標準箭": 3,
+        "CUSTOM A束縛鎖箭": 1
       },
       "d020Consumption": {
         "total": 3,
@@ -75,9 +111,9 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "163 READY／0 REPAIR",
+      "inventoryStatus": "162 READY／0 REPAIR／束縛鎖箭1支歷史永久消耗",
       "repairBreakdown": {},
-      "accountingPresent": 163,
+      "accountingPresent": 162,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
@@ -142,7 +178,28 @@
         "specialArrowSubtotal": 880,
         "standardArrowSubtotal": 100
       },
-      "damagedPendingRepair": 0
+      "damagedPendingRepair": 0,
+      "customAGrayCityConsumption": {
+        "rule": "其他未逐箭記錄的射擊不自行追加損耗",
+        "before": 163,
+        "status": "CONFIRMED / CONSERVATIVE AUDIT",
+        "repaired": {
+          "閃光干擾箭": 3
+        },
+        "readyAfter": 159,
+        "repairStatus": "COMPLETE",
+        "permanentLoss": {
+          "束縛鎖箭": 1
+        },
+        "physicalAfter": 162,
+        "repairPending": {
+          "閃光干擾箭": 3
+        },
+        "readyAfterRepair": 162,
+        "directlyRecovered": {
+          "電擊干擾箭Ⅰ": 1
+        }
+      }
     }
   }
 }

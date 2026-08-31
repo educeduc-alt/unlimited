@@ -2,33 +2,90 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 96,
-  "updated_at": "2026-08-31T04:30:09.205866+00:00",
+  "version": 99,
+  "updated_at": "2026-08-31T12:19:46.740342+00:00",
   "section": "foodLogistics",
   "state": {
     "foodLogistics": {
-      "status": "POST-D023｜COOKING STOCK DEPLETED / EMERGENCY STOCK PENDING INVENTORY",
+      "status": "POST-CUSTOM-A｜EXPEDITION STOCK REPLENISHED / OPERATIONAL",
       "emergency": {
-        "storage": "S-Food／2.2m³",
-        "waterExtension": "折疊式野外淨水器可延伸飲水能力，但不保證存在安全水源",
-        "waterPersonDays": "PENDING INVENTORY CHECK",
-        "rationsPersonDays": "PENDING INVENTORY CHECK",
-        "teamIndependentDurationDays": 10
+        "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
+        "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
+        "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
+        "waterPersonDays": 100,
+        "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
+        "rationsPersonDays": 100,
+        "teamIndependentDurationDays": 25
+      },
+      "livingStock": {
+        "name": "主神空間生活用四人10天份食材",
+        "rule": "不屬遠征60人日；本次未重複購買；不得直接當作完整40人日",
+        "status": "SEPARATE STOCK / PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "cookingGroup": {
-        "rule": "60人日不代表全部為生鮮",
-        "storage": "M-Food／4.5m³",
-        "personDays": 0,
+        "rule": "四人15天可烹飪遠征食材；不等於全部為生鮮",
+        "storage": "M-Food／共享次元行囊Ⅲ遠征料理分區",
+        "personDays": 60,
         "composition": [
           "耐放主食",
           "長期保存配菜",
           "長期保存蛋白質",
           "有限易腐食材"
         ],
-        "teamDurationDays": 0
+        "teamDurationDays": 15
       },
       "accountingMode": "人日；實際使用後才扣除",
-      "consumptionRule": "乾糧、飲水與料理食材不在出發前預扣；僅於實際使用時扣除。",
+      "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
+      "postCustomARestock": {
+        "cost": 1480,
+        "payer": "公共資金",
+        "result": {
+          "teamWaterDays": 25,
+          "waterPurifier": "OPERATIONAL",
+          "teamRationDays": 25,
+          "teamCookingDays": 15,
+          "waterPersonDays": 100,
+          "cookingPersonDays": 60,
+          "rationsPersonDays": 100
+        },
+        "status": "COMPLETE / ALREADY CHARGED IN V98",
+        "purchases": [
+          {
+            "cost": 576,
+            "item": "遠征緊急乾糧",
+            "unitPrice": 8,
+            "afterPersonDays": 100,
+            "beforePersonDays": 28,
+            "quantityPersonDays": 72
+          },
+          {
+            "cost": 304,
+            "item": "遠征緊急飲水",
+            "unitPrice": 4,
+            "afterPersonDays": 100,
+            "beforePersonDays": 24,
+            "quantityPersonDays": 76
+          },
+          {
+            "cost": 600,
+            "item": "四人15日遠征料理食材組",
+            "teamSize": 4,
+            "afterPersonDays": 60,
+            "beforePersonDays": 0,
+            "teamDurationDays": 15,
+            "quantityPersonDays": 60
+          }
+        ],
+        "sourceAudit": {
+          "waterPersonDaysBefore": 24,
+          "cookingPersonDaysBefore": 0,
+          "rationsPersonDaysBefore": 28
+        },
+        "publicFundsAfter": 1520,
+        "publicFundsBefore": 3000,
+        "accountingTreatment": "DETAILS_ONLY / NO SECOND DEDUCTION",
+        "separateLivingStockRule": "主神空間生活用四人10天份食材為獨立帳；不計入遠征庫存，不因本次補貨重複購買"
+      },
       "supersededCounting": {
         "status": "REPLACED AS CURRENT EXPEDITION BASELINE",
         "oldCooking": "耐放主食20人日／生鮮12人日",

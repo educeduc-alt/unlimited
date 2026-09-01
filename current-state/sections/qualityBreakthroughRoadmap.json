@@ -1,0 +1,73 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 100,
+  "updated_at": "2026-09-01T13:51:07.330628+00:00",
+  "section": "qualityBreakthroughRoadmap",
+  "state": {
+    "qualityBreakthroughRoadmap": [
+      {
+        "cost": 6500,
+        "name": "念體異相Ⅰ｜巨靈架",
+        "branch": "B×1",
+        "member": "洛",
+        "status": "NOT ACQUIRED / POINTS READY / BRANCH MISSING",
+        "nickname": "洛的須佐能乎",
+        "priority": 1,
+        "direction": "大型外顯念體／超大型近戰與承力"
+      },
+      {
+        "cost": 6000,
+        "name": "折返門Ⅰ",
+        "branch": "B×1",
+        "member": "周映白",
+        "status": "NOT ACQUIRED",
+        "priority": 2,
+        "direction": "多人空間通道"
+      },
+      {
+        "cost": 5600,
+        "name": "空間彈道Ⅰ｜折線射擊",
+        "branch": "B×1",
+        "member": "程牧",
+        "status": "NOT ACQUIRED",
+        "priority": 3,
+        "direction": "一次非物理轉折／不追蹤／不必中"
+      },
+      {
+        "cost": 4800,
+        "name": "空間拒止域Ⅰ",
+        "branch": "C×2",
+        "member": "周映白",
+        "status": "NOT ACQUIRED",
+        "priority": 4,
+        "direction": "區域空間固定"
+      },
+      {
+        "cost": 7000,
+        "name": "箭矢標記｜遙距再現Ⅰ",
+        "branch": "B×1",
+        "member": "程牧",
+        "status": "NOT ACQUIRED",
+        "priority": 5,
+        "direction": "遠端火力節點"
+      },
+      {
+        "cost": 5200,
+        "name": "生命爐心Ⅰ",
+        "risks": [
+          "低體溫",
+          "低血糖",
+          "器官負荷",
+          "失去意識",
+          "死亡"
+        ],
+        "branch": "C×2",
+        "member": "洛",
+        "status": "NOT ACQUIRED / LOW PRIORITY / HIGH RISK",
+        "priority": 6
+      }
+    ]
+  }
+}

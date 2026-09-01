@@ -1,0 +1,266 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 100,
+  "updated_at": "2026-09-01T13:51:07.330628+00:00",
+  "section": "postCustomAQualityBreakthrough01",
+  "state": {
+    "postCustomAQualityBreakthrough01": {
+      "node": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
+      "tests": {
+        "洛": {
+          "circle": {
+            "6m": "約100秒上下",
+            "8m": "約55～57秒",
+            "10m": "仍非穩定實用基準",
+            "formalDistanceUpdated": false
+          },
+          "enhancedAura": {
+            "status": "STABLE IMPROVEMENT",
+            "newTrials": [
+              118,
+              116,
+              119
+            ],
+            "oldTrials": [
+              112,
+              110,
+              113
+            ],
+            "interpretation": "長期實戰、念體一元化Ⅰ與循環效率整合後的持續運作改善",
+            "newMeanSeconds": 117.67,
+            "oldMeanSeconds": 111.67,
+            "increasePercent": 5.4,
+            "totalAuraIncrease": "NOT CONFIRMED"
+          },
+          "maximum500PercentOutput": "NOT TESTED"
+        },
+        "伊恩": {
+          "dualMainCore": "12輪轉構穩定；約第9輪後精神疲勞明顯",
+          "tripleOverlap": {
+            "status": "SHORT-DURATION FIELD-CAPABLE",
+            "stopReason": "第二輪後構築延遲明顯，伊恩主動停止",
+            "trialsSeconds": [
+              11,
+              13
+            ],
+            "threeMainCoresUnlocked": false
+          },
+          "dualCoreLowComplexityAutonomousNodes": "STABLE"
+        },
+        "程牧": {
+          "status": "PRACTICAL OPTION LIBRARY CONFIRMED",
+          "options": [
+            "標準→鈍擊｜確認反應後打斷姿勢",
+            "信標→重型破障｜標記弱點後破壞",
+            "煙幕→信標｜遮蔽後保留己方追蹤",
+            "閃光→電擊｜干擾感知後控制",
+            "束縛鎖→鈍擊／電擊｜限制後非致命壓制",
+            "冰凍→重型破障｜改變局部活動／材料狀態後破壞",
+            "煙幕／閃光→爆裂｜僅無平民與友軍時",
+            "信標→冰凍／束縛｜高速目標追蹤後控制"
+          ],
+          "principle": "建立箭種選項庫，不建立固定Combo；避免模仿型敵人學習固定戰術",
+          "liveFireRule": "不浪費不可回收箭種進行無意義實射"
+        },
+        "周映白": {
+          "status": "FIELD IMPROVEMENT CONFIRMED",
+          "purpose": "確認可維持救援能力的連續閃返總距離，不追求單次最遠",
+          "results": [
+            {
+              "load": "前5次低～中；第6次後累積；第8次後明顯喘但仍保有救援能力",
+              "totalM": 56,
+              "repetitions": 8,
+              "distancePerUseM": 7
+            },
+            {
+              "load": "第4次後負荷明顯",
+              "totalM": 40,
+              "repetitions": 4,
+              "distancePerUseM": 10
+            },
+            {
+              "load": "單次明顯高負荷",
+              "totalM": 15,
+              "repetitions": 1,
+              "distancePerUseM": 15
+            }
+          ],
+          "maximumSingleDistanceUpdated": false
+        }
+      },
+      "status": "CONFIRMED / FORMALLY ARCHIVED",
+      "economy": {
+        "after": {
+          "B": 0,
+          "C": 0,
+          "洛": 6579,
+          "伊恩": 0,
+          "程牧": 5882,
+          "周映白": 8413,
+          "grandTotal": 20874,
+          "publicFunds": 0,
+          "privateTotal": 20874
+        },
+        "before": {
+          "B": 1,
+          "C": 2,
+          "洛": 8096,
+          "伊恩": 7750,
+          "程牧": 7398,
+          "周映白": 9930,
+          "publicFunds": 0,
+          "privateTotal": 33174
+        },
+        "payment": {
+          "洛": 1517,
+          "伊恩": 7750,
+          "程牧": 1516,
+          "周映白": 1517
+        },
+        "purchaseTotal": 12300,
+        "futureDecision": "先存點，不進行新的大型消費"
+      },
+      "location": "AI主神空間",
+      "nextMission": "UNSELECTED",
+      "phaseDecision": "停止只追求更快／更穩／更省／更順；第七階段核心改為取得原本不存在的超能力現象",
+      "ianBreakthrough": {
+        "status": "ACQUIRED / INITIAL TEST COMPLETE",
+        "totalCost": 12300,
+        "branchCost": {
+          "B": 1,
+          "C": 2
+        },
+        "術式領域Ⅰ": {
+          "cost": 6800,
+          "tests": {
+            "dualPoint": "STABLE",
+            "singlePoint": "PASS",
+            "triplePoint": "可行／精神負荷明顯上升"
+          },
+          "limits": [
+            "不等於無限施法",
+            "不取消精神與術式資源消耗",
+            "未測領域極限"
+          ],
+          "status": "ACQUIRED",
+          "radiusM": 10,
+          "branchCost": {
+            "B": 1
+          },
+          "definition": "以伊恩為核心展開約10m半徑領域；領域空間成為大型術式底板，可在指定位置構築既有防禦／拘束／隔離／導流／基礎攻擊術式"
+        },
+        "combinedOperation": {
+          "flow": "領域快速構築→固定為術式具現體→伊恩轉移→建立下一節點",
+          "status": "CONFIRMED",
+          "tacticalRole": "戰場術式節點化／區域控制網",
+          "confirmedNodes": [
+            "防禦",
+            "拘束",
+            "結構支撐"
+          ]
+        },
+        "術式具現體Ⅰ": {
+          "cost": 5500,
+          "tests": {
+            "boundaryAutoBind": "PASS",
+            "defense30Seconds": "PASS",
+            "structuralSupport": "PASS"
+          },
+          "limits": [
+            "無人格",
+            "不自行判敵",
+            "不自行創造術式",
+            "僅執行預先設定條件",
+            "建立仍消耗伊恩自身精神與術式資源",
+            "未測最大數量"
+          ],
+          "status": "ACQUIRED",
+          "branchCost": {
+            "C": 2
+          },
+          "definition": "將完成術式固定為獨立術式構造體；伊恩不需留在原地持續控制"
+        }
+      },
+      "futureCandidates": [
+        {
+          "cost": 6500,
+          "name": "念體異相Ⅰ｜巨靈架",
+          "branch": "B×1",
+          "member": "洛",
+          "status": "NOT ACQUIRED / POINTS READY / BRANCH MISSING",
+          "nickname": "洛的須佐能乎",
+          "priority": 1,
+          "direction": "大型外顯念體／超大型近戰與承力"
+        },
+        {
+          "cost": 6000,
+          "name": "折返門Ⅰ",
+          "branch": "B×1",
+          "member": "周映白",
+          "status": "NOT ACQUIRED",
+          "priority": 2,
+          "direction": "多人空間通道"
+        },
+        {
+          "cost": 5600,
+          "name": "空間彈道Ⅰ｜折線射擊",
+          "branch": "B×1",
+          "member": "程牧",
+          "status": "NOT ACQUIRED",
+          "priority": 3,
+          "direction": "一次非物理轉折／不追蹤／不必中"
+        },
+        {
+          "cost": 4800,
+          "name": "空間拒止域Ⅰ",
+          "branch": "C×2",
+          "member": "周映白",
+          "status": "NOT ACQUIRED",
+          "priority": 4,
+          "direction": "區域空間固定"
+        },
+        {
+          "cost": 7000,
+          "name": "箭矢標記｜遙距再現Ⅰ",
+          "branch": "B×1",
+          "member": "程牧",
+          "status": "NOT ACQUIRED",
+          "priority": 5,
+          "direction": "遠端火力節點"
+        },
+        {
+          "cost": 5200,
+          "name": "生命爐心Ⅰ",
+          "risks": [
+            "低體溫",
+            "低血糖",
+            "器官負荷",
+            "失去意識",
+            "死亡"
+          ],
+          "branch": "C×2",
+          "member": "洛",
+          "status": "NOT ACQUIRED / LOW PRIORITY / HIGH RISK",
+          "priority": 6
+        }
+      ],
+      "endgameForeshadowing": {
+        "rule": "不為尋找拼圖犧牲正常任務、生存與撤離判斷",
+        "source": "UNKNOWN",
+        "concepts": [
+          "終局拼圖",
+          "4 OUT"
+        ],
+        "teamRule": "不接受一人犧牲換三人離開；不接受洛單獨離開",
+        "queryResult": "無可公開查詢條目",
+        "endCondition": "4 OUT",
+        "currentPieces": 0,
+        "trustworthiness": "UNKNOWN",
+        "providedByMainGod": "UNKNOWN",
+        "sharedMemoryCountsAsPiece": false
+      }
+    }
+  }
+}

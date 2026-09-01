@@ -1,0 +1,25 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 100,
+  "updated_at": "2026-09-01T13:51:07.330628+00:00",
+  "section": "endgameForeshadowing",
+  "state": {
+    "endgameForeshadowing": {
+      "rule": "不為尋找拼圖犧牲正常任務、生存與撤離判斷",
+      "source": "UNKNOWN",
+      "concepts": [
+        "終局拼圖",
+        "4 OUT"
+      ],
+      "teamRule": "不接受一人犧牲換三人離開；不接受洛單獨離開",
+      "queryResult": "無可公開查詢條目",
+      "endCondition": "4 OUT",
+      "currentPieces": 0,
+      "trustworthiness": "UNKNOWN",
+      "providedByMainGod": "UNKNOWN",
+      "sharedMemoryCountsAsPiece": false
+    }
+  }
+}

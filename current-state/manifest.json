@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 100,
+  "version": 101,
   "schema_version": "v44",
-  "updated_at": "2026-09-01T13:51:07.330628+00:00",
+  "updated_at": "2026-09-01T14:44:54.394514+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v100.json",
+  "versioned": "current-state/v101.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",

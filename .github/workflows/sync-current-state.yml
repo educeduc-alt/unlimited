@@ -33,9 +33,11 @@ jobs:
           VERSION="$(jq -r '.version' current-state.json.tmp)"
           mkdir -p current-state/sections
 
-          cp current-state.json.tmp current-state.json
-          cp current-state.json.tmp current-state/latest.json
-          cp current-state.json.tmp "current-state/v${VERSION}.json"
+          # Normalize the compact API response into readable nested JSON.
+          # This changes formatting only; values and object structure remain unchanged.
+          jq '.' current-state.json.tmp > current-state.json
+          jq '.' current-state.json.tmp > current-state/latest.json
+          jq '.' current-state.json.tmp > "current-state/v${VERSION}.json"
 
           while IFS= read -r KEY; do
             SAFE_KEY="$(printf '%s' "$KEY" | jq -sRr @uri)"

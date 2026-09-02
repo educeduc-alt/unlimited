@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 101,
-  "updated_at": "2026-09-01T14:44:54.394514+00:00",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
   "section": "bestiary",
   "state": {
     "bestiary": [

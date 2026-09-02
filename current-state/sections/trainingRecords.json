@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 101,
-  "updated_at": "2026-09-01T14:44:54.394514+00:00",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
   "section": "trainingRecords",
   "state": {
     "trainingRecords": {
@@ -75,7 +75,35 @@
         "durationDays": 8,
         "qualification": "小型星艦基礎操作資格｜CONFIRMED"
       },
-      "personalTrainingResult": "既有能力低強度維持／部分日取消；不得新增由晚間特訓產生的新技能、技能等級、熟練突破或能力數值成長"
+      "personalTrainingResult": "既有能力低強度維持／部分日取消；不得新增由晚間特訓產生的新技能、技能等級、熟練突破或能力數值成長",
+      "postD025SusaluoRefamiliarization01": {
+        "name": "POST-D025｜須佐洛重新適應01",
+        "status": "INITIAL RE-FAMILIARIZATION SESSION COMPLETE",
+        "movement": {
+          "jog": "PASS / slight lag reduced with repetition",
+          "run": "PASS / turning and braking still rough",
+          "jump": "PASS / landing synchronization rough",
+          "walk": "PASS",
+          "contact": "LOW-OUTPUT PASS / no structural failure"
+        },
+        "observations": [
+          "erased-timeline procedural memory helps sequence selection but does not restore current-body familiarity",
+          "giant body acts as an external synchronized Nen body, not an independent fighter",
+          "most obvious bottlenecks are shoulder/hip transfer, braking, landing, and external-limb flow continuity",
+          "same-session repetition improves control, but does not count as permanent growth without recovery and later standardized retest",
+          "no increase to total Nen, size ceiling, duration ceiling, strength ceiling, or repeat-fire capacity is confirmed"
+        ],
+        "nenIntegration": {
+          "pulse": "LOW-OUTPUT SYNC PASS / higher inertia and aura demand",
+          "circle": "USABLE BUT NOT FORMALLY BENCHMARKED WITH GIANT FORM",
+          "basicTen": "PASS / giant-form maintenance adds continuous aura and attention cost",
+          "maxOutput": "NOT TESTED",
+          "dynamicFlow": "PARTIAL / shoulder-hip-external limb transfer still has noticeable lag",
+          "enhancedTen": "NOT BENCHMARKED WITH GIANT FORM / no total-aura growth confirmed",
+          "pulseSpiral": "NOT TESTED",
+          "spiralRightPunch": "LOW-OUTPUT FORMATION POSSIBLE / external-arm flow still rough"
+        }
+      }
     }
   }
 }

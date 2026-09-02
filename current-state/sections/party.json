@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 101,
-  "updated_at": "2026-09-01T14:44:54.394514+00:00",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
   "section": "party",
   "state": {
     "party": [
@@ -15,7 +15,7 @@
         "title": "隊長",
         "gender": "男",
         "mental": "穩定",
-        "points": 6579,
+        "points": 2179,
         "nenType": "強化系",
         "stamina": "POST-CUSTOM-A｜恢復後念氣重測完成／500%最大輸出未測",
         "heightCm": 175,
@@ -23,7 +23,7 @@
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 6579,
+        "rewardPoints": 2179,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"

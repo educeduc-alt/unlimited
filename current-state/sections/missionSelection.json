@@ -2,15 +2,72 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 101,
-  "updated_at": "2026-09-01T14:44:54.394514+00:00",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
   "section": "missionSelection",
   "state": {
     "missionSelection": {
-      "reason": "補足長距離探索、長期後勤、營地建立、地圖驗證與長期撤退規劃經驗。",
-      "status": "SELECTED / PRE-DEPLOYMENT READY",
-      "selected": "A-《沒有太陽的第三遠征隊》",
-      "missionId": "D023"
+      "status": "COMPLETE / RETURNED",
+      "saveNode": "POST-CUSTOM-A / ENDGAME-TRACE-01 / PRE-NEXT-MISSION",
+      "selected": "B+《第九審判庭》",
+      "missionId": "CAND-025-A",
+      "candidates": [
+        {
+          "id": "CAND-025-A",
+          "name": "第九審判庭",
+          "slot": 1,
+          "type": "規則推理／證詞矛盾／有限戰鬥／選擇責任",
+          "world": "封閉神權法庭／異常法理世界",
+          "mainHook": "四人被列為「不屬於世界記錄的人」，必須在九輪審判結束前證明自身存在的合法性；錯誤證詞與被竄改的證據會具現成實體威脅。",
+          "difficulty": "B+",
+          "coreMechanics": [
+            "證詞交叉驗證",
+            "規則型審判",
+            "證據具現",
+            "有限資源戰鬥",
+            "是否救助被判有罪者的自主決策"
+          ],
+          "endgamePotential": "POSSIBLE / NOT GUARANTEED",
+          "duplicateAssessment": "LOW OVERLAP：雖有規則推理，但不是交通規則、城市撤離或模仿污染；核心是法理、證詞與存在合法性。"
+        },
+        {
+          "id": "CAND-025-B",
+          "name": "赤冠獸潮",
+          "slot": 2,
+          "type": "高密度戰鬥／大型生物／陣地轉移／生態判讀",
+          "world": "巨型高原生態圈／季節性獸潮",
+          "mainHook": "數十萬頭大型生物正在跨越高原，但真正危險不是獸潮本身，而是迫使整個生態圈偏離遷徙路線的未知因素。隊伍必須在高戰鬥密度下決定哪些東西該打、哪些不能打。",
+          "difficulty": "A-",
+          "coreMechanics": [
+            "連續高密度戰鬥",
+            "大型目標對抗",
+            "高原立體地形",
+            "遷徙路線判讀",
+            "敵意與生態行為分離"
+          ],
+          "endgamePotential": "POSSIBLE / NOT GUARANTEED",
+          "duplicateAssessment": "MEDIUM-LOW OVERLAP：與D011都含大型生物，但本場核心是大規模獸潮、陣地戰與高密度持續戰，不是單一巨獸真相／幼體救援。"
+        },
+        {
+          "id": "CAND-025-C",
+          "name": "天穹鑄爐",
+          "slot": 3,
+          "type": "垂直戰場／機械巨構／能源失控／破壞與保全取捨",
+          "world": "浮空工業神殿／多層重力鍛造帶",
+          "mainHook": "一座懸浮於雲層上的巨型鑄爐正在失去高度。四人必須穿過不同重力方向的鍛造層，找出究竟是機械故障、能源生命失控，還是有人故意讓整座鑄爐墜落。",
+          "difficulty": "A-",
+          "coreMechanics": [
+            "多方向重力戰鬥",
+            "巨型機械結構",
+            "能源核心判讀",
+            "垂直突破",
+            "有限時間內決定修復／切斷／棄置區段"
+          ],
+          "endgamePotential": "POSSIBLE / NOT GUARANTEED",
+          "duplicateAssessment": "LOW OVERLAP：不同於D021殖民地撤離，本場沒有大規模居民撤離主線，核心是垂直重力戰場與巨構控制。"
+        }
+      ],
+      "duplicateAvoidanceRule": "候選生成時比對D001-D023與CUSTOM-A-01；避免直接重複列車、都市大撤離、孤兒院、殖民地、海港／列島、長距離空間測繪、模仿型情報污染等已高頻主題。"
     }
   }
 }

@@ -1,0 +1,151 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "section": "plannedAbilities",
+  "state": {
+    "plannedAbilities": {
+      "洛": {
+        "巨靈體Ⅰ": {
+          "branch": {
+            "B": 1,
+            "C": 0
+          },
+          "points": 6200,
+          "status": "ACQUIRED / RE-FAMILIARIZATION PROGRESSING",
+          "priority": 1
+        },
+        "念氣核心Ⅰ": {
+          "type": "S級副本導向／超額透支核心",
+          "branch": {
+            "B": 2,
+            "C": 0
+          },
+          "limits": [
+            "不得在正常念氣仍充足時視為無代價增幅",
+            "會快速累積全身疲勞與局部負荷",
+            "可能造成失去行動能力、深度昏睡或更長恢復期",
+            "不能取消肌肉、關節、心肺、神經與生命機能承載",
+            "不保證啟動後仍能維持精密動態流或高輸出招式",
+            "S級目標定位不代表可單靠此能力通關S級副本"
+          ],
+          "points": 7600,
+          "status": "PRICED / NOT PURCHASED",
+          "priority": 4,
+          "definition": "當正常念氣已低至無法繼續支付時，可主動啟動核心，把身體生命機能、肌肉、關節、心肺與神經承載轉成短時間額外念輸出。不是第二條免費氣池；啟動即進入高風險超額透支。"
+        }
+      },
+      "rule": "本表為主神系統正式候選報價與兌換優先順序；未實際扣點／扣支線前不得視為已取得。若後續副本取得同系前置、實戰驗證或可折抵資產，主神可依既有折抵規則重新報價，但舊投入不返還。",
+      "status": "SYSTEM-PRICED / NOT PURCHASED",
+      "程牧": {
+        "曲折箭Ⅰ": {
+          "branch": {
+            "B": 0,
+            "C": 2
+          },
+          "points": 4200,
+          "status": "PRICED / NOT PURCHASED",
+          "priority": 3
+        },
+        "遠距離時空箭Ⅰ": {
+          "branch": {
+            "B": 1,
+            "C": 1
+          },
+          "points": 6800,
+          "status": "PRICED / NOT PURCHASED",
+          "priority": 5
+        }
+      },
+      "周映白": {
+        "空間門Ⅰ": {
+          "branch": {
+            "B": 1,
+            "C": 0
+          },
+          "points": 5600,
+          "status": "PRICED / NOT PURCHASED",
+          "priority": 2
+        }
+      },
+      "priorityOrder": [
+        {
+          "name": "巨靈體Ⅰ",
+          "owner": "洛",
+          "branch": {
+            "B": 1,
+            "C": 0
+          },
+          "points": 6200,
+          "reason": "先建立隊伍第一個大型正面質變戰力；可直接放大洛既有念體一元化、近戰、承重與大型目標對抗。",
+          "priority": 1
+        },
+        {
+          "name": "空間門Ⅰ",
+          "owner": "周映白",
+          "branch": {
+            "B": 1,
+            "C": 0
+          },
+          "points": 5600,
+          "reason": "第二順位補上全隊群體撤離／傷員後送／多人機動與空間定位，能顯著提高高階副本全隊生存率。",
+          "priority": 2
+        },
+        {
+          "name": "曲折箭Ⅰ",
+          "owner": "程牧",
+          "branch": {
+            "B": 0,
+            "C": 2
+          },
+          "points": 4200,
+          "reason": "第三順位先補WIFI最直接、最常用的非直線射擊能力；成本與質變幅度低於時空箭，適合作為下一階段彈道核心。",
+          "priority": 3
+        },
+        {
+          "name": "念氣核心Ⅰ",
+          "owner": "洛",
+          "branch": {
+            "B": 2,
+            "C": 0
+          },
+          "points": 7600,
+          "reason": "S級副本導向的極限續戰／保命核心，價值高但代價與風險也最高；正常資源仍應優先用在不必透支身體的質變能力。",
+          "priority": 4
+        },
+        {
+          "name": "遠距離時空箭Ⅰ",
+          "owner": "程牧",
+          "branch": {
+            "B": 1,
+            "C": 1
+          },
+          "points": 6800,
+          "reason": "在曲折箭與彈道領域成熟後再投入高階空間射擊；主要服務極遠距、跨區支援與高價值狙擊。",
+          "priority": 5
+        }
+      ],
+      "currentAffordability": {
+        "assessment": [
+          "洛目前6579點：點數足夠巨靈體Ⅰ6200，但B級支線0，故不可兌換。",
+          "香蕉目前8413點：點數足夠空間門Ⅰ5600，但B級支線0，故不可兌換。",
+          "WIFI目前5882點：點數足夠曲折箭Ⅰ4200，但C級支線0，故不可兌換。",
+          "洛目前6579點：念氣核心Ⅰ需7600＋B×2，點數與支線皆不足。",
+          "WIFI目前5882點：遠距離時空箭Ⅰ需6800＋B×1＋C×1，點數與支線皆不足。"
+        ],
+        "branchStories": {
+          "B": 0,
+          "C": 0
+        },
+        "privatePoints": {
+          "洛": 6579,
+          "伊恩": 0,
+          "程牧": 5882,
+          "周映白": 8413
+        }
+      }
+    }
+  }
+}

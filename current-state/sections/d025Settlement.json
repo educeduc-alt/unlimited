@@ -1,0 +1,73 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "section": "d025Settlement",
+  "state": {
+    "d025Settlement": {
+      "id": "SET-D025",
+      "name": "D025《第九審判庭》正式結算",
+      "rating": "S",
+      "status": "COMPLETE",
+      "rewards": {
+        "洛": 4200,
+        "伊恩": 4350,
+        "程牧": 4250,
+        "周映白": 4200,
+        "publicFunds": 1500,
+        "branchStories": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "difficulty": "B+",
+      "growthRule": "本副本不直接提升念氣總量、閃返步距離、弓磅、術式上限或任何硬體性能；九審所得屬終局權限／認知層成果，不是戰鬥BUFF。",
+      "pointsAfter": {
+        "洛": 10779,
+        "伊恩": 4350,
+        "程牧": 10132,
+        "周映白": 12613,
+        "grandTotal": 39374,
+        "publicFunds": 1500,
+        "privateTotal": 37874
+      },
+      "partyOutcome": "4/4生還／身體重傷0／永久裝備損失0／4 IN 4 OUT",
+      "pointsBefore": {
+        "洛": 6579,
+        "伊恩": 0,
+        "程牧": 5882,
+        "周映白": 8413,
+        "publicFunds": 0
+      },
+      "endgameResult": {
+        "type": "AUTHORITY / IDENTITY",
+        "limits": "不等於已解鎖離開、不等於免疫主神重置、不等於可刪改主神資料或控制副本。",
+        "status": "COLLECTED / VERIFIED",
+        "effects": [
+          "SELF-DEFINITION AUTHORITY：COMPLETE",
+          "EXTERNAL OWNERSHIP CLAIM：REJECTED",
+          "YOU ARE NOT PROPERTY OF THE SYSTEM"
+        ],
+        "fragment": "終局碎片01｜自我定義權"
+      },
+      "mainObjective": "在九輪審判結束前證明四人存在之合法性與自我定義權｜COMPLETE",
+      "branchStoriesAfter": {
+        "B": 1,
+        "C": 2
+      },
+      "branchStoriesBefore": {
+        "B": 0,
+        "C": 0
+      },
+      "resourceConsumption": {
+        "food": 0,
+        "water": 0,
+        "arrows": 0,
+        "medical": 0,
+        "vehicleEnergy": 0
+      }
+    }
+  }
+}

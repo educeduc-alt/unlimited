@@ -2,94 +2,18 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 101,
-  "updated_at": "2026-09-01T14:44:54.394514+00:00",
+  "version": 115,
+  "updated_at": "2026-09-02T11:41:25.952215+00:00",
   "section": "restPeriod",
   "state": {
     "restPeriod": {
-      "title": "POST-D016休整期",
+      "title": "POST-CUSTOM-A休整與再校準",
       "status": "COMPLETE",
-      "postD017": {
-        "day5": {
-          "a01": "尚未開放",
-          "basicTen": "允許／穩定",
-          "bracelet": "ACTIVE",
-          "aboveBasicTen": "禁止",
-          "dailyActivity": "正常"
-        },
-        "day6": {
-          "basicTen": "僅使用基本纏",
-          "bracelet": "INTACT",
-          "violation": 0,
-          "higherNenUses": 0
-        },
-        "day7": {
-          "basicTen": "僅使用基本纏",
-          "bracelet": "INTACT",
-          "violation": 0,
-          "higherNenUses": 0
-        },
-        "rule": "主神空間內日常吃喝不視為副本攜行補給消耗",
-        "status": "IN_PROGRESS／RESTING",
-        "mealSource": "AI主神空間原本提供的餐點",
-        "mealPointCost": 0,
-        "knowledgeBoundary": "洛完全不知道高於基本纏會令手環斷裂；其遵守休養主要源於想到伊恩並不願讓他擔心",
-        "inventoryUnchanged": {
-          "飲水": 20,
-          "壓縮口糧": 28
-        },
-        "plannedRecoveryDays": 10,
-        "automaticResourceConsumption": 0
-      },
-      "dailyEvents": [
-        {
-          "id": "POST-D016-REST-DAY4",
-          "day": 4,
-          "type": "DAILY_LIFE／RECOVERY",
-          "title": "主神廣場安靜休息",
-          "confirmed": [
-            "洛沒有訓練、兌換、消耗或重大對話，只在主神廣場安靜發呆",
-            "D016的高壓記憶已不再持續自動重播",
-            "洛首次明確認為今天不需要立刻變強，並能自在休息"
-          ],
-          "stateChanges": "無能力、點數、資源或裝備變化"
-        },
-        {
-          "id": "POST-D016-REST-DAY5",
-          "day": 5,
-          "type": "TRAINING／RELATIONSHIP DAILY LIFE",
-          "title": "氣量擴張訓練Ⅰ首次適應",
-          "confirmed": [
-            "洛取得念能力課程「氣量擴張訓練Ⅰ」",
-            "課程不直接增加氣量，而是提高自然成長訓練的品質、區間控制與可重複性",
-            "伊恩陪同監測並負責要求洛停止追加訓練",
-            "首次低強度課表完成：基本纏標準輸出、增大纏20秒、40秒、55秒及完整回落",
-            "結束時全身疲勞F2、局部負荷低、念壓穩定、刺激有效",
-            "洛理解訓練目標是維持高品質有效刺激與完整恢復，而非每次耗盡",
-            "沒有突破，沒有當場增加總氣量或最大輸出"
-          ],
-          "relationshipEffect": "洛承認自己容易過度訓練，主動請伊恩協助限制；伊恩同意陪同第一個正式週期。"
-        },
-        {
-          "id": "POST-D016-REST-END",
-          "day": 5,
-          "type": "PARTY STATE",
-          "title": "休整結束與下一副本選擇準備",
-          "confirmed": [
-            "四人狀態良好，額外傷勢0",
-            "裝備沒有新增損耗",
-            "WIFI最後一支待修標準箭已修復，42/42全部可用",
-            "下一副本尚未選擇",
-            "三個世界彼此獨立的隨機候選副本正在生成；未提供候選內容，因此不建立副本資料"
-          ]
-        }
-      ],
-      "nextMission": "UNSELECTED／三個候選副本生成中",
-      "freeRestDays": 5,
-      "teamCondition": "良好／整裝待發",
-      "additionalInjuries": 0,
-      "maintenanceTrainingDays": 2,
-      "automaticResourceConsumption": 0
+      "location": "AI主神空間",
+      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
+      "nextMission": "UNSELECTED",
+      "resourceRule": "不回扣或重算已正式核帳之歷史副本資源",
+      "teamCondition": "四人生命正常／精神穩定；依各自最新測試結果休整完成或進入測試後休整"
     }
   }
 }

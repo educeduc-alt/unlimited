@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "relationship",
   "state": {
     "relationship": {
@@ -57,16 +57,21 @@
         "POST-D022資源分配事件：洛承認自己非常想要念體一元化Ⅰ，也承諾日後明確說出自身需求，由四人共同評估。",
         "洛也是四人隊伍的一員；隊長不等於永遠最後取得資源、獨自承擔風險或自行判定自己不重要。",
         "兩日休整中的私人親密只保存雙方同意、安全、保護措施與事後照護摘要；不提供能力或戰鬥BUFF。",
-        "私人時間應關閉非必要共同戰術語音；共享系統不包含監視器或房內影像。"
+        "私人時間應關閉非必要共同戰術語音；共享系統不包含監視器或房內影像。",
+        "POST-D025：洛正式再次求婚，伊恩在清楚理解意義並保有自主判斷下接受；目前ENGAGED／婚約MUTUAL・CONFIRMED／尚未登記結婚。",
+        "雙生錨對戒Ⅰ在求婚前已取得；功能不因婚約增加戰鬥性能。舊術式校準戒指不得倒改為求婚戒。",
+        "POST-D025夜間：伊恩因恐懼再次重置而出現強烈情緒釋放與呼吸過快；經洛陪伴後重新穩定並入睡；不自動判定為精神疾病、詛咒、污染、感染或戒指副作用。"
       ],
-      "status": "STABLE / MUTUAL / AFFECTIONATE / HIGH TRUST / ROMANTIC RELATIONSHIP",
+      "status": "ENGAGED / MUTUAL / CONFIRMED / HIGH TRUST",
       "characters": [
         "洛",
         "伊恩"
       ],
       "connections": [
         {
-          "status": "MUTUAL LOVE / ROMANTIC RELATIONSHIP",
+          "status": "ENGAGED / MUTUAL LOVE / ROMANTIC RELATIONSHIP",
+          "engaged": true,
+          "married": false,
           "romantic": true,
           "exclusive": false,
           "characters": [
@@ -75,10 +80,11 @@
           ],
           "combatBuff": false,
           "combatTrust": "HIGH",
-          "privateStage": "明確戀愛關係",
+          "privateStage": "正式婚約成立／尚未登記結婚",
           "emotionalTrust": "HIGH → DEEPENING",
           "battlefieldRoles": "隊長 × 副指揮",
-          "mutuallyConfirmed": true
+          "mutuallyConfirmed": true,
+          "engagementConfirmed": true
         },
         {
           "status": "高信任戰友／親密伙伴",
@@ -97,7 +103,7 @@
           ]
         }
       ],
-      "currentStage": "雙向確認成人戀愛關係／未婚／POST-D023任務後情緒連結加深",
+      "currentStage": "POST-D025｜正式婚約成立／尚未登記結婚",
       "continuityRules": [
         "不得重置洛與伊恩的私人親密關係",
         "不得重置周映白對洛脆弱面的理解",
@@ -110,7 +116,7 @@
         "洛應直接詢問伊恩當下感受與舒適度，不替她武斷判定身體最終尺寸、變化或可承受程度。",
         "私人親密行為不產生技能、BUFF、契約或能量成長；非必要戰術網於私人休息時應關閉或靜音。"
       ],
-      "currentMilestone": "POST-D023｜伊恩罕見地主動釋放恐懼與深度愛意；洛直接回應。兩人確認彼此害怕失去對方，並更重視任務中的停止、確認與安全返回。"
+      "currentMilestone": "洛重置後再次正式求婚，伊恩在理解意義並保持自主判斷下回答「我願意」；婚約MUTUAL / CONFIRMED。"
     }
   }
 }

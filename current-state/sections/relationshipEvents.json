@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "relationshipEvents",
   "state": {
     "relationshipEvents": [
@@ -164,6 +164,29 @@
           "伊恩"
         ],
         "relationshipStatus": "STABLE / MUTUAL / AFFECTIONATE / HIGH TRUST / UNMARRIED"
+      },
+      {
+        "id": "REL-POST-D025-ENGAGEMENT-AND-NIGHT-SUPPORT",
+        "time": "POST-D025｜第九審判庭結算後休整期",
+        "type": "RELATIONSHIP / ENGAGEMENT / EMOTIONAL SUPPORT",
+        "title": "重置後再次正式求婚與夜間存在確認",
+        "limits": [
+          "不提供技能、BUFF、契約能力或能量成長",
+          "婚姻登記尚未完成",
+          "伊恩人格與自主權不變"
+        ],
+        "status": "CONFIRMED",
+        "summary": [
+          "洛正式求婚，伊恩自主回答我願意。",
+          "伊恩夜間因再次重置的恐懼出現強烈情緒釋放與呼吸過快，經陪伴後恢復穩定。",
+          "洛未做無法保證的承諾，只持續確認當下兩人、戒指、記憶與婚約仍存在。"
+        ],
+        "proposal": "FORMALLY ACCEPTED",
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "relationshipStatus": "ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED"
       }
     ]
   }

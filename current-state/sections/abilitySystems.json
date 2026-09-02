@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "abilitySystems",
   "state": {
     "abilitySystems": {
@@ -208,6 +208,29 @@
           }
         },
         "currentTacticalRole": "戰場術式節點化／區域控制網"
+      },
+      "程牧": {
+        "curveArrow": {
+          "name": "曲折箭Ⅰ",
+          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "definition": "對實體箭矢飛行路徑提供有限非直線控制，並將曲折路徑納入彈道領域可行解。",
+          "constraints": [
+            "不穿牆",
+            "不必中",
+            "非自由任意轉向",
+            "曲率有上限",
+            "高角度與複雜路徑提高誤差及解算負荷",
+            "九十度轉角未確認",
+            "不生成或補充箭矢"
+          ],
+          "calibrationPlan": [
+            "標準箭",
+            "低輸出",
+            "短距離",
+            "小角度",
+            "單箭"
+          ]
+        }
       }
     }
   }

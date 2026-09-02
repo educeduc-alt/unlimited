@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "plannedAbilities",
   "state": {
     "plannedAbilities": {
@@ -46,7 +46,7 @@
             "C": 2
           },
           "points": 4200,
-          "status": "PRICED / NOT PURCHASED",
+          "status": "ACQUIRED / INITIAL CALIBRATION",
           "priority": 3
         },
         "遠距離時空箭Ⅰ": {
@@ -129,21 +129,19 @@
       ],
       "currentAffordability": {
         "assessment": [
-          "洛目前6579點：點數足夠巨靈體Ⅰ6200，但B級支線0，故不可兌換。",
-          "香蕉目前8413點：點數足夠空間門Ⅰ5600，但B級支線0，故不可兌換。",
-          "WIFI目前5882點：點數足夠曲折箭Ⅰ4200，但C級支線0，故不可兌換。",
-          "洛目前6579點：念氣核心Ⅰ需7600＋B×2，點數與支線皆不足。",
-          "WIFI目前5882點：遠距離時空箭Ⅰ需6800＋B×1＋C×1，點數與支線皆不足。"
+          "曲折箭Ⅰ已兌換；程牧5932點，C×0。",
+          "洛念氣核心Ⅰ目前PURCHASE INTENT：LOW / CURRENTLY DECLINED。",
+          "周映白空間門Ⅰ點數足夠，但B×0，仍不可兌換。"
         ],
         "branchStories": {
           "B": 0,
           "C": 0
         },
         "privatePoints": {
-          "洛": 6579,
-          "伊恩": 0,
-          "程牧": 5882,
-          "周映白": 8413
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 5932,
+          "周映白": 12613
         }
       }
     }

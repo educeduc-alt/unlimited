@@ -2,18 +2,18 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 30774,
+      "grandTotal": 26574,
       "publicFunds": 1500,
-      "privateTotal": 29274,
+      "privateTotal": 25074,
       "branchStories": {
         "B": 0,
-        "C": 2
+        "C": 0
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -533,7 +533,13 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 29274,
+      "privatePointsTotal": 25074,
+      "currentPrivatePoints": {
+        "洛": 2179,
+        "伊恩": 4350,
+        "程牧": 5932,
+        "周映白": 12613
+      },
       "reconciliationHistory": [
         {
           "node": "POST-D016｜戒指、戒指盒與貼身衣物採購後",

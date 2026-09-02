@@ -2,10 +2,10 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 115,
-  "updated_at": "2026-09-02T11:41:25.952215+00:00",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
   "section": "currentState",
   "state": {
-    "currentState": "POST-D025｜須佐洛跑跳轉向再熟悉＋洛念氣整合重測完成／動態流內建化確認／氣力置換嵌入脈衝之整合路線確認／高輸出與極限未測"
+    "currentState": "POST-D025｜程牧已兌換曲折箭Ⅰ；預定以標準箭進行短距離、小角度、單箭低輸出校準"
   }
 }

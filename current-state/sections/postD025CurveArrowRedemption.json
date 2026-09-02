@@ -1,0 +1,71 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "section": "postD025CurveArrowRedemption",
+  "state": {
+    "postD025CurveArrowRedemption": {
+      "node": "POST-D025｜WIFI曲折箭Ⅰ正式兌換",
+      "after": {
+        "B": 0,
+        "C": 0,
+        "洛": 2179,
+        "伊恩": 4350,
+        "程牧": 5932,
+        "周映白": 12613,
+        "grandTotal": 26574,
+        "publicFunds": 1500,
+        "privateTotal": 25074
+      },
+      "before": {
+        "B": 0,
+        "C": 2,
+        "洛": 2179,
+        "伊恩": 4350,
+        "程牧": 10132,
+        "周映白": 12613,
+        "grandTotal": 30774,
+        "publicFunds": 1500,
+        "privateTotal": 29274
+      },
+      "status": "REDEEMED / ACQUIRED / INITIAL CALIBRATION",
+      "ability": {
+        "name": "曲折箭Ⅰ",
+        "limits": [
+          "WIFI本人選目標、判敵、選箭、拉弓與射擊",
+          "不是必中",
+          "不能穿牆",
+          "特殊箭仍為有限實體庫存",
+          "曲率有上限",
+          "九十度轉角未確認"
+        ],
+        "status": "ACQUIRED / INITIAL CALIBRATION",
+        "purpose": [
+          "繞過掩體邊緣",
+          "側角攻擊",
+          "友軍遮擋時建立替代彈道",
+          "狹窄區域建立安全射角",
+          "非正面角度切入"
+        ],
+        "notNewArrowType": true
+      },
+      "purchase": {
+        "owner": "程牧／WIFI",
+        "points": 4200,
+        "branchStories": {
+          "B": 0,
+          "C": 2
+        }
+      },
+      "nextCalibration": [
+        "標準箭",
+        "低輸出",
+        "短距離",
+        "小角度",
+        "單箭"
+      ]
+    }
+  }
+}

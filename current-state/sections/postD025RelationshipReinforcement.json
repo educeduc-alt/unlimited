@@ -1,0 +1,132 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 118,
+  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "section": "postD025RelationshipReinforcement",
+  "state": {
+    "postD025RelationshipReinforcement": {
+      "luo": {
+        "dynamicFlow": "INTEGRATED / EMBEDDED",
+        "giantSpirit": {
+          "name": "巨靈體Ⅰ",
+          "status": "ACQUIRED / RE-FAMILIARIZATION PROGRESSING",
+          "tested": [
+            "站立",
+            "抬手",
+            "握拳",
+            "跑動",
+            "急停",
+            "轉向",
+            "跳躍",
+            "落地",
+            "基礎低輸出同步"
+          ],
+          "unverified": [
+            "最大尺寸",
+            "最大力量",
+            "最大持續時間",
+            "高輸出脈衝整合",
+            "螺旋右拳整合",
+            "最大負荷承重",
+            "高速連續戰鬥同步"
+          ],
+          "privateName": "須佐洛",
+          "totalAuraChange": "NO CHANGE"
+        },
+        "fatiguedRetest": {
+          "circle10m": "SHORT-DURATION USABLE",
+          "benchmarkUpdate": false,
+          "circle6mSeconds": 95,
+          "circle8mSeconds": 52,
+          "enlargedAuraSeconds": 109
+        },
+        "spiralRightPunch": "STABLE / INTEGRATED",
+        "pulseForceConversion": "INTEGRATED"
+      },
+      "node": "POST-D025｜REST / ENGAGED / RE-FAMILIARIZATION",
+      "status": "CONFIRMED / SAVE COMPLETE",
+      "economy": {
+        "purchases": [
+          {
+            "B": 1,
+            "item": "巨靈體Ⅰ／須佐洛",
+            "payer": "洛",
+            "points": 6200
+          },
+          {
+            "item": "雙生錨對戒Ⅰ",
+            "payer": "洛",
+            "points": 2400
+          }
+        ],
+        "grandTotal": 30774,
+        "publicFunds": 1500,
+        "privateTotal": 29274,
+        "branchStories": {
+          "B": 0,
+          "C": 2
+        },
+        "privatePoints": {
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 10132,
+          "周映白": 12613
+        }
+      },
+      "endgame": {
+        "pieces": 1,
+        "mechanism": "UNKNOWN",
+        "fragment01": "自我定義權｜COLLECTED / VERIFIED",
+        "departureRights": "4/4 VERIFIED"
+      },
+      "relationship": {
+        "status": "ENGAGED",
+        "proposal": "FORMALLY ACCEPTED",
+        "characters": [
+          "洛",
+          "伊恩"
+        ],
+        "combatBuff": false,
+        "engagement": "MUTUAL / CONFIRMED",
+        "autonomousConsent": "VERIFIED",
+        "marriageRegistration": "NOT YET"
+      },
+      "ianNightEvent": {
+        "status": "EMOTIONALLY OVERWHELMED / STABILIZED AFTER SUPPORT",
+        "support": [
+          "擁抱",
+          "撫摸頭部",
+          "陪伴",
+          "緩慢呼吸示範",
+          "等待重新入睡"
+        ],
+        "trigger": "對再次重置、戒指與婚約被回滾的恐懼",
+        "interpretation": "重大壓力解除後的延遲性情緒釋放＋重置經驗引發的不安全感",
+        "notAutomatically": [
+          "精神疾病",
+          "詛咒",
+          "認知污染",
+          "副本感染",
+          "戒指副作用"
+        ]
+      },
+      "twinAnchorRings": {
+        "limits": [
+          "非精神或幻覺免疫",
+          "非心靈感應或讀心",
+          "非傳送或召回",
+          "不傳遞語言、思想、情緒或痛覺",
+          "不能治療或喚醒"
+        ],
+        "status": "ACQUIRED / OPERATIONAL",
+        "functions": [
+          "認知錨點",
+          "空間錨點",
+          "雙向存在共振"
+        ]
+      }
+    }
+  }
+}

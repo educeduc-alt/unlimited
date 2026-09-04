@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 120,
+  "version": 121,
   "schema_version": "v44",
-  "updated_at": "2026-09-04T09:57:26.250232+00:00",
+  "updated_at": "2026-09-04T10:06:00.879017+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v120.json",
+  "versioned": "current-state/v121.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -28,6 +28,7 @@
     "customAGrayCitySettlement": "current-state/sections/customAGrayCitySettlement.json",
     "d019LogisticsAudit": "current-state/sections/d019LogisticsAudit.json",
     "d025Settlement": "current-state/sections/d025Settlement.json",
+    "d026BranchAllocationCorrection": "current-state/sections/d026BranchAllocationCorrection.json",
     "dailyLifeEvents": "current-state/sections/dailyLifeEvents.json",
     "dataNotes": "current-state/sections/dataNotes.json",
     "economy": "current-state/sections/economy.json",

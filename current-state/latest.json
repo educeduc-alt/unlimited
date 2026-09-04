@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 120,
-  "updated_at": "2026-09-04T09:57:26.250232+00:00",
+  "version": 121,
+  "updated_at": "2026-09-04T10:06:00.879017+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -1907,7 +1907,7 @@
       }
     },
     "mission": "D026《黃銅太陽城》｜COMPLETE｜S",
-    "version": 120,
+    "version": 121,
     "bestiary": [
       {
         "id": "M001",
@@ -6106,7 +6106,7 @@
         "程牧": 12482,
         "周映白": 11013
       },
-      "version": 120,
+      "version": 121,
       "gauntlet": "導能複合籠手Ⅲ｜OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
       "location": "AI主神空間",
       "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
@@ -12269,14 +12269,18 @@
             "points": 2200,
             "branchStories": {
               "B": 0,
-              "C": 2
+              "C": 1
             }
           },
           {
             "item": "自律式折疊救難醫療站Ⅲ",
             "owner": "共享",
             "payer": "公共資金",
-            "points": 3000
+            "points": 3000,
+            "branchStories": {
+              "B": 0,
+              "C": 1
+            }
           }
         ],
         "afterRewards": {
@@ -12348,6 +12352,13 @@
       ],
       "newAcquisitions": {
         "shared": {
+          "cost": {
+            "publicPoints": 3000,
+            "branchStories": {
+              "B": 0,
+              "C": 1
+            }
+          },
           "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
           "scale": "約普通教室大小",
           "status": "UPGRADED / OPERATIONAL",
@@ -15772,6 +15783,34 @@
       "不防極端高低溫",
       "不提供超自然環境抗性"
     ],
+    "d026BranchAllocationCorrection": {
+      "rule": "兩枚C分別使用於空間門錨點穩定Ⅰ與自律式折疊救難醫療站Ⅲ；不得將C×2全部掛在錨點穩定Ⅰ",
+      "status": "CORRECTED / AUTHORITATIVE",
+      "unchanged": {
+        "finalC": 0,
+        "grandTotal": 43374,
+        "publicFunds": 500,
+        "privateTotal": 42874
+      },
+      "allocations": [
+        {
+          "item": "空間門錨點穩定Ⅰ",
+          "payer": "周映白／香蕉",
+          "points": 2200,
+          "branchStories": {
+            "C": 1
+          }
+        },
+        {
+          "item": "自律式折疊救難醫療站Ⅲ",
+          "payer": "公共資金",
+          "points": 3000,
+          "branchStories": {
+            "C": 1
+          }
+        }
+      ]
+    },
     "characterPersonalityCalibration": {
       "洛": {
         "core": "熱血、直接、行動派；容易先做再想，但不是莽撞到不聽勸。對隊友保護欲強，曾有把自己排除在資源之外的傾向，現在已承諾把自己的需求也視為隊伍需求。",

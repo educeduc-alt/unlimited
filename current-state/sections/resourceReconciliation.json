@@ -2,11 +2,59 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "resourceReconciliation",
   "state": {
     "resourceReconciliation": {
+      "d026": {
+        "food": {
+          "water": {
+            "after": 99,
+            "before": 100
+          },
+          "cooking": {
+            "note": "使用已確認但無精確人日換算",
+            "after": 60,
+            "before": 60
+          },
+          "rations": {
+            "after": 99,
+            "before": 100
+          }
+        },
+        "arrows": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "breakdown": "PENDING AUDIT",
+          "afterReady": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "recoveredScrapped": 6
+        },
+        "status": "COMPLETE / PHYSICAL RETURN SCAN AUTHORITATIVE",
+        "medical": {
+          "stationPercent": {
+            "after": 47,
+            "before": 62
+          },
+          "luoPersonalColdSpray": {
+            "after": 1,
+            "before": 2
+          },
+          "luoPersonalMuscleSpray": {
+            "after": 0,
+            "before": 1
+          },
+          "sharedMainStockUnchanged": true
+        },
+        "recovery": {
+          "livingModule": "RECOVERED / OPERATIONAL",
+          "medicalStation": "RECOVERED / OPERATIONAL",
+          "accidentalPersonsOrCargo": false
+        }
+      },
       "node": "POST-D019",
       "rule": "本次數值依完整進出紀錄、重量／容積、恆溫存量、裝備與載具紀錄核定",
       "status": "COMPLETE",

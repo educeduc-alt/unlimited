@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "medicalSystem",
   "state": {
     "medicalSystem": {
@@ -16,6 +16,38 @@
       "validated": "訓練模擬驗證流程成立",
       "carryDoctrine": "分散攜帶／集中技術",
       "standardChain": "受傷→周映白火線切入→判傷／穩定→製造撤離窗口→帶離→安全位置掃描→醫療資源處置→符合條件時組織修復→重新判定戰力",
+      "d026Consumption": {
+        "authority": "返還後實物掃描",
+        "highTierMedical": "無確認消耗",
+        "共享主庫存": {
+          "速效冷療噴霧Ⅰ": 8,
+          "肌肉舒緩修復噴劑Ⅰ": 2
+        },
+        "救難醫療站": {
+          "afterPercent": 47,
+          "beforePercent": 62,
+          "consumedPercentagePoints": 15
+        },
+        "洛個人攜行": {
+          "速效冷療噴霧Ⅰ": {
+            "after": 1,
+            "before": 2,
+            "consumed": 1
+          },
+          "肌肉舒緩修復噴劑Ⅰ": {
+            "after": 0,
+            "before": 1,
+            "consumed": 1
+          },
+          "複合創傷醫療噴膜Ⅰ": {
+            "after": 1,
+            "before": 1,
+            "consumed": 0
+          }
+        },
+        "doubleCountingRule": "洛右手處置來自個人攜行；不得再次扣除共享主庫存或醫療站耗材",
+        "其餘個人攜行": "伊恩／程牧／周映白無淨消耗"
+      },
       "postCustomARestock": {
         "cost": 1680,
         "status": "COMPLETE / BASELINE RESTORED",

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -59,9 +59,9 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-CUSTOM-A｜箭矢自律維修模組Ⅰ安裝／閃光箭3支修復完成",
-      "combatReady": 162,
-      "currentTotal": 162,
+      "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
+      "combatReady": 144,
+      "currentTotal": 144,
       "repairModule": {
         "cost": 800,
         "name": "箭矢自律維修模組Ⅰ",
@@ -110,9 +110,9 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "162 READY／0 REPAIR／束縛鎖箭1支歷史永久消耗",
+      "inventoryStatus": "144 READY／D026後分項待盤點",
       "repairBreakdown": {},
-      "accountingPresent": 162,
+      "accountingPresent": 144,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
@@ -129,6 +129,16 @@
         "cardBeforeTotal": 117,
         "v77PriorSnapshot": 114,
         "finalDetailedTotal": 113
+      },
+      "d026Reconciliation": {
+        "fired": 41,
+        "before": 162,
+        "netLoss": 18,
+        "readyAfter": 144,
+        "unrecovered": 12,
+        "recoveredUsable": 23,
+        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+        "recoveredScrapped": 6
       },
       "inventoryCorrection": {
         "status": "FULLY_RECONCILED",
@@ -198,7 +208,8 @@
         "directlyRecovered": {
           "電擊干擾箭Ⅰ": 1
         }
-      }
+      },
+      "authoritativeDetailedSnapshot": false
     },
     "party": [
       {
@@ -341,12 +352,18 @@
     ],
     "economy": {
       "debts": [],
-      "grandTotal": 26574,
-      "publicFunds": 1500,
-      "privateTotal": 25074,
+      "grandTotal": 43374,
+      "publicFunds": 500,
+      "privateTotal": 42874,
       "branchStories": {
         "B": 0,
         "C": 0
+      },
+      "privatePoints": {
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -725,6 +742,61 @@
           "mechanicalArms": "OPERATIONAL",
           "consumedPercent": 38,
           "stockRemainingPercent": 62
+        }
+      },
+      "d026Settlement": {
+        "final": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "before": {
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 5932,
+          "周映白": 12613,
+          "publicFunds": 1500
+        },
+        "purchases": [
+          {
+            "item": "空間門Ⅰ",
+            "owner": "周映白",
+            "points": 5800,
+            "branchStories": {
+              "B": 1,
+              "C": 0
+            }
+          },
+          {
+            "item": "空間門錨點穩定Ⅰ",
+            "owner": "周映白",
+            "points": 2200,
+            "branchStories": {
+              "B": 0,
+              "C": 2
+            }
+          },
+          {
+            "item": "自律式折疊救難醫療站Ⅲ",
+            "owner": "共享",
+            "payer": "公共資金",
+            "points": 3000
+          }
+        ],
+        "afterRewards": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 19013,
+          "publicFunds": 3500
         }
       },
       "sharedSideStory": {
@@ -1834,8 +1906,8 @@
         "totalPrivateExpense": 2900
       }
     },
-    "mission": "無｜CUSTOM A《灰城72小時》CLEARED",
-    "version": 117,
+    "mission": "D026《黃銅太陽城》｜COMPLETE｜S",
+    "version": 120,
     "bestiary": [
       {
         "id": "M001",
@@ -2804,7 +2876,7 @@
       }
     },
     "location": "AI主神空間",
-    "saveNode": "POST-D025 / CURVE-ARROW-I ACQUIRED / INITIAL CALIBRATION",
+    "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
     "tracking": {
       "missionHistory": [],
       "trainingRecords": [
@@ -4147,9 +4219,9 @@
       "快速拖帶帶具": 1,
       "無菌止血敷料": 10,
       "生命維持凝膠": 1,
-      "遠征緊急乾糧": "100人日",
-      "遠征緊急飲水": "100人日",
-      "四人15日料理組": "60人日／四人15天",
+      "遠征緊急乾糧": "99人日",
+      "遠征緊急飲水": "99人日",
+      "四人15日料理組": "60人日／四人15天｜曾使用但未精確換算，不虛構扣除",
       "中級創傷應急劑": 1,
       "基礎創傷應急劑": 2,
       "智能警戒哨兵Ⅰ": 2,
@@ -4226,13 +4298,14 @@
       ]
     },
     "restPeriod": {
-      "title": "POST-CUSTOM-A休整與再校準",
-      "status": "COMPLETE",
-      "location": "AI主神空間",
-      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
-      "nextMission": "UNSELECTED",
-      "resourceRule": "不回扣或重算已正式核帳之歷史副本資源",
-      "teamCondition": "四人生命正常／精神穩定；依各自最新測試結果休整完成或進入測試後休整"
+      "node": "POST-D026",
+      "rules": [
+        "休息優先",
+        "洛僅低負荷基本纏",
+        "未測最大輸出",
+        "香蕉空間門標準化校準待進行"
+      ],
+      "status": "REST / RECALIBRATION PENDING"
     },
     "carrySystem": {
       "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由共享次元行囊Ⅲ分區管理。",
@@ -4578,7 +4651,7 @@
       ],
       "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述"
     },
-    "currentState": "POST-D025｜程牧已兌換曲折箭Ⅰ；預定以標準箭進行短距離、小角度、單箭低輸出校準",
+    "currentState": "POST-D026｜SETTLEMENT COMPLETE / POST-EXCHANGE / REST / RECALIBRATION PENDING",
     "partyTactics": [
       "四人戰術體系｜第三階段",
       "戰術醫療鏈",
@@ -5184,14 +5257,14 @@
       }
     },
     "foodLogistics": {
-      "status": "POST-CUSTOM-A｜EXPEDITION STOCK REPLENISHED / OPERATIONAL",
+      "status": "POST-D026｜FIELD CONSUMPTION RECORDED",
       "emergency": {
         "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
-        "waterPersonDays": 100,
+        "waterPersonDays": 99,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
-        "rationsPersonDays": 100,
+        "rationsPersonDays": 99,
         "teamIndependentDurationDays": 25
       },
       "livingStock": {
@@ -5209,10 +5282,16 @@
           "長期保存蛋白質",
           "有限易腐食材"
         ],
+        "accountingNote": "曾實際料理但無精確人日換算，維持60帳面值",
         "teamDurationDays": 15
       },
       "accountingMode": "人日；實際使用後才扣除",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
+      "d026Consumption": {
+        "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",
+        "waterPersonDays": 1,
+        "rationsPersonDays": 1
+      },
       "postCustomARestock": {
         "cost": 1480,
         "payer": "公共資金",
@@ -5279,6 +5358,38 @@
       "validated": "訓練模擬驗證流程成立",
       "carryDoctrine": "分散攜帶／集中技術",
       "standardChain": "受傷→周映白火線切入→判傷／穩定→製造撤離窗口→帶離→安全位置掃描→醫療資源處置→符合條件時組織修復→重新判定戰力",
+      "d026Consumption": {
+        "authority": "返還後實物掃描",
+        "highTierMedical": "無確認消耗",
+        "共享主庫存": {
+          "速效冷療噴霧Ⅰ": 8,
+          "肌肉舒緩修復噴劑Ⅰ": 2
+        },
+        "救難醫療站": {
+          "afterPercent": 47,
+          "beforePercent": 62,
+          "consumedPercentagePoints": 15
+        },
+        "洛個人攜行": {
+          "速效冷療噴霧Ⅰ": {
+            "after": 1,
+            "before": 2,
+            "consumed": 1
+          },
+          "肌肉舒緩修復噴劑Ⅰ": {
+            "after": 0,
+            "before": 1,
+            "consumed": 1
+          },
+          "複合創傷醫療噴膜Ⅰ": {
+            "after": 1,
+            "before": 1,
+            "consumed": 0
+          }
+        },
+        "doubleCountingRule": "洛右手處置來自個人攜行；不得再次扣除共享主庫存或醫療站耗材",
+        "其餘個人攜行": "伊恩／程牧／周映白無淨消耗"
+      },
       "postCustomARestock": {
         "cost": 1680,
         "status": "COMPLETE / BASELINE RESTORED",
@@ -5853,15 +5964,15 @@
           "title": "隊長",
           "gender": "男",
           "mental": "穩定",
-          "points": 2179,
+          "points": 8429,
           "nenType": "強化系",
-          "stamina": "POST-CUSTOM-A｜恢復後念氣重測完成／500%最大輸出未測",
+          "stamina": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 2179,
+          "rewardPoints": 8429,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -5885,14 +5996,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 12613,
-          "stamina": "POST-CUSTOM-A｜連續閃返總距離測試完成／仍保有救援能力",
+          "points": 11013,
+          "stamina": "POST-D026｜空間門Ⅰ取得／標準化校準待進行",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 12613,
+          "rewardPoints": 11013,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -5915,14 +6026,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 4350,
-          "stamina": "POST-CUSTOM-A｜質變突破01初測完成／精神負荷休整中",
+          "points": 10950,
+          "stamina": "POST-D026｜返還完成／休整",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 4350,
+          "rewardPoints": 10950,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -5959,14 +6070,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 5932,
-          "stamina": "POST-D025｜曲折箭Ⅰ取得／初始低輸出校準待執行",
+          "points": 12482,
+          "stamina": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 5932,
+          "rewardPoints": 12482,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -5984,27 +6095,23 @@
         }
       ],
       "arrows": {
-        "ready": 162,
-        "physical": 162,
-        "repairModule": "箭矢自律維修模組Ⅰ｜OPERATIONAL",
-        "permanentLoss": {
-          "束縛鎖箭": 1
-        },
-        "repairPending": 0,
-        "authoritativeDetailedSnapshot": true
+        "ready": 144,
+        "physical": "AT LEAST 144 CONFIRMED",
+        "repairPending": "PENDING AUDIT",
+        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分"
       },
       "points": {
-        "洛": 2179,
-        "伊恩": 4350,
-        "程牧": 5932,
-        "周映白": 12613
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013
       },
-      "version": 118,
+      "version": 120,
       "gauntlet": "導能複合籠手Ⅲ｜OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
       "location": "AI主神空間",
-      "saveNode": "POST-D025 / REST / ENGAGED / RE-FAMILIARIZATION",
+      "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "優先完整休息；須佐洛重新熟悉進行中；不急測最大輸出；下一副本未選定",
+      "readiness": "POST-D026｜休息／重新校準待進行",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -6012,45 +6119,45 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 26574,
+      "grandTotal": 43374,
       "provisions": {
         "遠征料理食材人日": 60,
-        "遠征緊急乾糧人日": 100,
-        "遠征緊急飲水人日": 100,
+        "遠征緊急乾糧人日": 99,
+        "遠征緊急飲水人日": 99,
         "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
       },
-      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
+      "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "publicFunds": 1500,
+      "publicFunds": 500,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 25074,
+      "privateTotal": 42874,
       "branchStories": {
         "B": 0,
         "C": 0
       },
       "endgamePieces": 1,
       "latestMission": {
-        "id": "CUSTOM-A-01",
-        "name": "灰城72小時",
+        "id": "D026",
+        "name": "黃銅太陽城",
         "rating": "S",
-        "status": "CLEAR",
-        "difficulty": "CUSTOM A"
+        "status": "COMPLETE",
+        "difficulty": "A"
       },
       "privatePoints": {
-        "洛": 2179,
-        "伊恩": 4350,
-        "程牧": 5932,
-        "周映白": 12613
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013
       },
-      "resourceAudit": "遠征食水補貨核帳完成：28→100乾糧、24→100飲水、0→60料理；1480公共點已於v98扣款，本版不重扣。",
+      "resourceAudit": "D026返還實物掃描完成：乾糧99／飲水99／料理60帳面；箭144；洛個人冷療1、舒緩0；共享冷療8、舒緩2；醫療站Ⅲ耗材47%。",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "自律式折疊救難應急站Ⅱ｜OPERATIONAL｜醫療耗材62%剩餘",
+      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "abilityInterface": "QUALITY-BREAKTHROUGH-01 / IAN FIELD-NODE NETWORK ACQUIRED",
       "aquaticReadiness": {
@@ -6061,17 +6168,36 @@
       },
       "nextAbilityCheck": "伊恩領域極限與具現體最大數量未測；洛500%最大輸出未測；其他質變候選均未購入",
       "currentHighlights": [
-        "洛增大念氣117.67秒平均／穩定改善+5.4%／不判定總念氣增加",
-        "周映白連續閃返7m×8＝56m／救援能力保留／最大單次距離不更新",
-        "程牧多箭種戰術選項庫成立／不固定Combo",
-        "伊恩術式領域Ⅰ ACQUIRED",
-        "伊恩術式具現體Ⅰ ACQUIRED",
-        "領域×具現體：戰場術式節點化／區域控制網 CONFIRMED",
-        "終局拼圖0／END CONDITION：4 OUT"
+        "D026《黃銅太陽城》S評價／4 IN 4 OUT",
+        "地心日獸 ALIVE / BREATHING / STABILIZING",
+        "162%強制點火 CANCELLED",
+        "香蕉取得空間門Ⅰ＋空間門錨點穩定Ⅰ",
+        "醫療站升級為自律式折疊救難醫療站Ⅲ",
+        "WIFI曲折箭Ⅰ PRACTICAL / FIELD-VALIDATED",
+        "可用箭矢144／分項待盤點"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 20874,
+      "privatePointsTotal": 42874,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
+      "medicalDistribution": {
+        "洛": {
+          "冷療噴霧Ⅰ": 1,
+          "醫療噴膜Ⅰ": 1,
+          "肌肉舒緩噴劑Ⅰ": 0
+        },
+        "伊恩": {
+          "冷療噴霧Ⅰ": 2,
+          "醫療噴膜Ⅰ": 1
+        },
+        "程牧": {
+          "冷療噴霧Ⅰ": 1
+        },
+        "周映白": {
+          "冷療噴霧Ⅰ": 3,
+          "醫療噴膜Ⅰ": 2,
+          "肌肉舒緩噴劑Ⅰ": 1
+        }
+      },
       "mountainGodResidual": "IDENTIFIED / STABLE｜念氣循環完整性補全／一體出／一體進",
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION",
@@ -9750,7 +9876,7 @@
           "core": "使實體箭矢在可解算範圍內沿受控制的非直線路徑飛行，為掩體、友軍遮擋、側角與狹窄區域建立替代射擊解；不是新箭種。",
           "name": "曲折箭Ⅰ",
           "type": "非直線實體箭道控制／彈道領域整合",
-          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "status": "PRACTICAL / FIELD-VALIDATED",
           "branches": [
             {
               "name": "整合",
@@ -9803,6 +9929,30 @@
             {
               "name": "限制",
               "detail": "周映白仍不是完整醫師。"
+            }
+          ]
+        },
+        {
+          "core": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+          "name": "空間門Ⅰ",
+          "type": "多人空間通道",
+          "status": "ACQUIRED / RECALIBRATION REQUIRED",
+          "branches": [
+            {
+              "name": "限制",
+              "detail": "不可向完全未知區域盲開；距離、門徑、維持時間與連續次數未正式校準；不增加總體力或閃返步距離"
+            }
+          ]
+        },
+        {
+          "core": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+          "name": "空間門錨點穩定Ⅰ",
+          "type": "空間門穩定強化",
+          "status": "ACQUIRED / INTEGRATED",
+          "branches": [
+            {
+              "name": "限制",
+              "detail": "不增加最大距離；不增加最大門徑；不增加維持時間硬上限；不增加能量總量"
             }
           ]
         }
@@ -11992,6 +12142,242 @@
       },
       "thirdExpeditionResult": "127／127 ALIVE"
     },
+    "postD026Settlement": {
+      "next": "香蕉空間門Ⅰ＋錨點穩定Ⅰ標準化校準；醫療站Ⅲ耗材47%列為後勤補充重點",
+      "node": "POST-D026",
+      "rest": {
+        "facts": [
+          "四人各自休息",
+          "洛與伊恩進入私人休息",
+          "次日洛製作小米粥",
+          "洛僅進行基本纏低負荷修練",
+          "未測增大纏、脈衝、螺旋或巨靈體最大輸出"
+        ],
+        "status": "POST-D026｜REST / RECALIBRATION PENDING"
+      },
+      "medical": {
+        "luo": {
+          "rule": "仍不等於可立刻最大輸出測試；休息優先；無自動念氣增長",
+          "status": "TREATED / COMPLETE",
+          "injuries": [
+            "右掌",
+            "前臂",
+            "右肩",
+            "爆炸回饋",
+            "精準螺旋過度負荷"
+          ]
+        },
+        "station": "RECOVERED / OPERATIONAL",
+        "patientHandoff": "COMPLETE",
+        "accidentalReturnOfCityPatients": false
+      },
+      "mission": {
+        "id": "D026",
+        "name": "黃銅太陽城",
+        "rating": "S",
+        "status": "COMPLETE",
+        "meaning": "4 IN / 4 OUT",
+        "returned": "4/4",
+        "bellLimits": "不代表S評價、額外獎勵或特殊效果",
+        "bellRungBy": "程牧／WIFI",
+        "difficulty": "A"
+      },
+      "rewards": {
+        "publicFunds": 2000,
+        "contribution": {
+          "洛": 1250,
+          "伊恩": 1600,
+          "程牧": 1550,
+          "周映白": 1400
+        },
+        "basePerMember": 3200,
+        "sRatingPerMember": 1800,
+        "branchStoriesGained": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "resources": {
+        "arrows": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "readyAfter": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+          "recoveredScrapped": 6
+        },
+        "provisions": {
+          "cookingNote": "曾實際料理但無精確人日換算，維持60帳面值",
+          "waterPersonDays": 99,
+          "cookingPersonDays": 60,
+          "rationsPersonDays": 99
+        },
+        "highTierMedical": "無確認消耗",
+        "personalMedical": {
+          "洛": {
+            "速效冷療噴霧Ⅰ": 1,
+            "肌肉舒緩修復噴劑Ⅰ": 0,
+            "複合創傷醫療噴膜Ⅰ": 1
+          }
+        },
+        "medicalStationConsumables": {
+          "afterPercent": 47,
+          "beforePercent": 62,
+          "consumedPercentagePoints": 15
+        },
+        "sharedMedicalConfirmedUnchanged": {
+          "速效冷療噴霧Ⅰ": 8,
+          "肌肉舒緩修復噴劑Ⅰ": 2
+        }
+      },
+      "accounting": {
+        "final": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "before": {
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 5932,
+          "周映白": 12613,
+          "publicFunds": 1500
+        },
+        "purchases": [
+          {
+            "item": "空間門Ⅰ",
+            "owner": "周映白",
+            "points": 5800,
+            "branchStories": {
+              "B": 1,
+              "C": 0
+            }
+          },
+          {
+            "item": "空間門錨點穩定Ⅰ",
+            "owner": "周映白",
+            "points": 2200,
+            "branchStories": {
+              "B": 0,
+              "C": 2
+            }
+          },
+          {
+            "item": "自律式折疊救難醫療站Ⅲ",
+            "owner": "共享",
+            "payer": "公共資金",
+            "points": 3000
+          }
+        ],
+        "afterRewards": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 19013,
+          "publicFunds": 3500
+        }
+      },
+      "coreResults": {
+        "liEnSol": {
+          "age": "約15–16歲",
+          "rule": "合作不等於免責；並非獲得日獸直接神授",
+          "status": "失去獨立控制權／未成年人司法與監護處理"
+        },
+        "brassSun": {
+          "role": "城市光照、熱管理、農業週期、潮汐／部分能源與輸出平滑調節器",
+          "rule": "可保留，但不得再反向壓迫地心日獸",
+          "status": "OPERATIONAL / ROLE CHANGED"
+        },
+        "hermanSol": {
+          "rule": "合作與供述不抵銷責任",
+          "status": "解除權限／權限凍結／正式羈押／全面調查",
+          "responsibility": "重大"
+        },
+        "governance": "赫薇・薩恩接收行動與證據資料；後續採救援、重力工程、民生能源、原始日輪技術與城市代表分權管理",
+        "cityCrisisTruth": {
+          "facts": [
+            "黃銅太陽並非城市唯一能源源頭",
+            "地心日獸／原始日輪為城市深層熱、重力與生命性能源核心",
+            "黃銅太陽後期被錯誤轉化為長期深層壓制器",
+            "過度壓制妨礙日獸自然生命週期並與城市重力異常高度相關"
+          ],
+          "status": "CONFIRMED"
+        },
+        "earthCoreSunBeast": {
+          "status": "ALIVE / BREATHING / STABILIZING",
+          "confirmed": [
+            "自然深呼吸",
+            "自行翻身",
+            "翻身未造成立即坍塌",
+            "呼吸後局部重力相位差下降",
+            "初步分層緩衝有效"
+          ],
+          "roarInterpretation": "四人主觀感受到善意／感謝；不得寫成已證實語言神諭或心靈傳訊"
+        },
+        "radicalControlNetwork": {
+          "status": "DISMANTLED",
+          "victimRule": "受控者不可視為單純自願殉道者"
+        },
+        "sustainableArchitecture": {
+          "layers": [
+            "日獸活動／承托層",
+            "重力／壓力／熱量緩衝層",
+            "城市區域穩定層"
+          ],
+          "status": "ESTABLISHED"
+        },
+        "forcedIgnition162Percent": "CANCELLED"
+      },
+      "growthRules": [
+        "巨靈體Ⅰ大量實戰樣本但不升級",
+        "曲折箭Ⅰ大量實戰樣本，更新為PRACTICAL / FIELD-VALIDATED但不自動升Ⅱ",
+        "引燃／閃燃確認可精細能源斷路，不新增術式",
+        "無總念氣增加",
+        "無閃返步距離增加",
+        "無免費能力升級"
+      ],
+      "newAcquisitions": {
+        "shared": {
+          "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "scale": "約普通教室大小",
+          "status": "UPGRADED / OPERATIONAL",
+          "consumablesPercent": 47
+        },
+        "周映白": [
+          {
+            "name": "空間門Ⅰ",
+            "role": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+            "limits": [
+              "不可向完全未知區域盲開",
+              "距離、門徑、維持時間與連續次數未正式校準",
+              "不增加總體力或閃返步距離"
+            ],
+            "status": "ACQUIRED / RECALIBRATION REQUIRED"
+          },
+          {
+            "name": "空間門錨點穩定Ⅰ",
+            "role": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+            "limits": [
+              "不增加最大距離",
+              "不增加最大門徑",
+              "不增加維持時間硬上限",
+              "不增加能量總量"
+            ],
+            "status": "ACQUIRED / INTEGRATED"
+          }
+        ]
+      }
+    },
     "relationshipEvents": [
       {
         "id": "REL-POST-D011",
@@ -12208,9 +12594,9 @@
     },
     "medicalDistribution": {
       "洛": {
-        "冷療噴霧": 2,
+        "冷療噴霧": 1,
         "醫療噴膜": 1,
-        "肌肉舒緩噴劑": 1
+        "肌肉舒緩噴劑": 0
       },
       "伊恩": {
         "冷療噴霧": 2,
@@ -13005,27 +13391,39 @@
       "vehicleMaintenanceM3": 0.94
     },
     "sharedMedicalStation": {
-      "name": "自律式折疊救難應急站Ⅱ",
-      "role": "現場應急醫療穩定站",
+      "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+      "role": "自動化微型醫院型救難醫療站",
+      "scale": "約普通教室大小",
       "limits": [
-        "不是完整醫院",
-        "不做大型手術",
-        "不取代ICU",
-        "不復活",
-        "不提供無限藥品"
+        "不是完整大型醫院",
+        "不是完整ICU",
+        "不是大型外科中心",
+        "不是器官再生中心",
+        "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "OPERATIONAL",
+      "status": "UPGRADED / OPERATIONAL",
       "carrier": "折疊救援模組庫Ⅱ",
       "functions": [
-        "靜脈輸液支援",
-        "應急藥物管理",
-        "進階多床位監測",
-        "應急處置工作位",
-        "醫療耗材艙",
-        "撤離交接紀錄"
+        "自動分診",
+        "多床位生命監測",
+        "醫療機器人",
+        "智能機械臂",
+        "傷患搬運",
+        "清創",
+        "止血",
+        "包紮",
+        "固定",
+        "基礎縫合",
+        "輸液／補液",
+        "氧氣／呼吸支持",
+        "基礎藥物給予",
+        "隔離／觀察",
+        "創傷掃描整合",
+        "組織修復儀整合",
+        "按預設醫療協議自主運作"
       ],
-      "lastAudit": "D021 COMPLETE／剩餘62%",
+      "lastAudit": "D026 COMPLETE／62%→47%",
       "ownerType": "共享大型救援資產",
       "stockCost": 600,
       "stockType": "正式有限實體庫存",
@@ -13036,11 +13434,11 @@
         "consumableRestock": "REQUIRED",
         "routineInspection": "REQUIRED"
       },
-      "stockStatus": "62% REMAINING / RESTOCK RECOMMENDED",
+      "stockStatus": "47% REMAINING / RESTOCK PRIORITY",
       "robotsStatus": "OPERATIONAL",
       "restockStatus": "NOT PURCHASED",
       "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
-      "lastDeployment": "D021《墜星殖民地》",
+      "lastDeployment": "D026《黃銅太陽城》",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
         "傷口清潔液": 5,
@@ -13057,7 +13455,7 @@
       },
       "primaryOperator": "周映白",
       "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
-      "medicalStockPercent": 62,
+      "medicalStockPercent": 47,
       "mechanicalArmsStatus": "OPERATIONAL",
       "tenPersonMedicalStock": {
         "抗生素": "未列入自動標準應急藥庫",
@@ -13073,7 +13471,8 @@
         "支氣管舒張應急單元": 5,
         "標準應急注射止痛劑": 7
       },
-      "d021ConsumptionRatePercent": 38
+      "d021ConsumptionRatePercent": 38,
+      "d026ConsumptionRatePercent": 15
     },
     "equipmentDisplayRules": {
       "status": "CONFIRMED",
@@ -14262,6 +14661,54 @@
       "effectiveAt": "POST-D021｜十日訓練完成＋完整休息一晚後"
     },
     "resourceReconciliation": {
+      "d026": {
+        "food": {
+          "water": {
+            "after": 99,
+            "before": 100
+          },
+          "cooking": {
+            "note": "使用已確認但無精確人日換算",
+            "after": 60,
+            "before": 60
+          },
+          "rations": {
+            "after": 99,
+            "before": 100
+          }
+        },
+        "arrows": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "breakdown": "PENDING AUDIT",
+          "afterReady": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "recoveredScrapped": 6
+        },
+        "status": "COMPLETE / PHYSICAL RETURN SCAN AUTHORITATIVE",
+        "medical": {
+          "stationPercent": {
+            "after": 47,
+            "before": 62
+          },
+          "luoPersonalColdSpray": {
+            "after": 1,
+            "before": 2
+          },
+          "luoPersonalMuscleSpray": {
+            "after": 0,
+            "before": 1
+          },
+          "sharedMainStockUnchanged": true
+        },
+        "recovery": {
+          "livingModule": "RECOVERED / OPERATIONAL",
+          "medicalStation": "RECOVERED / OPERATIONAL",
+          "accidentalPersonsOrCargo": false
+        }
+      },
       "node": "POST-D019",
       "rule": "本次數值依完整進出紀錄、重量／容積、恆溫存量、裝備與載具紀錄核定",
       "status": "COMPLETE",

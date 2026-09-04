@@ -2,19 +2,19 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "foodLogistics",
   "state": {
     "foodLogistics": {
-      "status": "POST-CUSTOM-A｜EXPEDITION STOCK REPLENISHED / OPERATIONAL",
+      "status": "POST-D026｜FIELD CONSUMPTION RECORDED",
       "emergency": {
         "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
-        "waterPersonDays": 100,
+        "waterPersonDays": 99,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
-        "rationsPersonDays": 100,
+        "rationsPersonDays": 99,
         "teamIndependentDurationDays": 25
       },
       "livingStock": {
@@ -32,10 +32,16 @@
           "長期保存蛋白質",
           "有限易腐食材"
         ],
+        "accountingNote": "曾實際料理但無精確人日換算，維持60帳面值",
         "teamDurationDays": 15
       },
       "accountingMode": "人日；實際使用後才扣除",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
+      "d026Consumption": {
+        "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",
+        "waterPersonDays": 1,
+        "rationsPersonDays": 1
+      },
       "postCustomARestock": {
         "cost": 1480,
         "payer": "公共資金",

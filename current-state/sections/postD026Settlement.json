@@ -1,0 +1,246 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
+  "section": "postD026Settlement",
+  "state": {
+    "postD026Settlement": {
+      "next": "香蕉空間門Ⅰ＋錨點穩定Ⅰ標準化校準；醫療站Ⅲ耗材47%列為後勤補充重點",
+      "node": "POST-D026",
+      "rest": {
+        "facts": [
+          "四人各自休息",
+          "洛與伊恩進入私人休息",
+          "次日洛製作小米粥",
+          "洛僅進行基本纏低負荷修練",
+          "未測增大纏、脈衝、螺旋或巨靈體最大輸出"
+        ],
+        "status": "POST-D026｜REST / RECALIBRATION PENDING"
+      },
+      "medical": {
+        "luo": {
+          "rule": "仍不等於可立刻最大輸出測試；休息優先；無自動念氣增長",
+          "status": "TREATED / COMPLETE",
+          "injuries": [
+            "右掌",
+            "前臂",
+            "右肩",
+            "爆炸回饋",
+            "精準螺旋過度負荷"
+          ]
+        },
+        "station": "RECOVERED / OPERATIONAL",
+        "patientHandoff": "COMPLETE",
+        "accidentalReturnOfCityPatients": false
+      },
+      "mission": {
+        "id": "D026",
+        "name": "黃銅太陽城",
+        "rating": "S",
+        "status": "COMPLETE",
+        "meaning": "4 IN / 4 OUT",
+        "returned": "4/4",
+        "bellLimits": "不代表S評價、額外獎勵或特殊效果",
+        "bellRungBy": "程牧／WIFI",
+        "difficulty": "A"
+      },
+      "rewards": {
+        "publicFunds": 2000,
+        "contribution": {
+          "洛": 1250,
+          "伊恩": 1600,
+          "程牧": 1550,
+          "周映白": 1400
+        },
+        "basePerMember": 3200,
+        "sRatingPerMember": 1800,
+        "branchStoriesGained": {
+          "B": 1,
+          "C": 2
+        }
+      },
+      "resources": {
+        "arrows": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "readyAfter": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+          "recoveredScrapped": 6
+        },
+        "provisions": {
+          "cookingNote": "曾實際料理但無精確人日換算，維持60帳面值",
+          "waterPersonDays": 99,
+          "cookingPersonDays": 60,
+          "rationsPersonDays": 99
+        },
+        "highTierMedical": "無確認消耗",
+        "personalMedical": {
+          "洛": {
+            "速效冷療噴霧Ⅰ": 1,
+            "肌肉舒緩修復噴劑Ⅰ": 0,
+            "複合創傷醫療噴膜Ⅰ": 1
+          }
+        },
+        "medicalStationConsumables": {
+          "afterPercent": 47,
+          "beforePercent": 62,
+          "consumedPercentagePoints": 15
+        },
+        "sharedMedicalConfirmedUnchanged": {
+          "速效冷療噴霧Ⅰ": 8,
+          "肌肉舒緩修復噴劑Ⅰ": 2
+        }
+      },
+      "accounting": {
+        "final": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "before": {
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 5932,
+          "周映白": 12613,
+          "publicFunds": 1500
+        },
+        "purchases": [
+          {
+            "item": "空間門Ⅰ",
+            "owner": "周映白",
+            "points": 5800,
+            "branchStories": {
+              "B": 1,
+              "C": 0
+            }
+          },
+          {
+            "item": "空間門錨點穩定Ⅰ",
+            "owner": "周映白",
+            "points": 2200,
+            "branchStories": {
+              "B": 0,
+              "C": 2
+            }
+          },
+          {
+            "item": "自律式折疊救難醫療站Ⅲ",
+            "owner": "共享",
+            "payer": "公共資金",
+            "points": 3000
+          }
+        ],
+        "afterRewards": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 19013,
+          "publicFunds": 3500
+        }
+      },
+      "coreResults": {
+        "liEnSol": {
+          "age": "約15–16歲",
+          "rule": "合作不等於免責；並非獲得日獸直接神授",
+          "status": "失去獨立控制權／未成年人司法與監護處理"
+        },
+        "brassSun": {
+          "role": "城市光照、熱管理、農業週期、潮汐／部分能源與輸出平滑調節器",
+          "rule": "可保留，但不得再反向壓迫地心日獸",
+          "status": "OPERATIONAL / ROLE CHANGED"
+        },
+        "hermanSol": {
+          "rule": "合作與供述不抵銷責任",
+          "status": "解除權限／權限凍結／正式羈押／全面調查",
+          "responsibility": "重大"
+        },
+        "governance": "赫薇・薩恩接收行動與證據資料；後續採救援、重力工程、民生能源、原始日輪技術與城市代表分權管理",
+        "cityCrisisTruth": {
+          "facts": [
+            "黃銅太陽並非城市唯一能源源頭",
+            "地心日獸／原始日輪為城市深層熱、重力與生命性能源核心",
+            "黃銅太陽後期被錯誤轉化為長期深層壓制器",
+            "過度壓制妨礙日獸自然生命週期並與城市重力異常高度相關"
+          ],
+          "status": "CONFIRMED"
+        },
+        "earthCoreSunBeast": {
+          "status": "ALIVE / BREATHING / STABILIZING",
+          "confirmed": [
+            "自然深呼吸",
+            "自行翻身",
+            "翻身未造成立即坍塌",
+            "呼吸後局部重力相位差下降",
+            "初步分層緩衝有效"
+          ],
+          "roarInterpretation": "四人主觀感受到善意／感謝；不得寫成已證實語言神諭或心靈傳訊"
+        },
+        "radicalControlNetwork": {
+          "status": "DISMANTLED",
+          "victimRule": "受控者不可視為單純自願殉道者"
+        },
+        "sustainableArchitecture": {
+          "layers": [
+            "日獸活動／承托層",
+            "重力／壓力／熱量緩衝層",
+            "城市區域穩定層"
+          ],
+          "status": "ESTABLISHED"
+        },
+        "forcedIgnition162Percent": "CANCELLED"
+      },
+      "growthRules": [
+        "巨靈體Ⅰ大量實戰樣本但不升級",
+        "曲折箭Ⅰ大量實戰樣本，更新為PRACTICAL / FIELD-VALIDATED但不自動升Ⅱ",
+        "引燃／閃燃確認可精細能源斷路，不新增術式",
+        "無總念氣增加",
+        "無閃返步距離增加",
+        "無免費能力升級"
+      ],
+      "newAcquisitions": {
+        "shared": {
+          "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "scale": "約普通教室大小",
+          "status": "UPGRADED / OPERATIONAL",
+          "consumablesPercent": 47
+        },
+        "周映白": [
+          {
+            "name": "空間門Ⅰ",
+            "role": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+            "limits": [
+              "不可向完全未知區域盲開",
+              "距離、門徑、維持時間與連續次數未正式校準",
+              "不增加總體力或閃返步距離"
+            ],
+            "status": "ACQUIRED / RECALIBRATION REQUIRED"
+          },
+          {
+            "name": "空間門錨點穩定Ⅰ",
+            "role": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+            "limits": [
+              "不增加最大距離",
+              "不增加最大門徑",
+              "不增加維持時間硬上限",
+              "不增加能量總量"
+            ],
+            "status": "ACQUIRED / INTEGRATED"
+          }
+        ]
+      }
+    }
+  }
+}

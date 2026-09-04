@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "coreAbilityCards",
   "state": {
     "coreAbilityCards": {
@@ -244,7 +244,7 @@
           "core": "使實體箭矢在可解算範圍內沿受控制的非直線路徑飛行，為掩體、友軍遮擋、側角與狹窄區域建立替代射擊解；不是新箭種。",
           "name": "曲折箭Ⅰ",
           "type": "非直線實體箭道控制／彈道領域整合",
-          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "status": "PRACTICAL / FIELD-VALIDATED",
           "branches": [
             {
               "name": "整合",
@@ -297,6 +297,30 @@
             {
               "name": "限制",
               "detail": "周映白仍不是完整醫師。"
+            }
+          ]
+        },
+        {
+          "core": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+          "name": "空間門Ⅰ",
+          "type": "多人空間通道",
+          "status": "ACQUIRED / RECALIBRATION REQUIRED",
+          "branches": [
+            {
+              "name": "限制",
+              "detail": "不可向完全未知區域盲開；距離、門徑、維持時間與連續次數未正式校準；不增加總體力或閃返步距離"
+            }
+          ]
+        },
+        {
+          "core": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+          "name": "空間門錨點穩定Ⅰ",
+          "type": "空間門穩定強化",
+          "status": "ACQUIRED / INTEGRATED",
+          "branches": [
+            {
+              "name": "限制",
+              "detail": "不增加最大距離；不增加最大門徑；不增加維持時間硬上限；不增加能量總量"
             }
           ]
         }

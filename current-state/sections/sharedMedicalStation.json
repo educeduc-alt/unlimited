@@ -2,32 +2,44 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "sharedMedicalStation",
   "state": {
     "sharedMedicalStation": {
-      "name": "自律式折疊救難應急站Ⅱ",
-      "role": "現場應急醫療穩定站",
+      "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+      "role": "自動化微型醫院型救難醫療站",
+      "scale": "約普通教室大小",
       "limits": [
-        "不是完整醫院",
-        "不做大型手術",
-        "不取代ICU",
-        "不復活",
-        "不提供無限藥品"
+        "不是完整大型醫院",
+        "不是完整ICU",
+        "不是大型外科中心",
+        "不是器官再生中心",
+        "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "OPERATIONAL",
+      "status": "UPGRADED / OPERATIONAL",
       "carrier": "折疊救援模組庫Ⅱ",
       "functions": [
-        "靜脈輸液支援",
-        "應急藥物管理",
-        "進階多床位監測",
-        "應急處置工作位",
-        "醫療耗材艙",
-        "撤離交接紀錄"
+        "自動分診",
+        "多床位生命監測",
+        "醫療機器人",
+        "智能機械臂",
+        "傷患搬運",
+        "清創",
+        "止血",
+        "包紮",
+        "固定",
+        "基礎縫合",
+        "輸液／補液",
+        "氧氣／呼吸支持",
+        "基礎藥物給予",
+        "隔離／觀察",
+        "創傷掃描整合",
+        "組織修復儀整合",
+        "按預設醫療協議自主運作"
       ],
-      "lastAudit": "D021 COMPLETE／剩餘62%",
+      "lastAudit": "D026 COMPLETE／62%→47%",
       "ownerType": "共享大型救援資產",
       "stockCost": 600,
       "stockType": "正式有限實體庫存",
@@ -38,11 +50,11 @@
         "consumableRestock": "REQUIRED",
         "routineInspection": "REQUIRED"
       },
-      "stockStatus": "62% REMAINING / RESTOCK RECOMMENDED",
+      "stockStatus": "47% REMAINING / RESTOCK PRIORITY",
       "robotsStatus": "OPERATIONAL",
       "restockStatus": "NOT PURCHASED",
       "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
-      "lastDeployment": "D021《墜星殖民地》",
+      "lastDeployment": "D026《黃銅太陽城》",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
         "傷口清潔液": 5,
@@ -59,7 +71,7 @@
       },
       "primaryOperator": "周映白",
       "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
-      "medicalStockPercent": 62,
+      "medicalStockPercent": 47,
       "mechanicalArmsStatus": "OPERATIONAL",
       "tenPersonMedicalStock": {
         "抗生素": "未列入自動標準應急藥庫",
@@ -75,7 +87,8 @@
         "支氣管舒張應急單元": 5,
         "標準應急注射止痛劑": 7
       },
-      "d021ConsumptionRatePercent": 38
+      "d021ConsumptionRatePercent": 38,
+      "d026ConsumptionRatePercent": 15
     }
   }
 }

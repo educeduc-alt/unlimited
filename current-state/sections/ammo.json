@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -60,9 +60,9 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-CUSTOM-A｜箭矢自律維修模組Ⅰ安裝／閃光箭3支修復完成",
-      "combatReady": 162,
-      "currentTotal": 162,
+      "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
+      "combatReady": 144,
+      "currentTotal": 144,
       "repairModule": {
         "cost": 800,
         "name": "箭矢自律維修模組Ⅰ",
@@ -111,9 +111,9 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "162 READY／0 REPAIR／束縛鎖箭1支歷史永久消耗",
+      "inventoryStatus": "144 READY／D026後分項待盤點",
       "repairBreakdown": {},
-      "accountingPresent": 162,
+      "accountingPresent": 144,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
@@ -130,6 +130,16 @@
         "cardBeforeTotal": 117,
         "v77PriorSnapshot": 114,
         "finalDetailedTotal": 113
+      },
+      "d026Reconciliation": {
+        "fired": 41,
+        "before": 162,
+        "netLoss": 18,
+        "readyAfter": 144,
+        "unrecovered": 12,
+        "recoveredUsable": 23,
+        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+        "recoveredScrapped": 6
       },
       "inventoryCorrection": {
         "status": "FULLY_RECONCILED",
@@ -199,7 +209,8 @@
         "directlyRecovered": {
           "電擊干擾箭Ⅰ": 1
         }
-      }
+      },
+      "authoritativeDetailedSnapshot": false
     }
   }
 }

@@ -2,18 +2,24 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 26574,
-      "publicFunds": 1500,
-      "privateTotal": 25074,
+      "grandTotal": 43374,
+      "publicFunds": 500,
+      "privateTotal": 42874,
       "branchStories": {
         "B": 0,
         "C": 0
+      },
+      "privatePoints": {
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -392,6 +398,61 @@
           "mechanicalArms": "OPERATIONAL",
           "consumedPercent": 38,
           "stockRemainingPercent": 62
+        }
+      },
+      "d026Settlement": {
+        "final": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "before": {
+          "洛": 2179,
+          "伊恩": 4350,
+          "程牧": 5932,
+          "周映白": 12613,
+          "publicFunds": 1500
+        },
+        "purchases": [
+          {
+            "item": "空間門Ⅰ",
+            "owner": "周映白",
+            "points": 5800,
+            "branchStories": {
+              "B": 1,
+              "C": 0
+            }
+          },
+          {
+            "item": "空間門錨點穩定Ⅰ",
+            "owner": "周映白",
+            "points": 2200,
+            "branchStories": {
+              "B": 0,
+              "C": 2
+            }
+          },
+          {
+            "item": "自律式折疊救難醫療站Ⅲ",
+            "owner": "共享",
+            "payer": "公共資金",
+            "points": 3000
+          }
+        ],
+        "afterRewards": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 19013,
+          "publicFunds": 3500
         }
       },
       "sharedSideStory": {

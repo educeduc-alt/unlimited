@@ -2,18 +2,19 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 118,
-  "updated_at": "2026-09-02T12:42:46.062151+00:00",
+  "version": 120,
+  "updated_at": "2026-09-04T09:57:26.250232+00:00",
   "section": "restPeriod",
   "state": {
     "restPeriod": {
-      "title": "POST-CUSTOM-A休整與再校準",
-      "status": "COMPLETE",
-      "location": "AI主神空間",
-      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
-      "nextMission": "UNSELECTED",
-      "resourceRule": "不回扣或重算已正式核帳之歷史副本資源",
-      "teamCondition": "四人生命正常／精神穩定；依各自最新測試結果休整完成或進入測試後休整"
+      "node": "POST-D026",
+      "rules": [
+        "休息優先",
+        "洛僅低負荷基本纏",
+        "未測最大輸出",
+        "香蕉空間門標準化校準待進行"
+      ],
+      "status": "REST / RECALIBRATION PENDING"
     }
   }
 }

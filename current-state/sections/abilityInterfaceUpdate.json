@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "abilityInterfaceUpdate",
   "state": {
     "abilityInterfaceUpdate": {
@@ -55,7 +55,7 @@
       },
       "narrativeRule": "正常副本採短名稱＋實際動作；底層分配、導能、被動支援與裝備模組默認同步運作，除非其結構本身是測試或劇情重點。",
       "equipmentRules": [
-        "周映白的折疊救援模組庫Ⅱ只作裝備記錄；一鍵切換與救援工具不拆成技能。",
+        "周映白的折疊救援模組庫Ⅲ只作裝備記錄；一鍵切換與救援工具不拆成技能。",
         "程牧的灰隼重磅戰弓與折疊智能箭庫Ⅰ只作裝備記錄。",
         "伊恩的多核心／自律節點是複式法陣與大型法陣的進階模式，不另列主要招式。"
       ]

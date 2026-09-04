@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "publicAssets",
   "state": {
     "publicAssets": [
@@ -27,7 +27,7 @@
           "points": 6500,
           "BBranch": 1
         },
-        "name": "B級｜兩棲折疊救援車Ⅱ",
+        "name": "B級｜兩棲折疊救援車Ⅲ",
         "type": "跨副本陸／水機動救援載具",
         "limits": [
           "完整隊伍依適性分工但不鎖定職位",
@@ -100,11 +100,11 @@
           "可固定救生索、拖帶帶具、輕型擔架及相容外掛載荷",
           "改善車外救援／後送固定能力"
         ],
-        "installedOn": "B級｜兩棲折疊救援車Ⅱ"
+        "installedOn": "B級｜兩棲折疊救援車Ⅲ"
       },
       {
         "core": "約普通教室大小的自律救援節點。",
-        "name": "自律式折疊救難應急站Ⅱ",
+        "name": "自律式折疊救難醫療站Ⅲ",
         "role": "現場應急醫療穩定站",
         "type": "共享大型救援資產／主要操作員周映白",
         "limits": [
@@ -116,7 +116,7 @@
         ],
         "paidBy": "公共資金",
         "status": "OPERATIONAL",
-        "carrier": "折疊救援模組庫Ⅱ",
+        "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
         "functions": [
           "靜脈輸液支援",
@@ -196,7 +196,7 @@
           "車窗除霜／除霧",
           "乘員艙與傷員區溫度調節"
         ],
-        "installedOn": "B級｜兩棲折疊救援車Ⅱ"
+        "installedOn": "B級｜兩棲折疊救援車Ⅲ"
       },
       {
         "cost": 320,
@@ -300,7 +300,7 @@
         ],
         "energyRule": "可連接救援車能源；保護最低撤離能源餘量，可能侵占撤離安全餘量時高耗能設備限載／停止",
         "storageGrade": "L",
-        "compatibleVehicle": "B級｜兩棲折疊救援車Ⅱ"
+        "compatibleVehicle": "B級｜兩棲折疊救援車Ⅲ"
       },
       {
         "cost": 10500,
@@ -358,7 +358,7 @@
       },
       {
         "cost": 650,
-        "name": "正式遠征露營模組Ⅰ",
+        "name": "正式遠征居住模組Ⅱ",
         "type": "長距離遠征營地設備",
         "status": "OPERATIONAL",
         "quantity": 1,
@@ -402,7 +402,7 @@
         "type": "遠征路線實測與回撤記錄",
         "status": "INSTALLED / OPERATIONAL",
         "quantity": 1,
-        "installedOn": "兩棲折疊救援車Ⅱ"
+        "installedOn": "兩棲折疊救援車Ⅲ"
       }
     ]
   }

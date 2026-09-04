@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "economy",
   "state": {
     "economy": {
@@ -437,14 +437,18 @@
             "points": 2200,
             "branchStories": {
               "B": 0,
-              "C": 2
+              "C": 1
             }
           },
           {
             "item": "自律式折疊救難醫療站Ⅲ",
             "owner": "共享",
             "payer": "公共資金",
-            "points": 3000
+            "points": 3000,
+            "branchStories": {
+              "B": 0,
+              "C": 1
+            }
           }
         ],
         "afterRewards": {
@@ -594,12 +598,12 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 25074,
+      "privatePointsTotal": 42874,
       "currentPrivatePoints": {
-        "洛": 2179,
-        "伊恩": 4350,
-        "程牧": 5932,
-        "周映白": 12613
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013
       },
       "reconciliationHistory": [
         {

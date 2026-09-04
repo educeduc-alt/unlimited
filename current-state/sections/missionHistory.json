@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "missionHistory",
   "state": {
     "missionHistory": [
@@ -2294,6 +2294,40 @@
           "72小時時限"
         ],
         "mainObjective": "72小時內建立可延續的城市救援能力並處理模仿鬼物源頭"
+      },
+      {
+        "id": "D025",
+        "name": "第九審判庭",
+        "world": "第九審判庭",
+        "rating": "S",
+        "result": "九審全員通過／終局碎片01取得",
+        "category": "正式副本",
+        "sequence": 25,
+        "difficulty": "B+",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "mainObjective": "在九輪審判結束前證明四人存在之合法性與自我定義權｜COMPLETE"
+      },
+      {
+        "id": "D026",
+        "name": "黃銅太陽城",
+        "world": "黃銅太陽城",
+        "rating": "S",
+        "result": "COMPLETE／4 IN 4 OUT",
+        "category": "正式副本",
+        "sequence": 26,
+        "difficulty": "A",
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "mainObjective": "阻止162%強制點火並建立不壓迫地心日獸的永續城市結構｜COMPLETE"
       }
     ]
   }

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -13,16 +13,7 @@
         "鈍擊箭": "鈍擊衝擊箭"
       },
       "entries": {
-        "信標箭": 15,
-        "冰凍箭": 15,
-        "標準箭": 28,
-        "煙幕箭": 15,
-        "爆裂箭": 15,
-        "鈍擊箭": 15,
-        "束縛鎖箭": 14,
-        "重型破障箭": 15,
-        "閃光干擾箭": 15,
-        "電擊干擾箭Ⅰ": 15
+        "D026後可用箭矢（分項待盤點）": 144
       },
       "capacity": "UNSPECIFIED_FINITE",
       "timeline": [
@@ -111,7 +102,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "144 READY／D026後分項待盤點",
+      "inventoryStatus": "144 READY／D026後分項待盤點；舊162支分項已移入歷史快照",
       "repairBreakdown": {},
       "accountingPresent": 144,
       "d021Reconciliation": {
@@ -189,6 +180,18 @@
         "standardArrowSubtotal": 100
       },
       "damagedPendingRepair": 0,
+      "preD026DetailedEntries": {
+        "信標箭": 15,
+        "冰凍箭": 15,
+        "標準箭": 28,
+        "煙幕箭": 15,
+        "爆裂箭": 15,
+        "鈍擊箭": 15,
+        "束縛鎖箭": 14,
+        "重型破障箭": 15,
+        "閃光干擾箭": 15,
+        "電擊干擾箭Ⅰ": 15
+      },
       "customAGrayCityConsumption": {
         "rule": "其他未逐箭記錄的射擊不自行追加損耗",
         "before": 163,

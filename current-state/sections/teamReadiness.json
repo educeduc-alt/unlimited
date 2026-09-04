@@ -2,23 +2,23 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "teamReadiness",
   "state": {
     "teamReadiness": {
       "eva": "四人FIELD-VALIDATED / OPERATIONAL",
-      "洛": "POST-CUSTOM-A｜恢復後念氣重測完成／500%最大輸出未測",
-      "伊恩": "POST-CUSTOM-A｜質變突破01初測完成／精神負荷休整中",
-      "程牧": "POST-CUSTOM-A｜多箭種戰術鏈測試完成／箭庫162 READY",
-      "overall": "READY / PRE-NEXT-MISSION",
+      "洛": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
+      "伊恩": "POST-D026｜返還完成／休整",
+      "程牧": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
+      "overall": "POST-D026 / REST / RECALIBRATION PENDING",
       "location": "AI主神空間",
       "foodWater": "補貨核帳完成",
-      "周映白": "POST-CUSTOM-A｜連續閃返總距離測試完成／仍保有救援能力",
+      "周映白": "POST-D026｜空間門Ⅰ＋錨點穩定Ⅰ取得／標準化校準待進行",
       "largeAssets": "RECOVERED / STORED",
-      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
+      "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "medicalStation": "自律式折疊救難應急站Ⅱ｜OPERATIONAL｜醫療耗材62%剩餘"
+      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘"
     }
   }
 }

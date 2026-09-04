@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 121,
-  "updated_at": "2026-09-04T10:06:00.879017+00:00",
+  "version": 123,
+  "updated_at": "2026-09-04T10:26:30.561678+00:00",
   "section": "sharedDimensionalBag",
   "state": {
     "sharedDimensionalBag": {
@@ -49,7 +49,7 @@
               "volumeM3": 0.94
             },
             {
-              "name": "正式遠征露營模組Ⅰ",
+              "name": "正式遠征居住模組Ⅱ",
               "status": "OPERATIONAL",
               "volumeM3": 2.5
             },
@@ -105,7 +105,7 @@
           "status": "CURRENT",
           "contents": [
             {
-              "name": "兩棲折疊救援車Ⅱ",
+              "name": "兩棲折疊救援車Ⅲ",
               "status": "OPERATIONAL",
               "volumeM3": 5.05
             }
@@ -245,7 +245,7 @@
             "id": "vehicle",
             "icon": "🚙",
             "items": [
-              "兩棲折疊救援車Ⅱ",
+              "兩棲折疊救援車Ⅲ",
               "旅星｜四人折疊多用途艇"
             ],
             "label": "載具"
@@ -337,7 +337,7 @@
         "installedOn": "四人共享次元行囊Ⅲ"
       },
       "usedVolumeM3": 32.95,
-      "accountingNote": "救難應急站Ⅱ由折疊救援模組庫Ⅱ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。",
+      "accountingNote": "自律式折疊救難醫療站Ⅲ由折疊救援模組庫Ⅲ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。",
       "backupEnergyM3": 0.86,
       "trainingStatus": "第一階段共享空間戰術使用適應完成",
       "foodZoneSummary": {

@@ -2,26 +2,45 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 123,
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "section": "trainingStatus",
   "state": {
     "trainingStatus": {
-      "node": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
-      "rule": "只記錄已成立且可重現之測試結果；未測上限不得自動補完或升階",
-      "status": "CURRENT / RECALIBRATION COMPLETE WITH LIMITS PENDING",
+      "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "rule": "本輪熟悉不新增超自然技能、能量總量或能力等級；不提高最大距離或硬體理論上限；僅更新已確認的實用化、操作熟悉、協同與安全基準",
+      "status": "COMPLETE / SAFE PRACTICAL BENCHMARKS ESTABLISHED",
       "completed": [
-        "洛：恢復後念氣重測完成；增大念氣117.67秒平均／穩定改善+5.4%／不判定總念氣增加",
-        "周映白：連續閃返7m×8＝56m完成；救援能力保留；最大單次距離不更新",
-        "WIFI：多箭種戰術選項庫／戰術鏈測試完成；不固定Combo",
-        "伊恩：術式領域Ⅰ ACQUIRED；術式具現體Ⅰ ACQUIRED；領域×具現體區域控制網 CONFIRMED"
+        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+        "香蕉：空間門多人／雙人並行／擔架後送實用",
+        "WIFI：曲折箭接近90°大角度實戰用途確認",
+        "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
-      "nextScene": "AI主神空間｜等待下一副本選擇",
+      "priorities": {
+        "洛": [
+          "恢復優先",
+          "後續再測須佐洛高階整合",
+          "不急追最大輸出"
+        ],
+        "伊恩": [
+          "自律節點分工",
+          "多核心負荷管理",
+          "與香蕉空間門條件式支援"
+        ],
+        "程牧": [
+          "曲折箭高角度實戰化",
+          "多掩體／隊友交錯射線訓練"
+        ],
+        "周映白": [
+          "空間門救援流程熟悉",
+          "後續校準距離／門徑／持續時間"
+        ]
+      },
       "notPerformed": [
-        "洛：500%最大輸出未測",
-        "伊恩：術式領域極限未測",
-        "伊恩：術式具現體最大數量未測",
-        "其他質變候選：未購入"
+        "巨靈體超過11m、最大維持時間及最大輸出未測",
+        "空間門最大距離／門徑／維持與流量未測",
+        "曲折箭180°與多次極端直角折返未確認"
       ]
     }
   }

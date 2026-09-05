@@ -2,13 +2,13 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 123,
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "section": "equipmentDetails",
   "state": {
     "equipmentDetails": {
       "洛": {
-        "main": "導能複合籠手Ⅲ",
+        "main": "導能複合籠手Ⅲ｜碳晶直通導能型",
         "items": [],
         "limits": [
           "不增加念氣總量",
@@ -18,7 +18,7 @@
           "不取消心肺與肉體負荷",
           "籠手不能替代身體承受反作用力"
         ],
-        "status": "OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+        "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
         "modules": [
           "一體式導能骨架Ⅰ",
           "導能嵌片陣列Ⅱ",
@@ -81,10 +81,142 @@
         "tacticalSuit": "流脈近戰戰術服Ⅱ",
         "recalibration": {
           "rule": "低強度→中強度→狀態確認→再決定是否提高；不得直接跳最大輸出脈衝×螺旋。",
-          "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+          "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
           "basicTen": "PASS / HIGHLY STABLE",
+          "postD026": {
+            "spiral": {
+              "scope": "STANDARD OUTPUT",
+              "status": "PASS / STABLE",
+              "untested": [
+                "最大輸出",
+                "高負荷連續螺旋",
+                "脈衝×螺旋最大輸出"
+              ],
+              "confirmed": [
+                "前臂螺旋→拳面導流更加直接",
+                "標準輸出右手、前臂、肩部無異常",
+                "收拳後念回收感改善"
+              ]
+            },
+            "gauntlet": {
+              "cost": "本卡未提供改修報價，不追加推定扣款",
+              "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+              "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+              "effects": [
+                "更輕、更貼近皮膚",
+                "碳晶／定向導能纖維縮短主要導能路徑",
+                "手腕→前臂→拳面導能更加直接",
+                "裝備端转接感與滯後降低",
+                "念氣分流、集中與回收感更清楚",
+                "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+              ],
+              "noIncrease": [
+                "總念氣",
+                "肉體肌力",
+                "螺旋右拳理論最大輸出",
+                "巨靈體等級",
+                "新技能"
+              ]
+            },
+            "dynamicFlow": {
+              "limits": [
+                "不是自動戰鬥",
+                "不是零延遲",
+                "不取消肉體承載"
+              ],
+              "status": "HIGHLY INTEGRATED / EMBEDDED",
+              "sequence": "動作意圖→念分配→承力／輸出→回收",
+              "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+              "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+            },
+            "giantSpirit": {
+              "not": [
+                "獨立人格",
+                "自律戰鬥單位",
+                "額外念氣槽",
+                "獨立無限力量來源"
+              ],
+              "name": "巨靈體Ⅰ",
+              "pulse": {
+                "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+                "status": "LOW-LOAD SYNC PASS",
+                "distanceM": 5
+              },
+              "boxing": {
+                "status": "PASS",
+                "confirmed": [
+                  "低輸出刺拳／直拳同步",
+                  "左右／前後／斜向小碎步同步"
+                ]
+              },
+              "status": "PRACTICAL / INTEGRATION CONFIRMED",
+              "above11m": "UNTESTED",
+              "fullForm": {
+                "scope": "首次安全實用維持基準／非最大維持時間",
+                "status": "PASS",
+                "minutes": 10,
+                "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+              },
+              "nickname": "須佐洛",
+              "untested": [
+                "最大維持時間",
+                "最大力量與承重",
+                "更高階／最大輸出整合"
+              ],
+              "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+              "maximumSize": "UNKNOWN；只確認至少可達約11m",
+              "sizeCalibration": [
+                {
+                  "meters": 6,
+                  "status": "PRACTICAL / HIGH CONTROL"
+                },
+                {
+                  "meters": 8,
+                  "status": "PRACTICAL / STABLE"
+                },
+                {
+                  "meters": 10,
+                  "status": "CONTROLLED / HIGHER LOAD"
+                },
+                {
+                  "meters": 11,
+                  "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+                }
+              ]
+            },
+            "combatConcept": "拳擊＋小碎步",
+            "pulseFootwork": {
+              "type": "既有脈衝運用／非新技能",
+              "limits": [
+                "不是瞬移",
+                "仍有慣性",
+                "仍需煞停與重建姿態",
+                "連續使用累積心肺、腿部與念氣負荷",
+                "8連不可無限制重複"
+              ],
+              "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+              "benchmarks": {
+                "4連": "HIGHLY STABLE",
+                "6連": "STABLE / PRACTICAL",
+                "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+              },
+              "safePracticalRepetitions": "4～6連"
+            },
+            "enhancedAuraPulse": {
+              "costs": [
+                "增大纏持續耗念",
+                "脈衝追加瞬間消耗",
+                "心肺、肌肉、關節與煞停負荷提高"
+              ],
+              "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+              "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+              "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+              "totalAuraIncrease": false
+            }
+          },
           "repeatFire": "NOT TESTED",
-          "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+          "dynamicFlow": "HIGHLY INTEGRATED / EMBEDDED",
+          "effectiveAt": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
           "enhancedTen": "112／110／113秒；平均111.67秒",
           "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
           "pulseBrake5m": "PASS",
@@ -101,7 +233,7 @@
           ],
           "maximumOutput": "NOT TESTED",
           "outputRecovery": "輸出後念流沿籠手Ⅲ、肩與核心回到全身；較舊結構乾淨",
-          "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS",
+          "spiralRightPunch": "STANDARD OUTPUT PASS / STABLE",
           "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY",
           "lowIntensityAdaptation": "COMPLETE"
         },
@@ -193,6 +325,26 @@
           "points": 1846,
           "ability": "念體一元化Ⅰ",
           "spiralTest": "前臂核心→全右臂→全身動力鏈；64→52，改善18.75%；最大威力不自動增加"
+        },
+        "currentIntegration": {
+          "cost": "本卡未提供改修報價，不追加推定扣款",
+          "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+          "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+          "effects": [
+            "更輕、更貼近皮膚",
+            "碳晶／定向導能纖維縮短主要導能路徑",
+            "手腕→前臂→拳面導能更加直接",
+            "裝備端转接感與滯後降低",
+            "念氣分流、集中與回收感更清楚",
+            "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+          ],
+          "noIncrease": [
+            "總念氣",
+            "肉體肌力",
+            "螺旋右拳理論最大輸出",
+            "巨靈體等級",
+            "新技能"
+          ]
         },
         "integrationProfile": {
           "effects": [

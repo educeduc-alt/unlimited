@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 123,
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "section": "abilities",
   "state": {
     "abilities": {
@@ -479,6 +479,142 @@
             "pulseBrake5m": "PASS / 可嵌入動態流"
           },
           "effectiveAt": "POST-D022｜第六階段戰力化"
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "spiral": {
+              "scope": "STANDARD OUTPUT",
+              "status": "PASS / STABLE",
+              "untested": [
+                "最大輸出",
+                "高負荷連續螺旋",
+                "脈衝×螺旋最大輸出"
+              ],
+              "confirmed": [
+                "前臂螺旋→拳面導流更加直接",
+                "標準輸出右手、前臂、肩部無異常",
+                "收拳後念回收感改善"
+              ]
+            },
+            "gauntlet": {
+              "cost": "本卡未提供改修報價，不追加推定扣款",
+              "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+              "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+              "effects": [
+                "更輕、更貼近皮膚",
+                "碳晶／定向導能纖維縮短主要導能路徑",
+                "手腕→前臂→拳面導能更加直接",
+                "裝備端转接感與滯後降低",
+                "念氣分流、集中與回收感更清楚",
+                "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+              ],
+              "noIncrease": [
+                "總念氣",
+                "肉體肌力",
+                "螺旋右拳理論最大輸出",
+                "巨靈體等級",
+                "新技能"
+              ]
+            },
+            "dynamicFlow": {
+              "limits": [
+                "不是自動戰鬥",
+                "不是零延遲",
+                "不取消肉體承載"
+              ],
+              "status": "HIGHLY INTEGRATED / EMBEDDED",
+              "sequence": "動作意圖→念分配→承力／輸出→回收",
+              "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+              "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+            },
+            "giantSpirit": {
+              "not": [
+                "獨立人格",
+                "自律戰鬥單位",
+                "額外念氣槽",
+                "獨立無限力量來源"
+              ],
+              "name": "巨靈體Ⅰ",
+              "pulse": {
+                "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+                "status": "LOW-LOAD SYNC PASS",
+                "distanceM": 5
+              },
+              "boxing": {
+                "status": "PASS",
+                "confirmed": [
+                  "低輸出刺拳／直拳同步",
+                  "左右／前後／斜向小碎步同步"
+                ]
+              },
+              "status": "PRACTICAL / INTEGRATION CONFIRMED",
+              "above11m": "UNTESTED",
+              "fullForm": {
+                "scope": "首次安全實用維持基準／非最大維持時間",
+                "status": "PASS",
+                "minutes": 10,
+                "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+              },
+              "nickname": "須佐洛",
+              "untested": [
+                "最大維持時間",
+                "最大力量與承重",
+                "更高階／最大輸出整合"
+              ],
+              "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+              "maximumSize": "UNKNOWN；只確認至少可達約11m",
+              "sizeCalibration": [
+                {
+                  "meters": 6,
+                  "status": "PRACTICAL / HIGH CONTROL"
+                },
+                {
+                  "meters": 8,
+                  "status": "PRACTICAL / STABLE"
+                },
+                {
+                  "meters": 10,
+                  "status": "CONTROLLED / HIGHER LOAD"
+                },
+                {
+                  "meters": 11,
+                  "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+                }
+              ]
+            },
+            "combatConcept": "拳擊＋小碎步",
+            "pulseFootwork": {
+              "type": "既有脈衝運用／非新技能",
+              "limits": [
+                "不是瞬移",
+                "仍有慣性",
+                "仍需煞停與重建姿態",
+                "連續使用累積心肺、腿部與念氣負荷",
+                "8連不可無限制重複"
+              ],
+              "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+              "benchmarks": {
+                "4連": "HIGHLY STABLE",
+                "6連": "STABLE / PRACTICAL",
+                "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+              },
+              "safePracticalRepetitions": "4～6連"
+            },
+            "enhancedAuraPulse": {
+              "costs": [
+                "增大纏持續耗念",
+                "脈衝追加瞬間消耗",
+                "心肺、肌肉、關節與煞停負荷提高"
+              ],
+              "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+              "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+              "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+              "totalAuraIncrease": false
+            }
+          }
         }
       ],
       "伊恩": [
@@ -717,7 +853,23 @@
             ],
             "result": "偵測／穩定／導流三種低複雜度節點可在預設條件內自行維持；超出條件即停止並提示接管"
           },
-          "effectiveAt": "POST-D022｜第六階段戰力化"
+          "effectiveAt": "POST-D022｜第六階段戰力化",
+          "currentTraining": {
+            "name": "術式自律節點Ⅰ",
+            "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+            "training": [
+              "單節點監測",
+              "單節點維持",
+              "條件成立時有限介入",
+              "多節點分工"
+            ],
+            "principles": [
+              "低複雜度預設條件",
+              "無人格",
+              "不自行創造術式",
+              "不自行判敵"
+            ]
+          }
         },
         {
           "name": "多核心法陣Ⅰ",
@@ -728,7 +880,7 @@
             "精神負荷仍存在",
             "需要後續訓練"
           ],
-          "status": "STANDARDIZED LOW-TO-MID TEST PASS",
+          "status": "PRACTICAL INTEGRATION PROGRESSING",
           "formalTest": {
             "limits": [
               "不是無限多核",
@@ -737,7 +889,52 @@
             ],
             "result": "雙核心分工與壓力分流成立；單側節點故障時第二核心可接住部分結構並提供重新分配窗口"
           },
-          "effectiveAt": "POST-D022｜第六階段戰力化"
+          "effectiveAt": "POST-D022｜第六階段戰力化",
+          "currentTraining": {
+            "name": "多核心法陣Ⅰ",
+            "effect": "改善精神負荷分配與多工作業；不是能量增加",
+            "status": "PRACTICAL INTEGRATION PROGRESSING",
+            "training": [
+              "雙主核心並行",
+              "不同功能同步維持",
+              "一側維持／穩定",
+              "另一側保留應急術式或其他操作"
+            ]
+          }
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "multiCore": {
+              "name": "多核心法陣Ⅰ",
+              "effect": "改善精神負荷分配與多工作業；不是能量增加",
+              "status": "PRACTICAL INTEGRATION PROGRESSING",
+              "training": [
+                "雙主核心並行",
+                "不同功能同步維持",
+                "一側維持／穩定",
+                "另一側保留應急術式或其他操作"
+              ]
+            },
+            "autonomousNode": {
+              "name": "術式自律節點Ⅰ",
+              "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+              "training": [
+                "單節點監測",
+                "單節點維持",
+                "條件成立時有限介入",
+                "多節點分工"
+              ],
+              "principles": [
+                "低複雜度預設條件",
+                "無人格",
+                "不自行創造術式",
+                "不自行判敵"
+              ]
+            }
+          }
         }
       ],
       "程牧": [
@@ -939,24 +1136,104 @@
         {
           "name": "曲折箭Ⅰ",
           "type": "非直線彈道控制／彈道領域擴充",
-          "detail": "在WIFI本人完成目標判斷、選箭、拉弓與射擊後，可於彈道領域內建立有限度非直線飛行路徑，用於繞過掩體邊緣、友軍直線遮擋與部分死角。",
+          "detail": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
           "limits": [
-            "不是自動瞄準",
             "不是必中",
-            "不是自動判敵",
-            "不是自動射擊",
-            "曲折幅度越大，解算難度、誤差與箭體／控制負荷越高",
-            "不允許無視封閉實體障礙直接穿透",
-            "特殊箭仍受有限實體庫存限制"
+            "不是自動追蹤",
+            "不是空間傳送",
+            "本人決定目標、路徑、轉向時機與箭種",
+            "劇烈轉向提高速度、穩定、射程與精度要求",
+            "不穿牆",
+            "不自動判敵、瞄準或射擊"
           ],
-          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "status": "PRACTICAL / FIELD-VALIDATED",
           "synergy": [
             "彈道領域Ⅰ",
             "共享視界｜威脅預測Ⅰ",
             "四人共享戰術視界",
             "灰隼重磅戰弓"
           ],
-          "effectiveAt": "POST-D025｜曲折箭Ⅰ正式兌換"
+          "effectiveAt": "POST-D025｜曲折箭Ⅰ正式兌換",
+          "currentTraining": {
+            "name": "曲折箭Ⅰ",
+            "uses": [
+              "繞掩體",
+              "轉角射擊",
+              "避開隊友後重新切入目標",
+              "非正面射線",
+              "精細裝置破壞／救援射擊"
+            ],
+            "limits": [
+              "不是必中",
+              "不是自動追蹤",
+              "不是空間傳送",
+              "本人決定目標、路徑、轉向時機與箭種",
+              "劇烈轉向提高速度、穩定、射程與精度要求",
+              "不穿牆",
+              "不自動判敵、瞄準或射擊"
+            ],
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "synergy": [
+              "四人共享戰術視界",
+              "威脅預測Ⅰ",
+              "彈道領域Ⅰ"
+            ],
+            "confirmed": [
+              "小角度曲線調整",
+              "中幅繞障",
+              "高角度折線改向",
+              "接近90°大角度轉向可作代表性實戰用途"
+            ],
+            "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+            "unconfirmed": [
+              "180°回頭",
+              "多次連續極端直角折返"
+            ]
+          }
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "curveArrow": {
+              "name": "曲折箭Ⅰ",
+              "uses": [
+                "繞掩體",
+                "轉角射擊",
+                "避開隊友後重新切入目標",
+                "非正面射線",
+                "精細裝置破壞／救援射擊"
+              ],
+              "limits": [
+                "不是必中",
+                "不是自動追蹤",
+                "不是空間傳送",
+                "本人決定目標、路徑、轉向時機與箭種",
+                "劇烈轉向提高速度、穩定、射程與精度要求",
+                "不穿牆",
+                "不自動判敵、瞄準或射擊"
+              ],
+              "status": "PRACTICAL / FIELD-VALIDATED",
+              "synergy": [
+                "四人共享戰術視界",
+                "威脅預測Ⅰ",
+                "彈道領域Ⅰ"
+              ],
+              "confirmed": [
+                "小角度曲線調整",
+                "中幅繞障",
+                "高角度折線改向",
+                "接近90°大角度轉向可作代表性實戰用途"
+              ],
+              "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+              "unconfirmed": [
+                "180°回頭",
+                "多次連續極端直角折返"
+              ]
+            },
+            "combatStyle": "由尋找現有射線進展為主動創造射線"
+          }
         }
       ],
       "周映白": [
@@ -1214,6 +1491,57 @@
             "result": "可重現辨識遮蔽後明顯實體阻礙與人工空間異常"
           },
           "effectiveAt": "POST-D022｜第六階段戰力化"
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "anchor": {
+              "name": "空間門錨點穩定Ⅰ",
+              "status": "INTEGRATED",
+              "effects": [
+                "改善門框穩定",
+                "降低短時震動、結構移動與部分空間擾動影響",
+                "減少多人／擔架通過時修正負擔"
+              ],
+              "noIncrease": [
+                "最大距離",
+                "最大門徑",
+                "總能量",
+                "未知落點安全性"
+              ]
+            },
+            "spaceGate": {
+              "name": "空間門Ⅰ",
+              "status": "ACQUIRED / PRACTICAL",
+              "unknown": [
+                "最大距離",
+                "最大門徑",
+                "最大維持時間",
+                "最大連續通行量",
+                "高重力／高空間干擾極限"
+              ],
+              "confirmed": [
+                "短距離、已確認安全端點穩定建立",
+                "單人通行PASS",
+                "多人依序通行PASS",
+                "雙人並行PASS",
+                "擔架後送PRACTICAL",
+                "低程度環境震動下可使用"
+              ]
+            },
+            "rescueProcedure": [
+              "落點確認",
+              "開門",
+              "人員／擔架通過",
+              "維持",
+              "移位",
+              "關門",
+              "再建立",
+              "自身最後通過／返回現場"
+            ]
+          }
         }
       ]
     }

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 123,
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -225,7 +225,7 @@
         "mental": "穩定",
         "points": 8429,
         "nenType": "強化系",
-        "stamina": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
+        "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
         "heightCm": 175,
         "bloodline": "無",
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
@@ -256,7 +256,7 @@
         "gender": "男",
         "mental": "穩定",
         "points": 11013,
-        "stamina": "POST-D026｜空間門Ⅰ取得／標準化校準待進行",
+        "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
         "heightCm": 183,
         "nickname": "香蕉",
         "bloodline": "無",
@@ -286,7 +286,7 @@
         "gender": "女",
         "mental": "重大情緒釋放後已重新穩定",
         "points": 10950,
-        "stamina": "POST-D026｜返還完成／休整",
+        "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
         "heightCm": 165,
         "nickname": "公主",
         "bloodline": "無",
@@ -330,7 +330,7 @@
         "gender": "男",
         "mental": "穩定",
         "points": 12482,
-        "stamina": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
+        "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
         "heightCm": 180,
         "nickname": "WIFI",
         "bloodline": "無",
@@ -1914,7 +1914,7 @@
       }
     },
     "mission": "D026《黃銅太陽城》｜COMPLETE｜S",
-    "version": 123,
+    "version": 124,
     "bestiary": [
       {
         "id": "M001",
@@ -2883,7 +2883,7 @@
       }
     },
     "location": "AI主神空間",
-    "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
+    "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
     "tracking": {
       "missionHistory": [],
       "trainingRecords": [
@@ -3455,6 +3455,142 @@
             "pulseBrake5m": "PASS / 可嵌入動態流"
           },
           "effectiveAt": "POST-D022｜第六階段戰力化"
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "spiral": {
+              "scope": "STANDARD OUTPUT",
+              "status": "PASS / STABLE",
+              "untested": [
+                "最大輸出",
+                "高負荷連續螺旋",
+                "脈衝×螺旋最大輸出"
+              ],
+              "confirmed": [
+                "前臂螺旋→拳面導流更加直接",
+                "標準輸出右手、前臂、肩部無異常",
+                "收拳後念回收感改善"
+              ]
+            },
+            "gauntlet": {
+              "cost": "本卡未提供改修報價，不追加推定扣款",
+              "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+              "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+              "effects": [
+                "更輕、更貼近皮膚",
+                "碳晶／定向導能纖維縮短主要導能路徑",
+                "手腕→前臂→拳面導能更加直接",
+                "裝備端转接感與滯後降低",
+                "念氣分流、集中與回收感更清楚",
+                "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+              ],
+              "noIncrease": [
+                "總念氣",
+                "肉體肌力",
+                "螺旋右拳理論最大輸出",
+                "巨靈體等級",
+                "新技能"
+              ]
+            },
+            "dynamicFlow": {
+              "limits": [
+                "不是自動戰鬥",
+                "不是零延遲",
+                "不取消肉體承載"
+              ],
+              "status": "HIGHLY INTEGRATED / EMBEDDED",
+              "sequence": "動作意圖→念分配→承力／輸出→回收",
+              "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+              "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+            },
+            "giantSpirit": {
+              "not": [
+                "獨立人格",
+                "自律戰鬥單位",
+                "額外念氣槽",
+                "獨立無限力量來源"
+              ],
+              "name": "巨靈體Ⅰ",
+              "pulse": {
+                "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+                "status": "LOW-LOAD SYNC PASS",
+                "distanceM": 5
+              },
+              "boxing": {
+                "status": "PASS",
+                "confirmed": [
+                  "低輸出刺拳／直拳同步",
+                  "左右／前後／斜向小碎步同步"
+                ]
+              },
+              "status": "PRACTICAL / INTEGRATION CONFIRMED",
+              "above11m": "UNTESTED",
+              "fullForm": {
+                "scope": "首次安全實用維持基準／非最大維持時間",
+                "status": "PASS",
+                "minutes": 10,
+                "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+              },
+              "nickname": "須佐洛",
+              "untested": [
+                "最大維持時間",
+                "最大力量與承重",
+                "更高階／最大輸出整合"
+              ],
+              "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+              "maximumSize": "UNKNOWN；只確認至少可達約11m",
+              "sizeCalibration": [
+                {
+                  "meters": 6,
+                  "status": "PRACTICAL / HIGH CONTROL"
+                },
+                {
+                  "meters": 8,
+                  "status": "PRACTICAL / STABLE"
+                },
+                {
+                  "meters": 10,
+                  "status": "CONTROLLED / HIGHER LOAD"
+                },
+                {
+                  "meters": 11,
+                  "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+                }
+              ]
+            },
+            "combatConcept": "拳擊＋小碎步",
+            "pulseFootwork": {
+              "type": "既有脈衝運用／非新技能",
+              "limits": [
+                "不是瞬移",
+                "仍有慣性",
+                "仍需煞停與重建姿態",
+                "連續使用累積心肺、腿部與念氣負荷",
+                "8連不可無限制重複"
+              ],
+              "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+              "benchmarks": {
+                "4連": "HIGHLY STABLE",
+                "6連": "STABLE / PRACTICAL",
+                "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+              },
+              "safePracticalRepetitions": "4～6連"
+            },
+            "enhancedAuraPulse": {
+              "costs": [
+                "增大纏持續耗念",
+                "脈衝追加瞬間消耗",
+                "心肺、肌肉、關節與煞停負荷提高"
+              ],
+              "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+              "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+              "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+              "totalAuraIncrease": false
+            }
+          }
         }
       ],
       "伊恩": [
@@ -3693,7 +3829,23 @@
             ],
             "result": "偵測／穩定／導流三種低複雜度節點可在預設條件內自行維持；超出條件即停止並提示接管"
           },
-          "effectiveAt": "POST-D022｜第六階段戰力化"
+          "effectiveAt": "POST-D022｜第六階段戰力化",
+          "currentTraining": {
+            "name": "術式自律節點Ⅰ",
+            "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+            "training": [
+              "單節點監測",
+              "單節點維持",
+              "條件成立時有限介入",
+              "多節點分工"
+            ],
+            "principles": [
+              "低複雜度預設條件",
+              "無人格",
+              "不自行創造術式",
+              "不自行判敵"
+            ]
+          }
         },
         {
           "name": "多核心法陣Ⅰ",
@@ -3704,7 +3856,7 @@
             "精神負荷仍存在",
             "需要後續訓練"
           ],
-          "status": "STANDARDIZED LOW-TO-MID TEST PASS",
+          "status": "PRACTICAL INTEGRATION PROGRESSING",
           "formalTest": {
             "limits": [
               "不是無限多核",
@@ -3713,7 +3865,52 @@
             ],
             "result": "雙核心分工與壓力分流成立；單側節點故障時第二核心可接住部分結構並提供重新分配窗口"
           },
-          "effectiveAt": "POST-D022｜第六階段戰力化"
+          "effectiveAt": "POST-D022｜第六階段戰力化",
+          "currentTraining": {
+            "name": "多核心法陣Ⅰ",
+            "effect": "改善精神負荷分配與多工作業；不是能量增加",
+            "status": "PRACTICAL INTEGRATION PROGRESSING",
+            "training": [
+              "雙主核心並行",
+              "不同功能同步維持",
+              "一側維持／穩定",
+              "另一側保留應急術式或其他操作"
+            ]
+          }
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "multiCore": {
+              "name": "多核心法陣Ⅰ",
+              "effect": "改善精神負荷分配與多工作業；不是能量增加",
+              "status": "PRACTICAL INTEGRATION PROGRESSING",
+              "training": [
+                "雙主核心並行",
+                "不同功能同步維持",
+                "一側維持／穩定",
+                "另一側保留應急術式或其他操作"
+              ]
+            },
+            "autonomousNode": {
+              "name": "術式自律節點Ⅰ",
+              "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+              "training": [
+                "單節點監測",
+                "單節點維持",
+                "條件成立時有限介入",
+                "多節點分工"
+              ],
+              "principles": [
+                "低複雜度預設條件",
+                "無人格",
+                "不自行創造術式",
+                "不自行判敵"
+              ]
+            }
+          }
         }
       ],
       "程牧": [
@@ -3915,24 +4112,104 @@
         {
           "name": "曲折箭Ⅰ",
           "type": "非直線彈道控制／彈道領域擴充",
-          "detail": "在WIFI本人完成目標判斷、選箭、拉弓與射擊後，可於彈道領域內建立有限度非直線飛行路徑，用於繞過掩體邊緣、友軍直線遮擋與部分死角。",
+          "detail": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
           "limits": [
-            "不是自動瞄準",
             "不是必中",
-            "不是自動判敵",
-            "不是自動射擊",
-            "曲折幅度越大，解算難度、誤差與箭體／控制負荷越高",
-            "不允許無視封閉實體障礙直接穿透",
-            "特殊箭仍受有限實體庫存限制"
+            "不是自動追蹤",
+            "不是空間傳送",
+            "本人決定目標、路徑、轉向時機與箭種",
+            "劇烈轉向提高速度、穩定、射程與精度要求",
+            "不穿牆",
+            "不自動判敵、瞄準或射擊"
           ],
-          "status": "ACQUIRED / INITIAL CALIBRATION",
+          "status": "PRACTICAL / FIELD-VALIDATED",
           "synergy": [
             "彈道領域Ⅰ",
             "共享視界｜威脅預測Ⅰ",
             "四人共享戰術視界",
             "灰隼重磅戰弓"
           ],
-          "effectiveAt": "POST-D025｜曲折箭Ⅰ正式兌換"
+          "effectiveAt": "POST-D025｜曲折箭Ⅰ正式兌換",
+          "currentTraining": {
+            "name": "曲折箭Ⅰ",
+            "uses": [
+              "繞掩體",
+              "轉角射擊",
+              "避開隊友後重新切入目標",
+              "非正面射線",
+              "精細裝置破壞／救援射擊"
+            ],
+            "limits": [
+              "不是必中",
+              "不是自動追蹤",
+              "不是空間傳送",
+              "本人決定目標、路徑、轉向時機與箭種",
+              "劇烈轉向提高速度、穩定、射程與精度要求",
+              "不穿牆",
+              "不自動判敵、瞄準或射擊"
+            ],
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "synergy": [
+              "四人共享戰術視界",
+              "威脅預測Ⅰ",
+              "彈道領域Ⅰ"
+            ],
+            "confirmed": [
+              "小角度曲線調整",
+              "中幅繞障",
+              "高角度折線改向",
+              "接近90°大角度轉向可作代表性實戰用途"
+            ],
+            "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+            "unconfirmed": [
+              "180°回頭",
+              "多次連續極端直角折返"
+            ]
+          }
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "curveArrow": {
+              "name": "曲折箭Ⅰ",
+              "uses": [
+                "繞掩體",
+                "轉角射擊",
+                "避開隊友後重新切入目標",
+                "非正面射線",
+                "精細裝置破壞／救援射擊"
+              ],
+              "limits": [
+                "不是必中",
+                "不是自動追蹤",
+                "不是空間傳送",
+                "本人決定目標、路徑、轉向時機與箭種",
+                "劇烈轉向提高速度、穩定、射程與精度要求",
+                "不穿牆",
+                "不自動判敵、瞄準或射擊"
+              ],
+              "status": "PRACTICAL / FIELD-VALIDATED",
+              "synergy": [
+                "四人共享戰術視界",
+                "威脅預測Ⅰ",
+                "彈道領域Ⅰ"
+              ],
+              "confirmed": [
+                "小角度曲線調整",
+                "中幅繞障",
+                "高角度折線改向",
+                "接近90°大角度轉向可作代表性實戰用途"
+              ],
+              "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+              "unconfirmed": [
+                "180°回頭",
+                "多次連續極端直角折返"
+              ]
+            },
+            "combatStyle": "由尋找現有射線進展為主動創造射線"
+          }
         }
       ],
       "周映白": [
@@ -4190,6 +4467,57 @@
             "result": "可重現辨識遮蔽後明顯實體阻礙與人工空間異常"
           },
           "effectiveAt": "POST-D022｜第六階段戰力化"
+        },
+        {
+          "name": "POST-D026｜能力熟悉與整合",
+          "detail": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+          "status": "CONFIRMED / PRACTICAL INTEGRATION",
+          "currentTraining": {
+            "anchor": {
+              "name": "空間門錨點穩定Ⅰ",
+              "status": "INTEGRATED",
+              "effects": [
+                "改善門框穩定",
+                "降低短時震動、結構移動與部分空間擾動影響",
+                "減少多人／擔架通過時修正負擔"
+              ],
+              "noIncrease": [
+                "最大距離",
+                "最大門徑",
+                "總能量",
+                "未知落點安全性"
+              ]
+            },
+            "spaceGate": {
+              "name": "空間門Ⅰ",
+              "status": "ACQUIRED / PRACTICAL",
+              "unknown": [
+                "最大距離",
+                "最大門徑",
+                "最大維持時間",
+                "最大連續通行量",
+                "高重力／高空間干擾極限"
+              ],
+              "confirmed": [
+                "短距離、已確認安全端點穩定建立",
+                "單人通行PASS",
+                "多人依序通行PASS",
+                "雙人並行PASS",
+                "擔架後送PRACTICAL",
+                "低程度環境震動下可使用"
+              ]
+            },
+            "rescueProcedure": [
+              "落點確認",
+              "開門",
+              "人員／擔架通過",
+              "維持",
+              "移位",
+              "關門",
+              "再建立",
+              "自身最後通過／返回現場"
+            ]
+          }
         }
       ]
     },
@@ -4250,7 +4578,7 @@
       "肌肉舒緩修復噴劑Ⅰ": 2,
       "複合創傷醫療噴膜Ⅰ": 3
     },
-    "readiness": "POST-D026｜結算與兌換完成／全隊休息／重新校準待進行",
+    "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
     "endgameArc": {
       "name": "主神空間終局碎片",
       "status": "ACTIVE / FRAGMENT 01 COLLECTED",
@@ -4658,11 +4986,12 @@
       ],
       "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述"
     },
-    "currentState": "POST-D026｜SETTLEMENT COMPLETE / POST-EXCHANGE / REST / RECALIBRATION PENDING",
+    "currentState": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
     "partyTactics": [
       "四人戰術體系｜第三階段",
       "戰術醫療鏈",
-      "鏈路斷線應變"
+      "鏈路斷線應變",
+      "POST-D026｜空間門／自律節點／醫療站Ⅲ／曲折箭救援战鬥協同"
     ],
     "privateItems": {
       "伊恩": [
@@ -5225,10 +5554,10 @@
     },
     "waitingState": {
       "rule": "等待下一副本選擇；不得將等待時間自動換算為訓練、成長、裝備升級或資源消耗",
-      "status": "READY / WAITING FOR SELECTION",
+      "status": "TRAINING COMPLETE / REST / NEXT MISSION UNSELECTED",
       "location": "AI主神空間",
-      "saveNode": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
-      "lastMission": "CUSTOM A《灰城72小時》｜S｜CLEAR",
+      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "lastMission": "D026《黃銅太陽城》｜S｜COMPLETE",
       "nextMission": "UNSELECTED"
     },
     "courseCleanup": {
@@ -5485,13 +5814,13 @@
     },
     "teamReadiness": {
       "eva": "四人FIELD-VALIDATED / OPERATIONAL",
-      "洛": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
-      "伊恩": "POST-D026｜返還完成／休整",
-      "程牧": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
-      "overall": "POST-D026 / REST / RECALIBRATION PENDING",
+      "洛": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+      "伊恩": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+      "程牧": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+      "overall": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
       "location": "AI主神空間",
       "foodWater": "補貨核帳完成",
-      "周映白": "POST-D026｜空間門Ⅰ＋錨點穩定Ⅰ取得／標準化校準待進行",
+      "周映白": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
       "largeAssets": "RECOVERED / STORED",
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
@@ -5612,7 +5941,7 @@
     "abilitySystems": {
       "洛": {
         "title": "洛｜念輸出、疲勞與總氣量成長框架",
-        "status": "FRAMEWORK_CONFIRMED／POST-D023_RECONCILED",
+        "status": "POST-D026 / TRAINING INTEGRATION CONFIRMED",
         "fatigue": {
           "rule": "全身疲勞與局部負荷分開判定",
           "localLoad": [
@@ -5667,6 +5996,137 @@
           "螺旋＝力量以何種旋轉結構輸出；右拳現行順序為右前臂核心→全右臂→全身動力鏈",
           "肉體＝支付氣後能否承受結果"
         ],
+        "postD026": {
+          "spiral": {
+            "scope": "STANDARD OUTPUT",
+            "status": "PASS / STABLE",
+            "untested": [
+              "最大輸出",
+              "高負荷連續螺旋",
+              "脈衝×螺旋最大輸出"
+            ],
+            "confirmed": [
+              "前臂螺旋→拳面導流更加直接",
+              "標準輸出右手、前臂、肩部無異常",
+              "收拳後念回收感改善"
+            ]
+          },
+          "gauntlet": {
+            "cost": "本卡未提供改修報價，不追加推定扣款",
+            "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+            "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+            "effects": [
+              "更輕、更貼近皮膚",
+              "碳晶／定向導能纖維縮短主要導能路徑",
+              "手腕→前臂→拳面導能更加直接",
+              "裝備端转接感與滯後降低",
+              "念氣分流、集中與回收感更清楚",
+              "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+            ],
+            "noIncrease": [
+              "總念氣",
+              "肉體肌力",
+              "螺旋右拳理論最大輸出",
+              "巨靈體等級",
+              "新技能"
+            ]
+          },
+          "dynamicFlow": {
+            "limits": [
+              "不是自動戰鬥",
+              "不是零延遲",
+              "不取消肉體承載"
+            ],
+            "status": "HIGHLY INTEGRATED / EMBEDDED",
+            "sequence": "動作意圖→念分配→承力／輸出→回收",
+            "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+            "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+          },
+          "giantSpirit": {
+            "not": [
+              "獨立人格",
+              "自律戰鬥單位",
+              "額外念氣槽",
+              "獨立無限力量來源"
+            ],
+            "name": "巨靈體Ⅰ",
+            "pulse": {
+              "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+              "status": "LOW-LOAD SYNC PASS",
+              "distanceM": 5
+            },
+            "boxing": {
+              "status": "PASS",
+              "confirmed": [
+                "低輸出刺拳／直拳同步",
+                "左右／前後／斜向小碎步同步"
+              ]
+            },
+            "status": "PRACTICAL / INTEGRATION CONFIRMED",
+            "above11m": "UNTESTED",
+            "fullForm": {
+              "scope": "首次安全實用維持基準／非最大維持時間",
+              "status": "PASS",
+              "minutes": 10,
+              "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+            },
+            "nickname": "須佐洛",
+            "untested": [
+              "最大維持時間",
+              "最大力量與承重",
+              "更高階／最大輸出整合"
+            ],
+            "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+            "maximumSize": "UNKNOWN；只確認至少可達約11m",
+            "sizeCalibration": [
+              {
+                "meters": 6,
+                "status": "PRACTICAL / HIGH CONTROL"
+              },
+              {
+                "meters": 8,
+                "status": "PRACTICAL / STABLE"
+              },
+              {
+                "meters": 10,
+                "status": "CONTROLLED / HIGHER LOAD"
+              },
+              {
+                "meters": 11,
+                "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+              }
+            ]
+          },
+          "combatConcept": "拳擊＋小碎步",
+          "pulseFootwork": {
+            "type": "既有脈衝運用／非新技能",
+            "limits": [
+              "不是瞬移",
+              "仍有慣性",
+              "仍需煞停與重建姿態",
+              "連續使用累積心肺、腿部與念氣負荷",
+              "8連不可無限制重複"
+            ],
+            "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+            "benchmarks": {
+              "4連": "HIGHLY STABLE",
+              "6連": "STABLE / PRACTICAL",
+              "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+            },
+            "safePracticalRepetitions": "4～6連"
+          },
+          "enhancedAuraPulse": {
+            "costs": [
+              "增大纏持續耗念",
+              "脈衝追加瞬間消耗",
+              "心肺、肌肉、關節與煞停負荷提高"
+            ],
+            "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+            "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+            "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+            "totalAuraIncrease": false
+          }
+        },
         "auraGrowth": {
           "d016": "十日完整恢復後A-01同條件重新校準已確認總氣量自然成長成立；不得換算精確百分比或氣池數值。",
           "name": "總氣量成長｜慢性適應",
@@ -5752,6 +6212,35 @@
           "最大領域、具現體數量與極限尚未測試"
         ],
         "status": "QUALITY-BREAKTHROUGH-01 / ACQUIRED",
+        "postD026": {
+          "multiCore": {
+            "name": "多核心法陣Ⅰ",
+            "effect": "改善精神負荷分配與多工作業；不是能量增加",
+            "status": "PRACTICAL INTEGRATION PROGRESSING",
+            "training": [
+              "雙主核心並行",
+              "不同功能同步維持",
+              "一側維持／穩定",
+              "另一側保留應急術式或其他操作"
+            ]
+          },
+          "autonomousNode": {
+            "name": "術式自律節點Ⅰ",
+            "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+            "training": [
+              "單節點監測",
+              "單節點維持",
+              "條件成立時有限介入",
+              "多節點分工"
+            ],
+            "principles": [
+              "低複雜度預設條件",
+              "無人格",
+              "不自行創造術式",
+              "不自行判敵"
+            ]
+          }
+        },
         "coreAbilities": {
           "status": "ACQUIRED / INITIAL TEST COMPLETE",
           "totalCost": 12300,
@@ -5810,28 +6299,126 @@
             "definition": "將完成術式固定為獨立術式構造體；伊恩不需留在原地持續控制"
           }
         },
+        "gateNodeSupport": {
+          "costs": [
+            "伊恩額外精神與能量負荷",
+            "部署時間"
+          ],
+          "status": "PRACTICAL / CONDITIONAL SUPPORT",
+          "lowLoad": "幫助有限，不建議常態使用",
+          "support": "伊恩：外部門框監測／修正／穩定辅助",
+          "benefits": [
+            "門框細微震盪下降",
+            "香蕉修正負荷下降",
+            "恢復穩定速度改善"
+          ],
+          "conditions": [
+            "高流量",
+            "擔架",
+            "震動",
+            "環境干擾"
+          ],
+          "controller": "香蕉：空間連接與主要控制",
+          "raisesHardLimits": false
+        },
         "currentTacticalRole": "戰場術式節點化／區域控制網"
       },
       "程牧": {
         "curveArrow": {
           "name": "曲折箭Ⅰ",
-          "status": "ACQUIRED / INITIAL CALIBRATION",
-          "definition": "對實體箭矢飛行路徑提供有限非直線控制，並將曲折路徑納入彈道領域可行解。",
-          "constraints": [
+          "uses": [
+            "繞掩體",
+            "轉角射擊",
+            "避開隊友後重新切入目標",
+            "非正面射線",
+            "精細裝置破壞／救援射擊"
+          ],
+          "limits": [
+            "不是必中",
+            "不是自動追蹤",
+            "不是空間傳送",
+            "本人決定目標、路徑、轉向時機與箭種",
+            "劇烈轉向提高速度、穩定、射程與精度要求",
             "不穿牆",
-            "不必中",
-            "非自由任意轉向",
-            "曲率有上限",
-            "高角度與複雜路徑提高誤差及解算負荷",
-            "九十度轉角未確認",
-            "不生成或補充箭矢"
+            "不自動判敵、瞄準或射擊"
+          ],
+          "status": "PRACTICAL / FIELD-VALIDATED",
+          "synergy": [
+            "四人共享戰術視界",
+            "威脅預測Ⅰ",
+            "彈道領域Ⅰ"
+          ],
+          "confirmed": [
+            "小角度曲線調整",
+            "中幅繞障",
+            "高角度折線改向",
+            "接近90°大角度轉向可作代表性實戰用途"
+          ],
+          "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+          "constraints": [
+            "不是必中",
+            "不是自動追蹤",
+            "不是空間傳送",
+            "本人決定目標、路徑、轉向時機與箭種",
+            "劇烈轉向提高速度、穩定、射程與精度要求",
+            "不穿牆",
+            "不自動判敵、瞄準或射擊"
+          ],
+          "unconfirmed": [
+            "180°回頭",
+            "多次連續極端直角折返"
           ],
           "calibrationPlan": [
-            "標準箭",
-            "低輸出",
-            "短距離",
-            "小角度",
-            "單箭"
+            "曲折箭高角度實戰化",
+            "多掩體／隊友交錯射線訓練"
+          ]
+        }
+      },
+      "周映白": {
+        "postD026": {
+          "anchor": {
+            "name": "空間門錨點穩定Ⅰ",
+            "status": "INTEGRATED",
+            "effects": [
+              "改善門框穩定",
+              "降低短時震動、結構移動與部分空間擾動影響",
+              "減少多人／擔架通過時修正負擔"
+            ],
+            "noIncrease": [
+              "最大距離",
+              "最大門徑",
+              "總能量",
+              "未知落點安全性"
+            ]
+          },
+          "spaceGate": {
+            "name": "空間門Ⅰ",
+            "status": "ACQUIRED / PRACTICAL",
+            "unknown": [
+              "最大距離",
+              "最大門徑",
+              "最大維持時間",
+              "最大連續通行量",
+              "高重力／高空間干擾極限"
+            ],
+            "confirmed": [
+              "短距離、已確認安全端點穩定建立",
+              "單人通行PASS",
+              "多人依序通行PASS",
+              "雙人並行PASS",
+              "擔架後送PRACTICAL",
+              "低程度環境震動下可使用"
+            ]
+          },
+          "rescueProcedure": [
+            "落點確認",
+            "開門",
+            "人員／擔架通過",
+            "維持",
+            "移位",
+            "關門",
+            "再建立",
+            "自身最後通過／返回現場"
           ]
         }
       }
@@ -5973,7 +6560,7 @@
           "mental": "穩定",
           "points": 8429,
           "nenType": "強化系",
-          "stamina": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
+          "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
@@ -6004,7 +6591,7 @@
           "gender": "男",
           "mental": "穩定",
           "points": 11013,
-          "stamina": "POST-D026｜空間門Ⅰ取得／標準化校準待進行",
+          "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
@@ -6034,7 +6621,7 @@
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
           "points": 10950,
-          "stamina": "POST-D026｜返還完成／休整",
+          "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
@@ -6078,7 +6665,7 @@
           "gender": "男",
           "mental": "穩定",
           "points": 12482,
-          "stamina": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
+          "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
@@ -6113,12 +6700,12 @@
         "程牧": 12482,
         "周映白": 11013
       },
-      "version": 123,
-      "gauntlet": "導能複合籠手Ⅲ｜OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+      "version": 124,
+      "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間",
-      "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
+      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜休息／重新校準待進行",
+      "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -6166,6 +6753,43 @@
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
       "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
+      "trainingStatus": {
+        "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+        "rule": "本輪熟悉不新增超自然技能、能量總量或能力等級；不提高最大距離或硬體理論上限；僅更新已確認的實用化、操作熟悉、協同與安全基準",
+        "status": "COMPLETE / SAFE PRACTICAL BENCHMARKS ESTABLISHED",
+        "completed": [
+          "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+          "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+          "香蕉：空間門多人／雙人並行／擔架後送實用",
+          "WIFI：曲折箭接近90°大角度實戰用途確認",
+          "伊恩：自律節點／雙主核心整合與條件式門框支援"
+        ],
+        "priorities": {
+          "洛": [
+            "恢復優先",
+            "後續再測須佐洛高階整合",
+            "不急追最大輸出"
+          ],
+          "伊恩": [
+            "自律節點分工",
+            "多核心負荷管理",
+            "與香蕉空間門條件式支援"
+          ],
+          "程牧": [
+            "曲折箭高角度實戰化",
+            "多掩體／隊友交錯射線訓練"
+          ],
+          "周映白": [
+            "空間門救援流程熟悉",
+            "後續校準距離／門徑／持續時間"
+          ]
+        },
+        "notPerformed": [
+          "巨靈體超過11m、最大維持時間及最大輸出未測",
+          "空間門最大距離／門徑／維持與流量未測",
+          "曲折箭180°與多次極端直角折返未確認"
+        ]
+      },
       "abilityInterface": "QUALITY-BREAKTHROUGH-01 / IAN FIELD-NODE NETWORK ACQUIRED",
       "aquaticReadiness": {
         "surfaceRescue": "OPERATIONAL",
@@ -6173,15 +6797,13 @@
         "deepDivingEquipment": "OPERATIONAL",
         "underwaterFlashReturn": "CONFIRMED"
       },
-      "nextAbilityCheck": "伊恩領域極限與具現體最大數量未測；洛500%最大輸出未測；其他質變候選均未購入",
+      "nextAbilityCheck": "巨靈體超過11m、最大維持時間及最大輸出未測；空間門最大距離／門徑／維持與流量未測；曲折箭180°與多次極端直角折返未確認",
       "currentHighlights": [
-        "D026《黃銅太陽城》S評價／4 IN 4 OUT",
-        "地心日獸 ALIVE / BREATHING / STABILIZING",
-        "162%強制點火 CANCELLED",
-        "香蕉取得空間門Ⅰ＋空間門錨點穩定Ⅰ",
-        "醫療站升級為自律式折疊救難醫療站Ⅲ",
-        "WIFI曲折箭Ⅰ PRACTICAL / FIELD-VALIDATED",
-        "可用箭矢144／分項待盤點"
+        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+        "香蕉：空間門多人／雙人並行／擔架後送實用",
+        "WIFI：曲折箭接近90°大角度實戰用途確認",
+        "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
       "privatePointsTotal": 42874,
@@ -8801,21 +9423,40 @@
       ]
     },
     "trainingStatus": {
-      "node": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
-      "rule": "只記錄已成立且可重現之測試結果；未測上限不得自動補完或升階",
-      "status": "CURRENT / RECALIBRATION COMPLETE WITH LIMITS PENDING",
+      "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "rule": "本輪熟悉不新增超自然技能、能量總量或能力等級；不提高最大距離或硬體理論上限；僅更新已確認的實用化、操作熟悉、協同與安全基準",
+      "status": "COMPLETE / SAFE PRACTICAL BENCHMARKS ESTABLISHED",
       "completed": [
-        "洛：恢復後念氣重測完成；增大念氣117.67秒平均／穩定改善+5.4%／不判定總念氣增加",
-        "周映白：連續閃返7m×8＝56m完成；救援能力保留；最大單次距離不更新",
-        "WIFI：多箭種戰術選項庫／戰術鏈測試完成；不固定Combo",
-        "伊恩：術式領域Ⅰ ACQUIRED；術式具現體Ⅰ ACQUIRED；領域×具現體區域控制網 CONFIRMED"
+        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+        "香蕉：空間門多人／雙人並行／擔架後送實用",
+        "WIFI：曲折箭接近90°大角度實戰用途確認",
+        "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
-      "nextScene": "AI主神空間｜等待下一副本選擇",
+      "priorities": {
+        "洛": [
+          "恢復優先",
+          "後續再測須佐洛高階整合",
+          "不急追最大輸出"
+        ],
+        "伊恩": [
+          "自律節點分工",
+          "多核心負荷管理",
+          "與香蕉空間門條件式支援"
+        ],
+        "程牧": [
+          "曲折箭高角度實戰化",
+          "多掩體／隊友交錯射線訓練"
+        ],
+        "周映白": [
+          "空間門救援流程熟悉",
+          "後續校準距離／門徑／持續時間"
+        ]
+      },
       "notPerformed": [
-        "洛：500%最大輸出未測",
-        "伊恩：術式領域極限未測",
-        "伊恩：術式具現體最大數量未測",
-        "其他質變候選：未購入"
+        "巨靈體超過11m、最大維持時間及最大輸出未測",
+        "空間門最大距離／門徑／維持與流量未測",
+        "曲折箭180°與多次極端直角折返未確認"
       ]
     },
     "bestiaryDisplay": {
@@ -9650,6 +10291,318 @@
         "qualification": "小型星艦基礎操作資格｜CONFIRMED"
       },
       "personalTrainingResult": "既有能力低強度維持／部分日取消；不得新增由晚間特訓產生的新技能、技能等級、熟練突破或能力數值成長",
+      "postD026TrainingIntegration": {
+        "洛": {
+          "spiral": {
+            "scope": "STANDARD OUTPUT",
+            "status": "PASS / STABLE",
+            "untested": [
+              "最大輸出",
+              "高負荷連續螺旋",
+              "脈衝×螺旋最大輸出"
+            ],
+            "confirmed": [
+              "前臂螺旋→拳面導流更加直接",
+              "標準輸出右手、前臂、肩部無異常",
+              "收拳後念回收感改善"
+            ]
+          },
+          "gauntlet": {
+            "cost": "本卡未提供改修報價，不追加推定扣款",
+            "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+            "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+            "effects": [
+              "更輕、更貼近皮膚",
+              "碳晶／定向導能纖維縮短主要導能路徑",
+              "手腕→前臂→拳面導能更加直接",
+              "裝備端转接感與滯後降低",
+              "念氣分流、集中與回收感更清楚",
+              "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+            ],
+            "noIncrease": [
+              "總念氣",
+              "肉體肌力",
+              "螺旋右拳理論最大輸出",
+              "巨靈體等級",
+              "新技能"
+            ]
+          },
+          "dynamicFlow": {
+            "limits": [
+              "不是自動戰鬥",
+              "不是零延遲",
+              "不取消肉體承載"
+            ],
+            "status": "HIGHLY INTEGRATED / EMBEDDED",
+            "sequence": "動作意圖→念分配→承力／輸出→回收",
+            "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+            "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+          },
+          "giantSpirit": {
+            "not": [
+              "獨立人格",
+              "自律戰鬥單位",
+              "額外念氣槽",
+              "獨立無限力量來源"
+            ],
+            "name": "巨靈體Ⅰ",
+            "pulse": {
+              "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+              "status": "LOW-LOAD SYNC PASS",
+              "distanceM": 5
+            },
+            "boxing": {
+              "status": "PASS",
+              "confirmed": [
+                "低輸出刺拳／直拳同步",
+                "左右／前後／斜向小碎步同步"
+              ]
+            },
+            "status": "PRACTICAL / INTEGRATION CONFIRMED",
+            "above11m": "UNTESTED",
+            "fullForm": {
+              "scope": "首次安全實用維持基準／非最大維持時間",
+              "status": "PASS",
+              "minutes": 10,
+              "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+            },
+            "nickname": "須佐洛",
+            "untested": [
+              "最大維持時間",
+              "最大力量與承重",
+              "更高階／最大輸出整合"
+            ],
+            "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+            "maximumSize": "UNKNOWN；只確認至少可達約11m",
+            "sizeCalibration": [
+              {
+                "meters": 6,
+                "status": "PRACTICAL / HIGH CONTROL"
+              },
+              {
+                "meters": 8,
+                "status": "PRACTICAL / STABLE"
+              },
+              {
+                "meters": 10,
+                "status": "CONTROLLED / HIGHER LOAD"
+              },
+              {
+                "meters": 11,
+                "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+              }
+            ]
+          },
+          "combatConcept": "拳擊＋小碎步",
+          "pulseFootwork": {
+            "type": "既有脈衝運用／非新技能",
+            "limits": [
+              "不是瞬移",
+              "仍有慣性",
+              "仍需煞停與重建姿態",
+              "連續使用累積心肺、腿部與念氣負荷",
+              "8連不可無限制重複"
+            ],
+            "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+            "benchmarks": {
+              "4連": "HIGHLY STABLE",
+              "6連": "STABLE / PRACTICAL",
+              "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+            },
+            "safePracticalRepetitions": "4～6連"
+          },
+          "enhancedAuraPulse": {
+            "costs": [
+              "增大纏持續耗念",
+              "脈衝追加瞬間消耗",
+              "心肺、肌肉、關節與煞停負荷提高"
+            ],
+            "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+            "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+            "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+            "totalAuraIncrease": false
+          }
+        },
+        "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+        "limits": [
+          "本輪熟悉不新增超自然技能、能量總量或能力等級",
+          "不提高最大距離或硬體理論上限",
+          "僅更新已確認的實用化、操作熟悉、協同與安全基準"
+        ],
+        "source": "使用者正式CODEx更新卡",
+        "status": "CONFIRMED / TRAINING & INTEGRATION COMPLETE",
+        "伊恩": {
+          "multiCore": {
+            "name": "多核心法陣Ⅰ",
+            "effect": "改善精神負荷分配與多工作業；不是能量增加",
+            "status": "PRACTICAL INTEGRATION PROGRESSING",
+            "training": [
+              "雙主核心並行",
+              "不同功能同步維持",
+              "一側維持／穩定",
+              "另一側保留應急術式或其他操作"
+            ]
+          },
+          "autonomousNode": {
+            "name": "術式自律節點Ⅰ",
+            "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+            "training": [
+              "單節點監測",
+              "單節點維持",
+              "條件成立時有限介入",
+              "多節點分工"
+            ],
+            "principles": [
+              "低複雜度預設條件",
+              "無人格",
+              "不自行創造術式",
+              "不自行判敵"
+            ]
+          }
+        },
+        "程牧": {
+          "curveArrow": {
+            "name": "曲折箭Ⅰ",
+            "uses": [
+              "繞掩體",
+              "轉角射擊",
+              "避開隊友後重新切入目標",
+              "非正面射線",
+              "精細裝置破壞／救援射擊"
+            ],
+            "limits": [
+              "不是必中",
+              "不是自動追蹤",
+              "不是空間傳送",
+              "本人決定目標、路徑、轉向時機與箭種",
+              "劇烈轉向提高速度、穩定、射程與精度要求",
+              "不穿牆",
+              "不自動判敵、瞄準或射擊"
+            ],
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "synergy": [
+              "四人共享戰術視界",
+              "威脅預測Ⅰ",
+              "彈道領域Ⅰ"
+            ],
+            "confirmed": [
+              "小角度曲線調整",
+              "中幅繞障",
+              "高角度折線改向",
+              "接近90°大角度轉向可作代表性實戰用途"
+            ],
+            "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+            "unconfirmed": [
+              "180°回頭",
+              "多次連續極端直角折返"
+            ]
+          },
+          "combatStyle": "由尋找現有射線進展為主動創造射線"
+        },
+        "teamRule": "四人一起；任何人的能力、裝備、恢復與生存皆屬隊伍戰力",
+        "周映白": {
+          "anchor": {
+            "name": "空間門錨點穩定Ⅰ",
+            "status": "INTEGRATED",
+            "effects": [
+              "改善門框穩定",
+              "降低短時震動、結構移動與部分空間擾動影響",
+              "減少多人／擔架通過時修正負擔"
+            ],
+            "noIncrease": [
+              "最大距離",
+              "最大門徑",
+              "總能量",
+              "未知落點安全性"
+            ]
+          },
+          "spaceGate": {
+            "name": "空間門Ⅰ",
+            "status": "ACQUIRED / PRACTICAL",
+            "unknown": [
+              "最大距離",
+              "最大門徑",
+              "最大維持時間",
+              "最大連續通行量",
+              "高重力／高空間干擾極限"
+            ],
+            "confirmed": [
+              "短距離、已確認安全端點穩定建立",
+              "單人通行PASS",
+              "多人依序通行PASS",
+              "雙人並行PASS",
+              "擔架後送PRACTICAL",
+              "低程度環境震動下可使用"
+            ]
+          },
+          "rescueProcedure": [
+            "落點確認",
+            "開門",
+            "人員／擔架通過",
+            "維持",
+            "移位",
+            "關門",
+            "再建立",
+            "自身最後通過／返回現場"
+          ]
+        },
+        "priorities": {
+          "洛": [
+            "恢復優先",
+            "後續再測須佐洛高階整合",
+            "不急追最大輸出"
+          ],
+          "伊恩": [
+            "自律節點分工",
+            "多核心負荷管理",
+            "與香蕉空間門條件式支援"
+          ],
+          "程牧": [
+            "曲折箭高角度實戰化",
+            "多掩體／隊友交錯射線訓練"
+          ],
+          "周映白": [
+            "空間門救援流程熟悉",
+            "後續校準距離／門徑／持續時間"
+          ]
+        },
+        "nextMission": "UNSELECTED",
+        "teamProcedure": {
+          "steps": [
+            "救援車／現場救援",
+            "香蕉確認安全落點",
+            "空間門Ⅰ＋空間門錨點穩定Ⅰ",
+            "高流量／高干擾時伊恩自律節點協同穩定",
+            "傷員／擔架通過",
+            "自律式折疊救難醫療站Ⅲ自動接手",
+            "香蕉返回第一線救援",
+            "WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護"
+          ],
+          "status": "PRACTICAL / INTEGRATION IMPROVING"
+        },
+        "gateNodeSupport": {
+          "costs": [
+            "伊恩額外精神與能量負荷",
+            "部署時間"
+          ],
+          "status": "PRACTICAL / CONDITIONAL SUPPORT",
+          "lowLoad": "幫助有限，不建議常態使用",
+          "support": "伊恩：外部門框監測／修正／穩定辅助",
+          "benefits": [
+            "門框細微震盪下降",
+            "香蕉修正負荷下降",
+            "恢復穩定速度改善"
+          ],
+          "conditions": [
+            "高流量",
+            "擔架",
+            "震動",
+            "環境干擾"
+          ],
+          "controller": "香蕉：空間連接與主要控制",
+          "raisesHardLimits": false
+        }
+      },
       "postD025SusaluoRefamiliarization01": {
         "name": "POST-D025｜須佐洛重新適應01",
         "status": "INITIAL RE-FAMILIARIZATION SESSION COMPLETE",
@@ -9722,8 +10675,29 @@
             {
               "name": "限制",
               "detail": "有效力量倍率不等於骨骼、關節、肌肉、心肺、防禦與速度同步等倍率提高；肉體承載仍存在。"
+            },
+            {
+              "name": "POST-D026訓練",
+              "detail": "4連高度穩定、6連穩定實用；8連可達但煞停精度下降。安全實用基準4～6連；增大纏×脈衝追加耗念及負荷"
             }
-          ]
+          ],
+          "currentTraining": {
+            "type": "既有脈衝運用／非新技能",
+            "limits": [
+              "不是瞬移",
+              "仍有慣性",
+              "仍需煞停與重建姿態",
+              "連續使用累積心肺、腿部與念氣負荷",
+              "8連不可無限制重複"
+            ],
+            "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+            "benchmarks": {
+              "4連": "HIGHLY STABLE",
+              "6連": "STABLE / PRACTICAL",
+              "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+            },
+            "safePracticalRepetitions": "4～6連"
+          }
         },
         {
           "core": "右前臂先預成形念氣螺旋，快速擴張至全臂並同步接入下肢、髖、腰、核心動力鏈。",
@@ -9738,8 +10712,26 @@
             {
               "name": "上限",
               "detail": "最大理論威力不因本次介面整合或成形改良自動提高。"
+            },
+            {
+              "name": "POST-D026訓練",
+              "detail": "碳晶直通導能型籠手：標準輸出PASS／STABLE；前臂→拳面更直接、回收改善；最大輸出及高負荷連續未測"
             }
-          ]
+          ],
+          "currentTraining": {
+            "scope": "STANDARD OUTPUT",
+            "status": "PASS / STABLE",
+            "untested": [
+              "最大輸出",
+              "高負荷連續螺旋",
+              "脈衝×螺旋最大輸出"
+            ],
+            "confirmed": [
+              "前臂螺旋→拳面導流更加直接",
+              "標準輸出右手、前臂、肩部無異常",
+              "收拳後念回收感改善"
+            ]
+          }
         },
         {
           "core": "前臂螺旋預成形、全臂與全身動力鏈接入後，以脈衝把局部念氣與有效力量推向高峰完成終結輸出。",
@@ -9772,24 +10764,83 @@
           ]
         },
         {
-          "core": "在洛體外形成可承力、活動與戰鬥的大型外顯念體；目前重新建立身體—念—巨靈同步。",
+          "core": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
           "name": "巨靈體Ⅰ",
           "type": "大型外顯念體／私人名稱：須佐洛",
-          "status": "ACQUIRED / RE-FAMILIARIZATION PROGRESSING",
+          "status": "PRACTICAL / INTEGRATION CONFIRMED",
           "branches": [
             {
-              "name": "已測",
-              "detail": "站立／抬手／握拳／跑動／急停／轉向／跳躍／落地／基礎低輸出同步"
+              "name": "維持",
+              "detail": "完整形體10分鐘PASS；安全實用基準，非最大時限；動作追加耗念"
             },
             {
-              "name": "未測",
-              "detail": "最大尺寸／最大力量／最大持續時間／高輸出整合／最大承重／高速連戰同步"
+              "name": "尺寸",
+              "detail": "6m高控制／8m穩定實用／10m較高負荷可控／約11m短時可達；超過11m未測，非最大尺寸"
+            },
+            {
+              "name": "同步",
+              "detail": "低輸出拳擊與小碎步PASS；5m低負荷脈衝同步PASS，消耗高於本體"
             },
             {
               "name": "限制",
-              "detail": "不沿用重置前熟練度；總念氣不增加。"
+              "detail": "獨立人格／自律戰鬥單位／額外念氣槽／獨立無限力量來源"
             }
-          ]
+          ],
+          "currentTraining": {
+            "not": [
+              "獨立人格",
+              "自律戰鬥單位",
+              "額外念氣槽",
+              "獨立無限力量來源"
+            ],
+            "name": "巨靈體Ⅰ",
+            "pulse": {
+              "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+              "status": "LOW-LOAD SYNC PASS",
+              "distanceM": 5
+            },
+            "boxing": {
+              "status": "PASS",
+              "confirmed": [
+                "低輸出刺拳／直拳同步",
+                "左右／前後／斜向小碎步同步"
+              ]
+            },
+            "status": "PRACTICAL / INTEGRATION CONFIRMED",
+            "above11m": "UNTESTED",
+            "fullForm": {
+              "scope": "首次安全實用維持基準／非最大維持時間",
+              "status": "PASS",
+              "minutes": 10,
+              "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+            },
+            "nickname": "須佐洛",
+            "untested": [
+              "最大維持時間",
+              "最大力量與承重",
+              "更高階／最大輸出整合"
+            ],
+            "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+            "maximumSize": "UNKNOWN；只確認至少可達約11m",
+            "sizeCalibration": [
+              {
+                "meters": 6,
+                "status": "PRACTICAL / HIGH CONTROL"
+              },
+              {
+                "meters": 8,
+                "status": "PRACTICAL / STABLE"
+              },
+              {
+                "meters": 10,
+                "status": "CONTROLLED / HIGHER LOAD"
+              },
+              {
+                "meters": 11,
+                "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+              }
+            ]
+          }
         }
       ],
       "伊恩": [
@@ -9809,17 +10860,50 @@
           "core": "統一處理重疊法陣、多重法陣與多術式協作；多核心與自律節點視為進階運作模式。",
           "name": "複式法陣",
           "type": "多術式協作",
-          "status": "PRACTICAL",
+          "status": "PRACTICAL INTEGRATION PROGRESSING",
           "branches": [
             {
-              "name": "多核心",
-              "detail": "目前可使用雙主核心。"
+              "name": "雙主核心",
+              "detail": "不同功能同步；一側維持／穩定，另一側保留應急操作；精神負荷仍存在"
             },
             {
               "name": "自律節點",
-              "detail": "低複雜度節點可依預設條件有限維持；無人格、不自行創造術式、不自行判敵，精神負荷仍存在。"
+              "detail": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔；低複雜度預設條件／無人格／不自行創造術式／不自行判敵"
+            },
+            {
+              "name": "空間門條件支援",
+              "detail": "高流量／擔架／震動／干擾時外部門框監測與穩定；增加伊恩負荷及部署時間，不提高門硬上限"
             }
-          ]
+          ],
+          "currentTraining": {
+            "multiCore": {
+              "name": "多核心法陣Ⅰ",
+              "effect": "改善精神負荷分配與多工作業；不是能量增加",
+              "status": "PRACTICAL INTEGRATION PROGRESSING",
+              "training": [
+                "雙主核心並行",
+                "不同功能同步維持",
+                "一側維持／穩定",
+                "另一側保留應急術式或其他操作"
+              ]
+            },
+            "autonomousNode": {
+              "name": "術式自律節點Ⅰ",
+              "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+              "training": [
+                "單節點監測",
+                "單節點維持",
+                "條件成立時有限介入",
+                "多節點分工"
+              ],
+              "principles": [
+                "低複雜度預設條件",
+                "無人格",
+                "不自行創造術式",
+                "不自行判敵"
+              ]
+            }
+          }
         },
         {
           "core": "偵測、防禦、拘束、隔離、結構支撐與導流皆為同一大型法陣系統的不同模板。",
@@ -9914,28 +10998,60 @@
           ]
         },
         {
-          "core": "使實體箭矢在可解算範圍內沿受控制的非直線路徑飛行，為掩體、友軍遮擋、側角與狹窄區域建立替代射擊解；不是新箭種。",
+          "core": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
           "name": "曲折箭Ⅰ",
           "type": "非直線實體箭道控制／彈道領域整合",
           "status": "PRACTICAL / FIELD-VALIDATED",
           "branches": [
             {
-              "name": "整合",
-              "detail": "彈道領域Ⅰ／共享視界・威脅預測Ⅰ／四人共享戰術視界／灰隼重磅戰弓"
-            },
-            {
-              "name": "用途",
-              "detail": "繞掩體邊緣／側角攻擊／避開友軍直射線／狹窄區域安全射角／從非正面角度切入"
+              "name": "確認範圍",
+              "detail": "小角度曲線調整；中幅繞障；高角度折線改向；接近90°大角度轉向可作代表性實戰用途"
             },
             {
               "name": "限制",
-              "detail": "曲率與角度有上限；角度越大、路徑越複雜，誤差與解算負荷越高；目前不得假設九十度轉角可用；不能穿牆、不必中、不自行選敵或射擊。"
+              "detail": "不是必中；不是自動追蹤；不是空間傳送；本人決定目標、路徑、轉向時機與箭種；劇烈轉向提高速度、穩定、射程與精度要求；不穿牆；不自動判敵、瞄準或射擊"
             },
             {
-              "name": "實體規則",
-              "detail": "程牧本人選目標、判敵、選箭、拉弓與射擊；特殊箭仍為有限實體庫存。"
+              "name": "尚未確認",
+              "detail": "180°回頭／多次連續極端直角折返"
             }
-          ]
+          ],
+          "currentTraining": {
+            "name": "曲折箭Ⅰ",
+            "uses": [
+              "繞掩體",
+              "轉角射擊",
+              "避開隊友後重新切入目標",
+              "非正面射線",
+              "精細裝置破壞／救援射擊"
+            ],
+            "limits": [
+              "不是必中",
+              "不是自動追蹤",
+              "不是空間傳送",
+              "本人決定目標、路徑、轉向時機與箭種",
+              "劇烈轉向提高速度、穩定、射程與精度要求",
+              "不穿牆",
+              "不自動判敵、瞄準或射擊"
+            ],
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "synergy": [
+              "四人共享戰術視界",
+              "威脅預測Ⅰ",
+              "彈道領域Ⅰ"
+            ],
+            "confirmed": [
+              "小角度曲線調整",
+              "中幅繞障",
+              "高角度折線改向",
+              "接近90°大角度轉向可作代表性實戰用途"
+            ],
+            "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+            "unconfirmed": [
+              "180°回頭",
+              "多次連續極端直角折返"
+            ]
+          }
         }
       ],
       "周映白": [
@@ -9977,31 +11093,69 @@
           "core": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
           "name": "空間門Ⅰ",
           "type": "多人空間通道",
-          "status": "ACQUIRED / RECALIBRATION REQUIRED",
+          "status": "ACQUIRED / PRACTICAL",
           "branches": [
             {
-              "name": "限制",
-              "detail": "不可向完全未知區域盲開；距離、門徑、維持時間與連續次數未正式校準；不增加總體力或閃返步距離"
+              "name": "已確認",
+              "detail": "短距離、已確認安全端點穩定建立；單人通行PASS；多人依序通行PASS；雙人並行PASS；擔架後送PRACTICAL；低程度環境震動下可使用"
+            },
+            {
+              "name": "未測上限",
+              "detail": "最大距離／最大門徑／最大維持時間／最大連續通行量／高重力／高空間干擾極限"
             }
-          ]
+          ],
+          "currentTraining": {
+            "name": "空間門Ⅰ",
+            "status": "ACQUIRED / PRACTICAL",
+            "unknown": [
+              "最大距離",
+              "最大門徑",
+              "最大維持時間",
+              "最大連續通行量",
+              "高重力／高空間干擾極限"
+            ],
+            "confirmed": [
+              "短距離、已確認安全端點穩定建立",
+              "單人通行PASS",
+              "多人依序通行PASS",
+              "雙人並行PASS",
+              "擔架後送PRACTICAL",
+              "低程度環境震動下可使用"
+            ]
+          }
         },
         {
           "core": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
           "name": "空間門錨點穩定Ⅰ",
           "type": "空間門穩定強化",
-          "status": "ACQUIRED / INTEGRATED",
+          "status": "INTEGRATED",
           "branches": [
             {
               "name": "限制",
               "detail": "不增加最大距離；不增加最大門徑；不增加維持時間硬上限；不增加能量總量"
             }
-          ]
+          ],
+          "currentTraining": {
+            "name": "空間門錨點穩定Ⅰ",
+            "status": "INTEGRATED",
+            "effects": [
+              "改善門框穩定",
+              "降低短時震動、結構移動與部分空間擾動影響",
+              "減少多人／擔架通過時修正負擔"
+            ],
+            "noIncrease": [
+              "最大距離",
+              "最大門徑",
+              "總能量",
+              "未知落點安全性"
+            ]
+          }
         }
       ]
     },
     "equipmentDetails": {
       "洛": {
-        "main": "導能複合籠手Ⅲ",
+        "main": "導能複合籠手Ⅲ｜碳晶直通導能型",
         "items": [],
         "limits": [
           "不增加念氣總量",
@@ -10011,7 +11165,7 @@
           "不取消心肺與肉體負荷",
           "籠手不能替代身體承受反作用力"
         ],
-        "status": "OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+        "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
         "modules": [
           "一體式導能骨架Ⅰ",
           "導能嵌片陣列Ⅱ",
@@ -10074,10 +11228,142 @@
         "tacticalSuit": "流脈近戰戰術服Ⅱ",
         "recalibration": {
           "rule": "低強度→中強度→狀態確認→再決定是否提高；不得直接跳最大輸出脈衝×螺旋。",
-          "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+          "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
           "basicTen": "PASS / HIGHLY STABLE",
+          "postD026": {
+            "spiral": {
+              "scope": "STANDARD OUTPUT",
+              "status": "PASS / STABLE",
+              "untested": [
+                "最大輸出",
+                "高負荷連續螺旋",
+                "脈衝×螺旋最大輸出"
+              ],
+              "confirmed": [
+                "前臂螺旋→拳面導流更加直接",
+                "標準輸出右手、前臂、肩部無異常",
+                "收拳後念回收感改善"
+              ]
+            },
+            "gauntlet": {
+              "cost": "本卡未提供改修報價，不追加推定扣款",
+              "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+              "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+              "effects": [
+                "更輕、更貼近皮膚",
+                "碳晶／定向導能纖維縮短主要導能路徑",
+                "手腕→前臂→拳面導能更加直接",
+                "裝備端转接感與滯後降低",
+                "念氣分流、集中與回收感更清楚",
+                "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+              ],
+              "noIncrease": [
+                "總念氣",
+                "肉體肌力",
+                "螺旋右拳理論最大輸出",
+                "巨靈體等級",
+                "新技能"
+              ]
+            },
+            "dynamicFlow": {
+              "limits": [
+                "不是自動戰鬥",
+                "不是零延遲",
+                "不取消肉體承載"
+              ],
+              "status": "HIGHLY INTEGRATED / EMBEDDED",
+              "sequence": "動作意圖→念分配→承力／輸出→回收",
+              "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+              "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+            },
+            "giantSpirit": {
+              "not": [
+                "獨立人格",
+                "自律戰鬥單位",
+                "額外念氣槽",
+                "獨立無限力量來源"
+              ],
+              "name": "巨靈體Ⅰ",
+              "pulse": {
+                "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+                "status": "LOW-LOAD SYNC PASS",
+                "distanceM": 5
+              },
+              "boxing": {
+                "status": "PASS",
+                "confirmed": [
+                  "低輸出刺拳／直拳同步",
+                  "左右／前後／斜向小碎步同步"
+                ]
+              },
+              "status": "PRACTICAL / INTEGRATION CONFIRMED",
+              "above11m": "UNTESTED",
+              "fullForm": {
+                "scope": "首次安全實用維持基準／非最大維持時間",
+                "status": "PASS",
+                "minutes": 10,
+                "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+              },
+              "nickname": "須佐洛",
+              "untested": [
+                "最大維持時間",
+                "最大力量與承重",
+                "更高階／最大輸出整合"
+              ],
+              "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+              "maximumSize": "UNKNOWN；只確認至少可達約11m",
+              "sizeCalibration": [
+                {
+                  "meters": 6,
+                  "status": "PRACTICAL / HIGH CONTROL"
+                },
+                {
+                  "meters": 8,
+                  "status": "PRACTICAL / STABLE"
+                },
+                {
+                  "meters": 10,
+                  "status": "CONTROLLED / HIGHER LOAD"
+                },
+                {
+                  "meters": 11,
+                  "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+                }
+              ]
+            },
+            "combatConcept": "拳擊＋小碎步",
+            "pulseFootwork": {
+              "type": "既有脈衝運用／非新技能",
+              "limits": [
+                "不是瞬移",
+                "仍有慣性",
+                "仍需煞停與重建姿態",
+                "連續使用累積心肺、腿部與念氣負荷",
+                "8連不可無限制重複"
+              ],
+              "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+              "benchmarks": {
+                "4連": "HIGHLY STABLE",
+                "6連": "STABLE / PRACTICAL",
+                "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+              },
+              "safePracticalRepetitions": "4～6連"
+            },
+            "enhancedAuraPulse": {
+              "costs": [
+                "增大纏持續耗念",
+                "脈衝追加瞬間消耗",
+                "心肺、肌肉、關節與煞停負荷提高"
+              ],
+              "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+              "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+              "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+              "totalAuraIncrease": false
+            }
+          },
           "repeatFire": "NOT TESTED",
-          "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+          "dynamicFlow": "HIGHLY INTEGRATED / EMBEDDED",
+          "effectiveAt": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
           "enhancedTen": "112／110／113秒；平均111.67秒",
           "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
           "pulseBrake5m": "PASS",
@@ -10094,7 +11380,7 @@
           ],
           "maximumOutput": "NOT TESTED",
           "outputRecovery": "輸出後念流沿籠手Ⅲ、肩與核心回到全身；較舊結構乾淨",
-          "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS",
+          "spiralRightPunch": "STANDARD OUTPUT PASS / STABLE",
           "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY",
           "lowIntensityAdaptation": "COMPLETE"
         },
@@ -10186,6 +11472,26 @@
           "points": 1846,
           "ability": "念體一元化Ⅰ",
           "spiralTest": "前臂核心→全右臂→全身動力鏈；64→52，改善18.75%；最大威力不自動增加"
+        },
+        "currentIntegration": {
+          "cost": "本卡未提供改修報價，不追加推定扣款",
+          "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+          "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+          "effects": [
+            "更輕、更貼近皮膚",
+            "碳晶／定向導能纖維縮短主要導能路徑",
+            "手腕→前臂→拳面導能更加直接",
+            "裝備端转接感與滯後降低",
+            "念氣分流、集中與回收感更清楚",
+            "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+          ],
+          "noIncrease": [
+            "總念氣",
+            "肉體肌力",
+            "螺旋右拳理論最大輸出",
+            "巨靈體等級",
+            "新技能"
+          ]
         },
         "integrationProfile": {
           "effects": [
@@ -10855,6 +12161,41 @@
         "周映白": "折返救援／機動控制／破障"
       },
       "integrationRule": "程牧觀測報點→伊恩塑形封路→洛高速接敵糾纏失能→周映白救援／拖帶／破障／側翼控制→程牧補位／打斷／控制／必要尾刀；非強制固定順序",
+      "postD026RescueIntegration": {
+        "steps": [
+          "救援車／現場救援",
+          "香蕉確認安全落點",
+          "空間門Ⅰ＋空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點協同穩定",
+          "傷員／擔架通過",
+          "自律式折疊救難醫療站Ⅲ自動接手",
+          "香蕉返回第一線救援",
+          "WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護"
+        ],
+        "status": "PRACTICAL / INTEGRATION IMPROVING",
+        "gateNodeSupport": {
+          "costs": [
+            "伊恩額外精神與能量負荷",
+            "部署時間"
+          ],
+          "status": "PRACTICAL / CONDITIONAL SUPPORT",
+          "lowLoad": "幫助有限，不建議常態使用",
+          "support": "伊恩：外部門框監測／修正／穩定辅助",
+          "benefits": [
+            "門框細微震盪下降",
+            "香蕉修正負荷下降",
+            "恢復穩定速度改善"
+          ],
+          "conditions": [
+            "高流量",
+            "擔架",
+            "震動",
+            "環境干擾"
+          ],
+          "controller": "香蕉：空間連接與主要控制",
+          "raisesHardLimits": false
+        }
+      },
       "coreZoneAntiDormancyProtocol": {
         "type": "戰術經驗／可重複使用流程／非技能",
         "rules": [
@@ -15658,6 +16999,1091 @@
         "priority": 6
       }
     ],
+    "postD026PreTrainingSnapshot": {
+      "gauntlet": {
+        "main": "導能複合籠手Ⅲ",
+        "items": [],
+        "limits": [
+          "不增加念氣總量",
+          "不直接增加肌力",
+          "不直接提高螺旋右拳理論上限",
+          "不取消脈衝慣性",
+          "不取消心肺與肉體負荷",
+          "籠手不能替代身體承受反作用力"
+        ],
+        "status": "OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+        "modules": [
+          "一體式導能骨架Ⅰ",
+          "導能嵌片陣列Ⅱ",
+          "瞬態承載框架Ⅰ",
+          "Ⅲ型一體式負荷分散／回饋結構",
+          "優化模組接口"
+        ],
+        "notOwned": [
+          "旋流導引拳面Ⅰ"
+        ],
+        "evaModule": {
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "limits": [
+            "真空脈衝受反作用與姿態變化影響",
+            "脈衝不得視為標準EVA推進手段"
+          ],
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "integration": [
+            "流脈近戰戰術服系統",
+            "導能複合籠手Ⅲ",
+            "龍語加護",
+            "念氣操作"
+          ],
+          "d021Validation": "真空展開、艦外活動與返艦流程完成實戰驗證"
+        },
+        "functions": [
+          "基本念氣導流",
+          "動態流節點轉接",
+          "氣力置換承力鏈",
+          "脈衝後姿態銜接",
+          "螺旋右拳旋轉導流",
+          "龍語加護相容層",
+          "救援破障",
+          "前臂護甲抗衝擊"
+        ],
+        "suitLimits": [
+          "不增加總氣量",
+          "不自動完成動態流",
+          "不取消肉體承載上限",
+          "不取消慣性",
+          "不讓脈衝成為無代價移動",
+          "不增加周本身強度",
+          "FLOW-LINK不是技能合成且不新增超自然能力"
+        ],
+        "carrySystem": "微型摺疊空間裝備",
+        "integration": "導能複合籠手Ⅲ：一體式導能骨架／前臂—肩背承載鏈／念流資訊／局部受力監測",
+        "moduleSlots": [
+          "EMPTY",
+          "EMPTY"
+        ],
+        "spaceModule": "雙腰側內建空間快取口；沿用既有容量與限制",
+        "suitFeatures": [
+          "動態流同步導能層",
+          "氣力置換承載骨架",
+          "脈衝慣性導散",
+          "周相容外接層",
+          "FLOW-LINK技能融合框架",
+          "導能複合籠手Ⅲ聯動"
+        ],
+        "tacticalSuit": "流脈近戰戰術服Ⅱ",
+        "recalibration": {
+          "rule": "低強度→中強度→狀態確認→再決定是否提高；不得直接跳最大輸出脈衝×螺旋。",
+          "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+          "basicTen": "PASS / HIGHLY STABLE",
+          "repeatFire": "NOT TESTED",
+          "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+          "enhancedTen": "112／110／113秒；平均111.67秒",
+          "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
+          "pulseBrake5m": "PASS",
+          "testSequence": [
+            "基本纏＋籠手Ⅲ",
+            "低強度動態流多節點切換",
+            "左右肢體快速切換",
+            "動態流＋拳擊基本動作",
+            "增大纏下局部流",
+            "低負荷氣力置換",
+            "5m脈衝／煞停",
+            "螺旋右拳形成速度與導流完整性",
+            "視狀態決定是否測更高組合"
+          ],
+          "maximumOutput": "NOT TESTED",
+          "outputRecovery": "輸出後念流沿籠手Ⅲ、肩與核心回到全身；較舊結構乾淨",
+          "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS",
+          "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY",
+          "lowIntensityAdaptation": "COMPLETE"
+        },
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "流脈近戰戰術服Ⅱ之衣裝空間模組",
+          "quantity": 1
+        },
+        "externalBlessings": [
+          {
+            "name": "龍語加護",
+            "source": "灰燼紅龍「阿龍」",
+            "status": "IDENTIFIED / STABLE",
+            "timeline": [
+              {
+                "event": "僅確認加護存在且穩定附著；當時不得推定具體效果。",
+                "order": 1,
+                "stage": "D020結算當下",
+                "status": "STABLE / UNIDENTIFIED"
+              },
+              {
+                "event": "洛主動要求主神對導能複合籠手Ⅱ上的龍語加護進行完整鑑定；四項正式效果確認。",
+                "order": 2,
+                "stage": "POST-D020｜完整恢復後／D021出發前",
+                "status": "IDENTIFIED / STABLE"
+              },
+              {
+                "event": "沿用完整鑑定結果；不退回D020結算時的未鑑定快照。",
+                "order": 3,
+                "stage": "CURRENT",
+                "status": "IDENTIFIED / STABLE"
+              }
+            ],
+            "attachedTo": "導能複合籠手Ⅲ",
+            "nextAction": "核心鑑定已完成；僅其他龍種／龍系能量相容性仍待後續受控測試",
+            "identifiedAt": "POST-D020｜完整恢復後／D021出發前",
+            "notConfirmed": [
+              "其他龍種／龍系能量相容性"
+            ],
+            "previousStatus": "STABLE / UNIDENTIFIED",
+            "confirmedEffects": [
+              "阿龍系龍息相性適應",
+              "龍息導流穩定",
+              "龍語友好識別印記",
+              "阿龍個體識別"
+            ],
+            "supersessionRule": "D020結算時的UNIDENTIFIED為歷史快照；其後洛正式確認完整鑑定，故CURRENT以IDENTIFIED / STABLE為準。"
+          },
+          {
+            "not": [
+              "詛咒",
+              "污染",
+              "寄生",
+              "強制契約",
+              "額外念氣槽"
+            ],
+            "name": "山神餘力",
+            "type": "異源生命性守護殘響",
+            "detail": "不增加洛原有念氣總量；補全調動、分配、節點切換、輸出與回收中的細微逸散與殘留，使念系統循環更完整。",
+            "limits": [
+              "無主動技能",
+              "不直接增加念氣總量",
+              "不直接增加肉體數值",
+              "不直接增加技能等級",
+              "不自動形成完全本能式動態流"
+            ],
+            "source": "D022《血月孤兒院》／山神休眠前自願贈與",
+            "status": "IDENTIFIED / STABLE",
+            "attachedTo": "洛",
+            "coreConcept": "一體出／一體進",
+            "identifiedAt": "POST-D022休整日第一天",
+            "coreCorrection": "念氣循環完整性補全",
+            "confirmedEffects": [
+              "一體出／一體進：降低非必要念氣逸散與殘留",
+              "山岳承載殘響：使用自身力量承重、支撐與穩定姿態時略微改善能量與結構穩定",
+              "山神系能量親和識別：提升對山神、山之子與同源守護印記的辨識相性",
+              "異常侵入預警殘響：外來能量企圖侵入、抽取或強制連結自身生命能量時可能產生輕微警示"
+            ]
+          }
+        ],
+        "bodyNenIntegration": {
+          "cost": "4200點＋B×1",
+          "limits": [
+            "不增加總念氣或肌力",
+            "不取消肉體、關節、心肺、慣性、疲勞",
+            "不自動完全本能化"
+          ],
+          "points": 1846,
+          "ability": "念體一元化Ⅰ",
+          "spiralTest": "前臂核心→全右臂→全身動力鏈；64→52，改善18.75%；最大威力不自動增加"
+        },
+        "integrationProfile": {
+          "effects": [
+            "降低裝備端模式轉接延遲",
+            "降低非必要導能損失",
+            "降低結構切換干擾"
+          ],
+          "synergy": "VERY HIGH",
+          "architecture": "由多個獨立模組切換改為單一整合導能骨架",
+          "compatibleWith": [
+            "山神餘力",
+            "一體出／一體進",
+            "全身動態流",
+            "氣力置換",
+            "脈衝",
+            "螺旋右拳"
+          ]
+        }
+      },
+      "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
+      "abilitySystems": {
+        "洛": {
+          "title": "洛｜念輸出、疲勞與總氣量成長框架",
+          "status": "FRAMEWORK_CONFIRMED／POST-D023_RECONCILED",
+          "fatigue": {
+            "rule": "全身疲勞與局部負荷分開判定",
+            "localLoad": [
+              "右臂",
+              "雙腿",
+              "腰背"
+            ],
+            "wholeBody": [
+              {
+                "name": "正常",
+                "level": "F0",
+                "description": "呼吸平穩、動作完整"
+              },
+              {
+                "name": "熱身",
+                "level": "F1",
+                "description": "心跳提高、身體發熱，不影響戰鬥"
+              },
+              {
+                "name": "輕度疲勞",
+                "level": "F2",
+                "description": "呼吸明顯；可正常戰鬥，連續脈衝需控制"
+              },
+              {
+                "name": "中度疲勞",
+                "level": "F3",
+                "description": "大口呼吸；爆發後需恢復，煞停與精密移動下降"
+              },
+              {
+                "name": "重度疲勞",
+                "level": "F4",
+                "description": "腿重、全身發酸；高輸出受傷風險明顯上升"
+              },
+              {
+                "name": "極限",
+                "level": "F5",
+                "description": "節奏崩解、肌肉顫抖；應低強度維持或撤退"
+              }
+            ],
+            "localScale": [
+              "無",
+              "輕微",
+              "中度",
+              "重度"
+            ]
+          },
+          "formula": [
+            "氣量＝還能支付多少",
+            "流＝把氣支付在哪裡",
+            "氣力置換＝氣能換成多少力量；作為底層轉換機制保留，已整合進脈衝、承重與推力輸出，不再列為主要介面的獨立招式",
+            "脈衝＝極短時間支付大量氣，並調用氣力置換與動態流完成瞬態力量、位移或煞停",
+            "螺旋＝力量以何種旋轉結構輸出；右拳現行順序為右前臂核心→全右臂→全身動力鏈",
+            "肉體＝支付氣後能否承受結果"
+          ],
+          "auraGrowth": {
+            "d016": "十日完整恢復後A-01同條件重新校準已確認總氣量自然成長成立；不得換算精確百分比或氣池數值。",
+            "name": "總氣量成長｜慢性適應",
+            "cycle": "使用刺激→疲勞→完整恢復→適應→基準測試",
+            "rules": [
+              "總氣量可因長期實際使用、合理刺激與完整恢復而小幅漸進成長",
+              "成長發生於恢復階段，不是使用當下",
+              "單純休息、日常、時間流逝、一次爆發或過度操練不自動增加",
+              "超過安全線不代表成長更快",
+              "明顯成長須由同條件基準測試或主神掃描確認"
+            ],
+            "status": "RULE_CONFIRMED／CURRENT_GROWTH_CONFIRMED",
+            "benchmarks": [
+              "標準重物持續承重",
+              "基本纏連續維持",
+              "固定距離短脈衝反覆次數"
+            ],
+            "hiddenDimensions": [
+              "氣池／總量",
+              "瞬間輸出率",
+              "控制效率"
+            ]
+          },
+          "principles": [
+            "不用固定MP數字；以呼吸、全身疲勞、局部負荷、動作精度與標準測試判讀",
+            "氣可以替代力量，但不能替代身體承載、心肺、慣性、煞停與恢復",
+            "秒數、承重時間與脈衝次數只是測試示例，不是正式固定數值"
+          ],
+          "outputLayers": [
+            {
+              "name": "基本纏",
+              "order": 1,
+              "description": "低消耗、穩定、可長時間維持的基礎狀態"
+            },
+            {
+              "name": "增大纏",
+              "order": 2,
+              "description": "提高全身單位時間氣量；整體力量與承載提高，消耗更快"
+            },
+            {
+              "name": "流／局部高壓維持",
+              "order": 3,
+              "description": "將氣集中於承重或動作部位，提高局部效率；長時間維持不歸類為瞬態脈衝"
+            },
+            {
+              "name": "脈衝",
+              "order": 4,
+              "description": "極短時間輸出大量氣並整合氣力置換與動態流，用於衝刺、搶位、煞停、承重轉換或爆發；完成後回收並返回基本纏"
+            },
+            {
+              "name": "螺旋右拳",
+              "order": 5,
+              "description": "先於右前臂形成螺旋核心，再擴展至整條右臂，最後銜接全身動力鏈；以旋轉念構型輸出集中、鑽入與破壞效果"
+            },
+            {
+              "name": "脈衝×螺旋",
+              "order": 6,
+              "description": "脈衝瞬態灌注、氣力置換、螺旋加速與完整動力鏈同步；輸出、氣耗與身體負荷最高"
+            }
+          ],
+          "integrationNotes": {
+            "limits": [
+              "不增加總念氣",
+              "不直接增加純肉體肌力",
+              "不取消肉體承載、關節、心肺、慣性、疲勞與局部負荷",
+              "不等於動態流或念體一元化已完全無意識本能化"
+            ],
+            "status": "CONFIRMED / POST-D023",
+            "interfaceRule": "主要顯示技能維持：基本念氣／增大念氣／脈衝／螺旋右拳／脈衝×螺旋右拳／圓",
+            "spiralSequence": "右前臂螺旋核心→全右臂→全身動力鏈",
+            "forceConversion": "氣力置換保留為底層機制，已整合進脈衝、承重與推力輸出；不因介面隱藏而失效",
+            "spiralBenchmark": "成形速度測試指數64→52，改善18.75%；不代表最大威力自動增加"
+          }
+        },
+        "伊恩": {
+          "title": "伊恩｜術式領域／具現體質變框架",
+          "limits": [
+            "術式領域不等於無限施法",
+            "術式具現體無人格且不自行判敵",
+            "具現體只能執行預設條件",
+            "所有構築仍消耗伊恩精神與術式資源",
+            "三重重疊不等於三主核心正式解鎖",
+            "最大領域、具現體數量與極限尚未測試"
+          ],
+          "status": "QUALITY-BREAKTHROUGH-01 / ACQUIRED",
+          "coreAbilities": {
+            "status": "ACQUIRED / INITIAL TEST COMPLETE",
+            "totalCost": 12300,
+            "branchCost": {
+              "B": 1,
+              "C": 2
+            },
+            "術式領域Ⅰ": {
+              "cost": 6800,
+              "tests": {
+                "dualPoint": "STABLE",
+                "singlePoint": "PASS",
+                "triplePoint": "可行／精神負荷明顯上升"
+              },
+              "limits": [
+                "不等於無限施法",
+                "不取消精神與術式資源消耗",
+                "未測領域極限"
+              ],
+              "status": "ACQUIRED",
+              "radiusM": 10,
+              "branchCost": {
+                "B": 1
+              },
+              "definition": "以伊恩為核心展開約10m半徑領域；領域空間成為大型術式底板，可在指定位置構築既有防禦／拘束／隔離／導流／基礎攻擊術式"
+            },
+            "combinedOperation": {
+              "flow": "領域快速構築→固定為術式具現體→伊恩轉移→建立下一節點",
+              "status": "CONFIRMED",
+              "tacticalRole": "戰場術式節點化／區域控制網",
+              "confirmedNodes": [
+                "防禦",
+                "拘束",
+                "結構支撐"
+              ]
+            },
+            "術式具現體Ⅰ": {
+              "cost": 5500,
+              "tests": {
+                "boundaryAutoBind": "PASS",
+                "defense30Seconds": "PASS",
+                "structuralSupport": "PASS"
+              },
+              "limits": [
+                "無人格",
+                "不自行判敵",
+                "不自行創造術式",
+                "僅執行預先設定條件",
+                "建立仍消耗伊恩自身精神與術式資源",
+                "未測最大數量"
+              ],
+              "status": "ACQUIRED",
+              "branchCost": {
+                "C": 2
+              },
+              "definition": "將完成術式固定為獨立術式構造體；伊恩不需留在原地持續控制"
+            }
+          },
+          "currentTacticalRole": "戰場術式節點化／區域控制網"
+        },
+        "程牧": {
+          "curveArrow": {
+            "name": "曲折箭Ⅰ",
+            "status": "ACQUIRED / INITIAL CALIBRATION",
+            "definition": "對實體箭矢飛行路徑提供有限非直線控制，並將曲折路徑納入彈道領域可行解。",
+            "constraints": [
+              "不穿牆",
+              "不必中",
+              "非自由任意轉向",
+              "曲率有上限",
+              "高角度與複雜路徑提高誤差及解算負荷",
+              "九十度轉角未確認",
+              "不生成或補充箭矢"
+            ],
+            "calibrationPlan": [
+              "標準箭",
+              "低輸出",
+              "短距離",
+              "小角度",
+              "單箭"
+            ]
+          }
+        }
+      },
+      "trainingStatus": {
+        "node": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
+        "rule": "只記錄已成立且可重現之測試結果；未測上限不得自動補完或升階",
+        "status": "CURRENT / RECALIBRATION COMPLETE WITH LIMITS PENDING",
+        "completed": [
+          "洛：恢復後念氣重測完成；增大念氣117.67秒平均／穩定改善+5.4%／不判定總念氣增加",
+          "周映白：連續閃返7m×8＝56m完成；救援能力保留；最大單次距離不更新",
+          "WIFI：多箭種戰術選項庫／戰術鏈測試完成；不固定Combo",
+          "伊恩：術式領域Ⅰ ACQUIRED；術式具現體Ⅰ ACQUIRED；領域×具現體區域控制網 CONFIRMED"
+        ],
+        "nextScene": "AI主神空間｜等待下一副本選擇",
+        "notPerformed": [
+          "洛：500%最大輸出未測",
+          "伊恩：術式領域極限未測",
+          "伊恩：術式具現體最大數量未測",
+          "其他質變候選：未購入"
+        ]
+      },
+      "coreAbilityCards": {
+        "洛": [
+          {
+            "core": "正常清醒狀態下自然維持全身基本念氣覆蓋；等同既有基本纏的實際功能，通常不需特別喊名。",
+            "name": "基本念氣",
+            "type": "常態／普通狀態",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "功能",
+                "detail": "基礎防護／基礎身體強化／念氣正常循環／一般活動自然維持"
+              }
+            ]
+          },
+          {
+            "core": "主動提高全身念氣輸出與覆蓋強度，統一取代「增大纏／全身高輸出／全身氣力置換」等近似敘事名稱。",
+            "name": "增大念氣",
+            "type": "全身強化／練",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "功能",
+                "detail": "提高全身有效力量、承載、防護，並作為高輸出招式底盤"
+              }
+            ]
+          },
+          {
+            "core": "正式整合氣力置換：念氣高速凝聚至指定部位，將局部有效力量提高至當下可承受範圍後瞬間釋放。",
+            "name": "脈衝",
+            "type": "局部瞬間爆發",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "運用",
+                "detail": "腿部／腳底／右臂／肩部／承重鏈／後撤等皆屬同一技能的不同用法"
+              },
+              {
+                "name": "內部尺度",
+                "detail": "100%肉體基準；300%實用輸出；400%高負荷；500%短時峰值。倍率不是獨立技能。"
+              },
+              {
+                "name": "限制",
+                "detail": "有效力量倍率不等於骨骼、關節、肌肉、心肺、防禦與速度同步等倍率提高；肉體承載仍存在。"
+              }
+            ]
+          },
+          {
+            "core": "右前臂先預成形念氣螺旋，快速擴張至全臂並同步接入下肢、髖、腰、核心動力鏈。",
+            "name": "螺旋右拳",
+            "type": "常駐爆發拳／前臂先導型",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "改良",
+                "detail": "螺旋形成與全身力量輸入可並行；提升成形速度與戰鬥窗口適應。"
+              },
+              {
+                "name": "上限",
+                "detail": "最大理論威力不因本次介面整合或成形改良自動提高。"
+              }
+            ]
+          },
+          {
+            "core": "前臂螺旋預成形、全臂與全身動力鏈接入後，以脈衝把局部念氣與有效力量推向高峰完成終結輸出。",
+            "name": "脈衝×螺旋右拳",
+            "type": "重型單點終結技",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "高念耗／高身體、關節、肌肉與心肺負荷；慣性與反作用力存在；不可無限制連發。"
+              }
+            ]
+          },
+          {
+            "core": "感知周遭並探測範圍內異常；D023前向延伸只屬使用形狀，不另立技能。",
+            "name": "圓",
+            "type": "偵測",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "整合肉體動作、念氣調動、分配、承力、輸出與回收",
+            "name": "念體一元化Ⅰ",
+            "type": "念體整合核心／非獨立攻擊技能",
+            "status": "ACQUIRED / OPERATIONAL",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不增加總念氣或肌力；不取消肉體、關節、心肺、慣性與疲勞；不自動完全本能化。"
+              }
+            ]
+          },
+          {
+            "core": "在洛體外形成可承力、活動與戰鬥的大型外顯念體；目前重新建立身體—念—巨靈同步。",
+            "name": "巨靈體Ⅰ",
+            "type": "大型外顯念體／私人名稱：須佐洛",
+            "status": "ACQUIRED / RE-FAMILIARIZATION PROGRESSING",
+            "branches": [
+              {
+                "name": "已測",
+                "detail": "站立／抬手／握拳／跑動／急停／轉向／跳躍／落地／基礎低輸出同步"
+              },
+              {
+                "name": "未測",
+                "detail": "最大尺寸／最大力量／最大持續時間／高輸出整合／最大承重／高速連戰同步"
+              },
+              {
+                "name": "限制",
+                "detail": "不沿用重置前熟練度；總念氣不增加。"
+              }
+            ]
+          }
+        ],
+        "伊恩": [
+          {
+            "core": "統一包含引燃、閃燃與熱流偏轉；實際使用時仍可直接喊具體術式名稱。",
+            "name": "基礎術式",
+            "type": "常用基礎術式群",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "整合預構築、快速成形、取消、轉構、連續構築、雙核交替與術式循環。",
+            "name": "快速術式構築",
+            "type": "施法操作底盤",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "統一處理重疊法陣、多重法陣與多術式協作；多核心與自律節點視為進階運作模式。",
+            "name": "複式法陣",
+            "type": "多術式協作",
+            "status": "PRACTICAL",
+            "branches": [
+              {
+                "name": "多核心",
+                "detail": "目前可使用雙主核心。"
+              },
+              {
+                "name": "自律節點",
+                "detail": "低複雜度節點可依預設條件有限維持；無人格、不自行創造術式、不自行判敵，精神負荷仍存在。"
+              }
+            ]
+          },
+          {
+            "core": "偵測、防禦、拘束、隔離、結構支撐與導流皆為同一大型法陣系統的不同模板。",
+            "name": "大型法陣",
+            "type": "大型術式模板系統",
+            "status": "PRACTICAL"
+          },
+          {
+            "core": "以伊恩為核心展開約10m半徑術式領域；領域空間成為大型術式底板，可在指定位置快速構築既有防禦、拘束、隔離、導流與基礎攻擊術式。",
+            "name": "術式領域Ⅰ",
+            "type": "第七階段質變能力／術式領域",
+            "status": "ACQUIRED",
+            "branches": [
+              {
+                "name": "初始測試",
+                "detail": "單點PASS／雙點同步STABLE／三點同步可行但精神負荷明顯上升"
+              },
+              {
+                "name": "限制",
+                "detail": "不等於無限施法；不取消精神與術式資源消耗；領域極限未測"
+              }
+            ]
+          },
+          {
+            "core": "可將完成術式固定為獨立術式構造體；伊恩不必留在原地持續控制。",
+            "name": "術式具現體Ⅰ",
+            "type": "第七階段質變能力／獨立術式構造",
+            "status": "ACQUIRED",
+            "branches": [
+              {
+                "name": "初始測試",
+                "detail": "防禦維持30秒PASS／結構支撐PASS／越線自動拘束PASS"
+              },
+              {
+                "name": "限制",
+                "detail": "無人格、不自行判敵、不自行創造術式；僅執行預設條件；建立仍消耗精神與術式資源；最大數量未測"
+              }
+            ]
+          },
+          {
+            "core": "領域快速構築→固定為術式具現體→伊恩轉移→繼續建立下一節點；已確認可留下防禦、拘束、結構支撐三個獨立術式節點，伊恩本人仍可繼續操作。",
+            "name": "術式領域Ⅰ×術式具現體Ⅰ",
+            "type": "聯合運用／區域控制網",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "戰術定位",
+                "detail": "戰場術式節點化／區域控制網"
+              }
+            ]
+          }
+        ],
+        "程牧": [
+          {
+            "core": "整合四人共享戰術視界、威脅預測Ⅰ、異常訊號交叉判讀、路線／地形標記與環境姿態判讀。",
+            "name": "戰術視界",
+            "type": "共享情報核心",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "流程",
+                "detail": "觀察→分類→標記→短時威脅判讀→四人共享"
+              },
+              {
+                "name": "限制",
+                "detail": "不是預知、讀心、自動判敵或自動知道未知區域。"
+              }
+            ]
+          },
+          {
+            "core": "整合距離、風、相對速度、目標運動、射線、友軍位置與彈道安全。",
+            "name": "彈道領域",
+            "type": "射擊解算",
+            "status": "INITIAL FAMILIARIZATION",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "仍須程牧本人選擇目標並射擊；不保證命中。"
+              }
+            ]
+          },
+          {
+            "core": "整合特殊箭運用、箭種切換、箭種戰術鏈與智能箭庫選箭流程。",
+            "name": "多箭種射擊",
+            "type": "有限實體箭矢戰術",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "箭矢仍為有限實體庫存；灰隼重磅戰弓與折疊智能箭庫Ⅰ只列裝備。"
+              }
+            ]
+          },
+          {
+            "core": "使實體箭矢在可解算範圍內沿受控制的非直線路徑飛行，為掩體、友軍遮擋、側角與狹窄區域建立替代射擊解；不是新箭種。",
+            "name": "曲折箭Ⅰ",
+            "type": "非直線實體箭道控制／彈道領域整合",
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "branches": [
+              {
+                "name": "整合",
+                "detail": "彈道領域Ⅰ／共享視界・威脅預測Ⅰ／四人共享戰術視界／灰隼重磅戰弓"
+              },
+              {
+                "name": "用途",
+                "detail": "繞掩體邊緣／側角攻擊／避開友軍直射線／狹窄區域安全射角／從非正面角度切入"
+              },
+              {
+                "name": "限制",
+                "detail": "曲率與角度有上限；角度越大、路徑越複雜，誤差與解算負荷越高；目前不得假設九十度轉角可用；不能穿牆、不必中、不自行選敵或射擊。"
+              },
+              {
+                "name": "實體規則",
+                "detail": "程牧本人選目標、判敵、選箭、拉弓與射擊；特殊箭仍為有限實體庫存。"
+              }
+            ]
+          }
+        ],
+        "周映白": [
+          {
+            "core": "統一包含一般、連續、帶人／負重、水域運用與落點前安全檢查。空間安全感知Ⅰ視為內建安全層。",
+            "name": "閃返步",
+            "type": "空間機動核心",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不可穿越封閉實體牆；未知障礙仍有風險；距離、負重與連續使用提高負荷。"
+              }
+            ]
+          },
+          {
+            "core": "抵抗位移、拉扯、部分傳送與空間扭曲造成的位置失穩；不是絕對固定。",
+            "name": "空間錨定",
+            "type": "位置穩定",
+            "status": "INITIAL FAMILIARIZATION"
+          },
+          {
+            "core": "整合傷情判讀、戰地急救、傷員穩定、固定、拖帶與火線後送。",
+            "name": "戰術救援",
+            "type": "戰地救援整合",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "標準流程",
+                "detail": "接近→判傷→緊急處置→穩定／固定→拖帶／後送→再評估"
+              },
+              {
+                "name": "限制",
+                "detail": "周映白仍不是完整醫師。"
+              }
+            ]
+          },
+          {
+            "core": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+            "name": "空間門Ⅰ",
+            "type": "多人空間通道",
+            "status": "ACQUIRED / RECALIBRATION REQUIRED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不可向完全未知區域盲開；距離、門徑、維持時間與連續次數未正式校準；不增加總體力或閃返步距離"
+              }
+            ]
+          },
+          {
+            "core": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+            "name": "空間門錨點穩定Ⅰ",
+            "type": "空間門穩定強化",
+            "status": "ACQUIRED / INTEGRATED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不增加最大距離；不增加最大門徑；不增加維持時間硬上限；不增加能量總量"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "postD026TrainingIntegration": {
+      "洛": {
+        "spiral": {
+          "scope": "STANDARD OUTPUT",
+          "status": "PASS / STABLE",
+          "untested": [
+            "最大輸出",
+            "高負荷連續螺旋",
+            "脈衝×螺旋最大輸出"
+          ],
+          "confirmed": [
+            "前臂螺旋→拳面導流更加直接",
+            "標準輸出右手、前臂、肩部無異常",
+            "收拳後念回收感改善"
+          ]
+        },
+        "gauntlet": {
+          "cost": "本卡未提供改修報價，不追加推定扣款",
+          "name": "導能複合籠手Ⅲ｜碳晶直通導能型",
+          "status": "OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
+          "effects": [
+            "更輕、更貼近皮膚",
+            "碳晶／定向導能纖維縮短主要導能路徑",
+            "手腕→前臂→拳面導能更加直接",
+            "裝備端转接感與滯後降低",
+            "念氣分流、集中與回收感更清楚",
+            "與動態流、氣力置換、脈衝、螺旋右拳相容性提高"
+          ],
+          "noIncrease": [
+            "總念氣",
+            "肉體肌力",
+            "螺旋右拳理論最大輸出",
+            "巨靈體等級",
+            "新技能"
+          ]
+        },
+        "dynamicFlow": {
+          "limits": [
+            "不是自動戰鬥",
+            "不是零延遲",
+            "不取消肉體承載"
+          ],
+          "status": "HIGHLY INTEGRATED / EMBEDDED",
+          "sequence": "動作意圖→念分配→承力／輸出→回收",
+          "description": "全身動態流已刻入既有念氣運作習慣，不再以先想好移念位置為主要操作方式",
+          "forceConversion": "正式融入脈衝推進邏輯；以念直接補足蹬地／推進所需力量"
+        },
+        "giantSpirit": {
+          "not": [
+            "獨立人格",
+            "自律戰鬥單位",
+            "額外念氣槽",
+            "獨立無限力量來源"
+          ],
+          "name": "巨靈體Ⅰ",
+          "pulse": {
+            "cost": "比本體單獨脈衝更耗念；需維持形體、姿態與動作同步",
+            "status": "LOW-LOAD SYNC PASS",
+            "distanceM": 5
+          },
+          "boxing": {
+            "status": "PASS",
+            "confirmed": [
+              "低輸出刺拳／直拳同步",
+              "左右／前後／斜向小碎步同步"
+            ]
+          },
+          "status": "PRACTICAL / INTEGRATION CONFIRMED",
+          "above11m": "UNTESTED",
+          "fullForm": {
+            "scope": "首次安全實用維持基準／非最大維持時間",
+            "status": "PASS",
+            "minutes": 10,
+            "extraLoad": "戰鬥、脈衝、承重、拳擊均追加消耗"
+          },
+          "nickname": "須佐洛",
+          "untested": [
+            "最大維持時間",
+            "最大力量與承重",
+            "更高階／最大輸出整合"
+          ],
+          "definition": "洛本體動作與念系統的巨大同步延伸體／巨型近身拳擊延伸體",
+          "maximumSize": "UNKNOWN；只確認至少可達約11m",
+          "sizeCalibration": [
+            {
+              "meters": 6,
+              "status": "PRACTICAL / HIGH CONTROL"
+            },
+            {
+              "meters": 8,
+              "status": "PRACTICAL / STABLE"
+            },
+            {
+              "meters": 10,
+              "status": "CONTROLLED / HIGHER LOAD"
+            },
+            {
+              "meters": 11,
+              "status": "ACHIEVABLE / SHORT-DURATION / NOT PRACTICAL BASELINE"
+            }
+          ]
+        },
+        "combatConcept": "拳擊＋小碎步",
+        "pulseFootwork": {
+          "type": "既有脈衝運用／非新技能",
+          "limits": [
+            "不是瞬移",
+            "仍有慣性",
+            "仍需煞停與重建姿態",
+            "連續使用累積心肺、腿部與念氣負荷",
+            "8連不可無限制重複"
+          ],
+          "concept": "短距離脈衝嵌入拳擊碎步與方向切換",
+          "benchmarks": {
+            "4連": "HIGHLY STABLE",
+            "6連": "STABLE / PRACTICAL",
+            "8連": "ACHIEVABLE；末段煞停精度下降，腿部與心肺負荷明顯"
+          },
+          "safePracticalRepetitions": "4～6連"
+        },
+        "enhancedAuraPulse": {
+          "costs": [
+            "增大纏持續耗念",
+            "脈衝追加瞬間消耗",
+            "心肺、肌肉、關節與煞停負荷提高"
+          ],
+          "status": "CONCEPT CONFIRMED / NOT A NEW SKILL",
+          "feeling": "大量念氣瞬間爆發；較普通低負荷脈衝有明顯整體爆發感",
+          "sequence": "增大纏建立全身高密度念→脈衝將其中部分瞬間轉為推進",
+          "totalAuraIncrease": false
+        }
+      },
+      "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "limits": [
+        "本輪熟悉不新增超自然技能、能量總量或能力等級",
+        "不提高最大距離或硬體理論上限",
+        "僅更新已確認的實用化、操作熟悉、協同與安全基準"
+      ],
+      "source": "使用者正式CODEx更新卡",
+      "status": "CONFIRMED / TRAINING & INTEGRATION COMPLETE",
+      "伊恩": {
+        "multiCore": {
+          "name": "多核心法陣Ⅰ",
+          "effect": "改善精神負荷分配與多工作業；不是能量增加",
+          "status": "PRACTICAL INTEGRATION PROGRESSING",
+          "training": [
+            "雙主核心並行",
+            "不同功能同步維持",
+            "一側維持／穩定",
+            "另一側保留應急術式或其他操作"
+          ]
+        },
+        "autonomousNode": {
+          "name": "術式自律節點Ⅰ",
+          "effect": "部分低階持續工作交由節點處理，減少持續手動管理所有細節的負擔",
+          "training": [
+            "單節點監測",
+            "單節點維持",
+            "條件成立時有限介入",
+            "多節點分工"
+          ],
+          "principles": [
+            "低複雜度預設條件",
+            "無人格",
+            "不自行創造術式",
+            "不自行判敵"
+          ]
+        }
+      },
+      "程牧": {
+        "curveArrow": {
+          "name": "曲折箭Ⅰ",
+          "uses": [
+            "繞掩體",
+            "轉角射擊",
+            "避開隊友後重新切入目標",
+            "非正面射線",
+            "精細裝置破壞／救援射擊"
+          ],
+          "limits": [
+            "不是必中",
+            "不是自動追蹤",
+            "不是空間傳送",
+            "本人決定目標、路徑、轉向時機與箭種",
+            "劇烈轉向提高速度、穩定、射程與精度要求",
+            "不穿牆",
+            "不自動判敵、瞄準或射擊"
+          ],
+          "status": "PRACTICAL / FIELD-VALIDATED",
+          "synergy": [
+            "四人共享戰術視界",
+            "威脅預測Ⅰ",
+            "彈道領域Ⅰ"
+          ],
+          "confirmed": [
+            "小角度曲線調整",
+            "中幅繞障",
+            "高角度折線改向",
+            "接近90°大角度轉向可作代表性實戰用途"
+          ],
+          "definition": "實體箭飛行途中明顯彈道重定向；直射→短距離內大幅轉向→重新進入第二條射線",
+          "unconfirmed": [
+            "180°回頭",
+            "多次連續極端直角折返"
+          ]
+        },
+        "combatStyle": "由尋找現有射線進展為主動創造射線"
+      },
+      "teamRule": "四人一起；任何人的能力、裝備、恢復與生存皆屬隊伍戰力",
+      "周映白": {
+        "anchor": {
+          "name": "空間門錨點穩定Ⅰ",
+          "status": "INTEGRATED",
+          "effects": [
+            "改善門框穩定",
+            "降低短時震動、結構移動與部分空間擾動影響",
+            "減少多人／擔架通過時修正負擔"
+          ],
+          "noIncrease": [
+            "最大距離",
+            "最大門徑",
+            "總能量",
+            "未知落點安全性"
+          ]
+        },
+        "spaceGate": {
+          "name": "空間門Ⅰ",
+          "status": "ACQUIRED / PRACTICAL",
+          "unknown": [
+            "最大距離",
+            "最大門徑",
+            "最大維持時間",
+            "最大連續通行量",
+            "高重力／高空間干擾極限"
+          ],
+          "confirmed": [
+            "短距離、已確認安全端點穩定建立",
+            "單人通行PASS",
+            "多人依序通行PASS",
+            "雙人並行PASS",
+            "擔架後送PRACTICAL",
+            "低程度環境震動下可使用"
+          ]
+        },
+        "rescueProcedure": [
+          "落點確認",
+          "開門",
+          "人員／擔架通過",
+          "維持",
+          "移位",
+          "關門",
+          "再建立",
+          "自身最後通過／返回現場"
+        ]
+      },
+      "priorities": {
+        "洛": [
+          "恢復優先",
+          "後續再測須佐洛高階整合",
+          "不急追最大輸出"
+        ],
+        "伊恩": [
+          "自律節點分工",
+          "多核心負荷管理",
+          "與香蕉空間門條件式支援"
+        ],
+        "程牧": [
+          "曲折箭高角度實戰化",
+          "多掩體／隊友交錯射線訓練"
+        ],
+        "周映白": [
+          "空間門救援流程熟悉",
+          "後續校準距離／門徑／持續時間"
+        ]
+      },
+      "nextMission": "UNSELECTED",
+      "teamProcedure": {
+        "steps": [
+          "救援車／現場救援",
+          "香蕉確認安全落點",
+          "空間門Ⅰ＋空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點協同穩定",
+          "傷員／擔架通過",
+          "自律式折疊救難醫療站Ⅲ自動接手",
+          "香蕉返回第一線救援",
+          "WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護"
+        ],
+        "status": "PRACTICAL / INTEGRATION IMPROVING"
+      },
+      "gateNodeSupport": {
+        "costs": [
+          "伊恩額外精神與能量負荷",
+          "部署時間"
+        ],
+        "status": "PRACTICAL / CONDITIONAL SUPPORT",
+        "lowLoad": "幫助有限，不建議常態使用",
+        "support": "伊恩：外部門框監測／修正／穩定辅助",
+        "benefits": [
+          "門框細微震盪下降",
+          "香蕉修正負荷下降",
+          "恢復穩定速度改善"
+        ],
+        "conditions": [
+          "高流量",
+          "擔架",
+          "震動",
+          "環境干擾"
+        ],
+        "controller": "香蕉：空間連接與主要控制",
+        "raisesHardLimits": false
+      }
+    },
     "postCustomAGrayCityLogistics": {
       "node": "POST-CUSTOM-A｜灰城返還後整備",
       "status": "COMPLETE / OPERATIONAL",

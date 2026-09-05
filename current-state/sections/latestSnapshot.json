@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 123,
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "section": "latestSnapshot",
   "state": {
     "latestSnapshot": {
@@ -18,7 +18,7 @@
           "mental": "穩定",
           "points": 8429,
           "nenType": "強化系",
-          "stamina": "POST-D026｜主神治療完成／休息優先／重新校準待進行",
+          "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
@@ -49,7 +49,7 @@
           "gender": "男",
           "mental": "穩定",
           "points": 11013,
-          "stamina": "POST-D026｜空間門Ⅰ取得／標準化校準待進行",
+          "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
@@ -79,7 +79,7 @@
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
           "points": 10950,
-          "stamina": "POST-D026｜返還完成／休整",
+          "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
@@ -123,7 +123,7 @@
           "gender": "男",
           "mental": "穩定",
           "points": 12482,
-          "stamina": "POST-D026｜曲折箭Ⅰ實戰驗證／可用箭矢144",
+          "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
@@ -158,12 +158,12 @@
         "程牧": 12482,
         "周映白": 11013
       },
-      "version": 123,
-      "gauntlet": "導能複合籠手Ⅲ｜OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+      "version": 124,
+      "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間",
-      "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
+      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜休息／重新校準待進行",
+      "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -211,6 +211,43 @@
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
       "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
+      "trainingStatus": {
+        "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+        "rule": "本輪熟悉不新增超自然技能、能量總量或能力等級；不提高最大距離或硬體理論上限；僅更新已確認的實用化、操作熟悉、協同與安全基準",
+        "status": "COMPLETE / SAFE PRACTICAL BENCHMARKS ESTABLISHED",
+        "completed": [
+          "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+          "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+          "香蕉：空間門多人／雙人並行／擔架後送實用",
+          "WIFI：曲折箭接近90°大角度實戰用途確認",
+          "伊恩：自律節點／雙主核心整合與條件式門框支援"
+        ],
+        "priorities": {
+          "洛": [
+            "恢復優先",
+            "後續再測須佐洛高階整合",
+            "不急追最大輸出"
+          ],
+          "伊恩": [
+            "自律節點分工",
+            "多核心負荷管理",
+            "與香蕉空間門條件式支援"
+          ],
+          "程牧": [
+            "曲折箭高角度實戰化",
+            "多掩體／隊友交錯射線訓練"
+          ],
+          "周映白": [
+            "空間門救援流程熟悉",
+            "後續校準距離／門徑／持續時間"
+          ]
+        },
+        "notPerformed": [
+          "巨靈體超過11m、最大維持時間及最大輸出未測",
+          "空間門最大距離／門徑／維持與流量未測",
+          "曲折箭180°與多次極端直角折返未確認"
+        ]
+      },
       "abilityInterface": "QUALITY-BREAKTHROUGH-01 / IAN FIELD-NODE NETWORK ACQUIRED",
       "aquaticReadiness": {
         "surfaceRescue": "OPERATIONAL",
@@ -218,15 +255,13 @@
         "deepDivingEquipment": "OPERATIONAL",
         "underwaterFlashReturn": "CONFIRMED"
       },
-      "nextAbilityCheck": "伊恩領域極限與具現體最大數量未測；洛500%最大輸出未測；其他質變候選均未購入",
+      "nextAbilityCheck": "巨靈體超過11m、最大維持時間及最大輸出未測；空間門最大距離／門徑／維持與流量未測；曲折箭180°與多次極端直角折返未確認",
       "currentHighlights": [
-        "D026《黃銅太陽城》S評價／4 IN 4 OUT",
-        "地心日獸 ALIVE / BREATHING / STABILIZING",
-        "162%強制點火 CANCELLED",
-        "香蕉取得空間門Ⅰ＋空間門錨點穩定Ⅰ",
-        "醫療站升級為自律式折疊救難醫療站Ⅲ",
-        "WIFI曲折箭Ⅰ PRACTICAL / FIELD-VALIDATED",
-        "可用箭矢144／分項待盤點"
+        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
+        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
+        "香蕉：空間門多人／雙人並行／擔架後送實用",
+        "WIFI：曲折箭接近90°大角度實戰用途確認",
+        "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
       "privatePointsTotal": 42874,

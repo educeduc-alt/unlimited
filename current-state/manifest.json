@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 123,
+  "version": 124,
   "schema_version": "v44",
-  "updated_at": "2026-09-04T10:26:30.561678+00:00",
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v123.json",
+  "versioned": "current-state/v124.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -100,7 +100,9 @@
     "postD023TacticalProcedure": "current-state/sections/postD023TacticalProcedure.json",
     "postD025CurveArrowRedemption": "current-state/sections/postD025CurveArrowRedemption.json",
     "postD025RelationshipReinforcement": "current-state/sections/postD025RelationshipReinforcement.json",
+    "postD026PreTrainingSnapshot": "current-state/sections/postD026PreTrainingSnapshot.json",
     "postD026Settlement": "current-state/sections/postD026Settlement.json",
+    "postD026TrainingIntegration": "current-state/sections/postD026TrainingIntegration.json",
     "powerSystemPrinciples": "current-state/sections/powerSystemPrinciples.json",
     "preD023Deployment": "current-state/sections/preD023Deployment.json",
     "privateInventory": "current-state/sections/privateInventory.json",

@@ -1,0 +1,783 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 124,
+  "updated_at": "2026-09-05T02:12:34.871126+00:00",
+  "section": "postD026PreTrainingSnapshot",
+  "state": {
+    "postD026PreTrainingSnapshot": {
+      "gauntlet": {
+        "main": "導能複合籠手Ⅲ",
+        "items": [],
+        "limits": [
+          "不增加念氣總量",
+          "不直接增加肌力",
+          "不直接提高螺旋右拳理論上限",
+          "不取消脈衝慣性",
+          "不取消心肺與肉體負荷",
+          "籠手不能替代身體承受反作用力"
+        ],
+        "status": "OPERATIONAL / INITIAL RECALIBRATION COMPLETE",
+        "modules": [
+          "一體式導能骨架Ⅰ",
+          "導能嵌片陣列Ⅱ",
+          "瞬態承載框架Ⅰ",
+          "Ⅲ型一體式負荷分散／回饋結構",
+          "優化模組接口"
+        ],
+        "notOwned": [
+          "旋流導引拳面Ⅰ"
+        ],
+        "evaModule": {
+          "name": "真空環境生存／EVA模組Ⅰ",
+          "limits": [
+            "真空脈衝受反作用與姿態變化影響",
+            "脈衝不得視為標準EVA推進手段"
+          ],
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "integration": [
+            "流脈近戰戰術服系統",
+            "導能複合籠手Ⅲ",
+            "龍語加護",
+            "念氣操作"
+          ],
+          "d021Validation": "真空展開、艦外活動與返艦流程完成實戰驗證"
+        },
+        "functions": [
+          "基本念氣導流",
+          "動態流節點轉接",
+          "氣力置換承力鏈",
+          "脈衝後姿態銜接",
+          "螺旋右拳旋轉導流",
+          "龍語加護相容層",
+          "救援破障",
+          "前臂護甲抗衝擊"
+        ],
+        "suitLimits": [
+          "不增加總氣量",
+          "不自動完成動態流",
+          "不取消肉體承載上限",
+          "不取消慣性",
+          "不讓脈衝成為無代價移動",
+          "不增加周本身強度",
+          "FLOW-LINK不是技能合成且不新增超自然能力"
+        ],
+        "carrySystem": "微型摺疊空間裝備",
+        "integration": "導能複合籠手Ⅲ：一體式導能骨架／前臂—肩背承載鏈／念流資訊／局部受力監測",
+        "moduleSlots": [
+          "EMPTY",
+          "EMPTY"
+        ],
+        "spaceModule": "雙腰側內建空間快取口；沿用既有容量與限制",
+        "suitFeatures": [
+          "動態流同步導能層",
+          "氣力置換承載骨架",
+          "脈衝慣性導散",
+          "周相容外接層",
+          "FLOW-LINK技能融合框架",
+          "導能複合籠手Ⅲ聯動"
+        ],
+        "tacticalSuit": "流脈近戰戰術服Ⅱ",
+        "recalibration": {
+          "rule": "低強度→中強度→狀態確認→再決定是否提高；不得直接跳最大輸出脈衝×螺旋。",
+          "status": "FIRST FORMAL RECALIBRATION COMPLETE",
+          "basicTen": "PASS / HIGHLY STABLE",
+          "repeatFire": "NOT TESTED",
+          "dynamicFlow": "PRACTICAL / INTEGRATION PROGRESSING",
+          "enhancedTen": "112／110／113秒；平均111.67秒",
+          "pulseSpiral": "CONTROLLED MEDIUM SINGLE OUTPUT PASS",
+          "pulseBrake5m": "PASS",
+          "testSequence": [
+            "基本纏＋籠手Ⅲ",
+            "低強度動態流多節點切換",
+            "左右肢體快速切換",
+            "動態流＋拳擊基本動作",
+            "增大纏下局部流",
+            "低負荷氣力置換",
+            "5m脈衝／煞停",
+            "螺旋右拳形成速度與導流完整性",
+            "視狀態決定是否測更高組合"
+          ],
+          "maximumOutput": "NOT TESTED",
+          "outputRecovery": "輸出後念流沿籠手Ⅲ、肩與核心回到全身；較舊結構乾淨",
+          "spiralRightPunch": "STANDARD SINGLE OUTPUT PASS",
+          "formalHighOutputTest": "PARTIAL / CONTROLLED MEDIUM SINGLE OUTPUT ONLY",
+          "lowIntensityAdaptation": "COMPLETE"
+        },
+        "coldWeatherGear": {
+          "name": "寒區完整套組Ⅰ",
+          "status": "OPERATIONAL",
+          "storage": "流脈近戰戰術服Ⅱ之衣裝空間模組",
+          "quantity": 1
+        },
+        "externalBlessings": [
+          {
+            "name": "龍語加護",
+            "source": "灰燼紅龍「阿龍」",
+            "status": "IDENTIFIED / STABLE",
+            "timeline": [
+              {
+                "event": "僅確認加護存在且穩定附著；當時不得推定具體效果。",
+                "order": 1,
+                "stage": "D020結算當下",
+                "status": "STABLE / UNIDENTIFIED"
+              },
+              {
+                "event": "洛主動要求主神對導能複合籠手Ⅱ上的龍語加護進行完整鑑定；四項正式效果確認。",
+                "order": 2,
+                "stage": "POST-D020｜完整恢復後／D021出發前",
+                "status": "IDENTIFIED / STABLE"
+              },
+              {
+                "event": "沿用完整鑑定結果；不退回D020結算時的未鑑定快照。",
+                "order": 3,
+                "stage": "CURRENT",
+                "status": "IDENTIFIED / STABLE"
+              }
+            ],
+            "attachedTo": "導能複合籠手Ⅲ",
+            "nextAction": "核心鑑定已完成；僅其他龍種／龍系能量相容性仍待後續受控測試",
+            "identifiedAt": "POST-D020｜完整恢復後／D021出發前",
+            "notConfirmed": [
+              "其他龍種／龍系能量相容性"
+            ],
+            "previousStatus": "STABLE / UNIDENTIFIED",
+            "confirmedEffects": [
+              "阿龍系龍息相性適應",
+              "龍息導流穩定",
+              "龍語友好識別印記",
+              "阿龍個體識別"
+            ],
+            "supersessionRule": "D020結算時的UNIDENTIFIED為歷史快照；其後洛正式確認完整鑑定，故CURRENT以IDENTIFIED / STABLE為準。"
+          },
+          {
+            "not": [
+              "詛咒",
+              "污染",
+              "寄生",
+              "強制契約",
+              "額外念氣槽"
+            ],
+            "name": "山神餘力",
+            "type": "異源生命性守護殘響",
+            "detail": "不增加洛原有念氣總量；補全調動、分配、節點切換、輸出與回收中的細微逸散與殘留，使念系統循環更完整。",
+            "limits": [
+              "無主動技能",
+              "不直接增加念氣總量",
+              "不直接增加肉體數值",
+              "不直接增加技能等級",
+              "不自動形成完全本能式動態流"
+            ],
+            "source": "D022《血月孤兒院》／山神休眠前自願贈與",
+            "status": "IDENTIFIED / STABLE",
+            "attachedTo": "洛",
+            "coreConcept": "一體出／一體進",
+            "identifiedAt": "POST-D022休整日第一天",
+            "coreCorrection": "念氣循環完整性補全",
+            "confirmedEffects": [
+              "一體出／一體進：降低非必要念氣逸散與殘留",
+              "山岳承載殘響：使用自身力量承重、支撐與穩定姿態時略微改善能量與結構穩定",
+              "山神系能量親和識別：提升對山神、山之子與同源守護印記的辨識相性",
+              "異常侵入預警殘響：外來能量企圖侵入、抽取或強制連結自身生命能量時可能產生輕微警示"
+            ]
+          }
+        ],
+        "bodyNenIntegration": {
+          "cost": "4200點＋B×1",
+          "limits": [
+            "不增加總念氣或肌力",
+            "不取消肉體、關節、心肺、慣性、疲勞",
+            "不自動完全本能化"
+          ],
+          "points": 1846,
+          "ability": "念體一元化Ⅰ",
+          "spiralTest": "前臂核心→全右臂→全身動力鏈；64→52，改善18.75%；最大威力不自動增加"
+        },
+        "integrationProfile": {
+          "effects": [
+            "降低裝備端模式轉接延遲",
+            "降低非必要導能損失",
+            "降低結構切換干擾"
+          ],
+          "synergy": "VERY HIGH",
+          "architecture": "由多個獨立模組切換改為單一整合導能骨架",
+          "compatibleWith": [
+            "山神餘力",
+            "一體出／一體進",
+            "全身動態流",
+            "氣力置換",
+            "脈衝",
+            "螺旋右拳"
+          ]
+        }
+      },
+      "saveNode": "POST-D026 / SETTLEMENT COMPLETE / POST-EXCHANGE",
+      "abilitySystems": {
+        "洛": {
+          "title": "洛｜念輸出、疲勞與總氣量成長框架",
+          "status": "FRAMEWORK_CONFIRMED／POST-D023_RECONCILED",
+          "fatigue": {
+            "rule": "全身疲勞與局部負荷分開判定",
+            "localLoad": [
+              "右臂",
+              "雙腿",
+              "腰背"
+            ],
+            "wholeBody": [
+              {
+                "name": "正常",
+                "level": "F0",
+                "description": "呼吸平穩、動作完整"
+              },
+              {
+                "name": "熱身",
+                "level": "F1",
+                "description": "心跳提高、身體發熱，不影響戰鬥"
+              },
+              {
+                "name": "輕度疲勞",
+                "level": "F2",
+                "description": "呼吸明顯；可正常戰鬥，連續脈衝需控制"
+              },
+              {
+                "name": "中度疲勞",
+                "level": "F3",
+                "description": "大口呼吸；爆發後需恢復，煞停與精密移動下降"
+              },
+              {
+                "name": "重度疲勞",
+                "level": "F4",
+                "description": "腿重、全身發酸；高輸出受傷風險明顯上升"
+              },
+              {
+                "name": "極限",
+                "level": "F5",
+                "description": "節奏崩解、肌肉顫抖；應低強度維持或撤退"
+              }
+            ],
+            "localScale": [
+              "無",
+              "輕微",
+              "中度",
+              "重度"
+            ]
+          },
+          "formula": [
+            "氣量＝還能支付多少",
+            "流＝把氣支付在哪裡",
+            "氣力置換＝氣能換成多少力量；作為底層轉換機制保留，已整合進脈衝、承重與推力輸出，不再列為主要介面的獨立招式",
+            "脈衝＝極短時間支付大量氣，並調用氣力置換與動態流完成瞬態力量、位移或煞停",
+            "螺旋＝力量以何種旋轉結構輸出；右拳現行順序為右前臂核心→全右臂→全身動力鏈",
+            "肉體＝支付氣後能否承受結果"
+          ],
+          "auraGrowth": {
+            "d016": "十日完整恢復後A-01同條件重新校準已確認總氣量自然成長成立；不得換算精確百分比或氣池數值。",
+            "name": "總氣量成長｜慢性適應",
+            "cycle": "使用刺激→疲勞→完整恢復→適應→基準測試",
+            "rules": [
+              "總氣量可因長期實際使用、合理刺激與完整恢復而小幅漸進成長",
+              "成長發生於恢復階段，不是使用當下",
+              "單純休息、日常、時間流逝、一次爆發或過度操練不自動增加",
+              "超過安全線不代表成長更快",
+              "明顯成長須由同條件基準測試或主神掃描確認"
+            ],
+            "status": "RULE_CONFIRMED／CURRENT_GROWTH_CONFIRMED",
+            "benchmarks": [
+              "標準重物持續承重",
+              "基本纏連續維持",
+              "固定距離短脈衝反覆次數"
+            ],
+            "hiddenDimensions": [
+              "氣池／總量",
+              "瞬間輸出率",
+              "控制效率"
+            ]
+          },
+          "principles": [
+            "不用固定MP數字；以呼吸、全身疲勞、局部負荷、動作精度與標準測試判讀",
+            "氣可以替代力量，但不能替代身體承載、心肺、慣性、煞停與恢復",
+            "秒數、承重時間與脈衝次數只是測試示例，不是正式固定數值"
+          ],
+          "outputLayers": [
+            {
+              "name": "基本纏",
+              "order": 1,
+              "description": "低消耗、穩定、可長時間維持的基礎狀態"
+            },
+            {
+              "name": "增大纏",
+              "order": 2,
+              "description": "提高全身單位時間氣量；整體力量與承載提高，消耗更快"
+            },
+            {
+              "name": "流／局部高壓維持",
+              "order": 3,
+              "description": "將氣集中於承重或動作部位，提高局部效率；長時間維持不歸類為瞬態脈衝"
+            },
+            {
+              "name": "脈衝",
+              "order": 4,
+              "description": "極短時間輸出大量氣並整合氣力置換與動態流，用於衝刺、搶位、煞停、承重轉換或爆發；完成後回收並返回基本纏"
+            },
+            {
+              "name": "螺旋右拳",
+              "order": 5,
+              "description": "先於右前臂形成螺旋核心，再擴展至整條右臂，最後銜接全身動力鏈；以旋轉念構型輸出集中、鑽入與破壞效果"
+            },
+            {
+              "name": "脈衝×螺旋",
+              "order": 6,
+              "description": "脈衝瞬態灌注、氣力置換、螺旋加速與完整動力鏈同步；輸出、氣耗與身體負荷最高"
+            }
+          ],
+          "integrationNotes": {
+            "limits": [
+              "不增加總念氣",
+              "不直接增加純肉體肌力",
+              "不取消肉體承載、關節、心肺、慣性、疲勞與局部負荷",
+              "不等於動態流或念體一元化已完全無意識本能化"
+            ],
+            "status": "CONFIRMED / POST-D023",
+            "interfaceRule": "主要顯示技能維持：基本念氣／增大念氣／脈衝／螺旋右拳／脈衝×螺旋右拳／圓",
+            "spiralSequence": "右前臂螺旋核心→全右臂→全身動力鏈",
+            "forceConversion": "氣力置換保留為底層機制，已整合進脈衝、承重與推力輸出；不因介面隱藏而失效",
+            "spiralBenchmark": "成形速度測試指數64→52，改善18.75%；不代表最大威力自動增加"
+          }
+        },
+        "伊恩": {
+          "title": "伊恩｜術式領域／具現體質變框架",
+          "limits": [
+            "術式領域不等於無限施法",
+            "術式具現體無人格且不自行判敵",
+            "具現體只能執行預設條件",
+            "所有構築仍消耗伊恩精神與術式資源",
+            "三重重疊不等於三主核心正式解鎖",
+            "最大領域、具現體數量與極限尚未測試"
+          ],
+          "status": "QUALITY-BREAKTHROUGH-01 / ACQUIRED",
+          "coreAbilities": {
+            "status": "ACQUIRED / INITIAL TEST COMPLETE",
+            "totalCost": 12300,
+            "branchCost": {
+              "B": 1,
+              "C": 2
+            },
+            "術式領域Ⅰ": {
+              "cost": 6800,
+              "tests": {
+                "dualPoint": "STABLE",
+                "singlePoint": "PASS",
+                "triplePoint": "可行／精神負荷明顯上升"
+              },
+              "limits": [
+                "不等於無限施法",
+                "不取消精神與術式資源消耗",
+                "未測領域極限"
+              ],
+              "status": "ACQUIRED",
+              "radiusM": 10,
+              "branchCost": {
+                "B": 1
+              },
+              "definition": "以伊恩為核心展開約10m半徑領域；領域空間成為大型術式底板，可在指定位置構築既有防禦／拘束／隔離／導流／基礎攻擊術式"
+            },
+            "combinedOperation": {
+              "flow": "領域快速構築→固定為術式具現體→伊恩轉移→建立下一節點",
+              "status": "CONFIRMED",
+              "tacticalRole": "戰場術式節點化／區域控制網",
+              "confirmedNodes": [
+                "防禦",
+                "拘束",
+                "結構支撐"
+              ]
+            },
+            "術式具現體Ⅰ": {
+              "cost": 5500,
+              "tests": {
+                "boundaryAutoBind": "PASS",
+                "defense30Seconds": "PASS",
+                "structuralSupport": "PASS"
+              },
+              "limits": [
+                "無人格",
+                "不自行判敵",
+                "不自行創造術式",
+                "僅執行預先設定條件",
+                "建立仍消耗伊恩自身精神與術式資源",
+                "未測最大數量"
+              ],
+              "status": "ACQUIRED",
+              "branchCost": {
+                "C": 2
+              },
+              "definition": "將完成術式固定為獨立術式構造體；伊恩不需留在原地持續控制"
+            }
+          },
+          "currentTacticalRole": "戰場術式節點化／區域控制網"
+        },
+        "程牧": {
+          "curveArrow": {
+            "name": "曲折箭Ⅰ",
+            "status": "ACQUIRED / INITIAL CALIBRATION",
+            "definition": "對實體箭矢飛行路徑提供有限非直線控制，並將曲折路徑納入彈道領域可行解。",
+            "constraints": [
+              "不穿牆",
+              "不必中",
+              "非自由任意轉向",
+              "曲率有上限",
+              "高角度與複雜路徑提高誤差及解算負荷",
+              "九十度轉角未確認",
+              "不生成或補充箭矢"
+            ],
+            "calibrationPlan": [
+              "標準箭",
+              "低輸出",
+              "短距離",
+              "小角度",
+              "單箭"
+            ]
+          }
+        }
+      },
+      "trainingStatus": {
+        "node": "POST-CUSTOM-A / QUALITY-BREAKTHROUGH-01 / PRE-NEXT-MISSION",
+        "rule": "只記錄已成立且可重現之測試結果；未測上限不得自動補完或升階",
+        "status": "CURRENT / RECALIBRATION COMPLETE WITH LIMITS PENDING",
+        "completed": [
+          "洛：恢復後念氣重測完成；增大念氣117.67秒平均／穩定改善+5.4%／不判定總念氣增加",
+          "周映白：連續閃返7m×8＝56m完成；救援能力保留；最大單次距離不更新",
+          "WIFI：多箭種戰術選項庫／戰術鏈測試完成；不固定Combo",
+          "伊恩：術式領域Ⅰ ACQUIRED；術式具現體Ⅰ ACQUIRED；領域×具現體區域控制網 CONFIRMED"
+        ],
+        "nextScene": "AI主神空間｜等待下一副本選擇",
+        "notPerformed": [
+          "洛：500%最大輸出未測",
+          "伊恩：術式領域極限未測",
+          "伊恩：術式具現體最大數量未測",
+          "其他質變候選：未購入"
+        ]
+      },
+      "coreAbilityCards": {
+        "洛": [
+          {
+            "core": "正常清醒狀態下自然維持全身基本念氣覆蓋；等同既有基本纏的實際功能，通常不需特別喊名。",
+            "name": "基本念氣",
+            "type": "常態／普通狀態",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "功能",
+                "detail": "基礎防護／基礎身體強化／念氣正常循環／一般活動自然維持"
+              }
+            ]
+          },
+          {
+            "core": "主動提高全身念氣輸出與覆蓋強度，統一取代「增大纏／全身高輸出／全身氣力置換」等近似敘事名稱。",
+            "name": "增大念氣",
+            "type": "全身強化／練",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "功能",
+                "detail": "提高全身有效力量、承載、防護，並作為高輸出招式底盤"
+              }
+            ]
+          },
+          {
+            "core": "正式整合氣力置換：念氣高速凝聚至指定部位，將局部有效力量提高至當下可承受範圍後瞬間釋放。",
+            "name": "脈衝",
+            "type": "局部瞬間爆發",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "運用",
+                "detail": "腿部／腳底／右臂／肩部／承重鏈／後撤等皆屬同一技能的不同用法"
+              },
+              {
+                "name": "內部尺度",
+                "detail": "100%肉體基準；300%實用輸出；400%高負荷；500%短時峰值。倍率不是獨立技能。"
+              },
+              {
+                "name": "限制",
+                "detail": "有效力量倍率不等於骨骼、關節、肌肉、心肺、防禦與速度同步等倍率提高；肉體承載仍存在。"
+              }
+            ]
+          },
+          {
+            "core": "右前臂先預成形念氣螺旋，快速擴張至全臂並同步接入下肢、髖、腰、核心動力鏈。",
+            "name": "螺旋右拳",
+            "type": "常駐爆發拳／前臂先導型",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "改良",
+                "detail": "螺旋形成與全身力量輸入可並行；提升成形速度與戰鬥窗口適應。"
+              },
+              {
+                "name": "上限",
+                "detail": "最大理論威力不因本次介面整合或成形改良自動提高。"
+              }
+            ]
+          },
+          {
+            "core": "前臂螺旋預成形、全臂與全身動力鏈接入後，以脈衝把局部念氣與有效力量推向高峰完成終結輸出。",
+            "name": "脈衝×螺旋右拳",
+            "type": "重型單點終結技",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "高念耗／高身體、關節、肌肉與心肺負荷；慣性與反作用力存在；不可無限制連發。"
+              }
+            ]
+          },
+          {
+            "core": "感知周遭並探測範圍內異常；D023前向延伸只屬使用形狀，不另立技能。",
+            "name": "圓",
+            "type": "偵測",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "整合肉體動作、念氣調動、分配、承力、輸出與回收",
+            "name": "念體一元化Ⅰ",
+            "type": "念體整合核心／非獨立攻擊技能",
+            "status": "ACQUIRED / OPERATIONAL",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不增加總念氣或肌力；不取消肉體、關節、心肺、慣性與疲勞；不自動完全本能化。"
+              }
+            ]
+          },
+          {
+            "core": "在洛體外形成可承力、活動與戰鬥的大型外顯念體；目前重新建立身體—念—巨靈同步。",
+            "name": "巨靈體Ⅰ",
+            "type": "大型外顯念體／私人名稱：須佐洛",
+            "status": "ACQUIRED / RE-FAMILIARIZATION PROGRESSING",
+            "branches": [
+              {
+                "name": "已測",
+                "detail": "站立／抬手／握拳／跑動／急停／轉向／跳躍／落地／基礎低輸出同步"
+              },
+              {
+                "name": "未測",
+                "detail": "最大尺寸／最大力量／最大持續時間／高輸出整合／最大承重／高速連戰同步"
+              },
+              {
+                "name": "限制",
+                "detail": "不沿用重置前熟練度；總念氣不增加。"
+              }
+            ]
+          }
+        ],
+        "伊恩": [
+          {
+            "core": "統一包含引燃、閃燃與熱流偏轉；實際使用時仍可直接喊具體術式名稱。",
+            "name": "基礎術式",
+            "type": "常用基礎術式群",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "整合預構築、快速成形、取消、轉構、連續構築、雙核交替與術式循環。",
+            "name": "快速術式構築",
+            "type": "施法操作底盤",
+            "status": "CONFIRMED"
+          },
+          {
+            "core": "統一處理重疊法陣、多重法陣與多術式協作；多核心與自律節點視為進階運作模式。",
+            "name": "複式法陣",
+            "type": "多術式協作",
+            "status": "PRACTICAL",
+            "branches": [
+              {
+                "name": "多核心",
+                "detail": "目前可使用雙主核心。"
+              },
+              {
+                "name": "自律節點",
+                "detail": "低複雜度節點可依預設條件有限維持；無人格、不自行創造術式、不自行判敵，精神負荷仍存在。"
+              }
+            ]
+          },
+          {
+            "core": "偵測、防禦、拘束、隔離、結構支撐與導流皆為同一大型法陣系統的不同模板。",
+            "name": "大型法陣",
+            "type": "大型術式模板系統",
+            "status": "PRACTICAL"
+          },
+          {
+            "core": "以伊恩為核心展開約10m半徑術式領域；領域空間成為大型術式底板，可在指定位置快速構築既有防禦、拘束、隔離、導流與基礎攻擊術式。",
+            "name": "術式領域Ⅰ",
+            "type": "第七階段質變能力／術式領域",
+            "status": "ACQUIRED",
+            "branches": [
+              {
+                "name": "初始測試",
+                "detail": "單點PASS／雙點同步STABLE／三點同步可行但精神負荷明顯上升"
+              },
+              {
+                "name": "限制",
+                "detail": "不等於無限施法；不取消精神與術式資源消耗；領域極限未測"
+              }
+            ]
+          },
+          {
+            "core": "可將完成術式固定為獨立術式構造體；伊恩不必留在原地持續控制。",
+            "name": "術式具現體Ⅰ",
+            "type": "第七階段質變能力／獨立術式構造",
+            "status": "ACQUIRED",
+            "branches": [
+              {
+                "name": "初始測試",
+                "detail": "防禦維持30秒PASS／結構支撐PASS／越線自動拘束PASS"
+              },
+              {
+                "name": "限制",
+                "detail": "無人格、不自行判敵、不自行創造術式；僅執行預設條件；建立仍消耗精神與術式資源；最大數量未測"
+              }
+            ]
+          },
+          {
+            "core": "領域快速構築→固定為術式具現體→伊恩轉移→繼續建立下一節點；已確認可留下防禦、拘束、結構支撐三個獨立術式節點，伊恩本人仍可繼續操作。",
+            "name": "術式領域Ⅰ×術式具現體Ⅰ",
+            "type": "聯合運用／區域控制網",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "戰術定位",
+                "detail": "戰場術式節點化／區域控制網"
+              }
+            ]
+          }
+        ],
+        "程牧": [
+          {
+            "core": "整合四人共享戰術視界、威脅預測Ⅰ、異常訊號交叉判讀、路線／地形標記與環境姿態判讀。",
+            "name": "戰術視界",
+            "type": "共享情報核心",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "流程",
+                "detail": "觀察→分類→標記→短時威脅判讀→四人共享"
+              },
+              {
+                "name": "限制",
+                "detail": "不是預知、讀心、自動判敵或自動知道未知區域。"
+              }
+            ]
+          },
+          {
+            "core": "整合距離、風、相對速度、目標運動、射線、友軍位置與彈道安全。",
+            "name": "彈道領域",
+            "type": "射擊解算",
+            "status": "INITIAL FAMILIARIZATION",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "仍須程牧本人選擇目標並射擊；不保證命中。"
+              }
+            ]
+          },
+          {
+            "core": "整合特殊箭運用、箭種切換、箭種戰術鏈與智能箭庫選箭流程。",
+            "name": "多箭種射擊",
+            "type": "有限實體箭矢戰術",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "箭矢仍為有限實體庫存；灰隼重磅戰弓與折疊智能箭庫Ⅰ只列裝備。"
+              }
+            ]
+          },
+          {
+            "core": "使實體箭矢在可解算範圍內沿受控制的非直線路徑飛行，為掩體、友軍遮擋、側角與狹窄區域建立替代射擊解；不是新箭種。",
+            "name": "曲折箭Ⅰ",
+            "type": "非直線實體箭道控制／彈道領域整合",
+            "status": "PRACTICAL / FIELD-VALIDATED",
+            "branches": [
+              {
+                "name": "整合",
+                "detail": "彈道領域Ⅰ／共享視界・威脅預測Ⅰ／四人共享戰術視界／灰隼重磅戰弓"
+              },
+              {
+                "name": "用途",
+                "detail": "繞掩體邊緣／側角攻擊／避開友軍直射線／狹窄區域安全射角／從非正面角度切入"
+              },
+              {
+                "name": "限制",
+                "detail": "曲率與角度有上限；角度越大、路徑越複雜，誤差與解算負荷越高；目前不得假設九十度轉角可用；不能穿牆、不必中、不自行選敵或射擊。"
+              },
+              {
+                "name": "實體規則",
+                "detail": "程牧本人選目標、判敵、選箭、拉弓與射擊；特殊箭仍為有限實體庫存。"
+              }
+            ]
+          }
+        ],
+        "周映白": [
+          {
+            "core": "統一包含一般、連續、帶人／負重、水域運用與落點前安全檢查。空間安全感知Ⅰ視為內建安全層。",
+            "name": "閃返步",
+            "type": "空間機動核心",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不可穿越封閉實體牆；未知障礙仍有風險；距離、負重與連續使用提高負荷。"
+              }
+            ]
+          },
+          {
+            "core": "抵抗位移、拉扯、部分傳送與空間扭曲造成的位置失穩；不是絕對固定。",
+            "name": "空間錨定",
+            "type": "位置穩定",
+            "status": "INITIAL FAMILIARIZATION"
+          },
+          {
+            "core": "整合傷情判讀、戰地急救、傷員穩定、固定、拖帶與火線後送。",
+            "name": "戰術救援",
+            "type": "戰地救援整合",
+            "status": "CONFIRMED",
+            "branches": [
+              {
+                "name": "標準流程",
+                "detail": "接近→判傷→緊急處置→穩定／固定→拖帶／後送→再評估"
+              },
+              {
+                "name": "限制",
+                "detail": "周映白仍不是完整醫師。"
+              }
+            ]
+          },
+          {
+            "core": "建立兩個已確認安全端點間的空間開口，供人員、傷患、擔架與物資通過；不取代閃返步",
+            "name": "空間門Ⅰ",
+            "type": "多人空間通道",
+            "status": "ACQUIRED / RECALIBRATION REQUIRED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不可向完全未知區域盲開；距離、門徑、維持時間與連續次數未正式校準；不增加總體力或閃返步距離"
+              }
+            ]
+          },
+          {
+            "core": "提高兩端錨點對震動、重力偏移與部分空間擾動的穩定性，改善多人／擔架通過",
+            "name": "空間門錨點穩定Ⅰ",
+            "type": "空間門穩定強化",
+            "status": "ACQUIRED / INTEGRATED",
+            "branches": [
+              {
+                "name": "限制",
+                "detail": "不增加最大距離；不增加最大門徑；不增加維持時間硬上限；不增加能量總量"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

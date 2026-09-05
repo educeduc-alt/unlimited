@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 124,
-  "updated_at": "2026-09-05T02:12:34.871126+00:00",
+  "version": 126,
+  "updated_at": "2026-09-05T02:20:10.963185+00:00",
   "section": "medicalSystem",
   "state": {
     "medicalSystem": {
@@ -13,9 +13,9 @@
         "需要進一步判斷→攜行式創傷掃描器",
         "符合修復條件→便攜式組織修復儀Ⅰ"
       ],
-      "validated": "訓練模擬驗證流程成立",
+      "validated": "POST-D026｜PRACTICAL / INTEGRATION IMPROVING。低負荷不常態加用伊恩節點；高流量／擔架／震動／干擾時條件式支援，另耗部署時間與精神／能量，不提高空間門硬上限。",
       "carryDoctrine": "分散攜帶／集中技術",
-      "standardChain": "受傷→周映白火線切入→判傷／穩定→製造撤離窗口→帶離→安全位置掃描→醫療資源處置→符合條件時組織修復→重新判定戰力",
+      "standardChain": "救援車／現場救援 → 香蕉確認安全落點 → 空間門Ⅰ＋空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點協同穩定 → 傷員／擔架通過 → 自律式折疊救難醫療站Ⅲ自動接手 → 香蕉返回第一線救援 → WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護",
       "d026Consumption": {
         "authority": "返還後實物掃描",
         "highTierMedical": "無確認消耗",

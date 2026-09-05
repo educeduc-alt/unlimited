@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 124,
-  "updated_at": "2026-09-05T02:12:34.871126+00:00",
+  "version": 126,
+  "updated_at": "2026-09-05T02:20:10.963185+00:00",
   "section": "coreAbilityCards",
   "state": {
     "coreAbilityCards": {
@@ -157,7 +157,7 @@
             },
             {
               "name": "限制",
-              "detail": "獨立人格／自律戰鬥單位／額外念氣槽／獨立無限力量來源"
+              "detail": "不是獨立人格、不是自律戰鬥單位；沒有額外念氣槽，也不是獨立無限力量來源"
             }
           ],
           "currentTraining": {
@@ -367,7 +367,7 @@
           "branches": [
             {
               "name": "限制",
-              "detail": "箭矢仍為有限實體庫存；灰隼重磅戰弓與折疊智能箭庫Ⅰ只列裝備。"
+              "detail": "箭矢仍為有限實體庫存；灰隼重磅戰弓與折疊智能箭庫Ⅱ只列裝備。"
             }
           ]
         },

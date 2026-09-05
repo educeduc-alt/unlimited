@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "medicalSystem",
   "state": {
     "medicalSystem": {
@@ -13,9 +13,9 @@
         "需要進一步判斷→攜行式創傷掃描器",
         "符合修復條件→便攜式組織修復儀Ⅰ"
       ],
-      "validated": "POST-D026｜PRACTICAL / INTEGRATION IMPROVING。低負荷不常態加用伊恩節點；高流量／擔架／震動／干擾時條件式支援，另耗部署時間與精神／能量，不提高空間門硬上限。",
+      "validated": "FIRST FORMAL VALIDATION / PRACTICAL / FIELD-READY；醫療站100%有限耗材，香蕉可离站；高風險需人工決策；伊恩條件式支援增加自身負荷。",
       "carryDoctrine": "分散攜帶／集中技術",
-      "standardChain": "救援車／現場救援 → 香蕉確認安全落點 → 空間門Ⅰ＋空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點協同穩定 → 傷員／擔架通過 → 自律式折疊救難醫療站Ⅲ自動接手 → 香蕉返回第一線救援 → WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護",
+      "standardChain": "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點 → 香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口 → 需要時空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點監測／穩定門框 → 乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測 → 香蕉返回現場繼續救援",
       "d026Consumption": {
         "authority": "返還後實物掃描",
         "highTierMedical": "無確認消耗",
@@ -47,6 +47,55 @@
         },
         "doubleCountingRule": "洛右手處置來自個人攜行；不得再次扣除共享主庫存或醫療站耗材",
         "其餘個人攜行": "伊恩／程牧／周映白無淨消耗"
+      },
+      "postD026Restock": {
+        "id": "POST-D026-MEDICAL-RESTOCK-2400",
+        "after": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538,
+          "grandTotal": 40974,
+          "publicFunds": 0,
+          "privateTotal": 40974
+        },
+        "total": 2400,
+        "before": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874
+        },
+        "status": "CONFIRMED / FULLY SETTLED",
+        "payment": {
+          "洛": 475,
+          "伊恩": 475,
+          "程牧": 475,
+          "周映白": 475,
+          "publicFunds": 500
+        },
+        "station": {
+          "cost": 2200,
+          "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+          "afterPercent": 100,
+          "beforePercent": 47
+        },
+        "luoPersonal": {
+          "cost": 200,
+          "added": {
+            "冷療噴霧Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          },
+          "after": {
+            "冷療噴霧Ⅰ": 2,
+            "醫療噴膜Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          }
+        },
+        "branchesChanged": false
       },
       "postCustomARestock": {
         "cost": 1680,

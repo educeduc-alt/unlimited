@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 126,
+  "version": 127,
   "schema_version": "v44",
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v126.json",
+  "versioned": "current-state/v127.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -100,7 +100,9 @@
     "postD023TacticalProcedure": "current-state/sections/postD023TacticalProcedure.json",
     "postD025CurveArrowRedemption": "current-state/sections/postD025CurveArrowRedemption.json",
     "postD025RelationshipReinforcement": "current-state/sections/postD025RelationshipReinforcement.json",
+    "postD026PreLogisticsSnapshot": "current-state/sections/postD026PreLogisticsSnapshot.json",
     "postD026PreTrainingSnapshot": "current-state/sections/postD026PreTrainingSnapshot.json",
+    "postD026RescueLogistics": "current-state/sections/postD026RescueLogistics.json",
     "postD026Settlement": "current-state/sections/postD026Settlement.json",
     "postD026TrainingIntegration": "current-state/sections/postD026TrainingIntegration.json",
     "powerSystemPrinciples": "current-state/sections/powerSystemPrinciples.json",

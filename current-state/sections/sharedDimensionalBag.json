@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "sharedDimensionalBag",
   "state": {
     "sharedDimensionalBag": {
@@ -105,9 +105,10 @@
           "status": "CURRENT",
           "contents": [
             {
-              "name": "兩棲折疊救援車Ⅲ",
-              "status": "OPERATIONAL",
-              "volumeM3": 5.05
+              "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+              "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+              "volumeM3": 5.05,
+              "capacityRule": "STANDARD-9正式9座；EVAC-BUS安全28人含駕駛；絕對最大人數未測，傷患模式減少人數"
             }
           ],
           "volumeM3": 5.05
@@ -118,8 +119,8 @@
           "grade": "S-Food",
           "status": "STOCKED / CURRENT",
           "contents": {
-            "遠征緊急乾糧40人日": true,
-            "遠征緊急飲水40人日": true
+            "遠征緊急乾糧99人日": true,
+            "遠征緊急飲水99人日": true
           },
           "volumeM3": 2.2
         },

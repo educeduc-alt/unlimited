@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -13,7 +13,16 @@
         "鈍擊箭": "鈍擊衝擊箭"
       },
       "entries": {
-        "D026後可用箭矢（分項待盤點）": 144
+        "冰凍箭": 15,
+        "標準箭": 28,
+        "爆裂箭": 15,
+        "束縛鎖箭": 14,
+        "定位信標箭": 15,
+        "遮蔽煙幕箭": 15,
+        "重型破障箭": 15,
+        "鈍擊衝擊箭": 15,
+        "閃光干擾箭": 15,
+        "電擊干擾箭Ⅰ": 15
       },
       "capacity": "UNSPECIFIED_FINITE",
       "timeline": [
@@ -43,6 +52,13 @@
           "readyAfter": 162,
           "physicalAfter": 162,
           "repairPending": 0
+        },
+        {
+          "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+          "event": "D026後逐支盤點144；補18支／WIFI800點",
+          "readyAfter": 162,
+          "physicalAfter": 162,
+          "repairPending": 0
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -51,9 +67,9 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
-      "combatReady": 144,
-      "currentTotal": 144,
+      "lastUpdate": "POST-D026｜144逐項盤點完成，補18支／800點→162 READY",
+      "combatReady": 162,
+      "currentTotal": 162,
       "repairModule": {
         "cost": 800,
         "name": "箭矢自律維修模組Ⅰ",
@@ -82,7 +98,7 @@
         "before": 52,
         "status": "CONFIRMED"
       },
-      "currentMissing": 1,
+      "currentMissing": 0,
       "historicalLost": {
         "D017標準箭": 3,
         "CUSTOM A束縛鎖箭": 1
@@ -102,9 +118,53 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "144 READY／D026後分項待盤點；舊162支分項已移入歷史快照",
+      "inventoryStatus": "162 READY / FULLY RECONCILED",
+      "postD026Restock": {
+        "id": "POST-D026-ARROW-RESTOCK-800",
+        "cost": 800,
+        "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+        "after": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "payer": "程牧",
+        "before": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
+        "status": "162 READY / FULLY RECONCILED",
+        "additions": {
+          "標準箭": 12,
+          "束縛鎖箭": 1,
+          "定位信標箭": 1,
+          "遮蔽煙幕箭": 1,
+          "重型破障箭": 1,
+          "鈍擊衝擊箭": 1,
+          "電擊干擾箭Ⅰ": 1
+        },
+        "afterTotal": 162,
+        "beforeTotal": 144,
+        "pointsAfter": 10007,
+        "pointsBefore": 10807
+      },
       "repairBreakdown": {},
-      "accountingPresent": 144,
+      "accountingPresent": 162,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
@@ -129,7 +189,18 @@
         "readyAfter": 144,
         "unrecovered": 12,
         "recoveredUsable": 23,
-        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+        "detailedBreakdown": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
         "recoveredScrapped": 6
       },
       "inventoryCorrection": {
@@ -213,7 +284,7 @@
           "電擊干擾箭Ⅰ": 1
         }
       },
-      "authoritativeDetailedSnapshot": false
+      "authoritativeDetailedSnapshot": true
     }
   }
 }

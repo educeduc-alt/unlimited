@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -12,7 +12,16 @@
         "鈍擊箭": "鈍擊衝擊箭"
       },
       "entries": {
-        "D026後可用箭矢（分項待盤點）": 144
+        "冰凍箭": 15,
+        "標準箭": 28,
+        "爆裂箭": 15,
+        "束縛鎖箭": 14,
+        "定位信標箭": 15,
+        "遮蔽煙幕箭": 15,
+        "重型破障箭": 15,
+        "鈍擊衝擊箭": 15,
+        "閃光干擾箭": 15,
+        "電擊干擾箭Ⅰ": 15
       },
       "capacity": "UNSPECIFIED_FINITE",
       "timeline": [
@@ -42,6 +51,13 @@
           "readyAfter": 162,
           "physicalAfter": 162,
           "repairPending": 0
+        },
+        {
+          "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+          "event": "D026後逐支盤點144；補18支／WIFI800點",
+          "readyAfter": 162,
+          "physicalAfter": 162,
+          "repairPending": 0
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -50,9 +66,9 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
-      "combatReady": 144,
-      "currentTotal": 144,
+      "lastUpdate": "POST-D026｜144逐項盤點完成，補18支／800點→162 READY",
+      "combatReady": 162,
+      "currentTotal": 162,
       "repairModule": {
         "cost": 800,
         "name": "箭矢自律維修模組Ⅰ",
@@ -81,7 +97,7 @@
         "before": 52,
         "status": "CONFIRMED"
       },
-      "currentMissing": 1,
+      "currentMissing": 0,
       "historicalLost": {
         "D017標準箭": 3,
         "CUSTOM A束縛鎖箭": 1
@@ -101,9 +117,53 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "144 READY／D026後分項待盤點；舊162支分項已移入歷史快照",
+      "inventoryStatus": "162 READY / FULLY RECONCILED",
+      "postD026Restock": {
+        "id": "POST-D026-ARROW-RESTOCK-800",
+        "cost": 800,
+        "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+        "after": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "payer": "程牧",
+        "before": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
+        "status": "162 READY / FULLY RECONCILED",
+        "additions": {
+          "標準箭": 12,
+          "束縛鎖箭": 1,
+          "定位信標箭": 1,
+          "遮蔽煙幕箭": 1,
+          "重型破障箭": 1,
+          "鈍擊衝擊箭": 1,
+          "電擊干擾箭Ⅰ": 1
+        },
+        "afterTotal": 162,
+        "beforeTotal": 144,
+        "pointsAfter": 10007,
+        "pointsBefore": 10807
+      },
       "repairBreakdown": {},
-      "accountingPresent": 144,
+      "accountingPresent": 162,
       "d021Reconciliation": {
         "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
         "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
@@ -128,7 +188,18 @@
         "readyAfter": 144,
         "unrecovered": 12,
         "recoveredUsable": 23,
-        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+        "detailedBreakdown": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
         "recoveredScrapped": 6
       },
       "inventoryCorrection": {
@@ -212,7 +283,7 @@
           "電擊干擾箭Ⅰ": 1
         }
       },
-      "authoritativeDetailedSnapshot": false
+      "authoritativeDetailedSnapshot": true
     },
     "party": [
       {
@@ -223,7 +294,7 @@
         "title": "隊長",
         "gender": "男",
         "mental": "穩定",
-        "points": 8429,
+        "points": 6754,
         "nenType": "強化系",
         "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
         "heightCm": 175,
@@ -231,7 +302,7 @@
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 8429,
+        "rewardPoints": 6754,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -255,14 +326,14 @@
         "role": "救援核心／側翼／第二線保護",
         "gender": "男",
         "mental": "穩定",
-        "points": 11013,
+        "points": 9338,
         "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
         "heightCm": 183,
         "nickname": "香蕉",
         "bloodline": "無",
         "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
         "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-        "rewardPoints": 11013,
+        "rewardPoints": 9338,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -285,14 +356,14 @@
         "role": "第二線副指揮／術式構築／情報統整",
         "gender": "女",
         "mental": "重大情緒釋放後已重新穩定",
-        "points": 10950,
+        "points": 9275,
         "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
         "heightCm": 165,
         "nickname": "公主",
         "bloodline": "無",
         "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
         "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-        "rewardPoints": 10950,
+        "rewardPoints": 9275,
         "physicalChanges": {
           "rules": [
             "性別登記已由伊恩本人自主確認為女性",
@@ -329,14 +400,14 @@
         "role": "第一觀測位／遠程控制／戰術偵察",
         "gender": "男",
         "mental": "穩定",
-        "points": 12482,
+        "points": 10007,
         "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
         "heightCm": 180,
         "nickname": "WIFI",
         "bloodline": "無",
         "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
         "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-        "rewardPoints": 12482,
+        "rewardPoints": 10007,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -355,18 +426,18 @@
     ],
     "economy": {
       "debts": [],
-      "grandTotal": 43374,
-      "publicFunds": 500,
-      "privateTotal": 42874,
+      "grandTotal": 35374,
+      "publicFunds": 0,
+      "privateTotal": 35374,
       "branchStories": {
         "B": 0,
         "C": 0
       },
       "privatePoints": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -945,12 +1016,12 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 42874,
+      "privatePointsTotal": 35374,
       "currentPrivatePoints": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
       "reconciliationHistory": [
         {
@@ -1402,6 +1473,205 @@
             "周映白": 1517
           },
           "purchase": "伊恩｜術式領域Ⅰ＋術式具現體Ⅰ"
+        },
+        {
+          "id": "POST-D026-MEDICAL-RESTOCK-2400",
+          "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+          "after": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538,
+            "grandTotal": 40974,
+            "publicFunds": 0,
+            "privateTotal": 40974
+          },
+          "total": 2400,
+          "before": {
+            "洛": 8429,
+            "伊恩": 10950,
+            "程牧": 12482,
+            "周映白": 11013,
+            "grandTotal": 43374,
+            "publicFunds": 500,
+            "privateTotal": 42874
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "payment": {
+            "洛": 475,
+            "伊恩": 475,
+            "程牧": 475,
+            "周映白": 475,
+            "publicFunds": 500
+          },
+          "station": {
+            "cost": 2200,
+            "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+            "afterPercent": 100,
+            "beforePercent": 47
+          },
+          "luoPersonal": {
+            "cost": 200,
+            "added": {
+              "冷療噴霧Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            },
+            "after": {
+              "冷療噴霧Ⅰ": 2,
+              "醫療噴膜Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            }
+          },
+          "branchesChanged": false
+        },
+        {
+          "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+          "cost": 4800,
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+          "added": [
+            "一鍵自動構型切換",
+            "展開空間掃描",
+            "車體自檢",
+            "座椅／擔架快速重配置",
+            "乘員安全區確認",
+            "轉換時鎖定行駛"
+          ],
+          "after": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10807,
+            "周映白": 9338
+          },
+          "before": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538
+          },
+          "safety": [
+            "空間不足拒絕展開",
+            "傾斜超過安全值拒絕展開",
+            "轉換區有人站立拒絕展開",
+            "人工取消安全停止／鎖定，不暴力折疊"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "payment": {
+            "洛": 1200,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1200
+          },
+          "preserved": [
+            "兩棲能力",
+            "跨溫域環控",
+            "電子地圖／路線記錄",
+            "野戰維修相容",
+            "折疊收納",
+            "原有能源系統"
+          ],
+          "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+          "transitions": [
+            {
+              "to": "STANDARD-9",
+              "from": "FOLD",
+              "status": "PASS",
+              "seconds": 36
+            },
+            {
+              "to": "EVAC-BUS",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 31,
+              "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+            },
+            {
+              "to": "STANDARD-9",
+              "from": "EVAC-BUS",
+              "status": "PASS",
+              "seconds": 27
+            },
+            {
+              "to": "FOLD",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 22,
+              "condition": "全員下車，物品固定"
+            }
+          ],
+          "configurations": [
+            "STANDARD-9",
+            "EVAC-BUS",
+            "FOLD"
+          ],
+          "relativeEnergy": {
+            "EVAC-BUS兩棲": 2.1,
+            "EVAC-BUS道路": 1.65,
+            "STANDARD-9道路": 1
+          },
+          "branchesChanged": false,
+          "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+          "publicFundsAfter": 0,
+          "privateTotalAfter": 36174
+        },
+        {
+          "id": "POST-D026-ARROW-RESTOCK-800",
+          "cost": 800,
+          "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+          "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+          "after": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "payer": "程牧",
+          "before": {
+            "冰凍箭": 15,
+            "標準箭": 16,
+            "爆裂箭": 15,
+            "束縛鎖箭": 13,
+            "定位信標箭": 14,
+            "遮蔽煙幕箭": 14,
+            "重型破障箭": 14,
+            "鈍擊衝擊箭": 14,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 14
+          },
+          "status": "162 READY / FULLY RECONCILED",
+          "additions": {
+            "標準箭": 12,
+            "束縛鎖箭": 1,
+            "定位信標箭": 1,
+            "遮蔽煙幕箭": 1,
+            "重型破障箭": 1,
+            "鈍擊衝擊箭": 1,
+            "電擊干擾箭Ⅰ": 1
+          },
+          "afterTotal": 162,
+          "beforeTotal": 144,
+          "pointsAfter": 10007,
+          "pointsBefore": 10807
         }
       ],
       "postD019Stage4Followup": {
@@ -1483,6 +1753,273 @@
           "publicFundsAfterContribution": 2200
         },
         "purchaseTotal": 1700
+      },
+      "postD026RescueLogistics": {
+        "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+        "final": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10007,
+          "周映白": 9338,
+          "grandTotal": 35374,
+          "publicFunds": 0,
+          "privateTotal": 35374,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "source": "使用者三張正式卡，依事件順序核帳",
+        "rescueLoop": {
+          "steps": [
+            "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+            "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+            "需要時空間門錨點穩定Ⅰ",
+            "高流量／高干擾時伊恩自律節點監測／穩定門框",
+            "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+            "香蕉返回現場繼續救援"
+          ],
+          "tests": {
+            "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+            "passengers": "單人／前後雙人／多人連續 PASS",
+            "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+          },
+          "limits": [
+            "現有資產串接，非新超能力",
+            "沒有測試整台巴士穿門",
+            "不提高空間門最大距離／門徑／時間",
+            "減少外部暴露時間不等於毒氣／火災／真空免疫"
+          ],
+          "status": "PRACTICAL / FIELD-READY",
+          "validation": "FIRST FORMAL VALIDATION"
+        },
+        "arrowRestock": {
+          "id": "POST-D026-ARROW-RESTOCK-800",
+          "cost": 800,
+          "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+          "after": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "payer": "程牧",
+          "before": {
+            "冰凍箭": 15,
+            "標準箭": 16,
+            "爆裂箭": 15,
+            "束縛鎖箭": 13,
+            "定位信標箭": 14,
+            "遮蔽煙幕箭": 14,
+            "重型破障箭": 14,
+            "鈍擊衝擊箭": 14,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 14
+          },
+          "status": "162 READY / FULLY RECONCILED",
+          "additions": {
+            "標準箭": 12,
+            "束縛鎖箭": 1,
+            "定位信標箭": 1,
+            "遮蔽煙幕箭": 1,
+            "重型破障箭": 1,
+            "鈍擊衝擊箭": 1,
+            "電擊干擾箭Ⅰ": 1
+          },
+          "afterTotal": 162,
+          "beforeTotal": 144,
+          "pointsAfter": 10007,
+          "pointsBefore": 10807
+        },
+        "expenseTotal": 8000,
+        "medicalTests": {
+          "cases": {
+            "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+            "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+            "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+            "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+          },
+          "zones": [
+            "入站自動分診",
+            "多床位監測／處置",
+            "高風險穩定床位",
+            "清創／縫合／固定",
+            "藥品耗材自動管理",
+            "基礎呼吸／循環支持",
+            "智能機械臂軌道",
+            "機器人待命",
+            "短時隔離／觀察",
+            "掃描器／組織修復儀接入"
+          ],
+          "limits": [
+            "無人格",
+            "不擅自高風險手術",
+            "不是完整大型醫院／ICU／高階外科中心",
+            "不復活",
+            "100%是有限耗材，不是無限耗材"
+          ],
+          "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+          "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+          "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+        },
+        "medicalRestock": {
+          "id": "POST-D026-MEDICAL-RESTOCK-2400",
+          "after": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538,
+            "grandTotal": 40974,
+            "publicFunds": 0,
+            "privateTotal": 40974
+          },
+          "total": 2400,
+          "before": {
+            "洛": 8429,
+            "伊恩": 10950,
+            "程牧": 12482,
+            "周映白": 11013,
+            "grandTotal": 43374,
+            "publicFunds": 500,
+            "privateTotal": 42874
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "payment": {
+            "洛": 475,
+            "伊恩": 475,
+            "程牧": 475,
+            "周映白": 475,
+            "publicFunds": 500
+          },
+          "station": {
+            "cost": 2200,
+            "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+            "afterPercent": 100,
+            "beforePercent": 47
+          },
+          "luoPersonal": {
+            "cost": 200,
+            "added": {
+              "冷療噴霧Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            },
+            "after": {
+              "冷療噴霧Ⅰ": 2,
+              "醫療噴膜Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            }
+          },
+          "branchesChanged": false
+        },
+        "vehicleUpgrade": {
+          "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+          "cost": 4800,
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "added": [
+            "一鍵自動構型切換",
+            "展開空間掃描",
+            "車體自檢",
+            "座椅／擔架快速重配置",
+            "乘員安全區確認",
+            "轉換時鎖定行駛"
+          ],
+          "after": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10807,
+            "周映白": 9338
+          },
+          "before": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538
+          },
+          "safety": [
+            "空間不足拒絕展開",
+            "傾斜超過安全值拒絕展開",
+            "轉換區有人站立拒絕展開",
+            "人工取消安全停止／鎖定，不暴力折疊"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "payment": {
+            "洛": 1200,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1200
+          },
+          "preserved": [
+            "兩棲能力",
+            "跨溫域環控",
+            "電子地圖／路線記錄",
+            "野戰維修相容",
+            "折疊收納",
+            "原有能源系統"
+          ],
+          "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+          "transitions": [
+            {
+              "to": "STANDARD-9",
+              "from": "FOLD",
+              "status": "PASS",
+              "seconds": 36
+            },
+            {
+              "to": "EVAC-BUS",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 31,
+              "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+            },
+            {
+              "to": "STANDARD-9",
+              "from": "EVAC-BUS",
+              "status": "PASS",
+              "seconds": 27
+            },
+            {
+              "to": "FOLD",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 22,
+              "condition": "全員下車，物品固定"
+            }
+          ],
+          "configurations": [
+            "STANDARD-9",
+            "EVAC-BUS",
+            "FOLD"
+          ],
+          "relativeEnergy": {
+            "EVAC-BUS兩棲": 2.1,
+            "EVAC-BUS道路": 1.65,
+            "STANDARD-9道路": 1
+          },
+          "branchesChanged": false,
+          "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+          "publicFundsAfter": 0,
+          "privateTotalAfter": 36174
+        }
       },
       "customAGrayCitySettlement": {
         "id": "SET-CUSTOM-A-GRAY-CITY-72H",
@@ -1914,7 +2451,7 @@
       }
     },
     "mission": "D026《黃銅太陽城》｜COMPLETE｜S",
-    "version": 126,
+    "version": 127,
     "bestiary": [
       {
         "id": "M001",
@@ -2883,7 +3420,7 @@
       }
     },
     "location": "AI主神空間",
-    "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+    "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
     "tracking": {
       "missionHistory": [],
       "trainingRecords": [
@@ -4578,7 +5115,7 @@
       "肌肉舒緩修復噴劑Ⅰ": 2,
       "複合創傷醫療噴膜Ⅰ": 3
     },
-    "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
+    "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
     "endgameArc": {
       "name": "主神空間終局碎片",
       "status": "ACTIVE / FRAGMENT 01 COLLECTED",
@@ -4644,7 +5181,7 @@
     },
     "carrySystem": {
       "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由共享次元行囊Ⅲ分區管理。",
-      "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（D026後144支可用，分項待盤點）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。",
+      "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（162 READY／分項已盤點與補滿）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。",
       "layer2": "個人衣裝／模組快取：四套寒區完整套組分別收在各自衣裝空間；自律式折疊救難醫療站Ⅲ收在周映白模組庫Ⅲ大型預備位；灰隼備用弓弦與弓具維修包收在程牧低頻快取。",
       "layer3": "共享行囊：S快速小物、M中型設備、L大型設備、XL載具、S-Food緊急食水、M-Food料理食材、XL-Starship星際載具。",
       "limits": [
@@ -4986,7 +5523,7 @@
       ],
       "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述"
     },
-    "currentState": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+    "currentState": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
     "partyTactics": [
       "四人戰術體系｜第三階段",
       "戰術醫療鏈",
@@ -5056,17 +5593,32 @@
           "points": 6500,
           "BBranch": 1
         },
-        "name": "B級｜兩棲折疊救援車Ⅲ",
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
         "type": "跨副本陸／水機動救援載具",
         "limits": [
           "完整隊伍依適性分工但不鎖定職位",
           "單一成員失能時其他成員可依訓練接替"
         ],
-        "status": "OPERATIONAL",
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
         "location": "AI主神空間",
         "quantity": 1,
         "repairCost": 1200,
         "fieldRepair": "IMPOSSIBLE",
+        "formalSeats": 9,
         "capabilities": [
           "四人運輸",
           "陸地行駛",
@@ -5080,7 +5632,110 @@
         ],
         "repairStatus": "FORMAL REPAIR COMPLETE",
         "foldedVolumeM3": 5.05,
-        "requiredAction": "正式維修"
+        "requiredAction": "NONE／正常維護",
+        "postD026Upgrade": {
+          "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+          "cost": 4800,
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "added": [
+            "一鍵自動構型切換",
+            "展開空間掃描",
+            "車體自檢",
+            "座椅／擔架快速重配置",
+            "乘員安全區確認",
+            "轉換時鎖定行駛"
+          ],
+          "after": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10807,
+            "周映白": 9338
+          },
+          "before": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538
+          },
+          "safety": [
+            "空間不足拒絕展開",
+            "傾斜超過安全值拒絕展開",
+            "轉換區有人站立拒絕展開",
+            "人工取消安全停止／鎖定，不暴力折疊"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "payment": {
+            "洛": 1200,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1200
+          },
+          "preserved": [
+            "兩棲能力",
+            "跨溫域環控",
+            "電子地圖／路線記錄",
+            "野戰維修相容",
+            "折疊收納",
+            "原有能源系統"
+          ],
+          "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+          "transitions": [
+            {
+              "to": "STANDARD-9",
+              "from": "FOLD",
+              "status": "PASS",
+              "seconds": 36
+            },
+            {
+              "to": "EVAC-BUS",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 31,
+              "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+            },
+            {
+              "to": "STANDARD-9",
+              "from": "EVAC-BUS",
+              "status": "PASS",
+              "seconds": 27
+            },
+            {
+              "to": "FOLD",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 22,
+              "condition": "全員下車，物品固定"
+            }
+          ],
+          "configurations": [
+            "STANDARD-9",
+            "EVAC-BUS",
+            "FOLD"
+          ],
+          "relativeEnergy": {
+            "EVAC-BUS兩棲": 2.1,
+            "EVAC-BUS道路": 1.65,
+            "STANDARD-9道路": 1
+          },
+          "branchesChanged": false,
+          "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+          "publicFundsAfter": 0,
+          "privateTotalAfter": 36174
+        }
       },
       {
         "cost": 1200,
@@ -5134,7 +5789,7 @@
       {
         "core": "約普通教室大小的自律救援節點。",
         "name": "自律式折疊救難醫療站Ⅲ",
-        "role": "現場應急醫療穩定站",
+        "role": "自動化微型醫院型救難醫療站",
         "type": "共享大型救援資產／主要操作員周映白",
         "limits": [
           "不是完整醫院",
@@ -5144,32 +5799,43 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL",
+        "status": "OPERATIONAL / FULLY STOCKED",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
         "functions": [
-          "靜脈輸液支援",
-          "應急藥物管理",
-          "進階多床位監測",
-          "應急處置工作位",
-          "醫療耗材艙",
-          "撤離交接紀錄"
+          "自動分診",
+          "多床位生命監測",
+          "醫療機器人",
+          "智能機械臂",
+          "傷患搬運",
+          "清創",
+          "止血",
+          "包紮",
+          "固定",
+          "基礎縫合",
+          "輸液／補液",
+          "氧氣／呼吸支持",
+          "基礎藥物給予",
+          "隔離／觀察",
+          "創傷掃描整合",
+          "組織修復儀整合",
+          "按預設醫療協議自主運作"
         ],
-        "lastAudit": "D021 COMPLETE／剩餘62%",
+        "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
         "ownerType": "共享大型救援資產",
-        "stockCost": 600,
+        "stockCost": 2200,
         "stockType": "正式有限實體庫存",
-        "stockScale": "10人份",
-        "displayRule": "同系列僅顯示最新Ⅱ型；Ⅰ型保留於歷史紀錄",
+        "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+        "displayRule": "同系列僅顯示最新Ⅲ型；舊型歷史保留",
         "maintenance": {
           "cleaning": "REQUIRED",
           "permanentDamage": false,
-          "consumableRestock": "REQUIRED",
-          "routineInspection": "REQUIRED"
+          "consumableRestock": "COMPLETE",
+          "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
         },
         "upgradeCost": 1800,
-        "restockStatus": "RECOMMENDED / NOT PURCHASED",
-        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "restockStatus": "COMPLETE / PAID",
+        "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
         "lastDeployment": "D021《墜星殖民地》",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
@@ -5186,11 +5852,91 @@
           "支氣管舒張應急單元": 1,
           "標準應急注射止痛劑": 3
         },
+        "postD026Restock": {
+          "id": "POST-D026-MEDICAL-RESTOCK-2400",
+          "after": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538,
+            "grandTotal": 40974,
+            "publicFunds": 0,
+            "privateTotal": 40974
+          },
+          "total": 2400,
+          "before": {
+            "洛": 8429,
+            "伊恩": 10950,
+            "程牧": 12482,
+            "周映白": 11013,
+            "grandTotal": 43374,
+            "publicFunds": 500,
+            "privateTotal": 42874
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "payment": {
+            "洛": 475,
+            "伊恩": 475,
+            "程牧": 475,
+            "周映白": 475,
+            "publicFunds": 500
+          },
+          "station": {
+            "cost": 2200,
+            "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+            "afterPercent": 100,
+            "beforePercent": 47
+          },
+          "luoPersonal": {
+            "cost": 200,
+            "added": {
+              "冷療噴霧Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            },
+            "after": {
+              "冷療噴霧Ⅰ": 2,
+              "醫療噴膜Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            }
+          },
+          "branchesChanged": false
+        },
         "primaryOperator": "周映白",
+        "firstFormalTests": {
+          "cases": {
+            "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+            "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+            "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+            "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+          },
+          "zones": [
+            "入站自動分診",
+            "多床位監測／處置",
+            "高風險穩定床位",
+            "清創／縫合／固定",
+            "藥品耗材自動管理",
+            "基礎呼吸／循環支持",
+            "智能機械臂軌道",
+            "機器人待命",
+            "短時隔離／觀察",
+            "掃描器／組織修復儀接入"
+          ],
+          "limits": [
+            "無人格",
+            "不擅自高風險手術",
+            "不是完整大型醫院／ICU／高階外科中心",
+            "不復活",
+            "100%是有限耗材，不是無限耗材"
+          ],
+          "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+          "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+          "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+        },
         "medicalStockCost": 600,
-        "itemizedStockRule": "D021未提供逐項耗用；既有逐項數量僅保留為上次明細，不作為D021後精確現值",
-        "medicalStockPercent": 62,
-        "tenPersonMedicalStock": {
+        "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
+        "medicalStockPercent": 100,
+        "d021ConsumptionRatePercent": 38,
+        "historicalTenPersonMedicalStock": {
           "抗生素": "未列入自動標準應急藥庫",
           "傷口清潔液": 5,
           "標準止吐藥": 8,
@@ -5203,8 +5949,7 @@
           "局部止痛／舒緩單元": 6,
           "支氣管舒張應急單元": 5,
           "標準應急注射止痛劑": 7
-        },
-        "d021ConsumptionRatePercent": 38
+        }
       },
       {
         "cost": 1200,
@@ -5691,9 +6436,9 @@
         "需要進一步判斷→攜行式創傷掃描器",
         "符合修復條件→便攜式組織修復儀Ⅰ"
       ],
-      "validated": "POST-D026｜PRACTICAL / INTEGRATION IMPROVING。低負荷不常態加用伊恩節點；高流量／擔架／震動／干擾時條件式支援，另耗部署時間與精神／能量，不提高空間門硬上限。",
+      "validated": "FIRST FORMAL VALIDATION / PRACTICAL / FIELD-READY；醫療站100%有限耗材，香蕉可离站；高風險需人工決策；伊恩條件式支援增加自身負荷。",
       "carryDoctrine": "分散攜帶／集中技術",
-      "standardChain": "救援車／現場救援 → 香蕉確認安全落點 → 空間門Ⅰ＋空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點協同穩定 → 傷員／擔架通過 → 自律式折疊救難醫療站Ⅲ自動接手 → 香蕉返回第一線救援 → WIFI曲折箭／共享視界／彈道領域提供非正面射線掩護",
+      "standardChain": "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點 → 香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口 → 需要時空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點監測／穩定門框 → 乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測 → 香蕉返回現場繼續救援",
       "d026Consumption": {
         "authority": "返還後實物掃描",
         "highTierMedical": "無確認消耗",
@@ -5725,6 +6470,55 @@
         },
         "doubleCountingRule": "洛右手處置來自個人攜行；不得再次扣除共享主庫存或醫療站耗材",
         "其餘個人攜行": "伊恩／程牧／周映白無淨消耗"
+      },
+      "postD026Restock": {
+        "id": "POST-D026-MEDICAL-RESTOCK-2400",
+        "after": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538,
+          "grandTotal": 40974,
+          "publicFunds": 0,
+          "privateTotal": 40974
+        },
+        "total": 2400,
+        "before": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874
+        },
+        "status": "CONFIRMED / FULLY SETTLED",
+        "payment": {
+          "洛": 475,
+          "伊恩": 475,
+          "程牧": 475,
+          "周映白": 475,
+          "publicFunds": 500
+        },
+        "station": {
+          "cost": 2200,
+          "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+          "afterPercent": 100,
+          "beforePercent": 47
+        },
+        "luoPersonal": {
+          "cost": 200,
+          "added": {
+            "冷療噴霧Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          },
+          "after": {
+            "冷療噴霧Ⅰ": 2,
+            "醫療噴膜Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          }
+        },
+        "branchesChanged": false
       },
       "postCustomARestock": {
         "cost": 1680,
@@ -5821,16 +6615,37 @@
       "location": "AI主神空間",
       "foodWater": "補貨核帳完成",
       "周映白": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+      "rescueLoop": "PRACTICAL / FIELD-READY",
       "largeAssets": "RECOVERED / STORED",
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘"
+      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材"
     },
     "vehicleSystem": {
       "role": "四人跨副本機動／救援／傷員後送平台",
       "damage": [],
-      "status": "OPERATIONAL",
-      "vehicle": "兩棲折疊救援車Ⅲ｜加長多人後送型",
+      "safety": [
+        "空間不足拒絕展開",
+        "傾斜超過安全值拒絕展開",
+        "轉換區有人站立拒絕展開",
+        "人工取消安全停止／鎖定，不暴力折疊"
+      ],
+      "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+      "evacBus": {
+        "status": "STANDARD SAFE EVACUATION BASELINE",
+        "conditions": [
+          "安全帶",
+          "緊急出口",
+          "基本行李",
+          "車載環控",
+          "正常道路／兩棲救援操作"
+        ],
+        "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+        "safeCapacity": 28,
+        "includesDriver": true,
+        "absoluteMaximum": "UNTESTED"
+      },
+      "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
       "location": "AI主神空間",
       "mapModule": {
         "cost": 320,
@@ -5869,9 +6684,20 @@
         "跨溫域環控": "正常",
         "野炊廚房接口": "正常"
       },
+      "capacityRule": "STANDARD-9正式9座；EVAC-BUS安全28人含駕駛；絕對最大人數未測，傷患模式減少人數",
       "repairStatus": "POST-D019完整任務後維修完成",
+      "configurations": [
+        "STANDARD-9",
+        "EVAC-BUS",
+        "FOLD"
+      ],
       "deploymentRule": "可正常出勤",
-      "requiredAction": "NONE",
+      "relativeEnergy": {
+        "EVAC-BUS兩棲": 2.1,
+        "EVAC-BUS道路": 1.65,
+        "STANDARD-9道路": 1
+      },
+      "requiredAction": "NONE／正常維護",
       "supportSystems": [
         "跨環境高密度備用能源組Ⅰ",
         "兩棲載具野戰維修套件Ⅰ",
@@ -5880,9 +6706,112 @@
         "車載跨溫域環境控制模組Ⅰ",
         "車載獨立電子地圖／地形記錄模組Ⅰ"
       ],
-      "fieldAssessment": "超出現場維修範疇",
+      "fieldAssessment": "POST-D026 STANDARDIZED CALIBRATION PASS",
       "postD023Upgrade": "兩棲折疊救援車Ⅲ｜9正式座／20人短程緊急撤離；雙擔架、環景、強化拖曳、多人環控；保留兩棲與既有系統",
-      "emergencyMaximum": 20,
+      "postD026Upgrade": {
+        "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+        "cost": 4800,
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+        "added": [
+          "一鍵自動構型切換",
+          "展開空間掃描",
+          "車體自檢",
+          "座椅／擔架快速重配置",
+          "乘員安全區確認",
+          "轉換時鎖定行駛"
+        ],
+        "after": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10807,
+          "周映白": 9338
+        },
+        "before": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538
+        },
+        "safety": [
+          "空間不足拒絕展開",
+          "傾斜超過安全值拒絕展開",
+          "轉換區有人站立拒絕展開",
+          "人工取消安全停止／鎖定，不暴力折疊"
+        ],
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
+        "payment": {
+          "洛": 1200,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1200
+        },
+        "preserved": [
+          "兩棲能力",
+          "跨溫域環控",
+          "電子地圖／路線記錄",
+          "野戰維修相容",
+          "折疊收納",
+          "原有能源系統"
+        ],
+        "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+        "transitions": [
+          {
+            "to": "STANDARD-9",
+            "from": "FOLD",
+            "status": "PASS",
+            "seconds": 36
+          },
+          {
+            "to": "EVAC-BUS",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 31,
+            "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+          },
+          {
+            "to": "STANDARD-9",
+            "from": "EVAC-BUS",
+            "status": "PASS",
+            "seconds": 27
+          },
+          {
+            "to": "FOLD",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 22,
+            "condition": "全員下車，物品固定"
+          }
+        ],
+        "configurations": [
+          "STANDARD-9",
+          "EVAC-BUS",
+          "FOLD"
+        ],
+        "relativeEnergy": {
+          "EVAC-BUS兩棲": 2.1,
+          "EVAC-BUS道路": 1.65,
+          "STANDARD-9道路": 1
+        },
+        "branchesChanged": false,
+        "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+        "publicFundsAfter": 0,
+        "privateTotalAfter": 36174
+      },
+      "emergencyMaximum": null,
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
         "載具崗位動態接替",
@@ -5936,7 +6865,35 @@
         "環境評估",
         "載具崗位接替"
       ],
-      "integratedCampModule": "正式遠征居住模組Ⅱ"
+      "integratedCampModule": "正式遠征居住模組Ⅱ",
+      "standardizedCalibration": [
+        {
+          "to": "STANDARD-9",
+          "from": "FOLD",
+          "status": "PASS",
+          "seconds": 36
+        },
+        {
+          "to": "EVAC-BUS",
+          "from": "STANDARD-9",
+          "status": "PASS",
+          "seconds": 31,
+          "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+        },
+        {
+          "to": "STANDARD-9",
+          "from": "EVAC-BUS",
+          "status": "PASS",
+          "seconds": 27
+        },
+        {
+          "to": "FOLD",
+          "from": "STANDARD-9",
+          "status": "PASS",
+          "seconds": 22,
+          "condition": "全員下車，物品固定"
+        }
+      ]
     },
     "abilitySystems": {
       "洛": {
@@ -6558,7 +7515,7 @@
           "title": "隊長",
           "gender": "男",
           "mental": "穩定",
-          "points": 8429,
+          "points": 6754,
           "nenType": "強化系",
           "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
           "heightCm": 175,
@@ -6566,7 +7523,7 @@
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 8429,
+          "rewardPoints": 6754,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -6590,14 +7547,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 11013,
+          "points": 9338,
           "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 11013,
+          "rewardPoints": 9338,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -6620,14 +7577,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 10950,
+          "points": 9275,
           "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 10950,
+          "rewardPoints": 9275,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -6664,14 +7621,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 12482,
+          "points": 10007,
           "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 12482,
+          "rewardPoints": 10007,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -6689,23 +7646,35 @@
         }
       ],
       "arrows": {
-        "ready": 144,
-        "physical": "AT LEAST 144 CONFIRMED",
-        "repairPending": "PENDING AUDIT",
-        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分"
+        "ready": 162,
+        "physical": 162,
+        "repairPending": 0,
+        "detailedBreakdown": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        }
       },
       "points": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
-      "version": 126,
+      "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+      "version": 127,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間",
-      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
+      "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -6713,19 +7682,42 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 43374,
+      "grandTotal": 35374,
       "provisions": {
         "遠征料理食材人日": 60,
         "遠征緊急乾糧人日": 99,
         "遠征緊急飲水人日": 99,
         "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
       },
+      "rescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "publicFunds": 500,
+      "publicFunds": 0,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 42874,
+      "privateTotal": 35374,
       "branchStories": {
         "B": 0,
         "C": 0
@@ -6739,19 +7731,19 @@
         "difficulty": "A"
       },
       "privatePoints": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
-      "resourceAudit": "D026返還實物掃描完成：乾糧99／飲水99／料理60帳面；箭144；洛個人冷療1、舒緩0；共享冷療8、舒緩2；醫療站Ⅲ耗材47%。",
+      "resourceAudit": "POST-D026｜醫療2400、車輛4800、補箭800共8000點完成。箭162 READY；醫療站100%；洛冷療2／噴膜1／舒緩1；共享與高階醫療不重複增減。乾糧99／飲水99／料理60帳面不變。",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘",
+      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -6806,13 +7798,116 @@
         "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 42874,
+      "privatePointsTotal": 35374,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
+      "vehicleCalibration": {
+        "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+        "cost": 4800,
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+        "added": [
+          "一鍵自動構型切換",
+          "展開空間掃描",
+          "車體自檢",
+          "座椅／擔架快速重配置",
+          "乘員安全區確認",
+          "轉換時鎖定行駛"
+        ],
+        "after": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10807,
+          "周映白": 9338
+        },
+        "before": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538
+        },
+        "safety": [
+          "空間不足拒絕展開",
+          "傾斜超過安全值拒絕展開",
+          "轉換區有人站立拒絕展開",
+          "人工取消安全停止／鎖定，不暴力折疊"
+        ],
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
+        "payment": {
+          "洛": 1200,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1200
+        },
+        "preserved": [
+          "兩棲能力",
+          "跨溫域環控",
+          "電子地圖／路線記錄",
+          "野戰維修相容",
+          "折疊收納",
+          "原有能源系統"
+        ],
+        "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+        "transitions": [
+          {
+            "to": "STANDARD-9",
+            "from": "FOLD",
+            "status": "PASS",
+            "seconds": 36
+          },
+          {
+            "to": "EVAC-BUS",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 31,
+            "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+          },
+          {
+            "to": "STANDARD-9",
+            "from": "EVAC-BUS",
+            "status": "PASS",
+            "seconds": 27
+          },
+          {
+            "to": "FOLD",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 22,
+            "condition": "全員下車，物品固定"
+          }
+        ],
+        "configurations": [
+          "STANDARD-9",
+          "EVAC-BUS",
+          "FOLD"
+        ],
+        "relativeEnergy": {
+          "EVAC-BUS兩棲": 2.1,
+          "EVAC-BUS道路": 1.65,
+          "STANDARD-9道路": 1
+        },
+        "branchesChanged": false,
+        "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+        "publicFundsAfter": 0,
+        "privateTotalAfter": 36174
+      },
       "medicalDistribution": {
         "洛": {
-          "冷療噴霧Ⅰ": 1,
+          "冷療噴霧Ⅰ": 2,
           "醫療噴膜Ⅰ": 1,
-          "肌肉舒緩噴劑Ⅰ": 0
+          "肌肉舒緩噴劑Ⅰ": 1
         },
         "伊恩": {
           "冷療噴霧Ⅰ": 2,
@@ -11606,7 +12701,7 @@
           "箭筒不自行判定敵我",
           "D014待修與戰損箭不因升級自動恢復"
         ],
-        "quiver": "折疊智能箭庫Ⅱ｜箭矢回收型",
+        "quiver": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
         "modules": [
           "四人共享戰術視界",
           "灰隼動態射擊輔助模組Ⅰ",
@@ -11659,6 +12754,7 @@
           "長時間觀測疲勞警示"
         ],
         "tacticalSuit": "遠距偵查戰術服Ⅱ",
+        "arrowReadiness": "162 READY / FULLY RECONCILED",
         "coldWeatherGear": {
           "name": "寒區完整套組Ⅰ",
           "status": "OPERATIONAL",
@@ -11761,7 +12857,7 @@
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型",
           "functions": "雙手獨立通道／雙工具部署／救援AI建議／可程式化位移壓力張力高度與異常自停"
         },
-        "rescueStation": "自律式折疊救難醫療站Ⅲ｜共享資產／周映白主要攜行與快速部署",
+        "rescueStation": "自律式折疊救難醫療站Ⅲ｜100%有限耗材／自主標準療程測試PASS",
         "coldWeatherGear": {
           "name": "寒區完整套組Ⅰ",
           "status": "OPERATIONAL",
@@ -12161,6 +13257,29 @@
         "周映白": "折返救援／機動控制／破障"
       },
       "integrationRule": "程牧觀測報點→伊恩塑形封路→洛高速接敵糾纏失能→周映白救援／拖帶／破障／側翼控制→程牧補位／打斷／控制／必要尾刀；非強制固定順序",
+      "postD026RescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
       "postD026RescueIntegration": {
         "steps": [
           "救援車／現場救援",
@@ -13987,9 +15106,9 @@
     },
     "medicalDistribution": {
       "洛": {
-        "冷療噴霧": 1,
+        "冷療噴霧": 2,
         "醫療噴膜": 1,
-        "肌肉舒緩噴劑": 0
+        "肌肉舒緩噴劑": 1
       },
       "伊恩": {
         "冷療噴霧": 2,
@@ -14524,9 +15643,10 @@
           "status": "CURRENT",
           "contents": [
             {
-              "name": "兩棲折疊救援車Ⅲ",
-              "status": "OPERATIONAL",
-              "volumeM3": 5.05
+              "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+              "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+              "volumeM3": 5.05,
+              "capacityRule": "STANDARD-9正式9座；EVAC-BUS安全28人含駕駛；絕對最大人數未測，傷患模式減少人數"
             }
           ],
           "volumeM3": 5.05
@@ -14537,8 +15657,8 @@
           "grade": "S-Food",
           "status": "STOCKED / CURRENT",
           "contents": {
-            "遠征緊急乾糧40人日": true,
-            "遠征緊急飲水40人日": true
+            "遠征緊急乾糧99人日": true,
+            "遠征緊急飲水99人日": true
           },
           "volumeM3": 2.2
         },
@@ -14795,7 +15915,7 @@
         "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "UPGRADED / OPERATIONAL",
+      "status": "OPERATIONAL / FULLY STOCKED",
       "carrier": "折疊救援模組庫Ⅲ",
       "functions": [
         "自動分診",
@@ -14816,21 +15936,21 @@
         "組織修復儀整合",
         "按預設醫療協議自主運作"
       ],
-      "lastAudit": "D026 COMPLETE／62%→47%",
+      "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
       "ownerType": "共享大型救援資產",
-      "stockCost": 600,
+      "stockCost": 2200,
       "stockType": "正式有限實體庫存",
-      "stockScale": "10人份",
+      "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
       "maintenance": {
         "cleaning": "REQUIRED",
         "permanentDamage": false,
-        "consumableRestock": "REQUIRED",
-        "routineInspection": "REQUIRED"
+        "consumableRestock": "COMPLETE",
+        "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
       },
-      "stockStatus": "47% REMAINING / RESTOCK PRIORITY",
+      "stockStatus": "100% / FINITE STOCK",
       "robotsStatus": "OPERATIONAL",
-      "restockStatus": "NOT PURCHASED",
-      "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+      "restockStatus": "COMPLETE / PAID",
+      "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
       "lastDeployment": "D026《黃銅太陽城》",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
@@ -14846,11 +15966,92 @@
         "支氣管舒張應急單元": 1,
         "標準應急注射止痛劑": 3
       },
+      "postD026Restock": {
+        "id": "POST-D026-MEDICAL-RESTOCK-2400",
+        "after": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538,
+          "grandTotal": 40974,
+          "publicFunds": 0,
+          "privateTotal": 40974
+        },
+        "total": 2400,
+        "before": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874
+        },
+        "status": "CONFIRMED / FULLY SETTLED",
+        "payment": {
+          "洛": 475,
+          "伊恩": 475,
+          "程牧": 475,
+          "周映白": 475,
+          "publicFunds": 500
+        },
+        "station": {
+          "cost": 2200,
+          "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+          "afterPercent": 100,
+          "beforePercent": 47
+        },
+        "luoPersonal": {
+          "cost": 200,
+          "added": {
+            "冷療噴霧Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          },
+          "after": {
+            "冷療噴霧Ⅰ": 2,
+            "醫療噴膜Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          }
+        },
+        "branchesChanged": false
+      },
       "primaryOperator": "周映白",
-      "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
-      "medicalStockPercent": 47,
+      "firstFormalTests": {
+        "cases": {
+          "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+          "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+          "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+          "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+        },
+        "zones": [
+          "入站自動分診",
+          "多床位監測／處置",
+          "高風險穩定床位",
+          "清創／縫合／固定",
+          "藥品耗材自動管理",
+          "基礎呼吸／循環支持",
+          "智能機械臂軌道",
+          "機器人待命",
+          "短時隔離／觀察",
+          "掃描器／組織修復儀接入"
+        ],
+        "limits": [
+          "無人格",
+          "不擅自高風險手術",
+          "不是完整大型醫院／ICU／高階外科中心",
+          "不復活",
+          "100%是有限耗材，不是無限耗材"
+        ],
+        "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+        "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+        "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+      },
+      "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
+      "medicalStockPercent": 100,
       "mechanicalArmsStatus": "OPERATIONAL",
-      "tenPersonMedicalStock": {
+      "d021ConsumptionRatePercent": 38,
+      "d026ConsumptionRatePercent": 15,
+      "historicalTenPersonMedicalStock": {
         "抗生素": "未列入自動標準應急藥庫",
         "傷口清潔液": 5,
         "標準止吐藥": 8,
@@ -14863,9 +16064,7 @@
         "局部止痛／舒緩單元": 6,
         "支氣管舒張應急單元": 5,
         "標準應急注射止痛劑": 7
-      },
-      "d021ConsumptionRatePercent": 38,
-      "d026ConsumptionRatePercent": 15
+      }
     },
     "equipmentDisplayRules": {
       "status": "CONFIRMED",
@@ -16074,7 +17273,18 @@
           "fired": 41,
           "before": 162,
           "netLoss": 18,
-          "breakdown": "PENDING AUDIT",
+          "breakdown": {
+            "冰凍箭": 15,
+            "標準箭": 16,
+            "爆裂箭": 15,
+            "束縛鎖箭": 13,
+            "定位信標箭": 14,
+            "遮蔽煙幕箭": 14,
+            "重型破障箭": 14,
+            "鈍擊衝擊箭": 14,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 14
+          },
           "afterReady": 144,
           "unrecovered": 12,
           "recoveredUsable": 23,
@@ -16107,7 +17317,274 @@
       "status": "COMPLETE",
       "pending": [],
       "completedBy": "D019返還後主神強制資產盤點",
-      "pendingCount": 0
+      "pendingCount": 0,
+      "postD026Restock": {
+        "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+        "final": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10007,
+          "周映白": 9338,
+          "grandTotal": 35374,
+          "publicFunds": 0,
+          "privateTotal": 35374,
+          "branchStories": {
+            "B": 0,
+            "C": 0
+          }
+        },
+        "source": "使用者三張正式卡，依事件順序核帳",
+        "rescueLoop": {
+          "steps": [
+            "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+            "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+            "需要時空間門錨點穩定Ⅰ",
+            "高流量／高干擾時伊恩自律節點監測／穩定門框",
+            "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+            "香蕉返回現場繼續救援"
+          ],
+          "tests": {
+            "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+            "passengers": "單人／前後雙人／多人連續 PASS",
+            "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+          },
+          "limits": [
+            "現有資產串接，非新超能力",
+            "沒有測試整台巴士穿門",
+            "不提高空間門最大距離／門徑／時間",
+            "減少外部暴露時間不等於毒氣／火災／真空免疫"
+          ],
+          "status": "PRACTICAL / FIELD-READY",
+          "validation": "FIRST FORMAL VALIDATION"
+        },
+        "arrowRestock": {
+          "id": "POST-D026-ARROW-RESTOCK-800",
+          "cost": 800,
+          "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+          "after": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "payer": "程牧",
+          "before": {
+            "冰凍箭": 15,
+            "標準箭": 16,
+            "爆裂箭": 15,
+            "束縛鎖箭": 13,
+            "定位信標箭": 14,
+            "遮蔽煙幕箭": 14,
+            "重型破障箭": 14,
+            "鈍擊衝擊箭": 14,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 14
+          },
+          "status": "162 READY / FULLY RECONCILED",
+          "additions": {
+            "標準箭": 12,
+            "束縛鎖箭": 1,
+            "定位信標箭": 1,
+            "遮蔽煙幕箭": 1,
+            "重型破障箭": 1,
+            "鈍擊衝擊箭": 1,
+            "電擊干擾箭Ⅰ": 1
+          },
+          "afterTotal": 162,
+          "beforeTotal": 144,
+          "pointsAfter": 10007,
+          "pointsBefore": 10807
+        },
+        "expenseTotal": 8000,
+        "medicalTests": {
+          "cases": {
+            "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+            "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+            "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+            "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+          },
+          "zones": [
+            "入站自動分診",
+            "多床位監測／處置",
+            "高風險穩定床位",
+            "清創／縫合／固定",
+            "藥品耗材自動管理",
+            "基礎呼吸／循環支持",
+            "智能機械臂軌道",
+            "機器人待命",
+            "短時隔離／觀察",
+            "掃描器／組織修復儀接入"
+          ],
+          "limits": [
+            "無人格",
+            "不擅自高風險手術",
+            "不是完整大型醫院／ICU／高階外科中心",
+            "不復活",
+            "100%是有限耗材，不是無限耗材"
+          ],
+          "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+          "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+          "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+        },
+        "medicalRestock": {
+          "id": "POST-D026-MEDICAL-RESTOCK-2400",
+          "after": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538,
+            "grandTotal": 40974,
+            "publicFunds": 0,
+            "privateTotal": 40974
+          },
+          "total": 2400,
+          "before": {
+            "洛": 8429,
+            "伊恩": 10950,
+            "程牧": 12482,
+            "周映白": 11013,
+            "grandTotal": 43374,
+            "publicFunds": 500,
+            "privateTotal": 42874
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "payment": {
+            "洛": 475,
+            "伊恩": 475,
+            "程牧": 475,
+            "周映白": 475,
+            "publicFunds": 500
+          },
+          "station": {
+            "cost": 2200,
+            "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+            "afterPercent": 100,
+            "beforePercent": 47
+          },
+          "luoPersonal": {
+            "cost": 200,
+            "added": {
+              "冷療噴霧Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            },
+            "after": {
+              "冷療噴霧Ⅰ": 2,
+              "醫療噴膜Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            }
+          },
+          "branchesChanged": false
+        },
+        "vehicleUpgrade": {
+          "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+          "cost": 4800,
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "added": [
+            "一鍵自動構型切換",
+            "展開空間掃描",
+            "車體自檢",
+            "座椅／擔架快速重配置",
+            "乘員安全區確認",
+            "轉換時鎖定行駛"
+          ],
+          "after": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10807,
+            "周映白": 9338
+          },
+          "before": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538
+          },
+          "safety": [
+            "空間不足拒絕展開",
+            "傾斜超過安全值拒絕展開",
+            "轉換區有人站立拒絕展開",
+            "人工取消安全停止／鎖定，不暴力折疊"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "payment": {
+            "洛": 1200,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1200
+          },
+          "preserved": [
+            "兩棲能力",
+            "跨溫域環控",
+            "電子地圖／路線記錄",
+            "野戰維修相容",
+            "折疊收納",
+            "原有能源系統"
+          ],
+          "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+          "transitions": [
+            {
+              "to": "STANDARD-9",
+              "from": "FOLD",
+              "status": "PASS",
+              "seconds": 36
+            },
+            {
+              "to": "EVAC-BUS",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 31,
+              "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+            },
+            {
+              "to": "STANDARD-9",
+              "from": "EVAC-BUS",
+              "status": "PASS",
+              "seconds": 27
+            },
+            {
+              "to": "FOLD",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 22,
+              "condition": "全員下車，物品固定"
+            }
+          ],
+          "configurations": [
+            "STANDARD-9",
+            "EVAC-BUS",
+            "FOLD"
+          ],
+          "relativeEnergy": {
+            "EVAC-BUS兩棲": 2.1,
+            "EVAC-BUS道路": 1.65,
+            "STANDARD-9道路": 1
+          },
+          "branchesChanged": false,
+          "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+          "publicFundsAfter": 0,
+          "privateTotalAfter": 36174
+        }
+      }
     },
     "appearanceUpdateHistory": [
       {
@@ -16278,6 +17755,273 @@
       "四人共鳴錨Ⅰ": {
         "fieldExperience": "VERY HIGH",
         "automaticUpgrade": false
+      }
+    },
+    "postD026RescueLogistics": {
+      "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+      "final": {
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338,
+        "grandTotal": 35374,
+        "publicFunds": 0,
+        "privateTotal": 35374,
+        "branchStories": {
+          "B": 0,
+          "C": 0
+        }
+      },
+      "source": "使用者三張正式卡，依事件順序核帳",
+      "rescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
+      "arrowRestock": {
+        "id": "POST-D026-ARROW-RESTOCK-800",
+        "cost": 800,
+        "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+        "after": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "payer": "程牧",
+        "before": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
+        "status": "162 READY / FULLY RECONCILED",
+        "additions": {
+          "標準箭": 12,
+          "束縛鎖箭": 1,
+          "定位信標箭": 1,
+          "遮蔽煙幕箭": 1,
+          "重型破障箭": 1,
+          "鈍擊衝擊箭": 1,
+          "電擊干擾箭Ⅰ": 1
+        },
+        "afterTotal": 162,
+        "beforeTotal": 144,
+        "pointsAfter": 10007,
+        "pointsBefore": 10807
+      },
+      "expenseTotal": 8000,
+      "medicalTests": {
+        "cases": {
+          "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+          "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+          "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+          "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+        },
+        "zones": [
+          "入站自動分診",
+          "多床位監測／處置",
+          "高風險穩定床位",
+          "清創／縫合／固定",
+          "藥品耗材自動管理",
+          "基礎呼吸／循環支持",
+          "智能機械臂軌道",
+          "機器人待命",
+          "短時隔離／觀察",
+          "掃描器／組織修復儀接入"
+        ],
+        "limits": [
+          "無人格",
+          "不擅自高風險手術",
+          "不是完整大型醫院／ICU／高階外科中心",
+          "不復活",
+          "100%是有限耗材，不是無限耗材"
+        ],
+        "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+        "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+        "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+      },
+      "medicalRestock": {
+        "id": "POST-D026-MEDICAL-RESTOCK-2400",
+        "after": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538,
+          "grandTotal": 40974,
+          "publicFunds": 0,
+          "privateTotal": 40974
+        },
+        "total": 2400,
+        "before": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874
+        },
+        "status": "CONFIRMED / FULLY SETTLED",
+        "payment": {
+          "洛": 475,
+          "伊恩": 475,
+          "程牧": 475,
+          "周映白": 475,
+          "publicFunds": 500
+        },
+        "station": {
+          "cost": 2200,
+          "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+          "afterPercent": 100,
+          "beforePercent": 47
+        },
+        "luoPersonal": {
+          "cost": 200,
+          "added": {
+            "冷療噴霧Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          },
+          "after": {
+            "冷療噴霧Ⅰ": 2,
+            "醫療噴膜Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          }
+        },
+        "branchesChanged": false
+      },
+      "vehicleUpgrade": {
+        "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+        "cost": 4800,
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+        "added": [
+          "一鍵自動構型切換",
+          "展開空間掃描",
+          "車體自檢",
+          "座椅／擔架快速重配置",
+          "乘員安全區確認",
+          "轉換時鎖定行駛"
+        ],
+        "after": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10807,
+          "周映白": 9338
+        },
+        "before": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538
+        },
+        "safety": [
+          "空間不足拒絕展開",
+          "傾斜超過安全值拒絕展開",
+          "轉換區有人站立拒絕展開",
+          "人工取消安全停止／鎖定，不暴力折疊"
+        ],
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
+        "payment": {
+          "洛": 1200,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1200
+        },
+        "preserved": [
+          "兩棲能力",
+          "跨溫域環控",
+          "電子地圖／路線記錄",
+          "野戰維修相容",
+          "折疊收納",
+          "原有能源系統"
+        ],
+        "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+        "transitions": [
+          {
+            "to": "STANDARD-9",
+            "from": "FOLD",
+            "status": "PASS",
+            "seconds": 36
+          },
+          {
+            "to": "EVAC-BUS",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 31,
+            "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+          },
+          {
+            "to": "STANDARD-9",
+            "from": "EVAC-BUS",
+            "status": "PASS",
+            "seconds": 27
+          },
+          {
+            "to": "FOLD",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 22,
+            "condition": "全員下車，物品固定"
+          }
+        ],
+        "configurations": [
+          "STANDARD-9",
+          "EVAC-BUS",
+          "FOLD"
+        ],
+        "relativeEnergy": {
+          "EVAC-BUS兩棲": 2.1,
+          "EVAC-BUS道路": 1.65,
+          "STANDARD-9道路": 1
+        },
+        "branchesChanged": false,
+        "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+        "publicFundsAfter": 0,
+        "privateTotalAfter": 36174
       }
     },
     "sharedCapabilitySystems": [
@@ -18344,6 +20088,518 @@
         "小角度",
         "單箭"
       ]
+    },
+    "postD026PreLogisticsSnapshot": {
+      "ammo": {
+        "aliases": {
+          "信標箭": "定位信標箭",
+          "煙幕箭": "遮蔽煙幕箭",
+          "鈍擊箭": "鈍擊衝擊箭"
+        },
+        "entries": {
+          "D026後可用箭矢（分項待盤點）": 144
+        },
+        "capacity": "UNSPECIFIED_FINITE",
+        "timeline": [
+          {
+            "node": "D022",
+            "event": "全箭庫安全回收／分項不變",
+            "readyAfter": 113,
+            "permanentLoss": 0
+          },
+          {
+            "node": "PRE-D023",
+            "event": "標準箭補充×1",
+            "change": 1,
+            "readyAfter": 114
+          },
+          {
+            "node": "POST-CUSTOM-A《灰城72小時》",
+            "event": "束縛鎖箭永久消耗1；閃光干擾箭3支待維修；電擊箭1支成功回收",
+            "readyAfter": 159,
+            "permanentLoss": 1,
+            "physicalAfter": 162,
+            "repairPending": 3
+          },
+          {
+            "node": "POST-CUSTOM-A後勤整備",
+            "event": "箭矢自律維修模組Ⅰ安裝；閃光干擾箭3支修復完成",
+            "readyAfter": 162,
+            "physicalAfter": 162,
+            "repairPending": 0
+          }
+        ],
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "d022Result": {
+          "ready": 113,
+          "permanentLoss": 0,
+          "breakdownChanged": false
+        },
+        "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
+        "combatReady": 144,
+        "currentTotal": 144,
+        "repairModule": {
+          "cost": 800,
+          "name": "箭矢自律維修模組Ⅰ",
+          "payer": "程牧／WIFI",
+          "scope": "僅限已回收、仍完整存在且可修復的已登錄箭矢",
+          "limits": [
+            "不生成遺失箭矢",
+            "不能復原完全損毀或被特殊封鎖的箭",
+            "不能復原冰凍／爆裂／束縛鎖箭等已啟動的一次性核心耗材",
+            "仍受實體零件與可維修性限制"
+          ],
+          "status": "INSTALLED / OPERATIONAL",
+          "functions": [
+            "自動檢測",
+            "校直",
+            "修復",
+            "耗材可重置範圍內重置",
+            "恢復READY"
+          ]
+        },
+        "selectionRule": "有限實體箭矢；最終選箭與射擊權屬WIFI，不自行判定敵我或開火",
+        "stage4Restock": {
+          "cost": 1600,
+          "after": 117,
+          "payer": "WIFI",
+          "before": 52,
+          "status": "CONFIRMED"
+        },
+        "currentMissing": 1,
+        "historicalLost": {
+          "D017標準箭": 3,
+          "CUSTOM A束縛鎖箭": 1
+        },
+        "d020Consumption": {
+          "total": 3,
+          "信標箭": 1,
+          "冰凍箭": 1,
+          "束縛鎖箭": 1
+        },
+        "d021Consumption": {
+          "permanentLoss": {
+            "標準箭": 3,
+            "束縛鎖箭": 1
+          },
+          "recoveredTestArrows": {
+            "標準箭": 2
+          }
+        },
+        "inventoryStatus": "144 READY／D026後分項待盤點；舊162支分項已移入歷史快照",
+        "repairBreakdown": {},
+        "accountingPresent": 144,
+        "d021Reconciliation": {
+          "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
+          "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
+          "preD021Restock": {
+            "stage": "POST-D020｜D021出發前",
+            "changes": {
+              "信標箭": 1,
+              "冰凍箭": 1,
+              "束縛鎖箭": 1
+            },
+            "afterTotal": 117,
+            "beforeTotal": 114
+          },
+          "cardBeforeTotal": 117,
+          "v77PriorSnapshot": 114,
+          "finalDetailedTotal": 113
+        },
+        "d026Reconciliation": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "readyAfter": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+          "recoveredScrapped": 6
+        },
+        "inventoryCorrection": {
+          "status": "FULLY_RECONCILED",
+          "sequence": [
+            {
+              "to": 5,
+              "cost": 480,
+              "from": 1,
+              "item": "爆裂箭×4",
+              "order": 1,
+              "payer": "WIFI",
+              "unitPrice": 120,
+              "pointsAfter": 2912,
+              "pointsBefore": 3392
+            },
+            {
+              "to": 5,
+              "cost": 400,
+              "from": 1,
+              "item": "冰凍箭×4",
+              "order": 2,
+              "payer": "WIFI",
+              "unitPrice": 100,
+              "pointsAfter": 2512,
+              "pointsBefore": 2912
+            },
+            {
+              "to": 10,
+              "cost": 100,
+              "from": 5,
+              "item": "標準箭×5",
+              "order": 3,
+              "payer": "WIFI",
+              "unitPrice": 20,
+              "pointsAfter": 2412,
+              "pointsBefore": 2512
+            }
+          ],
+          "totalCost": 980,
+          "finalCounts": {
+            "冰凍箭": 5,
+            "標準箭": 10,
+            "爆裂箭": 5,
+            "totalReady": 52
+          },
+          "specialArrowSubtotal": 880,
+          "standardArrowSubtotal": 100
+        },
+        "damagedPendingRepair": 0,
+        "preD026DetailedEntries": {
+          "信標箭": 15,
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "煙幕箭": 15,
+          "爆裂箭": 15,
+          "鈍擊箭": 15,
+          "束縛鎖箭": 14,
+          "重型破障箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "customAGrayCityConsumption": {
+          "rule": "其他未逐箭記錄的射擊不自行追加損耗",
+          "before": 163,
+          "status": "CONFIRMED / CONSERVATIVE AUDIT",
+          "repaired": {
+            "閃光干擾箭": 3
+          },
+          "readyAfter": 159,
+          "repairStatus": "COMPLETE",
+          "permanentLoss": {
+            "束縛鎖箭": 1
+          },
+          "physicalAfter": 162,
+          "repairPending": {
+            "閃光干擾箭": 3
+          },
+          "readyAfterRepair": 162,
+          "directlyRecovered": {
+            "電擊干擾箭Ⅰ": 1
+          }
+        },
+        "authoritativeDetailedSnapshot": false
+      },
+      "economy": {
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013,
+        "grandTotal": 43374,
+        "publicFunds": 500,
+        "privateTotal": 42874
+      },
+      "version": 126,
+      "vehicleSystem": {
+        "role": "四人跨副本機動／救援／傷員後送平台",
+        "damage": [],
+        "status": "OPERATIONAL",
+        "vehicle": "兩棲折疊救援車Ⅲ｜加長多人後送型",
+        "location": "AI主神空間",
+        "mapModule": {
+          "cost": 320,
+          "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
+          "limits": [
+            "不能自動取得副本完整地圖",
+            "不能保證外部定位可信",
+            "不能判定第一／第二張地圖真假",
+            "不能免疫認知污染"
+          ],
+          "status": "INSTALLED / OPERATIONAL",
+          "functions": [
+            "實走路線",
+            "里程",
+            "方向",
+            "高差",
+            "人工地標",
+            "回撤點",
+            "營地點",
+            "獨立慣性推算",
+            "里程推算",
+            "可取得時之外部定位資訊"
+          ]
+        },
+        "preserved": [
+          "核心保全"
+        ],
+        "sharedBag": "OPERATIONAL",
+        "foldingCart": "OPERATIONAL",
+        "formalSeats": 9,
+        "systemCheck": {
+          "待修": 0,
+          "折疊系統": "正常",
+          "水陸驅動": "正常",
+          "涉水密封": "正常",
+          "跨溫域環控": "正常",
+          "野炊廚房接口": "正常"
+        },
+        "repairStatus": "POST-D019完整任務後維修完成",
+        "deploymentRule": "可正常出勤",
+        "requiredAction": "NONE",
+        "supportSystems": [
+          "跨環境高密度備用能源組Ⅰ",
+          "兩棲載具野戰維修套件Ⅰ",
+          "車載快速救援模組Ⅰ",
+          "車載外部救援固定架Ⅱ",
+          "車載跨溫域環境控制模組Ⅰ",
+          "車載獨立電子地圖／地形記錄模組Ⅰ"
+        ],
+        "fieldAssessment": "超出現場維修範疇",
+        "postD023Upgrade": "兩棲折疊救援車Ⅲ｜9正式座／20人短程緊急撤離；雙擔架、環景、強化拖曳、多人環控；保留兩棲與既有系統",
+        "emergencyMaximum": 20,
+        "teamCapabilities": [
+          "四人兩棲載具綜合操作資格",
+          "載具崗位動態接替",
+          "野戰能源／基礎維修／傷員後送鏈",
+          "單點失能備援"
+        ],
+        "energyModuleStatus": {
+          "status": "OPERATIONAL／FULL",
+          "activeModule": "已完成任務後段更換／車輛可正常運作",
+          "removedModule": "已回充／可用／非報廢",
+          "D019UsageIncluded": [
+            "現實側搜索",
+            "短距離轉移",
+            "一次野炊廚房掛載使用"
+          ],
+          "currentEnergyPercent": 100,
+          "doubleDeductionForbidden": true,
+          "dispatchablePercentagePoints": 80,
+          "minimumEvacuationReservePercent": 20
+        },
+        "environmentControl": {
+          "name": "車載跨溫域環境控制模組Ⅰ",
+          "limits": [
+            "非完全生命維持系統",
+            "非毒氣／真空防護",
+            "不免疫極端低溫造成的車體與機械問題",
+            "車門長時間開放會快速損失艙內溫度",
+            "極端環境下能源消耗增加"
+          ],
+          "status": "INSTALLED／OPERATIONAL",
+          "functions": [
+            "車艙主動加熱",
+            "車艙主動降溫",
+            "基礎保溫／隔熱",
+            "車窗除霜／除霧",
+            "乘員艙與傷員區溫度調節",
+            "相容跨環境高密度備用能源組Ⅰ"
+          ]
+        },
+        "externalRescueRack": "OPERATIONAL",
+        "medicalLoadoutRule": "關鍵立即急救物資不得全部永久鎖於車上；最低個人急救與必要生命維持用品保留於人身／共享行囊快速取用層",
+        "teamQualifications": [
+          "陸地駕駛",
+          "越野駕駛",
+          "水上駕駛",
+          "陸／水模式切換",
+          "傷員後送",
+          "戰術接近／撤離",
+          "基礎能源管理",
+          "基礎野戰維修",
+          "環境評估",
+          "載具崗位接替"
+        ],
+        "integratedCampModule": "正式遠征居住模組Ⅱ"
+      },
+      "medicalDistribution": {
+        "洛": {
+          "冷療噴霧": 1,
+          "醫療噴膜": 1,
+          "肌肉舒緩噴劑": 0
+        },
+        "伊恩": {
+          "冷療噴霧": 2,
+          "醫療噴膜": 1
+        },
+        "程牧": {
+          "冷療噴霧": 1
+        },
+        "doctrine": "分散攜帶／集中技術",
+        "周映白": {
+          "冷療噴霧": 3,
+          "醫療噴膜": 2,
+          "肌肉舒緩噴劑": 1
+        }
+      },
+      "publicMedicalStation": {
+        "core": "約普通教室大小的自律救援節點。",
+        "name": "自律式折疊救難醫療站Ⅲ",
+        "role": "現場應急醫療穩定站",
+        "type": "共享大型救援資產／主要操作員周映白",
+        "limits": [
+          "不是完整醫院",
+          "不做大型手術",
+          "不取代ICU",
+          "不復活",
+          "不提供無限藥品"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "carrier": "折疊救援模組庫Ⅲ",
+        "quantity": 1,
+        "functions": [
+          "靜脈輸液支援",
+          "應急藥物管理",
+          "進階多床位監測",
+          "應急處置工作位",
+          "醫療耗材艙",
+          "撤離交接紀錄"
+        ],
+        "lastAudit": "D021 COMPLETE／剩餘62%",
+        "ownerType": "共享大型救援資產",
+        "stockCost": 600,
+        "stockType": "正式有限實體庫存",
+        "stockScale": "10人份",
+        "displayRule": "同系列僅顯示最新Ⅱ型；Ⅰ型保留於歷史紀錄",
+        "maintenance": {
+          "cleaning": "REQUIRED",
+          "permanentDamage": false,
+          "consumableRestock": "REQUIRED",
+          "routineInspection": "REQUIRED"
+        },
+        "upgradeCost": 1800,
+        "restockStatus": "RECOMMENDED / NOT PURCHASED",
+        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "lastDeployment": "D021《墜星殖民地》",
+        "totalStageCost": 2400,
+        "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+        "d020Consumption": {
+          "傷口清潔液": 5,
+          "標準止吐藥": 2,
+          "基礎抗過敏藥": 0,
+          "平衡型晶體液": 4,
+          "標準輸液管路": 4,
+          "靜脈通路建立組": 4,
+          "嚴重過敏緊急藥物": 0,
+          "基礎口服止痛退熱藥": 4,
+          "局部止痛／舒緩單元": 4,
+          "支氣管舒張應急單元": 1,
+          "標準應急注射止痛劑": 3
+        },
+        "primaryOperator": "周映白",
+        "medicalStockCost": 600,
+        "itemizedStockRule": "D021未提供逐項耗用；既有逐項數量僅保留為上次明細，不作為D021後精確現值",
+        "medicalStockPercent": 62,
+        "tenPersonMedicalStock": {
+          "抗生素": "未列入自動標準應急藥庫",
+          "傷口清潔液": 5,
+          "標準止吐藥": 8,
+          "基礎抗過敏藥": 10,
+          "平衡型晶體液": 6,
+          "標準輸液管路": 6,
+          "靜脈通路建立組": 6,
+          "嚴重過敏緊急藥物": 4,
+          "基礎口服止痛退熱藥": 16,
+          "局部止痛／舒緩單元": 6,
+          "支氣管舒張應急單元": 5,
+          "標準應急注射止痛劑": 7
+        },
+        "d021ConsumptionRatePercent": 38
+      },
+      "sharedMedicalStation": {
+        "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "role": "自動化微型醫院型救難醫療站",
+        "scale": "約普通教室大小",
+        "limits": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不是復活設備"
+        ],
+        "paidBy": "公共資金",
+        "status": "UPGRADED / OPERATIONAL",
+        "carrier": "折疊救援模組庫Ⅲ",
+        "functions": [
+          "自動分診",
+          "多床位生命監測",
+          "醫療機器人",
+          "智能機械臂",
+          "傷患搬運",
+          "清創",
+          "止血",
+          "包紮",
+          "固定",
+          "基礎縫合",
+          "輸液／補液",
+          "氧氣／呼吸支持",
+          "基礎藥物給予",
+          "隔離／觀察",
+          "創傷掃描整合",
+          "組織修復儀整合",
+          "按預設醫療協議自主運作"
+        ],
+        "lastAudit": "D026 COMPLETE／62%→47%",
+        "ownerType": "共享大型救援資產",
+        "stockCost": 600,
+        "stockType": "正式有限實體庫存",
+        "stockScale": "10人份",
+        "maintenance": {
+          "cleaning": "REQUIRED",
+          "permanentDamage": false,
+          "consumableRestock": "REQUIRED",
+          "routineInspection": "REQUIRED"
+        },
+        "stockStatus": "47% REMAINING / RESTOCK PRIORITY",
+        "robotsStatus": "OPERATIONAL",
+        "restockStatus": "NOT PURCHASED",
+        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "lastDeployment": "D026《黃銅太陽城》",
+        "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+        "d020Consumption": {
+          "傷口清潔液": 5,
+          "標準止吐藥": 2,
+          "基礎抗過敏藥": 0,
+          "平衡型晶體液": 4,
+          "標準輸液管路": 4,
+          "靜脈通路建立組": 4,
+          "嚴重過敏緊急藥物": 0,
+          "基礎口服止痛退熱藥": 4,
+          "局部止痛／舒緩單元": 4,
+          "支氣管舒張應急單元": 1,
+          "標準應急注射止痛劑": 3
+        },
+        "primaryOperator": "周映白",
+        "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
+        "medicalStockPercent": 47,
+        "mechanicalArmsStatus": "OPERATIONAL",
+        "tenPersonMedicalStock": {
+          "抗生素": "未列入自動標準應急藥庫",
+          "傷口清潔液": 5,
+          "標準止吐藥": 8,
+          "基礎抗過敏藥": 10,
+          "平衡型晶體液": 6,
+          "標準輸液管路": 6,
+          "靜脈通路建立組": 6,
+          "嚴重過敏緊急藥物": 4,
+          "基礎口服止痛退熱藥": 16,
+          "局部止痛／舒緩單元": 6,
+          "支氣管舒張應急單元": 5,
+          "標準應急注射止痛劑": 7
+        },
+        "d021ConsumptionRatePercent": 38,
+        "d026ConsumptionRatePercent": 15
+      }
     },
     "postD016ColdRegionProcurement": {
       "node": "POST-D016休整期｜寒區整備完成",

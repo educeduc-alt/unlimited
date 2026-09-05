@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "equipmentDetails",
   "state": {
     "equipmentDetails": {
@@ -459,7 +459,7 @@
           "箭筒不自行判定敵我",
           "D014待修與戰損箭不因升級自動恢復"
         ],
-        "quiver": "折疊智能箭庫Ⅱ｜箭矢回收型",
+        "quiver": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
         "modules": [
           "四人共享戰術視界",
           "灰隼動態射擊輔助模組Ⅰ",
@@ -512,6 +512,7 @@
           "長時間觀測疲勞警示"
         ],
         "tacticalSuit": "遠距偵查戰術服Ⅱ",
+        "arrowReadiness": "162 READY / FULLY RECONCILED",
         "coldWeatherGear": {
           "name": "寒區完整套組Ⅰ",
           "status": "OPERATIONAL",
@@ -614,7 +615,7 @@
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型",
           "functions": "雙手獨立通道／雙工具部署／救援AI建議／可程式化位移壓力張力高度與異常自停"
         },
-        "rescueStation": "自律式折疊救難醫療站Ⅲ｜共享資產／周映白主要攜行與快速部署",
+        "rescueStation": "自律式折疊救難醫療站Ⅲ｜100%有限耗材／自主標準療程測試PASS",
         "coldWeatherGear": {
           "name": "寒區完整套組Ⅰ",
           "status": "OPERATIONAL",

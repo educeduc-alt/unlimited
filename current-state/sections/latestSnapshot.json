@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "latestSnapshot",
   "state": {
     "latestSnapshot": {
@@ -16,7 +16,7 @@
           "title": "隊長",
           "gender": "男",
           "mental": "穩定",
-          "points": 8429,
+          "points": 6754,
           "nenType": "強化系",
           "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
           "heightCm": 175,
@@ -24,7 +24,7 @@
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 8429,
+          "rewardPoints": 6754,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -48,14 +48,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 11013,
+          "points": 9338,
           "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 11013,
+          "rewardPoints": 9338,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -78,14 +78,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 10950,
+          "points": 9275,
           "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 10950,
+          "rewardPoints": 9275,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -122,14 +122,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 12482,
+          "points": 10007,
           "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 12482,
+          "rewardPoints": 10007,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -147,23 +147,35 @@
         }
       ],
       "arrows": {
-        "ready": 144,
-        "physical": "AT LEAST 144 CONFIRMED",
-        "repairPending": "PENDING AUDIT",
-        "detailedBreakdown": "PENDING AUDIT / 不虛構拆分"
+        "ready": 162,
+        "physical": 162,
+        "repairPending": 0,
+        "detailedBreakdown": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        }
       },
       "points": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
-      "version": 126,
+      "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+      "version": 127,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間",
-      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜能力熟悉／整合訓練完成；洛恢復優先",
+      "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -171,19 +183,42 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 43374,
+      "grandTotal": 35374,
       "provisions": {
         "遠征料理食材人日": 60,
         "遠征緊急乾糧人日": 99,
         "遠征緊急飲水人日": 99,
         "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
       },
+      "rescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "publicFunds": 500,
+      "publicFunds": 0,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 42874,
+      "privateTotal": 35374,
       "branchStories": {
         "B": 0,
         "C": 0
@@ -197,19 +232,19 @@
         "difficulty": "A"
       },
       "privatePoints": {
-        "洛": 8429,
-        "伊恩": 10950,
-        "程牧": 12482,
-        "周映白": 11013
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338
       },
-      "resourceAudit": "D026返還實物掃描完成：乾糧99／飲水99／料理60帳面；箭144；洛個人冷療1、舒緩0；共享冷療8、舒緩2；醫療站Ⅲ耗材47%。",
+      "resourceAudit": "POST-D026｜醫療2400、車輛4800、補箭800共8000點完成。箭162 READY；醫療站100%；洛冷療2／噴膜1／舒緩1；共享與高階醫療不重複增減。乾糧99／飲水99／料理60帳面不變。",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL｜醫療耗材47%剩餘",
+      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -264,13 +299,116 @@
         "伊恩：自律節點／雙主核心整合與條件式門框支援"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 42874,
+      "privatePointsTotal": 35374,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
+      "vehicleCalibration": {
+        "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+        "cost": 4800,
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+        "added": [
+          "一鍵自動構型切換",
+          "展開空間掃描",
+          "車體自檢",
+          "座椅／擔架快速重配置",
+          "乘員安全區確認",
+          "轉換時鎖定行駛"
+        ],
+        "after": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10807,
+          "周映白": 9338
+        },
+        "before": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538
+        },
+        "safety": [
+          "空間不足拒絕展開",
+          "傾斜超過安全值拒絕展開",
+          "轉換區有人站立拒絕展開",
+          "人工取消安全停止／鎖定，不暴力折疊"
+        ],
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
+        "payment": {
+          "洛": 1200,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1200
+        },
+        "preserved": [
+          "兩棲能力",
+          "跨溫域環控",
+          "電子地圖／路線記錄",
+          "野戰維修相容",
+          "折疊收納",
+          "原有能源系統"
+        ],
+        "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+        "transitions": [
+          {
+            "to": "STANDARD-9",
+            "from": "FOLD",
+            "status": "PASS",
+            "seconds": 36
+          },
+          {
+            "to": "EVAC-BUS",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 31,
+            "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+          },
+          {
+            "to": "STANDARD-9",
+            "from": "EVAC-BUS",
+            "status": "PASS",
+            "seconds": 27
+          },
+          {
+            "to": "FOLD",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 22,
+            "condition": "全員下車，物品固定"
+          }
+        ],
+        "configurations": [
+          "STANDARD-9",
+          "EVAC-BUS",
+          "FOLD"
+        ],
+        "relativeEnergy": {
+          "EVAC-BUS兩棲": 2.1,
+          "EVAC-BUS道路": 1.65,
+          "STANDARD-9道路": 1
+        },
+        "branchesChanged": false,
+        "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+        "publicFundsAfter": 0,
+        "privateTotalAfter": 36174
+      },
       "medicalDistribution": {
         "洛": {
-          "冷療噴霧Ⅰ": 1,
+          "冷療噴霧Ⅰ": 2,
           "醫療噴膜Ⅰ": 1,
-          "肌肉舒緩噴劑Ⅰ": 0
+          "肌肉舒緩噴劑Ⅰ": 1
         },
         "伊恩": {
           "冷療噴霧Ⅰ": 2,

@@ -1,0 +1,277 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "section": "postD026RescueLogistics",
+  "state": {
+    "postD026RescueLogistics": {
+      "node": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+      "final": {
+        "洛": 6754,
+        "伊恩": 9275,
+        "程牧": 10007,
+        "周映白": 9338,
+        "grandTotal": 35374,
+        "publicFunds": 0,
+        "privateTotal": 35374,
+        "branchStories": {
+          "B": 0,
+          "C": 0
+        }
+      },
+      "source": "使用者三張正式卡，依事件順序核帳",
+      "rescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
+      "arrowRestock": {
+        "id": "POST-D026-ARROW-RESTOCK-800",
+        "cost": 800,
+        "rule": "實體盤點不反推逐箭場景；補回D026入場162支，不補成更早163支",
+        "after": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "payer": "程牧",
+        "before": {
+          "冰凍箭": 15,
+          "標準箭": 16,
+          "爆裂箭": 15,
+          "束縛鎖箭": 13,
+          "定位信標箭": 14,
+          "遮蔽煙幕箭": 14,
+          "重型破障箭": 14,
+          "鈍擊衝擊箭": 14,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 14
+        },
+        "status": "162 READY / FULLY RECONCILED",
+        "additions": {
+          "標準箭": 12,
+          "束縛鎖箭": 1,
+          "定位信標箭": 1,
+          "遮蔽煙幕箭": 1,
+          "重型破障箭": 1,
+          "鈍擊衝擊箭": 1,
+          "電擊干擾箭Ⅰ": 1
+        },
+        "afterTotal": 162,
+        "beforeTotal": 144,
+        "pointsAfter": 10007,
+        "pointsBefore": 10807
+      },
+      "expenseTotal": 8000,
+      "medicalTests": {
+        "cases": {
+          "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+          "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+          "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+          "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+        },
+        "zones": [
+          "入站自動分診",
+          "多床位監測／處置",
+          "高風險穩定床位",
+          "清創／縫合／固定",
+          "藥品耗材自動管理",
+          "基礎呼吸／循環支持",
+          "智能機械臂軌道",
+          "機器人待命",
+          "短時隔離／觀察",
+          "掃描器／組織修復儀接入"
+        ],
+        "limits": [
+          "無人格",
+          "不擅自高風險手術",
+          "不是完整大型醫院／ICU／高階外科中心",
+          "不復活",
+          "100%是有限耗材，不是無限耗材"
+        ],
+        "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+        "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+        "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+      },
+      "medicalRestock": {
+        "id": "POST-D026-MEDICAL-RESTOCK-2400",
+        "after": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538,
+          "grandTotal": 40974,
+          "publicFunds": 0,
+          "privateTotal": 40974
+        },
+        "total": 2400,
+        "before": {
+          "洛": 8429,
+          "伊恩": 10950,
+          "程牧": 12482,
+          "周映白": 11013,
+          "grandTotal": 43374,
+          "publicFunds": 500,
+          "privateTotal": 42874
+        },
+        "status": "CONFIRMED / FULLY SETTLED",
+        "payment": {
+          "洛": 475,
+          "伊恩": 475,
+          "程牧": 475,
+          "周映白": 475,
+          "publicFunds": 500
+        },
+        "station": {
+          "cost": 2200,
+          "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+          "afterPercent": 100,
+          "beforePercent": 47
+        },
+        "luoPersonal": {
+          "cost": 200,
+          "added": {
+            "冷療噴霧Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          },
+          "after": {
+            "冷療噴霧Ⅰ": 2,
+            "醫療噴膜Ⅰ": 1,
+            "肌肉舒緩噴劑Ⅰ": 1
+          }
+        },
+        "branchesChanged": false
+      },
+      "vehicleUpgrade": {
+        "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+        "cost": 4800,
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+        "added": [
+          "一鍵自動構型切換",
+          "展開空間掃描",
+          "車體自檢",
+          "座椅／擔架快速重配置",
+          "乘員安全區確認",
+          "轉換時鎖定行駛"
+        ],
+        "after": {
+          "洛": 6754,
+          "伊恩": 9275,
+          "程牧": 10807,
+          "周映白": 9338
+        },
+        "before": {
+          "洛": 7954,
+          "伊恩": 10475,
+          "程牧": 12007,
+          "周映白": 10538
+        },
+        "safety": [
+          "空間不足拒絕展開",
+          "傾斜超過安全值拒絕展開",
+          "轉換區有人站立拒絕展開",
+          "人工取消安全停止／鎖定，不暴力折疊"
+        ],
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
+        "payment": {
+          "洛": 1200,
+          "伊恩": 1200,
+          "程牧": 1200,
+          "周映白": 1200
+        },
+        "preserved": [
+          "兩棲能力",
+          "跨溫域環控",
+          "電子地圖／路線記錄",
+          "野戰維修相容",
+          "折疊收納",
+          "原有能源系統"
+        ],
+        "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+        "transitions": [
+          {
+            "to": "STANDARD-9",
+            "from": "FOLD",
+            "status": "PASS",
+            "seconds": 36
+          },
+          {
+            "to": "EVAC-BUS",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 31,
+            "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+          },
+          {
+            "to": "STANDARD-9",
+            "from": "EVAC-BUS",
+            "status": "PASS",
+            "seconds": 27
+          },
+          {
+            "to": "FOLD",
+            "from": "STANDARD-9",
+            "status": "PASS",
+            "seconds": 22,
+            "condition": "全員下車，物品固定"
+          }
+        ],
+        "configurations": [
+          "STANDARD-9",
+          "EVAC-BUS",
+          "FOLD"
+        ],
+        "relativeEnergy": {
+          "EVAC-BUS兩棲": 2.1,
+          "EVAC-BUS道路": 1.65,
+          "STANDARD-9道路": 1
+        },
+        "branchesChanged": false,
+        "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+        "publicFundsAfter": 0,
+        "privateTotalAfter": 36174
+      }
+    }
+  }
+}

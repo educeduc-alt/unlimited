@@ -1,0 +1,522 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "section": "postD026PreLogisticsSnapshot",
+  "state": {
+    "postD026PreLogisticsSnapshot": {
+      "ammo": {
+        "aliases": {
+          "信標箭": "定位信標箭",
+          "煙幕箭": "遮蔽煙幕箭",
+          "鈍擊箭": "鈍擊衝擊箭"
+        },
+        "entries": {
+          "D026後可用箭矢（分項待盤點）": 144
+        },
+        "capacity": "UNSPECIFIED_FINITE",
+        "timeline": [
+          {
+            "node": "D022",
+            "event": "全箭庫安全回收／分項不變",
+            "readyAfter": 113,
+            "permanentLoss": 0
+          },
+          {
+            "node": "PRE-D023",
+            "event": "標準箭補充×1",
+            "change": 1,
+            "readyAfter": 114
+          },
+          {
+            "node": "POST-CUSTOM-A《灰城72小時》",
+            "event": "束縛鎖箭永久消耗1；閃光干擾箭3支待維修；電擊箭1支成功回收",
+            "readyAfter": 159,
+            "permanentLoss": 1,
+            "physicalAfter": 162,
+            "repairPending": 3
+          },
+          {
+            "node": "POST-CUSTOM-A後勤整備",
+            "event": "箭矢自律維修模組Ⅰ安裝；閃光干擾箭3支修復完成",
+            "readyAfter": 162,
+            "physicalAfter": 162,
+            "repairPending": 0
+          }
+        ],
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "d022Result": {
+          "ready": 113,
+          "permanentLoss": 0,
+          "breakdownChanged": false
+        },
+        "lastUpdate": "POST-D026｜162入場／41射出／23回收可用／6報廢／12未回收／淨損耗18／144可用",
+        "combatReady": 144,
+        "currentTotal": 144,
+        "repairModule": {
+          "cost": 800,
+          "name": "箭矢自律維修模組Ⅰ",
+          "payer": "程牧／WIFI",
+          "scope": "僅限已回收、仍完整存在且可修復的已登錄箭矢",
+          "limits": [
+            "不生成遺失箭矢",
+            "不能復原完全損毀或被特殊封鎖的箭",
+            "不能復原冰凍／爆裂／束縛鎖箭等已啟動的一次性核心耗材",
+            "仍受實體零件與可維修性限制"
+          ],
+          "status": "INSTALLED / OPERATIONAL",
+          "functions": [
+            "自動檢測",
+            "校直",
+            "修復",
+            "耗材可重置範圍內重置",
+            "恢復READY"
+          ]
+        },
+        "selectionRule": "有限實體箭矢；最終選箭與射擊權屬WIFI，不自行判定敵我或開火",
+        "stage4Restock": {
+          "cost": 1600,
+          "after": 117,
+          "payer": "WIFI",
+          "before": 52,
+          "status": "CONFIRMED"
+        },
+        "currentMissing": 1,
+        "historicalLost": {
+          "D017標準箭": 3,
+          "CUSTOM A束縛鎖箭": 1
+        },
+        "d020Consumption": {
+          "total": 3,
+          "信標箭": 1,
+          "冰凍箭": 1,
+          "束縛鎖箭": 1
+        },
+        "d021Consumption": {
+          "permanentLoss": {
+            "標準箭": 3,
+            "束縛鎖箭": 1
+          },
+          "recoveredTestArrows": {
+            "標準箭": 2
+          }
+        },
+        "inventoryStatus": "144 READY／D026後分項待盤點；舊162支分項已移入歷史快照",
+        "repairBreakdown": {},
+        "accountingPresent": 144,
+        "d021Reconciliation": {
+          "rule": "時間線核帳：D020後114支→D021前補3支至117→D021永久損耗4支→POST-D021正式盤點113支；不得跳過補箭事件直接比較114與113。",
+          "status": "FINAL_SNAPSHOT_AUTHORITATIVE",
+          "preD021Restock": {
+            "stage": "POST-D020｜D021出發前",
+            "changes": {
+              "信標箭": 1,
+              "冰凍箭": 1,
+              "束縛鎖箭": 1
+            },
+            "afterTotal": 117,
+            "beforeTotal": 114
+          },
+          "cardBeforeTotal": 117,
+          "v77PriorSnapshot": 114,
+          "finalDetailedTotal": 113
+        },
+        "d026Reconciliation": {
+          "fired": 41,
+          "before": 162,
+          "netLoss": 18,
+          "readyAfter": 144,
+          "unrecovered": 12,
+          "recoveredUsable": 23,
+          "detailedBreakdown": "PENDING AUDIT / 不虛構拆分",
+          "recoveredScrapped": 6
+        },
+        "inventoryCorrection": {
+          "status": "FULLY_RECONCILED",
+          "sequence": [
+            {
+              "to": 5,
+              "cost": 480,
+              "from": 1,
+              "item": "爆裂箭×4",
+              "order": 1,
+              "payer": "WIFI",
+              "unitPrice": 120,
+              "pointsAfter": 2912,
+              "pointsBefore": 3392
+            },
+            {
+              "to": 5,
+              "cost": 400,
+              "from": 1,
+              "item": "冰凍箭×4",
+              "order": 2,
+              "payer": "WIFI",
+              "unitPrice": 100,
+              "pointsAfter": 2512,
+              "pointsBefore": 2912
+            },
+            {
+              "to": 10,
+              "cost": 100,
+              "from": 5,
+              "item": "標準箭×5",
+              "order": 3,
+              "payer": "WIFI",
+              "unitPrice": 20,
+              "pointsAfter": 2412,
+              "pointsBefore": 2512
+            }
+          ],
+          "totalCost": 980,
+          "finalCounts": {
+            "冰凍箭": 5,
+            "標準箭": 10,
+            "爆裂箭": 5,
+            "totalReady": 52
+          },
+          "specialArrowSubtotal": 880,
+          "standardArrowSubtotal": 100
+        },
+        "damagedPendingRepair": 0,
+        "preD026DetailedEntries": {
+          "信標箭": 15,
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "煙幕箭": 15,
+          "爆裂箭": 15,
+          "鈍擊箭": 15,
+          "束縛鎖箭": 14,
+          "重型破障箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "customAGrayCityConsumption": {
+          "rule": "其他未逐箭記錄的射擊不自行追加損耗",
+          "before": 163,
+          "status": "CONFIRMED / CONSERVATIVE AUDIT",
+          "repaired": {
+            "閃光干擾箭": 3
+          },
+          "readyAfter": 159,
+          "repairStatus": "COMPLETE",
+          "permanentLoss": {
+            "束縛鎖箭": 1
+          },
+          "physicalAfter": 162,
+          "repairPending": {
+            "閃光干擾箭": 3
+          },
+          "readyAfterRepair": 162,
+          "directlyRecovered": {
+            "電擊干擾箭Ⅰ": 1
+          }
+        },
+        "authoritativeDetailedSnapshot": false
+      },
+      "economy": {
+        "洛": 8429,
+        "伊恩": 10950,
+        "程牧": 12482,
+        "周映白": 11013,
+        "grandTotal": 43374,
+        "publicFunds": 500,
+        "privateTotal": 42874
+      },
+      "version": 126,
+      "vehicleSystem": {
+        "role": "四人跨副本機動／救援／傷員後送平台",
+        "damage": [],
+        "status": "OPERATIONAL",
+        "vehicle": "兩棲折疊救援車Ⅲ｜加長多人後送型",
+        "location": "AI主神空間",
+        "mapModule": {
+          "cost": 320,
+          "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
+          "limits": [
+            "不能自動取得副本完整地圖",
+            "不能保證外部定位可信",
+            "不能判定第一／第二張地圖真假",
+            "不能免疫認知污染"
+          ],
+          "status": "INSTALLED / OPERATIONAL",
+          "functions": [
+            "實走路線",
+            "里程",
+            "方向",
+            "高差",
+            "人工地標",
+            "回撤點",
+            "營地點",
+            "獨立慣性推算",
+            "里程推算",
+            "可取得時之外部定位資訊"
+          ]
+        },
+        "preserved": [
+          "核心保全"
+        ],
+        "sharedBag": "OPERATIONAL",
+        "foldingCart": "OPERATIONAL",
+        "formalSeats": 9,
+        "systemCheck": {
+          "待修": 0,
+          "折疊系統": "正常",
+          "水陸驅動": "正常",
+          "涉水密封": "正常",
+          "跨溫域環控": "正常",
+          "野炊廚房接口": "正常"
+        },
+        "repairStatus": "POST-D019完整任務後維修完成",
+        "deploymentRule": "可正常出勤",
+        "requiredAction": "NONE",
+        "supportSystems": [
+          "跨環境高密度備用能源組Ⅰ",
+          "兩棲載具野戰維修套件Ⅰ",
+          "車載快速救援模組Ⅰ",
+          "車載外部救援固定架Ⅱ",
+          "車載跨溫域環境控制模組Ⅰ",
+          "車載獨立電子地圖／地形記錄模組Ⅰ"
+        ],
+        "fieldAssessment": "超出現場維修範疇",
+        "postD023Upgrade": "兩棲折疊救援車Ⅲ｜9正式座／20人短程緊急撤離；雙擔架、環景、強化拖曳、多人環控；保留兩棲與既有系統",
+        "emergencyMaximum": 20,
+        "teamCapabilities": [
+          "四人兩棲載具綜合操作資格",
+          "載具崗位動態接替",
+          "野戰能源／基礎維修／傷員後送鏈",
+          "單點失能備援"
+        ],
+        "energyModuleStatus": {
+          "status": "OPERATIONAL／FULL",
+          "activeModule": "已完成任務後段更換／車輛可正常運作",
+          "removedModule": "已回充／可用／非報廢",
+          "D019UsageIncluded": [
+            "現實側搜索",
+            "短距離轉移",
+            "一次野炊廚房掛載使用"
+          ],
+          "currentEnergyPercent": 100,
+          "doubleDeductionForbidden": true,
+          "dispatchablePercentagePoints": 80,
+          "minimumEvacuationReservePercent": 20
+        },
+        "environmentControl": {
+          "name": "車載跨溫域環境控制模組Ⅰ",
+          "limits": [
+            "非完全生命維持系統",
+            "非毒氣／真空防護",
+            "不免疫極端低溫造成的車體與機械問題",
+            "車門長時間開放會快速損失艙內溫度",
+            "極端環境下能源消耗增加"
+          ],
+          "status": "INSTALLED／OPERATIONAL",
+          "functions": [
+            "車艙主動加熱",
+            "車艙主動降溫",
+            "基礎保溫／隔熱",
+            "車窗除霜／除霧",
+            "乘員艙與傷員區溫度調節",
+            "相容跨環境高密度備用能源組Ⅰ"
+          ]
+        },
+        "externalRescueRack": "OPERATIONAL",
+        "medicalLoadoutRule": "關鍵立即急救物資不得全部永久鎖於車上；最低個人急救與必要生命維持用品保留於人身／共享行囊快速取用層",
+        "teamQualifications": [
+          "陸地駕駛",
+          "越野駕駛",
+          "水上駕駛",
+          "陸／水模式切換",
+          "傷員後送",
+          "戰術接近／撤離",
+          "基礎能源管理",
+          "基礎野戰維修",
+          "環境評估",
+          "載具崗位接替"
+        ],
+        "integratedCampModule": "正式遠征居住模組Ⅱ"
+      },
+      "medicalDistribution": {
+        "洛": {
+          "冷療噴霧": 1,
+          "醫療噴膜": 1,
+          "肌肉舒緩噴劑": 0
+        },
+        "伊恩": {
+          "冷療噴霧": 2,
+          "醫療噴膜": 1
+        },
+        "程牧": {
+          "冷療噴霧": 1
+        },
+        "doctrine": "分散攜帶／集中技術",
+        "周映白": {
+          "冷療噴霧": 3,
+          "醫療噴膜": 2,
+          "肌肉舒緩噴劑": 1
+        }
+      },
+      "publicMedicalStation": {
+        "core": "約普通教室大小的自律救援節點。",
+        "name": "自律式折疊救難醫療站Ⅲ",
+        "role": "現場應急醫療穩定站",
+        "type": "共享大型救援資產／主要操作員周映白",
+        "limits": [
+          "不是完整醫院",
+          "不做大型手術",
+          "不取代ICU",
+          "不復活",
+          "不提供無限藥品"
+        ],
+        "paidBy": "公共資金",
+        "status": "OPERATIONAL",
+        "carrier": "折疊救援模組庫Ⅲ",
+        "quantity": 1,
+        "functions": [
+          "靜脈輸液支援",
+          "應急藥物管理",
+          "進階多床位監測",
+          "應急處置工作位",
+          "醫療耗材艙",
+          "撤離交接紀錄"
+        ],
+        "lastAudit": "D021 COMPLETE／剩餘62%",
+        "ownerType": "共享大型救援資產",
+        "stockCost": 600,
+        "stockType": "正式有限實體庫存",
+        "stockScale": "10人份",
+        "displayRule": "同系列僅顯示最新Ⅱ型；Ⅰ型保留於歷史紀錄",
+        "maintenance": {
+          "cleaning": "REQUIRED",
+          "permanentDamage": false,
+          "consumableRestock": "REQUIRED",
+          "routineInspection": "REQUIRED"
+        },
+        "upgradeCost": 1800,
+        "restockStatus": "RECOMMENDED / NOT PURCHASED",
+        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "lastDeployment": "D021《墜星殖民地》",
+        "totalStageCost": 2400,
+        "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+        "d020Consumption": {
+          "傷口清潔液": 5,
+          "標準止吐藥": 2,
+          "基礎抗過敏藥": 0,
+          "平衡型晶體液": 4,
+          "標準輸液管路": 4,
+          "靜脈通路建立組": 4,
+          "嚴重過敏緊急藥物": 0,
+          "基礎口服止痛退熱藥": 4,
+          "局部止痛／舒緩單元": 4,
+          "支氣管舒張應急單元": 1,
+          "標準應急注射止痛劑": 3
+        },
+        "primaryOperator": "周映白",
+        "medicalStockCost": 600,
+        "itemizedStockRule": "D021未提供逐項耗用；既有逐項數量僅保留為上次明細，不作為D021後精確現值",
+        "medicalStockPercent": 62,
+        "tenPersonMedicalStock": {
+          "抗生素": "未列入自動標準應急藥庫",
+          "傷口清潔液": 5,
+          "標準止吐藥": 8,
+          "基礎抗過敏藥": 10,
+          "平衡型晶體液": 6,
+          "標準輸液管路": 6,
+          "靜脈通路建立組": 6,
+          "嚴重過敏緊急藥物": 4,
+          "基礎口服止痛退熱藥": 16,
+          "局部止痛／舒緩單元": 6,
+          "支氣管舒張應急單元": 5,
+          "標準應急注射止痛劑": 7
+        },
+        "d021ConsumptionRatePercent": 38
+      },
+      "sharedMedicalStation": {
+        "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "role": "自動化微型醫院型救難醫療站",
+        "scale": "約普通教室大小",
+        "limits": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不是復活設備"
+        ],
+        "paidBy": "公共資金",
+        "status": "UPGRADED / OPERATIONAL",
+        "carrier": "折疊救援模組庫Ⅲ",
+        "functions": [
+          "自動分診",
+          "多床位生命監測",
+          "醫療機器人",
+          "智能機械臂",
+          "傷患搬運",
+          "清創",
+          "止血",
+          "包紮",
+          "固定",
+          "基礎縫合",
+          "輸液／補液",
+          "氧氣／呼吸支持",
+          "基礎藥物給予",
+          "隔離／觀察",
+          "創傷掃描整合",
+          "組織修復儀整合",
+          "按預設醫療協議自主運作"
+        ],
+        "lastAudit": "D026 COMPLETE／62%→47%",
+        "ownerType": "共享大型救援資產",
+        "stockCost": 600,
+        "stockType": "正式有限實體庫存",
+        "stockScale": "10人份",
+        "maintenance": {
+          "cleaning": "REQUIRED",
+          "permanentDamage": false,
+          "consumableRestock": "REQUIRED",
+          "routineInspection": "REQUIRED"
+        },
+        "stockStatus": "47% REMAINING / RESTOCK PRIORITY",
+        "robotsStatus": "OPERATIONAL",
+        "restockStatus": "NOT PURCHASED",
+        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "lastDeployment": "D026《黃銅太陽城》",
+        "antibioticsRule": "抗生素不列入自動標準應急藥庫",
+        "d020Consumption": {
+          "傷口清潔液": 5,
+          "標準止吐藥": 2,
+          "基礎抗過敏藥": 0,
+          "平衡型晶體液": 4,
+          "標準輸液管路": 4,
+          "靜脈通路建立組": 4,
+          "嚴重過敏緊急藥物": 0,
+          "基礎口服止痛退熱藥": 4,
+          "局部止痛／舒緩單元": 4,
+          "支氣管舒張應急單元": 1,
+          "標準應急注射止痛劑": 3
+        },
+        "primaryOperator": "周映白",
+        "itemizedStockRule": "D021僅提供整體62%剩餘率；既有逐項數量不得視為D021後精確現值，待正式逐項盤點或補貨時重建",
+        "medicalStockPercent": 47,
+        "mechanicalArmsStatus": "OPERATIONAL",
+        "tenPersonMedicalStock": {
+          "抗生素": "未列入自動標準應急藥庫",
+          "傷口清潔液": 5,
+          "標準止吐藥": 8,
+          "基礎抗過敏藥": 10,
+          "平衡型晶體液": 6,
+          "標準輸液管路": 6,
+          "靜脈通路建立組": 6,
+          "嚴重過敏緊急藥物": 4,
+          "基礎口服止痛退熱藥": 16,
+          "局部止痛／舒緩單元": 6,
+          "支氣管舒張應急單元": 5,
+          "標準應急注射止痛劑": 7
+        },
+        "d021ConsumptionRatePercent": 38,
+        "d026ConsumptionRatePercent": 15
+      }
+    }
+  }
+}

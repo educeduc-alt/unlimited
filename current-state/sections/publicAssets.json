@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "publicAssets",
   "state": {
     "publicAssets": [
@@ -27,17 +27,32 @@
           "points": 6500,
           "BBranch": 1
         },
-        "name": "B級｜兩棲折疊救援車Ⅲ",
+        "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
         "type": "跨副本陸／水機動救援載具",
         "limits": [
           "完整隊伍依適性分工但不鎖定職位",
           "單一成員失能時其他成員可依訓練接替"
         ],
-        "status": "OPERATIONAL",
+        "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+        "evacBus": {
+          "status": "STANDARD SAFE EVACUATION BASELINE",
+          "conditions": [
+            "安全帶",
+            "緊急出口",
+            "基本行李",
+            "車載環控",
+            "正常道路／兩棲救援操作"
+          ],
+          "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+          "safeCapacity": 28,
+          "includesDriver": true,
+          "absoluteMaximum": "UNTESTED"
+        },
         "location": "AI主神空間",
         "quantity": 1,
         "repairCost": 1200,
         "fieldRepair": "IMPOSSIBLE",
+        "formalSeats": 9,
         "capabilities": [
           "四人運輸",
           "陸地行駛",
@@ -51,7 +66,110 @@
         ],
         "repairStatus": "FORMAL REPAIR COMPLETE",
         "foldedVolumeM3": 5.05,
-        "requiredAction": "正式維修"
+        "requiredAction": "NONE／正常維護",
+        "postD026Upgrade": {
+          "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+          "cost": 4800,
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "added": [
+            "一鍵自動構型切換",
+            "展開空間掃描",
+            "車體自檢",
+            "座椅／擔架快速重配置",
+            "乘員安全區確認",
+            "轉換時鎖定行駛"
+          ],
+          "after": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10807,
+            "周映白": 9338
+          },
+          "before": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538
+          },
+          "safety": [
+            "空間不足拒絕展開",
+            "傾斜超過安全值拒絕展開",
+            "轉換區有人站立拒絕展開",
+            "人工取消安全停止／鎖定，不暴力折疊"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "payment": {
+            "洛": 1200,
+            "伊恩": 1200,
+            "程牧": 1200,
+            "周映白": 1200
+          },
+          "preserved": [
+            "兩棲能力",
+            "跨溫域環控",
+            "電子地圖／路線記錄",
+            "野戰維修相容",
+            "折疊收納",
+            "原有能源系統"
+          ],
+          "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+          "transitions": [
+            {
+              "to": "STANDARD-9",
+              "from": "FOLD",
+              "status": "PASS",
+              "seconds": 36
+            },
+            {
+              "to": "EVAC-BUS",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 31,
+              "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+            },
+            {
+              "to": "STANDARD-9",
+              "from": "EVAC-BUS",
+              "status": "PASS",
+              "seconds": 27
+            },
+            {
+              "to": "FOLD",
+              "from": "STANDARD-9",
+              "status": "PASS",
+              "seconds": 22,
+              "condition": "全員下車，物品固定"
+            }
+          ],
+          "configurations": [
+            "STANDARD-9",
+            "EVAC-BUS",
+            "FOLD"
+          ],
+          "relativeEnergy": {
+            "EVAC-BUS兩棲": 2.1,
+            "EVAC-BUS道路": 1.65,
+            "STANDARD-9道路": 1
+          },
+          "branchesChanged": false,
+          "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+          "publicFundsAfter": 0,
+          "privateTotalAfter": 36174
+        }
       },
       {
         "cost": 1200,
@@ -105,7 +223,7 @@
       {
         "core": "約普通教室大小的自律救援節點。",
         "name": "自律式折疊救難醫療站Ⅲ",
-        "role": "現場應急醫療穩定站",
+        "role": "自動化微型醫院型救難醫療站",
         "type": "共享大型救援資產／主要操作員周映白",
         "limits": [
           "不是完整醫院",
@@ -115,32 +233,43 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL",
+        "status": "OPERATIONAL / FULLY STOCKED",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
         "functions": [
-          "靜脈輸液支援",
-          "應急藥物管理",
-          "進階多床位監測",
-          "應急處置工作位",
-          "醫療耗材艙",
-          "撤離交接紀錄"
+          "自動分診",
+          "多床位生命監測",
+          "醫療機器人",
+          "智能機械臂",
+          "傷患搬運",
+          "清創",
+          "止血",
+          "包紮",
+          "固定",
+          "基礎縫合",
+          "輸液／補液",
+          "氧氣／呼吸支持",
+          "基礎藥物給予",
+          "隔離／觀察",
+          "創傷掃描整合",
+          "組織修復儀整合",
+          "按預設醫療協議自主運作"
         ],
-        "lastAudit": "D021 COMPLETE／剩餘62%",
+        "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
         "ownerType": "共享大型救援資產",
-        "stockCost": 600,
+        "stockCost": 2200,
         "stockType": "正式有限實體庫存",
-        "stockScale": "10人份",
-        "displayRule": "同系列僅顯示最新Ⅱ型；Ⅰ型保留於歷史紀錄",
+        "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+        "displayRule": "同系列僅顯示最新Ⅲ型；舊型歷史保留",
         "maintenance": {
           "cleaning": "REQUIRED",
           "permanentDamage": false,
-          "consumableRestock": "REQUIRED",
-          "routineInspection": "REQUIRED"
+          "consumableRestock": "COMPLETE",
+          "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
         },
         "upgradeCost": 1800,
-        "restockStatus": "RECOMMENDED / NOT PURCHASED",
-        "accountingNote": "公共資金2500→700為救難站Ⅱ升級；本次醫療庫700→100，僅扣600一次",
+        "restockStatus": "COMPLETE / PAID",
+        "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
         "lastDeployment": "D021《墜星殖民地》",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
@@ -157,11 +286,91 @@
           "支氣管舒張應急單元": 1,
           "標準應急注射止痛劑": 3
         },
+        "postD026Restock": {
+          "id": "POST-D026-MEDICAL-RESTOCK-2400",
+          "after": {
+            "洛": 7954,
+            "伊恩": 10475,
+            "程牧": 12007,
+            "周映白": 10538,
+            "grandTotal": 40974,
+            "publicFunds": 0,
+            "privateTotal": 40974
+          },
+          "total": 2400,
+          "before": {
+            "洛": 8429,
+            "伊恩": 10950,
+            "程牧": 12482,
+            "周映白": 11013,
+            "grandTotal": 43374,
+            "publicFunds": 500,
+            "privateTotal": 42874
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "payment": {
+            "洛": 475,
+            "伊恩": 475,
+            "程牧": 475,
+            "周映白": 475,
+            "publicFunds": 500
+          },
+          "station": {
+            "cost": 2200,
+            "scope": "模組化耗材綜合餘量，不代表每項皆缺53%；高階救命資產獨立有限庫存",
+            "afterPercent": 100,
+            "beforePercent": 47
+          },
+          "luoPersonal": {
+            "cost": 200,
+            "added": {
+              "冷療噴霧Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            },
+            "after": {
+              "冷療噴霧Ⅰ": 2,
+              "醫療噴膜Ⅰ": 1,
+              "肌肉舒緩噴劑Ⅰ": 1
+            }
+          },
+          "branchesChanged": false
+        },
         "primaryOperator": "周映白",
+        "firstFormalTests": {
+          "cases": {
+            "cuts": "分診→出血判定→清創→止血→包紮→觀察 PASS",
+            "normal": "生命穩定無急性創傷→建議無需治療 PASS",
+            "severe": "止血／補液／呼吸支持／監測與穩定 PASS；高階外科根治需後送",
+            "fracture": "掃描→固定→疼痛／循環監測→建議後送 PASS；不瞬間治癒"
+          },
+          "zones": [
+            "入站自動分診",
+            "多床位監測／處置",
+            "高風險穩定床位",
+            "清創／縫合／固定",
+            "藥品耗材自動管理",
+            "基礎呼吸／循環支持",
+            "智能機械臂軌道",
+            "機器人待命",
+            "短時隔離／觀察",
+            "掃描器／組織修復儀接入"
+          ],
+          "limits": [
+            "無人格",
+            "不擅自高風險手術",
+            "不是完整大型醫院／ICU／高階外科中心",
+            "不復活",
+            "100%是有限耗材，不是無限耗材"
+          ],
+          "status": "FIRST FORMAL DEPLOYMENT / STANDARDIZED TEST PASS",
+          "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
+          "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
+        },
         "medicalStockCost": 600,
-        "itemizedStockRule": "D021未提供逐項耗用；既有逐項數量僅保留為上次明細，不作為D021後精確現值",
-        "medicalStockPercent": 62,
-        "tenPersonMedicalStock": {
+        "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
+        "medicalStockPercent": 100,
+        "d021ConsumptionRatePercent": 38,
+        "historicalTenPersonMedicalStock": {
           "抗生素": "未列入自動標準應急藥庫",
           "傷口清潔液": 5,
           "標準止吐藥": 8,
@@ -174,8 +383,7 @@
           "局部止痛／舒緩單元": 6,
           "支氣管舒張應急單元": 5,
           "標準應急注射止痛劑": 7
-        },
-        "d021ConsumptionRatePercent": 38
+        }
       },
       {
         "cost": 1200,

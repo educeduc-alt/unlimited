@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 126,
-  "updated_at": "2026-09-05T02:20:10.963185+00:00",
+  "version": 127,
+  "updated_at": "2026-09-05T02:40:08.382204+00:00",
   "section": "tacticalDoctrine",
   "state": {
     "tacticalDoctrine": {
@@ -23,6 +23,29 @@
         "周映白": "折返救援／機動控制／破障"
       },
       "integrationRule": "程牧觀測報點→伊恩塑形封路→洛高速接敵糾纏失能→周映白救援／拖帶／破障／側翼控制→程牧補位／打斷／控制／必要尾刀；非強制固定順序",
+      "postD026RescueLoop": {
+        "steps": [
+          "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點",
+          "香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口",
+          "需要時空間門錨點穩定Ⅰ",
+          "高流量／高干擾時伊恩自律節點監測／穩定門框",
+          "乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測",
+          "香蕉返回現場繼續救援"
+        ],
+        "tests": {
+          "stretcher": "巴士側門→空間門→醫療站分診區 PASS",
+          "passengers": "單人／前後雙人／多人連續 PASS",
+          "multipleCasualties": "錨點穩定維持門框；香蕉負荷累積；伊恩節點減輕香蕉修正負荷但增加伊恩負荷"
+        },
+        "limits": [
+          "現有資產串接，非新超能力",
+          "沒有測試整台巴士穿門",
+          "不提高空間門最大距離／門徑／時間",
+          "減少外部暴露時間不等於毒氣／火災／真空免疫"
+        ],
+        "status": "PRACTICAL / FIELD-READY",
+        "validation": "FIRST FORMAL VALIDATION"
+      },
       "postD026RescueIntegration": {
         "steps": [
           "救援車／現場救援",

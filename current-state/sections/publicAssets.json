@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "publicAssets",
   "state": {
     "publicAssets": [
@@ -233,7 +233,7 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL / FULLY STOCKED",
+        "status": "OPERATIONAL / FULLY RESTOCKED",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
         "functions": [
@@ -255,7 +255,7 @@
           "組織修復儀整合",
           "按預設醫療協議自主運作"
         ],
-        "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
+        "lastAudit": "POST-D027｜64%→100%／公共1200",
         "ownerType": "共享大型救援資產",
         "stockCost": 2200,
         "stockType": "正式有限實體庫存",
@@ -270,7 +270,7 @@
         "upgradeCost": 1800,
         "restockStatus": "COMPLETE / PAID",
         "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
-        "lastDeployment": "D021《墜星殖民地》",
+        "lastDeployment": "D027",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
         "d020Consumption": {
@@ -334,6 +334,23 @@
             }
           },
           "branchesChanged": false
+        },
+        "postD027Restock": {
+          "cost": 1200,
+          "name": "醫療站Ⅲ標準耗材",
+          "unit": "percent",
+          "after": 100,
+          "before": 64,
+          "contents": [
+            "一般傷口處理",
+            "無菌消毒",
+            "輸液補液",
+            "一般藥品",
+            "採樣檢驗",
+            "呼吸氧療",
+            "創傷固定",
+            "隔離防護"
+          ]
         },
         "primaryOperator": "周映白",
         "firstFormalTests": {

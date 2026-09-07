@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -59,6 +59,28 @@
           "readyAfter": 162,
           "physicalAfter": 162,
           "repairPending": 0
+        },
+        {
+          "node": "D027",
+          "fired": 9,
+          "ready": 162,
+          "before": 162,
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "recovered": 9,
+          "irreparable": 0,
+          "permanentLoss": 0,
+          "cleanedCalibrated": 4
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -67,7 +89,28 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-D026｜144逐項盤點完成，補18支／800點→162 READY",
+      "d027Result": {
+        "fired": 9,
+        "ready": 162,
+        "before": 162,
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "recovered": 9,
+        "irreparable": 0,
+        "permanentLoss": 0,
+        "cleanedCalibrated": 4
+      },
+      "lastUpdate": "POST-D027｜發射9／回收9／4支清潔校正／永久損耗0／162 READY",
       "combatReady": 162,
       "currentTotal": 162,
       "repairModule": {
@@ -118,7 +161,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "162 READY / FULLY RECONCILED",
+      "inventoryStatus": "162 / 162 READY",
       "postD026Restock": {
         "id": "POST-D026-ARROW-RESTOCK-800",
         "cost": 800,

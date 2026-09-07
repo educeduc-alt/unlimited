@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "tacticalDoctrine",
   "state": {
     "tacticalDoctrine": {
@@ -21,6 +21,39 @@
         "伊恩": "術式塑形／快速控場",
         "程牧": "戰場觀測／遠程補位／必要尾刀",
         "周映白": "折返救援／機動控制／破障"
+      },
+      "d027Experience": {
+        "items": [
+          "大型災害安全區建立流程",
+          "感染者分流／隔離／撤離規則",
+          "當地醫療專業人員受控接管主神設備流程",
+          "大型都市人口撤離鏈",
+          "醫療研究與臨床治療並行倫理流程"
+        ],
+        "growth": {
+          "洛": {
+            "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+            "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+            "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
+          },
+          "伊恩": {
+            "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+            "limits": "不增加核心數，不取消精神負荷",
+            "status": "FIELD-VALIDATED"
+          },
+          "程牧": {
+            "use": "曲折箭都市障礙／轉角／掩體主動射線",
+            "limits": "不必中、不追蹤、不自動判敵",
+            "status": "FIELD-VALIDATED"
+          },
+          "周映白": {
+            "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+            "limits": "不更新最大距離／維持時間",
+            "status": "FIELD-VALIDATED"
+          }
+        },
+        "status": "TACTICAL / OPERATIONAL EXPERIENCE",
+        "notSupernaturalSkill": true
       },
       "integrationRule": "程牧觀測報點→伊恩塑形封路→洛高速接敵糾纏失能→周映白救援／拖帶／破障／側翼控制→程牧補位／打斷／控制／必要尾刀；非強制固定順序",
       "postD026RescueLoop": {

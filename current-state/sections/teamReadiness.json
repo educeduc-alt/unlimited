@@ -2,16 +2,16 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "teamReadiness",
   "state": {
     "teamReadiness": {
       "eva": "四人FIELD-VALIDATED / OPERATIONAL",
-      "洛": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+      "洛": "RECOVERY PHASE／急性危機已解除／明顯虛弱",
       "伊恩": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
       "程牧": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
-      "overall": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "overall": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
       "location": "AI主神空間",
       "foodWater": "補貨核帳完成",
       "周映白": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
@@ -19,7 +19,7 @@
       "largeAssets": "RECOVERED / STORED",
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材"
+      "medicalStation": "OPERATIONAL / FULLY RESTOCKED"
     }
   }
 }

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "missionHistory",
   "state": {
     "missionHistory": [
@@ -2328,6 +2328,150 @@
           "程牧"
         ],
         "mainObjective": "阻止162%強制點火並建立不壓迫地心日獸的永續城市結構｜COMPLETE"
+      },
+      {
+        "id": "D027",
+        "name": "封城第十四夜",
+        "types": [
+          "感染災害",
+          "都市生存",
+          "倖存者救援",
+          "安全區建設",
+          "資源管理",
+          "醫療研究"
+        ],
+        "world": "封城第十四夜",
+        "legacy": {
+          "rule": "世界仍有感染風險；取得自行控制疫情與發展治療能力，不等於疫情全滅",
+          "status": "WORLD-PERSISTENT MEDICAL LEGACY ESTABLISHED",
+          "records": [
+            "病原資料",
+            "病程時間序列",
+            "多階段樣本",
+            "疫苗研究平台",
+            "早期抑制方案",
+            "重症治療資料",
+            "洛治療前後血液／神經反應樣本",
+            "候選免疫／治療方案"
+          ]
+        },
+        "rating": "S",
+        "result": "COMPLETE／4 IN / 4 OUT",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "safeZone": {
+          "expansion": "市中心大撤離後擴展到周邊，不限原72床",
+          "development": [
+            "住宿",
+            "家庭兒童照護",
+            "一般生活",
+            "新進觀察",
+            "高風險隔離",
+            "醫療研究",
+            "倉儲團膳",
+            "施工警戒秩序",
+            "撤離",
+            "車輛維修"
+          ],
+          "coreSafeBeds": 72
+        },
+        "sequence": 27,
+        "difficulty": "A",
+        "evacuation": "DAY5～6中央城區組織撤離；DAY6晚已確認及可組織的主要人群完成，不代表全城每名倖存者已找到",
+        "objectives": [
+          {
+            "name": "可防守區域",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "穩定飲水",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "持續食物",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "基礎醫療",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "傷患分流",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "感染隔離",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "睡眠生活空間",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "受控入口",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "緊急撤離線",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "非隊伍倖存者收容",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "七日運作",
+            "status": "COMPLETE"
+          }
+        ],
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "branchRewards": [
+          {
+            "name": "七日安全區",
+            "rank": "B",
+            "quantity": 1
+          },
+          {
+            "name": "留下治療的方法",
+            "rank": "B",
+            "quantity": 1
+          },
+          {
+            "name": "中央城區大撤離",
+            "rank": "C",
+            "quantity": 1
+          },
+          {
+            "name": "從患者到答案",
+            "rank": "C",
+            "quantity": 1
+          }
+        ],
+        "mainObjective": "建立可持續倖存者安全區、收容非隊伍倖存者並正常運作至少七日｜COMPLETE",
+        "infectionResearch": {
+          "scope": "D027虛構世界暫定分類；非現實醫療指南",
+          "stages": {
+            "0": "暴露／無症狀",
+            "1": "早期全身反應／認知完整",
+            "3": "晚期腐敗／高階神經結構嚴重破壞",
+            "2A": "神經失調初期",
+            "2B": "高階交流／認知明顯下降"
+          },
+          "unconfirmed": "普通遠距空氣傳播未確認",
+          "transmission": [
+            "咬傷",
+            "抓傷",
+            "污染體液接觸破損皮膚",
+            "疑似污染物進入黏膜",
+            "微小表皮損傷後感染"
+          ]
+        },
+        "medicalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作"
       }
     ]
   }

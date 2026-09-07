@@ -2,24 +2,24 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 35374,
-      "publicFunds": 0,
-      "privateTotal": 35374,
+      "grandTotal": 67854,
+      "publicFunds": 80,
+      "privateTotal": 67774,
       "branchStories": {
-        "B": 0,
-        "C": 0
+        "B": 2,
+        "C": 2
       },
       "privatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -459,19 +459,34 @@
           "publicFunds": 3500
         }
       },
+      "d027Settlement": {
+        "grandTotal": 67854,
+        "publicFunds": 80,
+        "privateTotal": 67774,
+        "branchStories": {
+          "B": 2,
+          "C": 2
+        },
+        "privatePoints": {
+          "洛": 13754,
+          "伊恩": 17775,
+          "程牧": 18407,
+          "周映白": 17838
+        }
+      },
       "sharedSideStory": {
         "rank": "B",
-        "quantity": 0
+        "quantity": 2
       },
       "privateDebtTotal": 0,
       "sharedSideStories": [
         {
           "rank": "B",
-          "quantity": 0
+          "quantity": 2
         },
         {
           "rank": "C",
-          "quantity": 0
+          "quantity": 2
         }
       ],
       "lastReconciliation": {
@@ -598,12 +613,67 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 35374,
+      "privatePointsTotal": 67774,
       "currentPrivatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
+      },
+      "postD027PublicRestock": {
+        "id": "POST-D027-PUBLIC-RESTOCK-2420",
+        "items": [
+          {
+            "cost": 1200,
+            "name": "醫療站Ⅲ標準耗材",
+            "unit": "percent",
+            "after": 100,
+            "before": 64,
+            "contents": [
+              "一般傷口處理",
+              "無菌消毒",
+              "輸液補液",
+              "一般藥品",
+              "採樣檢驗",
+              "呼吸氧療",
+              "創傷固定",
+              "隔離防護"
+            ]
+          },
+          {
+            "cost": 360,
+            "name": "四人食水",
+            "unit": "人日",
+            "after": {
+              "water": 99,
+              "cooking": 60,
+              "rations": 99
+            },
+            "before": {
+              "water": 87,
+              "cooking": 56,
+              "rations": 91
+            }
+          },
+          {
+            "cost": 860,
+            "name": "救援車能源",
+            "after": {
+              "spareUnits": 4,
+              "mainPercent": 100
+            },
+            "before": {
+              "spareUnits": 3,
+              "mainPercent": 38
+            }
+          }
+        ],
+        "payer": "公共資金",
+        "total": 2420,
+        "status": "COMPLETE / FULLY SETTLED",
+        "afterPublic": 80,
+        "beforePublic": 2500,
+        "privatePointsChanged": false
       },
       "reconciliationHistory": [
         {
@@ -1254,6 +1324,86 @@
           "beforeTotal": 144,
           "pointsAfter": 10007,
           "pointsBefore": 10807
+        },
+        {
+          "node": "D027正式結算",
+          "note": "私人按正式結算卡餘額更新，未提供基礎／個人獎勵拆項，不虛構拆分",
+          "after": {
+            "洛": 13754,
+            "伊恩": 17775,
+            "程牧": 18407,
+            "周映白": 17838,
+            "grandTotal": 70274,
+            "publicFunds": 2500,
+            "privateTotal": 67774
+          },
+          "before": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10007,
+            "周映白": 9338,
+            "publicFunds": 0
+          },
+          "status": "FINAL BALANCE AUTHORITATIVE",
+          "branchesAfter": {
+            "B": 2,
+            "C": 2
+          }
+        },
+        {
+          "id": "POST-D027-PUBLIC-RESTOCK-2420",
+          "items": [
+            {
+              "cost": 1200,
+              "name": "醫療站Ⅲ標準耗材",
+              "unit": "percent",
+              "after": 100,
+              "before": 64,
+              "contents": [
+                "一般傷口處理",
+                "無菌消毒",
+                "輸液補液",
+                "一般藥品",
+                "採樣檢驗",
+                "呼吸氧療",
+                "創傷固定",
+                "隔離防護"
+              ]
+            },
+            {
+              "cost": 360,
+              "name": "四人食水",
+              "unit": "人日",
+              "after": {
+                "water": 99,
+                "cooking": 60,
+                "rations": 99
+              },
+              "before": {
+                "water": 87,
+                "cooking": 56,
+                "rations": 91
+              }
+            },
+            {
+              "cost": 860,
+              "name": "救援車能源",
+              "after": {
+                "spareUnits": 4,
+                "mainPercent": 100
+              },
+              "before": {
+                "spareUnits": 3,
+                "mainPercent": 38
+              }
+            }
+          ],
+          "payer": "公共資金",
+          "total": 2420,
+          "status": "COMPLETE / FULLY SETTLED",
+          "afterPublic": 80,
+          "beforePublic": 2500,
+          "privatePointsChanged": false
         }
       ],
       "postD019Stage4Followup": {

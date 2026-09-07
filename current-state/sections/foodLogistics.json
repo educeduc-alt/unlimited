@@ -2,12 +2,12 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "foodLogistics",
   "state": {
     "foodLogistics": {
-      "status": "POST-D026｜FIELD CONSUMPTION RECORDED",
+      "status": "POST-D027 / FULLY RESTOCKED",
       "emergency": {
         "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
@@ -15,7 +15,7 @@
         "waterPersonDays": 99,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
         "rationsPersonDays": 99,
-        "teamIndependentDurationDays": 25
+        "teamIndependentDurationDays": 24.75
       },
       "livingStock": {
         "name": "主神空間生活用四人10天份食材",
@@ -32,7 +32,7 @@
           "長期保存蛋白質",
           "有限易腐食材"
         ],
-        "accountingNote": "曾實際料理但無精確人日換算，維持60帳面值",
+        "accountingNote": "POST-D027｜返還56人日，補4→60人日；已正式重建補貨後基準",
         "teamDurationDays": 15
       },
       "accountingMode": "人日；實際使用後才扣除",
@@ -41,6 +41,21 @@
         "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",
         "waterPersonDays": 1,
         "rationsPersonDays": 1
+      },
+      "postD027Restock": {
+        "cost": 360,
+        "name": "四人食水",
+        "unit": "人日",
+        "after": {
+          "water": 99,
+          "cooking": 60,
+          "rations": 99
+        },
+        "before": {
+          "water": 87,
+          "cooking": 56,
+          "rations": 91
+        }
       },
       "postCustomARestock": {
         "cost": 1480,

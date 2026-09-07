@@ -1,0 +1,29 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "section": "recruitmentPriority",
+  "state": {
+    "recruitmentPriority": {
+      "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+      "reason": "香蕉為救援後送專業，不改写成完整醫師",
+      "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+      "target": "第五名永久隊員｜醫療核心",
+      "desired": [
+        "急診",
+        "重症",
+        "創傷整合",
+        "感染醫學／檢驗／災難醫療加分"
+      ],
+      "requirements": [
+        "主神隊伍名額",
+        "共鳴錨成員",
+        "共享視界權限",
+        "裝備資源分配",
+        "返回機制"
+      ]
+    }
+  }
+}

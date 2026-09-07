@@ -1,0 +1,325 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "section": "postD027Settlement",
+  "state": {
+    "postD027Settlement": {
+      "id": "D027",
+      "name": "封城第十四夜",
+      "scene": "POST-D027 REST PERIOD STARTED｜洛抱著伊恩在休息室睡著；無跑跳、無念測試；下一副本未選",
+      "types": [
+        "感染災害",
+        "都市生存",
+        "倖存者救援",
+        "安全區建設",
+        "資源管理",
+        "醫療研究"
+      ],
+      "world": "封城第十四夜",
+      "growth": {
+        "洛": {
+          "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+          "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+          "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
+        },
+        "伊恩": {
+          "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+          "limits": "不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
+        },
+        "程牧": {
+          "use": "曲折箭都市障礙／轉角／掩體主動射線",
+          "limits": "不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
+        },
+        "周映白": {
+          "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+          "limits": "不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
+        }
+      },
+      "legacy": {
+        "rule": "世界仍有感染風險；取得自行控制疫情與發展治療能力，不等於疫情全滅",
+        "status": "WORLD-PERSISTENT MEDICAL LEGACY ESTABLISHED",
+        "records": [
+          "病原資料",
+          "病程時間序列",
+          "多階段樣本",
+          "疫苗研究平台",
+          "早期抑制方案",
+          "重症治療資料",
+          "洛治療前後血液／神經反應樣本",
+          "候選免疫／治療方案"
+        ]
+      },
+      "rating": "S",
+      "result": "COMPLETE／4 IN / 4 OUT",
+      "source": "使用者附件 a5ec8103-29d6-49cf-8d47-1d38eae779c7／正式FINAL SETTLEMENT SAVE",
+      "status": "COMPLETE",
+      "economy": {
+        "grandTotal": 67854,
+        "publicFunds": 80,
+        "privateTotal": 67774,
+        "branchStories": {
+          "B": 2,
+          "C": 2
+        },
+        "privatePoints": {
+          "洛": 13754,
+          "伊恩": 17775,
+          "程牧": 18407,
+          "周映白": 17838
+        }
+      },
+      "restock": {
+        "id": "POST-D027-PUBLIC-RESTOCK-2420",
+        "items": [
+          {
+            "cost": 1200,
+            "name": "醫療站Ⅲ標準耗材",
+            "unit": "percent",
+            "after": 100,
+            "before": 64,
+            "contents": [
+              "一般傷口處理",
+              "無菌消毒",
+              "輸液補液",
+              "一般藥品",
+              "採樣檢驗",
+              "呼吸氧療",
+              "創傷固定",
+              "隔離防護"
+            ]
+          },
+          {
+            "cost": 360,
+            "name": "四人食水",
+            "unit": "人日",
+            "after": {
+              "water": 99,
+              "cooking": 60,
+              "rations": 99
+            },
+            "before": {
+              "water": 87,
+              "cooking": 56,
+              "rations": 91
+            }
+          },
+          {
+            "cost": 860,
+            "name": "救援車能源",
+            "after": {
+              "spareUnits": 4,
+              "mainPercent": 100
+            },
+            "before": {
+              "spareUnits": 3,
+              "mainPercent": 38
+            }
+          }
+        ],
+        "payer": "公共資金",
+        "total": 2420,
+        "status": "COMPLETE / FULLY SETTLED",
+        "afterPublic": 80,
+        "beforePublic": 2500,
+        "privatePointsChanged": false
+      },
+      "category": "正式副本",
+      "safeZone": {
+        "expansion": "市中心大撤離後擴展到周邊，不限原72床",
+        "development": [
+          "住宿",
+          "家庭兒童照護",
+          "一般生活",
+          "新進觀察",
+          "高風險隔離",
+          "醫療研究",
+          "倉儲團膳",
+          "施工警戒秩序",
+          "撤離",
+          "車輛維修"
+        ],
+        "coreSafeBeds": 72
+      },
+      "sequence": 27,
+      "difficulty": "A",
+      "evacuation": "DAY5～6中央城區組織撤離；DAY6晚已確認及可組織的主要人群完成，不代表全城每名倖存者已找到",
+      "experience": [
+        "大型災害安全區建立流程",
+        "感染者分流／隔離／撤離規則",
+        "當地醫療專業人員受控接管主神設備流程",
+        "大型都市人口撤離鏈",
+        "醫療研究與臨床治療並行倫理流程"
+      ],
+      "objectives": [
+        {
+          "name": "可防守區域",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "穩定飲水",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "持續食物",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "基礎醫療",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "傷患分流",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "感染隔離",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "睡眠生活空間",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "受控入口",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "緊急撤離線",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "非隊伍倖存者收容",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "七日運作",
+          "status": "COMPLETE"
+        }
+      ],
+      "recruitment": {
+        "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+        "reason": "香蕉為救援後送專業，不改写成完整醫師",
+        "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+        "target": "第五名永久隊員｜醫療核心",
+        "desired": [
+          "急診",
+          "重症",
+          "創傷整合",
+          "感染醫學／檢驗／災難醫療加分"
+        ],
+        "requirements": [
+          "主神隊伍名額",
+          "共鳴錨成員",
+          "共享視界權限",
+          "裝備資源分配",
+          "返回機制"
+        ]
+      },
+      "luoInfection": {
+        "blood": "VALID CLINICAL REFERENCE",
+        "status": "RECOVERY PHASE",
+        "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+        "timeline": [
+          {
+            "day": 1,
+            "event": "疑似眼眶微小擦傷＋污染暴露"
+          },
+          {
+            "day": 4,
+            "event": "昏倒、呼吸急促、感染異常"
+          },
+          {
+            "day": 5,
+            "event": "Stage1→Early Stage2"
+          },
+          {
+            "day": 6,
+            "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+          },
+          {
+            "day": 7,
+            "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+          },
+          {
+            "day": "RETURN",
+            "event": "主神醫療倉完成急性治療"
+          }
+        ],
+        "weakness": "PRESENT",
+        "cognition": "完整",
+        "isolation": "解除",
+        "notAcquired": [
+          "永久病毒免疫",
+          "感染抗性",
+          "再生BUFF",
+          "額外念氣",
+          "神經抗性",
+          "特殊血液技能"
+        ],
+        "acuteInfection": "RESOLVED",
+        "acutePostArrestDanger": "RESOLVED",
+        "acuteNeurologicalCrisis": "RESOLVED"
+      },
+      "participants": [
+        "洛",
+        "周映白",
+        "伊恩",
+        "程牧"
+      ],
+      "branchRewards": [
+        {
+          "name": "七日安全區",
+          "rank": "B",
+          "quantity": 1
+        },
+        {
+          "name": "留下治療的方法",
+          "rank": "B",
+          "quantity": 1
+        },
+        {
+          "name": "中央城區大撤離",
+          "rank": "C",
+          "quantity": 1
+        },
+        {
+          "name": "從患者到答案",
+          "rank": "C",
+          "quantity": 1
+        }
+      ],
+      "mainObjective": "建立可持續倖存者安全區、收容非隊伍倖存者並正常運作至少七日｜COMPLETE",
+      "infectionResearch": {
+        "scope": "D027虛構世界暫定分類；非現實醫療指南",
+        "stages": {
+          "0": "暴露／無症狀",
+          "1": "早期全身反應／認知完整",
+          "3": "晚期腐敗／高階神經結構嚴重破壞",
+          "2A": "神經失調初期",
+          "2B": "高階交流／認知明顯下降"
+        },
+        "unconfirmed": "普通遠距空氣傳播未確認",
+        "transmission": [
+          "咬傷",
+          "抓傷",
+          "污染體液接觸破損皮膚",
+          "疑似污染物進入黏膜",
+          "微小表皮損傷後感染"
+        ]
+      },
+      "originalUserRecord": "你躺在床上，根本沒有要起來處理採購。\r\n\r\n直接把光幕拉到面前。\r\n\r\n「主神，用公共點數。」\r\n\r\n「醫療站耗材、食物、飲水，還有救援車能源全部補回整備基準。」\r\n\r\n系統很快完成報價。\r\n\r\n# 【POST-D027｜公共後勤補充】\r\n\r\n目前公共資金：**2500點**\r\n\r\n### 自律式折疊救難醫療站Ⅲ\r\n耗材 **64% → 100%**\r\n\r\n補充內容包含一般傷口處理、無菌／消毒、輸液補液、一般藥品、採樣檢驗、呼吸氧療、創傷固定及隔離防護用品。\r\n\r\n**費用：1200點**\r\n\r\n---\r\n\r\n### 四人共享食水補充\r\n\r\n恢復至副本前整備基準：\r\n\r\n- 緊急乾糧 **91 → 99人日**\r\n- 飲水 **87 → 99人日**\r\n- 正常料理食材 **56 → 60人日**\r\n\r\n**費用：360點**\r\n\r\n---\r\n\r\n### 兩棲折疊救援車Ⅲ｜能源補充\r\n\r\n- 車載主能源 **38% → 100%**\r\n- 跨環境備用能源組 **×3 → ×4**\r\n\r\n**費用：860點**\r\n\r\n---\r\n\r\n# 【總支出】\r\n\r\n**1200 + 360 + 860 = 2420點**\r\n\r\n公共資金：\r\n\r\n**2500 → 80點**\r\n\r\n私人點數不動。\r\n\r\n- 洛：13754\r\n- 香蕉：17838\r\n- WIFI：18407\r\n- 伊恩：17775\r\n- 公共：**80**\r\n\r\n# 【目前總資產】\r\n**67854點**\r\n\r\n共同支線：\r\n\r\n**B×2／C×2**\r\n\r\n---\r\n\r\n補充完成之後，你只是看了一眼綠色的「READY」。\r\n\r\n「好了。」\r\n\r\n伊恩還坐在你旁邊。\r\n\r\n你往她那邊挪了一點。\r\n\r\n她看了看你。\r\n\r\n「不是說要休息？」\r\n\r\n「所以我要睡啊。」\r\n\r\n你伸手抱住她。\r\n\r\n這次沒有隔離牆。\r\n\r\n沒有醫療玻璃。\r\n\r\n也沒有誰阻止你碰她。\r\n\r\n伊恩安靜了一會兒，也慢慢靠進你懷裡。\r\n\r\n「不要壓到自己。」\r\n\r\n「嗯。」\r\n\r\n「不准半夜起來測念。」\r\n\r\n你閉著眼睛。\r\n\r\n「……老婆，我現在連香蕉都是抱我回來的。」\r\n\r\n她很輕地笑了一下。\r\n\r\n「所以我才提醒你。」\r\n\r\n你把臉埋近一點。\r\n\r\n沒多久，呼吸就真的慢了下來。\r\n\r\n伊恩確認你睡著之後，也沒有再離開。\r\n\r\n---\r\n\r\n# 《AI主神空間／AI無限流模擬器三代》\r\n# D027《封城第十四夜》\r\n## POST-MISSION CODEX｜FINAL SETTLEMENT SAVE\r\n\r\n**SAVE TYPE：正式副本結算／後勤盤點後**\r\n\r\n**MISSION STATUS：COMPLETE**\r\n\r\n**RATING：S**\r\n\r\n**RETURN：4 IN / 4 OUT**\r\n\r\n**CURRENT LOCATION：主神空間｜休息室**\r\n\r\n**CURRENT PHASE：POST-D027 RECOVERY**\r\n\r\n---\r\n\r\n## 【01｜副本基本資料】\r\n\r\n**副本編號：D027**\r\n\r\n**名稱：A級副本《封城第十四夜》**\r\n\r\n類型：\r\n\r\n感染災害／都市生存／倖存者救援／安全區建設／資源管理／醫療研究\r\n\r\n主線：\r\n\r\n> 建立可持續運作的倖存者安全區，收容非隊伍倖存者，並維持正常運作至少七日。\r\n\r\n### 主線完成確認\r\n\r\n- 可防守區域：CONFIRMED\r\n- 穩定飲用水：CONFIRMED\r\n- 持續食物供應：CONFIRMED\r\n- 基礎醫療體系：CONFIRMED\r\n- 傷患分流：CONFIRMED\r\n- 感染隔離：CONFIRMED\r\n- 睡眠／生活空間：CONFIRMED\r\n- 受控入口：CONFIRMED\r\n- 緊急撤離線：CONFIRMED\r\n- 非隊伍倖存者收容：CONFIRMED\r\n- 七日持續運作：COMPLETE\r\n\r\n---\r\n\r\n# 【02｜最終主要成果】\r\n\r\n### 農場安全區\r\n由單純農場發展為具備：\r\n\r\n住宿、家庭／兒童照護、一般生活、新進觀察、高風險隔離、醫療、感染研究、倉儲、團膳、施工、警戒、秩序、撤離及車輛維修能力的持續型聚落。\r\n\r\n農場原正式床位：\r\n\r\n**72個安全睡眠位置**\r\n\r\n後續市中心大撤離後，避難範圍向農場周邊擴張，不再只依靠原72床核心區。\r\n\r\n---\r\n\r\n### 城市撤離\r\nDAY 5～DAY 6進行中央城區有組織撤離。\r\n\r\n警局、醫護、隊伍及倖存者共同參與。\r\n\r\nDAY 6晚間：\r\n\r\n**市中心目前已能確認及組織撤離之主要人群完成撤離。**\r\n\r\n不等於整座城市每一名倖存者均已找到。\r\n\r\n---\r\n\r\n### 醫療體系\r\n`自律式折疊救難醫療站Ⅲ｜自動化微型醫院型`\r\n\r\n正式向經確認的當地：\r\n\r\n- 醫師\r\n- 護理人員\r\n- 感染／疫苗研究人員\r\n- 相關檢驗人員\r\n\r\n開放受控專業操作權限。\r\n\r\n形成：\r\n\r\n> **醫療站硬體＋本地專業醫療人員＋感染／疫苗研究團隊**\r\n\r\n的完整協作模式。\r\n\r\n此流程記錄為可重複使用的隊伍經驗。\r\n\r\n---\r\n\r\n# 【03｜感染研究成果】\r\n\r\n建立暫定感染分期：\r\n\r\n### Stage 0\r\n暴露／無症狀期\r\n\r\n### Stage 1\r\n早期全身反應，認知完整\r\n\r\n### Stage 2A\r\n神經失調初期\r\n\r\n### Stage 2B\r\n高階交流／認知功能明顯下降\r\n\r\n### Stage 3\r\n晚期腐敗與高階神經結構嚴重破壞\r\n\r\n已確認至少存在：\r\n\r\n- 咬傷\r\n- 抓傷\r\n- 污染體液接觸破損皮膚\r\n- 疑似污染物進入黏膜\r\n- 微小表皮損傷後感染\r\n\r\n等傳播情境。\r\n\r\n**未確認普通遠距空氣傳播。**\r\n\r\n---\r\n\r\n# 【04｜醫療世界遺產】\r\n\r\n市中心專業人員、原疫苗研究人員、臨床醫療團隊及農場研究體系成功整合。\r\n\r\n留下：\r\n\r\n- 病原研究資料\r\n- 感染病程時間序列\r\n- 多階段患者樣本\r\n- 疫苗研究平台\r\n- 早期感染抑制方案\r\n- 重症感染治療資料\r\n- 洛治療前後血液／神經反應樣本\r\n- 可繼續驗證與改良之候選免疫／治療方案\r\n\r\n**WORLD-PERSISTENT MEDICAL LEGACY：ESTABLISHED**\r\n\r\n主神判定：\r\n\r\n> 世界仍存在感染風險，但已重新取得自行控制疫情、延續文明及繼續發展治療手段的能力。\r\n\r\n---\r\n\r\n# 【05｜洛｜感染事件】\r\n\r\n疑似最初暴露：\r\n\r\n**DAY 1眼眶周圍微小擦傷＋污染暴露**\r\n\r\nDAY 4：\r\n\r\n- 突然昏倒\r\n- 呼吸急促\r\n- 發現感染相關異常\r\n\r\nDAY 5：\r\n\r\n- 全身狀況進一步下降\r\n- Stage 1 → Early Stage 2\r\n\r\nDAY 6：\r\n\r\n- 深度昏迷\r\n- 非自主肢體活動\r\n- 無意義呻吟／喊叫\r\n- 疑似Stage 2B\r\n\r\nDAY 7：\r\n\r\n- 接受候選高強度感染抑制／免疫治療\r\n- 曾發生心跳停止\r\n- 急救後恢復自主循環\r\n- 重新恢復人物辨識與目的性動作\r\n- Stage 2B → Stage 2A recovery trend\r\n\r\n返還主神空間後：\r\n\r\n**主神醫療倉完成急性治療。**\r\n\r\n### 正式狀態\r\n- 急性感染：**RESOLVED**\r\n- 傳染性隔離：**解除**\r\n- 高階認知：**完整**\r\n- 神經急性危機：**RESOLVED**\r\n- 心搏停止後急性危險：**RESOLVED**\r\n- 全身狀態：**RECOVERY PHASE**\r\n- 明顯病後虛弱：**PRESENT**\r\n\r\n不取得：\r\n\r\n- 病毒永久免疫\r\n- 感染抗性\r\n- 再生BUFF\r\n- 額外念氣\r\n- 神經抗性\r\n- 特殊血液技能\r\n\r\n洛血液僅正式確認為：\r\n\r\n**VALID CLINICAL REFERENCE**\r\n\r\n---\r\n\r\n# 【06｜四人戰術成長】\r\n\r\n### 洛\r\n`須佐洛｜MINIMUM SKELETAL SHELL`\r\n\r\n污染環境接觸隔離／狹窄保護：\r\n\r\n**PRACTICAL**\r\n\r\n大型巨靈體感染群誘導撤離：\r\n\r\n**FIELD-VALIDATED / HIGH-RISK / CONDITIONAL**\r\n\r\n沒有增加總念氣。\r\n\r\n沒有新增巨靈體最大尺寸。\r\n\r\n---\r\n\r\n### 香蕉\r\n`空間門Ⅰ＋空間門錨點穩定Ⅰ`\r\n\r\n大量傷患／倖存者撤離：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n伊恩節點配合高流量通行：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不更新最大距離與持續時間。\r\n\r\n---\r\n\r\n### WIFI\r\n`曲折箭Ⅰ`\r\n\r\n都市障礙、轉角、掩體環境下主動建立射線：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不獲得必中、追蹤或自動判敵。\r\n\r\n---\r\n\r\n### 伊恩\r\n`術式自律節點Ⅰ＋多核心法陣Ⅰ`\r\n\r\n空間門高流量穩定、隔離與撤離支援：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不增加核心數量。\r\n\r\n不取消精神負荷。\r\n\r\n---\r\n\r\n### 四人共享新增流程經驗\r\n\r\n- 【大型災害安全區建立流程】\r\n- 【感染者分流／隔離／撤離規則】\r\n- 【當地醫療專業人員接管主神設備流程】\r\n- 【大型都市人口撤離鏈】\r\n- 【醫療研究與臨床治療並行倫理流程】\r\n\r\n全部屬於：\r\n\r\n**TACTICAL / OPERATIONAL EXPERIENCE**\r\n\r\n不是超自然技能。\r\n\r\n---\r\n\r\n# 【07｜支線劇情】\r\n\r\n正式獲得：\r\n\r\n**B×2／C×2**\r\n\r\n### B×1\r\n《七日安全區》\r\n\r\n### B×1\r\n《留下治療的方法》\r\n\r\n### C×1\r\n《中央城區大撤離》\r\n\r\n### C×1\r\n《從患者到答案》\r\n\r\n支線可依正式規則拆分／合成：\r\n\r\n- B×1 = C×3\r\n- C×1 = D×3\r\n- 三個同級低階可合成上一階\r\n\r\n---\r\n\r\n# 【08｜正式經濟】\r\n\r\n### 私人點數\r\n\r\n- 洛：**13754**\r\n- 香蕉：**17838**\r\n- WIFI：**18407**\r\n- 伊恩：**17775**\r\n\r\n私人總額：\r\n\r\n**67774點**\r\n\r\n### 公共資金\r\n\r\n副本結算：\r\n\r\n**+2500**\r\n\r\nPOST-D027後勤補充：\r\n\r\n**−2420**\r\n\r\n目前公共：\r\n\r\n# **80點**\r\n\r\n### 隊伍目前總資產\r\n\r\n# **67854點**\r\n\r\n共同支線：\r\n\r\n**B×2／C×2**\r\n\r\n---\r\n\r\n# 【09｜WIFI箭庫】\r\n\r\n`折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ`\r\n\r\n副本入場：\r\n\r\n**162 READY**\r\n\r\n副本期間：\r\n\r\n- 實際發射9\r\n- 成功回收9\r\n- 其中4支清潔／校正\r\n- 不可修復0\r\n- 永久遺失0\r\n\r\n返還後：\r\n\r\n# **162 / 162 READY**\r\n\r\n詳細：\r\n\r\n- 定位信標箭15\r\n- 冰凍箭15\r\n- 標準箭28\r\n- 遮蔽煙幕箭15\r\n- 爆裂箭15\r\n- 鈍擊衝擊箭15\r\n- 束縛鎖箭14\r\n- 重型破障箭15\r\n- 閃光干擾箭15\r\n- 電擊干擾箭Ⅰ15\r\n\r\n---\r\n\r\n# 【10｜醫療站Ⅲ】\r\n\r\n副本返還盤點：\r\n\r\n**耗材64%**\r\n\r\nPOST-D027公共補充：\r\n\r\n**64% → 100%**\r\n\r\n費用：\r\n\r\n**1200點**\r\n\r\n設備：\r\n\r\n**OPERATIONAL / FULLY RESTOCKED**\r\n\r\n醫療站仍不是：\r\n\r\n完整大型綜合醫院／完整ICU群／大型手術中心／器官再生設備／復活設備。\r\n\r\n---\r\n\r\n# 【11｜食水與料理】\r\n\r\n副本返還後：\r\n\r\n- 緊急乾糧91人日\r\n- 飲水87人日\r\n- 正常料理食材56人日\r\n\r\n公共補充後：\r\n\r\n# **緊急乾糧99人日**\r\n# **飲水99人日**\r\n# **正常料理食材60人日**\r\n\r\n費用：\r\n\r\n**360點**\r\n\r\n野外淨水器：\r\n\r\n**OPERATIONAL**\r\n\r\n---\r\n\r\n# 【12｜兩棲折疊救援車Ⅲ】\r\n\r\n副本返還：\r\n\r\n- 車載主能源38%\r\n- 完整備用能源組×3\r\n- 車況OPERATIONAL\r\n\r\n公共補充：\r\n\r\n- 主能源 **38% → 100%**\r\n- 備用能源 **×3 → ×4**\r\n\r\n費用：\r\n\r\n**860點**\r\n\r\n### 現況\r\n\r\n**FIELD-READY / OPERATIONAL**\r\n\r\n- STANDARD-9：正常\r\n- EVAC-BUS：正常\r\n- FOLD：正常\r\n- 兩棲系統：正常\r\n- 跨溫域環控：正常\r\n- 地圖／路線紀錄：正常\r\n\r\n---\r\n\r\n# 【13｜其他正式物資】\r\n\r\n廣譜應急解毒劑Ⅰ：\r\n\r\n# **×5**\r\n\r\n本副本未確認消耗。\r\n\r\n智能警戒哨兵Ⅰ：\r\n\r\n# **×2 OPERATIONAL**\r\n\r\n其他未經本次副本確認消耗之既有核心設備，維持原正式狀態。\r\n\r\n---\r\n\r\n# 【14｜隊伍發展目標】\r\n\r\n新增明確優先事項：\r\n\r\n# 【第五名永久隊員｜醫療核心】\r\n\r\n**RECRUITMENT PRIORITY**\r\n\r\n理想方向：\r\n\r\n急診／重症／創傷整合能力優先，若兼具感染醫學、檢驗或災難醫療背景更佳。\r\n\r\n原因：\r\n\r\n香蕉定位仍為救援／後送專業，不改寫為完整醫師。\r\n\r\n正式第五人加入時必須另外處理：\r\n\r\n- 主神隊伍名額\r\n- 共鳴錨成員\r\n- 共享視界權限\r\n- 裝備與資源分配\r\n- 返回機制\r\n\r\n不自動把任何D027當地醫療人員視為永久第五人。\r\n\r\n---\r\n\r\n# 【15｜CURRENT PARTY STATUS】\r\n\r\n### 洛\r\n**RECOVERY PHASE**\r\n\r\n目前休息。\r\n\r\n禁止立即進行高強度念測試。\r\n\r\n### 香蕉\r\n正常返還。\r\n\r\n完成大量空間門實戰後進入正常恢復。\r\n\r\n### WIFI\r\n正常返還。\r\n\r\n箭庫162 READY。\r\n\r\n### 伊恩\r\n正常返還。\r\n\r\n長時間施術、指揮與心理壓力後休息。\r\n\r\n---\r\n\r\n# 【16｜CURRENT SCENE】\r\n\r\n**POST-D027｜REST PERIOD STARTED**\r\n\r\n後勤盤點：\r\n\r\n**COMPLETE**\r\n\r\n補充：\r\n\r\n**COMPLETE**\r\n\r\n任務結算：\r\n\r\n**COMPLETE**\r\n\r\n下一副本：\r\n\r\n**NOT SELECTED**\r\n\r\n洛目前沒有跑跳、沒有碰籠手、沒有測念。\r\n\r\n而是抱著伊恩躺在休息室床上睡著。\r\n\r\n伊恩也留在身邊休息。\r\n\r\n---\r\n\r\n# 【SAVE COMPLETE】\r\n\r\n**D027《封城第十四夜》｜S**\r\n\r\n**4 IN / 4 OUT**\r\n\r\n**POST-MISSION LOGISTICS：FULLY AUDITED**\r\n\r\n**CORE SUPPLIES：RESTOCKED**\r\n\r\n**洛：RECOVERING**\r\n\r\n**NEXT DUNGEON：UNSELECTED**\r\n\r\n**第五名醫療核心：RECRUITMENT PRIORITY**\r\n",
+      "medicalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作",
+      "branchConversionRules": [
+        "B×1=C×3",
+        "C×1=D×3",
+        "三個同級低階可合成上一階；本輪未執行合成拆分"
+      ]
+    }
+  }
+}

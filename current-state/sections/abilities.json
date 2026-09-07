@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "abilities",
   "state": {
     "abilities": {
@@ -615,6 +615,12 @@
               "totalAuraIncrease": false
             }
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL；感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL；不增加念氣與最大尺寸；不表示免疫感染",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "伊恩": [
@@ -935,6 +941,12 @@
               ]
             }
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；自律節點＋多核心法陣高流量門框／隔離／撤離支援；不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "程牧": [
@@ -1234,6 +1246,12 @@
             },
             "combatStyle": "由尋找現有射線進展為主動創造射線"
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；曲折箭都市障礙／轉角／掩體主動射線；不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "周映白": [
@@ -1542,6 +1560,12 @@
               "自身最後通過／返回現場"
             ]
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合；不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
         }
       ]
     }

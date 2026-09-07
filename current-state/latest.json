@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -58,6 +58,28 @@
           "readyAfter": 162,
           "physicalAfter": 162,
           "repairPending": 0
+        },
+        {
+          "node": "D027",
+          "fired": 9,
+          "ready": 162,
+          "before": 162,
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "recovered": 9,
+          "irreparable": 0,
+          "permanentLoss": 0,
+          "cleanedCalibrated": 4
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -66,7 +88,28 @@
         "permanentLoss": 0,
         "breakdownChanged": false
       },
-      "lastUpdate": "POST-D026｜144逐項盤點完成，補18支／800點→162 READY",
+      "d027Result": {
+        "fired": 9,
+        "ready": 162,
+        "before": 162,
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "recovered": 9,
+        "irreparable": 0,
+        "permanentLoss": 0,
+        "cleanedCalibrated": 4
+      },
+      "lastUpdate": "POST-D027｜發射9／回收9／4支清潔校正／永久損耗0／162 READY",
       "combatReady": 162,
       "currentTotal": 162,
       "repairModule": {
@@ -117,7 +160,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "162 READY / FULLY RECONCILED",
+      "inventoryStatus": "162 / 162 READY",
       "postD026Restock": {
         "id": "POST-D026-ARROW-RESTOCK-800",
         "cost": 800,
@@ -288,26 +331,71 @@
     "party": [
       {
         "icon": "🥊",
-        "life": "正常",
+        "life": "急性感染已解除／病後恢復中",
         "name": "洛",
         "role": "第一線近戰／隊長／近距離護衛與失能",
         "title": "隊長",
         "gender": "男",
-        "mental": "穩定",
-        "points": 6754,
+        "mental": "高階認知完整",
+        "points": 13754,
         "nenType": "強化系",
-        "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+        "stamina": "RECOVERY PHASE／明顯病後虛弱",
         "heightCm": 175,
         "bloodline": "無",
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 6754,
+        "rewardPoints": 13754,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
         },
         "criticalPotential": "曾出現波動／尚未穩定覺醒",
+        "postD027Infection": {
+          "blood": "VALID CLINICAL REFERENCE",
+          "status": "RECOVERY PHASE",
+          "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+          "timeline": [
+            {
+              "day": 1,
+              "event": "疑似眼眶微小擦傷＋污染暴露"
+            },
+            {
+              "day": 4,
+              "event": "昏倒、呼吸急促、感染異常"
+            },
+            {
+              "day": 5,
+              "event": "Stage1→Early Stage2"
+            },
+            {
+              "day": 6,
+              "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+            },
+            {
+              "day": 7,
+              "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+            },
+            {
+              "day": "RETURN",
+              "event": "主神醫療倉完成急性治療"
+            }
+          ],
+          "weakness": "PRESENT",
+          "cognition": "完整",
+          "isolation": "解除",
+          "notAcquired": [
+            "永久病毒免疫",
+            "感染抗性",
+            "再生BUFF",
+            "額外念氣",
+            "神經抗性",
+            "特殊血液技能"
+          ],
+          "acuteInfection": "RESOLVED",
+          "acutePostArrestDanger": "RESOLVED",
+          "acuteNeurologicalCrisis": "RESOLVED"
+        },
         "biologicalTemplate": "無",
         "vehicleQualification": {
           "status": "PASS",
@@ -326,14 +414,14 @@
         "role": "救援核心／側翼／第二線保護",
         "gender": "男",
         "mental": "穩定",
-        "points": 9338,
-        "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+        "points": 17838,
+        "stamina": "大量空間門實戰後正常恢復",
         "heightCm": 183,
         "nickname": "香蕉",
         "bloodline": "無",
         "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
         "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-        "rewardPoints": 9338,
+        "rewardPoints": 17838,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -356,14 +444,14 @@
         "role": "第二線副指揮／術式構築／情報統整",
         "gender": "女",
         "mental": "重大情緒釋放後已重新穩定",
-        "points": 9275,
-        "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+        "points": 17775,
+        "stamina": "施術、指揮及心理壓力後休息",
         "heightCm": 165,
         "nickname": "公主",
         "bloodline": "無",
         "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
         "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-        "rewardPoints": 9275,
+        "rewardPoints": 17775,
         "physicalChanges": {
           "rules": [
             "性別登記已由伊恩本人自主確認為女性",
@@ -400,14 +488,14 @@
         "role": "第一觀測位／遠程控制／戰術偵察",
         "gender": "男",
         "mental": "穩定",
-        "points": 10007,
-        "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+        "points": 18407,
+        "stamina": "正常返還／162 READY",
         "heightCm": 180,
         "nickname": "WIFI",
         "bloodline": "無",
         "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
         "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-        "rewardPoints": 10007,
+        "rewardPoints": 18407,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -426,18 +514,18 @@
     ],
     "economy": {
       "debts": [],
-      "grandTotal": 35374,
-      "publicFunds": 0,
-      "privateTotal": 35374,
+      "grandTotal": 67854,
+      "publicFunds": 80,
+      "privateTotal": 67774,
       "branchStories": {
-        "B": 0,
-        "C": 0
+        "B": 2,
+        "C": 2
       },
       "privatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -877,19 +965,34 @@
           "publicFunds": 3500
         }
       },
+      "d027Settlement": {
+        "grandTotal": 67854,
+        "publicFunds": 80,
+        "privateTotal": 67774,
+        "branchStories": {
+          "B": 2,
+          "C": 2
+        },
+        "privatePoints": {
+          "洛": 13754,
+          "伊恩": 17775,
+          "程牧": 18407,
+          "周映白": 17838
+        }
+      },
       "sharedSideStory": {
         "rank": "B",
-        "quantity": 0
+        "quantity": 2
       },
       "privateDebtTotal": 0,
       "sharedSideStories": [
         {
           "rank": "B",
-          "quantity": 0
+          "quantity": 2
         },
         {
           "rank": "C",
-          "quantity": 0
+          "quantity": 2
         }
       ],
       "lastReconciliation": {
@@ -1016,12 +1119,67 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 35374,
+      "privatePointsTotal": 67774,
       "currentPrivatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
+      },
+      "postD027PublicRestock": {
+        "id": "POST-D027-PUBLIC-RESTOCK-2420",
+        "items": [
+          {
+            "cost": 1200,
+            "name": "醫療站Ⅲ標準耗材",
+            "unit": "percent",
+            "after": 100,
+            "before": 64,
+            "contents": [
+              "一般傷口處理",
+              "無菌消毒",
+              "輸液補液",
+              "一般藥品",
+              "採樣檢驗",
+              "呼吸氧療",
+              "創傷固定",
+              "隔離防護"
+            ]
+          },
+          {
+            "cost": 360,
+            "name": "四人食水",
+            "unit": "人日",
+            "after": {
+              "water": 99,
+              "cooking": 60,
+              "rations": 99
+            },
+            "before": {
+              "water": 87,
+              "cooking": 56,
+              "rations": 91
+            }
+          },
+          {
+            "cost": 860,
+            "name": "救援車能源",
+            "after": {
+              "spareUnits": 4,
+              "mainPercent": 100
+            },
+            "before": {
+              "spareUnits": 3,
+              "mainPercent": 38
+            }
+          }
+        ],
+        "payer": "公共資金",
+        "total": 2420,
+        "status": "COMPLETE / FULLY SETTLED",
+        "afterPublic": 80,
+        "beforePublic": 2500,
+        "privatePointsChanged": false
       },
       "reconciliationHistory": [
         {
@@ -1672,6 +1830,86 @@
           "beforeTotal": 144,
           "pointsAfter": 10007,
           "pointsBefore": 10807
+        },
+        {
+          "node": "D027正式結算",
+          "note": "私人按正式結算卡餘額更新，未提供基礎／個人獎勵拆項，不虛構拆分",
+          "after": {
+            "洛": 13754,
+            "伊恩": 17775,
+            "程牧": 18407,
+            "周映白": 17838,
+            "grandTotal": 70274,
+            "publicFunds": 2500,
+            "privateTotal": 67774
+          },
+          "before": {
+            "洛": 6754,
+            "伊恩": 9275,
+            "程牧": 10007,
+            "周映白": 9338,
+            "publicFunds": 0
+          },
+          "status": "FINAL BALANCE AUTHORITATIVE",
+          "branchesAfter": {
+            "B": 2,
+            "C": 2
+          }
+        },
+        {
+          "id": "POST-D027-PUBLIC-RESTOCK-2420",
+          "items": [
+            {
+              "cost": 1200,
+              "name": "醫療站Ⅲ標準耗材",
+              "unit": "percent",
+              "after": 100,
+              "before": 64,
+              "contents": [
+                "一般傷口處理",
+                "無菌消毒",
+                "輸液補液",
+                "一般藥品",
+                "採樣檢驗",
+                "呼吸氧療",
+                "創傷固定",
+                "隔離防護"
+              ]
+            },
+            {
+              "cost": 360,
+              "name": "四人食水",
+              "unit": "人日",
+              "after": {
+                "water": 99,
+                "cooking": 60,
+                "rations": 99
+              },
+              "before": {
+                "water": 87,
+                "cooking": 56,
+                "rations": 91
+              }
+            },
+            {
+              "cost": 860,
+              "name": "救援車能源",
+              "after": {
+                "spareUnits": 4,
+                "mainPercent": 100
+              },
+              "before": {
+                "spareUnits": 3,
+                "mainPercent": 38
+              }
+            }
+          ],
+          "payer": "公共資金",
+          "total": 2420,
+          "status": "COMPLETE / FULLY SETTLED",
+          "afterPublic": 80,
+          "beforePublic": 2500,
+          "privatePointsChanged": false
         }
       ],
       "postD019Stage4Followup": {
@@ -2450,8 +2688,8 @@
         "totalPrivateExpense": 2900
       }
     },
-    "mission": "D026《黃銅太陽城》｜COMPLETE｜S",
-    "version": 127,
+    "mission": "D027《封城第十四夜》｜COMPLETE｜S",
+    "version": 128,
     "bestiary": [
       {
         "id": "M001",
@@ -3419,8 +3657,8 @@
         "自律式折疊救難醫療站Ⅲ｜折疊救援模組庫Ⅲ大型預備位": 1
       }
     },
-    "location": "AI主神空間",
-    "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+    "location": "AI主神空間｜休息室",
+    "saveNode": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
     "tracking": {
       "missionHistory": [],
       "trainingRecords": [
@@ -4128,6 +4366,12 @@
               "totalAuraIncrease": false
             }
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL；感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL；不增加念氣與最大尺寸；不表示免疫感染",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "伊恩": [
@@ -4448,6 +4692,12 @@
               ]
             }
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；自律節點＋多核心法陣高流量門框／隔離／撤離支援；不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "程牧": [
@@ -4747,6 +4997,12 @@
             },
             "combatStyle": "由尋找現有射線進展為主動創造射線"
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；曲折箭都市障礙／轉角／掩體主動射線；不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
         }
       ],
       "周映白": [
@@ -5055,6 +5311,12 @@
               "自身最後通過／返回現場"
             ]
           }
+        },
+        {
+          "name": "D027實戰運用紀錄",
+          "type": "既有能力經驗／非新技能",
+          "detail": "FIELD-VALIDATED；空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合；不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
         }
       ]
     },
@@ -5093,13 +5355,14 @@
       "生命維持凝膠": 1,
       "遠征緊急乾糧": "99人日",
       "遠征緊急飲水": "99人日",
-      "四人15日料理組": "60人日／四人15天｜曾使用但未精確換算，不虛構扣除",
+      "四人15日料理組": "60人日／四人15天｜POST-D027補貨完成",
       "中級創傷應急劑": 1,
       "基礎創傷應急劑": 2,
       "智能警戒哨兵Ⅰ": 2,
       "速效冷療噴霧Ⅰ": 8,
       "進階創傷處理包": 1,
       "一次性醫療手套組": 19,
+      "廣譜應急解毒劑Ⅰ": 5,
       "折疊式野外淨水器": 1,
       "攜行式創傷掃描器": 1,
       "緊急定位／集合器": 1,
@@ -5115,7 +5378,7 @@
       "肌肉舒緩修復噴劑Ⅰ": 2,
       "複合創傷醫療噴膜Ⅰ": 3
     },
-    "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
+    "readiness": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
     "endgameArc": {
       "name": "主神空間終局碎片",
       "status": "ACTIVE / FRAGMENT 01 COLLECTED",
@@ -5523,7 +5786,7 @@
       ],
       "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述"
     },
-    "currentState": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+    "currentState": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
     "partyTactics": [
       "四人戰術體系｜第三階段",
       "戰術醫療鏈",
@@ -5799,7 +6062,7 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL / FULLY STOCKED",
+        "status": "OPERATIONAL / FULLY RESTOCKED",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
         "functions": [
@@ -5821,7 +6084,7 @@
           "組織修復儀整合",
           "按預設醫療協議自主運作"
         ],
-        "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
+        "lastAudit": "POST-D027｜64%→100%／公共1200",
         "ownerType": "共享大型救援資產",
         "stockCost": 2200,
         "stockType": "正式有限實體庫存",
@@ -5836,7 +6099,7 @@
         "upgradeCost": 1800,
         "restockStatus": "COMPLETE / PAID",
         "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
-        "lastDeployment": "D021《墜星殖民地》",
+        "lastDeployment": "D027",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
         "d020Consumption": {
@@ -5900,6 +6163,23 @@
             }
           },
           "branchesChanged": false
+        },
+        "postD027Restock": {
+          "cost": 1200,
+          "name": "醫療站Ⅲ標準耗材",
+          "unit": "percent",
+          "after": 100,
+          "before": 64,
+          "contents": [
+            "一般傷口處理",
+            "無菌消毒",
+            "輸液補液",
+            "一般藥品",
+            "採樣檢驗",
+            "呼吸氧療",
+            "創傷固定",
+            "隔離防護"
+          ]
         },
         "primaryOperator": "周映白",
         "firstFormalTests": {
@@ -6298,11 +6578,9 @@
       "PROTOTYPE": "初步掌握／初步實用／早期原型；可在目前限制內運用，尚非成熟完成"
     },
     "waitingState": {
-      "rule": "等待下一副本選擇；不得將等待時間自動換算為訓練、成長、裝備升級或資源消耗",
-      "status": "TRAINING COMPLETE / REST / NEXT MISSION UNSELECTED",
-      "location": "AI主神空間",
-      "saveNode": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
-      "lastMission": "D026《黃銅太陽城》｜S｜COMPLETE",
+      "luo": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+      "node": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
+      "status": "REST PERIOD STARTED",
       "nextMission": "UNSELECTED"
     },
     "courseCleanup": {
@@ -6338,7 +6616,7 @@
       }
     },
     "foodLogistics": {
-      "status": "POST-D026｜FIELD CONSUMPTION RECORDED",
+      "status": "POST-D027 / FULLY RESTOCKED",
       "emergency": {
         "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
@@ -6346,7 +6624,7 @@
         "waterPersonDays": 99,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
         "rationsPersonDays": 99,
-        "teamIndependentDurationDays": 25
+        "teamIndependentDurationDays": 24.75
       },
       "livingStock": {
         "name": "主神空間生活用四人10天份食材",
@@ -6363,7 +6641,7 @@
           "長期保存蛋白質",
           "有限易腐食材"
         ],
-        "accountingNote": "曾實際料理但無精確人日換算，維持60帳面值",
+        "accountingNote": "POST-D027｜返還56人日，補4→60人日；已正式重建補貨後基準",
         "teamDurationDays": 15
       },
       "accountingMode": "人日；實際使用後才扣除",
@@ -6372,6 +6650,21 @@
         "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",
         "waterPersonDays": 1,
         "rationsPersonDays": 1
+      },
+      "postD027Restock": {
+        "cost": 360,
+        "name": "四人食水",
+        "unit": "人日",
+        "after": {
+          "water": 99,
+          "cooking": 60,
+          "rations": 99
+        },
+        "before": {
+          "water": 87,
+          "cooking": 56,
+          "rations": 91
+        }
       },
       "postCustomARestock": {
         "cost": 1480,
@@ -6554,7 +6847,8 @@
         },
         "basicMedicalBoxes": "5 FULL／0 PARTIALLY CONSUMED"
       },
-      "largeEquipmentPolicy": "暫不新增第三件大型醫療設備；待正式副本暴露缺口後再升級"
+      "largeEquipmentPolicy": "暫不新增第三件大型醫療設備；待正式副本暴露缺口後再升級",
+      "d027ProfessionalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作"
     },
     "partyConcepts": [
       {
@@ -6608,10 +6902,10 @@
     },
     "teamReadiness": {
       "eva": "四人FIELD-VALIDATED / OPERATIONAL",
-      "洛": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+      "洛": "RECOVERY PHASE／急性危機已解除／明顯虛弱",
       "伊恩": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
       "程牧": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
-      "overall": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
+      "overall": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
       "location": "AI主神空間",
       "foodWater": "補貨核帳完成",
       "周映白": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
@@ -6619,7 +6913,7 @@
       "largeAssets": "RECOVERED / STORED",
       "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材"
+      "medicalStation": "OPERATIONAL / FULLY RESTOCKED"
     },
     "vehicleSystem": {
       "role": "四人跨副本機動／救援／傷員後送平台",
@@ -6630,7 +6924,7 @@
         "轉換區有人站立拒絕展開",
         "人工取消安全停止／鎖定，不暴力折疊"
       ],
-      "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+      "status": "FIELD-READY / OPERATIONAL",
       "evacBus": {
         "status": "STANDARD SAFE EVACUATION BASELINE",
         "conditions": [
@@ -6646,7 +6940,7 @@
         "absoluteMaximum": "UNTESTED"
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "location": "AI主神空間",
+      "location": "AI主神空間｜休息室",
       "mapModule": {
         "cost": 320,
         "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
@@ -6811,6 +7105,18 @@
         "publicFundsAfter": 0,
         "privateTotalAfter": 36174
       },
+      "postD027Restock": {
+        "cost": 860,
+        "name": "救援車能源",
+        "after": {
+          "spareUnits": 4,
+          "mainPercent": 100
+        },
+        "before": {
+          "spareUnits": 3,
+          "mainPercent": 38
+        }
+      },
       "emergencyMaximum": null,
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
@@ -6819,7 +7125,8 @@
         "單點失能備援"
       ],
       "energyModuleStatus": {
-        "status": "OPERATIONAL／FULL",
+        "status": "OPERATIONAL / FULL",
+        "spareUnits": 4,
         "activeModule": "已完成任務後段更換／車輛可正常運作",
         "removedModule": "已回充／可用／非報廢",
         "D019UsageIncluded": [
@@ -7156,6 +7463,11 @@
           "spiralSequence": "右前臂螺旋核心→全右臂→全身動力鏈",
           "forceConversion": "氣力置換保留為底層機制，已整合進脈衝、承重與推力輸出；不因介面隱藏而失效",
           "spiralBenchmark": "成形速度測試指數64→52，改善18.75%；不代表最大威力自動增加"
+        },
+        "postD027FieldValidation": {
+          "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+          "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+          "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
         }
       },
       "伊恩": {
@@ -7278,7 +7590,12 @@
           "controller": "香蕉：空間連接與主要控制",
           "raisesHardLimits": false
         },
-        "currentTacticalRole": "戰場術式節點化／區域控制網"
+        "currentTacticalRole": "戰場術式節點化／區域控制網",
+        "postD027FieldValidation": {
+          "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+          "limits": "不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
+        }
       },
       "程牧": {
         "curveArrow": {
@@ -7329,6 +7646,11 @@
             "曲折箭高角度實戰化",
             "多掩體／隊友交錯射線訓練"
           ]
+        },
+        "postD027FieldValidation": {
+          "use": "曲折箭都市障礙／轉角／掩體主動射線",
+          "limits": "不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
         }
       },
       "周映白": {
@@ -7377,6 +7699,11 @@
             "再建立",
             "自身最後通過／返回現場"
           ]
+        },
+        "postD027FieldValidation": {
+          "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+          "limits": "不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
         }
       }
     },
@@ -7509,26 +7836,71 @@
       "party": [
         {
           "icon": "🥊",
-          "life": "正常",
+          "life": "急性感染已解除／病後恢復中",
           "name": "洛",
           "role": "第一線近戰／隊長／近距離護衛與失能",
           "title": "隊長",
           "gender": "男",
-          "mental": "穩定",
-          "points": 6754,
+          "mental": "高階認知完整",
+          "points": 13754,
           "nenType": "強化系",
-          "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+          "stamina": "RECOVERY PHASE／明顯病後虛弱",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 6754,
+          "rewardPoints": 13754,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
           },
           "criticalPotential": "曾出現波動／尚未穩定覺醒",
+          "postD027Infection": {
+            "blood": "VALID CLINICAL REFERENCE",
+            "status": "RECOVERY PHASE",
+            "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+            "timeline": [
+              {
+                "day": 1,
+                "event": "疑似眼眶微小擦傷＋污染暴露"
+              },
+              {
+                "day": 4,
+                "event": "昏倒、呼吸急促、感染異常"
+              },
+              {
+                "day": 5,
+                "event": "Stage1→Early Stage2"
+              },
+              {
+                "day": 6,
+                "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+              },
+              {
+                "day": 7,
+                "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+              },
+              {
+                "day": "RETURN",
+                "event": "主神醫療倉完成急性治療"
+              }
+            ],
+            "weakness": "PRESENT",
+            "cognition": "完整",
+            "isolation": "解除",
+            "notAcquired": [
+              "永久病毒免疫",
+              "感染抗性",
+              "再生BUFF",
+              "額外念氣",
+              "神經抗性",
+              "特殊血液技能"
+            ],
+            "acuteInfection": "RESOLVED",
+            "acutePostArrestDanger": "RESOLVED",
+            "acuteNeurologicalCrisis": "RESOLVED"
+          },
           "biologicalTemplate": "無",
           "vehicleQualification": {
             "status": "PASS",
@@ -7547,14 +7919,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 9338,
-          "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+          "points": 17838,
+          "stamina": "大量空間門實戰後正常恢復",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 9338,
+          "rewardPoints": 17838,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -7577,14 +7949,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 9275,
-          "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+          "points": 17775,
+          "stamina": "施術、指揮及心理壓力後休息",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 9275,
+          "rewardPoints": 17775,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -7621,14 +7993,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 10007,
-          "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+          "points": 18407,
+          "stamina": "正常返還／162 READY",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 10007,
+          "rewardPoints": 18407,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -7663,18 +8035,18 @@
         }
       },
       "points": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 127,
+      "version": 128,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
-      "location": "AI主神空間",
-      "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+      "location": "AI主神空間｜休息室",
+      "saveNode": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
+      "readiness": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -7682,7 +8054,7 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 35374,
+      "grandTotal": 67854,
       "provisions": {
         "遠征料理食材人日": 60,
         "遠征緊急乾糧人日": 99,
@@ -7712,38 +8084,83 @@
         "status": "PRACTICAL / FIELD-READY",
         "validation": "FIRST FORMAL VALIDATION"
       },
-      "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
+      "lastMission": "D027《封城第十四夜》｜COMPLETE｜S",
+      "luoRecovery": {
+        "blood": "VALID CLINICAL REFERENCE",
+        "status": "RECOVERY PHASE",
+        "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+        "timeline": [
+          {
+            "day": 1,
+            "event": "疑似眼眶微小擦傷＋污染暴露"
+          },
+          {
+            "day": 4,
+            "event": "昏倒、呼吸急促、感染異常"
+          },
+          {
+            "day": 5,
+            "event": "Stage1→Early Stage2"
+          },
+          {
+            "day": 6,
+            "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+          },
+          {
+            "day": 7,
+            "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+          },
+          {
+            "day": "RETURN",
+            "event": "主神醫療倉完成急性治療"
+          }
+        ],
+        "weakness": "PRESENT",
+        "cognition": "完整",
+        "isolation": "解除",
+        "notAcquired": [
+          "永久病毒免疫",
+          "感染抗性",
+          "再生BUFF",
+          "額外念氣",
+          "神經抗性",
+          "特殊血液技能"
+        ],
+        "acuteInfection": "RESOLVED",
+        "acutePostArrestDanger": "RESOLVED",
+        "acuteNeurologicalCrisis": "RESOLVED"
+      },
       "nextMission": "UNSELECTED",
-      "publicFunds": 0,
+      "publicFunds": 80,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 35374,
+      "privateTotal": 67774,
       "branchStories": {
-        "B": 0,
-        "C": 0
+        "B": 2,
+        "C": 2
       },
       "endgamePieces": 1,
       "latestMission": {
-        "id": "D026",
-        "name": "黃銅太陽城",
+        "id": "D027",
+        "name": "封城第十四夜",
         "rating": "S",
         "status": "COMPLETE",
         "difficulty": "A"
       },
       "privatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
-      "resourceAudit": "POST-D026｜醫療2400、車輛4800、補箭800共8000點完成。箭162 READY；醫療站100%；洛冷療2／噴膜1／舒緩1；共享與高階醫療不重複增減。乾糧99／飲水99／料理60帳面不變。",
+      "resourceAudit": "POST-D027｜公共2420補給完成；乾糧99／飲水99／料理60／醫療站100%／車能源100%／備用能源4；箭162 READY",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材",
+      "medicalStation": "醫療站Ⅲ｜100%有限耗材／OPERATIONAL / FULLY RESTOCKED",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -7791,14 +8208,13 @@
       },
       "nextAbilityCheck": "巨靈體超過11m、最大維持時間及最大輸出未測；空間門最大距離／門徑／維持與流量未測；曲折箭180°與多次極端直角折返未確認",
       "currentHighlights": [
-        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
-        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
-        "香蕉：空間門多人／雙人並行／擔架後送實用",
-        "WIFI：曲折箭接近90°大角度實戰用途確認",
-        "伊恩：自律節點／雙主核心整合與條件式門框支援"
+        "D027 S級完成／4 IN 4 OUT",
+        "洛急性感染解除，病後恢復中",
+        "公共補給2420完成／剩80",
+        "第五名醫療核心列招募優先，尚未加入"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 35374,
+      "privatePointsTotal": 67774,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
       "vehicleCalibration": {
         "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
@@ -7923,6 +8339,25 @@
         }
       },
       "mountainGodResidual": "IDENTIFIED / STABLE｜念氣循環完整性補全／一體出／一體進",
+      "recruitmentPriority": {
+        "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+        "reason": "香蕉為救援後送專業，不改写成完整醫師",
+        "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+        "target": "第五名永久隊員｜醫療核心",
+        "desired": [
+          "急診",
+          "重症",
+          "創傷整合",
+          "感染醫學／檢驗／災難醫療加分"
+        ],
+        "requirements": [
+          "主神隊伍名額",
+          "共鳴錨成員",
+          "共享視界權限",
+          "裝備資源分配",
+          "返回機制"
+        ]
+      },
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",
@@ -10391,6 +10826,150 @@
           "程牧"
         ],
         "mainObjective": "阻止162%強制點火並建立不壓迫地心日獸的永續城市結構｜COMPLETE"
+      },
+      {
+        "id": "D027",
+        "name": "封城第十四夜",
+        "types": [
+          "感染災害",
+          "都市生存",
+          "倖存者救援",
+          "安全區建設",
+          "資源管理",
+          "醫療研究"
+        ],
+        "world": "封城第十四夜",
+        "legacy": {
+          "rule": "世界仍有感染風險；取得自行控制疫情與發展治療能力，不等於疫情全滅",
+          "status": "WORLD-PERSISTENT MEDICAL LEGACY ESTABLISHED",
+          "records": [
+            "病原資料",
+            "病程時間序列",
+            "多階段樣本",
+            "疫苗研究平台",
+            "早期抑制方案",
+            "重症治療資料",
+            "洛治療前後血液／神經反應樣本",
+            "候選免疫／治療方案"
+          ]
+        },
+        "rating": "S",
+        "result": "COMPLETE／4 IN / 4 OUT",
+        "status": "COMPLETE",
+        "category": "正式副本",
+        "safeZone": {
+          "expansion": "市中心大撤離後擴展到周邊，不限原72床",
+          "development": [
+            "住宿",
+            "家庭兒童照護",
+            "一般生活",
+            "新進觀察",
+            "高風險隔離",
+            "醫療研究",
+            "倉儲團膳",
+            "施工警戒秩序",
+            "撤離",
+            "車輛維修"
+          ],
+          "coreSafeBeds": 72
+        },
+        "sequence": 27,
+        "difficulty": "A",
+        "evacuation": "DAY5～6中央城區組織撤離；DAY6晚已確認及可組織的主要人群完成，不代表全城每名倖存者已找到",
+        "objectives": [
+          {
+            "name": "可防守區域",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "穩定飲水",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "持續食物",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "基礎醫療",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "傷患分流",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "感染隔離",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "睡眠生活空間",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "受控入口",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "緊急撤離線",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "非隊伍倖存者收容",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "七日運作",
+            "status": "COMPLETE"
+          }
+        ],
+        "participants": [
+          "洛",
+          "周映白",
+          "伊恩",
+          "程牧"
+        ],
+        "branchRewards": [
+          {
+            "name": "七日安全區",
+            "rank": "B",
+            "quantity": 1
+          },
+          {
+            "name": "留下治療的方法",
+            "rank": "B",
+            "quantity": 1
+          },
+          {
+            "name": "中央城區大撤離",
+            "rank": "C",
+            "quantity": 1
+          },
+          {
+            "name": "從患者到答案",
+            "rank": "C",
+            "quantity": 1
+          }
+        ],
+        "mainObjective": "建立可持續倖存者安全區、收容非隊伍倖存者並正常運作至少七日｜COMPLETE",
+        "infectionResearch": {
+          "scope": "D027虛構世界暫定分類；非現實醫療指南",
+          "stages": {
+            "0": "暴露／無症狀",
+            "1": "早期全身反應／認知完整",
+            "3": "晚期腐敗／高階神經結構嚴重破壞",
+            "2A": "神經失調初期",
+            "2B": "高階交流／認知明顯下降"
+          },
+          "unconfirmed": "普通遠距空氣傳播未確認",
+          "transmission": [
+            "咬傷",
+            "抓傷",
+            "污染體液接觸破損皮膚",
+            "疑似污染物進入黏膜",
+            "微小表皮損傷後感染"
+          ]
+        },
+        "medicalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作"
       }
     ],
     "personalAssets": {
@@ -11879,6 +12458,10 @@
             {
               "name": "限制",
               "detail": "不是獨立人格、不是自律戰鬥單位；沒有額外念氣槽，也不是獨立無限力量來源"
+            },
+            {
+              "name": "D027實戰",
+              "detail": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL；感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL；病後恢復中不可立即高強度再測"
             }
           ],
           "currentTraining": {
@@ -13255,6 +13838,39 @@
         "伊恩": "術式塑形／快速控場",
         "程牧": "戰場觀測／遠程補位／必要尾刀",
         "周映白": "折返救援／機動控制／破障"
+      },
+      "d027Experience": {
+        "items": [
+          "大型災害安全區建立流程",
+          "感染者分流／隔離／撤離規則",
+          "當地醫療專業人員受控接管主神設備流程",
+          "大型都市人口撤離鏈",
+          "醫療研究與臨床治療並行倫理流程"
+        ],
+        "growth": {
+          "洛": {
+            "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+            "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+            "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
+          },
+          "伊恩": {
+            "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+            "limits": "不增加核心數，不取消精神負荷",
+            "status": "FIELD-VALIDATED"
+          },
+          "程牧": {
+            "use": "曲折箭都市障礙／轉角／掩體主動射線",
+            "limits": "不必中、不追蹤、不自動判敵",
+            "status": "FIELD-VALIDATED"
+          },
+          "周映白": {
+            "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+            "limits": "不更新最大距離／維持時間",
+            "status": "FIELD-VALIDATED"
+          }
+        },
+        "status": "TACTICAL / OPERATIONAL EXPERIENCE",
+        "notSupernaturalSkill": true
       },
       "integrationRule": "程牧觀測報點→伊恩塑形封路→洛高速接敵糾纏失能→周映白救援／拖帶／破障／側翼控制→程牧補位／打斷／控制／必要尾刀；非強制固定順序",
       "postD026RescueLoop": {
@@ -14890,6 +15506,321 @@
         ]
       }
     },
+    "postD027Settlement": {
+      "id": "D027",
+      "name": "封城第十四夜",
+      "scene": "POST-D027 REST PERIOD STARTED｜洛抱著伊恩在休息室睡著；無跑跳、無念測試；下一副本未選",
+      "types": [
+        "感染災害",
+        "都市生存",
+        "倖存者救援",
+        "安全區建設",
+        "資源管理",
+        "醫療研究"
+      ],
+      "world": "封城第十四夜",
+      "growth": {
+        "洛": {
+          "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+          "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+          "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
+        },
+        "伊恩": {
+          "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+          "limits": "不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
+        },
+        "程牧": {
+          "use": "曲折箭都市障礙／轉角／掩體主動射線",
+          "limits": "不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
+        },
+        "周映白": {
+          "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+          "limits": "不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
+        }
+      },
+      "legacy": {
+        "rule": "世界仍有感染風險；取得自行控制疫情與發展治療能力，不等於疫情全滅",
+        "status": "WORLD-PERSISTENT MEDICAL LEGACY ESTABLISHED",
+        "records": [
+          "病原資料",
+          "病程時間序列",
+          "多階段樣本",
+          "疫苗研究平台",
+          "早期抑制方案",
+          "重症治療資料",
+          "洛治療前後血液／神經反應樣本",
+          "候選免疫／治療方案"
+        ]
+      },
+      "rating": "S",
+      "result": "COMPLETE／4 IN / 4 OUT",
+      "source": "使用者附件 a5ec8103-29d6-49cf-8d47-1d38eae779c7／正式FINAL SETTLEMENT SAVE",
+      "status": "COMPLETE",
+      "economy": {
+        "grandTotal": 67854,
+        "publicFunds": 80,
+        "privateTotal": 67774,
+        "branchStories": {
+          "B": 2,
+          "C": 2
+        },
+        "privatePoints": {
+          "洛": 13754,
+          "伊恩": 17775,
+          "程牧": 18407,
+          "周映白": 17838
+        }
+      },
+      "restock": {
+        "id": "POST-D027-PUBLIC-RESTOCK-2420",
+        "items": [
+          {
+            "cost": 1200,
+            "name": "醫療站Ⅲ標準耗材",
+            "unit": "percent",
+            "after": 100,
+            "before": 64,
+            "contents": [
+              "一般傷口處理",
+              "無菌消毒",
+              "輸液補液",
+              "一般藥品",
+              "採樣檢驗",
+              "呼吸氧療",
+              "創傷固定",
+              "隔離防護"
+            ]
+          },
+          {
+            "cost": 360,
+            "name": "四人食水",
+            "unit": "人日",
+            "after": {
+              "water": 99,
+              "cooking": 60,
+              "rations": 99
+            },
+            "before": {
+              "water": 87,
+              "cooking": 56,
+              "rations": 91
+            }
+          },
+          {
+            "cost": 860,
+            "name": "救援車能源",
+            "after": {
+              "spareUnits": 4,
+              "mainPercent": 100
+            },
+            "before": {
+              "spareUnits": 3,
+              "mainPercent": 38
+            }
+          }
+        ],
+        "payer": "公共資金",
+        "total": 2420,
+        "status": "COMPLETE / FULLY SETTLED",
+        "afterPublic": 80,
+        "beforePublic": 2500,
+        "privatePointsChanged": false
+      },
+      "category": "正式副本",
+      "safeZone": {
+        "expansion": "市中心大撤離後擴展到周邊，不限原72床",
+        "development": [
+          "住宿",
+          "家庭兒童照護",
+          "一般生活",
+          "新進觀察",
+          "高風險隔離",
+          "醫療研究",
+          "倉儲團膳",
+          "施工警戒秩序",
+          "撤離",
+          "車輛維修"
+        ],
+        "coreSafeBeds": 72
+      },
+      "sequence": 27,
+      "difficulty": "A",
+      "evacuation": "DAY5～6中央城區組織撤離；DAY6晚已確認及可組織的主要人群完成，不代表全城每名倖存者已找到",
+      "experience": [
+        "大型災害安全區建立流程",
+        "感染者分流／隔離／撤離規則",
+        "當地醫療專業人員受控接管主神設備流程",
+        "大型都市人口撤離鏈",
+        "醫療研究與臨床治療並行倫理流程"
+      ],
+      "objectives": [
+        {
+          "name": "可防守區域",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "穩定飲水",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "持續食物",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "基礎醫療",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "傷患分流",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "感染隔離",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "睡眠生活空間",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "受控入口",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "緊急撤離線",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "非隊伍倖存者收容",
+          "status": "COMPLETE"
+        },
+        {
+          "name": "七日運作",
+          "status": "COMPLETE"
+        }
+      ],
+      "recruitment": {
+        "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+        "reason": "香蕉為救援後送專業，不改写成完整醫師",
+        "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+        "target": "第五名永久隊員｜醫療核心",
+        "desired": [
+          "急診",
+          "重症",
+          "創傷整合",
+          "感染醫學／檢驗／災難醫療加分"
+        ],
+        "requirements": [
+          "主神隊伍名額",
+          "共鳴錨成員",
+          "共享視界權限",
+          "裝備資源分配",
+          "返回機制"
+        ]
+      },
+      "luoInfection": {
+        "blood": "VALID CLINICAL REFERENCE",
+        "status": "RECOVERY PHASE",
+        "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+        "timeline": [
+          {
+            "day": 1,
+            "event": "疑似眼眶微小擦傷＋污染暴露"
+          },
+          {
+            "day": 4,
+            "event": "昏倒、呼吸急促、感染異常"
+          },
+          {
+            "day": 5,
+            "event": "Stage1→Early Stage2"
+          },
+          {
+            "day": 6,
+            "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+          },
+          {
+            "day": 7,
+            "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+          },
+          {
+            "day": "RETURN",
+            "event": "主神醫療倉完成急性治療"
+          }
+        ],
+        "weakness": "PRESENT",
+        "cognition": "完整",
+        "isolation": "解除",
+        "notAcquired": [
+          "永久病毒免疫",
+          "感染抗性",
+          "再生BUFF",
+          "額外念氣",
+          "神經抗性",
+          "特殊血液技能"
+        ],
+        "acuteInfection": "RESOLVED",
+        "acutePostArrestDanger": "RESOLVED",
+        "acuteNeurologicalCrisis": "RESOLVED"
+      },
+      "participants": [
+        "洛",
+        "周映白",
+        "伊恩",
+        "程牧"
+      ],
+      "branchRewards": [
+        {
+          "name": "七日安全區",
+          "rank": "B",
+          "quantity": 1
+        },
+        {
+          "name": "留下治療的方法",
+          "rank": "B",
+          "quantity": 1
+        },
+        {
+          "name": "中央城區大撤離",
+          "rank": "C",
+          "quantity": 1
+        },
+        {
+          "name": "從患者到答案",
+          "rank": "C",
+          "quantity": 1
+        }
+      ],
+      "mainObjective": "建立可持續倖存者安全區、收容非隊伍倖存者並正常運作至少七日｜COMPLETE",
+      "infectionResearch": {
+        "scope": "D027虛構世界暫定分類；非現實醫療指南",
+        "stages": {
+          "0": "暴露／無症狀",
+          "1": "早期全身反應／認知完整",
+          "3": "晚期腐敗／高階神經結構嚴重破壞",
+          "2A": "神經失調初期",
+          "2B": "高階交流／認知明顯下降"
+        },
+        "unconfirmed": "普通遠距空氣傳播未確認",
+        "transmission": [
+          "咬傷",
+          "抓傷",
+          "污染體液接觸破損皮膚",
+          "疑似污染物進入黏膜",
+          "微小表皮損傷後感染"
+        ]
+      },
+      "originalUserRecord": "你躺在床上，根本沒有要起來處理採購。\r\n\r\n直接把光幕拉到面前。\r\n\r\n「主神，用公共點數。」\r\n\r\n「醫療站耗材、食物、飲水，還有救援車能源全部補回整備基準。」\r\n\r\n系統很快完成報價。\r\n\r\n# 【POST-D027｜公共後勤補充】\r\n\r\n目前公共資金：**2500點**\r\n\r\n### 自律式折疊救難醫療站Ⅲ\r\n耗材 **64% → 100%**\r\n\r\n補充內容包含一般傷口處理、無菌／消毒、輸液補液、一般藥品、採樣檢驗、呼吸氧療、創傷固定及隔離防護用品。\r\n\r\n**費用：1200點**\r\n\r\n---\r\n\r\n### 四人共享食水補充\r\n\r\n恢復至副本前整備基準：\r\n\r\n- 緊急乾糧 **91 → 99人日**\r\n- 飲水 **87 → 99人日**\r\n- 正常料理食材 **56 → 60人日**\r\n\r\n**費用：360點**\r\n\r\n---\r\n\r\n### 兩棲折疊救援車Ⅲ｜能源補充\r\n\r\n- 車載主能源 **38% → 100%**\r\n- 跨環境備用能源組 **×3 → ×4**\r\n\r\n**費用：860點**\r\n\r\n---\r\n\r\n# 【總支出】\r\n\r\n**1200 + 360 + 860 = 2420點**\r\n\r\n公共資金：\r\n\r\n**2500 → 80點**\r\n\r\n私人點數不動。\r\n\r\n- 洛：13754\r\n- 香蕉：17838\r\n- WIFI：18407\r\n- 伊恩：17775\r\n- 公共：**80**\r\n\r\n# 【目前總資產】\r\n**67854點**\r\n\r\n共同支線：\r\n\r\n**B×2／C×2**\r\n\r\n---\r\n\r\n補充完成之後，你只是看了一眼綠色的「READY」。\r\n\r\n「好了。」\r\n\r\n伊恩還坐在你旁邊。\r\n\r\n你往她那邊挪了一點。\r\n\r\n她看了看你。\r\n\r\n「不是說要休息？」\r\n\r\n「所以我要睡啊。」\r\n\r\n你伸手抱住她。\r\n\r\n這次沒有隔離牆。\r\n\r\n沒有醫療玻璃。\r\n\r\n也沒有誰阻止你碰她。\r\n\r\n伊恩安靜了一會兒，也慢慢靠進你懷裡。\r\n\r\n「不要壓到自己。」\r\n\r\n「嗯。」\r\n\r\n「不准半夜起來測念。」\r\n\r\n你閉著眼睛。\r\n\r\n「……老婆，我現在連香蕉都是抱我回來的。」\r\n\r\n她很輕地笑了一下。\r\n\r\n「所以我才提醒你。」\r\n\r\n你把臉埋近一點。\r\n\r\n沒多久，呼吸就真的慢了下來。\r\n\r\n伊恩確認你睡著之後，也沒有再離開。\r\n\r\n---\r\n\r\n# 《AI主神空間／AI無限流模擬器三代》\r\n# D027《封城第十四夜》\r\n## POST-MISSION CODEX｜FINAL SETTLEMENT SAVE\r\n\r\n**SAVE TYPE：正式副本結算／後勤盤點後**\r\n\r\n**MISSION STATUS：COMPLETE**\r\n\r\n**RATING：S**\r\n\r\n**RETURN：4 IN / 4 OUT**\r\n\r\n**CURRENT LOCATION：主神空間｜休息室**\r\n\r\n**CURRENT PHASE：POST-D027 RECOVERY**\r\n\r\n---\r\n\r\n## 【01｜副本基本資料】\r\n\r\n**副本編號：D027**\r\n\r\n**名稱：A級副本《封城第十四夜》**\r\n\r\n類型：\r\n\r\n感染災害／都市生存／倖存者救援／安全區建設／資源管理／醫療研究\r\n\r\n主線：\r\n\r\n> 建立可持續運作的倖存者安全區，收容非隊伍倖存者，並維持正常運作至少七日。\r\n\r\n### 主線完成確認\r\n\r\n- 可防守區域：CONFIRMED\r\n- 穩定飲用水：CONFIRMED\r\n- 持續食物供應：CONFIRMED\r\n- 基礎醫療體系：CONFIRMED\r\n- 傷患分流：CONFIRMED\r\n- 感染隔離：CONFIRMED\r\n- 睡眠／生活空間：CONFIRMED\r\n- 受控入口：CONFIRMED\r\n- 緊急撤離線：CONFIRMED\r\n- 非隊伍倖存者收容：CONFIRMED\r\n- 七日持續運作：COMPLETE\r\n\r\n---\r\n\r\n# 【02｜最終主要成果】\r\n\r\n### 農場安全區\r\n由單純農場發展為具備：\r\n\r\n住宿、家庭／兒童照護、一般生活、新進觀察、高風險隔離、醫療、感染研究、倉儲、團膳、施工、警戒、秩序、撤離及車輛維修能力的持續型聚落。\r\n\r\n農場原正式床位：\r\n\r\n**72個安全睡眠位置**\r\n\r\n後續市中心大撤離後，避難範圍向農場周邊擴張，不再只依靠原72床核心區。\r\n\r\n---\r\n\r\n### 城市撤離\r\nDAY 5～DAY 6進行中央城區有組織撤離。\r\n\r\n警局、醫護、隊伍及倖存者共同參與。\r\n\r\nDAY 6晚間：\r\n\r\n**市中心目前已能確認及組織撤離之主要人群完成撤離。**\r\n\r\n不等於整座城市每一名倖存者均已找到。\r\n\r\n---\r\n\r\n### 醫療體系\r\n`自律式折疊救難醫療站Ⅲ｜自動化微型醫院型`\r\n\r\n正式向經確認的當地：\r\n\r\n- 醫師\r\n- 護理人員\r\n- 感染／疫苗研究人員\r\n- 相關檢驗人員\r\n\r\n開放受控專業操作權限。\r\n\r\n形成：\r\n\r\n> **醫療站硬體＋本地專業醫療人員＋感染／疫苗研究團隊**\r\n\r\n的完整協作模式。\r\n\r\n此流程記錄為可重複使用的隊伍經驗。\r\n\r\n---\r\n\r\n# 【03｜感染研究成果】\r\n\r\n建立暫定感染分期：\r\n\r\n### Stage 0\r\n暴露／無症狀期\r\n\r\n### Stage 1\r\n早期全身反應，認知完整\r\n\r\n### Stage 2A\r\n神經失調初期\r\n\r\n### Stage 2B\r\n高階交流／認知功能明顯下降\r\n\r\n### Stage 3\r\n晚期腐敗與高階神經結構嚴重破壞\r\n\r\n已確認至少存在：\r\n\r\n- 咬傷\r\n- 抓傷\r\n- 污染體液接觸破損皮膚\r\n- 疑似污染物進入黏膜\r\n- 微小表皮損傷後感染\r\n\r\n等傳播情境。\r\n\r\n**未確認普通遠距空氣傳播。**\r\n\r\n---\r\n\r\n# 【04｜醫療世界遺產】\r\n\r\n市中心專業人員、原疫苗研究人員、臨床醫療團隊及農場研究體系成功整合。\r\n\r\n留下：\r\n\r\n- 病原研究資料\r\n- 感染病程時間序列\r\n- 多階段患者樣本\r\n- 疫苗研究平台\r\n- 早期感染抑制方案\r\n- 重症感染治療資料\r\n- 洛治療前後血液／神經反應樣本\r\n- 可繼續驗證與改良之候選免疫／治療方案\r\n\r\n**WORLD-PERSISTENT MEDICAL LEGACY：ESTABLISHED**\r\n\r\n主神判定：\r\n\r\n> 世界仍存在感染風險，但已重新取得自行控制疫情、延續文明及繼續發展治療手段的能力。\r\n\r\n---\r\n\r\n# 【05｜洛｜感染事件】\r\n\r\n疑似最初暴露：\r\n\r\n**DAY 1眼眶周圍微小擦傷＋污染暴露**\r\n\r\nDAY 4：\r\n\r\n- 突然昏倒\r\n- 呼吸急促\r\n- 發現感染相關異常\r\n\r\nDAY 5：\r\n\r\n- 全身狀況進一步下降\r\n- Stage 1 → Early Stage 2\r\n\r\nDAY 6：\r\n\r\n- 深度昏迷\r\n- 非自主肢體活動\r\n- 無意義呻吟／喊叫\r\n- 疑似Stage 2B\r\n\r\nDAY 7：\r\n\r\n- 接受候選高強度感染抑制／免疫治療\r\n- 曾發生心跳停止\r\n- 急救後恢復自主循環\r\n- 重新恢復人物辨識與目的性動作\r\n- Stage 2B → Stage 2A recovery trend\r\n\r\n返還主神空間後：\r\n\r\n**主神醫療倉完成急性治療。**\r\n\r\n### 正式狀態\r\n- 急性感染：**RESOLVED**\r\n- 傳染性隔離：**解除**\r\n- 高階認知：**完整**\r\n- 神經急性危機：**RESOLVED**\r\n- 心搏停止後急性危險：**RESOLVED**\r\n- 全身狀態：**RECOVERY PHASE**\r\n- 明顯病後虛弱：**PRESENT**\r\n\r\n不取得：\r\n\r\n- 病毒永久免疫\r\n- 感染抗性\r\n- 再生BUFF\r\n- 額外念氣\r\n- 神經抗性\r\n- 特殊血液技能\r\n\r\n洛血液僅正式確認為：\r\n\r\n**VALID CLINICAL REFERENCE**\r\n\r\n---\r\n\r\n# 【06｜四人戰術成長】\r\n\r\n### 洛\r\n`須佐洛｜MINIMUM SKELETAL SHELL`\r\n\r\n污染環境接觸隔離／狹窄保護：\r\n\r\n**PRACTICAL**\r\n\r\n大型巨靈體感染群誘導撤離：\r\n\r\n**FIELD-VALIDATED / HIGH-RISK / CONDITIONAL**\r\n\r\n沒有增加總念氣。\r\n\r\n沒有新增巨靈體最大尺寸。\r\n\r\n---\r\n\r\n### 香蕉\r\n`空間門Ⅰ＋空間門錨點穩定Ⅰ`\r\n\r\n大量傷患／倖存者撤離：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n伊恩節點配合高流量通行：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不更新最大距離與持續時間。\r\n\r\n---\r\n\r\n### WIFI\r\n`曲折箭Ⅰ`\r\n\r\n都市障礙、轉角、掩體環境下主動建立射線：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不獲得必中、追蹤或自動判敵。\r\n\r\n---\r\n\r\n### 伊恩\r\n`術式自律節點Ⅰ＋多核心法陣Ⅰ`\r\n\r\n空間門高流量穩定、隔離與撤離支援：\r\n\r\n**FIELD-VALIDATED**\r\n\r\n不增加核心數量。\r\n\r\n不取消精神負荷。\r\n\r\n---\r\n\r\n### 四人共享新增流程經驗\r\n\r\n- 【大型災害安全區建立流程】\r\n- 【感染者分流／隔離／撤離規則】\r\n- 【當地醫療專業人員接管主神設備流程】\r\n- 【大型都市人口撤離鏈】\r\n- 【醫療研究與臨床治療並行倫理流程】\r\n\r\n全部屬於：\r\n\r\n**TACTICAL / OPERATIONAL EXPERIENCE**\r\n\r\n不是超自然技能。\r\n\r\n---\r\n\r\n# 【07｜支線劇情】\r\n\r\n正式獲得：\r\n\r\n**B×2／C×2**\r\n\r\n### B×1\r\n《七日安全區》\r\n\r\n### B×1\r\n《留下治療的方法》\r\n\r\n### C×1\r\n《中央城區大撤離》\r\n\r\n### C×1\r\n《從患者到答案》\r\n\r\n支線可依正式規則拆分／合成：\r\n\r\n- B×1 = C×3\r\n- C×1 = D×3\r\n- 三個同級低階可合成上一階\r\n\r\n---\r\n\r\n# 【08｜正式經濟】\r\n\r\n### 私人點數\r\n\r\n- 洛：**13754**\r\n- 香蕉：**17838**\r\n- WIFI：**18407**\r\n- 伊恩：**17775**\r\n\r\n私人總額：\r\n\r\n**67774點**\r\n\r\n### 公共資金\r\n\r\n副本結算：\r\n\r\n**+2500**\r\n\r\nPOST-D027後勤補充：\r\n\r\n**−2420**\r\n\r\n目前公共：\r\n\r\n# **80點**\r\n\r\n### 隊伍目前總資產\r\n\r\n# **67854點**\r\n\r\n共同支線：\r\n\r\n**B×2／C×2**\r\n\r\n---\r\n\r\n# 【09｜WIFI箭庫】\r\n\r\n`折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ`\r\n\r\n副本入場：\r\n\r\n**162 READY**\r\n\r\n副本期間：\r\n\r\n- 實際發射9\r\n- 成功回收9\r\n- 其中4支清潔／校正\r\n- 不可修復0\r\n- 永久遺失0\r\n\r\n返還後：\r\n\r\n# **162 / 162 READY**\r\n\r\n詳細：\r\n\r\n- 定位信標箭15\r\n- 冰凍箭15\r\n- 標準箭28\r\n- 遮蔽煙幕箭15\r\n- 爆裂箭15\r\n- 鈍擊衝擊箭15\r\n- 束縛鎖箭14\r\n- 重型破障箭15\r\n- 閃光干擾箭15\r\n- 電擊干擾箭Ⅰ15\r\n\r\n---\r\n\r\n# 【10｜醫療站Ⅲ】\r\n\r\n副本返還盤點：\r\n\r\n**耗材64%**\r\n\r\nPOST-D027公共補充：\r\n\r\n**64% → 100%**\r\n\r\n費用：\r\n\r\n**1200點**\r\n\r\n設備：\r\n\r\n**OPERATIONAL / FULLY RESTOCKED**\r\n\r\n醫療站仍不是：\r\n\r\n完整大型綜合醫院／完整ICU群／大型手術中心／器官再生設備／復活設備。\r\n\r\n---\r\n\r\n# 【11｜食水與料理】\r\n\r\n副本返還後：\r\n\r\n- 緊急乾糧91人日\r\n- 飲水87人日\r\n- 正常料理食材56人日\r\n\r\n公共補充後：\r\n\r\n# **緊急乾糧99人日**\r\n# **飲水99人日**\r\n# **正常料理食材60人日**\r\n\r\n費用：\r\n\r\n**360點**\r\n\r\n野外淨水器：\r\n\r\n**OPERATIONAL**\r\n\r\n---\r\n\r\n# 【12｜兩棲折疊救援車Ⅲ】\r\n\r\n副本返還：\r\n\r\n- 車載主能源38%\r\n- 完整備用能源組×3\r\n- 車況OPERATIONAL\r\n\r\n公共補充：\r\n\r\n- 主能源 **38% → 100%**\r\n- 備用能源 **×3 → ×4**\r\n\r\n費用：\r\n\r\n**860點**\r\n\r\n### 現況\r\n\r\n**FIELD-READY / OPERATIONAL**\r\n\r\n- STANDARD-9：正常\r\n- EVAC-BUS：正常\r\n- FOLD：正常\r\n- 兩棲系統：正常\r\n- 跨溫域環控：正常\r\n- 地圖／路線紀錄：正常\r\n\r\n---\r\n\r\n# 【13｜其他正式物資】\r\n\r\n廣譜應急解毒劑Ⅰ：\r\n\r\n# **×5**\r\n\r\n本副本未確認消耗。\r\n\r\n智能警戒哨兵Ⅰ：\r\n\r\n# **×2 OPERATIONAL**\r\n\r\n其他未經本次副本確認消耗之既有核心設備，維持原正式狀態。\r\n\r\n---\r\n\r\n# 【14｜隊伍發展目標】\r\n\r\n新增明確優先事項：\r\n\r\n# 【第五名永久隊員｜醫療核心】\r\n\r\n**RECRUITMENT PRIORITY**\r\n\r\n理想方向：\r\n\r\n急診／重症／創傷整合能力優先，若兼具感染醫學、檢驗或災難醫療背景更佳。\r\n\r\n原因：\r\n\r\n香蕉定位仍為救援／後送專業，不改寫為完整醫師。\r\n\r\n正式第五人加入時必須另外處理：\r\n\r\n- 主神隊伍名額\r\n- 共鳴錨成員\r\n- 共享視界權限\r\n- 裝備與資源分配\r\n- 返回機制\r\n\r\n不自動把任何D027當地醫療人員視為永久第五人。\r\n\r\n---\r\n\r\n# 【15｜CURRENT PARTY STATUS】\r\n\r\n### 洛\r\n**RECOVERY PHASE**\r\n\r\n目前休息。\r\n\r\n禁止立即進行高強度念測試。\r\n\r\n### 香蕉\r\n正常返還。\r\n\r\n完成大量空間門實戰後進入正常恢復。\r\n\r\n### WIFI\r\n正常返還。\r\n\r\n箭庫162 READY。\r\n\r\n### 伊恩\r\n正常返還。\r\n\r\n長時間施術、指揮與心理壓力後休息。\r\n\r\n---\r\n\r\n# 【16｜CURRENT SCENE】\r\n\r\n**POST-D027｜REST PERIOD STARTED**\r\n\r\n後勤盤點：\r\n\r\n**COMPLETE**\r\n\r\n補充：\r\n\r\n**COMPLETE**\r\n\r\n任務結算：\r\n\r\n**COMPLETE**\r\n\r\n下一副本：\r\n\r\n**NOT SELECTED**\r\n\r\n洛目前沒有跑跳、沒有碰籠手、沒有測念。\r\n\r\n而是抱著伊恩躺在休息室床上睡著。\r\n\r\n伊恩也留在身邊休息。\r\n\r\n---\r\n\r\n# 【SAVE COMPLETE】\r\n\r\n**D027《封城第十四夜》｜S**\r\n\r\n**4 IN / 4 OUT**\r\n\r\n**POST-MISSION LOGISTICS：FULLY AUDITED**\r\n\r\n**CORE SUPPLIES：RESTOCKED**\r\n\r\n**洛：RECOVERING**\r\n\r\n**NEXT DUNGEON：UNSELECTED**\r\n\r\n**第五名醫療核心：RECRUITMENT PRIORITY**\r\n",
+      "medicalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作",
+      "branchConversionRules": [
+        "B×1=C×3",
+        "C×1=D×3",
+        "三個同級低階可合成上一階；本輪未執行合成拆分"
+      ]
+    },
     "relationshipEvents": [
       {
         "id": "REL-POST-D011",
@@ -15339,6 +16270,25 @@
         "totalAcquisitionCost": 1580
       }
     ],
+    "recruitmentPriority": {
+      "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+      "reason": "香蕉為救援後送專業，不改写成完整醫師",
+      "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+      "target": "第五名永久隊員｜醫療核心",
+      "desired": [
+        "急診",
+        "重症",
+        "創傷整合",
+        "感染醫學／檢驗／災難醫療加分"
+      ],
+      "requirements": [
+        "主神隊伍名額",
+        "共鳴錨成員",
+        "共享視界權限",
+        "裝備資源分配",
+        "返回機制"
+      ]
+    },
     "sharedCoreAbilities": [
       {
         "core": "在幻覺、精神干擾、夢境、空間錯位、感知失真與異常認知環境中，提供四人彼此的存在、方向與現實一致性參照。",
@@ -15915,7 +16865,7 @@
         "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "OPERATIONAL / FULLY STOCKED",
+      "status": "OPERATIONAL / FULLY RESTOCKED",
       "carrier": "折疊救援模組庫Ⅲ",
       "functions": [
         "自動分診",
@@ -15936,7 +16886,7 @@
         "組織修復儀整合",
         "按預設醫療協議自主運作"
       ],
-      "lastAudit": "POST-D026｜47%→100%／2200點標準耗材補充",
+      "lastAudit": "POST-D027｜64%→100%／公共1200",
       "ownerType": "共享大型救援資產",
       "stockCost": 2200,
       "stockType": "正式有限實體庫存",
@@ -15950,8 +16900,8 @@
       "stockStatus": "100% / FINITE STOCK",
       "robotsStatus": "OPERATIONAL",
       "restockStatus": "COMPLETE / PAID",
-      "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
-      "lastDeployment": "D026《黃銅太陽城》",
+      "accountingNote": "D027補給1200列於公共總支出2420，不重複扣款",
+      "lastDeployment": "D027《封城第十四夜》",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
         "傷口清潔液": 5,
@@ -16015,6 +16965,23 @@
         },
         "branchesChanged": false
       },
+      "postD027Restock": {
+        "cost": 1200,
+        "name": "醫療站Ⅲ標準耗材",
+        "unit": "percent",
+        "after": 100,
+        "before": 64,
+        "contents": [
+          "一般傷口處理",
+          "無菌消毒",
+          "輸液補液",
+          "一般藥品",
+          "採樣檢驗",
+          "呼吸氧療",
+          "創傷固定",
+          "隔離防護"
+        ]
+      },
       "primaryOperator": "周映白",
       "firstFormalTests": {
         "cases": {
@@ -16051,6 +17018,7 @@
       "mechanicalArmsStatus": "OPERATIONAL",
       "d021ConsumptionRatePercent": 38,
       "d026ConsumptionRatePercent": 15,
+      "d027ProfessionalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作",
       "historicalTenPersonMedicalStock": {
         "抗生素": "未列入自動標準應急藥庫",
         "傷口清潔液": 5,
@@ -16487,36 +17455,10 @@
       "superseded": "正式遠征露營模組Ⅰ"
     },
     "currentMissionProgress": {
-      "id": "D023",
-      "title": "沒有太陽的第三遠征隊",
-      "rating": "S",
-      "status": "CLEARED / RETURNED TO MAIN GOD SPACE",
-      "nextStep": "不自動觸發",
-      "saveNode": "POST-D023｜CLEAR／S",
-      "difficulty": "A-",
-      "objectives": [
-        "主線① COMPLETE",
-        "主線② COMPLETE",
-        "主線③ COMPLETE"
-      ],
-      "largeAssets": "ALL RECOVERED / STORED",
-      "partyOutcome": "4 IN / 4 OUT",
-      "zeroBaseline": {
-        "siteConfirmed": true,
-        "deepRouteHandedOff": true,
-        "outerFrameFirstRoughClosure": true,
-        "centerCandidateRepeatedMeasurements": true
-      },
-      "thirdExpedition": {
-        "alive": 127,
-        "status": "127／127 ALIVE",
-        "originalMembers": 127
-      },
-      "additionalMissing": {
-        "found": 36,
-        "total": 36,
-        "returned": 36
-      }
+      "phase": "POST-D027 RECOVERY",
+      "status": "COMPLETE",
+      "mission": "D027",
+      "nextMission": "UNSELECTED"
     },
     "emotionalGrowthHistory": {
       "source": "AI主神空間-無限流模擬器三代 - 創意枯竭測試.pdf",
@@ -17310,6 +18252,98 @@
           "livingModule": "RECOVERED / OPERATIONAL",
           "medicalStation": "RECOVERED / OPERATIONAL",
           "accidentalPersonsOrCargo": false
+        }
+      },
+      "d027": {
+        "arrows": {
+          "fired": 9,
+          "ready": 162,
+          "before": 162,
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "recovered": 9,
+          "irreparable": 0,
+          "permanentLoss": 0,
+          "cleanedCalibrated": 4
+        },
+        "restock": {
+          "id": "POST-D027-PUBLIC-RESTOCK-2420",
+          "items": [
+            {
+              "cost": 1200,
+              "name": "醫療站Ⅲ標準耗材",
+              "unit": "percent",
+              "after": 100,
+              "before": 64,
+              "contents": [
+                "一般傷口處理",
+                "無菌消毒",
+                "輸液補液",
+                "一般藥品",
+                "採樣檢驗",
+                "呼吸氧療",
+                "創傷固定",
+                "隔離防護"
+              ]
+            },
+            {
+              "cost": 360,
+              "name": "四人食水",
+              "unit": "人日",
+              "after": {
+                "water": 99,
+                "cooking": 60,
+                "rations": 99
+              },
+              "before": {
+                "water": 87,
+                "cooking": 56,
+                "rations": 91
+              }
+            },
+            {
+              "cost": 860,
+              "name": "救援車能源",
+              "after": {
+                "spareUnits": 4,
+                "mainPercent": 100
+              },
+              "before": {
+                "spareUnits": 3,
+                "mainPercent": 38
+              }
+            }
+          ],
+          "payer": "公共資金",
+          "total": 2420,
+          "status": "COMPLETE / FULLY SETTLED",
+          "afterPublic": 80,
+          "beforePublic": 2500,
+          "privatePointsChanged": false
+        },
+        "antidote": {
+          "source": "使用者正式盤點",
+          "consumed": 0,
+          "quantity": 5,
+          "purchaseCost": "未提供，不推定扣款"
+        },
+        "beforeRestock": {
+          "water": 87,
+          "cooking": 56,
+          "rations": 91,
+          "spareEnergy": 3,
+          "medicalPercent": 64,
+          "vehicleEnergyPercent": 38
         }
       },
       "node": "POST-D019",

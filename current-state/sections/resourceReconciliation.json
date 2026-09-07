@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "resourceReconciliation",
   "state": {
     "resourceReconciliation": {
@@ -64,6 +64,98 @@
           "livingModule": "RECOVERED / OPERATIONAL",
           "medicalStation": "RECOVERED / OPERATIONAL",
           "accidentalPersonsOrCargo": false
+        }
+      },
+      "d027": {
+        "arrows": {
+          "fired": 9,
+          "ready": 162,
+          "before": 162,
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "recovered": 9,
+          "irreparable": 0,
+          "permanentLoss": 0,
+          "cleanedCalibrated": 4
+        },
+        "restock": {
+          "id": "POST-D027-PUBLIC-RESTOCK-2420",
+          "items": [
+            {
+              "cost": 1200,
+              "name": "醫療站Ⅲ標準耗材",
+              "unit": "percent",
+              "after": 100,
+              "before": 64,
+              "contents": [
+                "一般傷口處理",
+                "無菌消毒",
+                "輸液補液",
+                "一般藥品",
+                "採樣檢驗",
+                "呼吸氧療",
+                "創傷固定",
+                "隔離防護"
+              ]
+            },
+            {
+              "cost": 360,
+              "name": "四人食水",
+              "unit": "人日",
+              "after": {
+                "water": 99,
+                "cooking": 60,
+                "rations": 99
+              },
+              "before": {
+                "water": 87,
+                "cooking": 56,
+                "rations": 91
+              }
+            },
+            {
+              "cost": 860,
+              "name": "救援車能源",
+              "after": {
+                "spareUnits": 4,
+                "mainPercent": 100
+              },
+              "before": {
+                "spareUnits": 3,
+                "mainPercent": 38
+              }
+            }
+          ],
+          "payer": "公共資金",
+          "total": 2420,
+          "status": "COMPLETE / FULLY SETTLED",
+          "afterPublic": 80,
+          "beforePublic": 2500,
+          "privatePointsChanged": false
+        },
+        "antidote": {
+          "source": "使用者正式盤點",
+          "consumed": 0,
+          "quantity": 5,
+          "purchaseCost": "未提供，不推定扣款"
+        },
+        "beforeRestock": {
+          "water": 87,
+          "cooking": 56,
+          "rations": 91,
+          "spareEnergy": 3,
+          "medicalPercent": 64,
+          "vehicleEnergyPercent": 38
         }
       },
       "node": "POST-D019",

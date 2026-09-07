@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "medicalSystem",
   "state": {
     "medicalSystem": {
@@ -131,7 +131,8 @@
         },
         "basicMedicalBoxes": "5 FULL／0 PARTIALLY CONSUMED"
       },
-      "largeEquipmentPolicy": "暫不新增第三件大型醫療設備；待正式副本暴露缺口後再升級"
+      "largeEquipmentPolicy": "暫不新增第三件大型醫療設備；待正式副本暴露缺口後再升級",
+      "d027ProfessionalCollaboration": "醫療站硬體＋經確認之當地醫護／感染疫苗研究與檢驗人員；受控專業操作權限，僅副本內協作"
     }
   }
 }

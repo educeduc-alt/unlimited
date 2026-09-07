@@ -2,33 +2,78 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "party",
   "state": {
     "party": [
       {
         "icon": "🥊",
-        "life": "正常",
+        "life": "急性感染已解除／病後恢復中",
         "name": "洛",
         "role": "第一線近戰／隊長／近距離護衛與失能",
         "title": "隊長",
         "gender": "男",
-        "mental": "穩定",
-        "points": 6754,
+        "mental": "高階認知完整",
+        "points": 13754,
         "nenType": "強化系",
-        "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+        "stamina": "RECOVERY PHASE／明顯病後虛弱",
         "heightCm": 175,
         "bloodline": "無",
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 6754,
+        "rewardPoints": 13754,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
         },
         "criticalPotential": "曾出現波動／尚未穩定覺醒",
+        "postD027Infection": {
+          "blood": "VALID CLINICAL REFERENCE",
+          "status": "RECOVERY PHASE",
+          "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+          "timeline": [
+            {
+              "day": 1,
+              "event": "疑似眼眶微小擦傷＋污染暴露"
+            },
+            {
+              "day": 4,
+              "event": "昏倒、呼吸急促、感染異常"
+            },
+            {
+              "day": 5,
+              "event": "Stage1→Early Stage2"
+            },
+            {
+              "day": 6,
+              "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+            },
+            {
+              "day": 7,
+              "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+            },
+            {
+              "day": "RETURN",
+              "event": "主神醫療倉完成急性治療"
+            }
+          ],
+          "weakness": "PRESENT",
+          "cognition": "完整",
+          "isolation": "解除",
+          "notAcquired": [
+            "永久病毒免疫",
+            "感染抗性",
+            "再生BUFF",
+            "額外念氣",
+            "神經抗性",
+            "特殊血液技能"
+          ],
+          "acuteInfection": "RESOLVED",
+          "acutePostArrestDanger": "RESOLVED",
+          "acuteNeurologicalCrisis": "RESOLVED"
+        },
         "biologicalTemplate": "無",
         "vehicleQualification": {
           "status": "PASS",
@@ -47,14 +92,14 @@
         "role": "救援核心／側翼／第二線保護",
         "gender": "男",
         "mental": "穩定",
-        "points": 9338,
-        "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+        "points": 17838,
+        "stamina": "大量空間門實戰後正常恢復",
         "heightCm": 183,
         "nickname": "香蕉",
         "bloodline": "無",
         "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
         "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-        "rewardPoints": 9338,
+        "rewardPoints": 17838,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -77,14 +122,14 @@
         "role": "第二線副指揮／術式構築／情報統整",
         "gender": "女",
         "mental": "重大情緒釋放後已重新穩定",
-        "points": 9275,
-        "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+        "points": 17775,
+        "stamina": "施術、指揮及心理壓力後休息",
         "heightCm": 165,
         "nickname": "公主",
         "bloodline": "無",
         "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
         "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-        "rewardPoints": 9275,
+        "rewardPoints": 17775,
         "physicalChanges": {
           "rules": [
             "性別登記已由伊恩本人自主確認為女性",
@@ -121,14 +166,14 @@
         "role": "第一觀測位／遠程控制／戰術偵察",
         "gender": "男",
         "mental": "穩定",
-        "points": 10007,
-        "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+        "points": 18407,
+        "stamina": "正常返還／162 READY",
         "heightCm": 180,
         "nickname": "WIFI",
         "bloodline": "無",
         "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
         "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-        "rewardPoints": 10007,
+        "rewardPoints": 18407,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"

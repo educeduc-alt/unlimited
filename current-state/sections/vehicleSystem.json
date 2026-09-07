@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "vehicleSystem",
   "state": {
     "vehicleSystem": {
@@ -15,7 +15,7 @@
         "轉換區有人站立拒絕展開",
         "人工取消安全停止／鎖定，不暴力折疊"
       ],
-      "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+      "status": "FIELD-READY / OPERATIONAL",
       "evacBus": {
         "status": "STANDARD SAFE EVACUATION BASELINE",
         "conditions": [
@@ -31,7 +31,7 @@
         "absoluteMaximum": "UNTESTED"
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "location": "AI主神空間",
+      "location": "AI主神空間｜休息室",
       "mapModule": {
         "cost": 320,
         "name": "車載獨立電子地圖／地形記錄模組Ⅰ",
@@ -196,6 +196,18 @@
         "publicFundsAfter": 0,
         "privateTotalAfter": 36174
       },
+      "postD027Restock": {
+        "cost": 860,
+        "name": "救援車能源",
+        "after": {
+          "spareUnits": 4,
+          "mainPercent": 100
+        },
+        "before": {
+          "spareUnits": 3,
+          "mainPercent": 38
+        }
+      },
       "emergencyMaximum": null,
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
@@ -204,7 +216,8 @@
         "單點失能備援"
       ],
       "energyModuleStatus": {
-        "status": "OPERATIONAL／FULL",
+        "status": "OPERATIONAL / FULL",
+        "spareUnits": 4,
         "activeModule": "已完成任務後段更換／車輛可正常運作",
         "removedModule": "已回充／可用／非報廢",
         "D019UsageIncluded": [

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "abilitySystems",
   "state": {
     "abilitySystems": {
@@ -267,6 +267,11 @@
           "spiralSequence": "右前臂螺旋核心→全右臂→全身動力鏈",
           "forceConversion": "氣力置換保留為底層機制，已整合進脈衝、承重與推力輸出；不因介面隱藏而失效",
           "spiralBenchmark": "成形速度測試指數64→52，改善18.75%；不代表最大威力自動增加"
+        },
+        "postD027FieldValidation": {
+          "limits": "不增加念氣與最大尺寸；不表示免疫感染",
+          "skeletalShell": "須佐洛 MINIMUM SKELETAL SHELL｜污染接觸隔離／狹窄保護 PRACTICAL",
+          "giantDiversion": "感染群誘導撤離 FIELD-VALIDATED / HIGH-RISK / CONDITIONAL"
         }
       },
       "伊恩": {
@@ -389,7 +394,12 @@
           "controller": "香蕉：空間連接與主要控制",
           "raisesHardLimits": false
         },
-        "currentTacticalRole": "戰場術式節點化／區域控制網"
+        "currentTacticalRole": "戰場術式節點化／區域控制網",
+        "postD027FieldValidation": {
+          "use": "自律節點＋多核心法陣高流量門框／隔離／撤離支援",
+          "limits": "不增加核心數，不取消精神負荷",
+          "status": "FIELD-VALIDATED"
+        }
       },
       "程牧": {
         "curveArrow": {
@@ -440,6 +450,11 @@
             "曲折箭高角度實戰化",
             "多掩體／隊友交錯射線訓練"
           ]
+        },
+        "postD027FieldValidation": {
+          "use": "曲折箭都市障礙／轉角／掩體主動射線",
+          "limits": "不必中、不追蹤、不自動判敵",
+          "status": "FIELD-VALIDATED"
         }
       },
       "周映白": {
@@ -488,6 +503,11 @@
             "再建立",
             "自身最後通過／返回現場"
           ]
+        },
+        "postD027FieldValidation": {
+          "use": "空間門Ⅰ＋錨點穩定Ⅰ大量撤離／伊恩節點高流量配合",
+          "limits": "不更新最大距離／維持時間",
+          "status": "FIELD-VALIDATED"
         }
       }
     }

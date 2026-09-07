@@ -2,34 +2,79 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 127,
-  "updated_at": "2026-09-05T02:40:08.382204+00:00",
+  "version": 128,
+  "updated_at": "2026-09-07T13:03:34.53921+00:00",
   "section": "latestSnapshot",
   "state": {
     "latestSnapshot": {
       "party": [
         {
           "icon": "🥊",
-          "life": "正常",
+          "life": "急性感染已解除／病後恢復中",
           "name": "洛",
           "role": "第一線近戰／隊長／近距離護衛與失能",
           "title": "隊長",
           "gender": "男",
-          "mental": "穩定",
-          "points": 6754,
+          "mental": "高階認知完整",
+          "points": 13754,
           "nenType": "強化系",
-          "stamina": "POST-D026｜拳擊碎步／須佐洛本輪整合完成；恢復優先",
+          "stamina": "RECOVERY PHASE／明顯病後虛弱",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 6754,
+          "rewardPoints": 13754,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
           },
           "criticalPotential": "曾出現波動／尚未穩定覺醒",
+          "postD027Infection": {
+            "blood": "VALID CLINICAL REFERENCE",
+            "status": "RECOVERY PHASE",
+            "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+            "timeline": [
+              {
+                "day": 1,
+                "event": "疑似眼眶微小擦傷＋污染暴露"
+              },
+              {
+                "day": 4,
+                "event": "昏倒、呼吸急促、感染異常"
+              },
+              {
+                "day": 5,
+                "event": "Stage1→Early Stage2"
+              },
+              {
+                "day": 6,
+                "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+              },
+              {
+                "day": 7,
+                "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+              },
+              {
+                "day": "RETURN",
+                "event": "主神醫療倉完成急性治療"
+              }
+            ],
+            "weakness": "PRESENT",
+            "cognition": "完整",
+            "isolation": "解除",
+            "notAcquired": [
+              "永久病毒免疫",
+              "感染抗性",
+              "再生BUFF",
+              "額外念氣",
+              "神經抗性",
+              "特殊血液技能"
+            ],
+            "acuteInfection": "RESOLVED",
+            "acutePostArrestDanger": "RESOLVED",
+            "acuteNeurologicalCrisis": "RESOLVED"
+          },
           "biologicalTemplate": "無",
           "vehicleQualification": {
             "status": "PASS",
@@ -48,14 +93,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 9338,
-          "stamina": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
+          "points": 17838,
+          "stamina": "大量空間門實戰後正常恢復",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 9338,
+          "rewardPoints": 17838,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -78,14 +123,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 9275,
-          "stamina": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
+          "points": 17775,
+          "stamina": "施術、指揮及心理壓力後休息",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 9275,
+          "rewardPoints": 17775,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -122,14 +167,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 10007,
-          "stamina": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
+          "points": 18407,
+          "stamina": "正常返還／162 READY",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 10007,
+          "rewardPoints": 18407,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -164,18 +209,18 @@
         }
       },
       "points": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 127,
+      "version": 128,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
-      "location": "AI主神空間",
-      "saveNode": "POST-D026 / MEDICAL-RESTOCK / MULTI-CONFIG-VEHICLE / RESCUE-LOOP VALIDATED",
+      "location": "AI主神空間｜休息室",
+      "saveNode": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D026｜醫療與箭庫滿補給／車輛多構型校準與救援閉環完成；洛恢復優先",
+      "readiness": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -183,7 +228,7 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 35374,
+      "grandTotal": 67854,
       "provisions": {
         "遠征料理食材人日": 60,
         "遠征緊急乾糧人日": 99,
@@ -213,38 +258,83 @@
         "status": "PRACTICAL / FIELD-READY",
         "validation": "FIRST FORMAL VALIDATION"
       },
-      "lastMission": "D026《黃銅太陽城》｜A｜S｜COMPLETE",
+      "lastMission": "D027《封城第十四夜》｜COMPLETE｜S",
+      "luoRecovery": {
+        "blood": "VALID CLINICAL REFERENCE",
+        "status": "RECOVERY PHASE",
+        "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+        "timeline": [
+          {
+            "day": 1,
+            "event": "疑似眼眶微小擦傷＋污染暴露"
+          },
+          {
+            "day": 4,
+            "event": "昏倒、呼吸急促、感染異常"
+          },
+          {
+            "day": 5,
+            "event": "Stage1→Early Stage2"
+          },
+          {
+            "day": 6,
+            "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+          },
+          {
+            "day": 7,
+            "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+          },
+          {
+            "day": "RETURN",
+            "event": "主神醫療倉完成急性治療"
+          }
+        ],
+        "weakness": "PRESENT",
+        "cognition": "完整",
+        "isolation": "解除",
+        "notAcquired": [
+          "永久病毒免疫",
+          "感染抗性",
+          "再生BUFF",
+          "額外念氣",
+          "神經抗性",
+          "特殊血液技能"
+        ],
+        "acuteInfection": "RESOLVED",
+        "acutePostArrestDanger": "RESOLVED",
+        "acuteNeurologicalCrisis": "RESOLVED"
+      },
       "nextMission": "UNSELECTED",
-      "publicFunds": 0,
+      "publicFunds": 80,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 35374,
+      "privateTotal": 67774,
       "branchStories": {
-        "B": 0,
-        "C": 0
+        "B": 2,
+        "C": 2
       },
       "endgamePieces": 1,
       "latestMission": {
-        "id": "D026",
-        "name": "黃銅太陽城",
+        "id": "D027",
+        "name": "封城第十四夜",
         "rating": "S",
         "status": "COMPLETE",
         "difficulty": "A"
       },
       "privatePoints": {
-        "洛": 6754,
-        "伊恩": 9275,
-        "程牧": 10007,
-        "周映白": 9338
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
       },
-      "resourceAudit": "POST-D026｜醫療2400、車輛4800、補箭800共8000點完成。箭162 READY；醫療站100%；洛冷療2／噴膜1／舒緩1；共享與高階醫療不重複增減。乾糧99／飲水99／料理60帳面不變。",
+      "resourceAudit": "POST-D027｜公共2420補給完成；乾糧99／飲水99／料理60／醫療站100%／車能源100%／備用能源4；箭162 READY",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "自律式折疊救難醫療站Ⅲ｜OPERATIONAL / FULLY STOCKED｜100%有限耗材",
+      "medicalStation": "醫療站Ⅲ｜100%有限耗材／OPERATIONAL / FULLY RESTOCKED",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -292,14 +382,13 @@
       },
       "nextAbilityCheck": "巨靈體超過11m、最大維持時間及最大輸出未測；空間門最大距離／門徑／維持與流量未測；曲折箭180°與多次極端直角折返未確認",
       "currentHighlights": [
-        "洛：脈衝碎步4～6連實用／螺旋標準輸出穩定",
-        "須佐洛：10分鐘完整形體PASS／6、8、10、11m尺寸校準",
-        "香蕉：空間門多人／雙人並行／擔架後送實用",
-        "WIFI：曲折箭接近90°大角度實戰用途確認",
-        "伊恩：自律節點／雙主核心整合與條件式門框支援"
+        "D027 S級完成／4 IN 4 OUT",
+        "洛急性感染解除，病後恢復中",
+        "公共補給2420完成／剩80",
+        "第五名醫療核心列招募優先，尚未加入"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 35374,
+      "privatePointsTotal": 67774,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
       "vehicleCalibration": {
         "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
@@ -424,6 +513,25 @@
         }
       },
       "mountainGodResidual": "IDENTIFIED / STABLE｜念氣循環完整性補全／一體出／一體進",
+      "recruitmentPriority": {
+        "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+        "reason": "香蕉為救援後送專業，不改写成完整醫師",
+        "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+        "target": "第五名永久隊員｜醫療核心",
+        "desired": [
+          "急診",
+          "重症",
+          "創傷整合",
+          "感染醫學／檢驗／災難醫療加分"
+        ],
+        "requirements": [
+          "主神隊伍名額",
+          "共鳴錨成員",
+          "共享視界權限",
+          "裝備資源分配",
+          "返回機制"
+        ]
+      },
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",

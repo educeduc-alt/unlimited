@@ -2,24 +2,25 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "economy",
   "state": {
     "economy": {
       "debts": [],
-      "grandTotal": 67854,
-      "publicFunds": 80,
-      "privateTotal": 67774,
+      "grandTotal": 90584,
+      "publicFunds": 2200,
+      "privateTotal": 88384,
       "branchStories": {
-        "B": 2,
+        "B": 0,
         "C": 2
       },
       "privatePoints": {
-        "洛": 13754,
-        "伊恩": 17775,
-        "程牧": 18407,
-        "周映白": 17838
+        "洛": 19074,
+        "伊恩": 23095,
+        "程牧": 16827,
+        "周映白": 23058,
+        "神代澪": 6330
       },
       "d016Settlement": {
         "privateDebt": 0,
@@ -474,15 +475,226 @@
           "周映白": 17838
         }
       },
+      "d028Settlement": {
+        "id": "SET-D028",
+        "bell": "普通櫃台鈴無評價或能力效果",
+        "name": "D028《無人村的第十三盞燈》",
+        "growth": {
+          "洛": {
+            "confirmed": [
+              "基本念氣＋籠手與無臉者有效實體交互",
+              "脈衝＋螺旋右拳擊退並干涉黑氣結構",
+              "須佐洛防禦承受高強度黑氣衝擊",
+              "持燈者完成雙人守夜核心路徑／遵循規則"
+            ],
+            "notIncreased": [
+              "總念氣",
+              "新技能",
+              "脈衝上限",
+              "螺旋右拳上限",
+              "須佐洛最大尺寸",
+              "動態流等級"
+            ]
+          },
+          "伊恩": {
+            "confirmed": [
+              "假路辨識／異常空間分層",
+              "近戰區域穩定",
+              "雙人隔離空間真路辨識",
+              "白玉佛牌及守夜機制低輸出解析",
+              "守路者完成"
+            ],
+            "notIncreased": [
+              "新術式",
+              "精神負荷上限"
+            ]
+          },
+          "程牧": {
+            "note": "時空箭僅保留本次敘事提及；取得與規格明細待補，不自行新增兌換",
+            "confirmed": [
+              "共享視界主節點",
+              "無臉者HOSTILE確認",
+              "風鏡結構比對",
+              "哨兵安全區遠端監控",
+              "異常失聯前後通訊紀錄",
+              "下山路線／山口消失記錄"
+            ],
+            "notIncreased": [
+              "時空箭射程",
+              "曲折箭性能"
+            ]
+          },
+          "周映白": {
+            "confirmed": [
+              "SAFE ZONE A協作",
+              "傷患搬運／折疊板車後送",
+              "與澪判斷→固定→撤離協作",
+              "下山與醫院交接"
+            ],
+            "notIncreased": [
+              "閃返步距離",
+              "空間門上限"
+            ]
+          },
+          "神代澪": {
+            "confirmed": [
+              "單人晨間偵查",
+              "守夜堂生命跡象發現",
+              "近距高風險救援",
+              "搜救隊傷患分級處置",
+              "與香蕉後送協作",
+              "額外生還者交接",
+              "首次固定五人隊實戰整合"
+            ],
+            "notIncreased": [
+              "忍術",
+              "裝備強化",
+              "醫療能力上限"
+            ]
+          }
+        },
+        "rating": "S",
+        "source": "USER CONFIRMED D028 FORMAL SETTLEMENT",
+        "status": "SETTLEMENT COMPLETE",
+        "rewards": {
+          "branches": {
+            "B": 0,
+            "C": 1
+          },
+          "publicGain": 2200,
+          "basePerPerson": 2800,
+          "publicBreakdown": {
+            "base": 1200,
+            "watchRestoration": 600,
+            "allSearchTeamSurvived": 400
+          },
+          "totalPrivateGain": 28250,
+          "personalAdditional": {
+            "洛": 900,
+            "伊恩": 900,
+            "程牧": 800,
+            "周映白": 800,
+            "神代澪": 850
+          },
+          "additionalSurvivorPerPerson": 300,
+          "allSearchTeamSurvivedPerPerson": 600,
+          "watchSystemRestorationPerPerson": 1100
+        },
+        "nextScene": "主神空間餐桌／澪製作日式早餐／先吃早餐，不自動兌換",
+        "survivors": {
+          "searchTeam": 7,
+          "additionalSurvivor": 1,
+          "searchTeamAllRescued": true,
+          "newDeathsFromNightAnomaly": 0,
+          "additionalSeparateFromSeven": true
+        },
+        "grandTotal": 90584,
+        "objectives": [
+          {
+            "name": "尋找失聯搜救隊",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "確認生還者",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "建立後送與安全區",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "傷患送離山區並醫院交接",
+            "status": "COMPLETE"
+          },
+          {
+            "name": "全隊安全返還",
+            "status": "COMPLETE"
+          }
+        ],
+        "pointsAfter": {
+          "洛": 19074,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330
+        },
+        "publicAfter": 2200,
+        "restoration": [
+          "守夜規則",
+          "持燈者／守路者機制",
+          "地下異常路徑",
+          "佛像白玉牌核心",
+          "燈芯延續",
+          "主燈恢復",
+          "夜間暖燈重新建立"
+        ],
+        "participants": [
+          "洛",
+          "周映白",
+          "程牧",
+          "伊恩",
+          "神代澪"
+        ],
+        "partyOutcome": "5 IN / 5 OUT",
+        "pointsBefore": {
+          "洛": 13374,
+          "伊恩": 17395,
+          "程牧": 11227,
+          "周映白": 17458,
+          "神代澪": 680
+        },
+        "privateTotal": 88384,
+        "publicBefore": 0,
+        "branchesAfter": {
+          "B": 0,
+          "C": 2
+        },
+        "branchesBefore": {
+          "B": 0,
+          "C": 1
+        },
+        "resourceAudits": {
+          "arrows": {
+            "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
+            "status": "PENDING AUDIT",
+            "lastAuditedReady": 162,
+            "lastAuditedPhysical": 162,
+            "confirmedPermanentLoss": 0
+          },
+          "billing": {
+            "items": [
+              "入隊派對主神飲料",
+              "床單／被套／枕套更換"
+            ],
+            "status": "PENDING BILLING AUDIT",
+            "deducted": false
+          },
+          "medical": {
+            "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
+            "usage": "醫療站處理多名搜救隊傷患與額外生還者",
+            "status": "PENDING MEDICAL AUDIT"
+          },
+          "logistics": {
+            "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
+            "events": [
+              "Night 1大量料理",
+              "Day 2早餐",
+              "返回後炸雞／薯條／飲料",
+              "隔日日式早餐"
+            ],
+            "status": "PENDING LOGISTICS AUDIT"
+          }
+        }
+      },
       "sharedSideStory": {
-        "rank": "B",
+        "rank": "C",
         "quantity": 2
       },
       "privateDebtTotal": 0,
       "sharedSideStories": [
         {
           "rank": "B",
-          "quantity": 2
+          "quantity": 0
         },
         {
           "rank": "C",
@@ -613,12 +825,13 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 67774,
+      "privatePointsTotal": 88384,
       "currentPrivatePoints": {
-        "洛": 13754,
-        "伊恩": 17775,
-        "程牧": 18407,
-        "周映白": 17838
+        "洛": 19074,
+        "伊恩": 23095,
+        "程牧": 16827,
+        "周映白": 23058,
+        "神代澪": 6330
       },
       "postD027PublicRestock": {
         "id": "POST-D027-PUBLIC-RESTOCK-2420",
@@ -1404,6 +1617,58 @@
           "afterPublic": 80,
           "beforePublic": 2500,
           "privatePointsChanged": false
+        },
+        {
+          "id": "PRE-D028-USER-BASELINE",
+          "note": "缺少D027後至D028前的入隊、採購與支線明細；按用戶明示前額接續，不虛構支出名稱、支線用途或澪入隊費用",
+          "status": "AUTHORITATIVE BALANCES / ITEMIZED HISTORY PENDING",
+          "publicBefore": 80,
+          "branchesBefore": {
+            "B": 2,
+            "C": 2
+          },
+          "previousPoints": {
+            "洛": 13754,
+            "伊恩": 17775,
+            "程牧": 18407,
+            "周映白": 17838
+          },
+          "previousVersion": 128,
+          "confirmedPreMissionPoints": {
+            "洛": 13374,
+            "伊恩": 17395,
+            "程牧": 11227,
+            "周映白": 17458,
+            "神代澪": 680
+          },
+          "confirmedPreMissionPublic": 0,
+          "confirmedPreMissionBranches": {
+            "B": 0,
+            "C": 1
+          }
+        },
+        {
+          "id": "D028-REWARDS",
+          "after": {
+            "洛": 19074,
+            "伊恩": 23095,
+            "程牧": 16827,
+            "周映白": 23058,
+            "神代澪": 6330
+          },
+          "before": {
+            "洛": 13374,
+            "伊恩": 17395,
+            "程牧": 11227,
+            "周映白": 17458,
+            "神代澪": 680
+          },
+          "status": "SETTLED",
+          "branchGain": {
+            "C": 1
+          },
+          "publicGain": 2200,
+          "privateGain": 28250
         }
       ],
       "postD019Stage4Followup": {
@@ -1984,6 +2249,35 @@
           "伊恩": 40,
           "程牧": 840,
           "周映白": 40
+        }
+      },
+      "preD028BaselineReconciliation": {
+        "id": "PRE-D028-USER-BASELINE",
+        "note": "缺少D027後至D028前的入隊、採購與支線明細；按用戶明示前額接續，不虛構支出名稱、支線用途或澪入隊費用",
+        "status": "AUTHORITATIVE BALANCES / ITEMIZED HISTORY PENDING",
+        "publicBefore": 80,
+        "branchesBefore": {
+          "B": 2,
+          "C": 2
+        },
+        "previousPoints": {
+          "洛": 13754,
+          "伊恩": 17775,
+          "程牧": 18407,
+          "周映白": 17838
+        },
+        "previousVersion": 128,
+        "confirmedPreMissionPoints": {
+          "洛": 13374,
+          "伊恩": 17395,
+          "程牧": 11227,
+          "周映白": 17458,
+          "神代澪": 680
+        },
+        "confirmedPreMissionPublic": 0,
+        "confirmedPreMissionBranches": {
+          "B": 0,
+          "C": 1
         }
       },
       "postD021RestLifeFoodSettlement": {

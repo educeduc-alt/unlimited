@@ -2,29 +2,29 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "latestSnapshot",
   "state": {
     "latestSnapshot": {
       "party": [
         {
           "icon": "🥊",
-          "life": "急性感染已解除／病後恢復中",
+          "life": "D028安全返還／未提供完整恢復檢查",
           "name": "洛",
           "role": "第一線近戰／隊長／近距離護衛與失能",
           "title": "隊長",
           "gender": "男",
           "mental": "高階認知完整",
-          "points": 13754,
+          "points": 19074,
           "nenType": "強化系",
-          "stamina": "RECOVERY PHASE／明顯病後虛弱",
+          "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 175,
           "bloodline": "無",
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 13754,
+          "rewardPoints": 19074,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -71,6 +71,7 @@
               "神經抗性",
               "特殊血液技能"
             ],
+            "recordScope": "HISTORICAL POST-D027；D028已出戰返還，不能由此推定當前仍同程度虛弱或已獲免疫",
             "acuteInfection": "RESOLVED",
             "acutePostArrestDanger": "RESOLVED",
             "acuteNeurologicalCrisis": "RESOLVED"
@@ -84,6 +85,22 @@
               "導航／能源 BASIC",
               "野戰維修 BASIC"
             ]
+          },
+          "postD028FieldValidation": {
+            "confirmed": [
+              "基本念氣＋籠手與無臉者有效實體交互",
+              "脈衝＋螺旋右拳擊退並干涉黑氣結構",
+              "須佐洛防禦承受高強度黑氣衝擊",
+              "持燈者完成雙人守夜核心路徑／遵循規則"
+            ],
+            "notIncreased": [
+              "總念氣",
+              "新技能",
+              "脈衝上限",
+              "螺旋右拳上限",
+              "須佐洛最大尺寸",
+              "動態流等級"
+            ]
           }
         },
         {
@@ -93,14 +110,14 @@
           "role": "救援核心／側翼／第二線保護",
           "gender": "男",
           "mental": "穩定",
-          "points": 17838,
-          "stamina": "大量空間門實戰後正常恢復",
+          "points": 23058,
+          "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 183,
           "nickname": "香蕉",
           "bloodline": "無",
           "equipment": "折疊救援模組庫Ⅲ｜雙通道自律救援型／救援戰術服Ⅱ",
           "appearance": "約183cm，高大強壯、可靠、老實憨厚型青年男性；體格適合搬運、救援、破障與傷員後送。外表最像正經老實人，熟悉後可見吐槽欲旺盛且會打小報告。",
-          "rewardPoints": 17838,
+          "rewardPoints": 23058,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -114,6 +131,18 @@
               "駕駛 PASS",
               "導航／能源 BASIC"
             ]
+          },
+          "postD028FieldValidation": {
+            "confirmed": [
+              "SAFE ZONE A協作",
+              "傷患搬運／折疊板車後送",
+              "與澪判斷→固定→撤離協作",
+              "下山與醫院交接"
+            ],
+            "notIncreased": [
+              "閃返步距離",
+              "空間門上限"
+            ]
           }
         },
         {
@@ -123,14 +152,14 @@
           "role": "第二線副指揮／術式構築／情報統整",
           "gender": "女",
           "mental": "重大情緒釋放後已重新穩定",
-          "points": 17775,
-          "stamina": "施術、指揮及心理壓力後休息",
+          "points": 23095,
+          "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 165,
           "nickname": "公主",
           "bloodline": "無",
           "equipment": "流焰戰術短杖Ⅱ｜節點一式展開型／赤晶焰紋髮扣Ⅱ／術式校準附魔戒指Ⅱ／流焰術式戰裝Ⅱ",
           "appearance": "約165cm，中長髮，髮質經持續護理後更加柔順；非常漂亮、偏中性且外部女性化轉變已穩定完成的術士。四人中身形最纖細矮小，氣質安靜、術士感強，穿著流焰術式戰裝Ⅱ｜多層裙裝式。",
-          "rewardPoints": 17775,
+          "rewardPoints": 23095,
           "physicalChanges": {
             "rules": [
               "性別登記已由伊恩本人自主確認為女性",
@@ -158,6 +187,19 @@
               "救援 BASIC",
               "野戰維修 BASIC"
             ]
+          },
+          "postD028FieldValidation": {
+            "confirmed": [
+              "假路辨識／異常空間分層",
+              "近戰區域穩定",
+              "雙人隔離空間真路辨識",
+              "白玉佛牌及守夜機制低輸出解析",
+              "守路者完成"
+            ],
+            "notIncreased": [
+              "新術式",
+              "精神負荷上限"
+            ]
           }
         },
         {
@@ -167,14 +209,14 @@
           "role": "第一觀測位／遠程控制／戰術偵察",
           "gender": "男",
           "mental": "穩定",
-          "points": 18407,
-          "stamina": "正常返還／162 READY",
+          "points": 16827,
+          "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 180,
           "nickname": "WIFI",
           "bloodline": "無",
           "equipment": "灰隼重磅戰弓／灰隼近衛短刀Ⅰ／折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ／遠距偵查戰術服Ⅱ",
           "appearance": "約180cm，短髮、外貌偏帥氣的青年男性；氣質冷靜、乾淨、克制。第一印象話少、擅長計算且嚴肅，熟悉後可見冷面笑匠的一面，常以毫無表情的臉精準吐槽。",
-          "rewardPoints": 18407,
+          "rewardPoints": 16827,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -188,11 +230,62 @@
               "駕駛 PASS",
               "救援 BASIC"
             ]
+          },
+          "postD028FieldValidation": {
+            "note": "時空箭僅保留本次敘事提及；取得與規格明細待補，不自行新增兌換",
+            "confirmed": [
+              "共享視界主節點",
+              "無臉者HOSTILE確認",
+              "風鏡結構比對",
+              "哨兵安全區遠端監控",
+              "異常失聯前後通訊紀錄",
+              "下山路線／山口消失記錄"
+            ],
+            "notIncreased": [
+              "時空箭射程",
+              "曲折箭性能"
+            ]
+          }
+        },
+        {
+          "icon": "🩺",
+          "life": "D028安全返還",
+          "name": "神代澪",
+          "role": "醫療／偵查／近距救援",
+          "mental": "未提供正式評估",
+          "points": 6330,
+          "status": "ACTIVE / FORMAL MEMBER",
+          "stamina": "首次固定五人隊實戰完成／餐桌休息",
+          "nickname": "澪",
+          "equipment": "詳細裝備清單待補，不自行新增",
+          "membership": {
+            "source": "D028正式結算明示",
+            "status": "CONFIRMED",
+            "firstMission": "D028",
+            "earlierRecruitmentRecord": "PENDING"
+          },
+          "rewardPoints": 6330,
+          "postD028FieldValidation": {
+            "confirmed": [
+              "單人晨間偵查",
+              "守夜堂生命跡象發現",
+              "近距高風險救援",
+              "搜救隊傷患分級處置",
+              "與香蕉後送協作",
+              "額外生還者交接",
+              "首次固定五人隊實戰整合"
+            ],
+            "notIncreased": [
+              "忍術",
+              "裝備強化",
+              "醫療能力上限"
+            ]
           }
         }
       ],
       "arrows": {
         "ready": 162,
+        "status": "PENDING AUDIT / LAST AUDITED BASELINE",
         "physical": 162,
         "repairPending": 0,
         "detailedBreakdown": {
@@ -209,18 +302,19 @@
         }
       },
       "points": {
-        "洛": 13754,
-        "伊恩": 17775,
-        "程牧": 18407,
-        "周映白": 17838
+        "洛": 19074,
+        "伊恩": 23095,
+        "程牧": 16827,
+        "周映白": 23058,
+        "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 128,
+      "version": 129,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
-      "location": "AI主神空間｜休息室",
-      "saveNode": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
+      "location": "AI主神空間｜餐桌",
+      "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D027｜後勤滿補給／洛病後恢復中，禁止立即高強度念測試；全隊休息",
+      "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
       "sharedBag": {
         "freeM3": 17.05,
         "usedM3": 32.95,
@@ -228,8 +322,9 @@
         "usageRatePercent": 65.9
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 67854,
+      "grandTotal": 90584,
       "provisions": {
+        "status": "PENDING LOGISTICS AUDIT / LAST AUDITED VALUES",
         "遠征料理食材人日": 60,
         "遠征緊急乾糧人日": 99,
         "遠征緊急飲水人日": 99,
@@ -258,83 +353,87 @@
         "status": "PRACTICAL / FIELD-READY",
         "validation": "FIRST FORMAL VALIDATION"
       },
-      "lastMission": "D027《封城第十四夜》｜COMPLETE｜S",
+      "lastMission": "D028《無人村的第十三盞燈》｜COMPLETE｜S",
       "luoRecovery": {
-        "blood": "VALID CLINICAL REFERENCE",
-        "status": "RECOVERY PHASE",
-        "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
-        "timeline": [
-          {
-            "day": 1,
-            "event": "疑似眼眶微小擦傷＋污染暴露"
-          },
-          {
-            "day": 4,
-            "event": "昏倒、呼吸急促、感染異常"
-          },
-          {
-            "day": 5,
-            "event": "Stage1→Early Stage2"
-          },
-          {
-            "day": 6,
-            "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
-          },
-          {
-            "day": 7,
-            "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
-          },
-          {
-            "day": "RETURN",
-            "event": "主神醫療倉完成急性治療"
-          }
-        ],
-        "weakness": "PRESENT",
-        "cognition": "完整",
-        "isolation": "解除",
-        "notAcquired": [
-          "永久病毒免疫",
-          "感染抗性",
-          "再生BUFF",
-          "額外念氣",
-          "神經抗性",
-          "特殊血液技能"
-        ],
-        "acuteInfection": "RESOLVED",
-        "acutePostArrestDanger": "RESOLVED",
-        "acuteNeurologicalCrisis": "RESOLVED"
+        "status": "D028 RETURNED / NO NEW COMPLETE MEDICAL TEST",
+        "historicalD027": {
+          "blood": "VALID CLINICAL REFERENCE",
+          "status": "RECOVERY PHASE",
+          "restRule": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
+          "timeline": [
+            {
+              "day": 1,
+              "event": "疑似眼眶微小擦傷＋污染暴露"
+            },
+            {
+              "day": 4,
+              "event": "昏倒、呼吸急促、感染異常"
+            },
+            {
+              "day": 5,
+              "event": "Stage1→Early Stage2"
+            },
+            {
+              "day": 6,
+              "event": "深度昏迷、非自主活動／無意義喊叫，疑似2B"
+            },
+            {
+              "day": 7,
+              "event": "候選高強度抑制／免疫治療；曾心搏停止，急救恢復自主循環；辨識與目的動作恢復，2B→2A恢復趨勢"
+            },
+            {
+              "day": "RETURN",
+              "event": "主神醫療倉完成急性治療"
+            }
+          ],
+          "weakness": "PRESENT",
+          "cognition": "完整",
+          "isolation": "解除",
+          "notAcquired": [
+            "永久病毒免疫",
+            "感染抗性",
+            "再生BUFF",
+            "額外念氣",
+            "神經抗性",
+            "特殊血液技能"
+          ],
+          "acuteInfection": "RESOLVED",
+          "acutePostArrestDanger": "RESOLVED",
+          "acuteNeurologicalCrisis": "RESOLVED"
+        }
       },
       "nextMission": "UNSELECTED",
-      "publicFunds": 80,
+      "publicFunds": 2200,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
-      "privateTotal": 67774,
+      "partyOutcome": "5 IN / 5 OUT",
+      "privateTotal": 88384,
       "branchStories": {
-        "B": 2,
+        "B": 0,
         "C": 2
       },
       "endgamePieces": 1,
       "latestMission": {
-        "id": "D027",
-        "name": "封城第十四夜",
+        "id": "D028",
+        "name": "無人村的第十三盞燈",
         "rating": "S",
-        "status": "COMPLETE",
-        "difficulty": "A"
+        "status": "COMPLETE"
       },
       "privatePoints": {
-        "洛": 13754,
-        "伊恩": 17775,
-        "程牧": 18407,
-        "周映白": 17838
+        "洛": 19074,
+        "伊恩": 23095,
+        "程牧": 16827,
+        "周映白": 23058,
+        "神代澪": 6330
       },
-      "resourceAudit": "POST-D027｜公共2420補給完成；乾糧99／飲水99／料理60／醫療站100%／車能源100%／備用能源4；箭162 READY",
+      "resourceAudit": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "醫療站Ⅲ｜100%有限耗材／OPERATIONAL / FULLY RESTOCKED",
+      "medicalStation": "醫療站Ⅲ｜D028耗材待審計；上次100%僅歷史基準",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -380,15 +479,15 @@
         "deepDivingEquipment": "OPERATIONAL",
         "underwaterFlashReturn": "CONFIRMED"
       },
-      "nextAbilityCheck": "巨靈體超過11m、最大維持時間及最大輸出未測；空間門最大距離／門徑／維持與流量未測；曲折箭180°與多次極端直角折返未確認",
+      "nextAbilityCheck": "本次無能力上限提升；先早餐／休息，不自動購買",
       "currentHighlights": [
-        "D027 S級完成／4 IN 4 OUT",
-        "洛急性感染解除，病後恢復中",
-        "公共補給2420完成／剩80",
-        "第五名醫療核心列招募優先，尚未加入"
+        "D028 S結算完成／5 IN 5 OUT",
+        "神代澪正式隊員／首次副本整合完成",
+        "私人88384／公共2200／總90584",
+        "資源與生活小額帳待審計，不虛構消耗"
       ],
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 67774,
+      "privatePointsTotal": 88384,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
       "vehicleCalibration": {
         "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
@@ -514,9 +613,10 @@
       },
       "mountainGodResidual": "IDENTIFIED / STABLE｜念氣循環完整性補全／一體出／一體進",
       "recruitmentPriority": {
-        "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+        "rule": "D028確認第五名正式隊員；入隊成本、共鳴錨擴充與裝備權限明細待補，不憑空擴充硬體",
+        "member": "神代澪",
         "reason": "香蕉為救援後送專業，不改写成完整醫師",
-        "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+        "status": "FULFILLED / FORMAL MEMBER CONFIRMED",
         "target": "第五名永久隊員｜醫療核心",
         "desired": [
           "急診",
@@ -533,7 +633,7 @@
         ]
       },
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
-      "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION",
+      "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION；澪擴充明細待補",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",
       "stage5PreparatoryTraining": {
         "rules": [

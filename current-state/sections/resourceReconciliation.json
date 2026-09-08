@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "resourceReconciliation",
   "state": {
     "resourceReconciliation": {
@@ -156,6 +156,38 @@
           "spareEnergy": 3,
           "medicalPercent": 64,
           "vehicleEnergyPercent": 38
+        }
+      },
+      "d028": {
+        "arrows": {
+          "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
+          "status": "PENDING AUDIT",
+          "lastAuditedReady": 162,
+          "lastAuditedPhysical": 162,
+          "confirmedPermanentLoss": 0
+        },
+        "billing": {
+          "items": [
+            "入隊派對主神飲料",
+            "床單／被套／枕套更換"
+          ],
+          "status": "PENDING BILLING AUDIT",
+          "deducted": false
+        },
+        "medical": {
+          "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
+          "usage": "醫療站處理多名搜救隊傷患與額外生還者",
+          "status": "PENDING MEDICAL AUDIT"
+        },
+        "logistics": {
+          "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
+          "events": [
+            "Night 1大量料理",
+            "Day 2早餐",
+            "返回後炸雞／薯條／飲料",
+            "隔日日式早餐"
+          ],
+          "status": "PENDING LOGISTICS AUDIT"
         }
       },
       "node": "POST-D019",

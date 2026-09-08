@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "sharedMedicalStation",
   "state": {
     "sharedMedicalStation": {
@@ -20,6 +20,11 @@
       "paidBy": "公共資金",
       "status": "OPERATIONAL / FULLY RESTOCKED",
       "carrier": "折疊救援模組庫Ⅲ",
+      "d028Audit": {
+        "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
+        "usage": "醫療站處理多名搜救隊傷患與額外生還者",
+        "status": "PENDING MEDICAL AUDIT"
+      },
       "functions": [
         "自動分診",
         "多床位生命監測",
@@ -39,7 +44,7 @@
         "組織修復儀整合",
         "按預設醫療協議自主運作"
       ],
-      "lastAudit": "POST-D027｜64%→100%／公共1200",
+      "lastAudit": "D028未完成審計；100%為D027補給後歷史盤點",
       "ownerType": "共享大型救援資產",
       "stockCost": 2200,
       "stockType": "正式有限實體庫存",
@@ -50,7 +55,7 @@
         "consumableRestock": "COMPLETE",
         "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
       },
-      "stockStatus": "100% / FINITE STOCK",
+      "stockStatus": "PENDING MEDICAL AUDIT",
       "robotsStatus": "OPERATIONAL",
       "restockStatus": "COMPLETE / PAID",
       "accountingNote": "D027補給1200列於公共總支出2420，不重複扣款",

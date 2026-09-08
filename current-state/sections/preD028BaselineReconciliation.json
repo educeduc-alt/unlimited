@@ -1,0 +1,39 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
+  "section": "preD028BaselineReconciliation",
+  "state": {
+    "preD028BaselineReconciliation": {
+      "id": "PRE-D028-USER-BASELINE",
+      "note": "缺少D027後至D028前的入隊、採購與支線明細；按用戶明示前額接續，不虛構支出名稱、支線用途或澪入隊費用",
+      "status": "AUTHORITATIVE BALANCES / ITEMIZED HISTORY PENDING",
+      "publicBefore": 80,
+      "branchesBefore": {
+        "B": 2,
+        "C": 2
+      },
+      "previousPoints": {
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 18407,
+        "周映白": 17838
+      },
+      "previousVersion": 128,
+      "confirmedPreMissionPoints": {
+        "洛": 13374,
+        "伊恩": 17395,
+        "程牧": 11227,
+        "周映白": 17458,
+        "神代澪": 680
+      },
+      "confirmedPreMissionPublic": 0,
+      "confirmedPreMissionBranches": {
+        "B": 0,
+        "C": 1
+      }
+    }
+  }
+}

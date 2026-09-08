@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "ammo",
   "state": {
     "ammo": {
@@ -110,7 +110,14 @@
         "permanentLoss": 0,
         "cleanedCalibrated": 4
       },
-      "lastUpdate": "POST-D027｜發射9／回收9／4支清潔校正／永久損耗0／162 READY",
+      "d028Result": {
+        "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
+        "status": "PENDING AUDIT",
+        "lastAuditedReady": 162,
+        "lastAuditedPhysical": 162,
+        "confirmedPermanentLoss": 0
+      },
+      "lastUpdate": "D028返還：待逐支審計，數量沿用最後正式基準",
       "combatReady": 162,
       "currentTotal": 162,
       "repairModule": {
@@ -161,7 +168,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "162 / 162 READY",
+      "inventoryStatus": "PENDING AUDIT / LAST AUDITED 162 READY",
       "postD026Restock": {
         "id": "POST-D026-ARROW-RESTOCK-800",
         "cost": 800,

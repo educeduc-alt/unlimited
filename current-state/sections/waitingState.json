@@ -2,15 +2,10 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "waitingState",
   "state": {
-    "waitingState": {
-      "luo": "禁止立即高強度念測試；休息室由伊恩陪伴休息",
-      "node": "POST-D027 / RECOVERY / LOGISTICS RESTOCKED",
-      "status": "REST PERIOD STARTED",
-      "nextMission": "UNSELECTED"
-    }
+    "waitingState": "早餐／休息；不自動兌換"
   }
 }

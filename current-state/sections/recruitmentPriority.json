@@ -2,14 +2,15 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 128,
-  "updated_at": "2026-09-07T13:03:34.53921+00:00",
+  "version": 129,
+  "updated_at": "2026-09-08T12:45:17.532791+00:00",
   "section": "recruitmentPriority",
   "state": {
     "recruitmentPriority": {
-      "rule": "不自動將D027當地醫護加入隊伍；現有四人名單不變",
+      "rule": "D028確認第五名正式隊員；入隊成本、共鳴錨擴充與裝備權限明細待補，不憑空擴充硬體",
+      "member": "神代澪",
       "reason": "香蕉為救援後送專業，不改写成完整醫師",
-      "status": "RECRUITMENT PRIORITY / NOT RECRUITED",
+      "status": "FULFILLED / FORMAL MEMBER CONFIRMED",
       "target": "第五名永久隊員｜醫療核心",
       "desired": [
         "急診",

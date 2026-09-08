@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 129,
+  "version": 130,
   "schema_version": "v44",
-  "updated_at": "2026-09-08T12:45:17.532791+00:00",
+  "updated_at": "2026-09-08T13:32:56.75035+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v129.json",
+  "versioned": "current-state/v130.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -51,6 +51,7 @@
     "medicalDistribution": "current-state/sections/medicalDistribution.json",
     "medicalReconciliation": "current-state/sections/medicalReconciliation.json",
     "medicalSystem": "current-state/sections/medicalSystem.json",
+    "mioProfile": "current-state/sections/mioProfile.json",
     "mission": "current-state/sections/mission.json",
     "missionHistory": "current-state/sections/missionHistory.json",
     "missionHistoryAudit": "current-state/sections/missionHistoryAudit.json",

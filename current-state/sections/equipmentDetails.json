@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 129,
-  "updated_at": "2026-09-08T12:45:17.532791+00:00",
+  "version": 130,
+  "updated_at": "2026-09-08T13:32:56.75035+00:00",
   "section": "equipmentDetails",
   "state": {
     "equipmentDetails": {
@@ -670,6 +670,25 @@
           ]
         },
         "vehicleRescueModule": "車載快速救援模組Ⅰ：液壓撐開／剪切、拖曳轉接、救援棍固定座、多規格掛鉤、快速脫離接口"
+      },
+      "神代澪": {
+        "main": "忍者太刀×2｜MAINTAINED / OPERATIONAL",
+        "items": [
+          "靜音低摩擦刀鞘／防水／抗血液污染／低反光／易清潔",
+          "忍具袋（入隊前分項見歷史，當前耗材待審計）",
+          "便攜诊斷、急救、感染防護模組"
+        ],
+        "modules": [
+          "漂浮足",
+          "黏附足／掌",
+          "折疊風箏翼"
+        ],
+        "notOwned": [
+          "本次未取得超凡分身、水上行走或飛行能力"
+        ],
+        "carrySystem": "普通實體大型遠征背包＋忍具袋；非空間道具",
+        "spaceModule": "無已確認空間模組；背包重量需本人承擔",
+        "tacticalSuit": "深色醫療／忍者行動衣裝（正式型號未提供）"
       },
       "箭矢自律維修模組Ⅰ": {
         "cost": 800,

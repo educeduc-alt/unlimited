@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 129,
-  "updated_at": "2026-09-08T12:45:17.532791+00:00",
+  "version": 130,
+  "updated_at": "2026-09-08T13:32:56.75035+00:00",
   "section": "party",
   "state": {
     "party": [
@@ -251,17 +251,19 @@
         "life": "D028安全返還",
         "name": "神代澪",
         "role": "醫療／偵查／近距救援",
+        "gender": "女",
         "mental": "未提供正式評估",
         "points": 6330,
         "status": "ACTIVE / FORMAL MEMBER",
         "stamina": "首次固定五人隊實戰完成／餐桌休息",
         "nickname": "澪",
-        "equipment": "詳細裝備清單待補，不自行新增",
+        "equipment": "雙忍者太刀／忍具袋／普通大型遠征背包／環境輔助與個人醫療裝備",
+        "appearance": "黑色長髮、冷冽俐落的女性；深黑與靛藍衣裝、雙刀與醫療攜行配置。外觀依本次提供肖像，不從圖片推定身高或裝備能力。",
         "membership": {
           "source": "D028正式結算明示",
           "status": "CONFIRMED",
           "firstMission": "D028",
-          "earlierRecruitmentRecord": "PENDING"
+          "earlierRecruitmentRecord": "PRE-D028 HISTORICAL RECORD ADDED"
         },
         "rewardPoints": 6330,
         "postD028FieldValidation": {

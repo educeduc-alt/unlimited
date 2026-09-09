@@ -2,12 +2,12 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "section": "sharedDimensionalBag",
   "state": {
     "sharedDimensionalBag": {
-      "name": "四人共享次元行囊Ⅲ",
+      "name": "五人共享次元行囊Ⅳ｜遠征整合型",
       "zones": [
         {
           "id": "S-SUPPLY",
@@ -49,9 +49,10 @@
               "volumeM3": 0.94
             },
             {
-              "name": "正式遠征居住模組Ⅱ",
+              "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
               "status": "OPERATIONAL",
-              "volumeM3": 2.5
+              "volumeM3": 2.5,
+              "volumeNote": "原分區佔位沿用；未另測新獨立體積"
             },
             {
               "name": "折疊式野外淨水器",
@@ -174,12 +175,12 @@
       "display": {
         "icon": "🌀",
         "rule": "個人攜行、私人用品與共享行囊分開管理；inventory為共享庫存數量來源，zones為位置與體積來源，同一實體不得重複列帳。",
-        "title": "四人共享次元行囊Ⅲ",
+        "title": "五人共享次元行囊Ⅳ｜遠征整合型",
         "capacity": {
-          "freeM3": 17.05,
+          "freeM3": 67.05,
           "usedM3": 32.95,
-          "totalM3": 50,
-          "usageRatePercent": 65.9
+          "totalM3": 100,
+          "usageRatePercent": 32.95
         },
         "sizeGrades": {
           "L": {
@@ -259,20 +260,19 @@
           }
         ]
       },
-      "capacity": "50m³ TOTAL SHARED",
+      "capacity": "100m³ TOTAL SHARED",
       "features": [
-        "醫療／食水／救援／載具備件／任務物分區管理",
-        "大型折疊設備收納定位更穩",
-        "四人可查看共享庫存分類",
-        "取物流程較Ⅱ型順暢但仍非瞬間取物",
-        "任務物與臨時救援資源預留區",
-        "恆溫分區模組Ⅰ：常溫乾燥區＋2–8°C冷藏區",
-        "可拆卸車載折疊野炊廚房模組Ⅰ：L級3m³",
-        "旅星｜四人折疊多用途艇：折疊收納5.5m³"
+        "五人權限架構：5-MEMBER READY",
+        "智能分區索引：需求→定位→對應快取口，僅限實存物品",
+        "五組角色／專業快取",
+        "醫療緊急釋放：優先排列已登錄救援醫療物資，不自行診斷或治療",
+        "污染／未知回收物隔離艙：與食物衣物及潔淨醫療物資分離",
+        "已登錄物資取放自動記帳；無標準量資料不虛構人日",
+        "保留既有恆溫分區與折疊設備收納"
       ],
       "quantity": 1,
-      "usageRate": "65.9%",
-      "capacityM3": 50,
+      "usageRate": "32.95%",
+      "capacityM3": 100,
       "prohibited": [
         "活體",
         "敵人",
@@ -282,9 +282,8 @@
       "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
-        "四名綁定成員皆可存入",
-        "取出",
-        "查看共享庫存"
+        "最後明確確認的綁定成員：洛、周映白、程牧、伊恩",
+        "神代澪已於D028成為正式隊員；第五取用權是否實際啟用尚待確認，不因試住歷史倒退隊籍"
       ],
       "boundMembers": [
         "洛",
@@ -292,8 +291,8 @@
         "伊恩",
         "程牧"
       ],
-      "capacityRule": "四人共同50m³，不是每人50m³",
-      "freeVolumeM3": 17.05,
+      "capacityRule": "全隊共同100m³，非每人100m³",
+      "freeVolumeM3": 67.05,
       "thermalZones": {
         "cost": 600,
         "name": "共享次元行囊Ⅱ｜恆溫分區模組Ⅰ",
@@ -335,12 +334,28 @@
         ],
         "paidBy": "洛",
         "status": "OPERATIONAL",
-        "installedOn": "四人共享次元行囊Ⅲ"
+        "installedOn": "五人共享次元行囊Ⅳ｜遠征整合型"
       },
       "usedVolumeM3": 32.95,
+      "upgradeRecord": {
+        "to": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "from": "四人共享次元行囊Ⅲ",
+        "branchCost": {
+          "B": 1,
+          "C": 0
+        },
+        "capacityM3": 100,
+        "freeVolumeM3": 67.05,
+        "usedVolumeM3": 32.95,
+        "additionalPoints": 0
+      },
       "accountingNote": "自律式折疊救難醫療站Ⅲ由折疊救援模組庫Ⅲ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。",
       "backupEnergyM3": 0.86,
       "trainingStatus": "第一階段共享空間戰術使用適應完成",
+      "automaticLedger": {
+        "rule": "只記錄已登錄實存物資的取放，不追溯補造未量化D028消耗",
+        "status": "ACTIVE"
+      },
       "foodZoneSummary": {
         "M-FoodM3": 4.5,
         "S-FoodM3": 2.2,
@@ -356,14 +371,56 @@
         "不可預期後勤需求"
       ],
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
-      "volumeAuditNote": "居住模組Ⅱ與救援車Ⅲ已替換；本卡未提供新折疊體積，現行容量待重算。",
+      "volumeAuditNote": "PRE-D028升級總容量100m³、已用32.95m³、剩67.05m³為正式口徑；不自行替新增功能分配體積。",
       "vehiclePackageM3": 5.05,
       "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
-      "volumeAuditStatus": "PENDING_FOR_POST_D023_UPGRADES",
+      "volumeAuditStatus": "USER CONFIRMED TOTAL / INDIVIDUAL UPGRADE VOLUME NOT PROVIDED",
+      "professionalCaches": {
+        "洛": "近戰／承重",
+        "fifth": "UNASSIGNED / LAST CONFIRMED",
+        "伊恩": "術式／法陣",
+        "程牧": "射手／偵查",
+        "周映白": "救援／後送"
+      },
       "volumeAuditVersion": "v90",
       "existingLogisticsM3": 8.3,
       "inventorySyncVersion": "v90",
-      "vehicleMaintenanceM3": 0.94
+      "isolationCompartment": {
+        "uses": [
+          "未知樣本",
+          "染血裝備",
+          "污染物",
+          "未確認安全回收品",
+          "獨立保存任務物"
+        ],
+        "limits": [
+          "非萬能封印",
+          "不保證收容超高危險異常",
+          "不隨意收納活體",
+          "超過空間安全判定拒收"
+        ],
+        "status": "ACTIVE",
+        "volumeM3": "未另提供；不虛構新增佔用"
+      },
+      "vehicleMaintenanceM3": 0.94,
+      "permissionArchitecture": {
+        "slots": 5,
+        "status": "5-MEMBER READY",
+        "atUpgrade": {
+          "fifth": "UNASSIGNED / TRIAL STAY",
+          "members": [
+            "洛",
+            "周映白",
+            "程牧",
+            "伊恩"
+          ]
+        },
+        "currentFifthSlot": {
+          "access": "ACTIVATION NOT YET EXPLICITLY RECORDED",
+          "candidate": "神代澪",
+          "membership": "FORMAL MEMBER"
+        }
+      }
     }
   }
 }

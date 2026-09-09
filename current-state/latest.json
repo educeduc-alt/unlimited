@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "state": {
     "ammo": {
       "aliases": {
@@ -3084,7 +3084,7 @@
       }
     },
     "mission": "D028《無人村的第十三盞燈》｜COMPLETE｜S",
-    "version": 130,
+    "version": 131,
     "bestiary": [
       {
         "id": "M001",
@@ -5764,14 +5764,14 @@
       "15m多用途靜力救援繩": 4,
       "主神空間生活用食材": "獨立生活庫存／已部分消耗／PENDING AUDIT",
       "便攜式組織修復儀Ⅰ": 1,
-      "四人共享次元行囊Ⅲ": 1,
       "四人基礎醫療補充箱": 5,
       "多用途快速固定夾板": 1,
       "折疊式傷員後送擔架": 1,
-      "正式遠征居住模組Ⅱ": 1,
       "緊急定位個人子標記": 4,
       "肌肉舒緩修復噴劑Ⅰ": 2,
-      "複合創傷醫療噴膜Ⅰ": 3
+      "複合創傷醫療噴膜Ⅰ": 3,
+      "五人共享次元行囊Ⅳ｜遠征整合型": 1,
+      "正式遠征居住模組Ⅲ｜五人遠征生活型": 1
     },
     "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
     "endgameArc": {
@@ -5994,7 +5994,7 @@
       "status": "REST / RECALIBRATION PENDING"
     },
     "carrySystem": {
-      "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由共享次元行囊Ⅲ分區管理。",
+      "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ｜遠征整合型分區管理。",
       "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（162 READY／分項已盤點與補滿）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。",
       "layer2": "個人衣裝／模組快取：四套寒區完整套組分別收在各自衣裝空間；自律式折疊救難醫療站Ⅲ收在周映白模組庫Ⅲ大型預備位；灰隼備用弓弦與弓具維修包收在程牧低頻快取。",
       "layer3": "共享行囊：S快速小物、M中型設備、L大型設備、XL載具、S-Food緊急食水、M-Food料理食材、XL-Starship星際載具。",
@@ -6884,7 +6884,7 @@
         "paidBy": "公共資金",
         "status": "OPERATIONAL",
         "purpose": "長期任務正常熱食與士氣後勤",
-        "mounting": "可拆卸式；平時完整折疊收納於共享次元行囊Ⅱ",
+        "mounting": "可拆卸式；平時折疊收納於五人共享次元行囊Ⅳ｜遠征整合型",
         "quantity": 1,
         "volumeM3": 3,
         "equipment": [
@@ -6921,7 +6921,7 @@
           "無限航程否"
         ],
         "status": "FIELD-VALIDATED / OPERATIONAL",
-        "storage": "四人共享次元行囊Ⅲ｜5.5m³",
+        "storage": "五人共享次元行囊Ⅳ｜遠征整合型｜5.5m³",
         "weapons": [
           "可變向輕型能量炮×2",
           "防禦性攔截器×1組"
@@ -6962,19 +6962,43 @@
         "permanentHullDamage": false
       },
       {
-        "cost": 650,
-        "name": "正式遠征居住模組Ⅱ",
+        "cost": 1600,
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
         "type": "長距離遠征營地設備",
+        "limits": [
+          "非堡壘",
+          "非無限水電",
+          "不增加醫療能力或新增醫療設備"
+        ],
         "status": "OPERATIONAL",
+        "upgrade": {
+          "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "cost": 1600,
+          "from": "正式遠征居住模組Ⅱ",
+          "payment": {
+            "洛": 380,
+            "伊恩": 380,
+            "程牧": 380,
+            "周映白": 380,
+            "publicFunds": 80
+          }
+        },
+        "bedrooms": 5,
         "quantity": 1,
         "volumeM3": 2.5,
         "functions": [
-          "四人多日宿營",
-          "營地收納",
-          "氣候遮蔽",
-          "長期遠征休整"
+          "獨立臥室×5",
+          "第五人獨立收納櫃／裝備固定區",
+          "五人衛浴與生活負荷配置",
+          "五人公共餐桌／休息區",
+          "五區環控獨立微調",
+          "第五房可切換客房／醫療值班房",
+          "保留救援車Ⅲ水電掛接",
+          "無人才可折疊收納"
         ],
-        "supersedes": "四人份輕量露營模組"
+        "supersedes": "正式遠征居住模組Ⅱ",
+        "foldedVolumeStatus": "未另提供獨立折疊體積；總已用32.95m³依本次正式口徑",
+        "historicalOriginalCost": 650
       },
       {
         "cost": 900,
@@ -8854,17 +8878,19 @@
         "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 130,
+      "version": 131,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間｜餐桌",
       "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
       "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "residence": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "sharedBag": {
-        "freeM3": 17.05,
+        "name": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "freeM3": 67.05,
         "usedM3": 32.95,
-        "capacityM3": 50,
-        "usageRatePercent": 65.9
+        "capacityM3": 100,
+        "usageRatePercent": 32.95
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
       "grandTotal": 90584,
@@ -9186,6 +9212,7 @@
           "返回機制"
         ]
       },
+      "sharedBagFifthAccess": "神代澪正式隊籍不變；第五取用權啟用待明示",
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION；澪擴充明細待補",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",
@@ -18255,7 +18282,7 @@
       "usageRatePercent": 65.9
     },
     "sharedDimensionalBag": {
-      "name": "四人共享次元行囊Ⅲ",
+      "name": "五人共享次元行囊Ⅳ｜遠征整合型",
       "zones": [
         {
           "id": "S-SUPPLY",
@@ -18297,9 +18324,10 @@
               "volumeM3": 0.94
             },
             {
-              "name": "正式遠征居住模組Ⅱ",
+              "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
               "status": "OPERATIONAL",
-              "volumeM3": 2.5
+              "volumeM3": 2.5,
+              "volumeNote": "原分區佔位沿用；未另測新獨立體積"
             },
             {
               "name": "折疊式野外淨水器",
@@ -18422,12 +18450,12 @@
       "display": {
         "icon": "🌀",
         "rule": "個人攜行、私人用品與共享行囊分開管理；inventory為共享庫存數量來源，zones為位置與體積來源，同一實體不得重複列帳。",
-        "title": "四人共享次元行囊Ⅲ",
+        "title": "五人共享次元行囊Ⅳ｜遠征整合型",
         "capacity": {
-          "freeM3": 17.05,
+          "freeM3": 67.05,
           "usedM3": 32.95,
-          "totalM3": 50,
-          "usageRatePercent": 65.9
+          "totalM3": 100,
+          "usageRatePercent": 32.95
         },
         "sizeGrades": {
           "L": {
@@ -18507,20 +18535,19 @@
           }
         ]
       },
-      "capacity": "50m³ TOTAL SHARED",
+      "capacity": "100m³ TOTAL SHARED",
       "features": [
-        "醫療／食水／救援／載具備件／任務物分區管理",
-        "大型折疊設備收納定位更穩",
-        "四人可查看共享庫存分類",
-        "取物流程較Ⅱ型順暢但仍非瞬間取物",
-        "任務物與臨時救援資源預留區",
-        "恆溫分區模組Ⅰ：常溫乾燥區＋2–8°C冷藏區",
-        "可拆卸車載折疊野炊廚房模組Ⅰ：L級3m³",
-        "旅星｜四人折疊多用途艇：折疊收納5.5m³"
+        "五人權限架構：5-MEMBER READY",
+        "智能分區索引：需求→定位→對應快取口，僅限實存物品",
+        "五組角色／專業快取",
+        "醫療緊急釋放：優先排列已登錄救援醫療物資，不自行診斷或治療",
+        "污染／未知回收物隔離艙：與食物衣物及潔淨醫療物資分離",
+        "已登錄物資取放自動記帳；無標準量資料不虛構人日",
+        "保留既有恆溫分區與折疊設備收納"
       ],
       "quantity": 1,
-      "usageRate": "65.9%",
-      "capacityM3": 50,
+      "usageRate": "32.95%",
+      "capacityM3": 100,
       "prohibited": [
         "活體",
         "敵人",
@@ -18530,9 +18557,8 @@
       "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
-        "四名綁定成員皆可存入",
-        "取出",
-        "查看共享庫存"
+        "最後明確確認的綁定成員：洛、周映白、程牧、伊恩",
+        "神代澪已於D028成為正式隊員；第五取用權是否實際啟用尚待確認，不因試住歷史倒退隊籍"
       ],
       "boundMembers": [
         "洛",
@@ -18540,8 +18566,8 @@
         "伊恩",
         "程牧"
       ],
-      "capacityRule": "四人共同50m³，不是每人50m³",
-      "freeVolumeM3": 17.05,
+      "capacityRule": "全隊共同100m³，非每人100m³",
+      "freeVolumeM3": 67.05,
       "thermalZones": {
         "cost": 600,
         "name": "共享次元行囊Ⅱ｜恆溫分區模組Ⅰ",
@@ -18583,12 +18609,28 @@
         ],
         "paidBy": "洛",
         "status": "OPERATIONAL",
-        "installedOn": "四人共享次元行囊Ⅲ"
+        "installedOn": "五人共享次元行囊Ⅳ｜遠征整合型"
       },
       "usedVolumeM3": 32.95,
+      "upgradeRecord": {
+        "to": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "from": "四人共享次元行囊Ⅲ",
+        "branchCost": {
+          "B": 1,
+          "C": 0
+        },
+        "capacityM3": 100,
+        "freeVolumeM3": 67.05,
+        "usedVolumeM3": 32.95,
+        "additionalPoints": 0
+      },
       "accountingNote": "自律式折疊救難醫療站Ⅲ由折疊救援模組庫Ⅲ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。",
       "backupEnergyM3": 0.86,
       "trainingStatus": "第一階段共享空間戰術使用適應完成",
+      "automaticLedger": {
+        "rule": "只記錄已登錄實存物資的取放，不追溯補造未量化D028消耗",
+        "status": "ACTIVE"
+      },
       "foodZoneSummary": {
         "M-FoodM3": 4.5,
         "S-FoodM3": 2.2,
@@ -18604,14 +18646,56 @@
         "不可預期後勤需求"
       ],
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
-      "volumeAuditNote": "居住模組Ⅱ與救援車Ⅲ已替換；本卡未提供新折疊體積，現行容量待重算。",
+      "volumeAuditNote": "PRE-D028升級總容量100m³、已用32.95m³、剩67.05m³為正式口徑；不自行替新增功能分配體積。",
       "vehiclePackageM3": 5.05,
       "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
-      "volumeAuditStatus": "PENDING_FOR_POST_D023_UPGRADES",
+      "volumeAuditStatus": "USER CONFIRMED TOTAL / INDIVIDUAL UPGRADE VOLUME NOT PROVIDED",
+      "professionalCaches": {
+        "洛": "近戰／承重",
+        "fifth": "UNASSIGNED / LAST CONFIRMED",
+        "伊恩": "術式／法陣",
+        "程牧": "射手／偵查",
+        "周映白": "救援／後送"
+      },
       "volumeAuditVersion": "v90",
       "existingLogisticsM3": 8.3,
       "inventorySyncVersion": "v90",
-      "vehicleMaintenanceM3": 0.94
+      "isolationCompartment": {
+        "uses": [
+          "未知樣本",
+          "染血裝備",
+          "污染物",
+          "未確認安全回收品",
+          "獨立保存任務物"
+        ],
+        "limits": [
+          "非萬能封印",
+          "不保證收容超高危險異常",
+          "不隨意收納活體",
+          "超過空間安全判定拒收"
+        ],
+        "status": "ACTIVE",
+        "volumeM3": "未另提供；不虛構新增佔用"
+      },
+      "vehicleMaintenanceM3": 0.94,
+      "permissionArchitecture": {
+        "slots": 5,
+        "status": "5-MEMBER READY",
+        "atUpgrade": {
+          "fifth": "UNASSIGNED / TRIAL STAY",
+          "members": [
+            "洛",
+            "周映白",
+            "程牧",
+            "伊恩"
+          ]
+        },
+        "currentFifthSlot": {
+          "access": "ACTIVATION NOT YET EXPLICITLY RECORDED",
+          "candidate": "神代澪",
+          "membership": "FORMAL MEMBER"
+        }
+      }
     },
     "sharedMedicalStation": {
       "name": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
@@ -19214,10 +19298,44 @@
     },
     "campingEquipmentStatus": {
       "status": "OPERATIONAL",
-      "current": "正式遠征居住模組Ⅱ",
-      "details": "正式遠征居住模組Ⅱ｜4獨立臥室、隔音、衛浴、環控、公共區、廚房與車輛水電掛接；無人才可收折；非堡壘或無限水電",
+      "current": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+      "details": "獨立臥室×5／第五人獨立收納櫃／裝備固定區／五人衛浴與生活負荷配置／五人公共餐桌／休息區／五區環控獨立微調／第五房可切換客房／醫療值班房／保留救援車Ⅲ水電掛接／無人才可折疊收納",
       "volumeM3": "PENDING_RECALCULATION",
-      "superseded": "正式遠征露營模組Ⅰ"
+      "superseded": "正式遠征居住模組Ⅱ",
+      "configuration": {
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "limits": [
+          "非堡壘",
+          "非無限水電",
+          "不增加醫療能力或新增醫療設備"
+        ],
+        "status": "OPERATIONAL",
+        "upgrade": {
+          "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "cost": 1600,
+          "from": "正式遠征居住模組Ⅱ",
+          "payment": {
+            "洛": 380,
+            "伊恩": 380,
+            "程牧": 380,
+            "周映白": 380,
+            "publicFunds": 80
+          }
+        },
+        "bedrooms": 5,
+        "quantity": 1,
+        "functions": [
+          "獨立臥室×5",
+          "第五人獨立收納櫃／裝備固定區",
+          "五人衛浴與生活負荷配置",
+          "五人公共餐桌／休息區",
+          "五區環控獨立微調",
+          "第五房可切換客房／醫療值班房",
+          "保留救援車Ⅲ水電掛接",
+          "無人才可折疊收納"
+        ],
+        "foldedVolumeStatus": "未另提供獨立折疊體積；總已用32.95m³依本次正式口徑"
+      }
     },
     "currentMissionProgress": {
       "id": "D028",
@@ -21512,6 +21630,56 @@
       ],
       "status": "FIELD-VALIDATED / PROCEDURE / NOT SUPERNATURAL SKILL"
     },
+    "preD028FiveMemberLogistics": {
+      "id": "PRE-D028-FIVE-MEMBER-LOGISTICS",
+      "bag": {
+        "to": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "from": "四人共享次元行囊Ⅲ",
+        "branchCost": {
+          "B": 1,
+          "C": 0
+        },
+        "capacityM3": 100,
+        "freeVolumeM3": 67.05,
+        "usedVolumeM3": 32.95,
+        "additionalPoints": 0
+      },
+      "rule": "歷史兌換已反映在D028出發基準，本次不再次扣點或支線；不覆蓋D028結算後帳面。",
+      "after": {
+        "B": 0,
+        "C": 1,
+        "洛": 13374,
+        "伊恩": 17395,
+        "程牧": 11227,
+        "周映白": 17458,
+        "publicFunds": 0,
+        "privateTotal": 59454
+      },
+      "before": {
+        "B": 1,
+        "C": 1,
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 11607,
+        "周映白": 17838,
+        "publicFunds": 80
+      },
+      "status": "CONFIRMED / HISTORICAL EXPENSE ALREADY INCLUDED",
+      "housing": {
+        "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "cost": 1600,
+        "from": "正式遠征居住模組Ⅱ",
+        "payment": {
+          "洛": 380,
+          "伊恩": 380,
+          "程牧": 380,
+          "周映白": 380,
+          "publicFunds": 80
+        }
+      },
+      "recordedAt": "POST-D028補登",
+      "effectiveAt": "POST-D027 / PRE-D028｜神代澪試住期間"
+    },
     "qualityBreakthroughRoadmap": [
       {
         "cost": 6500,
@@ -23478,8 +23646,8 @@
     },
     "preD028BaselineReconciliation": {
       "id": "PRE-D028-USER-BASELINE",
-      "note": "缺少D027後至D028前的入隊、採購與支線明細；按用戶明示前額接續，不虛構支出名稱、支線用途或澪入隊費用",
-      "status": "AUTHORITATIVE BALANCES / ITEMIZED HISTORY PENDING",
+      "note": "本次補齊居住模組1600點（公共80＋四人各380）與行囊B×1；較早WIFI差額6800點及其餘B×1／C×1變動仍缺明細，不自行推定用途。",
+      "status": "PARTIALLY RECONCILED / REMAINING HISTORY PENDING",
       "publicBefore": 80,
       "branchesBefore": {
         "B": 2,
@@ -23492,6 +23660,14 @@
         "周映白": 17838
       },
       "previousVersion": 128,
+      "resolvedEventIds": [
+        "PRE-D028-FIVE-MEMBER-LOGISTICS"
+      ],
+      "remainingUnexplained": {
+        "B": 1,
+        "C": 1,
+        "程牧Points": 6800
+      },
       "confirmedPreMissionPoints": {
         "洛": 13374,
         "伊恩": 17395,

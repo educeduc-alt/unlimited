@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "section": "latestSnapshot",
   "state": {
     "latestSnapshot": {
@@ -311,17 +311,19 @@
         "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 130,
+      "version": 131,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間｜餐桌",
       "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
       "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "residence": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "sharedBag": {
-        "freeM3": 17.05,
+        "name": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "freeM3": 67.05,
         "usedM3": 32.95,
-        "capacityM3": 50,
-        "usageRatePercent": 65.9
+        "capacityM3": 100,
+        "usageRatePercent": 32.95
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
       "grandTotal": 90584,
@@ -643,6 +645,7 @@
           "返回機制"
         ]
       },
+      "sharedBagFifthAccess": "神代澪正式隊籍不變；第五取用權啟用待明示",
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION；澪擴充明細待補",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",

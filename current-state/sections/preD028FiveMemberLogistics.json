@@ -1,0 +1,60 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "section": "preD028FiveMemberLogistics",
+  "state": {
+    "preD028FiveMemberLogistics": {
+      "id": "PRE-D028-FIVE-MEMBER-LOGISTICS",
+      "bag": {
+        "to": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "from": "四人共享次元行囊Ⅲ",
+        "branchCost": {
+          "B": 1,
+          "C": 0
+        },
+        "capacityM3": 100,
+        "freeVolumeM3": 67.05,
+        "usedVolumeM3": 32.95,
+        "additionalPoints": 0
+      },
+      "rule": "歷史兌換已反映在D028出發基準，本次不再次扣點或支線；不覆蓋D028結算後帳面。",
+      "after": {
+        "B": 0,
+        "C": 1,
+        "洛": 13374,
+        "伊恩": 17395,
+        "程牧": 11227,
+        "周映白": 17458,
+        "publicFunds": 0,
+        "privateTotal": 59454
+      },
+      "before": {
+        "B": 1,
+        "C": 1,
+        "洛": 13754,
+        "伊恩": 17775,
+        "程牧": 11607,
+        "周映白": 17838,
+        "publicFunds": 80
+      },
+      "status": "CONFIRMED / HISTORICAL EXPENSE ALREADY INCLUDED",
+      "housing": {
+        "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "cost": 1600,
+        "from": "正式遠征居住模組Ⅱ",
+        "payment": {
+          "洛": 380,
+          "伊恩": 380,
+          "程牧": 380,
+          "周映白": 380,
+          "publicFunds": 80
+        }
+      },
+      "recordedAt": "POST-D028補登",
+      "effectiveAt": "POST-D027 / PRE-D028｜神代澪試住期間"
+    }
+  }
+}

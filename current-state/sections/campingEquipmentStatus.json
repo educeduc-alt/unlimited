@@ -2,16 +2,50 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "section": "campingEquipmentStatus",
   "state": {
     "campingEquipmentStatus": {
       "status": "OPERATIONAL",
-      "current": "正式遠征居住模組Ⅱ",
-      "details": "正式遠征居住模組Ⅱ｜4獨立臥室、隔音、衛浴、環控、公共區、廚房與車輛水電掛接；無人才可收折；非堡壘或無限水電",
+      "current": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+      "details": "獨立臥室×5／第五人獨立收納櫃／裝備固定區／五人衛浴與生活負荷配置／五人公共餐桌／休息區／五區環控獨立微調／第五房可切換客房／醫療值班房／保留救援車Ⅲ水電掛接／無人才可折疊收納",
       "volumeM3": "PENDING_RECALCULATION",
-      "superseded": "正式遠征露營模組Ⅰ"
+      "superseded": "正式遠征居住模組Ⅱ",
+      "configuration": {
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "limits": [
+          "非堡壘",
+          "非無限水電",
+          "不增加醫療能力或新增醫療設備"
+        ],
+        "status": "OPERATIONAL",
+        "upgrade": {
+          "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "cost": 1600,
+          "from": "正式遠征居住模組Ⅱ",
+          "payment": {
+            "洛": 380,
+            "伊恩": 380,
+            "程牧": 380,
+            "周映白": 380,
+            "publicFunds": 80
+          }
+        },
+        "bedrooms": 5,
+        "quantity": 1,
+        "functions": [
+          "獨立臥室×5",
+          "第五人獨立收納櫃／裝備固定區",
+          "五人衛浴與生活負荷配置",
+          "五人公共餐桌／休息區",
+          "五區環控獨立微調",
+          "第五房可切換客房／醫療值班房",
+          "保留救援車Ⅲ水電掛接",
+          "無人才可折疊收納"
+        ],
+        "foldedVolumeStatus": "未另提供獨立折疊體積；總已用32.95m³依本次正式口徑"
+      }
     }
   }
 }

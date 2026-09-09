@@ -2,14 +2,14 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "section": "preD028BaselineReconciliation",
   "state": {
     "preD028BaselineReconciliation": {
       "id": "PRE-D028-USER-BASELINE",
-      "note": "缺少D027後至D028前的入隊、採購與支線明細；按用戶明示前額接續，不虛構支出名稱、支線用途或澪入隊費用",
-      "status": "AUTHORITATIVE BALANCES / ITEMIZED HISTORY PENDING",
+      "note": "本次補齊居住模組1600點（公共80＋四人各380）與行囊B×1；較早WIFI差額6800點及其餘B×1／C×1變動仍缺明細，不自行推定用途。",
+      "status": "PARTIALLY RECONCILED / REMAINING HISTORY PENDING",
       "publicBefore": 80,
       "branchesBefore": {
         "B": 2,
@@ -22,6 +22,14 @@
         "周映白": 17838
       },
       "previousVersion": 128,
+      "resolvedEventIds": [
+        "PRE-D028-FIVE-MEMBER-LOGISTICS"
+      ],
+      "remainingUnexplained": {
+        "B": 1,
+        "C": 1,
+        "程牧Points": 6800
+      },
       "confirmedPreMissionPoints": {
         "洛": 13374,
         "伊恩": 17395,

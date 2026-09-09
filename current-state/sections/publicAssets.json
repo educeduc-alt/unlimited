@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 130,
-  "updated_at": "2026-09-08T13:32:56.75035+00:00",
+  "version": 131,
+  "updated_at": "2026-09-09T10:53:44.461511+00:00",
   "section": "publicAssets",
   "state": {
     "publicAssets": [
@@ -504,7 +504,7 @@
         "paidBy": "公共資金",
         "status": "OPERATIONAL",
         "purpose": "長期任務正常熱食與士氣後勤",
-        "mounting": "可拆卸式；平時完整折疊收納於共享次元行囊Ⅱ",
+        "mounting": "可拆卸式；平時折疊收納於五人共享次元行囊Ⅳ｜遠征整合型",
         "quantity": 1,
         "volumeM3": 3,
         "equipment": [
@@ -541,7 +541,7 @@
           "無限航程否"
         ],
         "status": "FIELD-VALIDATED / OPERATIONAL",
-        "storage": "四人共享次元行囊Ⅲ｜5.5m³",
+        "storage": "五人共享次元行囊Ⅳ｜遠征整合型｜5.5m³",
         "weapons": [
           "可變向輕型能量炮×2",
           "防禦性攔截器×1組"
@@ -582,19 +582,43 @@
         "permanentHullDamage": false
       },
       {
-        "cost": 650,
-        "name": "正式遠征居住模組Ⅱ",
+        "cost": 1600,
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
         "type": "長距離遠征營地設備",
+        "limits": [
+          "非堡壘",
+          "非無限水電",
+          "不增加醫療能力或新增醫療設備"
+        ],
         "status": "OPERATIONAL",
+        "upgrade": {
+          "to": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "cost": 1600,
+          "from": "正式遠征居住模組Ⅱ",
+          "payment": {
+            "洛": 380,
+            "伊恩": 380,
+            "程牧": 380,
+            "周映白": 380,
+            "publicFunds": 80
+          }
+        },
+        "bedrooms": 5,
         "quantity": 1,
         "volumeM3": 2.5,
         "functions": [
-          "四人多日宿營",
-          "營地收納",
-          "氣候遮蔽",
-          "長期遠征休整"
+          "獨立臥室×5",
+          "第五人獨立收納櫃／裝備固定區",
+          "五人衛浴與生活負荷配置",
+          "五人公共餐桌／休息區",
+          "五區環控獨立微調",
+          "第五房可切換客房／醫療值班房",
+          "保留救援車Ⅲ水電掛接",
+          "無人才可折疊收納"
         ],
-        "supersedes": "四人份輕量露營模組"
+        "supersedes": "正式遠征居住模組Ⅱ",
+        "foldedVolumeStatus": "未另提供獨立折疊體積；總已用32.95m³依本次正式口徑",
+        "historicalOriginalCost": 650
       },
       {
         "cost": 900,

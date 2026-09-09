@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 131,
+  "version": 134,
   "schema_version": "v44",
-  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v131.json",
+  "versioned": "current-state/v134.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -51,6 +51,7 @@
     "medicalDistribution": "current-state/sections/medicalDistribution.json",
     "medicalReconciliation": "current-state/sections/medicalReconciliation.json",
     "medicalSystem": "current-state/sections/medicalSystem.json",
+    "mioPrivateStorage": "current-state/sections/mioPrivateStorage.json",
     "mioProfile": "current-state/sections/mioProfile.json",
     "mission": "current-state/sections/mission.json",
     "missionHistory": "current-state/sections/missionHistory.json",
@@ -148,6 +149,7 @@
     "version": "current-state/sections/version.json",
     "waitingState": "current-state/sections/waitingState.json",
     "waterCapabilities": "current-state/sections/waterCapabilities.json",
+    "wifiSpaceTimeArrowIntegration": "current-state/sections/wifiSpaceTimeArrowIntegration.json",
     "worldIntelligence": "current-state/sections/worldIntelligence.json"
   },
   "rule": "ChatGPT should read this manifest first, use the highest archived version, then open only the relevant section files when possible. Older conversation data must not overwrite the archived version."

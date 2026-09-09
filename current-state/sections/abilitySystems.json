@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 131,
-  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "version": 134,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "abilitySystems",
   "state": {
     "abilitySystems": {
@@ -455,6 +455,66 @@
           "use": "曲折箭都市障礙／轉角／掩體主動射線",
           "limits": "不必中、不追蹤、不自動判敵",
           "status": "FIELD-VALIDATED"
+        },
+        "spaceTimeArrowIntegration": {
+          "core": "曲折改變方向；時空箭以ENTRY／EXIT改變箭矢所在位置。需整合出口方向、箭速、轉向時機、遮蔽、友軍與命中線。",
+          "name": "曲折箭Ⅰ × 遠距離時空箭Ⅰ",
+          "tests": [
+            {
+              "name": "曲折→50m時空跳躍",
+              "notes": "出口後需修正姿態；精神及彈道領域負荷高於單獨50m；節點穩定良好",
+              "status": "PRACTICAL",
+              "target": "固定靶",
+              "trials": "3/3 PASS"
+            },
+            {
+              "name": "50m時空跳躍→曲折",
+              "notes": "出口後可曲折；箭速損失更明顯、姿態控制要求更高；精神負荷中高",
+              "status": "PRACTICAL / HIGHER LOAD",
+              "target": "側向固定靶",
+              "trials": "3/3 PASS"
+            },
+            {
+              "name": "近90°曲折→50m時空跳躍",
+              "notes": "精神負荷高、姿態與箭速損失明顯；連發未測",
+              "status": "CONDITIONAL / HIGH-RISK PRECISION SHOT",
+              "target": "大型固定靶／非中心命中",
+              "trials": "單發PASS"
+            },
+            {
+              "name": "100m時空跳躍→中等曲折",
+              "notes": "第3發精神負荷明顯；不建議常規連發",
+              "status": "USABLE / HIGHER LOAD",
+              "target": "固定靶",
+              "trials": "單發穩定／2發短序列PASS／第3發可完成"
+            }
+          ],
+          "limits": [
+            "不是必中／自動追蹤",
+            "出口及目標位置須已知",
+            "不是取消姿態與箭速損失",
+            "負荷主要涉及彈道領域、空間節點與專注力，不代表無身體負荷",
+            "試射不能直接推定永久耗箭，回收與消耗未逐支確認"
+          ],
+          "status": "FIELD-COMPATIBLE / INITIAL INTEGRATION PASS",
+          "aliases": [
+            "超時空箭（隊內俗稱）"
+          ],
+          "purchase": "既有能力正式補登；兌換日期、費用及獨立射程上限仍未提供，本次不扣款",
+          "untested": [
+            "移動靶",
+            "多次空間跳躍",
+            "200m＋曲折",
+            "複數極端轉向"
+          ],
+          "loadOrder": [
+            "單獨曲折箭",
+            "單獨50m時空跳躍",
+            "曲折＋50m跳躍",
+            "100m跳躍＋曲折",
+            "高角度曲折＋跳躍"
+          ],
+          "effectiveAt": "澪已入隊後／WIFI恢復後靶場校準；確切相對D028日期未另指定"
         }
       },
       "周映白": {

@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 131,
-  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "version": 134,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "coreAbilityCards",
   "state": {
     "coreAbilityCards": {
@@ -430,6 +430,64 @@
               "多次連續極端直角折返"
             ]
           }
+        },
+        {
+          "core": "曲折改變方向；時空箭以ENTRY／EXIT改變箭矢所在位置。需整合出口方向、箭速、轉向時機、遮蔽、友軍與命中線。",
+          "name": "遠距離時空箭Ⅰ",
+          "type": "ENTRY／EXIT實體箭矢空間跳躍｜俗稱超時空箭",
+          "limits": [
+            "不是必中／自動追蹤",
+            "出口及目標位置須已知",
+            "不是取消姿態與箭速損失",
+            "負荷主要涉及彈道領域、空間節點與專注力，不代表無身體負荷",
+            "試射不能直接推定永久耗箭，回收與消耗未逐支確認"
+          ],
+          "status": "CONFIRMED / INITIAL INTEGRATION PASS",
+          "branches": [
+            {
+              "name": "已確認",
+              "detail": "50m及100m固定靶聯動測試成立；不等同最大射程"
+            },
+            {
+              "name": "未補造",
+              "detail": "取得日期、兌換成本、200m能力、最大跳躍距離與連發上限未提供"
+            }
+          ]
+        },
+        {
+          "core": "50m聯動實用；100m可用但負荷明顯；近90°＋50m僅單發確認。",
+          "name": "曲折箭Ⅰ × 遠距離時空箭Ⅰ",
+          "type": "既有能力聯動校準／非另購新技能",
+          "limits": [
+            "不是必中／自動追蹤",
+            "出口及目標位置須已知",
+            "不是取消姿態與箭速損失",
+            "負荷主要涉及彈道領域、空間節點與專注力，不代表無身體負荷",
+            "試射不能直接推定永久耗箭，回收與消耗未逐支確認"
+          ],
+          "status": "FIELD-COMPATIBLE / INITIAL INTEGRATION PASS",
+          "branches": [
+            {
+              "name": "曲折→50m時空跳躍",
+              "detail": "3/3 PASS｜PRACTICAL｜出口後需修正姿態；精神及彈道領域負荷高於單獨50m；節點穩定良好"
+            },
+            {
+              "name": "50m時空跳躍→曲折",
+              "detail": "3/3 PASS｜PRACTICAL / HIGHER LOAD｜出口後可曲折；箭速損失更明顯、姿態控制要求更高；精神負荷中高"
+            },
+            {
+              "name": "近90°曲折→50m時空跳躍",
+              "detail": "單發PASS｜CONDITIONAL / HIGH-RISK PRECISION SHOT｜精神負荷高、姿態與箭速損失明顯；連發未測"
+            },
+            {
+              "name": "100m時空跳躍→中等曲折",
+              "detail": "單發穩定／2發短序列PASS／第3發可完成｜USABLE / HIGHER LOAD｜第3發精神負荷明顯；不建議常規連發"
+            },
+            {
+              "name": "未測",
+              "detail": "移動靶／多次空間跳躍／200m＋曲折／複數極端轉向"
+            }
+          ]
         }
       ],
       "周映白": [

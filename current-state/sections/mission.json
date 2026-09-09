@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 131,
-  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "version": 134,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "mission",
   "state": {
     "mission": "D028《無人村的第十三盞燈》｜COMPLETE｜S"

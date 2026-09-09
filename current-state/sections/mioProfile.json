@@ -2,8 +2,8 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 131,
-  "updated_at": "2026-09-09T10:53:44.461511+00:00",
+  "version": 134,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "mioProfile",
   "state": {
     "mioProfile": {
@@ -160,6 +160,64 @@
         "伊恩": "尊重界線、專業與談話步調；友情自然發展，不強制公開私事。",
         "程牧": "資訊→行動的協作；接受資料核對，不把局部觀察当成全局。",
         "周映白": "後送與醫療分工：香蕉找到／接到／搬出，澪判斷／穩定／治療。"
+      },
+      "currentStorage": {
+        "id": "MIO-PRIVATE",
+        "name": "神代澪｜私人裝備收納區",
+        "rule": "僅改變存放位置，不轉移所有權；不將歷史私人食水量當作當前實存數量",
+        "grade": "M",
+        "owner": "神代澪",
+        "access": "OWNER-RESTRICTED",
+        "status": "STORED / FORMAL VOLUME AUDIT",
+        "contents": [
+          {
+            "name": "折疊後大型背包本體",
+            "volumeM3": 0.1
+          },
+          {
+            "name": "漂浮足",
+            "volumeM3": 0.15
+          },
+          {
+            "name": "黏附足／掌",
+            "volumeM3": 0.12
+          },
+          {
+            "name": "折疊風箏翼",
+            "volumeM3": 0.35
+          },
+          {
+            "name": "單人露營組",
+            "volumeM3": 0.35
+          },
+          {
+            "name": "私人乾糧／飲水／小型淨水器",
+            "volumeM3": 0.36
+          },
+          {
+            "name": "個人診斷組",
+            "volumeM3": 0.1
+          },
+          {
+            "name": "急救治療組",
+            "volumeM3": 0.15
+          },
+          {
+            "name": "感染防護PPE組",
+            "volumeM3": 0.18
+          },
+          {
+            "name": "換洗衣物／便服／盥洗用品",
+            "volumeM3": 0.15
+          },
+          {
+            "name": "終端、修理工具、繩索、連接件、防水袋",
+            "volumeM3": 0.2
+          }
+        ],
+        "volumeM3": 2.21,
+        "battleCarry": "雙刀、忍具袋、必要醫療／通訊與任務工具",
+        "publicAsset": false
       }
     }
   }

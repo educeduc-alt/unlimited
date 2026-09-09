@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 134,
+  "version": 135,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "sharedDimensionalBag",
   "state": {
@@ -131,10 +131,10 @@
           "id": "M-Food",
           "name": "遠征正常料理食材區",
           "grade": "M-Food",
-          "status": "STOCKED / CURRENT",
+          "status": "LAST AUDITED BASELINE / D028 PENDING AUDIT",
           "contents": {
-            "四人15日料理組／60人日": true,
-            "冷藏食材與常溫主食分區存放": true
+            "冷藏食材與常溫主食分區存放": true,
+            "正常料理食材60人日／五人約12日": true
           },
           "volumeM3": 4.5
         },
@@ -321,7 +321,7 @@
       },
       "capacity": "100m³ TOTAL SHARED",
       "features": [
-        "五人權限架構：5-MEMBER READY",
+        "五人權限架構：5-MEMBER ENABLED",
         "智能分區索引：需求→定位→對應快取口，僅限實存物品",
         "五組角色／專業快取",
         "醫療緊急釋放：優先排列已登錄救援醫療物資，不自行診斷或治療",
@@ -341,15 +341,16 @@
       "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
-        "最後明確確認的綁定成員：洛、周映白、程牧、伊恩",
-        "神代澪已於D028成為正式隊員；第五取用權是否實際啟用尚待確認，不因試住歷史倒退隊籍",
-        "本次確認神代澪私人收納區OWNER-RESTRICTED；不因此推定所有公共物資取用權已啟用"
+        "五名正式隊員一般共享物資取用權：ENABLED",
+        "神代澪私人裝備區：OWNER-RESTRICTED；他人不得任意取用",
+        "共享取用權不轉移私人所有權或專屬設備操作資格"
       ],
       "boundMembers": [
         "洛",
         "周映白",
         "伊恩",
-        "程牧"
+        "程牧",
+        "神代澪"
       ],
       "capacityRule": "全隊共同100m³，非每人100m³",
       "freeVolumeM3": 60.97,
@@ -524,7 +525,7 @@
       "vehicleMaintenanceM3": 0.94,
       "permissionArchitecture": {
         "slots": 5,
-        "status": "5-MEMBER READY",
+        "status": "5-MEMBER ENABLED",
         "atUpgrade": {
           "fifth": "UNASSIGNED / TRIAL STAY",
           "members": [
@@ -535,9 +536,10 @@
           ]
         },
         "currentFifthSlot": {
-          "access": "ACTIVATION NOT YET EXPLICITLY RECORDED",
-          "candidate": "神代澪",
-          "membership": "FORMAL MEMBER"
+          "access": "ENABLED",
+          "member": "神代澪",
+          "membership": "FORMAL MEMBER",
+          "privateStorageAccess": "OWNER-RESTRICTED"
         }
       }
     }

@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 134,
+  "version": 135,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "state": {
     "ammo": {
@@ -3084,7 +3084,7 @@
       }
     },
     "mission": "D028《無人村的第十三盞燈》｜COMPLETE｜S",
-    "version": 134,
+    "version": 135,
     "bestiary": [
       {
         "id": "M001",
@@ -5846,10 +5846,10 @@
       "生命維持凝膠": 1,
       "遠征緊急乾糧": "99人日",
       "遠征緊急飲水": "99人日",
-      "四人15日料理組": "60人日／四人15天｜POST-D027補貨完成",
       "中級創傷應急劑": 1,
       "基礎創傷應急劑": 2,
       "智能警戒哨兵Ⅰ": 2,
+      "正常料理食材組": "60人日／五人完全依賴時約12日｜最後正式盤點量，D028消耗待盤點",
       "速效冷療噴霧Ⅰ": 8,
       "進階創傷處理包": 1,
       "一次性醫療手套組": 19,
@@ -6149,9 +6149,9 @@
     },
     "carrySystem": {
       "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ｜遠征整合型分區管理。",
-      "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（162 READY／分項已盤點與補滿）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。",
+      "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（162 READY／分項已盤點與補滿）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。 神代澪＝雙忍刀＋忍具袋＋微型戰術燈＋必要止血物＋通訊終端＋任務指定工具。",
       "layer2": "個人衣裝／模組快取：四套寒區完整套組分別收在各自衣裝空間；自律式折疊救難醫療站Ⅲ收在周映白模組庫Ⅲ大型預備位；灰隼備用弓弦與弓具維修包收在程牧低頻快取。",
-      "layer3": "共享行囊：S快速小物、M中型設備、L大型設備、XL載具、S-Food緊急食水、M-Food料理食材、XL-Starship星際載具。",
+      "layer3": "共享行囊：S快速小物、M中型設備、L大型設備、XL載具、S-Food緊急食水、M-Food料理食材、XL-Starship星際載具。 神代澪其餘已盤點私人設備放MIO-PRIVATE限制區（2.21m³），不重複列為隨身或公共資產。",
       "limits": [
         "個人快取不是無限背包",
         "共享行囊取物仍需時間與可行動條件",
@@ -6160,7 +6160,7 @@
         "不自動生成未擁有的工具或耗材"
       ],
       "status": "CURRENT / ORGANIZED",
-      "version": "v90",
+      "version": "v135",
       "storageAssignments": {
         "寒區完整套組Ⅰ×4": "分別存於四人衣裝空間模組；不占共享行囊",
         "深潛救援裝備組Ⅰ": "共享行囊L區；周映白為唯一正式操作者",
@@ -7359,13 +7359,15 @@
         "status": "PENDING LOGISTICS AUDIT"
       },
       "emergency": {
-        "storage": "S-Food／共享次元行囊Ⅲ遠征食水分區",
+        "storage": "S-Food／共享次元行囊Ⅳ遠征食水分區",
+        "teamSize": 5,
+        "durationNote": "按最後正式99人日÷5＝19.8日；非D028返還實測餘量，高負荷飲水消耗另計",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
         "waterPersonDays": 99,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
         "rationsPersonDays": 99,
-        "teamIndependentDurationDays": 24.75
+        "teamIndependentDurationDays": 19.8
       },
       "livingStock": {
         "name": "主神空間生活用四人10天份食材",
@@ -7373,8 +7375,9 @@
         "status": "SEPARATE STOCK / PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "cookingGroup": {
-        "rule": "四人15天可烹飪遠征食材；不等於全部為生鮮",
-        "storage": "M-Food／共享次元行囊Ⅲ遠征料理分區",
+        "rule": "正常料理食材60人日＝五人完全依賴時約12日；不等於全部為生鮮；D028實際消耗待盤點，60人日為最後正式盤點量",
+        "storage": "M-Food／共享次元行囊Ⅳ遠征料理分區",
+        "teamSize": 5,
         "personDays": 60,
         "composition": [
           "耐放主食",
@@ -7383,7 +7386,7 @@
           "有限易腐食材"
         ],
         "accountingNote": "POST-D027｜返還56人日，補4→60人日；已正式重建補貨後基準",
-        "teamDurationDays": 15
+        "teamDurationDays": 12
       },
       "accountingMode": "人日；實際使用後才扣除",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
@@ -9436,7 +9439,7 @@
           "返回機制"
         ]
       },
-      "sharedBagFifthAccess": "神代澪正式隊籍不變；第五取用權啟用待明示",
+      "sharedBagFifthAccess": "神代澪第五成員一般取用權：ENABLED；私人區OWNER-RESTRICTED，他人不得任意取用",
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION；澪擴充明細待補",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",
@@ -19170,10 +19173,10 @@
           "id": "M-Food",
           "name": "遠征正常料理食材區",
           "grade": "M-Food",
-          "status": "STOCKED / CURRENT",
+          "status": "LAST AUDITED BASELINE / D028 PENDING AUDIT",
           "contents": {
-            "四人15日料理組／60人日": true,
-            "冷藏食材與常溫主食分區存放": true
+            "冷藏食材與常溫主食分區存放": true,
+            "正常料理食材60人日／五人約12日": true
           },
           "volumeM3": 4.5
         },
@@ -19360,7 +19363,7 @@
       },
       "capacity": "100m³ TOTAL SHARED",
       "features": [
-        "五人權限架構：5-MEMBER READY",
+        "五人權限架構：5-MEMBER ENABLED",
         "智能分區索引：需求→定位→對應快取口，僅限實存物品",
         "五組角色／專業快取",
         "醫療緊急釋放：優先排列已登錄救援醫療物資，不自行診斷或治療",
@@ -19380,15 +19383,16 @@
       "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
-        "最後明確確認的綁定成員：洛、周映白、程牧、伊恩",
-        "神代澪已於D028成為正式隊員；第五取用權是否實際啟用尚待確認，不因試住歷史倒退隊籍",
-        "本次確認神代澪私人收納區OWNER-RESTRICTED；不因此推定所有公共物資取用權已啟用"
+        "五名正式隊員一般共享物資取用權：ENABLED",
+        "神代澪私人裝備區：OWNER-RESTRICTED；他人不得任意取用",
+        "共享取用權不轉移私人所有權或專屬設備操作資格"
       ],
       "boundMembers": [
         "洛",
         "周映白",
         "伊恩",
-        "程牧"
+        "程牧",
+        "神代澪"
       ],
       "capacityRule": "全隊共同100m³，非每人100m³",
       "freeVolumeM3": 60.97,
@@ -19563,7 +19567,7 @@
       "vehicleMaintenanceM3": 0.94,
       "permissionArchitecture": {
         "slots": 5,
-        "status": "5-MEMBER READY",
+        "status": "5-MEMBER ENABLED",
         "atUpgrade": {
           "fifth": "UNASSIGNED / TRIAL STAY",
           "members": [
@@ -19574,9 +19578,10 @@
           ]
         },
         "currentFifthSlot": {
-          "access": "ACTIVATION NOT YET EXPLICITLY RECORDED",
-          "candidate": "神代澪",
-          "membership": "FORMAL MEMBER"
+          "access": "ENABLED",
+          "member": "神代澪",
+          "membership": "FORMAL MEMBER",
+          "privateStorageAccess": "OWNER-RESTRICTED"
         }
       }
     },
@@ -24486,6 +24491,28 @@
         },
         "d021ConsumptionRatePercent": 38,
         "d026ConsumptionRatePercent": 15
+      }
+    },
+    "fiveMemberLogisticsCorrection": {
+      "status": "CONFIRMED / NO CHARGE",
+      "cooking": "60人日／五人約12日／4.5m³不變",
+      "version": 135,
+      "noChanges": [
+        "點數",
+        "支線",
+        "物資數量",
+        "行囊體積",
+        "四人共鳴錨Ⅰ",
+        "旅星四人配置及操作資格",
+        "原四人寒區完整套組"
+      ],
+      "generalAccess": "神代澪ENABLED",
+      "privateAccess": "OWNER-RESTRICTED",
+      "pendingAuditRequirements": {
+        "arrows": "各箭種返還實體／READY／可修復／永久損失數量",
+        "billing": "派對飲料與床具更換價格、付款來源",
+        "medical": "醫療站返還耗材比例及獨立品項實際消耗",
+        "logistics": "食水消耗人日或正式剩餘盤點；主神空間生活庫存分開"
       }
     },
     "postD016ColdRegionProcurement": {

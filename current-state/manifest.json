@@ -1,10 +1,10 @@
 {
   "authority": "AI主神資料庫 CURRENT STATE｜GitHub verification mirror",
-  "version": 134,
+  "version": 135,
   "schema_version": "v44",
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "latest": "current-state/latest.json",
-  "versioned": "current-state/v134.json",
+  "versioned": "current-state/v135.json",
   "sections": {
     "abilities": "current-state/sections/abilities.json",
     "abilityInterfaceUpdate": "current-state/sections/abilityInterfaceUpdate.json",
@@ -37,6 +37,7 @@
     "endgameForeshadowing": "current-state/sections/endgameForeshadowing.json",
     "equipmentDetails": "current-state/sections/equipmentDetails.json",
     "equipmentDisplayRules": "current-state/sections/equipmentDisplayRules.json",
+    "fiveMemberLogisticsCorrection": "current-state/sections/fiveMemberLogisticsCorrection.json",
     "foodLogistics": "current-state/sections/foodLogistics.json",
     "historyArchive": "current-state/sections/historyArchive.json",
     "inventory": "current-state/sections/inventory.json",

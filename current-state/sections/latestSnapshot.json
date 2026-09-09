@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 134,
+  "version": 135,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "latestSnapshot",
   "state": {
@@ -648,7 +648,7 @@
           "返回機制"
         ]
       },
-      "sharedBagFifthAccess": "神代澪正式隊籍不變；第五取用權啟用待明示",
+      "sharedBagFifthAccess": "神代澪第五成員一般取用權：ENABLED；私人區OWNER-RESTRICTED，他人不得任意取用",
       "relationshipMilestone": "POST-D025｜洛正式再次求婚，伊恩自主接受；雙方婚約成立。",
       "sharedResonanceAnchor": "四人共鳴錨Ⅰ｜ACQUIRED / INITIAL CALIBRATION；澪擴充明細待補",
       "starshipQualification": "四人小型星艦基礎操作資格｜CONFIRMED／Day 8 PASS",

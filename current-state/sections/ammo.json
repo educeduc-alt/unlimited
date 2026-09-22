@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "ammo",
   "state": {
@@ -81,6 +81,31 @@
           "irreparable": 0,
           "permanentLoss": 0,
           "cleanedCalibrated": 4
+        },
+        {
+          "node": "D028",
+          "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+          "fired": 0,
+          "result": "162 / 162 READY",
+          "status": "FORMAL AUDIT COMPLETE",
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+          "recovered": 0,
+          "afterReady": 162,
+          "beforeReady": 162,
+          "afterPhysical": 162,
+          "permanentLoss": 0
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -111,13 +136,30 @@
         "cleanedCalibrated": 4
       },
       "d028Result": {
-        "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-        "status": "PENDING AUDIT",
-        "lastAuditedReady": 162,
-        "lastAuditedPhysical": 162,
-        "confirmedPermanentLoss": 0
+        "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+        "fired": 0,
+        "result": "162 / 162 READY",
+        "status": "FORMAL AUDIT COMPLETE",
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "recovered": 0,
+        "afterReady": 162,
+        "beforeReady": 162,
+        "afterPhysical": 162,
+        "permanentLoss": 0
       },
-      "lastUpdate": "D028返還：待逐支審計，數量沿用最後正式基準",
+      "lastUpdate": "D028返還正式審計：無射擊／無淨消耗",
       "combatReady": 162,
       "currentTotal": 162,
       "repairModule": {
@@ -168,7 +210,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "PENDING AUDIT / LAST AUDITED 162 READY",
+      "inventoryStatus": "FORMAL AUDIT COMPLETE / 162 READY",
       "postD026Restock": {
         "id": "POST-D026-ARROW-RESTOCK-800",
         "cost": 800,

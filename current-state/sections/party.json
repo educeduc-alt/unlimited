@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "party",
   "state": {
@@ -15,7 +15,7 @@
         "title": "隊長",
         "gender": "男",
         "mental": "高階認知完整",
-        "points": 19074,
+        "points": 18994,
         "nenType": "強化系",
         "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
         "heightCm": 175,
@@ -23,7 +23,7 @@
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 19074,
+        "rewardPoints": 18994,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -257,7 +257,7 @@
         "status": "ACTIVE / FORMAL MEMBER",
         "stamina": "首次固定五人隊實戰完成／餐桌休息",
         "nickname": "澪",
-        "equipment": "雙忍者太刀／忍具袋／普通大型遠征背包／環境輔助與個人醫療裝備",
+        "equipment": "雙忍刀／忍具袋／微型戰術燈／必要止血物／通訊／紀錄終端／任務指定工具",
         "appearance": "黑色長髮、冷冽俐落的女性；深黑與靛藍衣裝、雙刀與醫療攜行配置。外觀依本次提供肖像，不從圖片推定身高或裝備能力。",
         "membership": {
           "source": "D028正式結算明示",
@@ -265,7 +265,9 @@
           "firstMission": "D028",
           "earlierRecruitmentRecord": "PRE-D028 HISTORICAL RECORD ADDED"
         },
+        "trialStatus": "ENDED",
         "rewardPoints": 6330,
+        "sharedBagGeneralAccess": "ENABLED",
         "postD028FieldValidation": {
           "confirmed": [
             "單人晨間偵查",

@@ -2,32 +2,57 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "foodLogistics",
   "state": {
     "foodLogistics": {
-      "status": "PENDING LOGISTICS AUDIT",
+      "status": "POST-D028 FORMAL AUDIT COMPLETE",
       "d028Audit": {
         "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
+        "after": {
+          "waterPersonDays": 91,
+          "cookingPersonDays": 52,
+          "emergencyRationsPersonDays": 99
+        },
+        "before": {
+          "waterPersonDays": 99,
+          "cookingPersonDays": 60,
+          "emergencyRationsPersonDays": 99
+        },
         "events": [
           "Night 1大量料理",
           "Day 2早餐",
           "返回後炸雞／薯條／飲料",
           "隔日日式早餐"
         ],
-        "status": "PENDING LOGISTICS AUDIT"
+        "status": "FORMAL AUDIT COMPLETE",
+        "consumed": {
+          "waterPersonDays": 8,
+          "cookingPersonDays": 8,
+          "emergencyRationsPersonDays": 0
+        },
+        "authority": "POST-D028主神實物掃描",
+        "missionEvents": [
+          "D028 Night 1隊伍與獲救搜救隊員熱食",
+          "D028 Day 2隊伍與獲救搜救隊員早餐"
+        ],
+        "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
       },
       "emergency": {
+        "rule": "高溫、高強度活動與特殊環境會增加實際飲水需求。",
         "storage": "S-Food／共享次元行囊Ⅳ遠征食水分區",
+        "duration": {
+          "waterDaysForFive": 18.2,
+          "rationsDaysForFive": 19.8
+        },
         "teamSize": 5,
-        "durationNote": "按最後正式99人日÷5＝19.8日；非D028返還實測餘量，高負荷飲水消耗另計",
+        "durationNote": "乾糧99人日＝五人19.8日；飲水91人日＝五人18.2日",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
-        "waterPersonDays": 99,
+        "waterPersonDays": 91,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
-        "rationsPersonDays": 99,
-        "teamIndependentDurationDays": 19.8
+        "rationsPersonDays": 99
       },
       "livingStock": {
         "name": "主神空間生活用四人10天份食材",
@@ -35,20 +60,25 @@
         "status": "SEPARATE STOCK / PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "cookingGroup": {
-        "rule": "正常料理食材60人日＝五人完全依賴時約12日；不等於全部為生鮮；D028實際消耗待盤點，60人日為最後正式盤點量",
+        "rule": "正常料理食材以人日計算；五人完全依賴52人日時約10.4日；不代表全部為生鮮。",
         "storage": "M-Food／共享次元行囊Ⅳ遠征料理分區",
         "teamSize": 5,
-        "personDays": 60,
+        "personDays": 52,
         "composition": [
           "耐放主食",
           "長期保存配菜",
           "長期保存蛋白質",
           "有限易腐食材"
         ],
-        "accountingNote": "POST-D027｜返還56人日，補4→60人日；已正式重建補貨後基準",
-        "teamDurationDays": 12
+        "accountingNote": "D028正式審計：60−8＝52人日；返回後生活料理另帳，不重複扣遠征庫存",
+        "teamDurationDays": 10.4
       },
-      "accountingMode": "人日；實際使用後才扣除",
+      "storageVolume": {
+        "rule": "目前分區採正式收納包絡容量，不因少量消耗即逐餐縮減分區體積。",
+        "M-FoodM3": 4.5,
+        "S-FoodM3": 5.445
+      },
+      "accountingMode": "人日",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
       "d026Consumption": {
         "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",

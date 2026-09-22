@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "medicalSystem",
   "state": {
@@ -13,6 +13,38 @@
         "需要進一步判斷→攜行式創傷掃描器",
         "符合修復條件→便攜式組織修復儀Ⅰ"
       ],
+      "d028Audit": {
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
+      },
       "validated": "FIRST FORMAL VALIDATION / PRACTICAL / FIELD-READY；醫療站100%有限耗材，香蕉可离站；高風險需人工決策；伊恩條件式支援增加自身負荷。",
       "carryDoctrine": "分散攜帶／集中技術",
       "standardChain": "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點 → 香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口 → 需要時空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點監測／穩定門框 → 乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測 → 香蕉返回現場繼續救援",

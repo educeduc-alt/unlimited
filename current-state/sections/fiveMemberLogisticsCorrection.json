@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "fiveMemberLogisticsCorrection",
   "state": {
@@ -26,7 +26,8 @@
         "billing": "派對飲料與床具更換價格、付款來源",
         "medical": "醫療站返還耗材比例及獨立品項實際消耗",
         "logistics": "食水消耗人日或正式剩餘盤點；主神空間生活庫存分開"
-      }
+      },
+      "pendingAuditRequirementsStatus": "RESOLVED BY v136 POST-D028 FORMAL AUDIT"
     }
   }
 }

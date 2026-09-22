@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "sharedDimensionalBag",
   "state": {
@@ -119,22 +119,22 @@
           "id": "S-Food",
           "name": "遠征緊急食水區",
           "grade": "S-Food",
-          "status": "FORMAL VOLUME CORRECTION",
+          "status": "POST-D028 FORMAL AUDIT COMPLETE",
           "contents": {
             "遠征緊急乾糧99人日": true,
-            "遠征緊急飲水99人日": true
+            "遠征緊急飲水91人日": true
           },
           "volumeM3": 5.445,
-          "calculation": "2.2 × 99 ÷ 40 = 5.445m³"
+          "calculation": "5.445m³為正式分區包絡容量，食水少量消耗不縮減"
         },
         {
           "id": "M-Food",
           "name": "遠征正常料理食材區",
           "grade": "M-Food",
-          "status": "LAST AUDITED BASELINE / D028 PENDING AUDIT",
+          "status": "POST-D028 FORMAL AUDIT COMPLETE",
           "contents": {
             "冷藏食材與常溫主食分區存放": true,
-            "正常料理食材60人日／五人約12日": true
+            "正常料理食材52人日／五人約10.4日": true
           },
           "volumeM3": 4.5
         },
@@ -220,7 +220,7 @@
         "不能裝劇烈釋放能量中的危險物",
         "不能裝主神／副本禁止攜帶物"
       ],
-      "status": "EVOLVED / OPERATIONAL / BOUND / ONLINE",
+      "status": "OPERATIONAL / FIVE-MEMBER ENABLED",
       "allowed": [
         "一般裝備",
         "公共醫療",
@@ -297,8 +297,8 @@
             "icon": "🥤",
             "items": [
               "遠征緊急乾糧99人日",
-              "遠征緊急飲水99人日",
-              "正常料理食材60人日"
+              "遠征緊急飲水91人日",
+              "正常料理食材52人日／五人10.4日"
             ],
             "label": "遠征食水"
           },
@@ -338,7 +338,7 @@
         "劇烈釋放能量中的危險物",
         "主神／副本禁止攜帶物"
       ],
-      "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
+      "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計；折疊式多地形救援機車Ⅰ預設外掛於救援車Ⅲ，因此不改變39.03m³正式已用容量。若機車折疊收入共享行囊，當次已用容量暫時增加0.85m³。",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
         "五名正式隊員一般共享物資取用權：ENABLED",
@@ -493,7 +493,13 @@
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
       "volumeAuditNote": "用戶正式標準化盤點：居住模組Ⅲ沿用四人版折疊密度，2.5×5÷4＝3.125m³；非歷史實測。總已用39.030m³／剩餘60.970m³。",
       "vehiclePackageM3": 5.05,
-      "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
+      "inventorySyncRule": "數量依POST-D028正式審計99／91／52人日；分區容積固定；私人與共享不重複計帳。",
+      "motorcycleStorage": {
+        "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+        "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+        "foldedIntoSharedBagM3": 0.85,
+        "sharedBagDefaultImpactM3": 0
+      },
       "volumeAuditStatus": "FORMAL STANDARDIZED / COMPLETE",
       "professionalCaches": {
         "洛": "近戰／承重",
@@ -504,7 +510,7 @@
       },
       "volumeAuditVersion": "v133",
       "existingLogisticsM3": 8.3,
-      "inventorySyncVersion": "v90",
+      "inventorySyncVersion": "v136",
       "isolationCompartment": {
         "uses": [
           "未知樣本",
@@ -526,6 +532,13 @@
       "permissionArchitecture": {
         "slots": 5,
         "status": "5-MEMBER ENABLED",
+        "members": [
+          "洛",
+          "周映白",
+          "程牧",
+          "伊恩",
+          "神代澪"
+        ],
         "atUpgrade": {
           "fifth": "UNASSIGNED / TRIAL STAY",
           "members": [
@@ -534,6 +547,11 @@
             "程牧",
             "伊恩"
           ]
+        },
+        "神代澪": {
+          "membership": "FORMAL MEMBER",
+          "generalSharedAccess": "ENABLED",
+          "privateStorageAccess": "OWNER-RESTRICTED"
         },
         "currentFifthSlot": {
           "access": "ENABLED",

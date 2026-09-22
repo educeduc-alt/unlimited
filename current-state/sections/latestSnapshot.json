@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "latestSnapshot",
   "state": {
@@ -16,7 +16,7 @@
           "title": "隊長",
           "gender": "男",
           "mental": "高階認知完整",
-          "points": 19074,
+          "points": 18994,
           "nenType": "強化系",
           "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 175,
@@ -24,7 +24,7 @@
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 19074,
+          "rewardPoints": 18994,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -258,7 +258,7 @@
           "status": "ACTIVE / FORMAL MEMBER",
           "stamina": "首次固定五人隊實戰完成／餐桌休息",
           "nickname": "澪",
-          "equipment": "雙忍者太刀／忍具袋／普通大型遠征背包／環境輔助與個人醫療裝備",
+          "equipment": "雙忍刀／忍具袋／微型戰術燈／必要止血物／通訊／紀錄終端／任務指定工具",
           "appearance": "黑色長髮、冷冽俐落的女性；深黑與靛藍衣裝、雙刀與醫療攜行配置。外觀依本次提供肖像，不從圖片推定身高或裝備能力。",
           "membership": {
             "source": "D028正式結算明示",
@@ -266,7 +266,9 @@
             "firstMission": "D028",
             "earlierRecruitmentRecord": "PRE-D028 HISTORICAL RECORD ADDED"
           },
+          "trialStatus": "ENDED",
           "rewardPoints": 6330,
+          "sharedBagGeneralAccess": "ENABLED",
           "postD028FieldValidation": {
             "confirmed": [
               "單人晨間偵查",
@@ -287,7 +289,7 @@
       ],
       "arrows": {
         "ready": 162,
-        "status": "PENDING AUDIT / LAST AUDITED BASELINE",
+        "status": "FORMAL AUDIT COMPLETE",
         "physical": 162,
         "repairPending": 0,
         "detailedBreakdown": {
@@ -304,19 +306,19 @@
         }
       },
       "points": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
         "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 133,
+      "version": 136,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間｜餐桌",
-      "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
+      "saveNode": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "readiness": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得",
       "residence": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "sharedBag": {
         "name": "五人共享次元行囊Ⅳ｜遠征整合型",
@@ -329,13 +331,13 @@
         "residenceVolumePending": false
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 90584,
+      "grandTotal": 88904,
       "groupImage": "/characters/party-five.png",
       "provisions": {
-        "status": "PENDING LOGISTICS AUDIT / LAST AUDITED VALUES",
-        "遠征料理食材人日": 60,
+        "status": "POST-D028 FORMAL AUDIT COMPLETE",
+        "遠征料理食材人日": 52,
         "遠征緊急乾糧人日": 99,
-        "遠征緊急飲水人日": 99,
+        "遠征緊急飲水人日": 91,
         "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "rescueLoop": {
@@ -411,11 +413,11 @@
         }
       },
       "nextMission": "UNSELECTED",
-      "publicFunds": 2200,
+      "publicFunds": 600,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
       "partyOutcome": "5 IN / 5 OUT",
-      "privateTotal": 88384,
+      "privateTotal": 88304,
       "branchStories": {
         "B": 0,
         "C": 2
@@ -428,20 +430,20 @@
         "status": "COMPLETE"
       },
       "privatePoints": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
         "神代澪": 6330
       },
-      "resourceAudit": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "resourceAudit": "D028 FOUR AUDITS COMPLETE",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "醫療站Ⅲ｜D028耗材待審計；上次100%僅歷史基準",
+      "medicalStation": "醫療站Ⅲ｜OPERATIONAL／耗材88%",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -495,15 +497,77 @@
         "偵查忍法"
       ],
       "nextAbilityCheck": "本次無能力上限提升；先早餐／休息，不自動購買",
+      "rescueMotorcycle": {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
+      },
       "currentHighlights": [
-        "D028 S結算完成／5 IN 5 OUT",
-        "神代澪正式隊員／首次副本整合完成",
-        "私人88384／公共2200／總90584",
-        "資源與生活小額帳待審計，不虛構消耗"
+        "五人正式隊伍整合完成",
+        "神代澪共享行囊一般權限啟用",
+        "神代澪私人2.21m³收納區維持OWNER-RESTRICTED",
+        "carrySystem完成第五人補正",
+        "遠征食物改採五人口徑",
+        "D028箭矢審計完成",
+        "D028食水／料理審計完成",
+        "D028醫療站耗材審計完成",
+        "D028生活類小額帳務結清",
+        "折疊式多地形救援機車Ⅰ正式入庫"
       ],
       "mioProfileSummary": "表面冷冽俐落、骨子裡高度負責；不擅長依賴別人，卻習慣成為別人可以依賴的人。",
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 88384,
+      "privatePointsTotal": 88304,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
       "vehicleCalibration": {
         "id": "POST-D026-VEHICLE-MULTICONFIG-4800",

@@ -1,0 +1,30 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 136,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
+  "section": "mioIntegration",
+  "state": {
+    "mioIntegration": {
+      "status": "FORMAL FIFTH-MEMBER INTEGRATION COMPLETE",
+      "residence": {
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "bedrooms": 5,
+        "volumeStatus": "FORMAL STANDARDIZED / CONFIRMED",
+        "foldedVolumeM3": 3.125
+      },
+      "sharedBag": {
+        "privateArea": "2.21m³ OWNER-RESTRICTED",
+        "generalAccess": "ENABLED"
+      },
+      "carrySystem": "FIFTH MEMBER ADDED",
+      "medicalRole": {
+        "status": "FORMAL TEAM MEMBER / MEDICAL + RECON",
+        "privateMedicalGearOwnership": "RETAINED BY MIO",
+        "sharedStockOwnershipTransfer": false
+      },
+      "foodAccounting": "5-MEMBER BASIS"
+    }
+  }
+}

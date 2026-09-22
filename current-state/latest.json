@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "state": {
     "ammo": {
@@ -80,6 +80,31 @@
           "irreparable": 0,
           "permanentLoss": 0,
           "cleanedCalibrated": 4
+        },
+        {
+          "node": "D028",
+          "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+          "fired": 0,
+          "result": "162 / 162 READY",
+          "status": "FORMAL AUDIT COMPLETE",
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+          "recovered": 0,
+          "afterReady": 162,
+          "beforeReady": 162,
+          "afterPhysical": 162,
+          "permanentLoss": 0
         }
       ],
       "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
@@ -110,13 +135,30 @@
         "cleanedCalibrated": 4
       },
       "d028Result": {
-        "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-        "status": "PENDING AUDIT",
-        "lastAuditedReady": 162,
-        "lastAuditedPhysical": 162,
-        "confirmedPermanentLoss": 0
+        "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+        "fired": 0,
+        "result": "162 / 162 READY",
+        "status": "FORMAL AUDIT COMPLETE",
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "recovered": 0,
+        "afterReady": 162,
+        "beforeReady": 162,
+        "afterPhysical": 162,
+        "permanentLoss": 0
       },
-      "lastUpdate": "D028返還：待逐支審計，數量沿用最後正式基準",
+      "lastUpdate": "D028返還正式審計：無射擊／無淨消耗",
       "combatReady": 162,
       "currentTotal": 162,
       "repairModule": {
@@ -167,7 +209,7 @@
           "標準箭": 2
         }
       },
-      "inventoryStatus": "PENDING AUDIT / LAST AUDITED 162 READY",
+      "inventoryStatus": "FORMAL AUDIT COMPLETE / 162 READY",
       "postD026Restock": {
         "id": "POST-D026-ARROW-RESTOCK-800",
         "cost": 800,
@@ -344,7 +386,7 @@
         "title": "隊長",
         "gender": "男",
         "mental": "高階認知完整",
-        "points": 19074,
+        "points": 18994,
         "nenType": "強化系",
         "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
         "heightCm": 175,
@@ -352,7 +394,7 @@
         "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
         "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
         "trueNature": "尚未形成",
-        "rewardPoints": 19074,
+        "rewardPoints": 18994,
         "physicalChanges": {
           "status": "NONE",
           "permanentDeficits": "無"
@@ -586,7 +628,7 @@
         "status": "ACTIVE / FORMAL MEMBER",
         "stamina": "首次固定五人隊實戰完成／餐桌休息",
         "nickname": "澪",
-        "equipment": "雙忍者太刀／忍具袋／普通大型遠征背包／環境輔助與個人醫療裝備",
+        "equipment": "雙忍刀／忍具袋／微型戰術燈／必要止血物／通訊／紀錄終端／任務指定工具",
         "appearance": "黑色長髮、冷冽俐落的女性；深黑與靛藍衣裝、雙刀與醫療攜行配置。外觀依本次提供肖像，不從圖片推定身高或裝備能力。",
         "membership": {
           "source": "D028正式結算明示",
@@ -594,7 +636,9 @@
           "firstMission": "D028",
           "earlierRecruitmentRecord": "PRE-D028 HISTORICAL RECORD ADDED"
         },
+        "trialStatus": "ENDED",
         "rewardPoints": 6330,
+        "sharedBagGeneralAccess": "ENABLED",
         "postD028FieldValidation": {
           "confirmed": [
             "單人晨間偵查",
@@ -615,15 +659,15 @@
     ],
     "economy": {
       "debts": [],
-      "grandTotal": 90584,
-      "publicFunds": 2200,
-      "privateTotal": 88384,
+      "grandTotal": 88904,
+      "publicFunds": 600,
+      "privateTotal": 88304,
       "branchStories": {
         "B": 0,
         "C": 2
       },
       "privatePoints": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
@@ -1262,34 +1306,94 @@
         },
         "resourceAudits": {
           "arrows": {
-            "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-            "status": "PENDING AUDIT",
-            "lastAuditedReady": 162,
-            "lastAuditedPhysical": 162,
-            "confirmedPermanentLoss": 0
+            "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+            "fired": 0,
+            "result": "162 / 162 READY",
+            "status": "FORMAL AUDIT COMPLETE",
+            "entries": {
+              "冰凍箭": 15,
+              "標準箭": 28,
+              "爆裂箭": 15,
+              "束縛鎖箭": 14,
+              "定位信標箭": 15,
+              "遮蔽煙幕箭": 15,
+              "重型破障箭": 15,
+              "鈍擊衝擊箭": 15,
+              "閃光干擾箭": 15,
+              "電擊干擾箭Ⅰ": 15
+            },
+            "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+            "recovered": 0,
+            "afterReady": 162,
+            "beforeReady": 162,
+            "afterPhysical": 162,
+            "permanentLoss": 0
           },
           "billing": {
-            "items": [
-              "入隊派對主神飲料",
-              "床單／被套／枕套更換"
-            ],
-            "status": "PENDING BILLING AUDIT",
-            "deducted": false
+            "items": {
+              "入隊派對主神飲料": 30,
+              "床單／被套／枕套更換": 50
+            },
+            "payer": "洛",
+            "total": 80,
+            "status": "FORMAL BILLING AUDIT COMPLETE",
+            "deducted": true
           },
           "medical": {
-            "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-            "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-            "status": "PENDING MEDICAL AUDIT"
+            "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+            "usage": [
+              "7名失聯搜救隊員分診",
+              "補液",
+              "一般創傷處置",
+              "生命監測",
+              "觀察",
+              "額外生還者穩定",
+              "醫院後送前處置"
+            ],
+            "result": {
+              "robots": "OPERATIONAL",
+              "status": "OPERATIONAL",
+              "mechanicalArms": "OPERATIONAL",
+              "standardConsumablesPercent": 88
+            },
+            "status": "FORMAL MEDICAL AUDIT COMPLETE",
+            "authority": "POST-D028主神實物掃描",
+            "afterPercent": 88,
+            "beforePercent": 100,
+            "limitsUnchanged": [
+              "不是完整大型醫院",
+              "不是完整ICU",
+              "不是大型外科中心",
+              "不是器官再生中心",
+              "不能復活"
+            ],
+            "permanentDamage": false,
+            "consumedPercentagePoints": 12,
+            "highTierMedicalConsumption": "NONE CONFIRMED"
           },
           "logistics": {
-            "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-            "events": [
-              "Night 1大量料理",
-              "Day 2早餐",
-              "返回後炸雞／薯條／飲料",
-              "隔日日式早餐"
+            "after": {
+              "waterPersonDays": 91,
+              "cookingPersonDays": 52,
+              "emergencyRationsPersonDays": 99
+            },
+            "before": {
+              "waterPersonDays": 99,
+              "cookingPersonDays": 60,
+              "emergencyRationsPersonDays": 99
+            },
+            "status": "FORMAL AUDIT COMPLETE",
+            "consumed": {
+              "waterPersonDays": 8,
+              "cookingPersonDays": 8,
+              "emergencyRationsPersonDays": 0
+            },
+            "authority": "POST-D028主神實物掃描",
+            "missionEvents": [
+              "D028 Night 1隊伍與獲救搜救隊員熱食",
+              "D028 Day 2隊伍與獲救搜救隊員早餐"
             ],
-            "status": "PENDING LOGISTICS AUDIT"
+            "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
           }
         }
       },
@@ -1432,9 +1536,9 @@
           "eachMember": 500
         }
       },
-      "privatePointsTotal": 88384,
+      "privatePointsTotal": 88304,
       "currentPrivatePoints": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
@@ -2276,6 +2380,44 @@
           },
           "publicGain": 2200,
           "privateGain": 28250
+        },
+        {
+          "id": "POST-D028-FIVE-MEMBER-INTEGRATION-AND-RESCUE-MOTORCYCLE",
+          "after": {
+            "洛": 18994,
+            "伊恩": 23095,
+            "程牧": 16827,
+            "周映白": 23058,
+            "神代澪": 6330,
+            "grandTotal": 88904,
+            "publicFunds": 600,
+            "privateTotal": 88304
+          },
+          "before": {
+            "洛": 19074,
+            "伊恩": 23095,
+            "程牧": 16827,
+            "周映白": 23058,
+            "神代澪": 6330,
+            "grandTotal": 90584,
+            "publicFunds": 2200,
+            "privateTotal": 88384
+          },
+          "status": "CONFIRMED / FULLY SETTLED",
+          "branches": {
+            "B": 0,
+            "C": 2
+          },
+          "deductions": {
+            "洛": {
+              "total": 80,
+              "入隊派對主神飲料": 30,
+              "床單／被套／枕套更換": 50
+            },
+            "公共資金": {
+              "折疊式多地形救援機車Ⅰ＋救援車Ⅲ專用整合掛架": 1600
+            }
+          }
         }
       ],
       "postD019Stage4Followup": {
@@ -3084,7 +3226,7 @@
       }
     },
     "mission": "D028《無人村的第十三盞燈》｜COMPLETE｜S",
-    "version": 135,
+    "version": 136,
     "bestiary": [
       {
         "id": "M001",
@@ -4149,7 +4291,7 @@
       }
     },
     "location": "AI主神空間｜餐桌",
-    "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
+    "saveNode": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
     "tracking": {
       "missionHistory": [],
       "trainingRecords": [
@@ -5828,6 +5970,7 @@
       "trainingDidNotConsumeMissionRations": true
     },
     "inventory": {
+      "WIFI箭矢": "162 / 162 READY",
       "備用能源組": 4,
       "口服補液鹽": 6,
       "小型戰術燈": 4,
@@ -5845,11 +5988,11 @@
       "無菌止血敷料": 10,
       "生命維持凝膠": 1,
       "遠征緊急乾糧": "99人日",
-      "遠征緊急飲水": "99人日",
+      "遠征緊急飲水": "91人日",
       "中級創傷應急劑": 1,
       "基礎創傷應急劑": 2,
       "智能警戒哨兵Ⅰ": 2,
-      "正常料理食材組": "60人日／五人完全依賴時約12日｜最後正式盤點量，D028消耗待盤點",
+      "正常料理食材組": "52人日／五人完全依賴時約10.4日",
       "速效冷療噴霧Ⅰ": 8,
       "進階創傷處理包": 1,
       "一次性醫療手套組": 19,
@@ -5857,6 +6000,7 @@
       "折疊式野外淨水器": 1,
       "攜行式創傷掃描器": 1,
       "緊急定位／集合器": 1,
+      "醫療站Ⅲ標準耗材": "88%",
       "15m多用途靜力救援繩": 4,
       "主神空間生活用食材": "獨立生活庫存／已部分消耗／PENDING AUDIT",
       "便攜式組織修復儀Ⅰ": 1,
@@ -5866,10 +6010,12 @@
       "緊急定位個人子標記": 4,
       "肌肉舒緩修復噴劑Ⅰ": 2,
       "複合創傷醫療噴膜Ⅰ": 3,
+      "救援車Ⅲ專用整合掛架": 1,
+      "折疊式多地形救援機車Ⅰ": 1,
       "五人共享次元行囊Ⅳ｜遠征整合型": 1,
       "正式遠征居住模組Ⅲ｜五人遠征生活型": 1
     },
-    "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+    "readiness": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得",
     "endgameArc": {
       "name": "主神空間終局碎片",
       "status": "ACTIVE / FRAGMENT 01 COLLECTED",
@@ -6148,19 +6294,47 @@
       "status": "REST / RECALIBRATION PENDING"
     },
     "carrySystem": {
-      "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ｜遠征整合型分區管理。",
-      "layer1": "隨身核心：洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ（162 READY／分項已盤點與補滿）＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ。 神代澪＝雙忍刀＋忍具袋＋微型戰術燈＋必要止血物＋通訊終端＋任務指定工具。",
+      "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ分區管理。",
+      "layer1": "洛＝導能複合籠手Ⅲ＋流脈近戰戰術服Ⅱ；周映白＝折疊救援模組庫Ⅲ＋救援戰術服Ⅱ；程牧＝灰隼重磅戰弓＋折疊智能箭庫Ⅱ＋共享戰術視界主節點＋遠距偵查戰術服Ⅱ；伊恩＝流焰戰術短杖Ⅱ＋流焰術式戰裝Ⅱ；神代澪＝雙忍刀＋忍具袋＋微型戰術燈＋必要止血物＋通訊／紀錄終端＋任務指定工具",
       "layer2": "個人衣裝／模組快取：四套寒區完整套組分別收在各自衣裝空間；自律式折疊救難醫療站Ⅲ收在周映白模組庫Ⅲ大型預備位；灰隼備用弓弦與弓具維修包收在程牧低頻快取。",
       "layer3": "共享行囊：S快速小物、M中型設備、L大型設備、XL載具、S-Food緊急食水、M-Food料理食材、XL-Starship星際載具。 神代澪其餘已盤點私人設備放MIO-PRIVATE限制區（2.21m³），不重複列為隨身或公共資產。",
       "limits": [
         "個人快取不是無限背包",
         "共享行囊取物仍需時間與可行動條件",
-        "專屬裝備的操作權不因共享收納而轉移",
+        "專屬裝備操作權不因共享收納而轉移",
         "同一實體物品不得同時列入個人與共享庫存",
         "不自動生成未擁有的工具或耗材"
       ],
-      "status": "CURRENT / ORGANIZED",
-      "version": "v135",
+      "status": "CURRENT / FIVE-MEMBER ORGANIZED",
+      "version": "v136",
+      "layer1ByMember": {
+        "洛": [
+          "導能複合籠手Ⅲ",
+          "流脈近戰戰術服Ⅱ"
+        ],
+        "伊恩": [
+          "流焰戰術短杖Ⅱ",
+          "流焰術式戰裝Ⅱ"
+        ],
+        "程牧": [
+          "灰隼重磅戰弓",
+          "折疊智能箭庫Ⅱ",
+          "共享戰術視界主節點",
+          "遠距偵查戰術服Ⅱ"
+        ],
+        "周映白": [
+          "折疊救援模組庫Ⅲ",
+          "救援戰術服Ⅱ"
+        ],
+        "神代澪": [
+          "雙忍刀",
+          "忍具袋",
+          "微型戰術燈",
+          "必要止血物",
+          "通訊／紀錄終端",
+          "任務指定工具"
+        ]
+      },
       "storageAssignments": {
         "寒區完整套組Ⅰ×4": "分別存於四人衣裝空間模組；不占共享行囊",
         "深潛救援裝備組Ⅰ": "共享行囊L區；周映白為唯一正式操作者",
@@ -6169,6 +6343,12 @@
         "神代澪非隨身私人設備": "共享行囊Ⅳ內MIO-PRIVATE區／2.21m³／OWNER-RESTRICTED；雙刀、忍具袋及必要醫療／通訊／任務工具仍隨身",
         "自律式折疊救難醫療站Ⅲ": "共享資產；由周映白折疊救援模組庫Ⅲ攜行，不占共享行囊體積",
         "灰隼備用弓弦＋弓具野外維修包": "程牧遠距偵查戰術服Ⅱ低頻快取；不再重複列入共享庫存"
+      },
+      "神代澪NonCarriedEquipment": {
+        "access": "OWNER-RESTRICTED",
+        "storage": "五人共享次元行囊Ⅳ｜MIO-PRIVATE",
+        "volumeM3": 2.21,
+        "ownership": "神代澪私人財產"
       }
     },
     "nextMission": "UNSELECTED",
@@ -6497,7 +6677,7 @@
       "terminologyPolicy": "玩家或隊內暱稱記入 aliases；不取代正式描述",
       "missingDetailPolicy": "D023與D025未有足夠個體情報，保留待補，不虛構怪物"
     },
-    "currentState": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
+    "currentState": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
     "partyTactics": [
       "四人戰術體系｜第三階段",
       "戰術醫療鏈",
@@ -6773,9 +6953,41 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL / FULLY RESTOCKED",
+        "status": "OPERATIONAL",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
+        "d028Audit": {
+          "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "usage": [
+            "7名失聯搜救隊員分診",
+            "補液",
+            "一般創傷處置",
+            "生命監測",
+            "觀察",
+            "額外生還者穩定",
+            "醫院後送前處置"
+          ],
+          "result": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "standardConsumablesPercent": 88
+          },
+          "status": "FORMAL MEDICAL AUDIT COMPLETE",
+          "authority": "POST-D028主神實物掃描",
+          "afterPercent": 88,
+          "beforePercent": 100,
+          "limitsUnchanged": [
+            "不是完整大型醫院",
+            "不是完整ICU",
+            "不是大型外科中心",
+            "不是器官再生中心",
+            "不能復活"
+          ],
+          "permanentDamage": false,
+          "consumedPercentagePoints": 12,
+          "highTierMedicalConsumption": "NONE CONFIRMED"
+        },
         "functions": [
           "自動分診",
           "多床位生命監測",
@@ -6795,22 +7007,23 @@
           "組織修復儀整合",
           "按預設醫療協議自主運作"
         ],
-        "lastAudit": "POST-D027｜64%→100%／公共1200",
+        "lastAudit": "POST-D028｜100%→88%，耗12百分點；未補貨",
         "ownerType": "共享大型救援資產",
         "stockCost": 2200,
         "stockType": "正式有限實體庫存",
-        "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+        "stockScale": "Ⅲ型標準模組化耗材庫／88%剩餘",
         "displayRule": "同系列僅顯示最新Ⅲ型；舊型歷史保留",
         "maintenance": {
           "cleaning": "REQUIRED",
           "permanentDamage": false,
-          "consumableRestock": "COMPLETE",
+          "consumableRestock": "NOT RESTOCKED AFTER D028",
           "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
         },
+        "stockStatus": "FORMAL MEDICAL AUDIT COMPLETE",
         "upgradeCost": 1800,
-        "restockStatus": "COMPLETE / PAID",
+        "restockStatus": "NOT RESTOCKED AFTER D028",
         "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
-        "lastDeployment": "D027",
+        "lastDeployment": "D028",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
         "d020Consumption": {
@@ -6924,8 +7137,8 @@
           "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
         },
         "medicalStockCost": 600,
-        "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
-        "medicalStockPercent": 100,
+        "itemizedStockRule": "綜合88%為正式審計值；不另造分項消耗，不重複扣獨立高階物資",
+        "medicalStockPercent": 88,
         "d021ConsumptionRatePercent": 38,
         "historicalTenPersonMedicalStock": {
           "抗生素": "未列入自動標準應急藥庫",
@@ -7193,6 +7406,62 @@
         "status": "INSTALLED / OPERATIONAL",
         "quantity": 1,
         "installedOn": "兩棲折疊救援車Ⅲ"
+      },
+      {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
       }
     ],
     "relationship": {
@@ -7347,27 +7616,52 @@
       }
     },
     "foodLogistics": {
-      "status": "PENDING LOGISTICS AUDIT",
+      "status": "POST-D028 FORMAL AUDIT COMPLETE",
       "d028Audit": {
         "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
+        "after": {
+          "waterPersonDays": 91,
+          "cookingPersonDays": 52,
+          "emergencyRationsPersonDays": 99
+        },
+        "before": {
+          "waterPersonDays": 99,
+          "cookingPersonDays": 60,
+          "emergencyRationsPersonDays": 99
+        },
         "events": [
           "Night 1大量料理",
           "Day 2早餐",
           "返回後炸雞／薯條／飲料",
           "隔日日式早餐"
         ],
-        "status": "PENDING LOGISTICS AUDIT"
+        "status": "FORMAL AUDIT COMPLETE",
+        "consumed": {
+          "waterPersonDays": 8,
+          "cookingPersonDays": 8,
+          "emergencyRationsPersonDays": 0
+        },
+        "authority": "POST-D028主神實物掃描",
+        "missionEvents": [
+          "D028 Night 1隊伍與獲救搜救隊員熱食",
+          "D028 Day 2隊伍與獲救搜救隊員早餐"
+        ],
+        "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
       },
       "emergency": {
+        "rule": "高溫、高強度活動與特殊環境會增加實際飲水需求。",
         "storage": "S-Food／共享次元行囊Ⅳ遠征食水分區",
+        "duration": {
+          "waterDaysForFive": 18.2,
+          "rationsDaysForFive": 19.8
+        },
         "teamSize": 5,
-        "durationNote": "按最後正式99人日÷5＝19.8日；非D028返還實測餘量，高負荷飲水消耗另計",
+        "durationNote": "乾糧99人日＝五人19.8日；飲水91人日＝五人18.2日",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
-        "waterPersonDays": 99,
+        "waterPersonDays": 91,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
-        "rationsPersonDays": 99,
-        "teamIndependentDurationDays": 19.8
+        "rationsPersonDays": 99
       },
       "livingStock": {
         "name": "主神空間生活用四人10天份食材",
@@ -7375,20 +7669,25 @@
         "status": "SEPARATE STOCK / PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "cookingGroup": {
-        "rule": "正常料理食材60人日＝五人完全依賴時約12日；不等於全部為生鮮；D028實際消耗待盤點，60人日為最後正式盤點量",
+        "rule": "正常料理食材以人日計算；五人完全依賴52人日時約10.4日；不代表全部為生鮮。",
         "storage": "M-Food／共享次元行囊Ⅳ遠征料理分區",
         "teamSize": 5,
-        "personDays": 60,
+        "personDays": 52,
         "composition": [
           "耐放主食",
           "長期保存配菜",
           "長期保存蛋白質",
           "有限易腐食材"
         ],
-        "accountingNote": "POST-D027｜返還56人日，補4→60人日；已正式重建補貨後基準",
-        "teamDurationDays": 12
+        "accountingNote": "D028正式審計：60−8＝52人日；返回後生活料理另帳，不重複扣遠征庫存",
+        "teamDurationDays": 10.4
       },
-      "accountingMode": "人日；實際使用後才扣除",
+      "storageVolume": {
+        "rule": "目前分區採正式收納包絡容量，不因少量消耗即逐餐縮減分區體積。",
+        "M-FoodM3": 4.5,
+        "S-FoodM3": 5.445
+      },
+      "accountingMode": "人日",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
       "d026Consumption": {
         "cooking": "USED / UNQUANTIFIED / NO FABRICATED DEDUCTION",
@@ -7473,6 +7772,38 @@
         "需要進一步判斷→攜行式創傷掃描器",
         "符合修復條件→便攜式組織修復儀Ⅰ"
       ],
+      "d028Audit": {
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
+      },
       "validated": "FIRST FORMAL VALIDATION / PRACTICAL / FIELD-READY；醫療站100%有限耗材，香蕉可离站；高風險需人工決策；伊恩條件式支援增加自身負荷。",
       "carryDoctrine": "分散攜帶／集中技術",
       "standardChain": "救援車Ⅲ EVAC-BUS大量撤離→安全區／暫停點 → 香蕉空間安全感知確認兩端→空間門Ⅰ連接巴士安全下車區與醫療站分診入口 → 需要時空間門錨點穩定Ⅰ → 高流量／高干擾時伊恩自律節點監測／穩定門框 → 乘員／擔架穿门→醫療站Ⅲ自動分診／機器人接手／監測 → 香蕉返回現場繼續救援",
@@ -7649,16 +7980,16 @@
       "洛": "D028安全返還／未提供完整恢復檢查",
       "伊恩": "POST-D026｜自律節點／多核心整合進行；條件式門框支援實用",
       "程牧": "POST-D026｜曲折箭高角度彈道PRACTICAL / FIELD-VALIDATED",
-      "overall": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "overall": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得",
       "location": "AI主神空間｜餐桌",
-      "foodWater": "PENDING LOGISTICS AUDIT",
+      "foodWater": "FORMAL AUDIT COMPLETE / 99／91／52人日",
       "周映白": "POST-D026｜空間門救援流程PRACTICAL／硬上限待測",
       "神代澪": "正式成員／醫療與偵查協作驗證",
       "rescueLoop": "PRACTICAL / FIELD-READY",
       "largeAssets": "RECOVERED / STORED",
       "lastMission": "D028｜S｜COMPLETE",
       "nextMission": "UNSELECTED",
-      "medicalStation": "PENDING MEDICAL AUDIT"
+      "medicalStation": "FORMAL AUDIT COMPLETE / 88%"
     },
     "vehicleSystem": {
       "role": "四人跨副本機動／救援／傷員後送平台",
@@ -7863,6 +8194,62 @@
         }
       },
       "emergencyMaximum": null,
+      "rescueMotorcycle": {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
+      },
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
         "載具崗位動態接替",
@@ -7917,7 +8304,7 @@
         "環境評估",
         "載具崗位接替"
       ],
-      "integratedCampModule": "正式遠征居住模組Ⅱ",
+      "integratedCampModule": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "standardizedCalibration": [
         {
           "to": "STANDARD-9",
@@ -8807,7 +9194,7 @@
           "title": "隊長",
           "gender": "男",
           "mental": "高階認知完整",
-          "points": 19074,
+          "points": 18994,
           "nenType": "強化系",
           "stamina": "D028安全返還／餐桌休息；未提供新體能測試",
           "heightCm": 175,
@@ -8815,7 +9202,7 @@
           "equipment": "流脈近戰戰術服Ⅱ／導能複合籠手Ⅲ／龍語加護（已鑑定／穩定）／山神餘力（已鑑定／穩定）／真空環境生存／EVA模組Ⅰ",
           "appearance": "約175cm，外貌端正偏帥氣的青年男性；實戰型體格，偏靈活、爆發與近身纏鬥需求，不是誇張的大型肌肉體型。第一印象熱血、直接、行動派；表情與肢體動作容易洩漏想法。",
           "trueNature": "尚未形成",
-          "rewardPoints": 19074,
+          "rewardPoints": 18994,
           "physicalChanges": {
             "status": "NONE",
             "permanentDeficits": "無"
@@ -9049,7 +9436,7 @@
           "status": "ACTIVE / FORMAL MEMBER",
           "stamina": "首次固定五人隊實戰完成／餐桌休息",
           "nickname": "澪",
-          "equipment": "雙忍者太刀／忍具袋／普通大型遠征背包／環境輔助與個人醫療裝備",
+          "equipment": "雙忍刀／忍具袋／微型戰術燈／必要止血物／通訊／紀錄終端／任務指定工具",
           "appearance": "黑色長髮、冷冽俐落的女性；深黑與靛藍衣裝、雙刀與醫療攜行配置。外觀依本次提供肖像，不從圖片推定身高或裝備能力。",
           "membership": {
             "source": "D028正式結算明示",
@@ -9057,7 +9444,9 @@
             "firstMission": "D028",
             "earlierRecruitmentRecord": "PRE-D028 HISTORICAL RECORD ADDED"
           },
+          "trialStatus": "ENDED",
           "rewardPoints": 6330,
+          "sharedBagGeneralAccess": "ENABLED",
           "postD028FieldValidation": {
             "confirmed": [
               "單人晨間偵查",
@@ -9078,7 +9467,7 @@
       ],
       "arrows": {
         "ready": 162,
-        "status": "PENDING AUDIT / LAST AUDITED BASELINE",
+        "status": "FORMAL AUDIT COMPLETE",
         "physical": 162,
         "repairPending": 0,
         "detailedBreakdown": {
@@ -9095,19 +9484,19 @@
         }
       },
       "points": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
         "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 133,
+      "version": 136,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間｜餐桌",
-      "saveNode": "POST-D028 / S SETTLEMENT COMPLETE / RESOURCE AUDITS PENDING",
+      "saveNode": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "readiness": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得",
       "residence": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "sharedBag": {
         "name": "五人共享次元行囊Ⅳ｜遠征整合型",
@@ -9120,13 +9509,13 @@
         "residenceVolumePending": false
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
-      "grandTotal": 90584,
+      "grandTotal": 88904,
       "groupImage": "/characters/party-five.png",
       "provisions": {
-        "status": "PENDING LOGISTICS AUDIT / LAST AUDITED VALUES",
-        "遠征料理食材人日": 60,
+        "status": "POST-D028 FORMAL AUDIT COMPLETE",
+        "遠征料理食材人日": 52,
         "遠征緊急乾糧人日": 99,
-        "遠征緊急飲水人日": 99,
+        "遠征緊急飲水人日": 91,
         "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
       },
       "rescueLoop": {
@@ -9202,11 +9591,11 @@
         }
       },
       "nextMission": "UNSELECTED",
-      "publicFunds": 2200,
+      "publicFunds": 600,
       "endCondition": "4 OUT",
       "evaReadiness": "四人：FIELD-VALIDATED / OPERATIONAL；伊恩D021 EVA損傷已於PRE-D023完整修復，無性能升級。",
       "partyOutcome": "5 IN / 5 OUT",
-      "privateTotal": 88384,
+      "privateTotal": 88304,
       "branchStories": {
         "B": 0,
         "C": 2
@@ -9219,20 +9608,20 @@
         "status": "COMPLETE"
       },
       "privatePoints": {
-        "洛": 19074,
+        "洛": 18994,
         "伊恩": 23095,
         "程牧": 16827,
         "周映白": 23058,
         "神代澪": 6330
       },
-      "resourceAudit": "POST-D028｜5 IN / 5 OUT／S結算完成；箭矢、食水、醫療與小額帳務待審計",
+      "resourceAudit": "D028 FOUR AUDITS COMPLETE",
       "vehicleEnergy": {
         "remainingPercent": 100,
         "dispatchablePercentagePoints": 80,
         "minimumEvacuationReservePercent": 20
       },
       "dragonBlessing": "導能複合籠手Ⅲ｜龍語加護｜IDENTIFIED / STABLE",
-      "medicalStation": "醫療站Ⅲ｜D028耗材待審計；上次100%僅歷史基準",
+      "medicalStation": "醫療站Ⅲ｜OPERATIONAL／耗材88%",
       "stage4Training": "五日裝備熟練COMPLETE／舊課程清理COMPLETE／標準化測試COMPLETE",
       "trainingStatus": {
         "node": "POST-D026 / TRAINING & INTEGRATION COMPLETE",
@@ -9286,15 +9675,77 @@
         "偵查忍法"
       ],
       "nextAbilityCheck": "本次無能力上限提升；先早餐／休息，不自動購買",
+      "rescueMotorcycle": {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
+      },
       "currentHighlights": [
-        "D028 S結算完成／5 IN 5 OUT",
-        "神代澪正式隊員／首次副本整合完成",
-        "私人88384／公共2200／總90584",
-        "資源與生活小額帳待審計，不虛構消耗"
+        "五人正式隊伍整合完成",
+        "神代澪共享行囊一般權限啟用",
+        "神代澪私人2.21m³收納區維持OWNER-RESTRICTED",
+        "carrySystem完成第五人補正",
+        "遠征食物改採五人口徑",
+        "D028箭矢審計完成",
+        "D028食水／料理審計完成",
+        "D028醫療站耗材審計完成",
+        "D028生活類小額帳務結清",
+        "折疊式多地形救援機車Ⅰ正式入庫"
       ],
       "mioProfileSummary": "表面冷冽俐落、骨子裡高度負責；不擅長依賴別人，卻習慣成為別人可以依賴的人。",
       "translationSystem": "多語偵測翻譯系統Ⅰ｜INSTALLED／OPERATIONAL｜公共800點來源已核清",
-      "privatePointsTotal": 88384,
+      "privatePointsTotal": 88304,
       "relationshipStatus": "洛×伊恩｜ENGAGED / MUTUAL / CONFIRMED / NOT YET MARRIED",
       "vehicleCalibration": {
         "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
@@ -9585,6 +10036,26 @@
         },
         "effectiveAt": "POST-D021｜十日訓練完成＋完整休息一晚後"
       }
+    },
+    "mioIntegration": {
+      "status": "FORMAL FIFTH-MEMBER INTEGRATION COMPLETE",
+      "residence": {
+        "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+        "bedrooms": 5,
+        "volumeStatus": "FORMAL STANDARDIZED / CONFIRMED",
+        "foldedVolumeM3": 3.125
+      },
+      "sharedBag": {
+        "privateArea": "2.21m³ OWNER-RESTRICTED",
+        "generalAccess": "ENABLED"
+      },
+      "carrySystem": "FIFTH MEMBER ADDED",
+      "medicalRole": {
+        "status": "FORMAL TEAM MEMBER / MEDICAL + RECON",
+        "privateMedicalGearOwnership": "RETAINED BY MIO",
+        "sharedStockOwnershipTransfer": false
+      },
+      "foodAccounting": "5-MEMBER BASIS"
     },
     "missionHistory": [
       {
@@ -12236,34 +12707,94 @@
         },
         "resourceAudits": {
           "arrows": {
-            "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-            "status": "PENDING AUDIT",
-            "lastAuditedReady": 162,
-            "lastAuditedPhysical": 162,
-            "confirmedPermanentLoss": 0
+            "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+            "fired": 0,
+            "result": "162 / 162 READY",
+            "status": "FORMAL AUDIT COMPLETE",
+            "entries": {
+              "冰凍箭": 15,
+              "標準箭": 28,
+              "爆裂箭": 15,
+              "束縛鎖箭": 14,
+              "定位信標箭": 15,
+              "遮蔽煙幕箭": 15,
+              "重型破障箭": 15,
+              "鈍擊衝擊箭": 15,
+              "閃光干擾箭": 15,
+              "電擊干擾箭Ⅰ": 15
+            },
+            "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+            "recovered": 0,
+            "afterReady": 162,
+            "beforeReady": 162,
+            "afterPhysical": 162,
+            "permanentLoss": 0
           },
           "billing": {
-            "items": [
-              "入隊派對主神飲料",
-              "床單／被套／枕套更換"
-            ],
-            "status": "PENDING BILLING AUDIT",
-            "deducted": false
+            "items": {
+              "入隊派對主神飲料": 30,
+              "床單／被套／枕套更換": 50
+            },
+            "payer": "洛",
+            "total": 80,
+            "status": "FORMAL BILLING AUDIT COMPLETE",
+            "deducted": true
           },
           "medical": {
-            "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-            "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-            "status": "PENDING MEDICAL AUDIT"
+            "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+            "usage": [
+              "7名失聯搜救隊員分診",
+              "補液",
+              "一般創傷處置",
+              "生命監測",
+              "觀察",
+              "額外生還者穩定",
+              "醫院後送前處置"
+            ],
+            "result": {
+              "robots": "OPERATIONAL",
+              "status": "OPERATIONAL",
+              "mechanicalArms": "OPERATIONAL",
+              "standardConsumablesPercent": 88
+            },
+            "status": "FORMAL MEDICAL AUDIT COMPLETE",
+            "authority": "POST-D028主神實物掃描",
+            "afterPercent": 88,
+            "beforePercent": 100,
+            "limitsUnchanged": [
+              "不是完整大型醫院",
+              "不是完整ICU",
+              "不是大型外科中心",
+              "不是器官再生中心",
+              "不能復活"
+            ],
+            "permanentDamage": false,
+            "consumedPercentagePoints": 12,
+            "highTierMedicalConsumption": "NONE CONFIRMED"
           },
           "logistics": {
-            "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-            "events": [
-              "Night 1大量料理",
-              "Day 2早餐",
-              "返回後炸雞／薯條／飲料",
-              "隔日日式早餐"
+            "after": {
+              "waterPersonDays": 91,
+              "cookingPersonDays": 52,
+              "emergencyRationsPersonDays": 99
+            },
+            "before": {
+              "waterPersonDays": 99,
+              "cookingPersonDays": 60,
+              "emergencyRationsPersonDays": 99
+            },
+            "status": "FORMAL AUDIT COMPLETE",
+            "consumed": {
+              "waterPersonDays": 8,
+              "cookingPersonDays": 8,
+              "emergencyRationsPersonDays": 0
+            },
+            "authority": "POST-D028主神實物掃描",
+            "missionEvents": [
+              "D028 Night 1隊伍與獲救搜救隊員熱食",
+              "D028 Day 2隊伍與獲救搜救隊員早餐"
             ],
-            "status": "PENDING LOGISTICS AUDIT"
+            "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
           }
         }
       }
@@ -16198,35 +16729,95 @@
       {
         "id": "D028-RESOURCE-AUDITS",
         "arrows": {
-          "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-          "status": "PENDING AUDIT",
-          "lastAuditedReady": 162,
-          "lastAuditedPhysical": 162,
-          "confirmedPermanentLoss": 0
+          "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+          "fired": 0,
+          "result": "162 / 162 READY",
+          "status": "FORMAL AUDIT COMPLETE",
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+          "recovered": 0,
+          "afterReady": 162,
+          "beforeReady": 162,
+          "afterPhysical": 162,
+          "permanentLoss": 0
         },
-        "status": "PENDING",
+        "status": "COMPLETE / FULLY SETTLED",
         "billing": {
-          "items": [
-            "入隊派對主神飲料",
-            "床單／被套／枕套更換"
-          ],
-          "status": "PENDING BILLING AUDIT",
-          "deducted": false
+          "items": {
+            "入隊派對主神飲料": 30,
+            "床單／被套／枕套更換": 50
+          },
+          "payer": "洛",
+          "total": 80,
+          "status": "FORMAL BILLING AUDIT COMPLETE",
+          "deducted": true
         },
         "medical": {
-          "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-          "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-          "status": "PENDING MEDICAL AUDIT"
+          "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "usage": [
+            "7名失聯搜救隊員分診",
+            "補液",
+            "一般創傷處置",
+            "生命監測",
+            "觀察",
+            "額外生還者穩定",
+            "醫院後送前處置"
+          ],
+          "result": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "standardConsumablesPercent": 88
+          },
+          "status": "FORMAL MEDICAL AUDIT COMPLETE",
+          "authority": "POST-D028主神實物掃描",
+          "afterPercent": 88,
+          "beforePercent": 100,
+          "limitsUnchanged": [
+            "不是完整大型醫院",
+            "不是完整ICU",
+            "不是大型外科中心",
+            "不是器官再生中心",
+            "不能復活"
+          ],
+          "permanentDamage": false,
+          "consumedPercentagePoints": 12,
+          "highTierMedicalConsumption": "NONE CONFIRMED"
         },
         "logistics": {
-          "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-          "events": [
-            "Night 1大量料理",
-            "Day 2早餐",
-            "返回後炸雞／薯條／飲料",
-            "隔日日式早餐"
+          "after": {
+            "waterPersonDays": 91,
+            "cookingPersonDays": 52,
+            "emergencyRationsPersonDays": 99
+          },
+          "before": {
+            "waterPersonDays": 99,
+            "cookingPersonDays": 60,
+            "emergencyRationsPersonDays": 99
+          },
+          "status": "FORMAL AUDIT COMPLETE",
+          "consumed": {
+            "waterPersonDays": 8,
+            "cookingPersonDays": 8,
+            "emergencyRationsPersonDays": 0
+          },
+          "authority": "POST-D028主神實物掃描",
+          "missionEvents": [
+            "D028 Night 1隊伍與獲救搜救隊員熱食",
+            "D028 Day 2隊伍與獲救搜救隊員早餐"
           ],
-          "status": "PENDING LOGISTICS AUDIT"
+          "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
         }
       }
     ],
@@ -17762,34 +18353,94 @@
       },
       "resourceAudits": {
         "arrows": {
-          "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-          "status": "PENDING AUDIT",
-          "lastAuditedReady": 162,
-          "lastAuditedPhysical": 162,
-          "confirmedPermanentLoss": 0
+          "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+          "fired": 0,
+          "result": "162 / 162 READY",
+          "status": "FORMAL AUDIT COMPLETE",
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+          "recovered": 0,
+          "afterReady": 162,
+          "beforeReady": 162,
+          "afterPhysical": 162,
+          "permanentLoss": 0
         },
         "billing": {
-          "items": [
-            "入隊派對主神飲料",
-            "床單／被套／枕套更換"
-          ],
-          "status": "PENDING BILLING AUDIT",
-          "deducted": false
+          "items": {
+            "入隊派對主神飲料": 30,
+            "床單／被套／枕套更換": 50
+          },
+          "payer": "洛",
+          "total": 80,
+          "status": "FORMAL BILLING AUDIT COMPLETE",
+          "deducted": true
         },
         "medical": {
-          "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-          "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-          "status": "PENDING MEDICAL AUDIT"
+          "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "usage": [
+            "7名失聯搜救隊員分診",
+            "補液",
+            "一般創傷處置",
+            "生命監測",
+            "觀察",
+            "額外生還者穩定",
+            "醫院後送前處置"
+          ],
+          "result": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "standardConsumablesPercent": 88
+          },
+          "status": "FORMAL MEDICAL AUDIT COMPLETE",
+          "authority": "POST-D028主神實物掃描",
+          "afterPercent": 88,
+          "beforePercent": 100,
+          "limitsUnchanged": [
+            "不是完整大型醫院",
+            "不是完整ICU",
+            "不是大型外科中心",
+            "不是器官再生中心",
+            "不能復活"
+          ],
+          "permanentDamage": false,
+          "consumedPercentagePoints": 12,
+          "highTierMedicalConsumption": "NONE CONFIRMED"
         },
         "logistics": {
-          "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-          "events": [
-            "Night 1大量料理",
-            "Day 2早餐",
-            "返回後炸雞／薯條／飲料",
-            "隔日日式早餐"
+          "after": {
+            "waterPersonDays": 91,
+            "cookingPersonDays": 52,
+            "emergencyRationsPersonDays": 99
+          },
+          "before": {
+            "waterPersonDays": 99,
+            "cookingPersonDays": 60,
+            "emergencyRationsPersonDays": 99
+          },
+          "status": "FORMAL AUDIT COMPLETE",
+          "consumed": {
+            "waterPersonDays": 8,
+            "cookingPersonDays": 8,
+            "emergencyRationsPersonDays": 0
+          },
+          "authority": "POST-D028主神實物掃描",
+          "missionEvents": [
+            "D028 Night 1隊伍與獲救搜救隊員熱食",
+            "D028 Day 2隊伍與獲救搜救隊員早餐"
           ],
-          "status": "PENDING LOGISTICS AUDIT"
+          "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
         }
       }
     },
@@ -18323,6 +18974,395 @@
         }
       },
       "sourceRule": "CURRENT Supabase continuity is authoritative. GitHub search returned no matching character/source files; unrelated GitHub results must not alter characterization."
+    },
+    "postD028Integration": {
+      "id": "POST-D028-FIVE-MEMBER-INTEGRATION-AND-RESCUE-MOTORCYCLE",
+      "party": {
+        "partySize": 5,
+        "神代澪": {
+          "membership": "FORMAL MEMBER",
+          "trialStatus": "ENDED",
+          "privateStorageAccess": "OWNER-RESTRICTED",
+          "sharedBagGeneralAccess": "ENABLED"
+        },
+        "formalMembers": [
+          "洛",
+          "周映白",
+          "程牧",
+          "伊恩",
+          "神代澪"
+        ]
+      },
+      "title": "POST-D028｜五人正式整合／D028資源審計／救援機車採購",
+      "status": "CONFIRMED / FULLY SETTLED",
+      "economy": {
+        "after": {
+          "洛": 18994,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "grandTotal": 88904,
+          "publicFunds": 600,
+          "privateTotal": 88304
+        },
+        "before": {
+          "洛": 19074,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "grandTotal": 90584,
+          "publicFunds": 2200,
+          "privateTotal": 88384
+        },
+        "branches": {
+          "B": 0,
+          "C": 2
+        },
+        "deductions": {
+          "洛": {
+            "total": 80,
+            "入隊派對主神飲料": 30,
+            "床單／被套／枕套更換": 50
+          },
+          "公共資金": {
+            "折疊式多地形救援機車Ⅰ＋救援車Ⅲ專用整合掛架": 1600
+          }
+        }
+      },
+      "purchase": {
+        "折疊式多地形救援機車Ⅰ": {
+          "crew": {
+            "standard": 1,
+            "normalMaximum": 2
+          },
+          "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+          "payer": "公共資金",
+          "limits": [
+            "不是水上機車",
+            "不是攀岩載具",
+            "不適合三人以上乘坐",
+            "重傷患者不得以普通後座方式載送",
+            "靜音低速模式不是完全無聲",
+            "不視為高速戰鬥衝鋒載具"
+          ],
+          "status": "OWNED / OPERATIONAL",
+          "storage": {
+            "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+            "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+            "foldedIntoSharedBagM3": 0.85,
+            "sharedBagDefaultImpactM3": 0
+          },
+          "terrain": [
+            "柏油",
+            "泥土",
+            "碎石",
+            "林道",
+            "輕度積雪",
+            "淺水路段"
+          ],
+          "included": [
+            "折疊式多地形救援機車Ⅰ",
+            "救援車Ⅲ專用整合掛架"
+          ],
+          "quantity": 1,
+          "functions": [
+            "山路快速機動",
+            "村落小巷快速機動",
+            "城市瓦礫區快速機動",
+            "林道快速機動",
+            "前出偵查",
+            "快速醫療接近",
+            "小型物資運輸",
+            "回撤路線確認",
+            "低速救援模式"
+          ],
+          "costPoints": 1600,
+          "vehicleIntegration": {
+            "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+            "charging": "SUPPORTED",
+            "basicDiagnostics": "SUPPORTED",
+            "independentOperation": true,
+            "maintenanceInterface": "SUPPORTED"
+          }
+        }
+      },
+      "saveType": "CODEX INCREMENT SAVE",
+      "ammoAudit": {
+        "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+        "fired": 0,
+        "result": "162 / 162 READY",
+        "status": "FORMAL AUDIT COMPLETE",
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "recovered": 0,
+        "afterReady": 162,
+        "beforeReady": 162,
+        "afterPhysical": 162,
+        "permanentLoss": 0
+      },
+      "authority": "USER CONFIRMED",
+      "baseState": "POST-D028 / S SETTLEMENT COMPLETE",
+      "readiness": {
+        "status": "READY",
+        "summary": [
+          "五人正式隊伍整合完成",
+          "神代澪共享行囊一般權限啟用",
+          "神代澪私人2.21m³收納區維持OWNER-RESTRICTED",
+          "carrySystem完成第五人補正",
+          "遠征食物改採五人口徑",
+          "D028箭矢審計完成",
+          "D028食水／料理審計完成",
+          "D028醫療站耗材審計完成",
+          "D028生活類小額帳務結清",
+          "折疊式多地形救援機車Ⅰ正式入庫"
+        ]
+      },
+      "carrySystem": {
+        "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ分區管理。",
+        "layer1": {
+          "洛": [
+            "導能複合籠手Ⅲ",
+            "流脈近戰戰術服Ⅱ"
+          ],
+          "伊恩": [
+            "流焰戰術短杖Ⅱ",
+            "流焰術式戰裝Ⅱ"
+          ],
+          "程牧": [
+            "灰隼重磅戰弓",
+            "折疊智能箭庫Ⅱ",
+            "共享戰術視界主節點",
+            "遠距偵查戰術服Ⅱ"
+          ],
+          "周映白": [
+            "折疊救援模組庫Ⅲ",
+            "救援戰術服Ⅱ"
+          ],
+          "神代澪": [
+            "雙忍刀",
+            "忍具袋",
+            "微型戰術燈",
+            "必要止血物",
+            "通訊／紀錄終端",
+            "任務指定工具"
+          ]
+        },
+        "limits": [
+          "個人快取不是無限背包",
+          "共享行囊取物仍需時間與可行動條件",
+          "專屬裝備操作權不因共享收納而轉移",
+          "同一實體物品不得同時列入個人與共享庫存",
+          "不自動生成未擁有的工具或耗材"
+        ],
+        "status": "CURRENT / FIVE-MEMBER ORGANIZED",
+        "神代澪NonCarriedEquipment": {
+          "access": "OWNER-RESTRICTED",
+          "storage": "五人共享次元行囊Ⅳ｜MIO-PRIVATE",
+          "volumeM3": 2.21,
+          "ownership": "神代澪私人財產"
+        }
+      },
+      "currentState": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
+      "medicalAudit": {
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
+      },
+      "pendingItems": [
+        "四人共鳴錨Ⅰ是否追加第五錨點：尚未兌換，不自動擴充",
+        "神代澪寒區完整套組：尚未購買",
+        "旅星｜四人折疊多用途艇是否進行五人化／正式第五席改造：尚未處理",
+        "神代澪正式星艦操作資格：尚未取得",
+        "神代澪與共享戰術視界之永久第五節點硬體化：若現行僅為既有授權，後續另行確認，不自動升級硬體"
+      ],
+      "finalSnapshot": {
+        "points": {
+          "洛": 18994,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "publicFunds": 600
+        },
+        "branches": {
+          "B": 0,
+          "C": 2
+        },
+        "supplies": {
+          "waterPersonDays": 91,
+          "wifiArrowsReady": 162,
+          "cookingPersonDays": 52,
+          "medicalStationPercent": 88,
+          "emergencyRationsPersonDays": 99
+        },
+        "vehicles": [
+          "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "折疊式多地形救援機車Ⅰ",
+          "旅星｜四人折疊多用途艇"
+        ],
+        "partySize": 5,
+        "sharedBag": {
+          "freeM3": 60.97,
+          "usedM3": 39.03,
+          "capacityM3": 100
+        },
+        "grandTotal": 88904,
+        "currentPhase": "POST-D028 / REST / FIVE-MEMBER TEAM",
+        "privateTotal": 88304
+      },
+      "foodLogistics": {
+        "status": "POST-D028 FORMAL AUDIT COMPLETE",
+        "d028Audit": {
+          "after": {
+            "waterPersonDays": 91,
+            "cookingPersonDays": 52,
+            "emergencyRationsPersonDays": 99
+          },
+          "before": {
+            "waterPersonDays": 99,
+            "cookingPersonDays": 60,
+            "emergencyRationsPersonDays": 99
+          },
+          "status": "FORMAL AUDIT COMPLETE",
+          "consumed": {
+            "waterPersonDays": 8,
+            "cookingPersonDays": 8,
+            "emergencyRationsPersonDays": 0
+          },
+          "authority": "POST-D028主神實物掃描",
+          "missionEvents": [
+            "D028 Night 1隊伍與獲救搜救隊員熱食",
+            "D028 Day 2隊伍與獲救搜救隊員早餐"
+          ],
+          "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
+        },
+        "emergency": {
+          "rule": "高溫、高強度活動與特殊環境會增加實際飲水需求。",
+          "duration": {
+            "waterDaysForFive": 18.2,
+            "rationsDaysForFive": 19.8
+          },
+          "teamSize": 5,
+          "waterPersonDays": 91,
+          "rationsPersonDays": 99
+        },
+        "cookingGroup": {
+          "rule": "正常料理食材以人日計算；五人完全依賴52人日時約10.4日；不代表全部為生鮮。",
+          "teamSize": 5,
+          "personDays": 52,
+          "teamDurationDays": 10.4
+        },
+        "storageVolume": {
+          "rule": "目前分區採正式收納包絡容量，不因少量消耗即逐餐縮減分區體積。",
+          "M-FoodM3": 4.5,
+          "S-FoodM3": 5.445
+        },
+        "accountingMode": "人日"
+      },
+      "mioIntegration": {
+        "status": "FORMAL FIFTH-MEMBER INTEGRATION COMPLETE",
+        "residence": {
+          "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "bedrooms": 5,
+          "volumeStatus": "FORMAL STANDARDIZED / CONFIRMED",
+          "foldedVolumeM3": 3.125
+        },
+        "sharedBag": {
+          "privateArea": "2.21m³ OWNER-RESTRICTED",
+          "generalAccess": "ENABLED"
+        },
+        "carrySystem": "FIFTH MEMBER ADDED",
+        "medicalRole": {
+          "status": "FORMAL TEAM MEMBER / MEDICAL + RECON",
+          "privateMedicalGearOwnership": "RETAINED BY MIO",
+          "sharedStockOwnershipTransfer": false
+        },
+        "foodAccounting": "5-MEMBER BASIS"
+      },
+      "inventoryUpdates": {
+        "WIFI箭矢": "162 / 162 READY",
+        "遠征緊急乾糧": "99人日",
+        "遠征緊急飲水": "91人日",
+        "正常料理食材組": "52人日／五人完全依賴時約10.4日",
+        "醫療站Ⅲ標準耗材": "88%",
+        "救援車Ⅲ專用整合掛架": 1,
+        "折疊式多地形救援機車Ⅰ": 1
+      },
+      "sharedDimensionalBag": {
+        "name": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "freeM3": 60.97,
+        "status": "OPERATIONAL / FIVE-MEMBER ENABLED",
+        "usedM3": 39.03,
+        "capacityM3": 100,
+        "volumeRule": "折疊式多地形救援機車Ⅰ預設外掛於救援車Ⅲ，因此不改變39.03m³正式已用容量。若機車折疊收入共享行囊，當次已用容量暫時增加0.85m³。",
+        "usageRatePercent": 39.03,
+        "mioPrivateStorage": {
+          "id": "MIO-PRIVATE",
+          "name": "神代澪｜私人裝備收納區",
+          "rule": "容積計入五人共享次元行囊，但所有權不轉移；其他成員不得任意取用。",
+          "owner": "神代澪",
+          "access": "OWNER-RESTRICTED",
+          "status": "STORED / FORMAL VOLUME AUDIT",
+          "volumeM3": 2.21,
+          "publicAsset": false
+        },
+        "permissionArchitecture": {
+          "slots": 5,
+          "status": "5-MEMBER ENABLED",
+          "members": [
+            "洛",
+            "周映白",
+            "程牧",
+            "伊恩",
+            "神代澪"
+          ],
+          "神代澪": {
+            "membership": "FORMAL MEMBER",
+            "generalSharedAccess": "ENABLED",
+            "privateStorageAccess": "OWNER-RESTRICTED"
+          }
+        }
+      }
     },
     "publicMedicalAssets": [
       {
@@ -19161,22 +20201,22 @@
           "id": "S-Food",
           "name": "遠征緊急食水區",
           "grade": "S-Food",
-          "status": "FORMAL VOLUME CORRECTION",
+          "status": "POST-D028 FORMAL AUDIT COMPLETE",
           "contents": {
             "遠征緊急乾糧99人日": true,
-            "遠征緊急飲水99人日": true
+            "遠征緊急飲水91人日": true
           },
           "volumeM3": 5.445,
-          "calculation": "2.2 × 99 ÷ 40 = 5.445m³"
+          "calculation": "5.445m³為正式分區包絡容量，食水少量消耗不縮減"
         },
         {
           "id": "M-Food",
           "name": "遠征正常料理食材區",
           "grade": "M-Food",
-          "status": "LAST AUDITED BASELINE / D028 PENDING AUDIT",
+          "status": "POST-D028 FORMAL AUDIT COMPLETE",
           "contents": {
             "冷藏食材與常溫主食分區存放": true,
-            "正常料理食材60人日／五人約12日": true
+            "正常料理食材52人日／五人約10.4日": true
           },
           "volumeM3": 4.5
         },
@@ -19262,7 +20302,7 @@
         "不能裝劇烈釋放能量中的危險物",
         "不能裝主神／副本禁止攜帶物"
       ],
-      "status": "EVOLVED / OPERATIONAL / BOUND / ONLINE",
+      "status": "OPERATIONAL / FIVE-MEMBER ENABLED",
       "allowed": [
         "一般裝備",
         "公共醫療",
@@ -19339,8 +20379,8 @@
             "icon": "🥤",
             "items": [
               "遠征緊急乾糧99人日",
-              "遠征緊急飲水99人日",
-              "正常料理食材60人日"
+              "遠征緊急飲水91人日",
+              "正常料理食材52人日／五人10.4日"
             ],
             "label": "遠征食水"
           },
@@ -19380,7 +20420,7 @@
         "劇烈釋放能量中的危險物",
         "主神／副本禁止攜帶物"
       ],
-      "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計",
+      "volumeRule": "固定於載具原有收納艙／掛架／擔架槽者依折疊後實際載具包絡體積計算，不重複計算散裝體積；外掛物仍另計；折疊式多地形救援機車Ⅰ預設外掛於救援車Ⅲ，因此不改變39.03m³正式已用容量。若機車折疊收入共享行囊，當次已用容量暫時增加0.85m³。",
       "initialTest": "洛存入折疊式野外淨水器，伊恩成功從同一共享空間取出；四人共享存取權限正常",
       "permissions": [
         "五名正式隊員一般共享物資取用權：ENABLED",
@@ -19535,7 +20575,13 @@
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
       "volumeAuditNote": "用戶正式標準化盤點：居住模組Ⅲ沿用四人版折疊密度，2.5×5÷4＝3.125m³；非歷史實測。總已用39.030m³／剩餘60.970m³。",
       "vehiclePackageM3": 5.05,
-      "inventorySyncRule": "inventory為共享行囊數量真實來源；zones只負責位置與體積。D023中途基準：緊急飲水32人日、緊急乾糧32人日、正常料理食材四人份×4頓；消耗未改寫固定分區體積；個人衣裝快取與私人用品不重複列入共享庫存。",
+      "inventorySyncRule": "數量依POST-D028正式審計99／91／52人日；分區容積固定；私人與共享不重複計帳。",
+      "motorcycleStorage": {
+        "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+        "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+        "foldedIntoSharedBagM3": 0.85,
+        "sharedBagDefaultImpactM3": 0
+      },
       "volumeAuditStatus": "FORMAL STANDARDIZED / COMPLETE",
       "professionalCaches": {
         "洛": "近戰／承重",
@@ -19546,7 +20592,7 @@
       },
       "volumeAuditVersion": "v133",
       "existingLogisticsM3": 8.3,
-      "inventorySyncVersion": "v90",
+      "inventorySyncVersion": "v136",
       "isolationCompartment": {
         "uses": [
           "未知樣本",
@@ -19568,6 +20614,13 @@
       "permissionArchitecture": {
         "slots": 5,
         "status": "5-MEMBER ENABLED",
+        "members": [
+          "洛",
+          "周映白",
+          "程牧",
+          "伊恩",
+          "神代澪"
+        ],
         "atUpgrade": {
           "fifth": "UNASSIGNED / TRIAL STAY",
           "members": [
@@ -19576,6 +20629,11 @@
             "程牧",
             "伊恩"
           ]
+        },
+        "神代澪": {
+          "membership": "FORMAL MEMBER",
+          "generalSharedAccess": "ENABLED",
+          "privateStorageAccess": "OWNER-RESTRICTED"
         },
         "currentFifthSlot": {
           "access": "ENABLED",
@@ -19597,12 +20655,39 @@
         "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "OPERATIONAL / FULLY RESTOCKED",
+      "status": "OPERATIONAL",
       "carrier": "折疊救援模組庫Ⅲ",
       "d028Audit": {
-        "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-        "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-        "status": "PENDING MEDICAL AUDIT"
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
       },
       "functions": [
         "自動分診",
@@ -19623,22 +20708,22 @@
         "組織修復儀整合",
         "按預設醫療協議自主運作"
       ],
-      "lastAudit": "D028未完成審計；100%為D027補給後歷史盤點",
+      "lastAudit": "POST-D028｜100%→88%，耗12百分點；未補貨",
       "ownerType": "共享大型救援資產",
       "stockCost": 2200,
       "stockType": "正式有限實體庫存",
-      "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+      "stockScale": "Ⅲ型標準模組化耗材庫／88%剩餘",
       "maintenance": {
         "cleaning": "REQUIRED",
         "permanentDamage": false,
-        "consumableRestock": "COMPLETE",
+        "consumableRestock": "NOT RESTOCKED AFTER D028",
         "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
       },
-      "stockStatus": "PENDING MEDICAL AUDIT",
+      "stockStatus": "FORMAL MEDICAL AUDIT COMPLETE",
       "robotsStatus": "OPERATIONAL",
-      "restockStatus": "COMPLETE / PAID",
+      "restockStatus": "NOT RESTOCKED AFTER D028",
       "accountingNote": "D027補給1200列於公共總支出2420，不重複扣款",
-      "lastDeployment": "D027《封城第十四夜》",
+      "lastDeployment": "D028",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
         "傷口清潔液": 5,
@@ -19750,8 +20835,8 @@
         "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
         "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
       },
-      "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
-      "medicalStockPercent": 100,
+      "itemizedStockRule": "綜合88%為正式審計值；不另造分項消耗，不重複扣獨立高階物資",
+      "medicalStockPercent": 88,
       "mechanicalArmsStatus": "OPERATIONAL",
       "d021ConsumptionRatePercent": 38,
       "d026ConsumptionRatePercent": 15,
@@ -21124,34 +22209,94 @@
       },
       "d028": {
         "arrows": {
-          "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-          "status": "PENDING AUDIT",
-          "lastAuditedReady": 162,
-          "lastAuditedPhysical": 162,
-          "confirmedPermanentLoss": 0
+          "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+          "fired": 0,
+          "result": "162 / 162 READY",
+          "status": "FORMAL AUDIT COMPLETE",
+          "entries": {
+            "冰凍箭": 15,
+            "標準箭": 28,
+            "爆裂箭": 15,
+            "束縛鎖箭": 14,
+            "定位信標箭": 15,
+            "遮蔽煙幕箭": 15,
+            "重型破障箭": 15,
+            "鈍擊衝擊箭": 15,
+            "閃光干擾箭": 15,
+            "電擊干擾箭Ⅰ": 15
+          },
+          "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+          "recovered": 0,
+          "afterReady": 162,
+          "beforeReady": 162,
+          "afterPhysical": 162,
+          "permanentLoss": 0
         },
         "billing": {
-          "items": [
-            "入隊派對主神飲料",
-            "床單／被套／枕套更換"
-          ],
-          "status": "PENDING BILLING AUDIT",
-          "deducted": false
+          "items": {
+            "入隊派對主神飲料": 30,
+            "床單／被套／枕套更換": 50
+          },
+          "payer": "洛",
+          "total": 80,
+          "status": "FORMAL BILLING AUDIT COMPLETE",
+          "deducted": true
         },
         "medical": {
-          "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-          "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-          "status": "PENDING MEDICAL AUDIT"
+          "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "usage": [
+            "7名失聯搜救隊員分診",
+            "補液",
+            "一般創傷處置",
+            "生命監測",
+            "觀察",
+            "額外生還者穩定",
+            "醫院後送前處置"
+          ],
+          "result": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "standardConsumablesPercent": 88
+          },
+          "status": "FORMAL MEDICAL AUDIT COMPLETE",
+          "authority": "POST-D028主神實物掃描",
+          "afterPercent": 88,
+          "beforePercent": 100,
+          "limitsUnchanged": [
+            "不是完整大型醫院",
+            "不是完整ICU",
+            "不是大型外科中心",
+            "不是器官再生中心",
+            "不能復活"
+          ],
+          "permanentDamage": false,
+          "consumedPercentagePoints": 12,
+          "highTierMedicalConsumption": "NONE CONFIRMED"
         },
         "logistics": {
-          "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-          "events": [
-            "Night 1大量料理",
-            "Day 2早餐",
-            "返回後炸雞／薯條／飲料",
-            "隔日日式早餐"
+          "after": {
+            "waterPersonDays": 91,
+            "cookingPersonDays": 52,
+            "emergencyRationsPersonDays": 99
+          },
+          "before": {
+            "waterPersonDays": 99,
+            "cookingPersonDays": 60,
+            "emergencyRationsPersonDays": 99
+          },
+          "status": "FORMAL AUDIT COMPLETE",
+          "consumed": {
+            "waterPersonDays": 8,
+            "cookingPersonDays": 8,
+            "emergencyRationsPersonDays": 0
+          },
+          "authority": "POST-D028主神實物掃描",
+          "missionEvents": [
+            "D028 Night 1隊伍與獲救搜救隊員熱食",
+            "D028 Day 2隊伍與獲救搜救隊員早餐"
           ],
-          "status": "PENDING LOGISTICS AUDIT"
+          "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
         }
       },
       "node": "POST-D019",
@@ -21439,6 +22584,13 @@
         "equipmentChanged": false,
         "relationshipStageChanged": false
       }
+    ],
+    "integrationPendingItems": [
+      "四人共鳴錨Ⅰ是否追加第五錨點：尚未兌換，不自動擴充",
+      "神代澪寒區完整套組：尚未購買",
+      "旅星｜四人折疊多用途艇是否進行五人化／正式第五席改造：尚未處理",
+      "神代澪正式星艦操作資格：尚未取得",
+      "神代澪與共享戰術視界之永久第五節點硬體化：若現行僅為既有授權，後續另行確認，不自動升級硬體"
     ],
     "postD013FiveDayTraining": {
       "id": "TR-POST-D013-05D",
@@ -24513,7 +25665,8 @@
         "billing": "派對飲料與床具更換價格、付款來源",
         "medical": "醫療站返還耗材比例及獨立品項實際消耗",
         "logistics": "食水消耗人日或正式剩餘盤點；主神空間生活庫存分開"
-      }
+      },
+      "pendingAuditRequirementsStatus": "RESOLVED BY v136 POST-D028 FORMAL AUDIT"
     },
     "postD016ColdRegionProcurement": {
       "node": "POST-D016休整期｜寒區整備完成",

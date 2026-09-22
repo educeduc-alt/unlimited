@@ -1,0 +1,17 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 136,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
+  "section": "integrationPendingItems",
+  "state": {
+    "integrationPendingItems": [
+      "四人共鳴錨Ⅰ是否追加第五錨點：尚未兌換，不自動擴充",
+      "神代澪寒區完整套組：尚未購買",
+      "旅星｜四人折疊多用途艇是否進行五人化／正式第五席改造：尚未處理",
+      "神代澪正式星艦操作資格：尚未取得",
+      "神代澪與共享戰術視界之永久第五節點硬體化：若現行僅為既有授權，後續另行確認，不自動升級硬體"
+    ]
+  }
+}

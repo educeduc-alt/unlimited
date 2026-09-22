@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "vehicleSystem",
   "state": {
@@ -209,6 +209,62 @@
         }
       },
       "emergencyMaximum": null,
+      "rescueMotorcycle": {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
+      },
       "teamCapabilities": [
         "四人兩棲載具綜合操作資格",
         "載具崗位動態接替",
@@ -263,7 +319,7 @@
         "環境評估",
         "載具崗位接替"
       ],
-      "integratedCampModule": "正式遠征居住模組Ⅱ",
+      "integratedCampModule": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "standardizedCalibration": [
         {
           "to": "STANDARD-9",

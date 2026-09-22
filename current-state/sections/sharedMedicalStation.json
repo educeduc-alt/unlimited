@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "sharedMedicalStation",
   "state": {
@@ -18,12 +18,39 @@
         "不是復活設備"
       ],
       "paidBy": "公共資金",
-      "status": "OPERATIONAL / FULLY RESTOCKED",
+      "status": "OPERATIONAL",
       "carrier": "折疊救援模組庫Ⅲ",
       "d028Audit": {
-        "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-        "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-        "status": "PENDING MEDICAL AUDIT"
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
       },
       "functions": [
         "自動分診",
@@ -44,22 +71,22 @@
         "組織修復儀整合",
         "按預設醫療協議自主運作"
       ],
-      "lastAudit": "D028未完成審計；100%為D027補給後歷史盤點",
+      "lastAudit": "POST-D028｜100%→88%，耗12百分點；未補貨",
       "ownerType": "共享大型救援資產",
       "stockCost": 2200,
       "stockType": "正式有限實體庫存",
-      "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+      "stockScale": "Ⅲ型標準模組化耗材庫／88%剩餘",
       "maintenance": {
         "cleaning": "REQUIRED",
         "permanentDamage": false,
-        "consumableRestock": "COMPLETE",
+        "consumableRestock": "NOT RESTOCKED AFTER D028",
         "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
       },
-      "stockStatus": "PENDING MEDICAL AUDIT",
+      "stockStatus": "FORMAL MEDICAL AUDIT COMPLETE",
       "robotsStatus": "OPERATIONAL",
-      "restockStatus": "COMPLETE / PAID",
+      "restockStatus": "NOT RESTOCKED AFTER D028",
       "accountingNote": "D027補給1200列於公共總支出2420，不重複扣款",
-      "lastDeployment": "D027《封城第十四夜》",
+      "lastDeployment": "D028",
       "antibioticsRule": "抗生素不列入自動標準應急藥庫",
       "d020Consumption": {
         "傷口清潔液": 5,
@@ -171,8 +198,8 @@
         "operatorAbsent": "三個模擬病例持續監測／標準療程／異常警報；高風險人工決策等待，不越權",
         "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
       },
-      "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
-      "medicalStockPercent": 100,
+      "itemizedStockRule": "綜合88%為正式審計值；不另造分項消耗，不重複扣獨立高階物資",
+      "medicalStockPercent": 88,
       "mechanicalArmsStatus": "OPERATIONAL",
       "d021ConsumptionRatePercent": 38,
       "d026ConsumptionRatePercent": 15,

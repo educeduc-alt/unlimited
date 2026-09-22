@@ -1,0 +1,399 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 136,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
+  "section": "postD028Integration",
+  "state": {
+    "postD028Integration": {
+      "id": "POST-D028-FIVE-MEMBER-INTEGRATION-AND-RESCUE-MOTORCYCLE",
+      "party": {
+        "partySize": 5,
+        "神代澪": {
+          "membership": "FORMAL MEMBER",
+          "trialStatus": "ENDED",
+          "privateStorageAccess": "OWNER-RESTRICTED",
+          "sharedBagGeneralAccess": "ENABLED"
+        },
+        "formalMembers": [
+          "洛",
+          "周映白",
+          "程牧",
+          "伊恩",
+          "神代澪"
+        ]
+      },
+      "title": "POST-D028｜五人正式整合／D028資源審計／救援機車採購",
+      "status": "CONFIRMED / FULLY SETTLED",
+      "economy": {
+        "after": {
+          "洛": 18994,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "grandTotal": 88904,
+          "publicFunds": 600,
+          "privateTotal": 88304
+        },
+        "before": {
+          "洛": 19074,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "grandTotal": 90584,
+          "publicFunds": 2200,
+          "privateTotal": 88384
+        },
+        "branches": {
+          "B": 0,
+          "C": 2
+        },
+        "deductions": {
+          "洛": {
+            "total": 80,
+            "入隊派對主神飲料": 30,
+            "床單／被套／枕套更換": 50
+          },
+          "公共資金": {
+            "折疊式多地形救援機車Ⅰ＋救援車Ⅲ專用整合掛架": 1600
+          }
+        }
+      },
+      "purchase": {
+        "折疊式多地形救援機車Ⅰ": {
+          "crew": {
+            "standard": 1,
+            "normalMaximum": 2
+          },
+          "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+          "payer": "公共資金",
+          "limits": [
+            "不是水上機車",
+            "不是攀岩載具",
+            "不適合三人以上乘坐",
+            "重傷患者不得以普通後座方式載送",
+            "靜音低速模式不是完全無聲",
+            "不視為高速戰鬥衝鋒載具"
+          ],
+          "status": "OWNED / OPERATIONAL",
+          "storage": {
+            "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+            "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+            "foldedIntoSharedBagM3": 0.85,
+            "sharedBagDefaultImpactM3": 0
+          },
+          "terrain": [
+            "柏油",
+            "泥土",
+            "碎石",
+            "林道",
+            "輕度積雪",
+            "淺水路段"
+          ],
+          "included": [
+            "折疊式多地形救援機車Ⅰ",
+            "救援車Ⅲ專用整合掛架"
+          ],
+          "quantity": 1,
+          "functions": [
+            "山路快速機動",
+            "村落小巷快速機動",
+            "城市瓦礫區快速機動",
+            "林道快速機動",
+            "前出偵查",
+            "快速醫療接近",
+            "小型物資運輸",
+            "回撤路線確認",
+            "低速救援模式"
+          ],
+          "costPoints": 1600,
+          "vehicleIntegration": {
+            "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+            "charging": "SUPPORTED",
+            "basicDiagnostics": "SUPPORTED",
+            "independentOperation": true,
+            "maintenanceInterface": "SUPPORTED"
+          }
+        }
+      },
+      "saveType": "CODEX INCREMENT SAVE",
+      "ammoAudit": {
+        "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+        "fired": 0,
+        "result": "162 / 162 READY",
+        "status": "FORMAL AUDIT COMPLETE",
+        "entries": {
+          "冰凍箭": 15,
+          "標準箭": 28,
+          "爆裂箭": 15,
+          "束縛鎖箭": 14,
+          "定位信標箭": 15,
+          "遮蔽煙幕箭": 15,
+          "重型破障箭": 15,
+          "鈍擊衝擊箭": 15,
+          "閃光干擾箭": 15,
+          "電擊干擾箭Ⅰ": 15
+        },
+        "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+        "recovered": 0,
+        "afterReady": 162,
+        "beforeReady": 162,
+        "afterPhysical": 162,
+        "permanentLoss": 0
+      },
+      "authority": "USER CONFIRMED",
+      "baseState": "POST-D028 / S SETTLEMENT COMPLETE",
+      "readiness": {
+        "status": "READY",
+        "summary": [
+          "五人正式隊伍整合完成",
+          "神代澪共享行囊一般權限啟用",
+          "神代澪私人2.21m³收納區維持OWNER-RESTRICTED",
+          "carrySystem完成第五人補正",
+          "遠征食物改採五人口徑",
+          "D028箭矢審計完成",
+          "D028食水／料理審計完成",
+          "D028醫療站耗材審計完成",
+          "D028生活類小額帳務結清",
+          "折疊式多地形救援機車Ⅰ正式入庫"
+        ]
+      },
+      "carrySystem": {
+        "rule": "個人只保留核心戰鬥／職能裝備、衣裝空間快取與明確專屬模組；公共食水、醫療、救援設備、載具與遠征後勤統一由五人共享次元行囊Ⅳ分區管理。",
+        "layer1": {
+          "洛": [
+            "導能複合籠手Ⅲ",
+            "流脈近戰戰術服Ⅱ"
+          ],
+          "伊恩": [
+            "流焰戰術短杖Ⅱ",
+            "流焰術式戰裝Ⅱ"
+          ],
+          "程牧": [
+            "灰隼重磅戰弓",
+            "折疊智能箭庫Ⅱ",
+            "共享戰術視界主節點",
+            "遠距偵查戰術服Ⅱ"
+          ],
+          "周映白": [
+            "折疊救援模組庫Ⅲ",
+            "救援戰術服Ⅱ"
+          ],
+          "神代澪": [
+            "雙忍刀",
+            "忍具袋",
+            "微型戰術燈",
+            "必要止血物",
+            "通訊／紀錄終端",
+            "任務指定工具"
+          ]
+        },
+        "limits": [
+          "個人快取不是無限背包",
+          "共享行囊取物仍需時間與可行動條件",
+          "專屬裝備操作權不因共享收納而轉移",
+          "同一實體物品不得同時列入個人與共享庫存",
+          "不自動生成未擁有的工具或耗材"
+        ],
+        "status": "CURRENT / FIVE-MEMBER ORGANIZED",
+        "神代澪NonCarriedEquipment": {
+          "access": "OWNER-RESTRICTED",
+          "storage": "五人共享次元行囊Ⅳ｜MIO-PRIVATE",
+          "volumeM3": 2.21,
+          "ownership": "神代澪私人財產"
+        }
+      },
+      "currentState": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
+      "medicalAudit": {
+        "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+        "usage": [
+          "7名失聯搜救隊員分診",
+          "補液",
+          "一般創傷處置",
+          "生命監測",
+          "觀察",
+          "額外生還者穩定",
+          "醫院後送前處置"
+        ],
+        "result": {
+          "robots": "OPERATIONAL",
+          "status": "OPERATIONAL",
+          "mechanicalArms": "OPERATIONAL",
+          "standardConsumablesPercent": 88
+        },
+        "status": "FORMAL MEDICAL AUDIT COMPLETE",
+        "authority": "POST-D028主神實物掃描",
+        "afterPercent": 88,
+        "beforePercent": 100,
+        "limitsUnchanged": [
+          "不是完整大型醫院",
+          "不是完整ICU",
+          "不是大型外科中心",
+          "不是器官再生中心",
+          "不能復活"
+        ],
+        "permanentDamage": false,
+        "consumedPercentagePoints": 12,
+        "highTierMedicalConsumption": "NONE CONFIRMED"
+      },
+      "pendingItems": [
+        "四人共鳴錨Ⅰ是否追加第五錨點：尚未兌換，不自動擴充",
+        "神代澪寒區完整套組：尚未購買",
+        "旅星｜四人折疊多用途艇是否進行五人化／正式第五席改造：尚未處理",
+        "神代澪正式星艦操作資格：尚未取得",
+        "神代澪與共享戰術視界之永久第五節點硬體化：若現行僅為既有授權，後續另行確認，不自動升級硬體"
+      ],
+      "finalSnapshot": {
+        "points": {
+          "洛": 18994,
+          "伊恩": 23095,
+          "程牧": 16827,
+          "周映白": 23058,
+          "神代澪": 6330,
+          "publicFunds": 600
+        },
+        "branches": {
+          "B": 0,
+          "C": 2
+        },
+        "supplies": {
+          "waterPersonDays": 91,
+          "wifiArrowsReady": 162,
+          "cookingPersonDays": 52,
+          "medicalStationPercent": 88,
+          "emergencyRationsPersonDays": 99
+        },
+        "vehicles": [
+          "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "折疊式多地形救援機車Ⅰ",
+          "旅星｜四人折疊多用途艇"
+        ],
+        "partySize": 5,
+        "sharedBag": {
+          "freeM3": 60.97,
+          "usedM3": 39.03,
+          "capacityM3": 100
+        },
+        "grandTotal": 88904,
+        "currentPhase": "POST-D028 / REST / FIVE-MEMBER TEAM",
+        "privateTotal": 88304
+      },
+      "foodLogistics": {
+        "status": "POST-D028 FORMAL AUDIT COMPLETE",
+        "d028Audit": {
+          "after": {
+            "waterPersonDays": 91,
+            "cookingPersonDays": 52,
+            "emergencyRationsPersonDays": 99
+          },
+          "before": {
+            "waterPersonDays": 99,
+            "cookingPersonDays": 60,
+            "emergencyRationsPersonDays": 99
+          },
+          "status": "FORMAL AUDIT COMPLETE",
+          "consumed": {
+            "waterPersonDays": 8,
+            "cookingPersonDays": 8,
+            "emergencyRationsPersonDays": 0
+          },
+          "authority": "POST-D028主神實物掃描",
+          "missionEvents": [
+            "D028 Night 1隊伍與獲救搜救隊員熱食",
+            "D028 Day 2隊伍與獲救搜救隊員早餐"
+          ],
+          "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
+        },
+        "emergency": {
+          "rule": "高溫、高強度活動與特殊環境會增加實際飲水需求。",
+          "duration": {
+            "waterDaysForFive": 18.2,
+            "rationsDaysForFive": 19.8
+          },
+          "teamSize": 5,
+          "waterPersonDays": 91,
+          "rationsPersonDays": 99
+        },
+        "cookingGroup": {
+          "rule": "正常料理食材以人日計算；五人完全依賴52人日時約10.4日；不代表全部為生鮮。",
+          "teamSize": 5,
+          "personDays": 52,
+          "teamDurationDays": 10.4
+        },
+        "storageVolume": {
+          "rule": "目前分區採正式收納包絡容量，不因少量消耗即逐餐縮減分區體積。",
+          "M-FoodM3": 4.5,
+          "S-FoodM3": 5.445
+        },
+        "accountingMode": "人日"
+      },
+      "mioIntegration": {
+        "status": "FORMAL FIFTH-MEMBER INTEGRATION COMPLETE",
+        "residence": {
+          "name": "正式遠征居住模組Ⅲ｜五人遠征生活型",
+          "bedrooms": 5,
+          "volumeStatus": "FORMAL STANDARDIZED / CONFIRMED",
+          "foldedVolumeM3": 3.125
+        },
+        "sharedBag": {
+          "privateArea": "2.21m³ OWNER-RESTRICTED",
+          "generalAccess": "ENABLED"
+        },
+        "carrySystem": "FIFTH MEMBER ADDED",
+        "medicalRole": {
+          "status": "FORMAL TEAM MEMBER / MEDICAL + RECON",
+          "privateMedicalGearOwnership": "RETAINED BY MIO",
+          "sharedStockOwnershipTransfer": false
+        },
+        "foodAccounting": "5-MEMBER BASIS"
+      },
+      "inventoryUpdates": {
+        "WIFI箭矢": "162 / 162 READY",
+        "遠征緊急乾糧": "99人日",
+        "遠征緊急飲水": "91人日",
+        "正常料理食材組": "52人日／五人完全依賴時約10.4日",
+        "醫療站Ⅲ標準耗材": "88%",
+        "救援車Ⅲ專用整合掛架": 1,
+        "折疊式多地形救援機車Ⅰ": 1
+      },
+      "sharedDimensionalBag": {
+        "name": "五人共享次元行囊Ⅳ｜遠征整合型",
+        "freeM3": 60.97,
+        "status": "OPERATIONAL / FIVE-MEMBER ENABLED",
+        "usedM3": 39.03,
+        "capacityM3": 100,
+        "volumeRule": "折疊式多地形救援機車Ⅰ預設外掛於救援車Ⅲ，因此不改變39.03m³正式已用容量。若機車折疊收入共享行囊，當次已用容量暫時增加0.85m³。",
+        "usageRatePercent": 39.03,
+        "mioPrivateStorage": {
+          "id": "MIO-PRIVATE",
+          "name": "神代澪｜私人裝備收納區",
+          "rule": "容積計入五人共享次元行囊，但所有權不轉移；其他成員不得任意取用。",
+          "owner": "神代澪",
+          "access": "OWNER-RESTRICTED",
+          "status": "STORED / FORMAL VOLUME AUDIT",
+          "volumeM3": 2.21,
+          "publicAsset": false
+        },
+        "permissionArchitecture": {
+          "slots": 5,
+          "status": "5-MEMBER ENABLED",
+          "members": [
+            "洛",
+            "周映白",
+            "程牧",
+            "伊恩",
+            "神代澪"
+          ],
+          "神代澪": {
+            "membership": "FORMAL MEMBER",
+            "generalSharedAccess": "ENABLED",
+            "privateStorageAccess": "OWNER-RESTRICTED"
+          }
+        }
+      }
+    }
+  }
+}

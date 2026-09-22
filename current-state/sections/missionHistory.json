@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "missionHistory",
   "state": {
@@ -2656,34 +2656,94 @@
         },
         "resourceAudits": {
           "arrows": {
-            "note": "無確認永久遺失不等於已盤點無消耗；本次未逐支審計，不修改最後正式數量",
-            "status": "PENDING AUDIT",
-            "lastAuditedReady": 162,
-            "lastAuditedPhysical": 162,
-            "confirmedPermanentLoss": 0
+            "note": "D028無箭矢射擊事件；正式返還審計確認無淨消耗。",
+            "fired": 0,
+            "result": "162 / 162 READY",
+            "status": "FORMAL AUDIT COMPLETE",
+            "entries": {
+              "冰凍箭": 15,
+              "標準箭": 28,
+              "爆裂箭": 15,
+              "束縛鎖箭": 14,
+              "定位信標箭": 15,
+              "遮蔽煙幕箭": 15,
+              "重型破障箭": 15,
+              "鈍擊衝擊箭": 15,
+              "閃光干擾箭": 15,
+              "電擊干擾箭Ⅰ": 15
+            },
+            "container": "折疊智能箭庫Ⅱ｜箭矢回收型＋箭矢自律維修模組Ⅰ",
+            "recovered": 0,
+            "afterReady": 162,
+            "beforeReady": 162,
+            "afterPhysical": 162,
+            "permanentLoss": 0
           },
           "billing": {
-            "items": [
-              "入隊派對主神飲料",
-              "床單／被套／枕套更換"
-            ],
-            "status": "PENDING BILLING AUDIT",
-            "deducted": false
+            "items": {
+              "入隊派對主神飲料": 30,
+              "床單／被套／枕套更換": 50
+            },
+            "payer": "洛",
+            "total": 80,
+            "status": "FORMAL BILLING AUDIT COMPLETE",
+            "deducted": true
           },
           "medical": {
-            "rule": "沒有逐項記錄；不把上次100%當作本次返還餘量",
-            "usage": "醫療站處理多名搜救隊傷患與額外生還者",
-            "status": "PENDING MEDICAL AUDIT"
+            "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+            "usage": [
+              "7名失聯搜救隊員分診",
+              "補液",
+              "一般創傷處置",
+              "生命監測",
+              "觀察",
+              "額外生還者穩定",
+              "醫院後送前處置"
+            ],
+            "result": {
+              "robots": "OPERATIONAL",
+              "status": "OPERATIONAL",
+              "mechanicalArms": "OPERATIONAL",
+              "standardConsumablesPercent": 88
+            },
+            "status": "FORMAL MEDICAL AUDIT COMPLETE",
+            "authority": "POST-D028主神實物掃描",
+            "afterPercent": 88,
+            "beforePercent": 100,
+            "limitsUnchanged": [
+              "不是完整大型醫院",
+              "不是完整ICU",
+              "不是大型外科中心",
+              "不是器官再生中心",
+              "不能復活"
+            ],
+            "permanentDamage": false,
+            "consumedPercentagePoints": 12,
+            "highTierMedicalConsumption": "NONE CONFIRMED"
           },
           "logistics": {
-            "rule": "未量化，不編造剩餘人日；舊數字僅最後正式盤點",
-            "events": [
-              "Night 1大量料理",
-              "Day 2早餐",
-              "返回後炸雞／薯條／飲料",
-              "隔日日式早餐"
+            "after": {
+              "waterPersonDays": 91,
+              "cookingPersonDays": 52,
+              "emergencyRationsPersonDays": 99
+            },
+            "before": {
+              "waterPersonDays": 99,
+              "cookingPersonDays": 60,
+              "emergencyRationsPersonDays": 99
+            },
+            "status": "FORMAL AUDIT COMPLETE",
+            "consumed": {
+              "waterPersonDays": 8,
+              "cookingPersonDays": 8,
+              "emergencyRationsPersonDays": 0
+            },
+            "authority": "POST-D028主神實物掃描",
+            "missionEvents": [
+              "D028 Night 1隊伍與獲救搜救隊員熱食",
+              "D028 Day 2隊伍與獲救搜救隊員早餐"
             ],
-            "status": "PENDING LOGISTICS AUDIT"
+            "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
           }
         }
       }

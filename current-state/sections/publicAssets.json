@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 135,
+  "version": 136,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "publicAssets",
   "state": {
@@ -233,9 +233,41 @@
           "不提供無限藥品"
         ],
         "paidBy": "公共資金",
-        "status": "OPERATIONAL / FULLY RESTOCKED",
+        "status": "OPERATIONAL",
         "carrier": "折疊救援模組庫Ⅲ",
         "quantity": 1,
+        "d028Audit": {
+          "asset": "自律式折疊救難醫療站Ⅲ｜自動化微型醫院型",
+          "usage": [
+            "7名失聯搜救隊員分診",
+            "補液",
+            "一般創傷處置",
+            "生命監測",
+            "觀察",
+            "額外生還者穩定",
+            "醫院後送前處置"
+          ],
+          "result": {
+            "robots": "OPERATIONAL",
+            "status": "OPERATIONAL",
+            "mechanicalArms": "OPERATIONAL",
+            "standardConsumablesPercent": 88
+          },
+          "status": "FORMAL MEDICAL AUDIT COMPLETE",
+          "authority": "POST-D028主神實物掃描",
+          "afterPercent": 88,
+          "beforePercent": 100,
+          "limitsUnchanged": [
+            "不是完整大型醫院",
+            "不是完整ICU",
+            "不是大型外科中心",
+            "不是器官再生中心",
+            "不能復活"
+          ],
+          "permanentDamage": false,
+          "consumedPercentagePoints": 12,
+          "highTierMedicalConsumption": "NONE CONFIRMED"
+        },
         "functions": [
           "自動分診",
           "多床位生命監測",
@@ -255,22 +287,23 @@
           "組織修復儀整合",
           "按預設醫療協議自主運作"
         ],
-        "lastAudit": "POST-D027｜64%→100%／公共1200",
+        "lastAudit": "POST-D028｜100%→88%，耗12百分點；未補貨",
         "ownerType": "共享大型救援資產",
         "stockCost": 2200,
         "stockType": "正式有限實體庫存",
-        "stockScale": "Ⅲ型標準模組化耗材庫／100%滿補給；舊10人份明細屬歷史",
+        "stockScale": "Ⅲ型標準模組化耗材庫／88%剩餘",
         "displayRule": "同系列僅顯示最新Ⅲ型；舊型歷史保留",
         "maintenance": {
           "cleaning": "REQUIRED",
           "permanentDamage": false,
-          "consumableRestock": "COMPLETE",
+          "consumableRestock": "NOT RESTOCKED AFTER D028",
           "routineInspection": "FIRST FORMAL DEPLOYMENT TEST PASS"
         },
+        "stockStatus": "FORMAL MEDICAL AUDIT COMPLETE",
         "upgradeCost": 1800,
-        "restockStatus": "COMPLETE / PAID",
+        "restockStatus": "NOT RESTOCKED AFTER D028",
         "accountingNote": "POST-D026醫療站耗材2200＋洛攜行200＝2400；公共500＋四人各475；不重複扣款",
-        "lastDeployment": "D027",
+        "lastDeployment": "D028",
         "totalStageCost": 2400,
         "antibioticsRule": "抗生素不列入自動標準應急藥庫",
         "d020Consumption": {
@@ -384,8 +417,8 @@
           "simulationConsumables": "未提供額外模擬耗材消耗，不虛構扣款或扣庫存"
         },
         "medicalStockCost": 600,
-        "itemizedStockRule": "本次以Ⅲ型標準模組化耗材100%為基準；未提供逐項數量，不將歷史10人庫存當成現值",
-        "medicalStockPercent": 100,
+        "itemizedStockRule": "綜合88%為正式審計值；不另造分項消耗，不重複扣獨立高階物資",
+        "medicalStockPercent": 88,
         "d021ConsumptionRatePercent": 38,
         "historicalTenPersonMedicalStock": {
           "抗生素": "未列入自動標準應急藥庫",
@@ -653,6 +686,62 @@
         "status": "INSTALLED / OPERATIONAL",
         "quantity": 1,
         "installedOn": "兩棲折疊救援車Ⅲ"
+      },
+      {
+        "crew": {
+          "standard": 1,
+          "normalMaximum": 2
+        },
+        "name": "折疊式多地形救援機車Ⅰ",
+        "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+        "payer": "公共資金",
+        "limits": [
+          "不是水上機車",
+          "不是攀岩載具",
+          "不適合三人以上乘坐",
+          "重傷患者不得以普通後座方式載送",
+          "靜音低速模式不是完全無聲",
+          "不視為高速戰鬥衝鋒載具"
+        ],
+        "status": "OWNED / OPERATIONAL",
+        "storage": {
+          "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+          "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+          "foldedIntoSharedBagM3": 0.85,
+          "sharedBagDefaultImpactM3": 0
+        },
+        "terrain": [
+          "柏油",
+          "泥土",
+          "碎石",
+          "林道",
+          "輕度積雪",
+          "淺水路段"
+        ],
+        "included": [
+          "折疊式多地形救援機車Ⅰ",
+          "救援車Ⅲ專用整合掛架"
+        ],
+        "quantity": 1,
+        "functions": [
+          "山路快速機動",
+          "村落小巷快速機動",
+          "城市瓦礫區快速機動",
+          "林道快速機動",
+          "前出偵查",
+          "快速醫療接近",
+          "小型物資運輸",
+          "回撤路線確認",
+          "低速救援模式"
+        ],
+        "costPoints": 1600,
+        "vehicleIntegration": {
+          "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "charging": "SUPPORTED",
+          "basicDiagnostics": "SUPPORTED",
+          "independentOperation": true,
+          "maintenanceInterface": "SUPPORTED"
+        }
       }
     ]
   }

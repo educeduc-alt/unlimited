@@ -2,10 +2,10 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "readiness",
   "state": {
-    "readiness": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得"
+    "readiness": "五人後勤整合完成；生活食材補至50人日，報價待結算；未成交待售品不計收入"
   }
 }

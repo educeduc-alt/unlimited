@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "equipmentDetails",
   "state": {
@@ -686,7 +686,7 @@
         "notOwned": [
           "本次未取得超凡分身、水上行走或飛行能力"
         ],
-        "carrySystem": "非隨身私人設備收入共享行囊Ⅳ私人區2.21m³；戰鬥只帶雙刀、忍具袋及必要醫療／通訊／任務工具",
+        "carrySystem": "非隨身私人設備收入MIO-PRIVATE 1.32m³；第五房私人收納0.50m³；終端隨身；私人食水已轉公共；濾水器主神空間待售",
         "spaceModule": "共享行囊Ⅳ私人區 OWNER-RESTRICTED；大型背包本體仍非空間道具",
         "tacticalSuit": "深色醫療／忍者行動衣裝（正式型號未提供）"
       },

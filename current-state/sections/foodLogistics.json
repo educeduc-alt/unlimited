@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "foodLogistics",
   "state": {
@@ -43,21 +43,29 @@
         "rule": "高溫、高強度活動與特殊環境會增加實際飲水需求。",
         "storage": "S-Food／共享次元行囊Ⅳ遠征食水分區",
         "duration": {
-          "waterDaysForFive": 18.2,
-          "rationsDaysForFive": 19.8
+          "waterDaysForFive": 19,
+          "rationsDaysForFive": 21
         },
         "teamSize": 5,
-        "durationNote": "乾糧99人日＝五人19.8日；飲水91人日＝五人18.2日",
+        "durationNote": "五人乾糧21天／飲水19天；特殊環境用水另增",
         "waterExtension": "折疊式野外淨水器可在存在可靠水源時延長飲水續航；不保證水源存在",
         "waterDefinition": "1人日＝一名成年人一天正常活動所需的基本完整補水量；高溫與高強度活動另增消耗",
-        "waterPersonDays": 91,
+        "waterPersonDays": 95,
         "rationDefinition": "1人日＝一名成年人一天食用一次即可取得基本一天營養；口味非常差",
-        "rationsPersonDays": 99
+        "rationsPersonDays": 105
       },
       "livingStock": {
-        "name": "主神空間生活用四人10天份食材",
-        "rule": "不屬遠征60人日；本次未重複購買；不得直接當作完整40人日",
-        "status": "SEPARATE STOCK / PARTIALLY CONSUMED / PENDING AUDIT"
+        "name": "主神空間五人生活食材",
+        "rule": "用戶確認已補至50人日；原實存餘量及補貨報價未提供，不假定只買10人日，不扣遠征庫存",
+        "status": "STOCK CONFIRMED / BILLING PENDING",
+        "storage": "主神空間生活庫存",
+        "teamSize": 5,
+        "costPoints": null,
+        "personDays": 50,
+        "restockQuantity": null,
+        "teamDurationDays": 10,
+        "previousActualRemaining": null,
+        "previousFullBaselinePersonDays": 40
       },
       "cookingGroup": {
         "rule": "正常料理食材以人日計算；五人完全依賴52人日時約10.4日；不代表全部為生鮮。",
@@ -76,7 +84,7 @@
       "storageVolume": {
         "rule": "目前分區採正式收納包絡容量，不因少量消耗即逐餐縮減分區體積。",
         "M-FoodM3": 4.5,
-        "S-FoodM3": 5.445
+        "S-FoodM3": 5.5
       },
       "accountingMode": "人日",
       "consumptionRule": "遠征乾糧、飲水與料理食材僅於實際使用時扣除；生活庫存獨立核帳",
@@ -99,6 +107,24 @@
           "cooking": 56,
           "rations": 91
         }
+      },
+      "mioSupplyTransfer": {
+        "id": "POST-D028-MIO-SUPPLY-TRANSFER",
+        "to": "公共遠征庫存",
+        "cost": 0,
+        "from": "神代澪私人補給",
+        "rule": "同一批實物轉移所有權及分區；私人餘量歸零，不重複增加全隊實物",
+        "after": {
+          "water": 95,
+          "rations": 105
+        },
+        "water": 4,
+        "before": {
+          "water": 91,
+          "rations": 99
+        },
+        "status": "CONFIRMED",
+        "rations": 6
       },
       "postCustomARestock": {
         "cost": 1480,

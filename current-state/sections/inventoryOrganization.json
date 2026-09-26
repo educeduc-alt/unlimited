@@ -2,14 +2,14 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "inventoryOrganization",
   "state": {
     "inventoryOrganization": {
-      "result": "用戶正式標準化盤點：居住模組Ⅲ沿用四人版折疊密度，2.5×5÷4＝3.125m³；非歷史實測。總已用39.030m³／剩餘60.970m³。",
+      "result": "本輪正式收納：39.030−0.360＋0.055−0.500−0.030＝38.195m³；澪私人區1.32，房間0.50、隨身終端及待售濾水器不重複計入",
       "status": "FORMAL STANDARDIZED / COMPLETE",
-      "version": "v133",
+      "version": "v137",
       "completedAt": "2026-08-28T09:58:27.989165+00:00",
       "volumeChanged": true,
       "assetQuantityChanged": false

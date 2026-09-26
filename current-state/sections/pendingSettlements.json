@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "pendingSettlements",
   "state": {
@@ -179,6 +179,14 @@
           ],
           "postReturnRule": "返回主神空間後的五人入隊派對與隔日日式早餐，使用主神空間生活用食材獨立帳，不重複扣除遠征料理食材。"
         }
+      },
+      {
+        "id": "FIVE-MEMBER-LIVING-FOOD-RESTOCK",
+        "cost": null,
+        "rule": "待正式報價，不推定舊餘量或扣款",
+        "payer": null,
+        "status": "PENDING BILLING",
+        "personDaysAfter": 50
       }
     ]
   }

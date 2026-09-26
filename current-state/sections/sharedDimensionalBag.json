@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "sharedDimensionalBag",
   "state": {
@@ -121,11 +121,11 @@
           "grade": "S-Food",
           "status": "POST-D028 FORMAL AUDIT COMPLETE",
           "contents": {
-            "遠征緊急乾糧99人日": true,
-            "遠征緊急飲水91人日": true
+            "遠征緊急飲水95人日": true,
+            "遠征緊急乾糧105人日": true
           },
-          "volumeM3": 5.445,
-          "calculation": "5.445m³為正式分區包絡容量，食水少量消耗不縮減"
+          "volumeM3": 5.5,
+          "calculation": "本次用戶正式定案：105＋95＝200人日，S-Food包絡5.500m³；非以D028前後消耗混算"
         },
         {
           "id": "M-Food",
@@ -155,14 +155,14 @@
         {
           "id": "MIO-PRIVATE",
           "name": "神代澪｜私人裝備收納區",
-          "rule": "僅改變存放位置，不轉移所有權；不將歷史私人食水量當作當前實存數量",
+          "rule": "私人食水已轉公共；濾水器移至主神空間待售；露營與衣物放第五房；終端隨身；不重複列帳",
           "grade": "M",
           "owner": "神代澪",
           "access": "OWNER-RESTRICTED",
-          "status": "STORED / FORMAL VOLUME AUDIT",
+          "status": "CURRENT / FORMAL STORAGE RECONCILIATION",
           "contents": [
             {
-              "name": "折疊後大型背包本體",
+              "name": "折疊大型背包",
               "volumeM3": 0.1
             },
             {
@@ -178,14 +178,6 @@
               "volumeM3": 0.35
             },
             {
-              "name": "單人露營組",
-              "volumeM3": 0.35
-            },
-            {
-              "name": "私人乾糧／飲水／小型淨水器",
-              "volumeM3": 0.36
-            },
-            {
               "name": "個人診斷組",
               "volumeM3": 0.1
             },
@@ -198,15 +190,23 @@
               "volumeM3": 0.18
             },
             {
-              "name": "換洗衣物／便服／盥洗用品",
-              "volumeM3": 0.15
+              "name": "小型修理工具",
+              "volumeM3": 0.05
             },
             {
-              "name": "終端、修理工具、繩索、連接件、防水袋",
-              "volumeM3": 0.2
+              "name": "備用繩",
+              "volumeM3": 0.05
+            },
+            {
+              "name": "連接／固定配件",
+              "volumeM3": 0.03
+            },
+            {
+              "name": "防水袋",
+              "volumeM3": 0.04
             }
           ],
-          "volumeM3": 2.21,
+          "volumeM3": 1.32,
           "publicAsset": false
         }
       ],
@@ -236,10 +236,10 @@
         "rule": "個人攜行、私人用品與共享行囊分開管理；inventory為共享庫存數量來源，zones為位置與體積來源，同一實體不得重複列帳。",
         "title": "五人共享次元行囊Ⅳ｜遠征整合型",
         "capacity": {
-          "freeM3": 60.97,
-          "usedM3": 39.03,
+          "freeM3": 61.805,
+          "usedM3": 38.195,
           "totalM3": 100,
-          "usageRatePercent": 39.03
+          "usageRatePercent": 38.195
         },
         "sizeGrades": {
           "L": {
@@ -250,7 +250,7 @@
           "M": {
             "icon": "🧰",
             "label": "中型折疊設備",
-            "volumeM3": 11.935
+            "volumeM3": 11.045
           },
           "S": {
             "icon": "📦",
@@ -270,7 +270,7 @@
           "S-Food": {
             "icon": "🥤",
             "label": "緊急食水",
-            "volumeM3": 5.445
+            "volumeM3": 5.5
           }
         },
         "inventoryGroups": [
@@ -296,9 +296,9 @@
             "id": "food",
             "icon": "🥤",
             "items": [
-              "遠征緊急乾糧99人日",
-              "遠征緊急飲水91人日",
-              "正常料理食材52人日／五人10.4日"
+              "遠征緊急乾糧105人日",
+              "遠征緊急飲水95人日",
+              "料理52人日／五人10.4天"
             ],
             "label": "遠征食水"
           },
@@ -330,7 +330,7 @@
         "保留既有恆溫分區與折疊設備收納"
       ],
       "quantity": 1,
-      "usageRate": "39.03%",
+      "usageRate": "38.195%",
       "capacityM3": 100,
       "prohibited": [
         "活體",
@@ -353,7 +353,7 @@
         "神代澪"
       ],
       "capacityRule": "全隊共同100m³，非每人100m³",
-      "freeVolumeM3": 60.97,
+      "freeVolumeM3": 61.805,
       "thermalZones": {
         "cost": 600,
         "name": "共享次元行囊Ⅱ｜恆溫分區模組Ⅰ",
@@ -397,7 +397,7 @@
         "status": "OPERATIONAL",
         "installedOn": "五人共享次元行囊Ⅳ｜遠征整合型"
       },
-      "usedVolumeM3": 39.03,
+      "usedVolumeM3": 38.195,
       "upgradeRecord": {
         "to": "五人共享次元行囊Ⅳ｜遠征整合型",
         "from": "四人共享次元行囊Ⅲ",
@@ -410,20 +410,20 @@
         "usedVolumeM3": 32.95,
         "additionalPoints": 0
       },
-      "accountingNote": "自律式折疊救難醫療站Ⅲ由折疊救援模組庫Ⅲ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。；澪私人區占用2.21m³但不列公共資產。",
+      "accountingNote": "自律式折疊救難醫療站Ⅲ由折疊救援模組庫Ⅲ攜行；寒區套組分別存於衣裝空間；WIFI弓具備件存於個人低頻快取；上述項目不重複占用共享行囊。板車與深潛裝備仍按M／L區計入。；澪私人區占用1.32m³但不列公共資產。",
       "backupEnergyM3": 0.86,
       "privateStorage": {
         "神代澪": {
           "id": "MIO-PRIVATE",
           "name": "神代澪｜私人裝備收納區",
-          "rule": "僅改變存放位置，不轉移所有權；不將歷史私人食水量當作當前實存數量",
+          "rule": "私人食水已轉公共；濾水器移至主神空間待售；露營與衣物放第五房；終端隨身；不重複列帳",
           "grade": "M",
           "owner": "神代澪",
           "access": "OWNER-RESTRICTED",
-          "status": "STORED / FORMAL VOLUME AUDIT",
+          "status": "CURRENT / FORMAL STORAGE RECONCILIATION",
           "contents": [
             {
-              "name": "折疊後大型背包本體",
+              "name": "折疊大型背包",
               "volumeM3": 0.1
             },
             {
@@ -439,14 +439,6 @@
               "volumeM3": 0.35
             },
             {
-              "name": "單人露營組",
-              "volumeM3": 0.35
-            },
-            {
-              "name": "私人乾糧／飲水／小型淨水器",
-              "volumeM3": 0.36
-            },
-            {
               "name": "個人診斷組",
               "volumeM3": 0.1
             },
@@ -459,15 +451,23 @@
               "volumeM3": 0.18
             },
             {
-              "name": "換洗衣物／便服／盥洗用品",
-              "volumeM3": 0.15
+              "name": "小型修理工具",
+              "volumeM3": 0.05
             },
             {
-              "name": "終端、修理工具、繩索、連接件、防水袋",
-              "volumeM3": 0.2
+              "name": "備用繩",
+              "volumeM3": 0.05
+            },
+            {
+              "name": "連接／固定配件",
+              "volumeM3": 0.03
+            },
+            {
+              "name": "防水袋",
+              "volumeM3": 0.04
             }
           ],
-          "volumeM3": 2.21,
+          "volumeM3": 1.32,
           "publicAsset": false
         }
       },
@@ -478,8 +478,8 @@
       },
       "foodZoneSummary": {
         "M-FoodM3": 4.5,
-        "S-FoodM3": 5.445,
-        "combinedFoodAndKitchenM3": 12.945,
+        "S-FoodM3": 5.5,
+        "combinedFoodAndKitchenM3": 13,
         "kitchenAlreadyIncludedM3": 3
       },
       "operationalRule": "個人僅保留核心戰鬥／職能裝備；一般食水、醫療與後勤設備統一由共享行囊分區管理。取物仍需要時間與可行動條件。",
@@ -491,9 +491,9 @@
         "不可預期後勤需求"
       ],
       "symbolicMeaning": "除系統功能外，也是四人共同資產與伙伴連結的象徵",
-      "volumeAuditNote": "用戶正式標準化盤點：居住模組Ⅲ沿用四人版折疊密度，2.5×5÷4＝3.125m³；非歷史實測。總已用39.030m³／剩餘60.970m³。",
+      "volumeAuditNote": "本輪正式收納：39.030−0.360＋0.055−0.500−0.030＝38.195m³；澪私人區1.32，房間0.50、隨身終端及待售濾水器不重複計入",
       "vehiclePackageM3": 5.05,
-      "inventorySyncRule": "數量依POST-D028正式審計99／91／52人日；分區容積固定；私人與共享不重複計帳。",
+      "inventorySyncRule": "公共食水105／95人日，料理52人日；澪私人食水已轉出不得重複計數",
       "motorcycleStorage": {
         "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
         "default": "兩棲折疊救援車Ⅲ外部整合掛架",
@@ -508,9 +508,9 @@
         "程牧": "射手／偵查",
         "周映白": "救援／後送"
       },
-      "volumeAuditVersion": "v133",
+      "volumeAuditVersion": "v137",
       "existingLogisticsM3": 8.3,
-      "inventorySyncVersion": "v136",
+      "inventorySyncVersion": "v137",
       "isolationCompartment": {
         "uses": [
           "未知樣本",

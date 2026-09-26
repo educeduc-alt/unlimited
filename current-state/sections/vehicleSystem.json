@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "vehicleSystem",
   "state": {
@@ -318,6 +318,267 @@
         "基礎野戰維修",
         "環境評估",
         "載具崗位接替"
+      ],
+      "activeVehicleAssets": [
+        {
+          "cost": {
+            "points": 6500,
+            "BBranch": 1
+          },
+          "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+          "type": "跨副本陸／水機動救援載具",
+          "limits": [
+            "完整隊伍依適性分工但不鎖定職位",
+            "單一成員失能時其他成員可依訓練接替"
+          ],
+          "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+          "evacBus": {
+            "status": "STANDARD SAFE EVACUATION BASELINE",
+            "conditions": [
+              "安全帶",
+              "緊急出口",
+              "基本行李",
+              "車載環控",
+              "正常道路／兩棲救援操作"
+            ],
+            "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+            "safeCapacity": 28,
+            "includesDriver": true,
+            "absoluteMaximum": "UNTESTED"
+          },
+          "location": "AI主神空間",
+          "quantity": 1,
+          "repairCost": 1200,
+          "fieldRepair": "IMPOSSIBLE",
+          "formalSeats": 9,
+          "capabilities": [
+            "四人運輸",
+            "陸地行駛",
+            "越野行駛",
+            "水上推進",
+            "陸／水模式切換",
+            "傷員固定／後送",
+            "拖曳／絞盤",
+            "環境／車況感測",
+            "折疊收納"
+          ],
+          "repairStatus": "FORMAL REPAIR COMPLETE",
+          "foldedVolumeM3": 5.05,
+          "requiredAction": "NONE／正常維護",
+          "postD026Upgrade": {
+            "id": "POST-D026-VEHICLE-MULTICONFIG-4800",
+            "cost": 4800,
+            "name": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+            "added": [
+              "一鍵自動構型切換",
+              "展開空間掃描",
+              "車體自檢",
+              "座椅／擔架快速重配置",
+              "乘員安全區確認",
+              "轉換時鎖定行駛"
+            ],
+            "after": {
+              "洛": 6754,
+              "伊恩": 9275,
+              "程牧": 10807,
+              "周映白": 9338
+            },
+            "before": {
+              "洛": 7954,
+              "伊恩": 10475,
+              "程牧": 12007,
+              "周映白": 10538
+            },
+            "safety": [
+              "空間不足拒絕展開",
+              "傾斜超過安全值拒絕展開",
+              "轉換區有人站立拒絕展開",
+              "人工取消安全停止／鎖定，不暴力折疊"
+            ],
+            "status": "UPGRADED / OPERATIONAL / STANDARDIZED CALIBRATION PASS",
+            "evacBus": {
+              "status": "STANDARD SAFE EVACUATION BASELINE",
+              "conditions": [
+                "安全帶",
+                "緊急出口",
+                "基本行李",
+                "車載環控",
+                "正常道路／兩棲救援操作"
+              ],
+              "casualtyMode": "擔架／輪椅固定空間取代部分座位；不可與28人重複加算",
+              "safeCapacity": 28,
+              "includesDriver": true,
+              "absoluteMaximum": "UNTESTED"
+            },
+            "payment": {
+              "洛": 1200,
+              "伊恩": 1200,
+              "程牧": 1200,
+              "周映白": 1200
+            },
+            "preserved": [
+              "兩棲能力",
+              "跨溫域環控",
+              "電子地圖／路線記錄",
+              "野戰維修相容",
+              "折疊收納",
+              "原有能源系統"
+            ],
+            "continuity": "同一既有Ⅲ型救援車新增多構型能力；不新增第二台車，不將現有Ⅲ型倒退為Ⅱ型",
+            "transitions": [
+              {
+                "to": "STANDARD-9",
+                "from": "FOLD",
+                "status": "PASS",
+                "seconds": 36
+              },
+              {
+                "to": "EVAC-BUS",
+                "from": "STANDARD-9",
+                "status": "PASS",
+                "seconds": 31,
+                "occupants": "指定安全位可留車；站立人員／未固定傷員時拒絕"
+              },
+              {
+                "to": "STANDARD-9",
+                "from": "EVAC-BUS",
+                "status": "PASS",
+                "seconds": 27
+              },
+              {
+                "to": "FOLD",
+                "from": "STANDARD-9",
+                "status": "PASS",
+                "seconds": 22,
+                "condition": "全員下車，物品固定"
+              }
+            ],
+            "configurations": [
+              "STANDARD-9",
+              "EVAC-BUS",
+              "FOLD"
+            ],
+            "relativeEnergy": {
+              "EVAC-BUS兩棲": 2.1,
+              "EVAC-BUS道路": 1.65,
+              "STANDARD-9道路": 1
+            },
+            "branchesChanged": false,
+            "energyRemaining": "本次未提供實際能源消耗，不虛構扣除",
+            "publicFundsAfter": 0,
+            "privateTotalAfter": 36174
+          }
+        },
+        {
+          "crew": {
+            "standard": 1,
+            "normalMaximum": 2
+          },
+          "name": "折疊式多地形救援機車Ⅰ",
+          "type": "兩棲折疊救援車Ⅲ附屬快速機動載具",
+          "payer": "公共資金",
+          "limits": [
+            "不是水上機車",
+            "不是攀岩載具",
+            "不適合三人以上乘坐",
+            "重傷患者不得以普通後座方式載送",
+            "靜音低速模式不是完全無聲",
+            "不視為高速戰鬥衝鋒載具"
+          ],
+          "status": "OWNED / OPERATIONAL",
+          "storage": {
+            "rule": "預設掛於救援車Ⅲ，不占共享行囊；僅在解除掛載並完全折疊收入共享行囊時，臨時占用0.85m³。",
+            "default": "兩棲折疊救援車Ⅲ外部整合掛架",
+            "foldedIntoSharedBagM3": 0.85,
+            "sharedBagDefaultImpactM3": 0
+          },
+          "terrain": [
+            "柏油",
+            "泥土",
+            "碎石",
+            "林道",
+            "輕度積雪",
+            "淺水路段"
+          ],
+          "included": [
+            "折疊式多地形救援機車Ⅰ",
+            "救援車Ⅲ專用整合掛架"
+          ],
+          "quantity": 1,
+          "functions": [
+            "山路快速機動",
+            "村落小巷快速機動",
+            "城市瓦礫區快速機動",
+            "林道快速機動",
+            "前出偵查",
+            "快速醫療接近",
+            "小型物資運輸",
+            "回撤路線確認",
+            "低速救援模式"
+          ],
+          "costPoints": 1600,
+          "vehicleIntegration": {
+            "carrier": "兩棲折疊救援車Ⅲ｜多構型救援載具",
+            "charging": "SUPPORTED",
+            "basicDiagnostics": "SUPPORTED",
+            "independentOperation": true,
+            "maintenanceInterface": "SUPPORTED"
+          }
+        },
+        {
+          "cost": 10500,
+          "crew": "標準4／最低航行1／基本戰鬥2／完整性能4",
+          "name": "旅星｜四人折疊多用途艇",
+          "type": "四人小型多用途星際艦／共享大型資產",
+          "limits": [
+            "無大型主炮",
+            "無大型機庫",
+            "非長期殖民艦",
+            "非完整醫院",
+            "無限能源否",
+            "無限航程否"
+          ],
+          "status": "FIELD-VALIDATED / OPERATIONAL",
+          "storage": "五人共享次元行囊Ⅳ｜遠征整合型｜5.5m³",
+          "weapons": [
+            "可變向輕型能量炮×2",
+            "防禦性攔截器×1組"
+          ],
+          "branchCost": "B級×1",
+          "facilities": [
+            "折疊睡眠位×4",
+            "傷患固定位×4",
+            "約3m³艦內貨艙",
+            "人工重力／重力補償",
+            "短期生命支持",
+            "簡易衛生間與備餐設備"
+          ],
+          "navigation": [
+            "大氣層飛行",
+            "真空航行",
+            "軌道進出",
+            "VTOL",
+            "自動導航",
+            "單人緊急返航輔助"
+          ],
+          "lastMission": "D021《墜星殖民地》",
+          "fieldValidated": [
+            "真空展開與航行",
+            "VTOL與地表著陸",
+            "EVA對接",
+            "傷患運輸",
+            "感測與導航",
+            "人工重力",
+            "生命支持",
+            "移動式R-01救援中繼"
+          ],
+          "notYetValidated": [
+            "艦對艦戰鬥",
+            "高強度戰鬥機動",
+            "長期深空航行"
+          ],
+          "permanentHullDamage": false
+        }
       ],
       "integratedCampModule": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "standardizedCalibration": [

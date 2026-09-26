@@ -2,7 +2,7 @@
   "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
   "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
   "schema_version": "v44",
-  "version": 136,
+  "version": 137,
   "updated_at": "2026-09-09T12:09:00.257391+00:00",
   "section": "latestSnapshot",
   "state": {
@@ -313,32 +313,148 @@
         "神代澪": 6330
       },
       "vehicle": "兩棲折疊救援車Ⅲ｜多構型救援載具",
-      "version": 136,
+      "version": 137,
       "gauntlet": "導能複合籠手Ⅲ｜碳晶直通導能型｜OPERATIONAL / INITIAL INTEGRATION CONFIRMED",
       "location": "AI主神空間｜餐桌",
-      "saveNode": "POST-D028 / FIVE-MEMBER INTEGRATION COMPLETE / RESOURCE AUDITS COMPLETE / MOTORCYCLE ACQUIRED",
+      "saveNode": "POST-D028 / FIVE-MEMBER STORAGE RECONCILED / LIVING FOOD BILLING PENDING",
       "starship": "旅星｜四人折疊多用途艇｜FIELD-VALIDATED / OPERATIONAL",
-      "readiness": "POST-D028｜五人整合完成／四類資源與小額帳已結清／救援機車已取得",
+      "readiness": "五人後勤整合完成；生活食材補至50人日，報價待結算；未成交待售品不計收入",
       "residence": "正式遠征居住模組Ⅲ｜五人遠征生活型",
       "sharedBag": {
         "name": "五人共享次元行囊Ⅳ｜遠征整合型",
-        "freeM3": 60.97,
-        "usedM3": 39.03,
+        "freeM3": 61.805,
+        "usedM3": 38.195,
         "capacityM3": 100,
-        "privateMioM3": 2.21,
-        "usageRatePercent": 39.03,
+        "privateMioM3": 1.32,
+        "usageRatePercent": 38.195,
         "residenceVolumeM3": 3.125,
         "residenceVolumePending": false
       },
       "auraGrowth": "POST-D021 STANDARDIZED TEST｜CONFIRMED INCREASE／103.67秒平均／相較60秒高輸出持續+72.78%",
       "grandTotal": 88904,
       "groupImage": "/characters/party-five.png",
+      "mioStorage": {
+        "room": {
+          "owner": "神代澪",
+          "contents": [
+            {
+              "name": "單人露營組",
+              "status": "RETAINED / BACKUP / NOT FOR SALE",
+              "volumeM3": 0.35
+            },
+            {
+              "name": "換洗衣物／黑色便服／盥洗用品",
+              "volumeM3": 0.15
+            }
+          ],
+          "location": "正式遠征居住模組Ⅲ｜第五房私人收納",
+          "volumeM3": 0.5,
+          "countingRule": "依本次正式定案：房間收納不另加共享行囊容積；不視為資產消失",
+          "sharedBagAdditionalVolumeM3": 0
+        },
+        "status": "CONFIRMED",
+        "carried": [
+          "雙忍刀",
+          "忍具袋",
+          "微型戰術燈",
+          "必要止血物",
+          "通訊／紀錄終端",
+          "任務指定工具"
+        ],
+        "forSale": {
+          "name": "神代澪個人小型濾水器",
+          "owner": "神代澪",
+          "income": 0,
+          "status": "PENDING SALE / NOT SOLD",
+          "location": "主神空間待售區",
+          "priority": "市場比較→主神回收備案",
+          "quantity": 1,
+          "publicAsset": false,
+          "sharedBagVolumeM3": 0
+        },
+        "sharedBag": {
+          "id": "MIO-PRIVATE",
+          "name": "神代澪｜私人裝備收納區",
+          "rule": "私人食水已轉公共；濾水器移至主神空間待售；露營與衣物放第五房；終端隨身；不重複列帳",
+          "grade": "M",
+          "owner": "神代澪",
+          "access": "OWNER-RESTRICTED",
+          "status": "CURRENT / FORMAL STORAGE RECONCILIATION",
+          "contents": [
+            {
+              "name": "折疊大型背包",
+              "volumeM3": 0.1
+            },
+            {
+              "name": "漂浮足",
+              "volumeM3": 0.15
+            },
+            {
+              "name": "黏附足／掌",
+              "volumeM3": 0.12
+            },
+            {
+              "name": "折疊風箏翼",
+              "volumeM3": 0.35
+            },
+            {
+              "name": "個人診斷組",
+              "volumeM3": 0.1
+            },
+            {
+              "name": "急救治療組",
+              "volumeM3": 0.15
+            },
+            {
+              "name": "感染防護PPE組",
+              "volumeM3": 0.18
+            },
+            {
+              "name": "小型修理工具",
+              "volumeM3": 0.05
+            },
+            {
+              "name": "備用繩",
+              "volumeM3": 0.05
+            },
+            {
+              "name": "連接／固定配件",
+              "volumeM3": 0.03
+            },
+            {
+              "name": "防水袋",
+              "volumeM3": 0.04
+            }
+          ],
+          "volumeM3": 1.32,
+          "publicAsset": false
+        },
+        "transferredSupplies": {
+          "id": "POST-D028-MIO-SUPPLY-TRANSFER",
+          "to": "公共遠征庫存",
+          "cost": 0,
+          "from": "神代澪私人補給",
+          "rule": "同一批實物轉移所有權及分區；私人餘量歸零，不重複增加全隊實物",
+          "after": {
+            "water": 95,
+            "rations": 105
+          },
+          "water": 4,
+          "before": {
+            "water": 91,
+            "rations": 99
+          },
+          "status": "CONFIRMED",
+          "rations": 6
+        },
+        "carriedTerminalVolumeM3": 0.03
+      },
       "provisions": {
         "status": "POST-D028 FORMAL AUDIT COMPLETE",
         "遠征料理食材人日": 52,
-        "遠征緊急乾糧人日": 99,
-        "遠征緊急飲水人日": 91,
-        "主神空間生活用食材": "PARTIALLY CONSUMED / PENDING AUDIT"
+        "遠征緊急乾糧人日": 105,
+        "遠征緊急飲水人日": 95,
+        "主神空間生活用食材": "50人日／五人10天；補貨費用待報價"
       },
       "rescueLoop": {
         "steps": [

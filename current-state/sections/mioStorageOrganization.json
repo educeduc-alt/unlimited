@@ -1,0 +1,126 @@
+{
+  "authority": "AI主神資料庫 CURRENT STATE｜PUBLIC READ ONLY",
+  "usage": "本端點是ChatGPT與其他文字讀取器的正式唯讀資料來源；不得以舊聊天覆蓋較新版本。",
+  "schema_version": "v44",
+  "version": 137,
+  "updated_at": "2026-09-09T12:09:00.257391+00:00",
+  "section": "mioStorageOrganization",
+  "state": {
+    "mioStorageOrganization": {
+      "room": {
+        "owner": "神代澪",
+        "contents": [
+          {
+            "name": "單人露營組",
+            "status": "RETAINED / BACKUP / NOT FOR SALE",
+            "volumeM3": 0.35
+          },
+          {
+            "name": "換洗衣物／黑色便服／盥洗用品",
+            "volumeM3": 0.15
+          }
+        ],
+        "location": "正式遠征居住模組Ⅲ｜第五房私人收納",
+        "volumeM3": 0.5,
+        "countingRule": "依本次正式定案：房間收納不另加共享行囊容積；不視為資產消失",
+        "sharedBagAdditionalVolumeM3": 0
+      },
+      "status": "CONFIRMED",
+      "carried": [
+        "雙忍刀",
+        "忍具袋",
+        "微型戰術燈",
+        "必要止血物",
+        "通訊／紀錄終端",
+        "任務指定工具"
+      ],
+      "forSale": {
+        "name": "神代澪個人小型濾水器",
+        "owner": "神代澪",
+        "income": 0,
+        "status": "PENDING SALE / NOT SOLD",
+        "location": "主神空間待售區",
+        "priority": "市場比較→主神回收備案",
+        "quantity": 1,
+        "publicAsset": false,
+        "sharedBagVolumeM3": 0
+      },
+      "sharedBag": {
+        "id": "MIO-PRIVATE",
+        "name": "神代澪｜私人裝備收納區",
+        "rule": "私人食水已轉公共；濾水器移至主神空間待售；露營與衣物放第五房；終端隨身；不重複列帳",
+        "grade": "M",
+        "owner": "神代澪",
+        "access": "OWNER-RESTRICTED",
+        "status": "CURRENT / FORMAL STORAGE RECONCILIATION",
+        "contents": [
+          {
+            "name": "折疊大型背包",
+            "volumeM3": 0.1
+          },
+          {
+            "name": "漂浮足",
+            "volumeM3": 0.15
+          },
+          {
+            "name": "黏附足／掌",
+            "volumeM3": 0.12
+          },
+          {
+            "name": "折疊風箏翼",
+            "volumeM3": 0.35
+          },
+          {
+            "name": "個人診斷組",
+            "volumeM3": 0.1
+          },
+          {
+            "name": "急救治療組",
+            "volumeM3": 0.15
+          },
+          {
+            "name": "感染防護PPE組",
+            "volumeM3": 0.18
+          },
+          {
+            "name": "小型修理工具",
+            "volumeM3": 0.05
+          },
+          {
+            "name": "備用繩",
+            "volumeM3": 0.05
+          },
+          {
+            "name": "連接／固定配件",
+            "volumeM3": 0.03
+          },
+          {
+            "name": "防水袋",
+            "volumeM3": 0.04
+          }
+        ],
+        "volumeM3": 1.32,
+        "publicAsset": false
+      },
+      "transferredSupplies": {
+        "id": "POST-D028-MIO-SUPPLY-TRANSFER",
+        "to": "公共遠征庫存",
+        "cost": 0,
+        "from": "神代澪私人補給",
+        "rule": "同一批實物轉移所有權及分區；私人餘量歸零，不重複增加全隊實物",
+        "after": {
+          "water": 95,
+          "rations": 105
+        },
+        "water": 4,
+        "before": {
+          "water": 91,
+          "rations": 99
+        },
+        "status": "CONFIRMED",
+        "rations": 6
+      },
+      "carriedTerminalVolumeM3": 0.03
+    }
+  }
+}
